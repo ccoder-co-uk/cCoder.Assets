@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4772,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "In the next 3 months:",
+    "ShortDisplayName": "inthenext3months",
+    "Name": "inthenext3months",
+    "Description": "inthenext3months",
+    "LastUpdated": "2021-07-07T09:42:12.1290134Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4687,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Dans les 3 prochains mois:",
+        "ShortDisplayName": "Dans les 3 prochains mois:",
+        "Name": "inthenext3months",
+        "Description": "Dans les 3 prochains mois:",
+        "LastUpdated": "2021-07-07T09:42:12.128375Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4687,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Dans les 3 prochains mois:",
+    "ShortDisplayName": "Dans les 3 prochains mois:",
+    "Name": "inthenext3months",
+    "Description": "Dans les 3 prochains mois:",
+    "LastUpdated": "2021-07-07T09:42:12.128375Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

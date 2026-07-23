@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 5225,
+    "AppId": 4,
+    "Key": "Core",
+    "Culture": "",
+    "DisplayName": "Contains",
+    "ShortDisplayName": "Contains",
+    "Name": "contains",
+    "Description": "Contains",
+    "LastUpdated": "2021-07-07T09:42:12.1325344Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5230,
+        "AppId": 4,
+        "Key": "Core",
+        "Culture": "fr-FR",
+        "DisplayName": "Contient",
+        "ShortDisplayName": "Contient",
+        "Name": "contains",
+        "Description": "Contient",
+        "LastUpdated": "2021-07-07T09:42:12.1325734Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 30657,
+    "AppId": 4,
+    "Key": "Default",
+    "Culture": "",
+    "DisplayName": "Contains",
+    "ShortDisplayName": "Contains",
+    "Name": "contains",
+    "Description": "Contains",
+    "LastUpdated": "2021-07-07T09:42:12.1386667Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3457689Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": [
+      {
+        "Id": 30644,
+        "AppId": 4,
+        "Key": "Default",
+        "Culture": "fr-FR",
+        "DisplayName": "Contient",
+        "ShortDisplayName": "Contient",
+        "Name": "contains",
+        "Description": "Contient",
+        "LastUpdated": "2021-07-07T09:42:12.1385669Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "2021-07-06T17:35:47.3457181Z",
+        "CreatedBy": "callum.marshall"
+      }
+    ]
+  },
+  {
+    "Id": 5230,
+    "AppId": 4,
+    "Key": "Core",
+    "Culture": "fr-FR",
+    "DisplayName": "Contient",
+    "ShortDisplayName": "Contient",
+    "Name": "contains",
+    "Description": "Contient",
+    "LastUpdated": "2021-07-07T09:42:12.1325734Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 30644,
+    "AppId": 4,
+    "Key": "Default",
+    "Culture": "fr-FR",
+    "DisplayName": "Contient",
+    "ShortDisplayName": "Contient",
+    "Name": "contains",
+    "Description": "Contient",
+    "LastUpdated": "2021-07-07T09:42:12.1385669Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3457181Z",
+    "CreatedBy": "callum.marshall"
+  }
+]

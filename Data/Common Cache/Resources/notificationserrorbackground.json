@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "notificationserrorbackground",
+    "Key": "CMS",
+    "DisplayName": "Notifications Error Background",
+    "ShortDisplayName": "Notifications Error Background",
+    "Description": "Notifications Error Background",
+    "CreatedOn": "2022-11-22T11:50:08.037Z",
+    "LastUpdated": "2022-11-22T11:50:08.037Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "notificationserrorbackground",
+    "DisplayName": "Arri\u00E8re-plan des erreurs de notification",
+    "ShortDisplayName": "Arri\u00E8re-plan des erreurs de notification",
+    "Description": "Arri\u00E8re-plan des erreurs de notification"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "newevent",
+    "Key": "CMS",
+    "DisplayName": "New Event",
+    "ShortDisplayName": "New Event",
+    "Description": "New Event",
+    "CreatedOn": "2021-10-27T13:41:34.842Z",
+    "LastUpdated": "2021-10-27T13:41:34.842Z",
+    "Culture": ""
+  },
+  {
+    "Name": "newevent",
+    "Key": "DMS",
+    "DisplayName": "New Event",
+    "ShortDisplayName": "New Event",
+    "Description": "New Event",
+    "CreatedOn": "2022-11-16T16:53:46.887Z",
+    "LastUpdated": "2022-11-16T16:53:46.887Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "newevent",
+    "DisplayName": "Nouvel \u00E9v\u00E8nement",
+    "ShortDisplayName": "Nouvel \u00E9v\u00E8nement",
+    "Description": "Nouvel \u00E9v\u00E8nement"
+  }
+]

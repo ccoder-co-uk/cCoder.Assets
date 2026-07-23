@@ -1,0 +1,38 @@
+[
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "month-11",
+    "DisplayName": "November",
+    "ShortDisplayName": "November",
+    "Description": "November",
+    "LastUpdated": "2026-07-21T20:58:51.8747524\u002B00:00"
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Default",
+    "Name": "month-11",
+    "DisplayName": "November",
+    "ShortDisplayName": "November",
+    "Description": "November",
+    "LastUpdated": "2026-07-21T20:58:53.4462747\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-11",
+    "DisplayName": "November",
+    "ShortDisplayName": "November",
+    "Description": "November",
+    "LastUpdated": "2026-07-21T20:58:55.1342334\u002B00:00"
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "month-11",
+    "DisplayName": "November",
+    "ShortDisplayName": "November",
+    "Description": "November",
+    "LastUpdated": "2026-07-21T20:58:56.4277164\u002B00:00"
+  }
+]

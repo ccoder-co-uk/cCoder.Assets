@@ -1,0 +1,64 @@
+[
+  {
+    "Id": 4449,
+    "AppId": 4,
+    "Key": "Account",
+    "Culture": "",
+    "DisplayName": "Email has been sent. Check your email. ",
+    "ShortDisplayName": "Email has been sent. Check your email. ",
+    "Name": "checkyouremail",
+    "Description": "Email has been sent. Check your email. ",
+    "LastUpdated": "2021-07-07T09:42:12.1265353Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5003,
+        "AppId": 4,
+        "Key": "Account",
+        "Culture": "fr-FR",
+        "DisplayName": "L\u0027email a \u00E9t\u00E9 envoy\u00E9. V\u00E9rifiez votre bo\u00EEte de r\u00E9ception.",
+        "ShortDisplayName": "L\u0027email a \u00E9t\u00E9 envoy\u00E9. V\u00E9rifiez votre bo\u00EEte de r\u00E9ception.",
+        "Name": "checkyouremail",
+        "Description": "L\u0027email a \u00E9t\u00E9 envoy\u00E9. V\u00E9rifiez votre bo\u00EEte de r\u00E9ception.",
+        "LastUpdated": "2021-07-07T09:42:12.1308177Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "checkyouremail",
+    "DisplayName": "Check your email",
+    "ShortDisplayName": "Check your email",
+    "Description": "Check your email",
+    "LastUpdated": "2022-03-18T10:41:54.1901446\u002B00:00"
+  },
+  {
+    "Id": 5003,
+    "AppId": 4,
+    "Key": "Account",
+    "Culture": "fr-FR",
+    "DisplayName": "L\u0027email a \u00E9t\u00E9 envoy\u00E9. V\u00E9rifiez votre bo\u00EEte de r\u00E9ception.",
+    "ShortDisplayName": "L\u0027email a \u00E9t\u00E9 envoy\u00E9. V\u00E9rifiez votre bo\u00EEte de r\u00E9ception.",
+    "Name": "checkyouremail",
+    "Description": "L\u0027email a \u00E9t\u00E9 envoy\u00E9. V\u00E9rifiez votre bo\u00EEte de r\u00E9ception.",
+    "LastUpdated": "2021-07-07T09:42:12.1308177Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "checkyouremail",
+    "DisplayName": "V\u00C3\u00A9rifiez votre email",
+    "ShortDisplayName": "V\u00C3\u00A9rifiez votre email",
+    "Description": "V\u00C3\u00A9rifiez votre email",
+    "LastUpdated": "2022-03-18T10:41:54.1896946\u002B00:00"
+  }
+]

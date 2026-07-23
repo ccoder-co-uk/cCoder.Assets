@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4494,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Bucket Deleted",
+    "ShortDisplayName": "Bucket Deleted",
+    "Name": "bucketdeleted",
+    "Description": "bucketdeleted",
+    "LastUpdated": "2021-07-07T09:42:12.1268825Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5070,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Panier supprim\u00E9",
+        "ShortDisplayName": "Panier supprim\u00E9",
+        "Name": "bucketdeleted",
+        "Description": "Panier supprim\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1313194Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5070,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Panier supprim\u00E9",
+    "ShortDisplayName": "Panier supprim\u00E9",
+    "Name": "bucketdeleted",
+    "Description": "Panier supprim\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.1313194Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

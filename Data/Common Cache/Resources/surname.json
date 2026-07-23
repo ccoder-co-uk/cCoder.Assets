@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 7321,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Last Name",
+    "ShortDisplayName": "Last Name",
+    "Name": "surname",
+    "Description": "Last Name",
+    "LastUpdated": "2021-07-07T09:42:12.1349853Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7322,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Nom de Famille",
+        "ShortDisplayName": "Nom de familie",
+        "Name": "surname",
+        "Description": "Nom de familie",
+        "LastUpdated": "2021-07-07T09:42:12.1349948Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4569,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Surname",
+    "ShortDisplayName": "Surname",
+    "Name": "surname",
+    "Description": "surname",
+    "LastUpdated": "2021-07-07T09:42:12.127469Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5199,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Nom de famille",
+        "ShortDisplayName": "Nom de famille",
+        "Name": "surname",
+        "Description": "Nom de famille",
+        "LastUpdated": "2021-07-07T09:42:12.1323234Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 7322,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Nom de Famille",
+    "ShortDisplayName": "Nom de familie",
+    "Name": "surname",
+    "Description": "Nom de familie",
+    "LastUpdated": "2021-07-07T09:42:12.1349948Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 5199,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "fr-FR",
+    "DisplayName": "Nom de famille",
+    "ShortDisplayName": "Nom de famille",
+    "Name": "surname",
+    "Description": "Nom de famille",
+    "LastUpdated": "2021-07-07T09:42:12.1323234Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

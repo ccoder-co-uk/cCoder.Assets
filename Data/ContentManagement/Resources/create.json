@@ -1,0 +1,38 @@
+[
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "create",
+    "DisplayName": "Cr\u00E9er",
+    "ShortDisplayName": "Cr\u00E9er",
+    "Description": "Cr\u00E9er",
+    "LastUpdated": "2022-03-18T10:41:54.1898009\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "create",
+    "DisplayName": "Create",
+    "ShortDisplayName": "Create",
+    "Description": "Create",
+    "LastUpdated": "2022-03-18T10:41:54.1904656\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "create",
+    "DisplayName": "Create",
+    "ShortDisplayName": "Create",
+    "Description": "Create",
+    "LastUpdated": "2023-01-04T13:45:02.6684616\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CRM",
+    "Name": "create",
+    "DisplayName": "Cr\u00E9er",
+    "ShortDisplayName": "Cr\u00E9er",
+    "Description": "Cr\u00E9er",
+    "LastUpdated": "2023-01-04T13:45:40.2842417\u002B00:00"
+  }
+]

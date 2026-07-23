@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4720,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Financial Forecast",
+    "ShortDisplayName": "Financial Forecast",
+    "Name": "financialforecast",
+    "Description": "Financial Forecast",
+    "LastUpdated": "2021-07-07T09:42:12.1286091Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5004,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Pr\u00E9visions d\u0027encaissements",
+        "ShortDisplayName": "Pr\u00E9visions d\u0027encaissements",
+        "Name": "financialforecast",
+        "Description": "Pr\u00E9visions d\u0027encaissements",
+        "LastUpdated": "2021-07-07T09:42:12.1308269Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5004,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Pr\u00E9visions des \u00E9ch\u00E9ances futures sur la base des factures valid\u00E9es",
+    "ShortDisplayName": "Pr\u00E9visions des \u00E9ch\u00E9ances futures sur la base des factures valid\u00E9es",
+    "Name": "financialforecast",
+    "Description": "Pr\u00E9visions des \u00E9ch\u00E9ances futures sur la base des factures valid\u00E9es",
+    "LastUpdated": "2021-07-07T09:42:12.1308269Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

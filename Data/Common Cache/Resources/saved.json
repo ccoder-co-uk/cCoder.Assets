@@ -1,0 +1,64 @@
+[
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "saved",
+    "DisplayName": "Saved",
+    "ShortDisplayName": "Saved",
+    "Description": "Saved",
+    "LastUpdated": "2022-03-18T10:41:54.1909661\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "saved",
+    "DisplayName": "Saved",
+    "ShortDisplayName": "Saved",
+    "Description": "Saved",
+    "LastUpdated": "2022-03-18T10:41:54.1911608\u002B00:00"
+  },
+  {
+    "Id": 4528,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "",
+    "DisplayName": "Saved",
+    "ShortDisplayName": "Saved",
+    "Name": "saved",
+    "Description": "saved",
+    "LastUpdated": "2021-07-07T09:42:12.1271454Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5212,
+        "AppId": 4,
+        "Key": "Workflow",
+        "Culture": "fr-FR",
+        "DisplayName": "Enregistr\u00E9",
+        "ShortDisplayName": "Enregistr\u00E9",
+        "Name": "saved",
+        "Description": "Enregistr\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.132435Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5212,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "fr-FR",
+    "DisplayName": "Enregistr\u00E9",
+    "ShortDisplayName": "Enregistr\u00E9",
+    "Name": "saved",
+    "Description": "Enregistr\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.132435Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

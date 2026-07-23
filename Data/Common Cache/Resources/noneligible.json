@@ -1,0 +1,38 @@
+[
+  {
+    "Name": "noneligible",
+    "Key": "B2B",
+    "DisplayName": "  Non Eligible",
+    "ShortDisplayName": "  Non Eligible",
+    "Description": "  Non Eligible",
+    "CreatedOn": "2022-02-04T16:28:49.683Z",
+    "LastUpdated": "2022-02-04T16:28:49.683Z",
+    "Culture": ""
+  },
+  {
+    "Name": "noneligible",
+    "Key": "Default",
+    "DisplayName": " Non Eligible",
+    "ShortDisplayName": "  Non Eligible",
+    "Description": "  Non Eligible",
+    "CreatedOn": "2022-02-04T16:32:20.506Z",
+    "LastUpdated": "2022-02-04T16:32:20.506Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "noneligible",
+    "DisplayName": "Non \u00E9ligible au paiement anticip\u00E9",
+    "ShortDisplayName": "Non \u00E9ligible au paiement anticip\u00E9",
+    "Description": "Non \u00E9ligible au paiement anticip\u00E9"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Default",
+    "Name": "noneligible",
+    "DisplayName": "Non \u00E9ligible au paiement anticip\u00E9",
+    "ShortDisplayName": "Non \u00E9ligible au paiement anticip\u00E9",
+    "Description": "Non \u00E9ligible au paiement anticip\u00E9"
+  }
+]

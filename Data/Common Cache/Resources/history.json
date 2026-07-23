@@ -1,0 +1,65 @@
+[
+  {
+    "Id": 4874,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "History",
+    "ShortDisplayName": "history",
+    "Name": "history",
+    "Description": "history",
+    "LastUpdated": "2021-07-07T09:42:12.1298088Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5024,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Historique",
+        "ShortDisplayName": "Historique",
+        "Name": "history",
+        "Description": "Historique",
+        "LastUpdated": "2021-07-07T09:42:12.1309744Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Name": "history",
+    "Key": "CMS",
+    "DisplayName": "History",
+    "ShortDisplayName": "History",
+    "Description": "History",
+    "CreatedOn": "2022-10-24T12:58:36.927Z",
+    "LastUpdated": "2022-10-24T12:58:36.927Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "history",
+    "DisplayName": "History",
+    "ShortDisplayName": "History",
+    "Description": "History",
+    "LastUpdated": "2022-03-18T10:41:54.1910821\u002B00:00"
+  },
+  {
+    "Id": 5024,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Historique",
+    "ShortDisplayName": "Historique",
+    "Name": "history",
+    "Description": "Historique",
+    "LastUpdated": "2021-07-07T09:42:12.1309744Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 7265,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Funder Reference",
+    "ShortDisplayName": "Funder Reference.",
+    "Name": "FunderReference",
+    "Description": "Funder Reference",
+    "LastUpdated": "2021-07-07T09:42:12.1346634Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7276,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "R\u00E9f\u00E9rence du financier",
+        "ShortDisplayName": "R\u00E9f. Financier",
+        "Name": "FunderReference",
+        "Description": "R\u00E9f\u00E9rence du financier",
+        "LastUpdated": "2021-07-07T09:42:12.1346951Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 7276,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "R\u00E9f\u00E9rence du financier",
+    "ShortDisplayName": "R\u00E9f. Financier",
+    "Name": "FunderReference",
+    "Description": "R\u00E9f\u00E9rence du financier",
+    "LastUpdated": "2021-07-07T09:42:12.1346951Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

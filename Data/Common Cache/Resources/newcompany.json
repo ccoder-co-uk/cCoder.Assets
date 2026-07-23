@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4514,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "New Company",
+    "ShortDisplayName": "New Company",
+    "Name": "newcompany",
+    "Description": "newcompany",
+    "LastUpdated": "2021-07-07T09:42:12.1270381Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5106,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Nouvelle soci\u00E9t\u00E9",
+        "ShortDisplayName": "Nouvelle soci\u00E9t\u00E9",
+        "Name": "newcompany",
+        "Description": "Nouvelle soci\u00E9t\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1316086Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5106,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Nouvelle soci\u00E9t\u00E9",
+    "ShortDisplayName": "Nouvelle soci\u00E9t\u00E9",
+    "Name": "newcompany",
+    "Description": "Nouvelle soci\u00E9t\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.1316086Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

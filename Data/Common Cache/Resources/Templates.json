@@ -1,0 +1,60 @@
+[
+  {
+    "Id": 7372,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Templates",
+    "ShortDisplayName": "Templates",
+    "Name": "Templates",
+    "Description": "Templates",
+    "LastUpdated": "2021-07-07T09:42:12.1353644Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7342,
+        "AppId": 4,
+        "Key": "CMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Templates",
+        "ShortDisplayName": "Templates",
+        "Name": "Templates",
+        "Description": "Templates",
+        "LastUpdated": "2021-07-07T09:42:12.1351419Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      },
+      {
+        "Id": 7343,
+        "AppId": 4,
+        "Key": "CMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Templates",
+        "ShortDisplayName": "Templates",
+        "Name": "Templates",
+        "Description": "Templates",
+        "LastUpdated": "2021-07-07T09:42:12.1351494Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "2021-02-24T17:46:54.2331331Z",
+        "CreatedBy": "callum.marshall"
+      }
+    ]
+  },
+  {
+    "Id": 7342,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "fr-FR",
+    "DisplayName": "Templates",
+    "ShortDisplayName": "Templates",
+    "Name": "Templates",
+    "Description": "Templates",
+    "LastUpdated": "2021-07-07T09:42:12.1351419Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

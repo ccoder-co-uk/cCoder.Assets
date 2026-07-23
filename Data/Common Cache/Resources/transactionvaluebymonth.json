@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 15863,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Total Value, by Invoice Date",
+    "ShortDisplayName": "Total Value",
+    "Name": "transactionvaluebymonth",
+    "Description": "Total Invoice Value, by Invoice Date",
+    "LastUpdated": "2021-07-07T09:42:12.1357941Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 15864,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Valeur totale mensuelle des factures par date de facturation",
+        "ShortDisplayName": "Valeur totale mensuelle des factures par date de facturation",
+        "Name": "transactionvaluebymonth",
+        "Description": "Valeur totale mensuelle des factures par date de facturation",
+        "LastUpdated": "2021-07-07T09:42:12.1358018Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 15864,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Valeur totale mensuelle des factures par date de facturation",
+    "ShortDisplayName": "Valeur totale mensuelle des factures par date de facturation",
+    "Name": "transactionvaluebymonth",
+    "Description": "Valeur totale mensuelle des factures par date de facturation",
+    "LastUpdated": "2021-07-07T09:42:12.1358018Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

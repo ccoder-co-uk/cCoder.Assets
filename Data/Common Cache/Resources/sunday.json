@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "sunday",
+    "Key": "CMS",
+    "DisplayName": "Sunday",
+    "ShortDisplayName": "Sunday",
+    "Description": "Sunday",
+    "CreatedOn": "2021-10-27T13:42:55.194Z",
+    "LastUpdated": "2021-10-27T13:42:55.194Z",
+    "Culture": ""
+  },
+  {
+    "Name": "sunday",
+    "Key": "Default",
+    "DisplayName": "Sunday",
+    "ShortDisplayName": "Sunday",
+    "Description": "Sunday",
+    "CreatedOn": "2022-02-24T10:36:45.747Z",
+    "LastUpdated": "2022-02-24T10:36:45.747Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "sunday",
+    "DisplayName": "Dimanche",
+    "ShortDisplayName": "Dimanche",
+    "Description": "Dimanche"
+  }
+]

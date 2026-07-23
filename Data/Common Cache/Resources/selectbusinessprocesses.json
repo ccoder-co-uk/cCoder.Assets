@@ -1,0 +1,38 @@
+[
+  {
+    "Name": "selectbusinessprocesses",
+    "Key": "CMS",
+    "DisplayName": "Select Business Processes",
+    "ShortDisplayName": "Select Business Processes",
+    "Description": "Select Business Processes",
+    "CreatedOn": "2022-11-14T15:31:17.200Z",
+    "LastUpdated": "2022-11-14T15:31:17.200Z",
+    "Culture": ""
+  },
+  {
+    "Name": "selectbusinessprocesses",
+    "Key": "Workflow",
+    "DisplayName": "Select Business Processes",
+    "ShortDisplayName": "Select Business Processes",
+    "Description": "Select Business Processes",
+    "CreatedOn": "2022-11-14T15:28:42.639Z",
+    "LastUpdated": "2022-11-14T15:28:42.639Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "selectbusinessprocesses",
+    "DisplayName": " S\u00E9lectionnez les Processus M\u00E9tier",
+    "ShortDisplayName": " S\u00E9lectionnez les Processus M\u00E9tier",
+    "Description": " S\u00E9lectionnez les Processus M\u00E9tier"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Workflow",
+    "Name": "selectbusinessprocesses",
+    "DisplayName": " S\u00E9lectionnez les Processus M\u00E9tier",
+    "ShortDisplayName": " S\u00E9lectionnez les Processus M\u00E9tier",
+    "Description": " S\u00E9lectionnez les Processus M\u00E9tier"
+  }
+]

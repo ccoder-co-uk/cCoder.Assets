@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "tokenverificationfailed",
+    "DisplayName": "La v\u00E9rification du jeton a \u00E9chou\u00E9",
+    "ShortDisplayName": "La v\u00E9rification du jeton a \u00E9chou\u00E9",
+    "Description": "La v\u00E9rification du jeton a \u00E9chou\u00E9",
+    "LastUpdated": "2022-03-18T10:41:54.1894822\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "tokenverificationfailed",
+    "DisplayName": "Token Verification Failed",
+    "ShortDisplayName": "Token Verification Failed",
+    "Description": "tokenverificationfailed",
+    "LastUpdated": "2022-03-18T10:41:54.1901353\u002B00:00"
+  }
+]

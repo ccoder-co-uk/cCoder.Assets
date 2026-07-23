@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "colourfour",
+    "Key": "CMS",
+    "DisplayName": "Colour Four",
+    "ShortDisplayName": "Colour Four",
+    "Description": "Colour Four",
+    "CreatedOn": "2021-11-19T22:01:22.748Z",
+    "LastUpdated": "2021-11-19T22:01:22.748Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "colourfour",
+    "DisplayName": "Couleur Quatre",
+    "ShortDisplayName": "Couleur Quatre",
+    "Description": "Couleur Quatre"
+  }
+]

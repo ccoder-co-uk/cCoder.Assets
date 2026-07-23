@@ -1,0 +1,38 @@
+[
+  {
+    "Culture": "",
+    "Key": "Account",
+    "Name": "environment",
+    "DisplayName": "Environment",
+    "ShortDisplayName": "Environment",
+    "Description": "Environment",
+    "LastUpdated": "2022-03-18T10:41:54.1893448\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "environment",
+    "DisplayName": "Environment",
+    "ShortDisplayName": "Environment",
+    "Description": "Environment",
+    "LastUpdated": "2022-03-18T10:41:54.1903397\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "environment",
+    "DisplayName": "Environnement",
+    "ShortDisplayName": "Environnement",
+    "Description": "Environnement",
+    "LastUpdated": "2022-03-18T10:41:54.1903496\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "environment",
+    "DisplayName": "Environment",
+    "ShortDisplayName": "Environment",
+    "Description": "Environment",
+    "LastUpdated": "2022-03-18T10:41:54.1910499\u002B00:00"
+  }
+]

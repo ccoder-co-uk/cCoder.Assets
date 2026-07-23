@@ -1,0 +1,7 @@
+{
+  "Name": "CompanyReferencesGrid",
+  "Content": "async function(variables) {\r\n  var g = new GridWidget(variables.element, variables.dataSource);\r\n  g.editable = false;\r\n\tg.sortable = false;\r\n\tg.filterable = false;\r\n\tg.pageable = false;\r\n\tg.scrollable = false;\r\n\tg.groupable = false;\r\n  g.columns = [\r\n    {field: \u0022SystemId\u0022, title: \u0022[resource_displayname[SystemId]]\u0022},\r\n    {field: \u0022Value\u0022, title: \u0022[resource_displayname[Value]]\u0022}\r\n  ];\r\n  variables.companyReferencesGrid = g;\r\n  return g;\r\n}\r\n",
+  "CreatedOn": "2021-09-23T15:17:53.858Z",
+  "LastUpdated": "2021-09-23T15:17:53.858Z",
+  "Key": "B2B"
+}

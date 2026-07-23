@@ -1,0 +1,15 @@
+{
+  "Id": 30700,
+  "AppId": 4,
+  "Key": "B2B",
+  "Culture": "",
+  "DisplayName": "\u003Cul\u003E \t\u003Cli\u003E1. Scanned signature\u003C/li\u003E \t\u003Cli\u003E2. Proof of identity\u003C/li\u003E \t\u003Cli\u003E3. Date of latest available audited accounts\u003C/li\u003E \t\u003Cli\u003E4. Details of major shareholders - above 5%\u003C/li\u003E \t\u003Cli\u003E5. Articles of Association\u003C/li\u003E \u003C/ul\u003E",
+  "ShortDisplayName": "\u003Cul\u003E \t\u003Cli\u003E1. Scanned signature\u003C/li\u003E \t\u003Cli\u003E2. Proof of identity\u003C/li\u003E \t\u003Cli\u003E3. Date of latest available audited accounts\u003C/li\u003E \t\u003Cli\u003E4. Details of major shareholders - above 5%\u003C/li\u003E \t\u003Cli\u003E5. Articles of Association\u003C/li\u003E \u003C/ul\u003E",
+  "Name": "pleaseprovide",
+  "Description": "\u003Cul\u003E \t\u003Cli\u003E1. Scanned signature\u003C/li\u003E \t\u003Cli\u003E2. Proof of identity\u003C/li\u003E \t\u003Cli\u003E3. Date of latest available audited accounts\u003C/li\u003E \t\u003Cli\u003E4. Details of major shareholders - above 5%\u003C/li\u003E \t\u003Cli\u003E5. Articles of Association\u003C/li\u003E \u003C/ul\u003E",
+  "LastUpdated": "2021-07-07T09:42:12.1390034Z",
+  "LastUpdatedBy": "Guest",
+  "CreatedOn": "2021-07-06T17:35:47.3458865Z",
+  "CreatedBy": "callum.marshall",
+  "Translations": []
+}

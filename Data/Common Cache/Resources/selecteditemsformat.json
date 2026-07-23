@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "selecteditemsformat",
+    "Key": "Default",
+    "DisplayName": "There are {0} items selected",
+    "ShortDisplayName": "There are {0} items selected",
+    "Description": "There are {0} items selected",
+    "CreatedOn": "2022-02-04T18:00:38.090Z",
+    "LastUpdated": "2022-02-04T18:00:38.090Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Default",
+    "Name": "selecteditemsformat",
+    "DisplayName": "Vous avez s\u00E9lectionn\u00E9 {0} \u00E9l\u00E9ments",
+    "ShortDisplayName": "Vous avez s\u00E9lectionn\u00E9 {0} \u00E9l\u00E9ments",
+    "Description": "Vous avez s\u00E9lectionn\u00E9 {0} \u00E9l\u00E9ments"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "month-8",
+    "DisplayName": "August",
+    "ShortDisplayName": "August",
+    "Description": "August",
+    "LastUpdated": "2026-07-21T20:58:51.6164457\u002B00:00"
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Default",
+    "Name": "month-8",
+    "DisplayName": "August",
+    "ShortDisplayName": "August",
+    "Description": "August",
+    "LastUpdated": "2026-07-21T20:58:53.1541082\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-8",
+    "DisplayName": "August",
+    "ShortDisplayName": "August",
+    "Description": "August",
+    "LastUpdated": "2026-07-21T20:58:54.7380902\u002B00:00"
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "month-8",
+    "DisplayName": "August",
+    "ShortDisplayName": "August",
+    "Description": "August",
+    "LastUpdated": "2026-07-21T20:58:56.241498\u002B00:00"
+  }
+]

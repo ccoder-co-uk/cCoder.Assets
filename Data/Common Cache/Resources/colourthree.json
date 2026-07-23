@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "colourthree",
+    "Key": "CMS",
+    "DisplayName": "Colour Three",
+    "ShortDisplayName": "Colour Three",
+    "Description": "Colour Three",
+    "CreatedOn": "2021-11-19T22:01:10.945Z",
+    "LastUpdated": "2021-11-19T22:01:10.945Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "colourthree",
+    "DisplayName": "Couleur Trois",
+    "ShortDisplayName": "Couleur Trois",
+    "Description": "Couleur Trois"
+  }
+]

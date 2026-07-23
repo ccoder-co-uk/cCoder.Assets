@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "userupdated",
+    "Key": "Account",
+    "DisplayName": "User Updated",
+    "ShortDisplayName": "User Updated",
+    "Description": "User Updated",
+    "CreatedOn": "2022-02-24T10:57:35.879Z",
+    "LastUpdated": "2022-02-24T10:57:35.879Z",
+    "Culture": ""
+  },
+  {
+    "Name": "userupdated",
+    "Key": "Default",
+    "DisplayName": "User Updated",
+    "ShortDisplayName": "User Updated",
+    "Description": "User Updated",
+    "CreatedOn": "2021-10-12T15:25:12.224Z",
+    "LastUpdated": "2021-10-12T15:25:12.224Z",
+    "Culture": ""
+  }
+]

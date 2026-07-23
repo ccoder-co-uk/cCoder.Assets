@@ -1,0 +1,83 @@
+[
+  {
+    "Id": 4535,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "ID",
+    "ShortDisplayName": "ID",
+    "Name": "id",
+    "Description": "ID",
+    "LastUpdated": "2021-07-07T09:42:12.1271991Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5041,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Identit\u00E9",
+        "ShortDisplayName": "Identit\u00E9",
+        "Name": "id",
+        "Description": "Identit\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1310966Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "id",
+    "DisplayName": "ID",
+    "ShortDisplayName": "ID",
+    "Description": "ID",
+    "LastUpdated": "2022-03-18T10:41:54.1890337\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "id",
+    "DisplayName": "Id",
+    "ShortDisplayName": "Id",
+    "Description": "Id",
+    "LastUpdated": "2023-01-04T12:55:43.693014\u002B00:00"
+  },
+  {
+    "Name": "id",
+    "Key": "Workflow",
+    "DisplayName": "Id",
+    "ShortDisplayName": "Id",
+    "Description": "Id",
+    "CreatedOn": "2022-02-24T16:54:01.206Z",
+    "LastUpdated": "2022-02-24T16:54:01.206Z",
+    "Culture": ""
+  },
+  {
+    "Id": 5041,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Identit\u00E9",
+    "ShortDisplayName": "Identit\u00E9",
+    "Name": "id",
+    "Description": "Identit\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.1310966Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "id",
+    "DisplayName": "ID",
+    "ShortDisplayName": "ID",
+    "Description": "ID",
+    "LastUpdated": "2022-03-18T10:41:54.1898098\u002B00:00"
+  }
+]

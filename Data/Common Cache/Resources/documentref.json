@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4892,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Document Ref",
+    "ShortDisplayName": "documentref",
+    "Name": "documentref",
+    "Description": "documentref",
+    "LastUpdated": "2021-07-07T09:42:12.1299489Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4699,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "R\u00E9f\u00E9rence document fournisseur",
+        "ShortDisplayName": "R\u00E9f\u00E9rence document fournisseur",
+        "Name": "documentref",
+        "Description": "R\u00E9f\u00E9rence document fournisseur",
+        "LastUpdated": "2021-07-07T09:42:12.1284698Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4699,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "R\u00E9f\u00E9rence document fournisseur",
+    "ShortDisplayName": "R\u00E9f\u00E9rence document fournisseur",
+    "Name": "documentref",
+    "Description": "R\u00E9f\u00E9rence document fournisseur",
+    "LastUpdated": "2021-07-07T09:42:12.1284698Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

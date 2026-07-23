@@ -1,0 +1,10 @@
+{
+  "Name": "enablessl",
+  "Key": "CMS",
+  "DisplayName": "Enable SSL",
+  "ShortDisplayName": "Enable SSL",
+  "Description": "Enable SSL",
+  "CreatedOn": "2022-10-24T13:23:18.007Z",
+  "LastUpdated": "2022-10-24T13:23:18.007Z",
+  "Culture": ""
+}

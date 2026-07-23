@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 5314,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Creditor Settlement Date",
+    "ShortDisplayName": "Creditor Settlement Date",
+    "Name": "creditorsettlementdate",
+    "Description": "Creditor Settlement Date",
+    "LastUpdated": "2021-07-07T09:42:12.1332177Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5315,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Date de r\u00E8glement du cr\u00E9ancier",
+        "ShortDisplayName": "Date de r\u00E8glement du cr\u00E9ancier",
+        "Name": "creditorsettlementdate",
+        "Description": "Date de r\u00E8glement du cr\u00E9ancier",
+        "LastUpdated": "2021-07-07T09:42:12.1332251Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5315,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Date de r\u00E8glement du cr\u00E9ancier",
+    "ShortDisplayName": "Date de r\u00E8glement du cr\u00E9ancier",
+    "Name": "creditorsettlementdate",
+    "Description": "Date de r\u00E8glement du cr\u00E9ancier",
+    "LastUpdated": "2021-07-07T09:42:12.1332251Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

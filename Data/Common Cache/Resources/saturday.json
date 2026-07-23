@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "saturday",
+    "Key": "CMS",
+    "DisplayName": "Saturday",
+    "ShortDisplayName": "Saturday",
+    "Description": "Saturday",
+    "CreatedOn": "2021-10-27T13:46:09.858Z",
+    "LastUpdated": "2021-10-27T13:46:09.858Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "saturday",
+    "DisplayName": "Samedi",
+    "ShortDisplayName": "Samedi",
+    "Description": "Samedi"
+  }
+]

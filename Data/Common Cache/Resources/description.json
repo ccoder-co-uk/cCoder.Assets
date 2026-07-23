@@ -1,0 +1,170 @@
+[
+  {
+    "Id": 4533,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Description",
+    "ShortDisplayName": "Description",
+    "Name": "description",
+    "Description": "description",
+    "LastUpdated": "2021-07-07T09:42:12.1271824Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5091,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Description",
+        "ShortDisplayName": "Description",
+        "Name": "description",
+        "Description": "Description",
+        "LastUpdated": "2021-07-07T09:42:12.1314942Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "description",
+    "DisplayName": "Description",
+    "ShortDisplayName": "Description",
+    "Description": "description",
+    "LastUpdated": "2024-09-06T15:45:40.1634209\u002B01:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "description",
+    "DisplayName": "Description",
+    "ShortDisplayName": "Description",
+    "Description": "Description",
+    "LastUpdated": "2022-08-15T14:05:05.1355053\u002B01:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Debug",
+    "Name": "description",
+    "DisplayName": "Description",
+    "ShortDisplayName": "Description",
+    "Description": "Description",
+    "LastUpdated": "2023-03-23T16:02:37.7283901\u002B00:00"
+  },
+  {
+    "Id": 4454,
+    "AppId": 4,
+    "Key": "DMS",
+    "Culture": "",
+    "DisplayName": "Description",
+    "ShortDisplayName": "Description",
+    "Name": "description",
+    "Description": "Description",
+    "LastUpdated": "2021-07-07T09:42:12.1265729Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5304,
+        "AppId": 4,
+        "Key": "DMS",
+        "Culture": "fr-FR",
+        "DisplayName": "La description",
+        "ShortDisplayName": "La description",
+        "Name": "description",
+        "Description": "La description",
+        "LastUpdated": "2021-07-07T09:42:12.1331405Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4520,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "",
+    "DisplayName": "Description",
+    "ShortDisplayName": "Description",
+    "Name": "description",
+    "Description": "description",
+    "LastUpdated": "2021-07-07T09:42:12.1270827Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5207,
+        "AppId": 4,
+        "Key": "Workflow",
+        "Culture": "fr-FR",
+        "DisplayName": "Description",
+        "ShortDisplayName": "Description",
+        "Name": "description",
+        "Description": "Description",
+        "LastUpdated": "2021-07-07T09:42:12.1323978Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5091,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Description",
+    "ShortDisplayName": "Description",
+    "Name": "description",
+    "Description": "Description",
+    "LastUpdated": "2021-07-07T09:42:12.1314942Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "description",
+    "DisplayName": "Description",
+    "ShortDisplayName": "Description",
+    "Description": "Description",
+    "LastUpdated": "2022-03-18T10:41:54.1898791\u002B00:00"
+  },
+  {
+    "Id": 5304,
+    "AppId": 4,
+    "Key": "DMS",
+    "Culture": "fr-FR",
+    "DisplayName": "La description",
+    "ShortDisplayName": "La description",
+    "Name": "description",
+    "Description": "La description",
+    "LastUpdated": "2021-07-07T09:42:12.1331405Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 5207,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "fr-FR",
+    "DisplayName": "Description",
+    "ShortDisplayName": "Description",
+    "Name": "description",
+    "Description": "Description",
+    "LastUpdated": "2021-07-07T09:42:12.1323978Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

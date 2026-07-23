@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 4752,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Client State",
+    "ShortDisplayName": "Client State",
+    "Name": "debtorstate",
+    "Description": "The Transaction State in the Debtor\u0027s system.",
+    "LastUpdated": "2021-07-07T09:42:12.1288581Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4980,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Statut client",
+        "ShortDisplayName": "Statut Client",
+        "Name": "debtorstate",
+        "Description": "Statut client",
+        "LastUpdated": "2021-07-07T09:42:12.1306457Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4764,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "Client State",
+    "ShortDisplayName": "Client State",
+    "Name": "debtorstate",
+    "Description": "Client (Debtor/Buyer) Transaction State",
+    "LastUpdated": "2021-07-07T09:42:12.1289515Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4973,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Statut client",
+        "ShortDisplayName": "Statut Client",
+        "Name": "debtorstate",
+        "Description": "Statut client",
+        "LastUpdated": "2021-07-07T09:42:12.1305913Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4980,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Statut client",
+    "ShortDisplayName": "Statut Client",
+    "Name": "debtorstate",
+    "Description": "Statut client",
+    "LastUpdated": "2021-07-07T09:42:12.1306457Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 4973,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Statut client",
+    "ShortDisplayName": "Statut Client",
+    "Name": "debtorstate",
+    "Description": "Statut client",
+    "LastUpdated": "2021-07-07T09:42:12.1305913Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

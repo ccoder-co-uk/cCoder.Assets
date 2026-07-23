@@ -1,0 +1,56 @@
+[
+  {
+    "Id": 4848,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "To",
+    "ShortDisplayName": "To",
+    "Name": "to",
+    "Description": "to",
+    "LastUpdated": "2021-07-07T09:42:12.1296063Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5123,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "\u00E0",
+        "ShortDisplayName": "\u00E0",
+        "Name": "to",
+        "Description": "\u00E0",
+        "LastUpdated": "2021-07-07T09:42:12.1317403Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Name": "to",
+    "Key": "CMS",
+    "DisplayName": "To",
+    "ShortDisplayName": "To",
+    "Description": "To",
+    "CreatedOn": "2022-10-24T13:19:52.148Z",
+    "LastUpdated": "2022-10-24T13:19:52.148Z",
+    "Culture": ""
+  },
+  {
+    "Id": 5123,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "\u00E0",
+    "ShortDisplayName": "\u00E0",
+    "Name": "to",
+    "Description": "\u00E0",
+    "LastUpdated": "2021-07-07T09:42:12.1317403Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

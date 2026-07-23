@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4807,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Delivery Date",
+    "ShortDisplayName": "Delivery Date",
+    "Name": "deliverydate",
+    "Description": "deliverydate",
+    "LastUpdated": "2021-07-07T09:42:12.1292897Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5090,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Date de livraison",
+        "ShortDisplayName": "Date de livraison",
+        "Name": "deliverydate",
+        "Description": "Date de livraison",
+        "LastUpdated": "2021-07-07T09:42:12.1314867Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5090,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Date de livraison",
+    "ShortDisplayName": "Date de livraison",
+    "Name": "deliverydate",
+    "Description": "Date de livraison",
+    "LastUpdated": "2021-07-07T09:42:12.1314867Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

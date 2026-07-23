@@ -1,0 +1,15 @@
+{
+  "Id": 30680,
+  "AppId": 4,
+  "Key": "CMS",
+  "Culture": "",
+  "DisplayName": "Add Resource Keys",
+  "ShortDisplayName": "Add Resource Keys",
+  "Name": "AddResourceKeys",
+  "Description": "Add Resource Keys",
+  "LastUpdated": "2021-07-07T09:42:12.1388604Z",
+  "LastUpdatedBy": "Guest",
+  "CreatedOn": "2021-07-06T17:35:47.3460272Z",
+  "CreatedBy": "callum.marshall",
+  "Translations": []
+}

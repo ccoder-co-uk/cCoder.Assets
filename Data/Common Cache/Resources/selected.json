@@ -1,0 +1,25 @@
+[
+  {
+    "Id": 30688,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Selected",
+    "ShortDisplayName": "Selected",
+    "Name": "selected",
+    "Description": "Selected",
+    "LastUpdated": "2021-07-07T09:42:12.1389172Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3460934Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "selected",
+    "DisplayName": "S\u00E9lectionn\u00E9es",
+    "ShortDisplayName": "S\u00E9lectionn\u00E9es",
+    "Description": "S\u00E9lectionn\u00E9es"
+  }
+]

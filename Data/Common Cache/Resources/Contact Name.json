@@ -1,0 +1,8 @@
+{
+  "Culture": "fr-FR",
+  "Key": "B2B",
+  "Name": "Contact Name",
+  "DisplayName": "Nom de votre contact chez [app[name]]",
+  "ShortDisplayName": "Nom de votre contact chez [app[name]]",
+  "Description": "Nom de votre contact chez [app[name]]"
+}

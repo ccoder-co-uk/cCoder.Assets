@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "selectedcoreroles",
+    "Key": "B2B",
+    "DisplayName": "Selected Core Roles",
+    "ShortDisplayName": "Selected Core Roles",
+    "Description": "Selected Core Roles",
+    "CreatedOn": "2021-11-02T11:11:29.922Z",
+    "LastUpdated": "2021-11-02T11:11:29.922Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "selectedcoreroles",
+    "DisplayName": "R\u00F4les Core s\u00E9lectionn\u00E9s",
+    "ShortDisplayName": "R\u00F4les Core s\u00E9lectionn\u00E9s",
+    "Description": "R\u00F4les Core s\u00E9lectionn\u00E9s"
+  }
+]

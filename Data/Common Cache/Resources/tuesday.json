@@ -1,0 +1,43 @@
+[
+  {
+    "Name": "tuesday",
+    "Key": "CMS",
+    "DisplayName": "Tuesday",
+    "ShortDisplayName": "Tuesday",
+    "Description": "Tuesday",
+    "CreatedOn": "2021-10-27T13:44:06.547Z",
+    "LastUpdated": "2021-10-27T13:44:06.547Z",
+    "Culture": ""
+  },
+  {
+    "Id": 30714,
+    "AppId": 4,
+    "Key": "Default",
+    "Culture": "",
+    "DisplayName": "Tuesday",
+    "ShortDisplayName": "Tuesday",
+    "Name": "tuesday",
+    "Description": "Tuesday",
+    "LastUpdated": "2021-07-07T09:42:12.1391031Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T18:39:12.0093696Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "tuesday",
+    "DisplayName": "Mardi",
+    "ShortDisplayName": "Mar",
+    "Description": "Mardi"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Default",
+    "Name": "tuesday",
+    "DisplayName": "Mardi",
+    "ShortDisplayName": "Mardi",
+    "Description": "Mardi"
+  }
+]

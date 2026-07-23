@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4853,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Total Early Payment Cost",
+    "ShortDisplayName": "totalearlypaymentcost",
+    "Name": "totalearlypaymentcost",
+    "Description": "totalearlypaymentcost",
+    "LastUpdated": "2021-07-07T09:42:12.1296458Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4647,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Total co\u00FBts r\u00E8glement anticip\u00E9",
+        "ShortDisplayName": "Total co\u00FBts r\u00E8glement anticip\u00E9",
+        "Name": "totalearlypaymentcost",
+        "Description": "Total co\u00FBts r\u00E8glement anticip\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1280762Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4647,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Total co\u00FBts r\u00E8glement anticip\u00E9",
+    "ShortDisplayName": "Total co\u00FBts r\u00E8glement anticip\u00E9",
+    "Name": "totalearlypaymentcost",
+    "Description": "Total co\u00FBts r\u00E8glement anticip\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.1280762Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "Name": "userid",
+    "Key": "Account",
+    "DisplayName": "User Id",
+    "ShortDisplayName": "User Id",
+    "Description": "User Id",
+    "CreatedOn": "2021-11-02T11:31:54.525Z",
+    "LastUpdated": "2021-11-02T11:31:54.525Z",
+    "Culture": ""
+  },
+  {
+    "Id": 5223,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "User Id",
+    "ShortDisplayName": "User Id",
+    "Name": "userid",
+    "Description": "User Id",
+    "LastUpdated": "2021-07-07T09:42:12.1325195Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5224,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Utilisateur",
+        "ShortDisplayName": "Utilisateur",
+        "Name": "userid",
+        "Description": "Utilisateur",
+        "LastUpdated": "2021-07-07T09:42:12.1325269Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Name": "userid",
+    "Key": "Tenant",
+    "DisplayName": "User Id",
+    "ShortDisplayName": "User Id",
+    "Description": "User Id",
+    "CreatedOn": "2023-01-04T12:47:13.549Z",
+    "LastUpdated": "2023-01-04T12:47:13.549Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "userid",
+    "DisplayName": "Identifiant d\u0027utilisateur",
+    "ShortDisplayName": "Identifiant d\u0027utilisateur",
+    "Description": "Identifiant d\u0027utilisateur"
+  },
+  {
+    "Id": 5224,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Utilisateur",
+    "ShortDisplayName": "Utilisateur",
+    "Name": "userid",
+    "Description": "Utilisateur",
+    "LastUpdated": "2021-07-07T09:42:12.1325269Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

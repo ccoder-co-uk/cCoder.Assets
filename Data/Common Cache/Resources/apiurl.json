@@ -1,0 +1,29 @@
+[
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "apiurl",
+    "DisplayName": "Api URL",
+    "ShortDisplayName": "API URL",
+    "Description": "apiurl",
+    "LastUpdated": "2022-03-18T10:41:54.1896194\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Debug",
+    "Name": "apiurl",
+    "DisplayName": "Api Url",
+    "ShortDisplayName": "Api Url",
+    "Description": "Api Url",
+    "LastUpdated": "2023-07-04T13:28:55.6491212\u002B01:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "apiurl",
+    "DisplayName": "URL de l\u0027API",
+    "ShortDisplayName": "URL de l\u0027API",
+    "Description": "\tURL de l\u0027API",
+    "LastUpdated": "2022-03-18T10:41:54.1896842\u002B00:00"
+  }
+]

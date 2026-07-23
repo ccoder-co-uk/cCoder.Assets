@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "migrate",
+    "DisplayName": "Importation",
+    "ShortDisplayName": "Importation",
+    "Description": "Importation",
+    "LastUpdated": "2022-03-18T10:41:54.1899573\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "migrate",
+    "DisplayName": "Migrate",
+    "ShortDisplayName": "Migrate",
+    "Description": "migrate",
+    "LastUpdated": "2022-03-18T10:41:54.1904876\u002B00:00"
+  }
+]

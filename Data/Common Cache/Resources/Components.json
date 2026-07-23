@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 7350,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Components",
+    "ShortDisplayName": "Components",
+    "Name": "Components",
+    "Description": "Components",
+    "LastUpdated": "2021-07-07T09:42:12.1351954Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7332,
+        "AppId": 4,
+        "Key": "CMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Composants",
+        "ShortDisplayName": "Composants",
+        "Name": "Components",
+        "Description": "Composants",
+        "LastUpdated": "2021-07-07T09:42:12.135064Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 7332,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "fr-FR",
+    "DisplayName": "Composants",
+    "ShortDisplayName": "Composants",
+    "Name": "Components",
+    "Description": "Composants",
+    "LastUpdated": "2021-07-07T09:42:12.135064Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

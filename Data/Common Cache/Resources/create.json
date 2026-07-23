@@ -1,0 +1,100 @@
+[
+  {
+    "Id": 4538,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Create",
+    "ShortDisplayName": "Create",
+    "Name": "create",
+    "Description": "Create",
+    "LastUpdated": "2021-07-07T09:42:12.1272214Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5079,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Cr\u00E9er",
+        "ShortDisplayName": "Cr\u00E9er",
+        "Name": "create",
+        "Description": "Cr\u00E9er",
+        "LastUpdated": "2021-07-07T09:42:12.1314022Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "create",
+    "DisplayName": "Create",
+    "ShortDisplayName": "Create",
+    "Description": "Create",
+    "LastUpdated": "2022-03-18T10:41:54.1904656\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "create",
+    "DisplayName": "Create",
+    "ShortDisplayName": "Create",
+    "Description": "Create",
+    "LastUpdated": "2023-01-04T13:45:02.6684616\u002B00:00"
+  },
+  {
+    "Name": "create",
+    "Key": "DMS",
+    "DisplayName": "Create",
+    "ShortDisplayName": "Create",
+    "Description": "Create",
+    "CreatedOn": "2023-01-04T12:26:46.309Z",
+    "LastUpdated": "2023-01-04T12:26:46.310Z",
+    "Culture": ""
+  },
+  {
+    "Id": 5079,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Cr\u00E9er",
+    "ShortDisplayName": "Cr\u00E9er",
+    "Name": "create",
+    "Description": "Cr\u00E9er",
+    "LastUpdated": "2021-07-07T09:42:12.1314022Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "create",
+    "DisplayName": "Cr\u00C3\u00A9er",
+    "ShortDisplayName": "Cr\u00C3\u00A9er",
+    "Description": "Cr\u00C3\u00A9er",
+    "LastUpdated": "2022-03-18T10:41:54.1898009\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CRM",
+    "Name": "create",
+    "DisplayName": "Cr\u00C3\u00A9er",
+    "ShortDisplayName": "Cr\u00C3\u00A9er",
+    "Description": "Cr\u00C3\u00A9er",
+    "LastUpdated": "2023-01-04T13:45:40.2842417\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "create",
+    "DisplayName": "Cr\u00E9er",
+    "ShortDisplayName": "Cr\u00E9er",
+    "Description": "Cr\u00E9er"
+  }
+]

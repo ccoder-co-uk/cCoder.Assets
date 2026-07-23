@@ -1,0 +1,9 @@
+{
+  "AppId": 11,
+  "ResourceKey": "B2B",
+  "Content": "\u003Cdiv name=\u0022poGrid\u0022 style=\u0022width: 100%; height: 100%;\u0022\u003E\u003C/div\u003E\n\n\u003Cstyle\u003E\n   .component[name=PurchaseOrders] { height: 98%; width: 100%; margin-right: 0; }\n\u003C/style\u003E",
+  "Script": "PurchaseOrders = {\n    states: [script[TransactionStates]],\n     init: async function(app, container) {\n         var poGrid = [script[PurchaseOrderGrid]];\n        api.addToMetaCache([\n            {\n                \u0022Name\u0022: \u0022B2B\u0022,\n                \u0022Types\u0022: [\n                    [meta[B2B/PurchaseOrder]]\n                ]\n            }\n        ]);\n         var dataSource = await model.getDatasource({endpoint: \u0022B2B/PurchaseOrder\u0022, odataAppend: \u0022/FromSystem(SystemId=\u0027\u0022 \u002B app.Config.B2B.TransactionSource \u002B \u0022\u0027)?$expand=References,Companies\u0022});\n         var variables = {\n             element: $(\u0022[name=poGrid]\u0022, container),\n             dataSource: dataSource\n         };\n         await poGrid(variables);\n         variables.PurchaseOrderGrid.init();\n     }\n};\n",
+  "Name": "PurchaseOrders",
+  "Description": null,
+  "Key": "B2B"
+}

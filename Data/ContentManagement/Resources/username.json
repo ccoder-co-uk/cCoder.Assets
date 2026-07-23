@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "username",
+    "DisplayName": "Username",
+    "ShortDisplayName": "username",
+    "Description": "username",
+    "LastUpdated": "2022-03-18T10:41:54.1896297\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "username",
+    "DisplayName": "Nom d\u0027utilisateur",
+    "ShortDisplayName": "Nom d\u0027utilisateur",
+    "Description": "Nom d\u0027utilisateur",
+    "LastUpdated": "2022-03-18T10:41:54.1896428\u002B00:00"
+  }
+]

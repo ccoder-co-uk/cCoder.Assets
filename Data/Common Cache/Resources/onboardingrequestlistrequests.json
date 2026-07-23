@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4609,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Onboaring Requests",
+    "ShortDisplayName": "Onboarding Requests",
+    "Name": "onboardingrequestlistrequests",
+    "Description": "onboardingrequestlistrequests",
+    "LastUpdated": "2021-07-07T09:42:12.1277813Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5185,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Demandes d\u0027adh\u00E9sion",
+        "ShortDisplayName": "Demandes d\u0027adh\u00E9sion",
+        "Name": "onboardingrequestlistrequests",
+        "Description": "Demandes d\u0027adh\u00E9sion",
+        "LastUpdated": "2021-07-07T09:42:12.1322164Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5185,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "fr-FR",
+    "DisplayName": "Demandes d\u0027adh\u00E9sion",
+    "ShortDisplayName": "Demandes d\u0027adh\u00E9sion",
+    "Name": "onboardingrequestlistrequests",
+    "Description": "Demandes d\u0027adh\u00E9sion",
+    "LastUpdated": "2021-07-07T09:42:12.1322164Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

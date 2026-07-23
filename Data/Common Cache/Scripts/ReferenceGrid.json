@@ -1,0 +1,6 @@
+{
+  "Name": "ReferenceGrid",
+  "Content": "function (vars) {\n\tvar g = new GridWidget(vars.element, vars.references);\n\tg.editable = false;\n\tg.sortable = false;\n\tg.filterable = false;\n\tg.pageable = false;\n\tg.scrollable = false;\n\tg.groupable = false;\n\tg.columns = [\n\t\t{ field: \u0022SystemId\u0022, type: \u0022string\u0022, title: \u0022[resource_shortdisplayname[SystemId]]\u0022, width: 100 },\n\t\t{ field: \u0022Value\u0022, type: \u0022string\u0022, title: \u0022[resource_shortdisplayname[ReferenceValue]]\u0022 }\n\t];\n\tvars.ReferenceGrid = g;\n\treturn g;\n}\n",
+  "CreatedOn": "2021-09-23T15:17:48.424Z",
+  "LastUpdated": "2021-09-23T15:17:48.424Z"
+}

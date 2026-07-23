@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "areyousureyouwanttodelete",
+    "DisplayName": "Are you sure you want to delete this? It cannot be reversed.",
+    "ShortDisplayName": "Are you sure you want to delete this? It cannot be reversed.",
+    "Description": "Are you sure you want to delete this? It cannot be reversed.",
+    "LastUpdated": "2022-03-18T10:41:54.1903295\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "areyousureyouwanttodelete",
+    "DisplayName": "Voulez-vous vraiment supprimer cela? Il ne peut pas \u00C3\u00AAtre invers\u00C3\u00A9.",
+    "ShortDisplayName": "Voulez-vous vraiment supprimer cela? Il ne peut pas \u00C3\u00AAtre invers\u00C3\u00A9.",
+    "Description": "Voulez-vous vraiment supprimer cela? Il ne peut pas \u00C3\u00AAtre invers\u00C3\u00A9.",
+    "LastUpdated": "2022-03-18T10:41:54.1903346\u002B00:00"
+  }
+]

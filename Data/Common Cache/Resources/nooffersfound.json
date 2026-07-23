@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4890,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "No Offers Found",
+    "ShortDisplayName": "nooffersfound",
+    "Name": "nooffersfound",
+    "Description": "nooffersfound",
+    "LastUpdated": "2021-07-07T09:42:12.1299324Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4629,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Aucune nouvelle offre trouv\u00E9e",
+        "ShortDisplayName": "Aucune nouvelle offre trouv\u00E9e",
+        "Name": "nooffersfound",
+        "Description": "Aucune nouvelle offre trouv\u00E9e",
+        "LastUpdated": "2021-07-07T09:42:12.1279367Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4629,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Aucune nouvelle offre trouv\u00E9e",
+    "ShortDisplayName": "Aucune nouvelle offre trouv\u00E9e",
+    "Name": "nooffersfound",
+    "Description": "Aucune nouvelle offre trouv\u00E9e",
+    "LastUpdated": "2021-07-07T09:42:12.1279367Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

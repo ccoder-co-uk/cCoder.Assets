@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 5036,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Duration",
+    "ShortDisplayName": "Duration",
+    "Name": "duration",
+    "Description": "Duration",
+    "LastUpdated": "2021-07-07T09:42:12.1310649Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5037,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Dur\u00E9e",
+        "ShortDisplayName": "Dur\u00E9e",
+        "Name": "duration",
+        "Description": "Dur\u00E9e",
+        "LastUpdated": "2021-07-07T09:42:12.1310739Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5037,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Dur\u00E9e",
+    "ShortDisplayName": "Dur\u00E9e",
+    "Name": "duration",
+    "Description": "Dur\u00E9e",
+    "LastUpdated": "2021-07-07T09:42:12.1310739Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

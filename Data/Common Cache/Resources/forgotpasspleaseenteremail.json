@@ -1,0 +1,64 @@
+[
+  {
+    "Id": 4962,
+    "AppId": 4,
+    "Key": "Account",
+    "Culture": "",
+    "DisplayName": "Please enter the email address with which you registered",
+    "ShortDisplayName": "Please enter the email address with which you registered",
+    "Name": "forgotpasspleaseenteremail",
+    "Description": "Please enter the email address with which you registered",
+    "LastUpdated": "2021-07-07T09:42:12.130505Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5047,
+        "AppId": 4,
+        "Key": "Account",
+        "Culture": "fr-FR",
+        "DisplayName": "Si vous avez oubli\u00E9 votre mot de passe, veuillez saisir votre email ici.",
+        "ShortDisplayName": "Si vous avez oubli\u00E9 votre mot de passe, veuillez saisir votre email ici.",
+        "Name": "forgotpasspleaseenteremail",
+        "Description": "Si vous avez oubli\u00E9 votre mot de passe, veuillez saisir votre email ici.",
+        "LastUpdated": "2021-07-07T09:42:12.1311429Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "forgotpasspleaseenteremail",
+    "DisplayName": "If you forgot your password, please enter your email here",
+    "ShortDisplayName": "If you forgot your password, please enter your email here",
+    "Description": "forgotpasspleaseenteremail",
+    "LastUpdated": "2022-03-18T10:41:54.1901009\u002B00:00"
+  },
+  {
+    "Id": 5047,
+    "AppId": 4,
+    "Key": "Account",
+    "Culture": "fr-FR",
+    "DisplayName": "Si vous avez oubli\u00E9 votre mot de passe, veuillez saisir votre email ici.",
+    "ShortDisplayName": "Si vous avez oubli\u00E9 votre mot de passe, veuillez saisir votre email ici.",
+    "Name": "forgotpasspleaseenteremail",
+    "Description": "Si vous avez oubli\u00E9 votre mot de passe, veuillez saisir votre email ici.",
+    "LastUpdated": "2021-07-07T09:42:12.1311429Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "forgotpasspleaseenteremail",
+    "DisplayName": "Si vous avez oubli\u00C3\u00A9 votre mot de passe, veuillez saisir votre email ici",
+    "ShortDisplayName": "Si vous avez oubli\u00C3\u00A9 votre mot de passe, veuillez saisir votre email ici",
+    "Description": "Si vous avez oubli\u00C3\u00A9 votre mot de passe, veuillez saisir votre email ici",
+    "LastUpdated": "2022-03-18T10:41:54.1897314\u002B00:00"
+  }
+]

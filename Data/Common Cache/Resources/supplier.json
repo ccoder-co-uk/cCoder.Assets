@@ -1,0 +1,35 @@
+[
+  {
+    "Name": "supplier",
+    "Key": "B2B",
+    "DisplayName": "Supplier",
+    "ShortDisplayName": "Supplier",
+    "Description": "Supplier",
+    "CreatedOn": "2022-02-08T15:14:37.496Z",
+    "LastUpdated": "2022-02-08T15:14:37.496Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "supplier",
+    "DisplayName": "Supplier",
+    "ShortDisplayName": "Supplier",
+    "Description": "Supplier",
+    "LastUpdated": "2022-08-15T14:06:52.5214722\u002B01:00"
+  },
+  {
+    "Id": 4651,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Fournisseur",
+    "ShortDisplayName": "Fournisseur",
+    "Name": "supplier",
+    "Description": "Fournisseur",
+    "LastUpdated": "2021-07-07T09:42:12.1281077Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

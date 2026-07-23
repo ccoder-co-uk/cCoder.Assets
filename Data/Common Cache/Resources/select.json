@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "select",
+    "Key": "Account",
+    "DisplayName": "Select",
+    "ShortDisplayName": "Select",
+    "Description": "Select",
+    "CreatedOn": "2023-01-04T11:23:45.452Z",
+    "LastUpdated": "2023-01-04T11:23:45.452Z",
+    "Culture": ""
+  },
+  {
+    "Name": "select",
+    "Key": "B2B",
+    "DisplayName": "Select",
+    "ShortDisplayName": "Select",
+    "Description": "Select",
+    "CreatedOn": "2023-01-04T12:33:10.757Z",
+    "LastUpdated": "2023-01-04T12:33:10.757Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "select",
+    "DisplayName": "S\u00E9lectionner",
+    "ShortDisplayName": "S\u00E9lectionner",
+    "Description": "S\u00E9lectionner"
+  }
+]

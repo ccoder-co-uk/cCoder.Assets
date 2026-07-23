@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "",
+    "Key": "Account",
+    "Name": "furtherinformationlogin",
+    "DisplayName": "If you wish to have more information on the [app[name]] Programme, please click on \u003Ca href=\u0027/FurtherInformation\u0027\u003EFurther Information.\u003C/a\u003E",
+    "ShortDisplayName": "If you wish to have more information on the [app[name]] Programme, please click on \u003Ca href=\u0027/FurtherInformation\u0027\u003EFurther Information.\u003C/a\u003E",
+    "Description": "If you wish to have more information on the [app[name]] Programme, please click on \u003Ca href=\u0027/FurtherInformation\u0027\u003EFurther Information.\u003C/a\u003E",
+    "LastUpdated": "2024-05-22T10:46:21.468826\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "furtherinformationlogin",
+    "DisplayName": "Si vous souhaitez en savoir plus sur le programme [app[name]], \u003Ca href=\u0027/FurtherInformation\u0027\u003ECliquez sur le lien.\u003C/a\u003E",
+    "ShortDisplayName": "Si vous souhaitez en savoir plus sur le programme [app[name]], \u003Ca href=\u0027/FurtherInformation\u0027\u003ECliquez sur le lien.\u003C/a\u003E",
+    "Description": "Si vous souhaitez en savoir plus sur le programme [app[name]], \u003Ca href=\u0027/FurtherInformation\u0027\u003ECliquez sur le lien.\u003C/a\u003E",
+    "LastUpdated": "2024-05-22T10:46:21.4788641\u002B00:00"
+  }
+]

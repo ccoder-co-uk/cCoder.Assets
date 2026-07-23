@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "userprofile",
+    "Key": "Account",
+    "DisplayName": "User Profile",
+    "ShortDisplayName": "User Profile",
+    "Description": "User Profile",
+    "CreatedOn": "2022-02-24T10:55:00.832Z",
+    "LastUpdated": "2022-02-24T10:55:00.832Z",
+    "Culture": ""
+  },
+  {
+    "Name": "userprofile",
+    "Key": "Default",
+    "DisplayName": "User Profile",
+    "ShortDisplayName": "User Profile",
+    "Description": "User Profile",
+    "CreatedOn": "2021-10-12T15:24:09.407Z",
+    "LastUpdated": "2021-10-12T15:24:09.407Z",
+    "Culture": ""
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "sourcesystemid",
+    "Key": "B2B",
+    "DisplayName": "Source System Id",
+    "ShortDisplayName": "Source System Id",
+    "Description": "Source System Id",
+    "CreatedOn": "2021-10-13T14:30:31.677Z",
+    "LastUpdated": "2021-10-13T14:30:31.677Z",
+    "Culture": ""
+  },
+  {
+    "Id": 5020,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Source",
+    "ShortDisplayName": "Source",
+    "Name": "sourcesystemid",
+    "Description": "Source",
+    "LastUpdated": "2021-07-07T09:42:12.130943Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

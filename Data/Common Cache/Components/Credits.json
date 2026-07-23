@@ -1,0 +1,9 @@
+{
+  "AppId": 11,
+  "ResourceKey": "B2B",
+  "Content": "",
+  "Script": "Credits = { \r\n    states: [script[TransactionStates]],\r\n    creditTypes: [\r\n            { id: 1, name: \u0022[resource_displayname[CreditNote]]\u0022 }, \r\n            { id: 2, name: \u0022[resource_displayname[Replacement]]\u0022 }, \r\n            { id: 3, name: \u0022[resource_displayname[DebitNote]]\u0022 },\r\n            { id: 4, name: \u0022[resource_displayname[SelfBillingCredit]]\u0022 }\r\n     ],\r\n    init: async function (app, container) {\r\n        api.addToMetaCache([\r\n            {\r\n                \u0022Name\u0022: \u0022B2B\u0022,\r\n                \u0022Types\u0022: [\r\n                    [meta[B2B/Credit]],\r\n                    [meta[B2B/Company]]\r\n                ]\r\n            }\r\n        ]);\r\n        var dataSource = await model.getDatasource({ endpoint: \u0022B2B/Credit\u0022, odataAppend: \u0022/FromSystem(SystemId=\u0027\u0022 \u002B session.app.Config.B2B.TransactionSource \u002B \u0022\u0027)?$expand=Companies\u0022 });\r\n        (await [script[CreditGrid]]({element: container, dataSource: dataSource})).init();\r\n    }\r\n};",
+  "Name": "Credits",
+  "Description": null,
+  "Key": "B2B"
+}

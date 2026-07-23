@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "unpackzipto",
+    "Key": "DMS",
+    "DisplayName": "Unpack Zip Into",
+    "ShortDisplayName": "Unpack Zip Into",
+    "Description": "Unpack Zip Into",
+    "CreatedOn": "2023-01-04T10:27:16.048Z",
+    "LastUpdated": "2023-01-04T10:27:16.048Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "unpackzipto",
+    "DisplayName": "D\u00E9compresser les Fichier dans",
+    "ShortDisplayName": "D\u00E9compresser les Fichier dans",
+    "Description": "D\u00E9compresser les Fichier dans"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "copyapp",
+    "DisplayName": "Copy App",
+    "ShortDisplayName": "Copy App",
+    "Description": "copyapp",
+    "LastUpdated": "2022-03-18T10:41:54.1896108\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "copyapp",
+    "DisplayName": "Copier l\u0027application",
+    "ShortDisplayName": "Copier l\u0027application",
+    "Description": "Copier l\u0027application",
+    "LastUpdated": "2022-03-18T10:41:54.1897447\u002B00:00"
+  }
+]

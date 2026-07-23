@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4733,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "Announcement",
+    "ShortDisplayName": "nonfinancesupplierannouncement",
+    "Name": "nonfinancesupplierannouncement",
+    "Description": "nonfinancesupplierannouncement",
+    "LastUpdated": "2021-07-07T09:42:12.1287098Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4917,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Annonce",
+        "ShortDisplayName": "Annonce",
+        "Name": "nonfinancesupplierannouncement",
+        "Description": "Annonce",
+        "LastUpdated": "2021-07-07T09:42:12.130142Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4917,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Annonce",
+    "ShortDisplayName": "Annonce",
+    "Name": "nonfinancesupplierannouncement",
+    "Description": "Annonce",
+    "LastUpdated": "2021-07-07T09:42:12.130142Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

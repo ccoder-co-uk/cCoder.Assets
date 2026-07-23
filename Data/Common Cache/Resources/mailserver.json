@@ -1,0 +1,10 @@
+{
+  "Name": "mailserver",
+  "Key": "CMS",
+  "DisplayName": "Mail Server",
+  "ShortDisplayName": "Mail Server",
+  "Description": "Mail Server",
+  "CreatedOn": "2022-10-24T12:59:00.860Z",
+  "LastUpdated": "2022-10-24T12:59:00.860Z",
+  "Culture": ""
+}

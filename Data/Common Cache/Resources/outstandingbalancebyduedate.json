@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "outstandingbalancebyduedate",
+    "Key": "B2B",
+    "DisplayName": "Outstanding Transactions By Due Date",
+    "ShortDisplayName": "Outstanding Transactions By Due Date",
+    "Description": "Outstanding Transactions By Due Date",
+    "CreatedOn": "2022-02-08T11:15:40.420Z",
+    "LastUpdated": "2022-02-08T11:15:40.420Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "outstandingbalancebyduedate",
+    "DisplayName": "Montant de l\u0027encours net par date d\u0027\u00E9ch\u00E9ances",
+    "ShortDisplayName": "Montant de l\u0027encours net par date d\u0027\u00E9ch\u00E9ances",
+    "Description": "Montant de l\u0027encours net par date d\u0027\u00E9ch\u00E9ances"
+  }
+]

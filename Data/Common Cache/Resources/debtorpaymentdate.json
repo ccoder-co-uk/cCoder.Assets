@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "debtorpaymentdate",
+    "Key": "B2B",
+    "DisplayName": "Debtor Payment Date",
+    "ShortDisplayName": "Debtor Payment Date",
+    "Description": "Debtor Payment Date",
+    "CreatedOn": "2022-02-03T13:50:08.271Z",
+    "LastUpdated": "2022-02-03T13:50:08.271Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "debtorpaymentdate",
+    "DisplayName": " Date de Paiement du Cient",
+    "ShortDisplayName": " Date de Paiement du Cient",
+    "Description": " Date de Paiement du Cient"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 7399,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "",
+    "DisplayName": "New Business Process",
+    "ShortDisplayName": "New Business Process",
+    "Name": "newbp",
+    "Description": "New Business Process",
+    "LastUpdated": "2021-07-07T09:42:12.1356696Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7393,
+        "AppId": 4,
+        "Key": "Workflow",
+        "Culture": "fr-FR",
+        "DisplayName": " Nouveau Processus M\u00E9tier",
+        "ShortDisplayName": " nouveau processus m\u00E9tier",
+        "Name": "newbp",
+        "Description": " Nouveau processus m\u00E9tier",
+        "LastUpdated": "2021-07-07T09:42:12.1356223Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 7393,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "fr-FR",
+    "DisplayName": " Nouveau Processus M\u00E9tier",
+    "ShortDisplayName": " nouveau processus m\u00E9tier",
+    "Name": "newbp",
+    "Description": " Nouveau processus m\u00E9tier",
+    "LastUpdated": "2021-07-07T09:42:12.1356223Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

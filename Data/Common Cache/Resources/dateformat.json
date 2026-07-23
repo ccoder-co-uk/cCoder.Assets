@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 30693,
+    "AppId": 4,
+    "Key": "Default",
+    "Culture": "",
+    "DisplayName": "dd-MM-yyyy",
+    "ShortDisplayName": "dd-MM-yyyy",
+    "Name": "dateFormat",
+    "Description": "dd-MM-yyyy",
+    "LastUpdated": "2021-07-07T09:42:12.1389538Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3460773Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": [
+      {
+        "Id": 30691,
+        "AppId": 4,
+        "Key": "Default",
+        "Culture": "fr-FR",
+        "DisplayName": "dd-MM-yyyy",
+        "ShortDisplayName": "dd-MM-yyyy",
+        "Name": "dateFormat",
+        "Description": "dd-MM-yyyy",
+        "LastUpdated": "2021-07-07T09:42:12.138938Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "2021-07-06T17:35:47.346145Z",
+        "CreatedBy": "callum.marshall"
+      }
+    ]
+  },
+  {
+    "Id": 30691,
+    "AppId": 4,
+    "Key": "Default",
+    "Culture": "fr-FR",
+    "DisplayName": "dd-MM-yyyy",
+    "ShortDisplayName": "dd-MM-yyyy",
+    "Name": "dateFormat",
+    "Description": "dd-MM-yyyy",
+    "LastUpdated": "2021-07-07T09:42:12.138938Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.346145Z",
+    "CreatedBy": "callum.marshall"
+  }
+]

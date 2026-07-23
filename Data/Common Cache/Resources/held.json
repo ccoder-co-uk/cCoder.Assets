@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 30883,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "Held",
+    "ShortDisplayName": "Held",
+    "Name": "Held",
+    "Description": "Held",
+    "LastUpdated": "2021-07-08T14:57:59.7473112Z",
+    "LastUpdatedBy": "Fabien Jacquot",
+    "CreatedOn": "2021-07-08T14:56:43.067Z",
+    "CreatedBy": "Fabien Jacquot",
+    "Translations": [
+      {
+        "Id": 30884,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Suspendu(e)s",
+        "ShortDisplayName": "Suspendu(e)s",
+        "Name": "Held",
+        "Description": "Suspendu(e)s",
+        "LastUpdated": "2021-07-08T14:57:56.207904Z",
+        "LastUpdatedBy": "Fabien Jacquot",
+        "CreatedOn": "2021-07-08T14:56:57.7788776Z",
+        "CreatedBy": "Fabien Jacquot"
+      }
+    ]
+  },
+  {
+    "Id": 30884,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Suspendu(e)s",
+    "ShortDisplayName": "Suspendu(e)s",
+    "Name": "Held",
+    "Description": "Suspendu(e)s",
+    "LastUpdated": "2021-07-08T14:57:56.207904Z",
+    "LastUpdatedBy": "Fabien Jacquot",
+    "CreatedOn": "2021-07-08T14:56:57.7788776Z",
+    "CreatedBy": "Fabien Jacquot"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 7329,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "First Name",
+    "ShortDisplayName": "First Name",
+    "Name": "firstname",
+    "Description": "First Name",
+    "LastUpdated": "2021-07-07T09:42:12.1350414Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7320,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Pr\u00E9nom",
+        "ShortDisplayName": "Pr\u00E9nom",
+        "Name": "firstname",
+        "Description": "Pr\u00E9nom",
+        "LastUpdated": "2021-07-07T09:42:12.1349779Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4568,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "First name",
+    "ShortDisplayName": "First Name",
+    "Name": "firstname",
+    "Description": "firstname",
+    "LastUpdated": "2021-07-07T09:42:12.1274614Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5183,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Pr\u00E9nom",
+        "ShortDisplayName": "Pr\u00E9nom",
+        "Name": "firstname",
+        "Description": "Pr\u00E9nom",
+        "LastUpdated": "2021-07-07T09:42:12.1322013Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 7320,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Pr\u00E9nom",
+    "ShortDisplayName": "Pr\u00E9nom",
+    "Name": "firstname",
+    "Description": "Pr\u00E9nom",
+    "LastUpdated": "2021-07-07T09:42:12.1349779Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 5183,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "fr-FR",
+    "DisplayName": "Pr\u00E9nom",
+    "ShortDisplayName": "Pr\u00E9nom",
+    "Name": "firstname",
+    "Description": "Pr\u00E9nom",
+    "LastUpdated": "2021-07-07T09:42:12.1322013Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

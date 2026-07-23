@@ -1,0 +1,7 @@
+{
+  "Name": "TransactionStates",
+  "Content": "{\r\nApproved: \u0022[resource_displayname[approved]]\u0022,\r\nRejectedCancelled: \u0022[resource_displayname[rejectedcancelled]]\u0022,\r\nForApproval: \u0022[resource_displayname[forapproval]]\u0022,\r\nFundingAccepted: \u0022[resource_displayname[fundingaccepted]]\u0022,\r\nHeld: \u0022[resource_displayname[held]]\u0022,\r\nnull: \u0022[resource_displayname[noneligible]]\u0022,\r\nPaid: \u0022[resource_displayname[paid]]\u0022,\r\nProposed: \u0022[resource_displayname[proposed]]\u0022,\r\nReceived: \u0022[resource_displayname[received]]\u0022,\r\nSent: \u0022[resource_displayname[sent]]\u0022,\r\nSentForFunding: \u0022[resource_displayname[sentforfunding]]\u0022\r\n}",
+  "CreatedOn": "2021-09-28T13:24:20.604Z",
+  "LastUpdated": "2021-09-28T13:24:20.604Z",
+  "Key": "B2B"
+}

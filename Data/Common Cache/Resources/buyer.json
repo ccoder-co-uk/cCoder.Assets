@@ -1,0 +1,55 @@
+[
+  {
+    "Id": 4856,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Buyer",
+    "ShortDisplayName": "buyer",
+    "Name": "buyer",
+    "Description": "buyer",
+    "LastUpdated": "2021-07-07T09:42:12.1296686Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4673,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Donneur d\u0027ordres",
+        "ShortDisplayName": "Donneur d\u0027ordres",
+        "Name": "buyer",
+        "Description": "Donneur d\u0027ordres",
+        "LastUpdated": "2021-07-07T09:42:12.1282707Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "buyer",
+    "DisplayName": "Buyer",
+    "ShortDisplayName": "Buyer",
+    "Description": "Buyer",
+    "LastUpdated": "2022-08-15T14:06:11.8953815\u002B01:00"
+  },
+  {
+    "Id": 4673,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Donneur d\u0027ordres",
+    "ShortDisplayName": "Donneur d\u0027ordres",
+    "Name": "buyer",
+    "Description": "Donneur d\u0027ordres",
+    "LastUpdated": "2021-07-07T09:42:12.1282707Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

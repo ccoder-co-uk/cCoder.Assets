@@ -1,0 +1,43 @@
+[
+  {
+    "Name": "monday",
+    "Key": "CMS",
+    "DisplayName": "Monday",
+    "ShortDisplayName": "Monday",
+    "Description": "Monday",
+    "CreatedOn": "2021-10-27T13:43:16.173Z",
+    "LastUpdated": "2021-10-27T13:43:16.173Z",
+    "Culture": ""
+  },
+  {
+    "Id": 30713,
+    "AppId": 4,
+    "Key": "Default",
+    "Culture": "",
+    "DisplayName": "Monday",
+    "ShortDisplayName": "Monday",
+    "Name": "monday",
+    "Description": "Monday",
+    "LastUpdated": "2021-07-07T09:42:12.1390961Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T18:38:56.1722145Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "monday",
+    "DisplayName": "Lundi",
+    "ShortDisplayName": "Lun",
+    "Description": "Lundi"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Default",
+    "Name": "monday",
+    "DisplayName": "Lundi",
+    "ShortDisplayName": "Lun",
+    "Description": "Lundi"
+  }
+]

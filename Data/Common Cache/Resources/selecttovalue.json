@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "selecttovalue",
+    "Key": "B2B",
+    "DisplayName": "Select To",
+    "ShortDisplayName": "Select To",
+    "Description": "Select To",
+    "CreatedOn": "2021-11-22T15:48:29.636Z",
+    "LastUpdated": "2021-11-22T15:48:29.636Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "selecttovalue",
+    "DisplayName": "S\u00E9lectionnez jusqu\u0027\u00E0 (montant en \u20AC)",
+    "ShortDisplayName": "S\u00E9lectionnez jusqu\u0027\u00E0 (montant en \u20AC)",
+    "Description": "S\u00E9lectionnez jusqu\u0027\u00E0 (montant en \u20AC)"
+  }
+]

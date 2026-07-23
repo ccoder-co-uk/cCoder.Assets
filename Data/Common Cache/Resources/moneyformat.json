@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 30690,
+    "AppId": 4,
+    "Key": "Default",
+    "Culture": "",
+    "DisplayName": "n2",
+    "ShortDisplayName": "n2",
+    "Name": "moneyformat",
+    "Description": "n2",
+    "LastUpdated": "2021-07-07T09:42:12.138931Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3461324Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": [
+      {
+        "Id": 30692,
+        "AppId": 4,
+        "Key": "Default",
+        "Culture": "fr-FR",
+        "DisplayName": "c",
+        "ShortDisplayName": "c",
+        "Name": "moneyformat",
+        "Description": "c",
+        "LastUpdated": "2021-07-07T09:42:12.1389455Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "2021-07-06T17:35:47.3461533Z",
+        "CreatedBy": "callum.marshall"
+      }
+    ]
+  },
+  {
+    "Id": 30692,
+    "AppId": 4,
+    "Key": "Default",
+    "Culture": "fr-FR",
+    "DisplayName": "n2",
+    "ShortDisplayName": "n2",
+    "Name": "moneyformat",
+    "Description": "n2",
+    "LastUpdated": "2021-07-07T09:42:12.1389455Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3461533Z",
+    "CreatedBy": "callum.marshall"
+  }
+]

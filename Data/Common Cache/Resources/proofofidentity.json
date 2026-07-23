@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 30380,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Proof Of Identity 1",
+    "ShortDisplayName": "Proof Of Identity 1",
+    "Name": "proofofidentity",
+    "Description": "Proof Of Identity 1",
+    "LastUpdated": "2021-07-07T09:42:12.1365224Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 30381,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Document de v\u00E9rification d\u0027identit\u00E9 N\u00B01",
+        "ShortDisplayName": "Document de v\u00E9rification d\u0027identit\u00E9 N\u00B01",
+        "Name": "proofofidentity",
+        "Description": "Document de v\u00E9rification d\u0027identit\u00E9 N\u00B01",
+        "LastUpdated": "2021-07-07T09:42:12.1365298Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 30381,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Document de v\u00E9rification d\u0027identit\u00E9 N\u00B01",
+    "ShortDisplayName": "Document de v\u00E9rification d\u0027identit\u00E9 N\u00B01",
+    "Name": "proofofidentity",
+    "Description": "Document de v\u00E9rification d\u0027identit\u00E9 N\u00B01",
+    "LastUpdated": "2021-07-07T09:42:12.1365298Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

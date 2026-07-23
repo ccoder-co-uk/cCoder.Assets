@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4500,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Company Saved",
+    "ShortDisplayName": "Company Saved",
+    "Name": "companysaved",
+    "Description": "Company Saved",
+    "LastUpdated": "2021-07-07T09:42:12.1269287Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5076,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Entreprise enregistr\u00E9e",
+        "ShortDisplayName": "Entreprise enregistr\u00E9e",
+        "Name": "companysaved",
+        "Description": "Entreprise enregistr\u00E9e",
+        "LastUpdated": "2021-07-07T09:42:12.1313663Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5076,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Entreprise enregistr\u00E9e",
+    "ShortDisplayName": "Entreprise enregistr\u00E9e",
+    "Name": "companysaved",
+    "Description": "Entreprise enregistr\u00E9e",
+    "LastUpdated": "2021-07-07T09:42:12.1313663Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

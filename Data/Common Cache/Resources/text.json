@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "text",
+    "Key": "CMS",
+    "DisplayName": "Text",
+    "ShortDisplayName": "Text",
+    "Description": "Text",
+    "CreatedOn": "2022-11-16T17:11:46.818Z",
+    "LastUpdated": "2022-11-16T17:11:46.818Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "text",
+    "DisplayName": "Texte",
+    "ShortDisplayName": "Texte",
+    "Description": "Texte"
+  }
+]

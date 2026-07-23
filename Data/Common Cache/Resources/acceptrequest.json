@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "acceptrequest",
+    "Key": "B2B",
+    "DisplayName": "Accept Request",
+    "ShortDisplayName": "Accept Request",
+    "Description": "Accept Request",
+    "CreatedOn": "2021-11-02T11:01:56.512Z",
+    "LastUpdated": "2021-11-02T11:01:56.512Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "acceptrequest",
+    "DisplayName": "Demande d\u0027adh\u00E9sion",
+    "ShortDisplayName": "Demande d\u0027adh\u00E9sion",
+    "Description": "Demande d\u0027adh\u00E9sion"
+  }
+]

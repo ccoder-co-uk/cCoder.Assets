@@ -1,0 +1,6 @@
+{
+  "Name": "HistoryGrid",
+  "Content": "function (variables) {\r\n\tvar historyGrid = new GridWidget(variables.element, variables.history);\r\n\thistoryGrid.editable = false;\r\n\thistoryGrid.sortable = false;\r\n\thistoryGrid.filterable = false;\r\n\thistoryGrid.pageable = false;\r\n\thistoryGrid.scrollable = true;\r\n\thistoryGrid.groupable = false;\r\n\thistoryGrid.columns = [\r\n\t\t{ field: \u0022UserId\u0022, type: \u0022string\u0022, title: \u0022[resource_shortdisplayname[UserId]]\u0022, width: 140 },\r\n\t\t{ field: \u0022Message\u0022, type: \u0022string\u0022, title: \u0022[resource_shortdisplayname[Message]]\u0022 },\r\n\t\t{ field: \u0022CreatedOn\u0022, type: \u0022date\u0022, title: \u0022[resource_shortdisplayname[CreatedOn]]\u0022, format: \u0022{0:\u0022 \u002B type.dateFormat \u002B \u0022 H:mm:ss}\u0022, width: 150 }\r\n\t];\r\n\tvariables.HistoryGrid = historyGrid;\r\n\treturn historyGrid;\r\n}\r\n",
+  "CreatedOn": "2021-09-23T15:17:47.713Z",
+  "LastUpdated": "2021-09-23T15:17:47.713Z"
+}

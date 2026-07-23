@@ -1,0 +1,15 @@
+{
+  "Id": 30470,
+  "AppId": 4,
+  "Key": "B2B",
+  "Culture": "",
+  "DisplayName": "proposalcreated",
+  "ShortDisplayName": "proposalcreated",
+  "Name": "proposalcreated",
+  "Description": "proposalcreated",
+  "LastUpdated": "2021-07-07T09:42:12.1371858Z",
+  "LastUpdatedBy": "Guest",
+  "CreatedOn": "2021-07-06T17:35:47.3450603Z",
+  "CreatedBy": "callum.marshall",
+  "Translations": []
+}

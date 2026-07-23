@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "authfailed",
+    "DisplayName": "Authentication failed",
+    "ShortDisplayName": "Authenntication FAILED",
+    "Description": "authfailed",
+    "LastUpdated": "2022-03-18T10:41:54.1894282\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "authfailed",
+    "DisplayName": "Authentification \u00E9chou\u00E9e",
+    "ShortDisplayName": "Authentification \u00E9chou\u00E9e",
+    "Description": "Authentification \u00E9chou\u00E9e",
+    "LastUpdated": "2022-03-18T10:41:54.1897034\u002B00:00"
+  }
+]

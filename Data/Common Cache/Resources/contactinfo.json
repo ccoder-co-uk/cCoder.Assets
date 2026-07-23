@@ -1,0 +1,55 @@
+[
+  {
+    "Id": 7318,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "User Contact Info",
+    "ShortDisplayName": "Contact Info",
+    "Name": "contactinfo",
+    "Description": "User Contact Info",
+    "LastUpdated": "2021-07-07T09:42:12.1349632Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7319,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Coordonn\u00E9es du fournisseur [app[name]]",
+        "ShortDisplayName": "Coordonn\u00E9es du fournisseur [app[name]]",
+        "Name": "contactinfo",
+        "Description": "Coordonn\u00E9es du fournisseur [app[name]]",
+        "LastUpdated": "2021-07-07T09:42:12.1349706Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "contactinfo",
+    "DisplayName": "Contact Info",
+    "ShortDisplayName": "Contact Info",
+    "Description": "Contact Info",
+    "LastUpdated": "2022-03-18T10:41:54.191077\u002B00:00"
+  },
+  {
+    "Id": 7319,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Coordonn\u00E9es de l\u0027utilisateur",
+    "ShortDisplayName": "Coordonn\u00E9es de l\u0027utilisateur",
+    "Name": "contactinfo",
+    "Description": "Coordonn\u00E9es de l\u0027utilisateur",
+    "LastUpdated": "2021-07-07T09:42:12.1349706Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

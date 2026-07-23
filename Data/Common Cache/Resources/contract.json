@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 30392,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Contract (downloaded and signed)",
+    "ShortDisplayName": "Contract (downloaded and signed)",
+    "Name": "contract",
+    "Description": "Contract (downloaded and signed)",
+    "LastUpdated": "2021-07-07T09:42:12.1366002Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 30393,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Contrat de service (\u00E0 t\u00E9l\u00E9charger pour signature)",
+        "ShortDisplayName": "Contrat de service (\u00E0 t\u00E9l\u00E9charger pour signature)",
+        "Name": "contract",
+        "Description": "Contrat de service (\u00E0 t\u00E9l\u00E9charger pour signature)",
+        "LastUpdated": "2021-07-07T09:42:12.1366077Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 30393,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Contrat de service (\u00E0 t\u00E9l\u00E9charger pour signature)",
+    "ShortDisplayName": "Contrat de service (\u00E0 t\u00E9l\u00E9charger pour signature)",
+    "Name": "contract",
+    "Description": "Contrat de service (\u00E0 t\u00E9l\u00E9charger pour signature)",
+    "LastUpdated": "2021-07-07T09:42:12.1366077Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

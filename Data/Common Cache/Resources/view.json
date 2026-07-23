@@ -1,0 +1,99 @@
+[
+  {
+    "Id": 4737,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "View",
+    "ShortDisplayName": "View",
+    "Name": "view",
+    "Description": "view",
+    "LastUpdated": "2021-07-07T09:42:12.1287416Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4640,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Vue",
+        "ShortDisplayName": "Vue",
+        "Name": "view",
+        "Description": "Vue",
+        "LastUpdated": "2021-07-07T09:42:12.1280219Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "view",
+    "DisplayName": "View",
+    "ShortDisplayName": "View",
+    "Description": "View",
+    "LastUpdated": "2022-03-18T10:41:54.1910181\u002B00:00"
+  },
+  {
+    "Id": 4602,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "View",
+    "ShortDisplayName": "View",
+    "Name": "view",
+    "Description": "view",
+    "LastUpdated": "2021-07-07T09:42:12.1277267Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5201,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Vue",
+        "ShortDisplayName": "Vue",
+        "Name": "view",
+        "Description": "Vue",
+        "LastUpdated": "2021-07-07T09:42:12.1323398Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4640,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Vue",
+    "ShortDisplayName": "Vue",
+    "Name": "view",
+    "Description": "Vue",
+    "LastUpdated": "2021-07-07T09:42:12.1280219Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 5201,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "fr-FR",
+    "DisplayName": "Vue",
+    "ShortDisplayName": "Vue",
+    "Name": "view",
+    "Description": "Vue",
+    "LastUpdated": "2021-07-07T09:42:12.1323398Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

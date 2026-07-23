@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4526,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "",
+    "DisplayName": "Reporting Component",
+    "ShortDisplayName": "Reporting Component",
+    "Name": "reportingcomponentname",
+    "Description": "reportingcomponentname",
+    "LastUpdated": "2021-07-07T09:42:12.1271291Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5211,
+        "AppId": 4,
+        "Key": "Workflow",
+        "Culture": "fr-FR",
+        "DisplayName": "Composante du rapport",
+        "ShortDisplayName": "Composante du rapport",
+        "Name": "reportingcomponentname",
+        "Description": "Composante du rapport",
+        "LastUpdated": "2021-07-07T09:42:12.1324277Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5211,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "fr-FR",
+    "DisplayName": "Composante du rapport",
+    "ShortDisplayName": "Composante du rapport",
+    "Name": "reportingcomponentname",
+    "Description": "Composante du rapport",
+    "LastUpdated": "2021-07-07T09:42:12.1324277Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "category",
+    "DisplayName": "Category",
+    "ShortDisplayName": "Category",
+    "Description": "category",
+    "LastUpdated": "2022-03-18T10:41:54.1896384\u002B00:00"
+  },
+  {
+    "Id": 4527,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "",
+    "DisplayName": "Category",
+    "ShortDisplayName": "category",
+    "Name": "category",
+    "Description": "category",
+    "LastUpdated": "2021-07-07T09:42:12.1271379Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4666,
+        "AppId": 4,
+        "Key": "Workflow",
+        "Culture": "fr-FR",
+        "DisplayName": "Cat\u00E9gorie",
+        "ShortDisplayName": "Cat\u00E9gorie",
+        "Name": "category",
+        "Description": "Cat\u00E9gorie",
+        "LastUpdated": "2021-07-07T09:42:12.1282239Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "category",
+    "DisplayName": "Cat\u00C3\u00A9gorie",
+    "ShortDisplayName": "Cat\u00C3\u00A9gorie",
+    "Description": "Cat\u00C3\u00A9gorie",
+    "LastUpdated": "2022-03-18T10:41:54.1899372\u002B00:00"
+  },
+  {
+    "Id": 4666,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "fr-FR",
+    "DisplayName": "Cat\u00E9gorie",
+    "ShortDisplayName": "Cat\u00E9gorie",
+    "Name": "category",
+    "Description": "Cat\u00E9gorie",
+    "LastUpdated": "2021-07-07T09:42:12.1282239Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

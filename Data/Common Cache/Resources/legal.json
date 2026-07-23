@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 25612,
+    "AppId": 4,
+    "Key": "Marketing",
+    "Culture": "",
+    "DisplayName": "Legal",
+    "ShortDisplayName": "Legal",
+    "Name": "legal",
+    "Description": "Legal",
+    "LastUpdated": "2021-07-07T09:42:12.1360454Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 25614,
+        "AppId": 4,
+        "Key": "Marketing",
+        "Culture": "fr-FR",
+        "DisplayName": "Informations l\u00E9gales",
+        "ShortDisplayName": "Informations l\u00E9gales",
+        "Name": "legal",
+        "Description": "Informations l\u00E9gales",
+        "LastUpdated": "2021-07-07T09:42:12.1360613Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 25614,
+    "AppId": 4,
+    "Key": "Marketing",
+    "Culture": "fr-FR",
+    "DisplayName": "Informations l\u00E9gales",
+    "ShortDisplayName": "Informations l\u00E9gales",
+    "Name": "legal",
+    "Description": "Informations l\u00E9gales",
+    "LastUpdated": "2021-07-07T09:42:12.1360613Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

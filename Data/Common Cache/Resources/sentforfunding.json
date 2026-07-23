@@ -1,0 +1,56 @@
+[
+  {
+    "Id": 5240,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Sent For Funding",
+    "ShortDisplayName": "Sent For Funding",
+    "Name": "sentforfunding",
+    "Description": "Sent For Funding",
+    "LastUpdated": "2021-07-07T09:42:12.1326509Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Name": "sentforfunding",
+        "Key": "B2B",
+        "DisplayName": "Eligible au financement",
+        "ShortDisplayName": "Eligible au financement",
+        "Description": "Eligible au financement",
+        "CreatedOn": "2021-08-24T18:09:32.757Z",
+        "LastUpdated": "2021-08-24T18:09:32.757Z",
+        "Culture": "fr-FR"
+      }
+    ]
+  },
+  {
+    "Name": "sentforfunding",
+    "Key": "Default",
+    "DisplayName": "Sent For Funding",
+    "ShortDisplayName": "Sent For Funding",
+    "Description": "Sent For Funding",
+    "CreatedOn": "2021-10-12T21:38:09.519Z",
+    "LastUpdated": "2021-10-12T21:38:09.519Z",
+    "Culture": ""
+  },
+  {
+    "Name": "sentforfunding",
+    "Key": "B2B",
+    "DisplayName": "Eligible au financement",
+    "ShortDisplayName": "Eligible au financement",
+    "Description": "Eligible au financement",
+    "CreatedOn": "2021-08-24T18:09:32.757Z",
+    "LastUpdated": "2021-08-24T18:09:32.757Z",
+    "Culture": "fr-FR"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Default",
+    "Name": "sentforfunding",
+    "DisplayName": "Eligible au financement",
+    "ShortDisplayName": "Eligible au financement",
+    "Description": "Eligible au financement"
+  }
+]

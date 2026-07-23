@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "furtherinformationlogin",
+    "Key": "Account",
+    "DisplayName": "If you wish to have more information on the [app[name]] Programme, please click on \u003Ca href=\u0027/FurtherInformation\u0027\u003EFurther Information.\u003C/a\u003E",
+    "ShortDisplayName": "If you wish to have more information on the [app[name]] Programme, please click on \u003Ca href=\u0027/FurtherInformation\u0027\u003EFurther Information.\u003C/a\u003E",
+    "Description": "If you wish to have more information on the [app[name]] Programme, please click on \u003Ca href=\u0027/FurtherInformation\u0027\u003EFurther Information.\u003C/a\u003E",
+    "CreatedOn": "2022-12-09T13:23:12.509Z",
+    "LastUpdated": "2022-12-09T13:23:12.510Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "furtherinformationlogin",
+    "DisplayName": "Si vous souhaitez en savoir plus sur le programme [app[name]], \u003Ca href=\u0027/FurtherInformation\u0027\u003ECliquez sur le lien.\u003C/a\u003E",
+    "ShortDisplayName": "Si vous souhaitez en savoir plus sur le programme [app[name]], \u003Ca href=\u0027/FurtherInformation\u0027\u003ECliquez sur le lien.\u003C/a\u003E",
+    "Description": "Si vous souhaitez en savoir plus sur le programme [app[name]], \u003Ca href=\u0027/FurtherInformation\u0027\u003ECliquez sur le lien.\u003C/a\u003E"
+  }
+]

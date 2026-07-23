@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4603,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Signatory",
+    "ShortDisplayName": "Signatory",
+    "Name": "signatorymobile",
+    "Description": "signatorymobile",
+    "LastUpdated": "2021-07-07T09:42:12.1277343Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5189,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "T\u00E9l mobile du signataire",
+        "ShortDisplayName": "T\u00E9l mobile du signataire",
+        "Name": "signatorymobile",
+        "Description": "T\u00E9l mobile du signataire",
+        "LastUpdated": "2021-07-07T09:42:12.1322476Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5189,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "fr-FR",
+    "DisplayName": "T\u00E9l mobile du signataire",
+    "ShortDisplayName": "T\u00E9l mobile du signataire",
+    "Name": "signatorymobile",
+    "Description": "T\u00E9l mobile du signataire",
+    "LastUpdated": "2021-07-07T09:42:12.1322476Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

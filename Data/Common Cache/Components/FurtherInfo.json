@@ -1,0 +1,9 @@
+{
+  "AppId": 11,
+  "ResourceKey": "Marketing",
+  "Content": "\u003Cdiv class = \u0022furtherInfo\u0022\u003E\n\u003Cp\u003E[resource_displayname[welcometofurtherinfo]]\u003C/p\u003E\n\u003Ch4\u003E[resource_description[furtherinformation]]\u003C/h4\u003E\n\u003Cdiv name=\u0022furtherInfoFolder\u0022\u003E\n      [component[FolderManagement]]\n\u003C/div\u003E\n\u003Cbr\u003E\n\u003Ch4\u003E[resource_displayname[legal]]\u003C/h4\u003E\n\u003Cdiv name=\u0022legalFolder\u0022\u003E\n      [component[FolderManagement]]\n\u003C/div\u003E\n\u003Cdiv\u003E\n\n\u003Cstyle scoped\u003E\n      .furtherInfo { display: flex; flex: 1; flex-direction: column; }\n      \u003C/style\u003E",
+  "Script": "FurtherInfo = {\n\tinit: async function(app, container) {\n    \tapp = app || session.app;\n        container = container || $(\u0022.component[name=FurtherInfo]\u0022);\n        $(\u0022[name=downloadPresentation]\u0022, container).on(\u0022click\u0022, async (e) =\u003E await FurtherInfo.downloadPresentation(e, app));\n        var furtherInfoFiles = (await api.get(\u0022DocumentManagement/Folder?$filter=AppId eq \u0022 \u002B app.Id \u002B \u0022 and Path eq \u0027furtherinformation\u0027\u0026$expand=Files\u0022)).value[0];\n        FolderManagement.init(app, $(\u0022.component[name=FolderManagement]\u0022, $(\u0022[name=furtherInfoFolder]\u0022, container)), furtherInfoFiles, true, true);\n        var legalFiles = (await api.get(\u0022DocumentManagement/Folder?$filter=AppId eq \u0022 \u002B app.Id \u002B \u0022 and Path eq \u0027furtherinformation/legal\u0027\u0026$expand=Files\u0022)).value[0];\n        FolderManagement.init(app, $(\u0022.component[name=FolderManagement]\u0022, $(\u0022[name=legalFolder]\u0022, container)), legalFiles, true, true);\n    },\n    \n};",
+  "Name": "FurtherInfo",
+  "Description": null,
+  "Key": "Marketing"
+}

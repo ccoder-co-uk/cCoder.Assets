@@ -1,0 +1,7 @@
+{
+  "Name": "CompanyDetails",
+  "Content": "function(variables) {\r\n\tvar g = variables.company \u0026\u0026 variables.company.IsVerified\r\n\t? new ReadOnlyDetailView(variables.element) \r\n\t: new WritableDetailView(variables.element, {data: variables.company} );\r\n\r\n\tg.title = \u0022#=(IsVerified) ? \u0027\u003Cspan class=\\\u0022k-icon k-i-check\\\u0022 \u003E\u003C/span\u003E\u0027: \u0027\u003Cspan class=\\\u0022k-icon k-i-close\\\u0022 \u003E\u003C/span\u003E\u0027# #:Name#\u0022;\r\n\t// optional, but we want a subset of fields here so lets be explicit.\r\n\tg.fields =\r\n\t\tmodel.propertiesFor(\u0022B2B/Company\u0022, [\u0022Name\u0022, \u0022ContactPhoneNumber\u0022, \u0022ContactEmailAddress\u0022, \u0022WebsiteUrl\u0022])\r\n\t\t.concat(model.propertiesFor(\u0022B2B/Address\u0022, [\u0022PoBox\u0022, \u0022Line1\u0022, \u0022Line2\u0022, \u0022TownOrCity\u0022, \u0022StateOrProvince\u0022, \u0022ZipOrPostalCode\u0022, \u0022CountryId\u0022]).map(p =\u003E \r\n\t\t{\r\n\t\t\tp.field = \u0022Address.\u0022 \u002B p.field;\r\n\t\t\treturn p;\r\n\t\t}));\r\n\tg.toolbar = \u0022\u003Cbutton onClick=\u0027javascript: history.go(-1)\u0027\u003E\u003Cspan class=\u0027k-icon k-i-arrow-parent\u0027\u003E\u003C/span\u003E [resource_shortdisplayname[Back]]\u003C/button\u003E\u0022;\r\n    variables.CompanyDetails = g;\r\n    return g;\r\n}",
+  "CreatedOn": "2021-09-23T15:17:53.645Z",
+  "LastUpdated": "2021-09-23T15:17:53.645Z",
+  "Key": "B2B"
+}

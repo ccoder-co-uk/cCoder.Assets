@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "appcreated",
+    "DisplayName": "App Created",
+    "ShortDisplayName": "App Created",
+    "Description": "appcreated",
+    "LastUpdated": "2022-03-18T10:41:54.1905079\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "appcreated",
+    "DisplayName": "Application cr\u00C3\u00A9\u00C3\u00A9e",
+    "ShortDisplayName": "Application cr\u00C3\u00A9\u00C3\u00A9e",
+    "Description": "Application cr\u00C3\u00A9\u00C3\u00A9e",
+    "LastUpdated": "2022-03-18T10:41:54.189721\u002B00:00"
+  }
+]

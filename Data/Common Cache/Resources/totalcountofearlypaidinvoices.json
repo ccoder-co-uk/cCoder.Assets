@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "totalcountofearlypaidinvoices",
+    "Key": "B2B",
+    "DisplayName": "Number Of Early Paid Invoices, by Invoice Date",
+    "ShortDisplayName": "Number Of Early Paid Invoices, by Invoice Date",
+    "Description": "Number Of Early Paid Invoices, by Invoice Date",
+    "CreatedOn": "2022-02-03T12:31:43.373Z",
+    "LastUpdated": "2022-02-03T12:31:43.373Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "totalcountofearlypaidinvoices",
+    "DisplayName": "Nombre de factures escompt\u00E9es, par mois",
+    "ShortDisplayName": "Nombre de factures escompt\u00E9es, par mois",
+    "Description": "Nombre de factures escompt\u00E9es, par mois"
+  }
+]

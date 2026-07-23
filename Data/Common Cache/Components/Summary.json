@@ -1,0 +1,9 @@
+{
+  "AppId": 11,
+  "ResourceKey": "B2B",
+  "Content": "\n[component[TransactionCountByMonth]]\n[component[TransactionValueByMonth]]\n[component[ActiveCompanies]]\n\n\u003Cstyle\u003E\n    .component[name=Summary] { display:flex; flex-direction: row; flex:1 }\n    .component[name=Summary] \u003E .component { max-height: 340px; max-width: 550px; }\n    .component[name=stats] \u003E [name=values] { display: none; } \n\u003C/style\u003E",
+  "Script": "Summary = {\n\tinit: function (app, container) { }\n};",
+  "Name": "Summary",
+  "Description": null,
+  "Key": "Summary"
+}

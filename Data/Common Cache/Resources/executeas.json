@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "executeas",
+    "Key": "CMS",
+    "DisplayName": "Execute As",
+    "ShortDisplayName": "Execute As",
+    "Description": "Execute As",
+    "CreatedOn": "2021-11-19T23:10:46.322Z",
+    "LastUpdated": "2021-11-19T23:10:46.322Z",
+    "Culture": ""
+  },
+  {
+    "Name": "executeas",
+    "Key": "DMS",
+    "DisplayName": "Execute As",
+    "ShortDisplayName": "Execute As",
+    "Description": "Execute As",
+    "CreatedOn": "2022-11-16T16:51:17.103Z",
+    "LastUpdated": "2022-11-16T16:51:17.103Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "executeas",
+    "DisplayName": "Ex\u00E9cuter Comme",
+    "ShortDisplayName": "Ex\u00E9cuter Comme",
+    "Description": "Ex\u00E9cuter Comme"
+  }
+]

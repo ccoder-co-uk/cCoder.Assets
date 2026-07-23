@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 7305,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Offered To Funder",
+    "ShortDisplayName": "Offered To Funder",
+    "Name": "offeredtofunder",
+    "Description": "Offered To Funder",
+    "LastUpdated": "2021-07-07T09:42:12.1348866Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7307,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "en",
+        "DisplayName": "Offered To Funder",
+        "ShortDisplayName": "Offered To Funder",
+        "Name": "offeredtofunder",
+        "Description": "Offered To Funder",
+        "LastUpdated": "2021-07-07T09:42:12.1349027Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      },
+      {
+        "Id": 7353,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Propos\u00E9(e) au financier",
+        "ShortDisplayName": "Propos\u00E9(e) au financier",
+        "Name": "offeredtofunder",
+        "Description": "Propos\u00E9(e) au financier",
+        "LastUpdated": "2021-07-07T09:42:12.1352177Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 7307,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "en",
+    "DisplayName": "Offered To Funder",
+    "ShortDisplayName": "Offered To Funder",
+    "Name": "offeredtofunder",
+    "Description": "Offered To Funder",
+    "LastUpdated": "2021-07-07T09:42:12.1349027Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 7353,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Propos\u00E9(e) au financier",
+    "ShortDisplayName": "Propos\u00E9(e) au financier",
+    "Name": "offeredtofunder",
+    "Description": "Propos\u00E9(e) au financier",
+    "LastUpdated": "2021-07-07T09:42:12.1352177Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

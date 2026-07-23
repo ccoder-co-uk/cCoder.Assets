@@ -1,0 +1,99 @@
+[
+  {
+    "Id": 4815,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Details",
+    "ShortDisplayName": "Details",
+    "Name": "details",
+    "Description": "details",
+    "LastUpdated": "2021-07-07T09:42:12.1293518Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5093,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "D\u00E9tails",
+        "ShortDisplayName": "D\u00E9tails",
+        "Name": "details",
+        "Description": "D\u00E9tails",
+        "LastUpdated": "2021-07-07T09:42:12.1315091Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "details",
+    "DisplayName": "Details",
+    "ShortDisplayName": "Details",
+    "Description": "Details",
+    "LastUpdated": "2022-08-25T13:12:03.339284\u002B01:00"
+  },
+  {
+    "Id": 4794,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "Details",
+    "ShortDisplayName": "details",
+    "Name": "details",
+    "Description": "details",
+    "LastUpdated": "2021-07-07T09:42:12.1291864Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4703,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "D\u00E9tails",
+        "ShortDisplayName": "D\u00E9tails",
+        "Name": "details",
+        "Description": "D\u00E9tails",
+        "LastUpdated": "2021-07-07T09:42:12.1284926Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5093,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "D\u00E9tails",
+    "ShortDisplayName": "D\u00E9tails",
+    "Name": "details",
+    "Description": "D\u00E9tails",
+    "LastUpdated": "2021-07-07T09:42:12.1315091Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 4703,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "D\u00E9tails",
+    "ShortDisplayName": "D\u00E9tails",
+    "Name": "details",
+    "Description": "D\u00E9tails",
+    "LastUpdated": "2021-07-07T09:42:12.1284926Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

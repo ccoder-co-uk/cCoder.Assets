@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 4732,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Invoice",
+    "ShortDisplayName": "Invoice",
+    "Name": "salesinvoice",
+    "Description": "Sales Invoice",
+    "LastUpdated": "2021-07-07T09:42:12.1287022Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4637,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Facture",
+        "ShortDisplayName": "Facture",
+        "Name": "salesinvoice",
+        "Description": "Facture de vente",
+        "LastUpdated": "2021-07-07T09:42:12.1279979Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5092,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "Sales Invoice",
+    "ShortDisplayName": "Sales Invoice",
+    "Name": "salesinvoice",
+    "Description": "Sales Invoice",
+    "LastUpdated": "2021-07-07T09:42:12.1315017Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5219,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Facture de vente",
+        "ShortDisplayName": "Facture de vente",
+        "Name": "salesinvoice",
+        "Description": "Sales Invoice",
+        "LastUpdated": "2021-07-07T09:42:12.1324881Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4637,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Facture",
+    "ShortDisplayName": "Facture",
+    "Name": "salesinvoice",
+    "Description": "Facture de vente",
+    "LastUpdated": "2021-07-07T09:42:12.1279979Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 5219,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Facture de vente",
+    "ShortDisplayName": "Facture de vente",
+    "Name": "salesinvoice",
+    "Description": "Sales Invoice",
+    "LastUpdated": "2021-07-07T09:42:12.1324881Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

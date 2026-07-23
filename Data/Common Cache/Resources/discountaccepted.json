@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 4757,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Discount Accepted",
+    "ShortDisplayName": "discountaccepted",
+    "Name": "discountaccepted",
+    "Description": "discountaccepted",
+    "LastUpdated": "2021-07-07T09:42:12.1288901Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4702,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "R\u00E8glement anticip\u00E9",
+        "ShortDisplayName": "R\u00E8glement anticip\u00E9",
+        "Name": "discountaccepted",
+        "Description": "R\u00E8glement anticip\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.128485Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 30711,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "Discount Accepted",
+    "ShortDisplayName": "discountaccepted",
+    "Name": "discountaccepted",
+    "Description": "discountaccepted",
+    "LastUpdated": "2021-07-07T09:42:12.1390805Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.345Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": [
+      {
+        "Id": 30544,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Paiement anticip\u00E9 accept\u00E9",
+        "ShortDisplayName": "Paiement anticip\u00E9 accept\u00E9",
+        "Name": "discountaccepted",
+        "Description": "Paiement anticip\u00E9 accept\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1377679Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "2021-07-06T17:35:47.3449082Z",
+        "CreatedBy": "callum.marshall"
+      }
+    ]
+  },
+  {
+    "Id": 4702,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "R\u00E8glement anticip\u00E9",
+    "ShortDisplayName": "R\u00E8glement anticip\u00E9",
+    "Name": "discountaccepted",
+    "Description": "R\u00E8glement anticip\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.128485Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 30544,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Paiement anticip\u00E9 accept\u00E9",
+    "ShortDisplayName": "Paiement anticip\u00E9 accept\u00E9",
+    "Name": "discountaccepted",
+    "Description": "Paiement anticip\u00E9 accept\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.1377679Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3449082Z",
+    "CreatedBy": "callum.marshall"
+  }
+]

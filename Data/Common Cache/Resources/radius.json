@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "radius",
+    "Key": "CMS",
+    "DisplayName": "Radius",
+    "ShortDisplayName": "Radius",
+    "Description": "Radius",
+    "CreatedOn": "2022-11-22T11:48:48.772Z",
+    "LastUpdated": "2022-11-22T11:48:48.772Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "radius",
+    "DisplayName": "Rayon",
+    "ShortDisplayName": "Rayon",
+    "Description": "Rayon"
+  }
+]

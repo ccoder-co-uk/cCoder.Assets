@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4844,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Unit Price",
+    "ShortDisplayName": "Unit Price",
+    "Name": "unitprice",
+    "Description": "unitprice",
+    "LastUpdated": "2021-07-07T09:42:12.1295742Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5129,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Prix \u200B\u200Bunitaire",
+        "ShortDisplayName": "Prix \u200B\u200Bunitaire",
+        "Name": "unitprice",
+        "Description": "Prix \u200B\u200Bunitaire",
+        "LastUpdated": "2021-07-07T09:42:12.1317868Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5129,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Prix \u200B\u200Bunitaire",
+    "ShortDisplayName": "Prix \u200B\u200Bunitaire",
+    "Name": "unitprice",
+    "Description": "Prix \u200B\u200Bunitaire",
+    "LastUpdated": "2021-07-07T09:42:12.1317868Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

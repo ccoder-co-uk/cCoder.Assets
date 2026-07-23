@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "folderroles",
+    "DisplayName": "R\u00F4les de dossier",
+    "ShortDisplayName": "R\u00F4les de dossier",
+    "Description": "R\u00F4les de dossier",
+    "LastUpdated": "2022-03-18T10:41:54.1907028\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "DMS",
+    "Name": "folderroles",
+    "DisplayName": "Folder Roles",
+    "ShortDisplayName": "Folder Roles",
+    "Description": "The Folder role",
+    "LastUpdated": "2022-03-18T10:41:54.1907295\u002B00:00"
+  }
+]

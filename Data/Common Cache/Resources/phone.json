@@ -1,0 +1,64 @@
+[
+  {
+    "Culture": "",
+    "Key": "Account",
+    "Name": "phone",
+    "DisplayName": "Phone number",
+    "ShortDisplayName": "Phone number",
+    "Description": "Phone number",
+    "LastUpdated": "2022-03-18T10:41:54.1894047\u002B00:00"
+  },
+  {
+    "Id": 7325,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Phone Number",
+    "ShortDisplayName": "Phone",
+    "Name": "phone",
+    "Description": "Contact Phone Number",
+    "LastUpdated": "2021-07-07T09:42:12.13501Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7326,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "T\u00E9l\u00E9phone",
+        "ShortDisplayName": "T\u00E9l\u00E9phone",
+        "Name": "phone",
+        "Description": "T\u00E9l\u00E9phone",
+        "LastUpdated": "2021-07-07T09:42:12.1350175Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "phone",
+    "DisplayName": "Num\u00C3\u00A9ro de t\u00C3\u00A9l\u00C3\u00A9phone",
+    "ShortDisplayName": "Num\u00C3\u00A9ro de t\u00C3\u00A9l\u00C3\u00A9phone",
+    "Description": "Num\u00C3\u00A9ro de t\u00C3\u00A9l\u00C3\u00A9phone",
+    "LastUpdated": "2022-03-18T10:41:54.1895743\u002B00:00"
+  },
+  {
+    "Id": 7326,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "T\u00E9l\u00E9phone",
+    "ShortDisplayName": "T\u00E9l\u00E9phone",
+    "Name": "phone",
+    "Description": "T\u00E9l\u00E9phone",
+    "LastUpdated": "2021-07-07T09:42:12.1350175Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

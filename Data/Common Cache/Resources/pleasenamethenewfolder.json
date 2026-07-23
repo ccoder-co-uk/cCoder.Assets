@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "",
+    "Key": "DMS",
+    "Name": "pleasenamethenewfolder",
+    "DisplayName": "Please name the folder.",
+    "ShortDisplayName": "Please name the folder.",
+    "Description": "Please name the folder.",
+    "LastUpdated": "2022-03-18T10:41:54.1906928\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "pleasenamethenewfolder",
+    "DisplayName": "Veuillez nommer le dossier",
+    "ShortDisplayName": "Veuillez nommer le dossier",
+    "Description": "Veuillez nommer le dossier",
+    "LastUpdated": "2022-03-18T10:41:54.1906978\u002B00:00"
+  }
+]

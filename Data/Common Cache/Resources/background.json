@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "background",
+    "Key": "CMS",
+    "DisplayName": "Background",
+    "ShortDisplayName": "Background",
+    "Description": "Background",
+    "CreatedOn": "2022-11-16T17:10:19.381Z",
+    "LastUpdated": "2022-11-16T17:10:19.381Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "background",
+    "DisplayName": "L\u0027arri\u00E8re plan",
+    "ShortDisplayName": "L\u0027arri\u00E8re plan",
+    "Description": "L\u0027arri\u00E8re plan"
+  }
+]

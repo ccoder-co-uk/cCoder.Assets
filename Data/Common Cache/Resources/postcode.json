@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 30401,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Post Code",
+    "ShortDisplayName": "Post Code",
+    "Name": "postcode",
+    "Description": "Post Code",
+    "LastUpdated": "2021-07-07T09:42:12.1366693Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-04-20T15:57:34.398Z",
+    "CreatedBy": "Fabien Jacquot",
+    "Translations": [
+      {
+        "Id": 30402,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Code Postal",
+        "ShortDisplayName": "Code Postal",
+        "Name": "postcode",
+        "Description": "Code Postal",
+        "LastUpdated": "2021-07-07T09:42:12.1366766Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "2021-04-20T15:57:45.3763876Z",
+        "CreatedBy": "Fabien Jacquot"
+      }
+    ]
+  },
+  {
+    "Id": 4575,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Postcode",
+    "ShortDisplayName": "Postcode",
+    "Name": "postcode",
+    "Description": "postcode",
+    "LastUpdated": "2021-07-07T09:42:12.1275162Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5187,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Code postal",
+        "ShortDisplayName": "Code postal",
+        "Name": "postcode",
+        "Description": "Code postal",
+        "LastUpdated": "2021-07-07T09:42:12.1322313Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 30402,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Code Postal",
+    "ShortDisplayName": "Code Postal",
+    "Name": "postcode",
+    "Description": "Code Postal",
+    "LastUpdated": "2021-07-07T09:42:12.1366766Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-04-20T15:57:45.3763876Z",
+    "CreatedBy": "Fabien Jacquot"
+  },
+  {
+    "Id": 5187,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "fr-FR",
+    "DisplayName": "Code postal",
+    "ShortDisplayName": "Code postal",
+    "Name": "postcode",
+    "Description": "Code postal",
+    "LastUpdated": "2021-07-07T09:42:12.1322313Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

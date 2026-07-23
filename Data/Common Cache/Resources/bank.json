@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 30413,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Bank",
+    "ShortDisplayName": "Bank",
+    "Name": "bank",
+    "Description": "Bank",
+    "LastUpdated": "2021-07-07T09:42:12.1367619Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 30414,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Informations bancaires",
+        "ShortDisplayName": "Informations bancaires",
+        "Name": "bank",
+        "Description": "Informations bancaires",
+        "LastUpdated": "2021-07-07T09:42:12.1367694Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 30414,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Informations bancaires",
+    "ShortDisplayName": "Informations bancaires",
+    "Name": "bank",
+    "Description": "Informations bancaires",
+    "LastUpdated": "2021-07-07T09:42:12.1367694Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

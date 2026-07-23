@@ -1,0 +1,38 @@
+[
+  {
+    "Name": "size",
+    "Key": "CMS",
+    "DisplayName": "Size",
+    "ShortDisplayName": "Size",
+    "Description": "Size",
+    "CreatedOn": "2022-11-22T11:47:45.148Z",
+    "LastUpdated": "2022-11-22T11:47:45.148Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "DMS",
+    "Name": "size",
+    "DisplayName": "Size",
+    "ShortDisplayName": "Size",
+    "Description": "Size",
+    "LastUpdated": "2022-03-18T10:41:54.1905395\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "size",
+    "DisplayName": "Taille",
+    "ShortDisplayName": "Taille",
+    "Description": "Taille"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "size",
+    "DisplayName": "Taille",
+    "ShortDisplayName": "Taille",
+    "Description": "Taille",
+    "LastUpdated": "2022-03-18T10:41:54.1905497\u002B00:00"
+  }
+]

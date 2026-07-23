@@ -1,0 +1,83 @@
+[
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "name",
+    "DisplayName": "Nom et Pr\u00E9nom",
+    "ShortDisplayName": "Nom et Pr\u00E9nom",
+    "Description": "Nom et Pr\u00E9nom",
+    "LastUpdated": "2022-03-18T10:41:54.189239\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Account",
+    "Name": "name",
+    "DisplayName": "Name",
+    "ShortDisplayName": "Name",
+    "Description": "Name",
+    "LastUpdated": "2022-03-18T10:41:54.1894091\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "name",
+    "DisplayName": "Name",
+    "ShortDisplayName": "Name",
+    "Description": "Name",
+    "LastUpdated": "2022-03-18T10:41:54.1895099\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "name",
+    "DisplayName": "Nom",
+    "ShortDisplayName": "Nom",
+    "Description": "Nom",
+    "LastUpdated": "2022-03-18T10:41:54.1897403\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "name",
+    "DisplayName": "Name",
+    "ShortDisplayName": "Name",
+    "Description": "Name",
+    "LastUpdated": "2022-03-18T10:41:54.1903765\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "name",
+    "DisplayName": "Name",
+    "ShortDisplayName": "Name",
+    "Description": "Name",
+    "LastUpdated": "2022-03-18T10:41:54.191013\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CRM",
+    "Name": "name",
+    "DisplayName": "Nom",
+    "ShortDisplayName": "Nom",
+    "Description": "Nom",
+    "LastUpdated": "2023-01-04T13:46:33.7231641\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "name",
+    "DisplayName": "Name",
+    "ShortDisplayName": "Name",
+    "Description": "Name",
+    "LastUpdated": "2026-07-21T21:09:42.5862154\u002B00:00"
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Workflow",
+    "Name": "name",
+    "DisplayName": "Name",
+    "ShortDisplayName": "Name",
+    "Description": "Name",
+    "LastUpdated": "2026-07-21T21:09:44.2132502\u002B00:00"
+  }
+]

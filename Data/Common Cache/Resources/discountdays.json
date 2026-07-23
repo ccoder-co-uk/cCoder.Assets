@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "discountdays",
+    "Key": "B2B",
+    "DisplayName": "Days Early",
+    "ShortDisplayName": "Days Early",
+    "Description": "Days Early",
+    "CreatedOn": "2021-10-15T15:35:52.094Z",
+    "LastUpdated": "2021-10-15T15:35:52.094Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "discountdays",
+    "DisplayName": "Jours anticip\u00E9s",
+    "ShortDisplayName": "Jours anticip\u00E9s",
+    "Description": "Jours anticip\u00E9s"
+  }
+]

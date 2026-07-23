@@ -1,0 +1,108 @@
+[
+  {
+    "Id": 4780,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Rejected",
+    "ShortDisplayName": "rejected",
+    "Name": "rejected",
+    "Description": "rejected",
+    "LastUpdated": "2021-07-07T09:42:12.1290766Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4552,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Rejet\u00E9(e)",
+        "ShortDisplayName": "Rejet\u00E9(e)",
+        "Name": "rejected",
+        "Description": "Rejet\u00E9(e)",
+        "LastUpdated": "2021-07-07T09:42:12.1273289Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Name": "rejected",
+    "Key": "Default",
+    "DisplayName": "Rejected",
+    "ShortDisplayName": "Rejected",
+    "Description": "Rejected",
+    "CreatedOn": "2021-10-12T21:40:03.428Z",
+    "LastUpdated": "2021-10-12T21:40:03.428Z",
+    "Culture": ""
+  },
+  {
+    "Id": 4956,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "Rejected",
+    "ShortDisplayName": "Rejected",
+    "Name": "rejected",
+    "Description": "Rejected",
+    "LastUpdated": "2021-07-07T09:42:12.1304586Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5014,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Rejet\u00E9(e)(s)",
+        "ShortDisplayName": "Rejet\u00E9(e)(s)",
+        "Name": "rejected",
+        "Description": "Rejet\u00E9(e)(s)",
+        "LastUpdated": "2021-07-07T09:42:12.130896Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4552,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Rejet\u00E9(e)",
+    "ShortDisplayName": "Rejet\u00E9(e)",
+    "Name": "rejected",
+    "Description": "Rejet\u00E9(e)",
+    "LastUpdated": "2021-07-07T09:42:12.1273289Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Default",
+    "Name": "rejected",
+    "DisplayName": "Paiement anticip\u00E9 refus\u00E9",
+    "ShortDisplayName": "Paiement anticip\u00E9 refus\u00E9",
+    "Description": "Paiement anticip\u00E9 refus\u00E9"
+  },
+  {
+    "Id": 5014,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Rejet\u00E9(e)(s)",
+    "ShortDisplayName": "Rejet\u00E9(e)(s)",
+    "Name": "rejected",
+    "Description": "Rejet\u00E9(e)(s)",
+    "LastUpdated": "2021-07-07T09:42:12.130896Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

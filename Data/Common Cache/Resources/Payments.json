@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 5029,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Payments",
+    "ShortDisplayName": "Payments",
+    "Name": "Payments",
+    "Description": "Payments",
+    "LastUpdated": "2021-07-07T09:42:12.1310115Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5030,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "R\u00E8glements",
+        "ShortDisplayName": "R\u00E8glements",
+        "Name": "Payments",
+        "Description": "R\u00E8glements",
+        "LastUpdated": "2021-07-07T09:42:12.131019Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5030,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "R\u00E8glements",
+    "ShortDisplayName": "R\u00E8glements",
+    "Name": "Payments",
+    "Description": "R\u00E8glements",
+    "LastUpdated": "2021-07-07T09:42:12.131019Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

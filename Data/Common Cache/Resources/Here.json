@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4929,
+    "AppId": 4,
+    "Key": "ForgotPassword",
+    "Culture": "",
+    "DisplayName": "here",
+    "ShortDisplayName": "here",
+    "Name": "Here",
+    "Description": "here",
+    "LastUpdated": "2021-07-07T09:42:12.1302357Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4930,
+        "AppId": 4,
+        "Key": "ForgotPassword",
+        "Culture": "fr-FR",
+        "DisplayName": "ici",
+        "ShortDisplayName": "ici",
+        "Name": "Here",
+        "Description": "ici",
+        "LastUpdated": "2021-07-07T09:42:12.1302432Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4930,
+    "AppId": 4,
+    "Key": "ForgotPassword",
+    "Culture": "fr-FR",
+    "DisplayName": "ici",
+    "ShortDisplayName": "ici",
+    "Name": "Here",
+    "Description": "ici",
+    "LastUpdated": "2021-07-07T09:42:12.1302432Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

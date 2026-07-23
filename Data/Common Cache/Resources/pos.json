@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4721,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Purchase Orders",
+    "ShortDisplayName": "Purchase Orders",
+    "Name": "pos",
+    "Description": "pos",
+    "LastUpdated": "2021-07-07T09:42:12.1286181Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5109,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Bons de commande",
+        "ShortDisplayName": "Bons de commande",
+        "Name": "pos",
+        "Description": "Bons de commande",
+        "LastUpdated": "2021-07-07T09:42:12.1316307Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5109,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Bons de commande",
+    "ShortDisplayName": "Bons de commande",
+    "Name": "pos",
+    "Description": "Bons de commande",
+    "LastUpdated": "2021-07-07T09:42:12.1316307Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "",
+    "Key": "Account",
+    "Name": "furtherinformationvisit",
+    "DisplayName": "Visit Further Information",
+    "ShortDisplayName": "Visit Further Information",
+    "Description": "Visit Further Information",
+    "LastUpdated": "2022-03-18T10:41:54.1898836\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "furtherinformationvisit",
+    "DisplayName": "Rendez-vous sur Informations suppl\u00E9mentaires.",
+    "ShortDisplayName": "Rendez-vous sur Informations suppl\u00E9mentaires.",
+    "Description": "Rendez-vous sur Informations suppl\u00E9mentaires.",
+    "LastUpdated": "2022-03-18T10:41:54.1906562\u002B00:00"
+  }
+]

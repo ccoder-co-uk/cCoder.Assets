@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "",
+    "Key": "Account",
+    "Name": "createapptitle",
+    "DisplayName": "Create App",
+    "ShortDisplayName": "Create App",
+    "Description": "Create App",
+    "LastUpdated": "2022-03-18T10:41:54.1893491\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "createapptitle",
+    "DisplayName": "App Creation",
+    "ShortDisplayName": "App Creation",
+    "Description": "App Creation",
+    "LastUpdated": "2022-03-18T10:41:54.190322\u002B00:00"
+  }
+]

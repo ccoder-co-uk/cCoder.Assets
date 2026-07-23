@@ -1,0 +1,21 @@
+[
+  {
+    "Name": "Grouping",
+    "Key": "Default",
+    "DisplayName": "Drag a column header and drop it here to group by that column",
+    "ShortDisplayName": "Drag a column header and drop it here to group by that column",
+    "Description": "Drag a column header and drop it here to group by that column",
+    "CreatedOn": "2021-08-25T10:33:25.429Z",
+    "LastUpdated": "2021-08-25T10:33:25.429Z"
+  },
+  {
+    "Name": "Grouping",
+    "Key": "Default",
+    "DisplayName": "Faites glisser une en-t\u00EAte de colonne et la d\u00E9poser ici pour effectuer un tri sur cette colonne",
+    "ShortDisplayName": "Faites glisser une en-t\u00EAte de colonne et la d\u00E9poser ici pour effectuer un tri sur cette colonne",
+    "Description": "Faites glisser une en-t\u00EAte de colonne et la d\u00E9poser ici pour effectuer un tri sur cette colonne",
+    "CreatedOn": "2021-08-25T10:38:02.702Z",
+    "LastUpdated": "2021-08-25T10:38:02.702Z",
+    "Culture": "fr-FR"
+  }
+]

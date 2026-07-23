@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4493,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Bucket Created",
+    "ShortDisplayName": "Bucket Created",
+    "Name": "bucketcreated",
+    "Description": "Bucket Created",
+    "LastUpdated": "2021-07-07T09:42:12.1268747Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5069,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Panier cr\u00E9\u00E9",
+        "ShortDisplayName": "Panier cr\u00E9\u00E9",
+        "Name": "bucketcreated",
+        "Description": "Panier cr\u00E9\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1313119Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5069,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Panier cr\u00E9\u00E9",
+    "ShortDisplayName": "Panier cr\u00E9\u00E9",
+    "Name": "bucketcreated",
+    "Description": "Panier cr\u00E9\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.1313119Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

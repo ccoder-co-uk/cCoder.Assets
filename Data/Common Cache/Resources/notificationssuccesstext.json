@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "notificationssuccesstext",
+    "Key": "CMS",
+    "DisplayName": "Notifications Success Text",
+    "ShortDisplayName": "Notifications Success Text",
+    "Description": "Notifications Success Text",
+    "CreatedOn": "2022-11-22T11:53:27.429Z",
+    "LastUpdated": "2022-11-22T11:53:27.429Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "notificationssuccesstext",
+    "DisplayName": " Texte de r\u00E9ussite des notifications",
+    "ShortDisplayName": " Texte de r\u00E9ussite des notifications",
+    "Description": " Texte de r\u00E9ussite des notifications"
+  }
+]

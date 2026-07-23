@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4586,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Total Value of Discounted Invoices",
+    "ShortDisplayName": "totalvalueofdiscountedinvoices",
+    "Name": "totalvalueofdiscountedinvoices",
+    "Description": "totalvalueofdiscountedinvoices",
+    "LastUpdated": "2021-07-07T09:42:12.1276018Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4912,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Somme totale des factures escompt\u00E9es",
+        "ShortDisplayName": "Somme totale des factures escompt\u00E9es",
+        "Name": "totalvalueofdiscountedinvoices",
+        "Description": "Somme totale des factures escompt\u00E9es",
+        "LastUpdated": "2021-07-07T09:42:12.1301041Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4912,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Somme totale des factures escompt\u00E9es",
+    "ShortDisplayName": "Somme totale des factures escompt\u00E9es",
+    "Name": "totalvalueofdiscountedinvoices",
+    "Description": "Somme totale des factures escompt\u00E9es",
+    "LastUpdated": "2021-07-07T09:42:12.1301041Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

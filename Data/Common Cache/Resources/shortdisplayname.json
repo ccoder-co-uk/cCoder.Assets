@@ -1,0 +1,29 @@
+[
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "shortdisplayname",
+    "DisplayName": "Short Display Name",
+    "ShortDisplayName": "Short Display Name",
+    "Description": "Short Display Name",
+    "LastUpdated": "2022-03-18T10:41:54.1890682\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Debug",
+    "Name": "shortdisplayname",
+    "DisplayName": "Short Display Name",
+    "ShortDisplayName": "Short Display Name",
+    "Description": "Short Display Name",
+    "LastUpdated": "2023-03-23T16:02:17.6061646\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "shortdisplayname",
+    "DisplayName": "Nom d\u0027affichage court",
+    "ShortDisplayName": "Nom d\u0027affichage court",
+    "Description": "Nom d\u0027affichage court",
+    "LastUpdated": "2022-03-18T10:41:54.189992\u002B00:00"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "configureapp",
+    "DisplayName": "Configure App",
+    "ShortDisplayName": "Configure App",
+    "Description": "configureapp",
+    "LastUpdated": "2022-03-18T10:41:54.1903815\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "configureapp",
+    "DisplayName": "Configurer l\u0027application",
+    "ShortDisplayName": "Configurer l\u0027application",
+    "Description": "Configurer l\u0027application",
+    "LastUpdated": "2022-03-18T10:41:54.1897683\u002B00:00"
+  }
+]

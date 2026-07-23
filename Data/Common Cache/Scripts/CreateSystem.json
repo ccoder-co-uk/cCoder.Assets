@@ -1,0 +1,6 @@
+{
+  "Name": "CreateSystem",
+  "Content": "function (args) {\r\n    var config = {\r\n        Id: args.Id,\r\n        Name: args.Name,\r\n        Description: args.Description,\r\n        IsPublic: args.IsPublic\r\n    };\r\n    return api.add(\u0022B2B/System\u0022, config);\r\n}",
+  "CreatedOn": "2021-09-24T09:40:09.388Z",
+  "LastUpdated": "2021-09-24T09:40:09.388Z"
+}

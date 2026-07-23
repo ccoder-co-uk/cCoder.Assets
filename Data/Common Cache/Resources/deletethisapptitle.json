@@ -1,0 +1,44 @@
+[
+  {
+    "Culture": "",
+    "Key": "Account",
+    "Name": "deletethisapptitle",
+    "DisplayName": "Delete This App",
+    "ShortDisplayName": "Delete This App",
+    "Description": "Delete This App",
+    "LastUpdated": "2022-03-18T10:41:54.1893361\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "deletethisapptitle",
+    "DisplayName": "Delete this App?",
+    "ShortDisplayName": "Delete this App?",
+    "Description": "Delete this App?",
+    "LastUpdated": "2022-03-18T10:41:54.1903447\u002B00:00"
+  },
+  {
+    "Id": 5929,
+    "AppId": 4,
+    "Key": "Default",
+    "Culture": "",
+    "DisplayName": "Delete this App",
+    "ShortDisplayName": "Delete this App",
+    "Name": "deletethisapptitle",
+    "Description": "Delete this App",
+    "LastUpdated": "2021-07-07T09:42:12.1341061Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": []
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "deletethisapptitle",
+    "DisplayName": "Supprimer cette appli?",
+    "ShortDisplayName": "Supprimer cette appli?",
+    "Description": "Supprimer cette appli?",
+    "LastUpdated": "2022-03-18T10:41:54.190055\u002B00:00"
+  }
+]

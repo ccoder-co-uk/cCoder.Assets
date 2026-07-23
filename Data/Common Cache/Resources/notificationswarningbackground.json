@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "notificationswarningbackground",
+    "Key": "CMS",
+    "DisplayName": "Notifications Warning Background",
+    "ShortDisplayName": "Notifications Warning Background",
+    "Description": "Notifications Warning Background",
+    "CreatedOn": "2022-11-22T11:51:55.296Z",
+    "LastUpdated": "2022-11-22T11:51:55.296Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "notificationswarningbackground",
+    "DisplayName": "Contexte d\u0027avertissement des notifications",
+    "ShortDisplayName": "Contexte d\u0027avertissement des notifications",
+    "Description": "Contexte d\u0027avertissement des notifications"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "margins",
+    "Key": "CMS",
+    "DisplayName": "Margins",
+    "ShortDisplayName": "Margins",
+    "Description": "Margins",
+    "CreatedOn": "2021-11-19T22:00:10.320Z",
+    "LastUpdated": "2021-11-19T22:00:10.320Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "margins",
+    "DisplayName": "Les marges",
+    "ShortDisplayName": "Les marges",
+    "Description": "Les marges"
+  }
+]

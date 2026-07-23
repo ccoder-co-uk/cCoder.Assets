@@ -1,0 +1,38 @@
+[
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-6",
+    "DisplayName": "June",
+    "ShortDisplayName": "June",
+    "Description": "June",
+    "LastUpdated": "2026-07-21T20:58:54.5283278\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "month-6",
+    "DisplayName": "June",
+    "ShortDisplayName": "June",
+    "Description": "June",
+    "LastUpdated": "2026-07-21T20:58:51.3449256\u002B00:00"
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Default",
+    "Name": "month-6",
+    "DisplayName": "June",
+    "ShortDisplayName": "June",
+    "Description": "June",
+    "LastUpdated": "2026-07-21T20:58:52.9280865\u002B00:00"
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "month-6",
+    "DisplayName": "June",
+    "ShortDisplayName": "June",
+    "Description": "June",
+    "LastUpdated": "2026-07-21T20:58:56.111663\u002B00:00"
+  }
+]

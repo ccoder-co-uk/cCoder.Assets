@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4927,
+    "AppId": 4,
+    "Key": "ForgotPassword",
+    "Culture": "",
+    "DisplayName": "Please click",
+    "ShortDisplayName": "Please click",
+    "Name": "PleaseClick",
+    "Description": "Please click",
+    "LastUpdated": "2021-07-07T09:42:12.1302207Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4928,
+        "AppId": 4,
+        "Key": "ForgotPassword",
+        "Culture": "fr-FR",
+        "DisplayName": "Veuillez cliquer",
+        "ShortDisplayName": "Veuillez cliquer",
+        "Name": "PleaseClick",
+        "Description": "Veuillez cliquer",
+        "LastUpdated": "2021-07-07T09:42:12.1302282Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4928,
+    "AppId": 4,
+    "Key": "ForgotPassword",
+    "Culture": "fr-FR",
+    "DisplayName": "Veuillez cliquer",
+    "ShortDisplayName": "Veuillez cliquer",
+    "Name": "PleaseClick",
+    "Description": "Veuillez cliquer",
+    "LastUpdated": "2021-07-07T09:42:12.1302282Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

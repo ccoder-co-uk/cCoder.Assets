@@ -1,0 +1,171 @@
+[
+  {
+    "Id": 4816,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "State",
+    "ShortDisplayName": "State",
+    "Name": "state",
+    "Description": "state",
+    "LastUpdated": "2021-07-07T09:42:12.1293594Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5116,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Etat",
+        "ShortDisplayName": "Etat",
+        "Name": "state",
+        "Description": "Etat",
+        "LastUpdated": "2021-07-07T09:42:12.1316857Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Name": "state",
+    "Key": "CMS",
+    "DisplayName": "State",
+    "ShortDisplayName": "State",
+    "Description": "State",
+    "CreatedOn": "2022-11-15T13:54:32.114Z",
+    "LastUpdated": "2022-11-15T13:54:32.114Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "state",
+    "DisplayName": "State",
+    "ShortDisplayName": "State",
+    "Description": "State",
+    "LastUpdated": "2022-03-18T10:41:54.190998\u002B00:00"
+  },
+  {
+    "Id": 4797,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "State",
+    "ShortDisplayName": "state",
+    "Name": "state",
+    "Description": "state",
+    "LastUpdated": "2021-07-07T09:42:12.1292091Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4654,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Etat",
+        "ShortDisplayName": "Etat",
+        "Name": "state",
+        "Description": "Etat",
+        "LastUpdated": "2021-07-07T09:42:12.1281305Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4579,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "State",
+    "ShortDisplayName": "state",
+    "Name": "state",
+    "Description": "state",
+    "LastUpdated": "2021-07-07T09:42:12.1275476Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5217,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Statut",
+        "ShortDisplayName": "Statut",
+        "Name": "state",
+        "Description": "Statut",
+        "LastUpdated": "2021-07-07T09:42:12.1324734Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Name": "state",
+    "Key": "Workflow",
+    "DisplayName": "State",
+    "ShortDisplayName": "State",
+    "Description": "State",
+    "CreatedOn": "2022-02-24T16:54:13.689Z",
+    "LastUpdated": "2022-02-24T16:54:13.689Z",
+    "Culture": ""
+  },
+  {
+    "Id": 5116,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Etat",
+    "ShortDisplayName": "Etat",
+    "Name": "state",
+    "Description": "Etat",
+    "LastUpdated": "2021-07-07T09:42:12.1316857Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "state",
+    "DisplayName": "Statut",
+    "ShortDisplayName": "Statut",
+    "Description": "Statut"
+  },
+  {
+    "Id": 4654,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Etat",
+    "ShortDisplayName": "Etat",
+    "Name": "state",
+    "Description": "Etat",
+    "LastUpdated": "2021-07-07T09:42:12.1281305Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 5217,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "fr-FR",
+    "DisplayName": "Statut",
+    "ShortDisplayName": "Statut",
+    "Name": "state",
+    "Description": "Statut",
+    "LastUpdated": "2021-07-07T09:42:12.1324734Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

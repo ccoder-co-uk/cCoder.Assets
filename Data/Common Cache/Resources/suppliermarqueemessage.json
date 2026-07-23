@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4755,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "Click here for news",
+    "ShortDisplayName": "suppliermarqueemessage",
+    "Name": "suppliermarqueemessage",
+    "Description": "suppliermarqueemessage",
+    "LastUpdated": "2021-07-07T09:42:12.1288826Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4600,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Cliquez ici pour acc\u00E9der aux derni\u00E8res informations",
+        "ShortDisplayName": "Cliquez ici pour acc\u00E9der aux derni\u00E8res informations",
+        "Name": "suppliermarqueemessage",
+        "Description": "Cliquez ici pour acc\u00E9der aux derni\u00E8res informations",
+        "LastUpdated": "2021-07-07T09:42:12.1277117Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4600,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Cliquez ici pour acc\u00E9der aux derni\u00E8res informations",
+    "ShortDisplayName": "Cliquez ici pour acc\u00E9der aux derni\u00E8res informations",
+    "Name": "suppliermarqueemessage",
+    "Description": "Cliquez ici pour acc\u00E9der aux derni\u00E8res informations",
+    "LastUpdated": "2021-07-07T09:42:12.1277117Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

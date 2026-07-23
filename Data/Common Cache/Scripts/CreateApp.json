@@ -1,0 +1,7 @@
+{
+  "Name": "CreateApp",
+  "Content": "function (args) {\r\n    var app = {\r\n        DefaultCultureId: args.DefaultCultureId,\r\n        Name: args.AppName,\r\n        Domain: args.AppPath,\r\n        DefaultTheme: args.DefaultTheme,\r\n        ConfigJson: JSON.stringify(args.ConfigJson, null, 2)\r\n    };\r\n    if (args.SourceSystem \u0026\u0026 app.ConfigJson.hasOwnProperty(\u0022B2B\u0022) \u0026\u0026 app.ConfigJson.B2B.hasOwnProperty(\u0022SourceSystem\u0022)) {\r\n        app.ConfigJson.B2B.SourceSystem = args.SourceSystem.Id;\r\n    }\r\n    if (args.TransactionSourceSystem \u0026\u0026 app.ConfigJson.hasOwnProperty(\u0022B2B\u0022) \u0026\u0026 app.ConfigJson.B2B.hasOwnProperty(\u0022TransactionSource\u0022)) {\r\n        app.ConfigJson.B2B.TransactionSource = args.TransactionSourceSystem.Id;\r\n    }\r\n    if (args.RootBucket \u0026\u0026 app.ConfigJson.hasOwnProperty(\u0022B2B\u0022) \u0026\u0026 app.ConfigJson.B2B.hasOwnProperty(\u0022RootBucket\u0022)) {\r\n        app.ConfigJson.B2B.RootBucket = args.RootBucket.Id;\r\n    }\r\n    return api.add(\u0022ContentManagement/App\u0022, app);\r\n}",
+  "CreatedOn": "2021-09-24T09:36:41.807Z",
+  "LastUpdated": "2021-09-24T09:36:41.807Z",
+  "Key": "Core"
+}

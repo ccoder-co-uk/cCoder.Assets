@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 7331,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Scheduling",
+    "ShortDisplayName": "Scheduling",
+    "Name": "Scheduling",
+    "Description": "Scheduling",
+    "LastUpdated": "2021-07-07T09:42:12.1350565Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7344,
+        "AppId": 4,
+        "Key": "CMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Programmer",
+        "ShortDisplayName": "Programmer",
+        "Name": "Scheduling",
+        "Description": "Programmer",
+        "LastUpdated": "2021-07-07T09:42:12.1351568Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 7344,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "fr-FR",
+    "DisplayName": "Programmer",
+    "ShortDisplayName": "Programmer",
+    "Name": "Scheduling",
+    "Description": "Programmer",
+    "LastUpdated": "2021-07-07T09:42:12.1351568Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

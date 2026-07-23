@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4859,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Face Value",
+    "ShortDisplayName": "Face Value",
+    "Name": "facevalue",
+    "Description": "Face Value",
+    "LastUpdated": "2021-07-07T09:42:12.1296927Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4691,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Montant T.T.C.",
+        "ShortDisplayName": "Montant T.T.C.",
+        "Name": "facevalue",
+        "Description": "Montant T.T.C.",
+        "LastUpdated": "2021-07-07T09:42:12.1284058Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4691,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Montant T.T.C.",
+    "ShortDisplayName": "Montant T.T.C.",
+    "Name": "facevalue",
+    "Description": "Montant T.T.C.",
+    "LastUpdated": "2021-07-07T09:42:12.1284058Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

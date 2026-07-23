@@ -1,0 +1,21 @@
+[
+  {
+    "Name": "funderpaymentdate",
+    "Key": "B2B",
+    "DisplayName": "Funder Payment Date",
+    "ShortDisplayName": "Funder Payment Date",
+    "Description": "Funder Payment Date",
+    "CreatedOn": "2021-09-06T14:02:05.267Z",
+    "LastUpdated": "2021-09-06T14:02:05.267Z"
+  },
+  {
+    "Name": "funderpaymentdate",
+    "Key": "B2B",
+    "DisplayName": "Date de paiement anticip\u00E9",
+    "ShortDisplayName": "Date de paiement anticip\u00E9",
+    "Description": "Date de paiement anticip\u00E9",
+    "CreatedOn": "2021-09-06T17:32:06.515Z",
+    "LastUpdated": "2021-09-06T17:32:06.515Z",
+    "Culture": "fr-FR"
+  }
+]

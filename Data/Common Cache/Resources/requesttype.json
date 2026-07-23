@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 7386,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Request Type",
+    "ShortDisplayName": "Request Type",
+    "Name": "requesttype",
+    "Description": "Request Type",
+    "LastUpdated": "2021-07-07T09:42:12.1354903Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 15858,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr",
+        "DisplayName": " Type de demande",
+        "ShortDisplayName": " Type de demande",
+        "Name": "requesttype",
+        "Description": "Request Type",
+        "LastUpdated": "2021-07-07T09:42:12.1357553Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 15858,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr",
+    "DisplayName": " Type de demande",
+    "ShortDisplayName": " Type de demande",
+    "Name": "requesttype",
+    "Description": "Request Type",
+    "LastUpdated": "2021-07-07T09:42:12.1357553Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

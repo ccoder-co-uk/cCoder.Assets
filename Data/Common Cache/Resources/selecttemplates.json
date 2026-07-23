@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "selecttemplates",
+    "Key": "CMS",
+    "DisplayName": "Select Templates",
+    "ShortDisplayName": "Select Templates",
+    "Description": "Select Templates",
+    "CreatedOn": "2022-11-14T12:36:14.907Z",
+    "LastUpdated": "2022-11-14T12:36:14.907Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "selecttemplates",
+    "DisplayName": "S\u00E9lectionner des Mod\u00E8les",
+    "ShortDisplayName": "S\u00E9lectionner des Mod\u00E8les",
+    "Description": "S\u00E9lectionner des Mod\u00E8les"
+  }
+]

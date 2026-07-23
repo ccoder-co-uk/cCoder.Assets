@@ -1,0 +1,9 @@
+{
+  "AppId": 11,
+  "ResourceKey": "B2B",
+  "Content": "",
+  "Script": "FinanceOffers = {\n    init: async function(app, container) {\n        \n    }\n}",
+  "Name": "FinanceOffers",
+  "Description": null,
+  "Key": "Funding"
+}

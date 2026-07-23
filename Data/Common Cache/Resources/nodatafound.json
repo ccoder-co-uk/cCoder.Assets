@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 5132,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "No Data Found",
+    "ShortDisplayName": "No Data Found",
+    "Name": "nodatafound",
+    "Description": "No Data Found",
+    "LastUpdated": "2021-07-07T09:42:12.1318094Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5133,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Aucune donn\u00E9e trouv\u00E9e",
+        "ShortDisplayName": "Aucune donn\u00E9e trouv\u00E9e",
+        "Name": "nodatafound",
+        "Description": "Aucune donn\u00E9e trouv\u00E9e",
+        "LastUpdated": "2021-07-07T09:42:12.1318168Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5133,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Aucune donn\u00E9e trouv\u00E9e",
+    "ShortDisplayName": "Aucune donn\u00E9e trouv\u00E9e",
+    "Name": "nodatafound",
+    "Description": "Aucune donn\u00E9e trouv\u00E9e",
+    "LastUpdated": "2021-07-07T09:42:12.1318168Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

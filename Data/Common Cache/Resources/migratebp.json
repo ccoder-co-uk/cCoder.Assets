@@ -1,0 +1,28 @@
+[
+  {
+    "Name": "migratebp",
+    "Key": "Workflow",
+    "DisplayName": "Migrate Business Processes",
+    "ShortDisplayName": "Migrate Business Processes",
+    "Description": "Migrate Business Processes",
+    "CreatedOn": "2022-11-14T15:26:14.205Z",
+    "LastUpdated": "2022-11-14T15:26:14.205Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "migratebp",
+    "DisplayName": "Migrate Business Processes",
+    "ShortDisplayName": "Migrate Business Processes",
+    "Description": "Migrate Business Processes"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Workflow",
+    "Name": "migratebp",
+    "DisplayName": "Migrer les Processus M\u00E9tier",
+    "ShortDisplayName": "Migrer les Processus M\u00E9tier",
+    "Description": "Migrer les Processus M\u00E9tier"
+  }
+]

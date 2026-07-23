@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4792,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "InvoiceType",
+    "ShortDisplayName": "invoicetype",
+    "Name": "invoicetype",
+    "Description": "invoicetype",
+    "LastUpdated": "2021-07-07T09:42:12.1291694Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4648,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Type de document",
+        "ShortDisplayName": "Type de document",
+        "Name": "invoicetype",
+        "Description": "Type de document",
+        "LastUpdated": "2021-07-07T09:42:12.1280837Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4648,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Type de document",
+    "ShortDisplayName": "Type de document",
+    "Name": "invoicetype",
+    "Description": "Type de document",
+    "LastUpdated": "2021-07-07T09:42:12.1280837Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

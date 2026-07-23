@@ -1,0 +1,38 @@
+[
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "dateformat",
+    "DisplayName": "dd MMM yyyy",
+    "ShortDisplayName": "dd MMM yyyy",
+    "Description": "dd MMM yyyy",
+    "LastUpdated": "2026-07-21T20:58:50.5895961\u002B00:00"
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Default",
+    "Name": "dateformat",
+    "DisplayName": "dd MMM yyyy",
+    "ShortDisplayName": "dd MMM yyyy",
+    "Description": "dd MMM yyyy",
+    "LastUpdated": "2026-07-21T20:58:52.118498\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "dateformat",
+    "DisplayName": "dd MMM yyyy",
+    "ShortDisplayName": "dd MMM yyyy",
+    "Description": "dd MMM yyyy",
+    "LastUpdated": "2026-07-21T20:58:53.6980248\u002B00:00"
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "dateformat",
+    "DisplayName": "dd MMM yyyy",
+    "ShortDisplayName": "dd MMM yyyy",
+    "Description": "dd MMM yyyy",
+    "LastUpdated": "2026-07-21T20:58:55.417518\u002B00:00"
+  }
+]

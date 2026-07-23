@@ -1,0 +1,6 @@
+{
+  "Name": "CreateSourceSystemScripts",
+  "Content": "async function (vars) {\r\n    vars.SourceSystemResult = (await getSystem({ Id: vars.SourceSystemId })).value;\r\n},\r\nasync function (vars) {\r\n    if (vars.SourceSystemResult.length === 0) {\r\n        vars.SourceSystem = await createSystem({\r\n            Id: vars.SourceSystemId,\r\n            Name: vars.SourceSystemId,\r\n            Description: \u0022Source System for \u0022 \u002B vars.AppName \u002B \u0022.\u0022 \u002B vars.AppType,\r\n            IsPublic: false\r\n        });\r\n    } else {\r\n        vars.SourceSystem = vars.SourceSystemResult[0];\r\n    }\r\n}",
+  "CreatedOn": "2021-09-24T09:38:57.509Z",
+  "LastUpdated": "2021-09-24T09:38:57.509Z"
+}

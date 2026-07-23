@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4512,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "",
+    "DisplayName": "JSON",
+    "ShortDisplayName": "JSON",
+    "Name": "json",
+    "Description": "json",
+    "LastUpdated": "2021-07-07T09:42:12.1270216Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5208,
+        "AppId": 4,
+        "Key": "Workflow",
+        "Culture": "fr-FR",
+        "DisplayName": "JSON",
+        "ShortDisplayName": "JSON",
+        "Name": "json",
+        "Description": "json",
+        "LastUpdated": "2021-07-07T09:42:12.1324054Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5208,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "fr-FR",
+    "DisplayName": "JSON",
+    "ShortDisplayName": "JSON",
+    "Name": "json",
+    "Description": "json",
+    "LastUpdated": "2021-07-07T09:42:12.1324054Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

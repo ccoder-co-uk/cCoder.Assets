@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 30415,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Account number",
+    "ShortDisplayName": "Account number",
+    "Name": "acocuntno",
+    "Description": "Account number",
+    "LastUpdated": "2021-07-07T09:42:12.1367771Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-04-21T10:56:01.4523216Z",
+    "CreatedBy": "Fabien Jacquot",
+    "Translations": [
+      {
+        "Id": 30416,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Num\u00E9ro de compte",
+        "ShortDisplayName": "Num\u00E9ro de compte",
+        "Name": "acocuntno",
+        "Description": "Num\u00E9ro de compte",
+        "LastUpdated": "2021-07-07T09:42:12.1367858Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "2021-04-21T10:57:54.1465498Z",
+        "CreatedBy": "Fabien Jacquot"
+      }
+    ]
+  },
+  {
+    "Id": 30416,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Num\u00E9ro de compte",
+    "ShortDisplayName": "Num\u00E9ro de compte",
+    "Name": "acocuntno",
+    "Description": "Num\u00E9ro de compte",
+    "LastUpdated": "2021-07-07T09:42:12.1367858Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-04-21T10:57:54.1465498Z",
+    "CreatedBy": "Fabien Jacquot"
+  }
+]

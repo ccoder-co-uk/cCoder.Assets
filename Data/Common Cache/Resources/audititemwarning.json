@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4838,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Warning",
+    "ShortDisplayName": "audititemwarning",
+    "Name": "audititemwarning",
+    "Description": "audititemwarning",
+    "LastUpdated": "2021-07-07T09:42:12.1295271Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5067,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Attention",
+        "ShortDisplayName": "Attention",
+        "Name": "audititemwarning",
+        "Description": "Attention",
+        "LastUpdated": "2021-07-07T09:42:12.1312971Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5067,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Attention",
+    "ShortDisplayName": "Attention",
+    "Name": "audititemwarning",
+    "Description": "Attention",
+    "LastUpdated": "2021-07-07T09:42:12.1312971Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

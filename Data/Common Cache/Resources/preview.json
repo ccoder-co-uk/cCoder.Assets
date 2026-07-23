@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "preview",
+    "Key": "CMS",
+    "DisplayName": "Preview",
+    "ShortDisplayName": "Preview",
+    "Description": "Preview",
+    "CreatedOn": "2023-01-04T11:49:35.679Z",
+    "LastUpdated": "2023-01-04T11:49:35.679Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "preview",
+    "DisplayName": "Aper\u00E7u",
+    "ShortDisplayName": "Aper\u00E7u",
+    "Description": "Aper\u00E7u"
+  }
+]

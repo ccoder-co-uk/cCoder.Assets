@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 4759,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Buyer Blocked",
+    "ShortDisplayName": "buyerblocked",
+    "Name": "buyerblocked",
+    "Description": "buyerblocked",
+    "LastUpdated": "2021-07-07T09:42:12.1289051Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4671,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "En attente",
+        "ShortDisplayName": "En attente",
+        "Name": "buyerblocked",
+        "Description": "En attente",
+        "LastUpdated": "2021-07-07T09:42:12.1282556Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 30685,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "Buyer Blocked",
+    "ShortDisplayName": "buyerblocked",
+    "Name": "buyerblocked",
+    "Description": "buyerblocked",
+    "LastUpdated": "2021-07-07T09:42:12.1388965Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3460091Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": [
+      {
+        "Id": 30548,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "En attente",
+        "ShortDisplayName": "En attente",
+        "Name": "buyerblocked",
+        "Description": "En attente",
+        "LastUpdated": "2021-07-07T09:42:12.137799Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "2021-07-06T17:35:47.3448727Z",
+        "CreatedBy": "callum.marshall"
+      }
+    ]
+  },
+  {
+    "Id": 4671,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "En attente",
+    "ShortDisplayName": "En attente",
+    "Name": "buyerblocked",
+    "Description": "En attente",
+    "LastUpdated": "2021-07-07T09:42:12.1282556Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 30548,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "En attente",
+    "ShortDisplayName": "En attente",
+    "Name": "buyerblocked",
+    "Description": "En attente",
+    "LastUpdated": "2021-07-07T09:42:12.137799Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3448727Z",
+    "CreatedBy": "callum.marshall"
+  }
+]

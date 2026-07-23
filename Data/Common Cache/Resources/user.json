@@ -1,0 +1,108 @@
+[
+  {
+    "Id": 4447,
+    "AppId": 4,
+    "Key": "Account",
+    "Culture": "",
+    "DisplayName": "User",
+    "ShortDisplayName": "User",
+    "Name": "user",
+    "Description": "User",
+    "LastUpdated": "2021-07-07T09:42:12.1265185Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5057,
+        "AppId": 4,
+        "Key": "Account",
+        "Culture": "fr-FR",
+        "DisplayName": "Utilisateur",
+        "ShortDisplayName": "Utilisateur",
+        "Name": "user",
+        "Description": "Utilisateur",
+        "LastUpdated": "2021-07-07T09:42:12.1312191Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4831,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "User",
+    "ShortDisplayName": "User",
+    "Name": "user",
+    "Description": "user",
+    "LastUpdated": "2021-07-07T09:42:12.129473Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5130,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Utilisateur",
+        "ShortDisplayName": "Utilisateur",
+        "Name": "user",
+        "Description": "Utilisateur",
+        "LastUpdated": "2021-07-07T09:42:12.1317944Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "user",
+    "DisplayName": "User",
+    "ShortDisplayName": "User",
+    "Description": "User",
+    "LastUpdated": "2022-03-18T10:41:54.1901243\u002B00:00"
+  },
+  {
+    "Id": 5057,
+    "AppId": 4,
+    "Key": "Account",
+    "Culture": "fr-FR",
+    "DisplayName": "Utilisateur",
+    "ShortDisplayName": "Utilisateur",
+    "Name": "user",
+    "Description": "Utilisateur",
+    "LastUpdated": "2021-07-07T09:42:12.1312191Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 5130,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Utilisateur",
+    "ShortDisplayName": "Utilisateur",
+    "Name": "user",
+    "Description": "Utilisateur",
+    "LastUpdated": "2021-07-07T09:42:12.1317944Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "user",
+    "DisplayName": "Utilisateur",
+    "ShortDisplayName": "Utilisateur",
+    "Description": "Utilisateur",
+    "LastUpdated": "2022-03-18T10:41:54.1895936\u002B00:00"
+  }
+]

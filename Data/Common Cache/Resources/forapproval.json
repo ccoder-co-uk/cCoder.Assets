@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 30589,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "For Approval",
+    "ShortDisplayName": "For Approval",
+    "Name": "ForApproval",
+    "Description": "For Approval",
+    "LastUpdated": "2021-07-08T14:53:42.2218711Z",
+    "LastUpdatedBy": "Fabien Jacquot",
+    "CreatedOn": "2021-07-06T17:35:47.346Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": [
+      {
+        "Id": 30882,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "En attente d\u0027approbation",
+        "ShortDisplayName": "En attente d\u0027approbation",
+        "Name": "ForApproval",
+        "Description": "En attente d\u0027approbation",
+        "LastUpdated": "2021-07-08T14:53:41.2000903Z",
+        "LastUpdatedBy": "Fabien Jacquot",
+        "CreatedOn": "2021-07-08T14:53:09.4018087Z",
+        "CreatedBy": "Fabien Jacquot"
+      }
+    ]
+  },
+  {
+    "Id": 30882,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "En attente d\u0027approbation",
+    "ShortDisplayName": "En attente d\u0027approbation",
+    "Name": "ForApproval",
+    "Description": "En attente d\u0027approbation",
+    "LastUpdated": "2021-07-08T14:53:41.2000903Z",
+    "LastUpdatedBy": "Fabien Jacquot",
+    "CreatedOn": "2021-07-08T14:53:09.4018087Z",
+    "CreatedBy": "Fabien Jacquot"
+  }
+]

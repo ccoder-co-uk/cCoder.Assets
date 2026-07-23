@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4885,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Offer total",
+    "ShortDisplayName": "offertotall",
+    "Name": "offertotall",
+    "Description": "offertotall",
+    "LastUpdated": "2021-07-07T09:42:12.1298947Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4625,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Offre totale du r\u00E8glement anticip\u00E9",
+        "ShortDisplayName": "Offre totale du r\u00E8glement anticip\u00E9",
+        "Name": "offertotall",
+        "Description": "Offre totale du r\u00E8glement anticip\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1279066Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4625,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Offre totale du r\u00E8glement anticip\u00E9",
+    "ShortDisplayName": "Offre totale du r\u00E8glement anticip\u00E9",
+    "Name": "offertotall",
+    "Description": "Offre totale du r\u00E8glement anticip\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.1279066Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

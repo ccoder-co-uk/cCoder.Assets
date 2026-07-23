@@ -1,0 +1,15 @@
+{
+  "Id": 30702,
+  "AppId": 4,
+  "Key": "CMS",
+  "Culture": "",
+  "DisplayName": "Select Component Categories",
+  "ShortDisplayName": "Select Component Categories",
+  "Name": "selectcomponentcategories",
+  "Description": "Select Component Categories",
+  "LastUpdated": "2021-07-07T09:42:12.1390172Z",
+  "LastUpdatedBy": "Guest",
+  "CreatedOn": "2021-07-06T17:35:47.3459029Z",
+  "CreatedBy": "callum.marshall",
+  "Translations": []
+}

@@ -1,0 +1,15 @@
+{
+  "Id": 30607,
+  "AppId": 4,
+  "Key": "B2B",
+  "Culture": "",
+  "DisplayName": "Submission Complete",
+  "ShortDisplayName": "Submission Complete",
+  "Name": "submissionsubmitted",
+  "Description": "Submission Complete, Thank you for your interest.",
+  "LastUpdated": "2021-07-07T09:42:12.1382605Z",
+  "LastUpdatedBy": "Guest",
+  "CreatedOn": "2021-07-06T17:35:47.3468282Z",
+  "CreatedBy": "callum.marshall",
+  "Translations": []
+}

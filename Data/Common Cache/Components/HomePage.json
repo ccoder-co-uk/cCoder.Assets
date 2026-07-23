@@ -1,0 +1,9 @@
+{
+  "Key": "Help",
+  "Name": "HomePage",
+  "ResourceKey": "Help",
+  "Content": "\u003Cheader\u003E\r\n\t\u003Chgroup\u003E\r\n\t\t\u003Ch2\u003EHome\u003C/h2\u003E\r\n\t\u003C/hgroup\u003E\r\n\u003C/header\u003E\r\n\t\u003Cp\u003EThe first screen to appear as a landing page after pressing the login button is \u0027Home\u0027 Summary page. It has three different summary grids (see image).\u003C/p\u003E\r\n\t\u003Cul\u003E\r\n\t\t\u003Cli\u003ESummary grid [1] \u003Cb\u003EFaurecia Invoices by State\u003C/b\u003E (see image) provides a quick analysis of invoices in different states and their corresponding amount\u0027s total.\u003C/li\u003E\r\n\t\t\u003Cli\u003ESummary grid [2] \u003Cb\u003ECash Forecast\u003C/b\u003E (see image) provides a summary of invoice\u0027s cash forecast on which a discount offer has been proposed, their corresponding quantity, and face value (EUR).\u003C/li\u003E\r\n\t\u003C/ul\u003E\r\n\t\u003Cfigure\u003E\r\n\r\n\t\t\u003Cimg class=\u0022enlarge\u0022 src=\u0022[api[root]]DMS/Content/Help/HomePage.png\u0022 /\u003E\r\n\t\t\u003Cfigcaption\u003E\u003Ci\u003EImage: Home Page\u003C/i\u003E\u003C/figcaption\u003E\r\n\t\u003C/figure\u003E",
+  "Script": "HomePage = {\r\n    init: async function (app, container ) {\r\n        app = app || session.app;\r\n        container = container || $(\u0022.component[name=HomePage]\u0022);\r\n    }\r\n}",
+  "CreatedOn": "2022-03-21T15:58:27.056Z",
+  "LastUpdated": "2022-03-21T15:58:27.056Z"
+}

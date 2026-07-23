@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "welcomemessage",
+    "DisplayName": "Welcome to the Corporate LinX demo portal!",
+    "ShortDisplayName": "Welcome to the Corporate LinX demo portal!",
+    "Description": "Welcome to the Corporate LinX demo portal!",
+    "LastUpdated": "2024-05-22T10:46:21.4817762\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Default",
+    "Name": "welcomemessage",
+    "DisplayName": "Welcome to the Corporate LinX demo portal!",
+    "ShortDisplayName": "Welcome to the Corporate LinX demo portal!",
+    "Description": "Welcome to the Corporate LinX demo portal!",
+    "LastUpdated": "2024-05-22T10:46:21.4876468\u002B00:00"
+  }
+]

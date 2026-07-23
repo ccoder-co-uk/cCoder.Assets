@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "showonmenus",
+    "DisplayName": "Show on Menu?",
+    "ShortDisplayName": "Show on Menu?",
+    "Description": "Show on Menu?",
+    "LastUpdated": "2022-03-18T10:41:54.189112\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "showonmenus",
+    "DisplayName": "Afficher dans le menu?",
+    "ShortDisplayName": "Afficher dans le menu?",
+    "Description": "Afficher dans le menu?",
+    "LastUpdated": "2022-03-18T10:41:54.1900407\u002B00:00"
+  }
+]

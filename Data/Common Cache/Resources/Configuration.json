@@ -1,0 +1,60 @@
+[
+  {
+    "Id": 7370,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Configuration",
+    "ShortDisplayName": "Configuration",
+    "Name": "Configuration",
+    "Description": "Configuration",
+    "LastUpdated": "2021-07-07T09:42:12.1353496Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7338,
+        "AppId": 4,
+        "Key": "CMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Configuration",
+        "ShortDisplayName": "Configuration",
+        "Name": "Configuration",
+        "Description": "Configuration",
+        "LastUpdated": "2021-07-07T09:42:12.1351106Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      },
+      {
+        "Id": 7339,
+        "AppId": 4,
+        "Key": "CMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Configuration",
+        "ShortDisplayName": "Configuration",
+        "Name": "Configuration",
+        "Description": "Configuration",
+        "LastUpdated": "2021-07-07T09:42:12.135118Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "2021-02-24T17:46:54.2331331Z",
+        "CreatedBy": "callum.marshall"
+      }
+    ]
+  },
+  {
+    "Id": 7338,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "fr-FR",
+    "DisplayName": "Configuration",
+    "ShortDisplayName": "Configuration",
+    "Name": "Configuration",
+    "Description": "Configuration",
+    "LastUpdated": "2021-07-07T09:42:12.1351106Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

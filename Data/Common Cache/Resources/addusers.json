@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "addusers",
+    "Key": "Account",
+    "DisplayName": "Add Users",
+    "ShortDisplayName": "Add Users",
+    "Description": "Add Users",
+    "CreatedOn": "2023-01-04T11:16:37.663Z",
+    "LastUpdated": "2023-01-04T11:16:37.663Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "addusers",
+    "DisplayName": " Ajouter des utilisateurs",
+    "ShortDisplayName": " Ajouter des utilisateurs",
+    "Description": " Ajouter des utilisateurs"
+  }
+]

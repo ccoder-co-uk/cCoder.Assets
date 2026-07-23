@@ -1,0 +1,38 @@
+[
+  {
+    "Name": "approved",
+    "Key": "B2B",
+    "DisplayName": "Approved",
+    "ShortDisplayName": "Approved",
+    "Description": "Approved",
+    "CreatedOn": "2021-11-02T11:19:45.848Z",
+    "LastUpdated": "2021-11-02T11:19:45.848Z",
+    "Culture": ""
+  },
+  {
+    "Name": "approved",
+    "Key": "Default",
+    "DisplayName": "Approved",
+    "ShortDisplayName": "Approved",
+    "Description": "Approved",
+    "CreatedOn": "2021-11-02T12:07:28.777Z",
+    "LastUpdated": "2021-11-02T12:07:28.777Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "approved",
+    "DisplayName": "Approuv\u00E9(e)s",
+    "ShortDisplayName": "Approuv\u00E9(e)s",
+    "Description": "Approuv\u00E9(e)s"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Default",
+    "Name": "approved",
+    "DisplayName": "Approuv\u00E9(e)s",
+    "ShortDisplayName": "Approuv\u00E9(e)s",
+    "Description": "Approuv\u00E9(e)s"
+  }
+]

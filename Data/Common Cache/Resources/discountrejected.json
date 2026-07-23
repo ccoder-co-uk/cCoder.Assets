@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 5249,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Discount rejected",
+    "ShortDisplayName": "Discount rejected",
+    "Name": "discountrejected",
+    "Description": "Discount rejected",
+    "LastUpdated": "2021-07-07T09:42:12.1327196Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5257,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Escompte refus\u00E9",
+        "ShortDisplayName": "Escompte refus\u00E9",
+        "Name": "discountrejected",
+        "Description": "Escompte refus\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1327806Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4760,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "Discount Rejected",
+    "ShortDisplayName": "discountrejected",
+    "Name": "discountrejected",
+    "Description": "discountrejected",
+    "LastUpdated": "2021-07-07T09:42:12.1289127Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4700,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "R\u00E8glement rejet\u00E9",
+        "ShortDisplayName": "R\u00E8glement rejet\u00E9",
+        "Name": "discountrejected",
+        "Description": "R\u00E8glement rejet\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1284774Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5257,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Escompte refus\u00E9",
+    "ShortDisplayName": "Escompte refus\u00E9",
+    "Name": "discountrejected",
+    "Description": "Escompte refus\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.1327806Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 4700,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "R\u00E8glement rejet\u00E9",
+    "ShortDisplayName": "R\u00E8glement rejet\u00E9",
+    "Name": "discountrejected",
+    "Description": "R\u00E8glement rejet\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.1284774Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

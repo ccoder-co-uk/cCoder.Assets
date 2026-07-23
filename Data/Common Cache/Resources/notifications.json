@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "notifications",
+    "Key": "CMS",
+    "DisplayName": "Notifications",
+    "ShortDisplayName": "Notifications",
+    "Description": "Notifications",
+    "CreatedOn": "2022-11-21T10:37:21.448Z",
+    "LastUpdated": "2022-11-21T10:37:21.448Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "notifications",
+    "DisplayName": "Notifications",
+    "ShortDisplayName": "Notifications",
+    "Description": "Notifications"
+  }
+]

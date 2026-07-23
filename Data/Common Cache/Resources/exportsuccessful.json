@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4610,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Export successful",
+    "ShortDisplayName": "Export Successful",
+    "Name": "exportsuccessful",
+    "Description": "exportsuccessful",
+    "LastUpdated": "2021-07-07T09:42:12.1277888Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5181,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Export r\u00E9ussi",
+        "ShortDisplayName": "Export r\u00E9ussi",
+        "Name": "exportsuccessful",
+        "Description": "Export r\u00E9ussi",
+        "LastUpdated": "2021-07-07T09:42:12.1321865Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5181,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "fr-FR",
+    "DisplayName": "Export r\u00E9ussi",
+    "ShortDisplayName": "Export r\u00E9ussi",
+    "Name": "exportsuccessful",
+    "Description": "Export r\u00E9ussi",
+    "LastUpdated": "2021-07-07T09:42:12.1321865Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

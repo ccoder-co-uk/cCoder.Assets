@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4855,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Invoice Number",
+    "ShortDisplayName": "invoicenumber",
+    "Name": "invoicenumber",
+    "Description": "invoicenumber",
+    "LastUpdated": "2021-07-07T09:42:12.129661Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4661,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "R\u00E9f\u00E9rence document",
+        "ShortDisplayName": "R\u00E9f\u00E9rence document",
+        "Name": "invoicenumber",
+        "Description": "R\u00E9f\u00E9rence document",
+        "LastUpdated": "2021-07-07T09:42:12.1281847Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4661,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "R\u00E9f\u00E9rence document",
+    "ShortDisplayName": "R\u00E9f\u00E9rence document",
+    "Name": "invoicenumber",
+    "Description": "R\u00E9f\u00E9rence document",
+    "LastUpdated": "2021-07-07T09:42:12.1281847Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

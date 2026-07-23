@@ -1,0 +1,9 @@
+{
+  "AppId": 11,
+  "ResourceKey": "DMS",
+  "Content": "   \u003Cdiv name=\u0022tabs\u0022\u003E\n      \u003Cul\u003E\n         \u003Cli class=\u0022k-state-active\u0022\u003E\u003Cspan class=\u0027k-icon k-i-user\u0027\u003E\u003C/span\u003E[resource_displayname[roles]]\u003C/li\u003E\n         \u003Cli\u003E\u003Cspan class=\u0022k-icon k-i-calendar\u0022\u003E\u003C/span\u003E[resource_displayname[events]]\u003C/li\u003E\n      \u003C/ul\u003E\n      \u003Cdiv class=\u0022tab\u0022 name=\u0022roles\u0022\u003E\n         [component[FolderRoles]]\n      \u003C/div\u003E\n      \u003Cdiv class=\u0022tab\u0022 name=\u0022events\u0022\u003E\n         [component[FolderEventManager]]\n      \u003C/div\u003E\n   \u003C/div\u003E\n\n\u003Cstyle scoped\u003E\n\t.tab { width: 100%; height: 100%; }\n\u003C/style\u003E\n\u003Cstyle\u003E\n   .component[name=FolderProperties] { display: flex; flex: 1; flex-direction: column; }\n\u003C/style\u003E",
+  "Script": "FolderProperties = {\n    init: async function (app, container, folder) {\n        app = app || session.app;\n        container = container || $(\u0022.component[name=FolderProperties]\u0022);\n        $(\u0022[name=tabs]\u0022, container).kendoTabStrip({ animation: { open: { effects: \u0022fadeIn\u0022 } } });\n\n        FolderRoles.init(app, $(\u0022.component[name=FolderRoles]\u0022, $(\u0022[name=roles]\u0022, container)), folder);\n        FolderEventManager.init(app, $(\u0022.component[name=FolderEventManager]\u0022, $(\u0022[name=events]\u0022, container)), folder);\n    }\n}",
+  "Name": "FolderProperties",
+  "Description": null,
+  "Key": "Document Management"
+}

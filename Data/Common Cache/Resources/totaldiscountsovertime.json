@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4587,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Total Discounts",
+    "ShortDisplayName": "totaldiscountsovertime",
+    "Name": "totaldiscountsovertime",
+    "Description": "totaldiscountsovertime",
+    "LastUpdated": "2021-07-07T09:42:12.1276093Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4918,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Montant total des escomptes",
+        "ShortDisplayName": "Montant total des escomptes",
+        "Name": "totaldiscountsovertime",
+        "Description": "Montant total des escomptes",
+        "LastUpdated": "2021-07-07T09:42:12.130151Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4918,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Montant total des escomptes",
+    "ShortDisplayName": "Montant total des escomptes",
+    "Name": "totaldiscountsovertime",
+    "Description": "Montant total des escomptes",
+    "LastUpdated": "2021-07-07T09:42:12.130151Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

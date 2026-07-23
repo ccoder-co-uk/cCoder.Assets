@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "migrateapp",
+    "DisplayName": "Migrate App",
+    "ShortDisplayName": "Migrate App",
+    "Description": "migrateapp",
+    "LastUpdated": "2022-03-18T10:41:54.1904338\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "migrateapp",
+    "DisplayName": "Migrer l\u0027application",
+    "ShortDisplayName": "Migrer l\u0027application",
+    "Description": "Migrer l\u0027application",
+    "LastUpdated": "2022-03-18T10:41:54.1899526\u002B00:00"
+  }
+]

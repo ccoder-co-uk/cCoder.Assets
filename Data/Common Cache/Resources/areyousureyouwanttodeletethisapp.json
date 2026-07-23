@@ -1,0 +1,50 @@
+[
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "areyousureyouwanttodeletethisapp",
+    "DisplayName": "Are you sure you want to delete this App? It cannot be reversed.",
+    "ShortDisplayName": "Are you sure you want to delete this App? It cannot be reversed.",
+    "Description": "Are you sure you want to delete this App? It cannot be reversed.",
+    "LastUpdated": "2022-03-18T10:41:54.1901696\u002B00:00"
+  },
+  {
+    "Id": 5988,
+    "AppId": 4,
+    "Key": "Core",
+    "Culture": "",
+    "DisplayName": "Are you sure you want to delete this App? It cannot be undone.",
+    "ShortDisplayName": "Are you sure you want to delete this App? It cannot be undone.",
+    "Name": "areyousureyouwanttodeletethisapp",
+    "Description": "Are you sure you want to delete this App? It cannot be undone.",
+    "LastUpdated": "2021-07-07T09:42:12.1345322Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": []
+  },
+  {
+    "Id": 30477,
+    "AppId": 4,
+    "Key": "Default",
+    "Culture": "",
+    "DisplayName": "Are you sure you want to delete this App? It cannot be undone.",
+    "ShortDisplayName": "Are you sure you want to delete this App? It cannot be undone.",
+    "Name": "areyousureyouwanttodeletethisapp",
+    "Description": "Are you sure you want to delete this App? It cannot be undone.",
+    "LastUpdated": "2021-07-07T09:42:12.1372399Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3454886Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "areyousureyouwanttodeletethisapp",
+    "DisplayName": "Voulez-vous vraiment supprimer cette application? Il ne peut pas \u00C3\u00AAtre invers\u00C3\u00A9.",
+    "ShortDisplayName": "Voulez-vous vraiment supprimer cette application? Il ne peut pas \u00C3\u00AAtre invers\u00C3\u00A9.",
+    "Description": "Voulez-vous vraiment supprimer cette application? Il ne peut pas \u00C3\u00AAtre invers\u00C3\u00A9.",
+    "LastUpdated": "2022-03-18T10:41:54.1900614\u002B00:00"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4891,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Proposed Offers",
+    "ShortDisplayName": "proposedoffers",
+    "Name": "proposedoffers",
+    "Description": "proposedoffers",
+    "LastUpdated": "2021-07-07T09:42:12.1299399Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4617,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Factures disponibles pour r\u00E8glement anticip\u00E9",
+        "ShortDisplayName": "Factures disponibles pour r\u00E8glement anticip\u00E9",
+        "Name": "proposedoffers",
+        "Description": "Factures disponibles pour r\u00E8glement anticip\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1278431Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4617,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Factures disponibles pour r\u00E8glement anticip\u00E9",
+    "ShortDisplayName": "Factures disponibles pour r\u00E8glement anticip\u00E9",
+    "Name": "proposedoffers",
+    "Description": "Factures disponibles pour r\u00E8glement anticip\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.1278431Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

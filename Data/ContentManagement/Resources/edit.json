@@ -1,0 +1,29 @@
+[
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "edit",
+    "DisplayName": "Edit",
+    "ShortDisplayName": "Edit",
+    "Description": "Edit",
+    "LastUpdated": "2022-03-18T10:41:54.1911809\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "edit",
+    "DisplayName": "Edit",
+    "ShortDisplayName": "Edit",
+    "Description": "Edit",
+    "LastUpdated": "2026-07-21T21:09:42.3027886\u002B00:00"
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Workflow",
+    "Name": "edit",
+    "DisplayName": "Edit",
+    "ShortDisplayName": "Edit",
+    "Description": "Edit",
+    "LastUpdated": "2026-07-21T21:09:43.9171317\u002B00:00"
+  }
+]

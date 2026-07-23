@@ -1,0 +1,185 @@
+[
+  {
+    "Id": 30522,
+    "AppId": 4,
+    "Key": "Account",
+    "Culture": "",
+    "DisplayName": "Delete",
+    "ShortDisplayName": "Delete",
+    "Name": "delete",
+    "Description": "Delete",
+    "LastUpdated": "2021-07-07T09:42:12.1376008Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3445427Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Id": 4536,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Delete",
+    "ShortDisplayName": "Delete",
+    "Name": "delete",
+    "Description": "Delete",
+    "LastUpdated": "2021-07-07T09:42:12.1272065Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5087,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Supprimer",
+        "ShortDisplayName": "Supprimer",
+        "Name": "delete",
+        "Description": "Supprimer",
+        "LastUpdated": "2021-07-07T09:42:12.131463Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "delete",
+    "DisplayName": "Delete",
+    "ShortDisplayName": "Delete",
+    "Description": "delete",
+    "LastUpdated": "2022-03-18T10:41:54.1904978\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "delete",
+    "DisplayName": "Delete",
+    "ShortDisplayName": "Delete",
+    "Description": "Delete",
+    "LastUpdated": "2022-03-18T10:41:54.1911558\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Debug",
+    "Name": "delete",
+    "DisplayName": "Delete",
+    "ShortDisplayName": "Delete",
+    "Description": "Delete",
+    "LastUpdated": "2023-07-04T13:25:27.3691088\u002B01:00"
+  },
+  {
+    "Id": 5356,
+    "AppId": 4,
+    "Key": "DMS",
+    "Culture": "",
+    "DisplayName": "Delete",
+    "ShortDisplayName": "Delete",
+    "Name": "delete",
+    "Description": "Delete",
+    "LastUpdated": "2021-07-07T09:42:12.1335501Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5357,
+        "AppId": 4,
+        "Key": "DMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Effacer",
+        "ShortDisplayName": "Effacer",
+        "Name": "delete",
+        "Description": "Effacer",
+        "LastUpdated": "2021-07-07T09:42:12.1335574Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4529,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "",
+    "DisplayName": "Delete",
+    "ShortDisplayName": "delete",
+    "Name": "delete",
+    "Description": "delete",
+    "LastUpdated": "2021-07-07T09:42:12.1271528Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4704,
+        "AppId": 4,
+        "Key": "Workflow",
+        "Culture": "fr-FR",
+        "DisplayName": "Effacer",
+        "ShortDisplayName": "Effacer",
+        "Name": "delete",
+        "Description": "Effacer",
+        "LastUpdated": "2021-07-07T09:42:12.1285003Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5087,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Supprimer",
+    "ShortDisplayName": "Supprimer",
+    "Name": "delete",
+    "Description": "Supprimer",
+    "LastUpdated": "2021-07-07T09:42:12.131463Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "delete",
+    "DisplayName": "Effacer",
+    "ShortDisplayName": "Effacer",
+    "Description": "Effacer",
+    "LastUpdated": "2022-03-18T10:41:54.1895566\u002B00:00"
+  },
+  {
+    "Id": 5357,
+    "AppId": 4,
+    "Key": "DMS",
+    "Culture": "fr-FR",
+    "DisplayName": "Effacer",
+    "ShortDisplayName": "Effacer",
+    "Name": "delete",
+    "Description": "Effacer",
+    "LastUpdated": "2021-07-07T09:42:12.1335574Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 4704,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "fr-FR",
+    "DisplayName": "Effacer",
+    "ShortDisplayName": "Effacer",
+    "Name": "delete",
+    "Description": "Effacer",
+    "LastUpdated": "2021-07-07T09:42:12.1285003Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

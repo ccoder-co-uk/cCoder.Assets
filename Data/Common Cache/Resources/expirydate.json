@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 30712,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Expiry Date",
+    "ShortDisplayName": "Expiry Date",
+    "Name": "expirydate",
+    "Description": "Expiry Date",
+    "LastUpdated": "2021-07-07T09:42:12.1390892Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3444406Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": [
+      {
+        "Id": 30533,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Date limite",
+        "ShortDisplayName": "Date limite",
+        "Name": "expirydate",
+        "Description": "Date limite",
+        "LastUpdated": "2021-07-07T09:42:12.1376835Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "2021-07-06T17:35:47.3444494Z",
+        "CreatedBy": "callum.marshall"
+      }
+    ]
+  },
+  {
+    "Id": 30533,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Date limite",
+    "ShortDisplayName": "Date limite",
+    "Name": "expirydate",
+    "Description": "Date limite",
+    "LastUpdated": "2021-07-07T09:42:12.1376835Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3444494Z",
+    "CreatedBy": "callum.marshall"
+  }
+]

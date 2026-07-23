@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4606,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Rejected",
+    "ShortDisplayName": "Rejected",
+    "Name": "state_rejected",
+    "Description": "state_rejected",
+    "LastUpdated": "2021-07-07T09:42:12.1277587Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5197,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Rejet\u00E9(e)",
+        "ShortDisplayName": "Rejet\u00E9(e)",
+        "Name": "state_rejected",
+        "Description": "Rejet\u00E9(e)",
+        "LastUpdated": "2021-07-07T09:42:12.1323085Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5197,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "fr-FR",
+    "DisplayName": "Rejet\u00E9(e)",
+    "ShortDisplayName": "Rejet\u00E9(e)",
+    "Name": "state_rejected",
+    "Description": "Rejet\u00E9(e)",
+    "LastUpdated": "2021-07-07T09:42:12.1323085Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

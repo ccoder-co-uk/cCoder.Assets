@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "renamefoldertitle",
+    "DisplayName": "Renommer le dossier",
+    "ShortDisplayName": "Renommer le dossier",
+    "Description": "Renommer le dossier",
+    "LastUpdated": "2022-03-18T10:41:54.1906711\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "DMS",
+    "Name": "renamefoldertitle",
+    "DisplayName": "Rename Folder",
+    "ShortDisplayName": "Rename Folder",
+    "Description": "Rename Folder",
+    "LastUpdated": "2022-03-18T10:41:54.1906825\u002B00:00"
+  }
+]

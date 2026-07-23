@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4785,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "There is",
+    "ShortDisplayName": "amounteligibleincutofftextpt1",
+    "Name": "amounteligibleincutofftextpt1",
+    "Description": "amounteligibleincutofftextpt1",
+    "LastUpdated": "2021-07-07T09:42:12.1291151Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4550,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Il y a",
+        "ShortDisplayName": "Il y a",
+        "Name": "amounteligibleincutofftextpt1",
+        "Description": "Il y a",
+        "LastUpdated": "2021-07-07T09:42:12.1273139Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4550,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Il y a",
+    "ShortDisplayName": "Il y a",
+    "Name": "amounteligibleincutofftextpt1",
+    "Description": "Il y a",
+    "LastUpdated": "2021-07-07T09:42:12.1273139Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

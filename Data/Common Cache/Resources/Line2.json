@@ -1,0 +1,15 @@
+{
+  "Id": 30456,
+  "AppId": 4,
+  "Key": "B2B",
+  "Culture": "",
+  "DisplayName": "Address Line 2",
+  "ShortDisplayName": "Address Line 2",
+  "Name": "Line2",
+  "Description": "Address Line 2",
+  "LastUpdated": "2021-07-07T09:42:12.1370768Z",
+  "LastUpdatedBy": "Guest",
+  "CreatedOn": "2021-07-06T17:35:47.3450016Z",
+  "CreatedBy": "callum.marshall",
+  "Translations": []
+}

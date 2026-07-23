@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4519,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "",
+    "DisplayName": "Business Process Created",
+    "ShortDisplayName": "Business Process Created",
+    "Name": "businessprocesscreated",
+    "Description": "Business Process Created",
+    "LastUpdated": "2021-07-07T09:42:12.1270754Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5202,
+        "AppId": 4,
+        "Key": "Workflow",
+        "Culture": "fr-FR",
+        "DisplayName": "Processus m\u00E9tier cr\u00E9\u00E9",
+        "ShortDisplayName": "Processus m\u00E9tier cr\u00E9\u00E9",
+        "Name": "businessprocesscreated",
+        "Description": "Processus m\u00E9tier cr\u00E9\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1323472Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5202,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "fr-FR",
+    "DisplayName": "Processus m\u00E9tier cr\u00E9\u00E9",
+    "ShortDisplayName": "Processus m\u00E9tier cr\u00E9\u00E9",
+    "Name": "businessprocesscreated",
+    "Description": "Processus m\u00E9tier cr\u00E9\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.1323472Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

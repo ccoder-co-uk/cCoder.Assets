@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4854,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Total Early Payment Value",
+    "ShortDisplayName": "totalearlypaymentvalue",
+    "Name": "totalearlypaymentvalue",
+    "Description": "totalearlypaymentvalue",
+    "LastUpdated": "2021-07-07T09:42:12.1296534Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4646,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Valeur totale du r\u00E8glement anticip\u00E9",
+        "ShortDisplayName": "Valeur totale du r\u00E8glement anticip\u00E9",
+        "Name": "totalearlypaymentvalue",
+        "Description": "Valeur totale du r\u00E8glement anticip\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1280687Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4646,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Valeur totale du r\u00E8glement anticip\u00E9",
+    "ShortDisplayName": "Valeur totale du r\u00E8glement anticip\u00E9",
+    "Name": "totalearlypaymentvalue",
+    "Description": "Valeur totale du r\u00E8glement anticip\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.1280687Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 4711,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Credit Note",
+    "ShortDisplayName": "CN",
+    "Name": "creditnote",
+    "Description": "creditnote",
+    "LastUpdated": "2021-07-07T09:42:12.1285548Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4696,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Avoir",
+        "ShortDisplayName": "Avoir",
+        "Name": "creditnote",
+        "Description": "Avoir",
+        "LastUpdated": "2021-07-07T09:42:12.1284451Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5155,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "Credit Note",
+    "ShortDisplayName": "Credit Note",
+    "Name": "creditnote",
+    "Description": "Avoir",
+    "LastUpdated": "2021-07-07T09:42:12.1319869Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5218,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Note de cr\u00E9dit",
+        "ShortDisplayName": "Avoir",
+        "Name": "creditnote",
+        "Description": "Avoir",
+        "LastUpdated": "2021-07-07T09:42:12.1324808Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4696,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Avoir",
+    "ShortDisplayName": "Avoir",
+    "Name": "creditnote",
+    "Description": "Avoir",
+    "LastUpdated": "2021-07-07T09:42:12.1284451Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 5218,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Note de cr\u00E9dit",
+    "ShortDisplayName": "Avoir",
+    "Name": "creditnote",
+    "Description": "Avoir",
+    "LastUpdated": "2021-07-07T09:42:12.1324808Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

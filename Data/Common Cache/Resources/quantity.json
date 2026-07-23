@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4845,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Quantitiy",
+    "ShortDisplayName": "Quanitity",
+    "Name": "quantity",
+    "Description": "quantity",
+    "LastUpdated": "2021-07-07T09:42:12.1295818Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5110,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Quantit\u00E9",
+        "ShortDisplayName": "Quantit\u00E9",
+        "Name": "quantity",
+        "Description": "Quantit\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1316395Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5110,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Quantit\u00E9",
+    "ShortDisplayName": "Quantit\u00E9",
+    "Name": "quantity",
+    "Description": "Quantit\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.1316395Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

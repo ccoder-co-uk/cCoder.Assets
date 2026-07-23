@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4574,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Address 2",
+    "ShortDisplayName": "address2",
+    "Name": "address2",
+    "Description": "address2",
+    "LastUpdated": "2021-07-07T09:42:12.1275087Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5173,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Adresse 2",
+        "ShortDisplayName": "Adresse 2",
+        "Name": "address2",
+        "Description": "Adresse 2 ",
+        "LastUpdated": "2021-07-07T09:42:12.1321237Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5173,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "fr-FR",
+    "DisplayName": "Adresse 2",
+    "ShortDisplayName": "Adresse 2",
+    "Name": "address2",
+    "Description": "Adresse 2 ",
+    "LastUpdated": "2021-07-07T09:42:12.1321237Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

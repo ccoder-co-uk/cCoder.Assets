@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "newlayout",
+    "DisplayName": "New Layout",
+    "ShortDisplayName": "New Layout",
+    "Description": "New Layout",
+    "LastUpdated": "2022-03-18T10:41:54.1891566\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "newlayout",
+    "DisplayName": "Nouvelle pr\u00E9sentation",
+    "ShortDisplayName": "Nouvelle pr\u00E9sentation",
+    "Description": "Nouvelle pr\u00E9sentation",
+    "LastUpdated": "2022-03-18T10:41:54.1900708\u002B00:00"
+  }
+]

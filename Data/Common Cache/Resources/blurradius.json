@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "blurradius",
+    "Key": "CMS",
+    "DisplayName": "Blur Radius",
+    "ShortDisplayName": "Blur Radius",
+    "Description": "Blur Radius",
+    "CreatedOn": "2021-11-19T22:02:33.729Z",
+    "LastUpdated": "2021-11-19T22:02:33.729Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "blurradius",
+    "DisplayName": "Rayon de flou",
+    "ShortDisplayName": "Rayon de flou",
+    "Description": "Rayon de flou"
+  }
+]

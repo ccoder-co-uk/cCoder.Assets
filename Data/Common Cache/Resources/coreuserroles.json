@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "coreuserroles",
+    "Key": "B2B",
+    "DisplayName": "Core User Roles",
+    "ShortDisplayName": "Core User Roles",
+    "Description": "Core User Roles",
+    "CreatedOn": "2021-11-02T11:02:15.153Z",
+    "LastUpdated": "2021-11-02T11:02:15.153Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "coreuserroles",
+    "DisplayName": "R\u00F4les utilisateurs s\u00E9lectionn\u00E9s",
+    "ShortDisplayName": "R\u00F4les utilisateurs s\u00E9lectionn\u00E9s",
+    "Description": "R\u00F4les utilisateurs s\u00E9lectionn\u00E9s"
+  }
+]

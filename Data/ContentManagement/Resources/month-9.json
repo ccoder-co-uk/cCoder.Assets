@@ -1,0 +1,38 @@
+[
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "month-9",
+    "DisplayName": "September",
+    "ShortDisplayName": "September",
+    "Description": "September",
+    "LastUpdated": "2026-07-21T20:58:51.726485\u002B00:00"
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Default",
+    "Name": "month-9",
+    "DisplayName": "September",
+    "ShortDisplayName": "September",
+    "Description": "September",
+    "LastUpdated": "2026-07-21T20:58:53.2892617\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-9",
+    "DisplayName": "September",
+    "ShortDisplayName": "September",
+    "Description": "September",
+    "LastUpdated": "2026-07-21T20:58:54.8490363\u002B00:00"
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "month-9",
+    "DisplayName": "September",
+    "ShortDisplayName": "September",
+    "Description": "September",
+    "LastUpdated": "2026-07-21T20:58:56.2981305\u002B00:00"
+  }
+]

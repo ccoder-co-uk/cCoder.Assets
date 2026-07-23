@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "selectapp",
+    "Key": "CMS",
+    "DisplayName": "Select App",
+    "ShortDisplayName": "Select App",
+    "Description": "Select App",
+    "CreatedOn": "2022-11-14T12:40:40.380Z",
+    "LastUpdated": "2022-11-14T12:40:40.380Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "selectapp",
+    "DisplayName": "Select App",
+    "ShortDisplayName": "Select App",
+    "Description": "Select App"
+  }
+]

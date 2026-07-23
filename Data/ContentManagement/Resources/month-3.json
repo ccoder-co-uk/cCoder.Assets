@@ -1,0 +1,38 @@
+[
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-3",
+    "DisplayName": "March",
+    "ShortDisplayName": "March",
+    "Description": "March",
+    "LastUpdated": "2026-07-21T20:58:54.1506139\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "month-3",
+    "DisplayName": "March",
+    "ShortDisplayName": "March",
+    "Description": "March",
+    "LastUpdated": "2026-07-21T20:58:50.9900197\u002B00:00"
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Default",
+    "Name": "month-3",
+    "DisplayName": "March",
+    "ShortDisplayName": "March",
+    "Description": "March",
+    "LastUpdated": "2026-07-21T20:58:52.583768\u002B00:00"
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "month-3",
+    "DisplayName": "March",
+    "ShortDisplayName": "March",
+    "Description": "March",
+    "LastUpdated": "2026-07-21T20:58:55.8674491\u002B00:00"
+  }
+]

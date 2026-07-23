@@ -1,0 +1,7 @@
+{
+  "Name": "ImportBelFundingMappings",
+  "Content": "var grid = $($(\u0022.component[name=FundingMappingManagement]\u0022).children()[4]).data(\u0022kendoGrid\u0022);\r\nvar dmsData = JSON.parse(await api.get(\u0022DMS/Data/Transactions/fundingMappings.json\u0022));\r\nfor (var i = 0; i \u003C k.length; i = i \u002B 1) {\r\n    grid.dataSource.insert(0, {\r\n        Reference: k[i].BuyerCompanyCode \u002B \u0022_\u0022 \u002B k[i].SupplierCompanyCode,\r\n        Formula: dmsData.filter(r =\u003E r.Reference == k[i].DiscountCode)[0].Formula\r\n    });\r\n}",
+  "CreatedOn": "2021-09-24T09:45:42.558Z",
+  "LastUpdated": "2021-09-24T09:45:42.558Z",
+  "Key": "B2B"
+}

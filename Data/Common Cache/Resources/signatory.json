@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 30405,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Signatory Details",
+    "ShortDisplayName": "Signatory Details",
+    "Name": "signatory",
+    "Description": "Signatory Details",
+    "LastUpdated": "2021-07-07T09:42:12.1367003Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 30406,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Informations sur le signataire du contrat",
+        "ShortDisplayName": "Informations sur le signataire du contrat",
+        "Name": "signatory",
+        "Description": "Informations sur le signataire du contrat",
+        "LastUpdated": "2021-07-07T09:42:12.1367077Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 30406,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Informations sur le signataire du contrat",
+    "ShortDisplayName": "Informations sur le signataire du contrat",
+    "Name": "signatory",
+    "Description": "Informations sur le signataire du contrat",
+    "LastUpdated": "2021-07-07T09:42:12.1367077Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

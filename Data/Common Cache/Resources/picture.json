@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "picture",
+    "Key": "CMS",
+    "DisplayName": "Picture",
+    "ShortDisplayName": "Picture",
+    "Description": "Picture",
+    "CreatedOn": "2022-11-22T11:55:10.347Z",
+    "LastUpdated": "2022-11-22T11:55:10.347Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "picture",
+    "DisplayName": "Image",
+    "ShortDisplayName": "Image",
+    "Description": "Image"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4802,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "There is",
+    "ShortDisplayName": "amounteligibletextpt1",
+    "Name": "amounteligibletextpt1",
+    "Description": "amounteligibletextpt1",
+    "LastUpdated": "2021-07-07T09:42:12.1292492Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4677,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Il reste",
+        "ShortDisplayName": "\tIl reste",
+        "Name": "amounteligibletextpt1",
+        "Description": "\tIl reste",
+        "LastUpdated": "2021-07-07T09:42:12.1283007Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4677,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Il reste",
+    "ShortDisplayName": "\tIl reste",
+    "Name": "amounteligibletextpt1",
+    "Description": "\tIl reste",
+    "LastUpdated": "2021-07-07T09:42:12.1283007Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

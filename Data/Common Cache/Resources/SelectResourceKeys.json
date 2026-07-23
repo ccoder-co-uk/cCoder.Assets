@@ -1,0 +1,15 @@
+{
+  "Id": 30683,
+  "AppId": 4,
+  "Key": "CMS",
+  "Culture": "",
+  "DisplayName": "Select Resource Keys",
+  "ShortDisplayName": "Select Resource Keys",
+  "Name": "SelectResourceKeys",
+  "Description": "Select Resource Keys",
+  "LastUpdated": "2021-07-07T09:42:12.1388812Z",
+  "LastUpdatedBy": "Guest",
+  "CreatedOn": "2021-07-06T17:35:47.3460514Z",
+  "CreatedBy": "callum.marshall",
+  "Translations": []
+}

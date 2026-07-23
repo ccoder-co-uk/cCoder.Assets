@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4591,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "ROI has been removed",
+    "ShortDisplayName": "ROI has been removed",
+    "Name": "roihasbeenremoved",
+    "Description": "roihasbeenremoved",
+    "LastUpdated": "2021-07-07T09:42:12.1276397Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5188,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "La demande d\u0027adh\u00E9sion a \u00E9t\u00E9 supprim\u00E9e",
+        "ShortDisplayName": "La demande d\u0027adh\u00E9sion a \u00E9t\u00E9 supprim\u00E9e",
+        "Name": "roihasbeenremoved",
+        "Description": "La demande d\u0027adh\u00E9sion a \u00E9t\u00E9 supprim\u00E9e",
+        "LastUpdated": "2021-07-07T09:42:12.1322401Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5188,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "fr-FR",
+    "DisplayName": "La demande d\u0027adh\u00E9sion a \u00E9t\u00E9 supprim\u00E9e",
+    "ShortDisplayName": "La demande d\u0027adh\u00E9sion a \u00E9t\u00E9 supprim\u00E9e",
+    "Name": "roihasbeenremoved",
+    "Description": "La demande d\u0027adh\u00E9sion a \u00E9t\u00E9 supprim\u00E9e",
+    "LastUpdated": "2021-07-07T09:42:12.1322401Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

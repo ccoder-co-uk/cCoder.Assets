@@ -1,0 +1,25 @@
+[
+  {
+    "Id": 30527,
+    "AppId": 4,
+    "Key": "Default",
+    "Culture": "",
+    "DisplayName": "n",
+    "ShortDisplayName": "n",
+    "Name": "aggregateMoneyFormat",
+    "Description": "n",
+    "LastUpdated": "2021-07-07T09:42:12.1376379Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3445002Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Default",
+    "Name": "aggregateMoneyFormat",
+    "DisplayName": "c",
+    "ShortDisplayName": "n",
+    "Description": "n"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "Name": "CompanyGrid",
+  "Content": "async function(variables) {\r\n  var g = new GridWidget(variables.element, variables.dataSource);\r\n  g.editable = false;\r\n\tg.sortable = false;\r\n\tg.filterable = false;\r\n\tg.pageable = false;\r\n\tg.scrollable = false;\r\n\tg.groupable = false;\r\n  g.commands.push({ name: \u0022view\u0022, icon: \u0022k-i-share\u0022, text: \u0022[resource_shortdisplayname[View]]\u0022, href: \u0022/Company/Details?Id=#:Id#\u0022 });\r\n  g.columns = [\r\n    {field: \u0022Perspective\u0022, title: \u0022[resource_displayname[perspective]]\u0022, template: \u0022#=window.B2B.perspectives[Perspective]#\u0022, width: 120},\r\n    {field: \u0022Name\u0022, title: \u0022[resource_displayname[name]]\u0022},\r\n    {field: \u0022DebtorReference\u0022, title: \u0022[resource_displayname[debtorreference]]\u0022},\r\n    {field: \u0022DebtorVATReference\u0022, title: \u0022[resource_displayname[debtorvatreference]]\u0022, width: 100}\r\n  ];\r\n  variables.companyGrid = g;\r\n  return g;\r\n}\r\n",
+  "CreatedOn": "2021-09-23T15:17:54.074Z",
+  "LastUpdated": "2021-09-23T15:17:54.074Z",
+  "Key": "B2B"
+}

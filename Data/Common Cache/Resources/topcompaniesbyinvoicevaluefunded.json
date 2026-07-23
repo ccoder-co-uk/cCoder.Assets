@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4827,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Top Companies by Invoice Value Funded",
+    "ShortDisplayName": "topcompaniesbyinvoicevaluefunded",
+    "Name": "topcompaniesbyinvoicevaluefunded",
+    "Description": "topcompaniesbyinvoicevaluefunded",
+    "LastUpdated": "2021-07-07T09:42:12.1294427Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4907,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Principales soci\u00E9t\u00E9s selon la valeur des factures financ\u00E9es",
+        "ShortDisplayName": "Principales soci\u00E9t\u00E9s selon la valeur des factures financ\u00E9es",
+        "Name": "topcompaniesbyinvoicevaluefunded",
+        "Description": "Principales soci\u00E9t\u00E9s selon la valeur des factures financ\u00E9es",
+        "LastUpdated": "2021-07-07T09:42:12.1300646Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4907,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Principales soci\u00E9t\u00E9s selon la valeur des factures financ\u00E9es",
+    "ShortDisplayName": "Principales soci\u00E9t\u00E9s selon la valeur des factures financ\u00E9es",
+    "Name": "topcompaniesbyinvoicevaluefunded",
+    "Description": "Principales soci\u00E9t\u00E9s selon la valeur des factures financ\u00E9es",
+    "LastUpdated": "2021-07-07T09:42:12.1300646Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

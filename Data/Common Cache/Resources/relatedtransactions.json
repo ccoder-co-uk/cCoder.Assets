@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4873,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Related Transactions",
+    "ShortDisplayName": "Related Transactions",
+    "Name": "relatedtransactions",
+    "Description": "relatedtransactions",
+    "LastUpdated": "2021-07-07T09:42:12.1298012Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5111,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Transactions connexes",
+        "ShortDisplayName": "Transactions connexes",
+        "Name": "relatedtransactions",
+        "Description": "Transactions connexes",
+        "LastUpdated": "2021-07-07T09:42:12.1316469Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5111,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Transactions connexes",
+    "ShortDisplayName": "Transactions connexes",
+    "Name": "relatedtransactions",
+    "Description": "Transactions connexes",
+    "LastUpdated": "2021-07-07T09:42:12.1316469Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

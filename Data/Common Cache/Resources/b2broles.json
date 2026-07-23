@@ -1,0 +1,25 @@
+[
+  {
+    "Id": 30621,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "B2B roles",
+    "ShortDisplayName": "B2B roles",
+    "Name": "b2broles",
+    "Description": "B2B roles",
+    "LastUpdated": "2021-07-07T09:42:12.1383916Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.346889Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "b2broles",
+    "DisplayName": "R\u00F4le B2B",
+    "ShortDisplayName": "R\u00F4le B2B",
+    "Description": "R\u00F4le B2B"
+  }
+]

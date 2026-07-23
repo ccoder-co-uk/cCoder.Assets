@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 30377,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Signature",
+    "ShortDisplayName": "Signature",
+    "Name": "signature",
+    "Description": "Signature",
+    "LastUpdated": "2021-07-07T09:42:12.1365Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 30379,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Statuts de la soci\u00E9t\u00E9",
+        "ShortDisplayName": "Statuts de la soci\u00E9t\u00E9",
+        "Name": "signature",
+        "Description": "Statuts de la soci\u00E9t\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1365151Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 30379,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Statuts de la soci\u00E9t\u00E9",
+    "ShortDisplayName": "Statuts de la soci\u00E9t\u00E9",
+    "Name": "signature",
+    "Description": "Statuts de la soci\u00E9t\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.1365151Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "appdeleted",
+    "DisplayName": "Application supprim\u00E9e",
+    "ShortDisplayName": "Application supprim\u00E9e",
+    "Description": "\tApplication supprim\u00E9e",
+    "LastUpdated": "2022-03-18T10:41:54.1897166\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "appdeleted",
+    "DisplayName": "App Deleted",
+    "ShortDisplayName": "App Deleted",
+    "Description": "appdeleted",
+    "LastUpdated": "2022-03-18T10:41:54.1904439\u002B00:00"
+  }
+]

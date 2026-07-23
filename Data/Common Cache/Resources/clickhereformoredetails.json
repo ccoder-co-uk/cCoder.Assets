@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4863,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "Click here for more details",
+    "ShortDisplayName": "Click here for more details",
+    "Name": "clickhereformoredetails",
+    "Description": "clickhereformoredetails",
+    "LastUpdated": "2021-07-07T09:42:12.129723Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5088,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Cliquez ici pour plus de d\u00E9tails",
+        "ShortDisplayName": "Cliquez ici pour plus de d\u00E9tails",
+        "Name": "clickhereformoredetails",
+        "Description": "Cliquez ici pour plus de d\u00E9tails",
+        "LastUpdated": "2021-07-07T09:42:12.1314703Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5088,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Cliquez ici pour plus de d\u00E9tails",
+    "ShortDisplayName": "Cliquez ici pour plus de d\u00E9tails",
+    "Name": "clickhereformoredetails",
+    "Description": "Cliquez ici pour plus de d\u00E9tails",
+    "LastUpdated": "2021-07-07T09:42:12.1314703Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

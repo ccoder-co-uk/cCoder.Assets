@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4747,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Type",
+    "ShortDisplayName": "Type",
+    "Name": "credittypeid",
+    "Description": "Type",
+    "LastUpdated": "2021-07-07T09:42:12.1288205Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4977,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Type de document",
+        "ShortDisplayName": "Type",
+        "Name": "credittypeid",
+        "Description": "Type de document",
+        "LastUpdated": "2021-07-07T09:42:12.130623Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4977,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Type de document",
+    "ShortDisplayName": "Type",
+    "Name": "credittypeid",
+    "Description": "Type de document",
+    "LastUpdated": "2021-07-07T09:42:12.130623Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4819,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Self-Billing Invoice",
+    "ShortDisplayName": "Self-Billing Invoice",
+    "Name": "selfbillingtransaction",
+    "Description": "selfbillingtransaction",
+    "LastUpdated": "2021-07-07T09:42:12.1293882Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5115,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Facture - auto-facturation",
+        "ShortDisplayName": "Facture - auto-facturation",
+        "Name": "selfbillingtransaction",
+        "Description": "Facture - auto-facturation",
+        "LastUpdated": "2021-07-07T09:42:12.1316768Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5115,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Facture - auto-facturation",
+    "ShortDisplayName": "Facture - auto-facturation",
+    "Name": "selfbillingtransaction",
+    "Description": "Facture - auto-facturation",
+    "LastUpdated": "2021-07-07T09:42:12.1316768Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

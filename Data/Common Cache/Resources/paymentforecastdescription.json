@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4773,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "Description",
+    "ShortDisplayName": "paymentforecastdescription",
+    "Name": "paymentforecastdescription",
+    "Description": "paymentforecastdescription",
+    "LastUpdated": "2021-07-07T09:42:12.1290209Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4553,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Description",
+        "ShortDisplayName": "Description",
+        "Name": "paymentforecastdescription",
+        "Description": "Description",
+        "LastUpdated": "2021-07-07T09:42:12.1273375Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4553,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Description",
+    "ShortDisplayName": "Description",
+    "Name": "paymentforecastdescription",
+    "Description": "Description",
+    "LastUpdated": "2021-07-07T09:42:12.1273375Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

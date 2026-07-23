@@ -1,0 +1,15 @@
+{
+  "Id": 30565,
+  "AppId": 4,
+  "Key": "B2B",
+  "Culture": "",
+  "DisplayName": "Town Or City",
+  "ShortDisplayName": "Town Or City",
+  "Name": "TownOrCity",
+  "Description": "Town Or City",
+  "LastUpdated": "2021-07-07T09:42:12.1379287Z",
+  "LastUpdatedBy": "Guest",
+  "CreatedOn": "2021-07-06T17:35:47.3447277Z",
+  "CreatedBy": "callum.marshall",
+  "Translations": []
+}

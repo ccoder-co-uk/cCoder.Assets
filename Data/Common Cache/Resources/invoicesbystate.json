@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 4768,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Invoices by State",
+    "ShortDisplayName": "invoicesbystate",
+    "Name": "invoicesbystate",
+    "Description": "invoicesbystate",
+    "LastUpdated": "2021-07-07T09:42:12.1289834Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4660,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Factures selon leurs statuts",
+        "ShortDisplayName": "Factures selon leurs statuts",
+        "Name": "invoicesbystate",
+        "Description": "Factures selon leurs statuts",
+        "LastUpdated": "2021-07-07T09:42:12.1281771Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 30574,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "Invoices by State",
+    "ShortDisplayName": "invoicesbystate",
+    "Name": "invoicesbystate",
+    "Description": "invoicesbystate",
+    "LastUpdated": "2021-07-07T09:42:12.1379982Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3464109Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": [
+      {
+        "Id": 30550,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Factures par Etat",
+        "ShortDisplayName": "Factures par Etat",
+        "Name": "invoicesbystate",
+        "Description": "Factures par Etat",
+        "LastUpdated": "2021-07-07T09:42:12.1378141Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "2021-07-06T17:35:47.3448548Z",
+        "CreatedBy": "callum.marshall"
+      }
+    ]
+  },
+  {
+    "Id": 4660,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Factures selon leurs statuts",
+    "ShortDisplayName": "Factures selon leurs statuts",
+    "Name": "invoicesbystate",
+    "Description": "Factures selon leurs statuts",
+    "LastUpdated": "2021-07-07T09:42:12.1281771Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 30550,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Factures par Etat",
+    "ShortDisplayName": "Factures par Etat",
+    "Name": "invoicesbystate",
+    "Description": "Factures par Etat",
+    "LastUpdated": "2021-07-07T09:42:12.1378141Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3448548Z",
+    "CreatedBy": "callum.marshall"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "Name": "update",
+    "Key": "Account",
+    "DisplayName": "Update",
+    "ShortDisplayName": "Update",
+    "Description": "Update",
+    "CreatedOn": "2022-02-24T10:54:15.578Z",
+    "LastUpdated": "2022-02-24T10:54:15.578Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "update",
+    "DisplayName": "Update",
+    "ShortDisplayName": "Update",
+    "Description": "Update",
+    "LastUpdated": "2022-03-18T10:41:54.1909611\u002B00:00"
+  },
+  {
+    "Id": 5360,
+    "AppId": 4,
+    "Key": "DMS",
+    "Culture": "",
+    "DisplayName": "Update",
+    "ShortDisplayName": "Update",
+    "Name": "update",
+    "Description": "Update",
+    "LastUpdated": "2021-07-07T09:42:12.1335812Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5361,
+        "AppId": 4,
+        "Key": "DMS",
+        "Culture": "fr-FR",
+        "DisplayName": "R\u00E9actualiser",
+        "ShortDisplayName": "R\u00E9actualiser",
+        "Name": "update",
+        "Description": "R\u00E9actualiser",
+        "LastUpdated": "2021-07-07T09:42:12.1335886Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5361,
+    "AppId": 4,
+    "Key": "DMS",
+    "Culture": "fr-FR",
+    "DisplayName": "R\u00E9actualiser",
+    "ShortDisplayName": "R\u00E9actualiser",
+    "Name": "update",
+    "Description": "R\u00E9actualiser",
+    "LastUpdated": "2021-07-07T09:42:12.1335886Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

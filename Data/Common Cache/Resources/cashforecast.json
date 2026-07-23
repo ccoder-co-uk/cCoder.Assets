@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4788,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "Cash Forecast",
+    "ShortDisplayName": "cashforecast",
+    "Name": "cashforecast",
+    "Description": "cashforecast",
+    "LastUpdated": "2021-07-07T09:42:12.1291391Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4670,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Pr\u00E9visions de tr\u00E9sorerie par dates d\u2019\u00E9ch\u00E9ances",
+        "ShortDisplayName": "Pr\u00E9visions de tr\u00E9sorerie par dates d\u2019\u00E9ch\u00E9ances",
+        "Name": "cashforecast",
+        "Description": "Pr\u00E9visions de tr\u00E9sorerie par dates d\u2019\u00E9ch\u00E9ances",
+        "LastUpdated": "2021-07-07T09:42:12.1282467Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4670,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Pr\u00E9visions des \u00E9ch\u00E9ances futures",
+    "ShortDisplayName": "Pr\u00E9visions des \u00E9ch\u00E9ances futures",
+    "Name": "cashforecast",
+    "Description": "Pr\u00E9visions des \u00E9ch\u00E9ances futures",
+    "LastUpdated": "2021-07-07T09:42:12.1282467Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4770,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": "Payment Forecast",
+    "ShortDisplayName": "paymentforecastpermonth",
+    "Name": "paymentforecastpermonth",
+    "Description": "paymentforecastpermonth",
+    "LastUpdated": "2021-07-07T09:42:12.1289984Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4554,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Pr\u00E9vision mensuelle des r\u00E8glements",
+        "ShortDisplayName": "Pr\u00E9vision mensuelle des r\u00E8glements",
+        "Name": "paymentforecastpermonth",
+        "Description": "Pr\u00E9vision mensuelle des r\u00E8glements",
+        "LastUpdated": "2021-07-07T09:42:12.1273453Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4554,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Pr\u00E9vision mensuelle des r\u00E8glements",
+    "ShortDisplayName": "Pr\u00E9vision mensuelle des r\u00E8glements",
+    "Name": "paymentforecastpermonth",
+    "Description": "Pr\u00E9vision mensuelle des r\u00E8glements",
+    "LastUpdated": "2021-07-07T09:42:12.1273453Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

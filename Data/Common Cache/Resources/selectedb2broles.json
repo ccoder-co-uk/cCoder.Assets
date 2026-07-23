@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "selectedb2broles",
+    "Key": "B2B",
+    "DisplayName": "Selected B2B Roles",
+    "ShortDisplayName": "Selected B2B Roles",
+    "Description": "Selected B2B Roles",
+    "CreatedOn": "2021-11-02T11:11:40.587Z",
+    "LastUpdated": "2021-11-02T11:11:40.587Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "selectedb2broles",
+    "DisplayName": "R\u00F4les B2B s\u00E9lectionn\u00E9s",
+    "ShortDisplayName": "R\u00F4les B2B s\u00E9lectionn\u00E9s",
+    "Description": "R\u00F4les B2B s\u00E9lectionn\u00E9s"
+  }
+]

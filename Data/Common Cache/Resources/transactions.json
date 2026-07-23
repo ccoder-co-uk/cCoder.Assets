@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "transactions",
+    "Key": "B2B",
+    "DisplayName": "Transactions",
+    "ShortDisplayName": "Transactions",
+    "Description": "Transactions",
+    "CreatedOn": "2022-02-08T14:50:34.738Z",
+    "LastUpdated": "2022-02-08T14:50:34.738Z",
+    "Culture": ""
+  },
+  {
+    "Name": "transactions",
+    "Key": "Workflow",
+    "DisplayName": "Transactions",
+    "ShortDisplayName": "Transactions",
+    "Description": "Transactions",
+    "CreatedOn": "2022-02-24T17:04:11.865Z",
+    "LastUpdated": "2022-02-24T17:04:11.865Z",
+    "Culture": ""
+  }
+]

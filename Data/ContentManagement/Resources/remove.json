@@ -1,0 +1,29 @@
+[
+  {
+    "Culture": "",
+    "Key": "Account",
+    "Name": "remove",
+    "DisplayName": "Remove",
+    "ShortDisplayName": "Remove",
+    "Description": "Remove",
+    "LastUpdated": "2022-03-18T10:41:54.1891378\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "remove",
+    "DisplayName": "Remove",
+    "ShortDisplayName": "Remove",
+    "Description": "Remove",
+    "LastUpdated": "2022-03-18T10:41:54.1909296\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "remove",
+    "DisplayName": "Remove",
+    "ShortDisplayName": "Remove",
+    "Description": "Remove",
+    "LastUpdated": "2022-03-18T10:41:54.1910231\u002B00:00"
+  }
+]

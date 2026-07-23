@@ -1,1 +1,3 @@
-﻿Console.WriteLine("Hello, World!");
+using cCoder.Packer;
+
+return await PackerApplication.RunAsync(args);

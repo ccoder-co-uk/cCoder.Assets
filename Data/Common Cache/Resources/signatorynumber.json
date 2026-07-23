@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4584,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Signatory Number",
+    "ShortDisplayName": "Signatory Number",
+    "Name": "signatorynumber",
+    "Description": "signatorynumber",
+    "LastUpdated": "2021-07-07T09:42:12.1275852Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5191,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Num\u00E9ro du signataire",
+        "ShortDisplayName": "Num\u00E9ro du signataire",
+        "Name": "signatorynumber",
+        "Description": "Num\u00E9ro du signataire",
+        "LastUpdated": "2021-07-07T09:42:12.1322624Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5191,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "fr-FR",
+    "DisplayName": "Num\u00E9ro du signataire",
+    "ShortDisplayName": "Num\u00E9ro du signataire",
+    "Name": "signatorynumber",
+    "Description": "Num\u00E9ro du signataire",
+    "LastUpdated": "2021-07-07T09:42:12.1322624Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

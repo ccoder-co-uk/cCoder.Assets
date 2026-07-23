@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 7266,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Proposed Discount Payment Date",
+    "ShortDisplayName": "Proposed Discount Payment Date",
+    "Name": "ProposedDiscountPaymentDate",
+    "Description": "Proposed Discount Payment Date",
+    "LastUpdated": "2021-07-07T09:42:12.134671Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7278,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Date propos\u00E9e de paiement anticip\u00E9",
+        "ShortDisplayName": "Date propos\u00E9e de paiement anticip\u00E9",
+        "Name": "ProposedDiscountPaymentDate",
+        "Description": "Date propos\u00E9e de paiement anticip\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1347027Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 7278,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Date propos\u00E9e de paiement anticip\u00E9",
+    "ShortDisplayName": "Date propos\u00E9e de paiement anticip\u00E9",
+    "Name": "ProposedDiscountPaymentDate",
+    "Description": "Date propos\u00E9e de paiement anticip\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.1347027Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

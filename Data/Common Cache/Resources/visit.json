@@ -1,0 +1,29 @@
+[
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "visit",
+    "DisplayName": "Visit",
+    "ShortDisplayName": "Visit",
+    "Description": "visit",
+    "LastUpdated": "2022-03-18T10:41:54.1904757\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "visit",
+    "DisplayName": "Visit",
+    "ShortDisplayName": "Visit",
+    "Description": "Visit",
+    "LastUpdated": "2022-03-18T10:41:54.1911442\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "visit",
+    "DisplayName": "Visite",
+    "ShortDisplayName": "Visite",
+    "Description": "Visite",
+    "LastUpdated": "2022-03-18T10:41:54.1898054\u002B00:00"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "basecolours",
+    "Key": "CMS",
+    "DisplayName": "Base Colours",
+    "ShortDisplayName": "Base Colours",
+    "Description": "Base Colours",
+    "CreatedOn": "2021-11-19T22:00:00.524Z",
+    "LastUpdated": "2021-11-19T22:00:00.524Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "basecolours",
+    "DisplayName": "Couleurs de Base",
+    "ShortDisplayName": "Couleurs de Base",
+    "Description": "Couleurs de Base"
+  }
+]

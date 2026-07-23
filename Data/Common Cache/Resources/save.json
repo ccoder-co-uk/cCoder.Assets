@@ -1,0 +1,176 @@
+[
+  {
+    "Id": 30463,
+    "AppId": 4,
+    "Key": "Account",
+    "Culture": "",
+    "DisplayName": "Save",
+    "ShortDisplayName": "Save",
+    "Name": "save",
+    "Description": "Save",
+    "LastUpdated": "2021-07-07T09:42:12.1371302Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3450522Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Id": 4509,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Save",
+    "ShortDisplayName": "Save",
+    "Name": "save",
+    "Description": "save",
+    "LastUpdated": "2021-07-07T09:42:12.1269991Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5114,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Sauvegarder",
+        "ShortDisplayName": "Sauvegarder",
+        "Name": "save",
+        "Description": "Sauvegarder",
+        "LastUpdated": "2021-07-07T09:42:12.1316693Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "save",
+    "DisplayName": "Save",
+    "ShortDisplayName": "Save",
+    "Description": "Save",
+    "LastUpdated": "2022-03-18T10:41:54.1904808\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "save",
+    "DisplayName": "Save",
+    "ShortDisplayName": "Save",
+    "Description": "Save",
+    "LastUpdated": "2022-03-18T10:41:54.1910332\u002B00:00"
+  },
+  {
+    "Id": 5354,
+    "AppId": 4,
+    "Key": "DMS",
+    "Culture": "",
+    "DisplayName": "Save",
+    "ShortDisplayName": "Save",
+    "Name": "save",
+    "Description": "Save",
+    "LastUpdated": "2021-07-07T09:42:12.1335353Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5355,
+        "AppId": 4,
+        "Key": "DMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Sauvegarder",
+        "ShortDisplayName": "Sauvegarder",
+        "Name": "save",
+        "Description": "Sauvegarder",
+        "LastUpdated": "2021-07-07T09:42:12.1335427Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4491,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "",
+    "DisplayName": "Save",
+    "ShortDisplayName": "save",
+    "Name": "save",
+    "Description": "save",
+    "LastUpdated": "2021-07-07T09:42:12.1268599Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4638,
+        "AppId": 4,
+        "Key": "Workflow",
+        "Culture": "fr-FR",
+        "DisplayName": "Sauvegarder",
+        "ShortDisplayName": "Sauvegarder",
+        "Name": "save",
+        "Description": "Sauvegarder",
+        "LastUpdated": "2021-07-07T09:42:12.128007Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5114,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Sauvegarder",
+    "ShortDisplayName": "Sauvegarder",
+    "Name": "save",
+    "Description": "Sauvegarder",
+    "LastUpdated": "2021-07-07T09:42:12.1316693Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "save",
+    "DisplayName": "Sauvegarder",
+    "ShortDisplayName": "Sauvegarder",
+    "Description": "Sauvegarder",
+    "LastUpdated": "2022-03-18T10:41:54.1901743\u002B00:00"
+  },
+  {
+    "Id": 5355,
+    "AppId": 4,
+    "Key": "DMS",
+    "Culture": "fr-FR",
+    "DisplayName": "Sauvegarder",
+    "ShortDisplayName": "Sauvegarder",
+    "Name": "save",
+    "Description": "Sauvegarder",
+    "LastUpdated": "2021-07-07T09:42:12.1335427Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 4638,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "fr-FR",
+    "DisplayName": "Sauvegarder",
+    "ShortDisplayName": "Sauvegarder",
+    "Name": "save",
+    "Description": "Sauvegarder",
+    "LastUpdated": "2021-07-07T09:42:12.128007Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "monthlybreakdownofyearlydiscounts",
+    "Key": "B2B",
+    "DisplayName": "Monthly Breakdown of Discounts, by Funder Payment Date",
+    "ShortDisplayName": "Monthly Breakdown of Discounts, by Funder Payment Date",
+    "Description": "Monthly Breakdown of Discounts, by Funder Payment Date",
+    "CreatedOn": "2022-02-03T14:38:41.174Z",
+    "LastUpdated": "2022-02-03T14:38:41.174Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "monthlybreakdownofyearlydiscounts",
+    "DisplayName": "D\u00E9tail mensuel des escomptes capt\u00E9s, par date de r\u00E8glement [app[name]]",
+    "ShortDisplayName": "D\u00E9tail mensuel des escomptes capt\u00E9s, par date de r\u00E8glement [app[name]]",
+    "Description": "D\u00E9tail mensuel des escomptes capt\u00E9s, par date de r\u00E8glement [app[name]]"
+  }
+]

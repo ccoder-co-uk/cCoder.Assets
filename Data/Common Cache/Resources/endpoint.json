@@ -1,0 +1,21 @@
+[
+  {
+    "Culture": "",
+    "Key": "Debug",
+    "Name": "endpoint",
+    "DisplayName": "Endpoint",
+    "ShortDisplayName": "Endpoint",
+    "Description": "Endpoint",
+    "LastUpdated": "2023-03-23T16:05:36.6000531\u002B00:00"
+  },
+  {
+    "Name": "endpoint",
+    "Key": "Tenant",
+    "DisplayName": "Endpoint",
+    "ShortDisplayName": "Endpoint",
+    "Description": "Endpoint",
+    "CreatedOn": "2023-01-04T12:50:45.442Z",
+    "LastUpdated": "2023-01-04T12:50:45.442Z",
+    "Culture": ""
+  }
+]

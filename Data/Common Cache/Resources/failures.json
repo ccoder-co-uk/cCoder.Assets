@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "failures",
+    "Key": "CMS",
+    "DisplayName": "Failures",
+    "ShortDisplayName": "Failures",
+    "Description": "Failures",
+    "CreatedOn": "2023-01-04T11:50:14.683Z",
+    "LastUpdated": "2023-01-04T11:50:14.683Z",
+    "Culture": ""
+  },
+  {
+    "Name": "failures",
+    "Key": "Workflow",
+    "DisplayName": "Failures",
+    "ShortDisplayName": "Failures",
+    "Description": "Failures",
+    "CreatedOn": "2022-02-24T17:02:24.158Z",
+    "LastUpdated": "2022-02-24T17:02:24.158Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "failures",
+    "DisplayName": " Les \u00E9checs",
+    "ShortDisplayName": " Les \u00E9checs",
+    "Description": " Les \u00E9checs"
+  }
+]

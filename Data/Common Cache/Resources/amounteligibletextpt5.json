@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4864,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "",
+    "DisplayName": ", for a discounted value of",
+    "ShortDisplayName": "amounteligibletextpt5",
+    "Name": "amounteligibletextpt5",
+    "Description": "amounteligibletextpt5",
+    "LastUpdated": "2021-07-07T09:42:12.1297305Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4683,
+        "AppId": 4,
+        "Key": "Home",
+        "Culture": "fr-FR",
+        "DisplayName": "Montant du r\u00E8glement",
+        "ShortDisplayName": "Montant du r\u00E8glement",
+        "Name": "amounteligibletextpt5",
+        "Description": "Montant du r\u00E8glement",
+        "LastUpdated": "2021-07-07T09:42:12.1283396Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4683,
+    "AppId": 4,
+    "Key": "Home",
+    "Culture": "fr-FR",
+    "DisplayName": "Montant du r\u00E8glement",
+    "ShortDisplayName": "Montant du r\u00E8glement",
+    "Name": "amounteligibletextpt5",
+    "Description": "Montant du r\u00E8glement",
+    "LastUpdated": "2021-07-07T09:42:12.1283396Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

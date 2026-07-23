@@ -1,0 +1,39 @@
+[
+  {
+    "Name": "All",
+    "Key": "B2B",
+    "DisplayName": "All",
+    "ShortDisplayName": "All",
+    "Description": "All",
+    "CreatedOn": "2021-09-21T12:37:27.060Z",
+    "LastUpdated": "2021-09-21T12:37:27.060Z"
+  },
+  {
+    "Name": "All",
+    "Key": "Default",
+    "DisplayName": "All",
+    "ShortDisplayName": "All",
+    "Description": "All",
+    "CreatedOn": "2022-02-03T08:32:57.011Z",
+    "LastUpdated": "2022-02-03T08:32:57.011Z",
+    "Culture": ""
+  },
+  {
+    "Name": "All",
+    "Key": "B2B",
+    "DisplayName": "Tou(te)s",
+    "ShortDisplayName": "Tou(te)s",
+    "Description": "Tou(te)s",
+    "CreatedOn": "2021-09-21T12:38:11.628Z",
+    "LastUpdated": "2021-09-21T12:38:11.628Z",
+    "Culture": "fr-FR"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Default",
+    "Name": "All",
+    "DisplayName": "Tous",
+    "ShortDisplayName": "Tous",
+    "Description": "Tous"
+  }
+]

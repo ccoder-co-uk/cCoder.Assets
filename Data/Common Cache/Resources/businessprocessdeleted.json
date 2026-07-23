@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4518,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "",
+    "DisplayName": "Business Process Deleted",
+    "ShortDisplayName": "Business Process Deleted",
+    "Name": "businessprocessdeleted",
+    "Description": "Business Process Deleted",
+    "LastUpdated": "2021-07-07T09:42:12.127068Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5203,
+        "AppId": 4,
+        "Key": "Workflow",
+        "Culture": "fr-FR",
+        "DisplayName": "Processus m\u00E9tier supprim\u00E9",
+        "ShortDisplayName": "Processus m\u00E9tier supprim\u00E9",
+        "Name": "businessprocessdeleted",
+        "Description": "Processus m\u00E9tier supprim\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1323547Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5203,
+    "AppId": 4,
+    "Key": "Workflow",
+    "Culture": "fr-FR",
+    "DisplayName": "Processus m\u00E9tier supprim\u00E9",
+    "ShortDisplayName": "Processus m\u00E9tier supprim\u00E9",
+    "Name": "businessprocessdeleted",
+    "Description": "Processus m\u00E9tier supprim\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.1323547Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

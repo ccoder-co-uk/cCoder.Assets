@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "font",
+    "Key": "CMS",
+    "DisplayName": "Font",
+    "ShortDisplayName": "Font",
+    "Description": "Font",
+    "CreatedOn": "2022-11-21T10:35:38.982Z",
+    "LastUpdated": "2022-11-21T10:35:38.982Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "font",
+    "DisplayName": " Police de caract\u00E8re",
+    "ShortDisplayName": " Police de caract\u00E8re",
+    "Description": " Police de caract\u00E8re"
+  }
+]

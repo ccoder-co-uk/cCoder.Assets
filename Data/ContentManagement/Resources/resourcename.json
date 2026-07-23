@@ -1,0 +1,20 @@
+[
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "resourcename",
+    "DisplayName": "Resource Name",
+    "ShortDisplayName": "Resource Name",
+    "Description": "Resource Name",
+    "LastUpdated": "2022-03-18T10:41:54.1899808\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "resourcename",
+    "DisplayName": "Nom de la ressource",
+    "ShortDisplayName": "Nom de la ressource",
+    "Description": "Nom de la ressource",
+    "LastUpdated": "2022-03-18T10:41:54.1899871\u002B00:00"
+  }
+]

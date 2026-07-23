@@ -1,0 +1,29 @@
+[
+  {
+    "Name": "secondary",
+    "Key": "CMS",
+    "DisplayName": "Secondary",
+    "ShortDisplayName": "Secondary",
+    "Description": "Secondary",
+    "CreatedOn": "2022-11-16T17:09:25.489Z",
+    "LastUpdated": "2022-11-16T17:09:25.489Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "secondary",
+    "DisplayName": "Secondary",
+    "ShortDisplayName": "Secondary",
+    "Description": "Secondary",
+    "LastUpdated": "2022-08-17T11:23:27.3451889\u002B01:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "secondary",
+    "DisplayName": "Secondaire",
+    "ShortDisplayName": "Secondaire",
+    "Description": "Secondaire"
+  }
+]

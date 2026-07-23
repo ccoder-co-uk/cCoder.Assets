@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "ziporpostalcode",
+    "Key": "B2B",
+    "DisplayName": "Zip Or Postal Code",
+    "ShortDisplayName": "Zip Or Postal Code",
+    "Description": "Zip Or Postal Code",
+    "CreatedOn": "2021-11-01T15:55:29.087Z",
+    "LastUpdated": "2021-11-01T15:55:29.087Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "ziporpostalcode",
+    "DisplayName": "Code Postal ",
+    "ShortDisplayName": "Code Postal ",
+    "Description": "Code Postal"
+  }
+]

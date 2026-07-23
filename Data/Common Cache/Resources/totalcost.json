@@ -1,0 +1,25 @@
+[
+  {
+    "Id": 30592,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Total Cost",
+    "ShortDisplayName": "Total Cost",
+    "Name": "totalcost",
+    "Description": "Total Cost",
+    "LastUpdated": "2021-07-07T09:42:12.1381344Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3462306Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "totalcost",
+    "DisplayName": "Co\u00FBt total s\u00E9lection",
+    "ShortDisplayName": "Co\u00FBt total s\u00E9lection",
+    "Description": "Co\u00FBt total s\u00E9lection"
+  }
+]

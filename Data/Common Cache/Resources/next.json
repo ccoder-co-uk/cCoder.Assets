@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "next",
+    "Key": "B2B",
+    "DisplayName": "Next",
+    "ShortDisplayName": "Next",
+    "Description": "Next",
+    "CreatedOn": "2021-11-02T11:09:04.721Z",
+    "LastUpdated": "2021-11-02T11:09:04.721Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "next",
+    "DisplayName": "Suivant",
+    "ShortDisplayName": "Suivant",
+    "Description": "Suivant"
+  }
+]

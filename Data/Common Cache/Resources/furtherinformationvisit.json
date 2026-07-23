@@ -1,0 +1,34 @@
+[
+  {
+    "Culture": "",
+    "Key": "Account",
+    "Name": "furtherinformationvisit",
+    "DisplayName": "Open documentation",
+    "ShortDisplayName": "Open documentation",
+    "Description": "Open documentation",
+    "LastUpdated": "2022-03-18T10:41:54.1898836\u002B00:00"
+  },
+  {
+    "Id": 25768,
+    "AppId": 4,
+    "Key": "Account",
+    "Culture": "fr",
+    "DisplayName": "Veuillez cliquer sur le lien ci-dessous. \u003Cb\u003EInformation suppl\u00E9mentaires.\u003C/b\u003E",
+    "ShortDisplayName": "Veuillez cliquer sur le lien ci-dessous. Information suppl\u00E9mentaires. ",
+    "Name": "furtherinformationvisit",
+    "Description": "Veuillez cliquer sur le lien ci-dessous. Information suppl\u00E9mentaires. ",
+    "LastUpdated": "2021-07-07T09:42:12.1362308Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "furtherinformationvisit",
+    "DisplayName": "Ouvrir la documentation",
+    "ShortDisplayName": "Ouvrir la documentation",
+    "Description": "Ouvrir la documentation",
+    "LastUpdated": "2022-03-18T10:41:54.1906562\u002B00:00"
+  }
+]

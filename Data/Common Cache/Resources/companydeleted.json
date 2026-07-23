@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4499,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Company Deleted",
+    "ShortDisplayName": "Company Deleted",
+    "Name": "companydeleted",
+    "Description": "Company Deleted",
+    "LastUpdated": "2021-07-07T09:42:12.1269213Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5075,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Soci\u00E9t\u00E9 supprim\u00E9e",
+        "ShortDisplayName": "Soci\u00E9t\u00E9 supprim\u00E9e",
+        "Name": "companydeleted",
+        "Description": "Soci\u00E9t\u00E9 supprim\u00E9e",
+        "LastUpdated": "2021-07-07T09:42:12.1313588Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5075,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Soci\u00E9t\u00E9 supprim\u00E9e",
+    "ShortDisplayName": "Soci\u00E9t\u00E9 supprim\u00E9e",
+    "Name": "companydeleted",
+    "Description": "Soci\u00E9t\u00E9 supprim\u00E9e",
+    "LastUpdated": "2021-07-07T09:42:12.1313588Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

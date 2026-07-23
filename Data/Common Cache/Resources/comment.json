@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4811,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Comment",
+    "ShortDisplayName": "Comment",
+    "Name": "comment",
+    "Description": "Comment",
+    "LastUpdated": "2021-07-07T09:42:12.12932Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5073,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Commentaire",
+        "ShortDisplayName": "Commentaire",
+        "Name": "comment",
+        "Description": "Commentaire",
+        "LastUpdated": "2021-07-07T09:42:12.1313436Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5073,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Commentaire",
+    "ShortDisplayName": "Commentaire",
+    "Name": "comment",
+    "Description": "Commentaire",
+    "LastUpdated": "2021-07-07T09:42:12.1313436Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

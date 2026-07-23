@@ -1,0 +1,29 @@
+[
+  {
+    "Name": "notificationserrortext",
+    "Key": "CMS",
+    "DisplayName": "Notifications Error Text",
+    "ShortDisplayName": "Notifications Error Text",
+    "Description": "Notifications Error Text",
+    "CreatedOn": "2022-11-22T11:49:38.059Z",
+    "LastUpdated": "2022-11-22T11:49:38.059Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "notifications",
+    "Name": "notificationserrortext",
+    "DisplayName": "Notifications Error Text",
+    "ShortDisplayName": "Notifications Error Text",
+    "Description": "Notifications Error Text",
+    "LastUpdated": "2022-03-18T10:41:54.1912808\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CMS",
+    "Name": "notificationserrortext",
+    "DisplayName": "Notifications Texte d\u0027erreur",
+    "ShortDisplayName": "Notifications Texte d\u0027erreur",
+    "Description": "Notifications Texte d\u0027erreur"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 30662,
+    "AppId": 4,
+    "Key": "Account",
+    "Culture": "",
+    "DisplayName": "operation",
+    "ShortDisplayName": "operation",
+    "Name": "operation",
+    "Description": "operation",
+    "LastUpdated": "2021-07-07T09:42:12.1387055Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.345565Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Id": 30524,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "operation",
+    "ShortDisplayName": "operation",
+    "Name": "operation",
+    "Description": "operation",
+    "LastUpdated": "2021-07-07T09:42:12.1376158Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3445261Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  }
+]

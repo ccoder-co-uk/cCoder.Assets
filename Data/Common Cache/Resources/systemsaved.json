@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4515,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "System Saved",
+    "ShortDisplayName": "System Saved",
+    "Name": "systemsaved",
+    "Description": "systemsaved",
+    "LastUpdated": "2021-07-07T09:42:12.1270456Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5120,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Syst\u00E8me enregistr\u00E9",
+        "ShortDisplayName": "Syst\u00E8me enregistr\u00E9",
+        "Name": "systemsaved",
+        "Description": "Syst\u00E8me enregistr\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.131716Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5120,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Syst\u00E8me enregistr\u00E9",
+    "ShortDisplayName": "Syst\u00E8me enregistr\u00E9",
+    "Name": "systemsaved",
+    "Description": "Syst\u00E8me enregistr\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.131716Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "welcometofurtherinfo",
+    "Key": "Marketing",
+    "DisplayName": "Welcome to the presentation of the [app[name]] supplier programme.\t",
+    "ShortDisplayName": "Welcome to the presentation of the [app[name]] supplier programme.\t",
+    "Description": "Welcome to the presentation of the [app[name]] supplier programme.\t",
+    "CreatedOn": "2022-12-01T15:54:39.410Z",
+    "LastUpdated": "2022-12-01T15:54:39.410Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Marketing",
+    "Name": "welcometofurtherinfo",
+    "DisplayName": "Bienvenue dans la pr\u00E9sentation du programme [app[name]] d\u00E9di\u00E9 \u00E0 nos fournisseurs.",
+    "ShortDisplayName": "Bienvenue dans la pr\u00E9sentation du programme [app[name]] d\u00E9di\u00E9 \u00E0 nos fournisseurs.",
+    "Description": "Bienvenue dans la pr\u00E9sentation du programme [app[name]] d\u00E9di\u00E9 \u00E0 nos fournisseurs."
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "Id": 7282,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Company Name",
+    "ShortDisplayName": "Company Name",
+    "Name": "companyname",
+    "Description": "Full legal name of the company",
+    "LastUpdated": "2021-07-07T09:42:12.1347326Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7284,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "D\u00E9nomination administrative de la soci\u00E9t\u00E9",
+        "ShortDisplayName": "D\u00E9nomination administrative de la soci\u00E9t\u00E9",
+        "Name": "companyname",
+        "Description": "D\u00E9nomination administrative de la soci\u00E9t\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1347413Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Culture": "",
+    "Key": "CRM",
+    "Name": "companyname",
+    "DisplayName": "Company Name",
+    "ShortDisplayName": "Company Name",
+    "Description": "Company Name",
+    "LastUpdated": "2022-03-18T10:41:54.1910872\u002B00:00"
+  },
+  {
+    "Id": 4572,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Company Name",
+    "ShortDisplayName": "Company Name",
+    "Name": "companyname",
+    "Description": "Company Name",
+    "LastUpdated": "2021-07-07T09:42:12.1274915Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5176,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Nom de la soci\u00E9t\u00E9",
+        "ShortDisplayName": "Nom de la soci\u00E9t\u00E9",
+        "Name": "companyname",
+        "Description": "Nom de la soci\u00E9t\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1321476Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 7284,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "D\u00E9nomination administrative de la soci\u00E9t\u00E9",
+    "ShortDisplayName": "D\u00E9nomination administrative de la soci\u00E9t\u00E9",
+    "Name": "companyname",
+    "Description": "D\u00E9nomination administrative de la soci\u00E9t\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.1347413Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 5176,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "fr-FR",
+    "DisplayName": "Nom de la soci\u00E9t\u00E9",
+    "ShortDisplayName": "Nom de la soci\u00E9t\u00E9",
+    "Name": "companyname",
+    "Description": "Nom de la soci\u00E9t\u00E9",
+    "LastUpdated": "2021-07-07T09:42:12.1321476Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 5326,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Request State",
+    "ShortDisplayName": "Req State",
+    "Name": "requeststate",
+    "Description": "The State of the Request",
+    "LastUpdated": "2021-07-07T09:42:12.1333102Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5344,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "\u00C9tat de la demande",
+        "ShortDisplayName": "\u00E9tat ",
+        "Name": "requeststate",
+        "Description": "L\u0027\u00E9tat de la demande",
+        "LastUpdated": "2021-07-07T09:42:12.1334577Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5344,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "\u00C9tat de la demande",
+    "ShortDisplayName": "\u00E9tat ",
+    "Name": "requeststate",
+    "Description": "L\u0027\u00E9tat de la demande",
+    "LastUpdated": "2021-07-07T09:42:12.1334577Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

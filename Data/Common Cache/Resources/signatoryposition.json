@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 30409,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "",
+    "DisplayName": "Signatory Position",
+    "ShortDisplayName": "Signatory Position",
+    "Name": "signatoryposition",
+    "Description": "Signatory Position",
+    "LastUpdated": "2021-07-07T09:42:12.1367301Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 30410,
+        "AppId": 4,
+        "Key": "B2B",
+        "Culture": "fr-FR",
+        "DisplayName": "Titre du signataire",
+        "ShortDisplayName": "Titre du signataire",
+        "Name": "signatoryposition",
+        "Description": "Titre du signataire",
+        "LastUpdated": "2021-07-07T09:42:12.1367396Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 30410,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "fr-FR",
+    "DisplayName": "Titre du signataire",
+    "ShortDisplayName": "Titre du signataire",
+    "Name": "signatoryposition",
+    "Description": "Titre du signataire",
+    "LastUpdated": "2021-07-07T09:42:12.1367396Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

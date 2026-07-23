@@ -1,0 +1,87 @@
+[
+  {
+    "Culture": "",
+    "Key": "Account",
+    "Name": "login",
+    "DisplayName": "Login",
+    "ShortDisplayName": "Login",
+    "Description": "Login",
+    "LastUpdated": "2022-03-18T10:41:54.1893228\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "login",
+    "DisplayName": "Login",
+    "ShortDisplayName": "Login",
+    "Description": "Login",
+    "LastUpdated": "2022-03-18T10:41:54.1907669\u002B00:00"
+  },
+  {
+    "Id": 4994,
+    "AppId": 4,
+    "Key": "Login",
+    "Culture": "",
+    "DisplayName": "Login",
+    "ShortDisplayName": "Login",
+    "Name": "login",
+    "Description": "Login",
+    "LastUpdated": "2021-07-07T09:42:12.1307556Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4958,
+        "AppId": 4,
+        "Key": "Login",
+        "Culture": "fr-FR",
+        "DisplayName": "S\u0027identifier",
+        "ShortDisplayName": "\tSe connecter",
+        "Name": "login",
+        "Description": "\tSe connecter",
+        "LastUpdated": "2021-07-07T09:42:12.1304752Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "login",
+    "DisplayName": "Se connecter",
+    "ShortDisplayName": "Se connecter",
+    "Description": "Se connecter",
+    "LastUpdated": "2022-03-18T10:41:54.189377\u002B00:00"
+  },
+  {
+    "Id": 5295,
+    "AppId": 4,
+    "Key": "Default",
+    "Culture": "fr-FR",
+    "DisplayName": "Se connecter",
+    "ShortDisplayName": "Se connecter",
+    "Name": "login",
+    "Description": "Se connecter",
+    "LastUpdated": "2021-07-07T09:42:12.1330717Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 4958,
+    "AppId": 4,
+    "Key": "Login",
+    "Culture": "fr-FR",
+    "DisplayName": "S\u0027identifier",
+    "ShortDisplayName": "\tSe connecter",
+    "Name": "login",
+    "Description": "\tSe connecter",
+    "LastUpdated": "2021-07-07T09:42:12.1304752Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

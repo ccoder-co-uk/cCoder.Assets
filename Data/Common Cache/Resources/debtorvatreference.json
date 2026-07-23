@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "debtorvatreference",
+    "Key": "B2B",
+    "DisplayName": "VAT Reference",
+    "ShortDisplayName": "VAT Ref.",
+    "Description": "VAT Reference",
+    "CreatedOn": "2021-10-13T14:25:49.092Z",
+    "LastUpdated": "2021-10-13T14:25:49.092Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "debtorvatreference",
+    "DisplayName": "R\u00E9f. TVA",
+    "ShortDisplayName": "R\u00E9f. TVA",
+    "Description": "R\u00E9f. TVA"
+  }
+]

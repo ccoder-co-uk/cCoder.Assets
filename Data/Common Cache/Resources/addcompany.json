@@ -1,0 +1,15 @@
+{
+  "Id": 7379,
+  "AppId": 4,
+  "Key": "B2B",
+  "Culture": "",
+  "DisplayName": "Add Company",
+  "ShortDisplayName": "Add Company",
+  "Name": "addcompany",
+  "Description": "Add Company",
+  "LastUpdated": "2021-07-07T09:42:12.1354367Z",
+  "LastUpdatedBy": "Guest",
+  "CreatedOn": "0001-01-01T00:00:00Z",
+  "CreatedBy": null,
+  "Translations": []
+}

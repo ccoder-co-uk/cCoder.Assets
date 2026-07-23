@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "earliestrelatedtaxpoint",
+    "Key": "B2B",
+    "DisplayName": "Earliest Related Tax Point",
+    "ShortDisplayName": "Earliest Related Tax Point",
+    "Description": "Earliest Related Tax Point",
+    "CreatedOn": "2021-12-07T13:56:34.820Z",
+    "LastUpdated": "2021-12-07T13:56:34.820Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "earliestrelatedtaxpoint",
+    "DisplayName": "Date de facture ",
+    "ShortDisplayName": "Date de facture ",
+    "Description": "Date de facture"
+  }
+]

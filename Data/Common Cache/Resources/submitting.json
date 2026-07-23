@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 30587,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "submitting",
+    "ShortDisplayName": "submitting",
+    "Name": "submitting",
+    "Description": "submitting",
+    "LastUpdated": "2021-07-07T09:42:12.1380974Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.346Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": [
+      {
+        "Id": 30880,
+        "AppId": 4,
+        "Key": "CMS",
+        "Culture": "fr-FR",
+        "DisplayName": "En cours de traitement",
+        "ShortDisplayName": "En cours de traitement",
+        "Name": "submitting",
+        "Description": "En cours de traitement",
+        "LastUpdated": "2021-07-07T09:42:12.1391391Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "2021-07-06T19:33:16.0344372Z",
+        "CreatedBy": "Fabien Jacquot"
+      }
+    ]
+  },
+  {
+    "Id": 30880,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "fr-FR",
+    "DisplayName": "En cours de traitement",
+    "ShortDisplayName": "En cours de traitement",
+    "Name": "submitting",
+    "Description": "En cours de traitement",
+    "LastUpdated": "2021-07-07T09:42:12.1391391Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T19:33:16.0344372Z",
+    "CreatedBy": "Fabien Jacquot"
+  }
+]

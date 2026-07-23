@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4604,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Needs Review",
+    "ShortDisplayName": "Needs Review",
+    "Name": "state_needsreview",
+    "Description": "state_needsreview",
+    "LastUpdated": "2021-07-07T09:42:12.1277418Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5196,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Examen de la demande",
+        "ShortDisplayName": "Examen de la demande",
+        "Name": "state_needsreview",
+        "Description": "Examen de la demande",
+        "LastUpdated": "2021-07-07T09:42:12.1323011Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 5196,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "fr-FR",
+    "DisplayName": "Examen de la demande",
+    "ShortDisplayName": "Examen de la demande",
+    "Name": "state_needsreview",
+    "Description": "Examen de la demande",
+    "LastUpdated": "2021-07-07T09:42:12.1323011Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

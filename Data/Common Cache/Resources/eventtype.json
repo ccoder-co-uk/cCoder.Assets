@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "eventtype",
+    "Key": "DMS",
+    "DisplayName": "Event Type",
+    "ShortDisplayName": "Event Type",
+    "Description": "Event Type",
+    "CreatedOn": "2022-11-16T16:50:10.827Z",
+    "LastUpdated": "2022-11-16T16:50:10.827Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "eventtype",
+    "DisplayName": "Type d\u0027\u00E9v\u00E9nement",
+    "ShortDisplayName": "Type d\u0027\u00E9v\u00E9nement",
+    "Description": "Type d\u0027\u00E9v\u00E9nement"
+  }
+]
