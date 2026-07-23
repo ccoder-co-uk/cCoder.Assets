@@ -1,12 +1,16 @@
+// ---------------------------------------------------------------
+// Copyright (c) Paul.Ward@ccoder.co.uk
+// ---------------------------------------------------------------
+
 using System.Diagnostics.CodeAnalysis;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text.Json;
-using cCoder.Packer.Models;
+using cCoder.Packer.Models.Exports;
 
-namespace cCoder.Packer.Brokers;
+namespace cCoder.Packer.Dependencies;
 
-public sealed class PackerApiClient(HttpClient httpClient, Uri source)
+public sealed class PackerApiClientDependency(HttpClient httpClient, Uri source)
 {
     private static readonly string[] CacheTypes =
     [
@@ -21,21 +25,24 @@ public sealed class PackerApiClient(HttpClient httpClient, Uri source)
         CancellationToken cancellationToken = default)
     {
         using HttpResponseMessage response = await httpClient.PostAsJsonAsync(
-            new Uri(source, "Api/Account/Login"),
-            new { User = user, Pass = password },
-            cancellationToken);
+requestUri: new Uri(baseUri: source, relativeUri: "Api/Account/Login"),
+value: new { User = user, Pass = password },
+cancellationToken: cancellationToken);
 
-        await EnsureSuccessAsync(response, cancellationToken);
+        await EnsureSuccessAsync(response: response, cancellationToken: cancellationToken);
+
         using JsonDocument document = await JsonDocument.ParseAsync(
-            await response.Content.ReadAsStreamAsync(cancellationToken),
+utf8Json: await response.Content.ReadAsStreamAsync(cancellationToken: cancellationToken),
             cancellationToken: cancellationToken);
 
-        string token = document.RootElement.GetProperty("id").GetString()
+        string token = document.RootElement
+            .GetProperty(propertyName: "id")
+            .GetString()
             ?? throw new InvalidOperationException(
-                "The login response did not contain a bearer token.");
+message: "The login response did not contain a bearer token.");
 
         httpClient.DefaultRequestHeaders.Authorization =
-            new AuthenticationHeaderValue("Bearer", token);
+            new AuthenticationHeaderValue(scheme: "Bearer", parameter: token);
     }
 
     public async Task<IReadOnlyList<ExportRecord>> ExportCommonCacheAsync(
@@ -50,21 +57,24 @@ public sealed class PackerApiClient(HttpClient httpClient, Uri source)
                 $"?type={type}&$orderby=Name asc";
 
             using JsonDocument response = await GetJsonAsync(
-                request,
-                cancellationToken);
+relativeUrl: request,
+cancellationToken: cancellationToken);
 
             foreach (JsonElement item in GetProperty(
-                response.RootElement,
-                "value")
+value: response.RootElement,
+name: "value")
                 .EnumerateArray())
             {
                 using JsonDocument value = JsonDocument.Parse(
-                    GetProperty(item, "Json").GetString() ?? "{}");
+                    json: GetProperty(value: item, name: "Json")
+                        .GetString() ?? "{}");
 
-                records.Add(CreateExportRecord(
-                    "Common Cache",
-                    type.Split('/').Last(),
-                    value.RootElement.Clone()));
+                records.Add(item: CreateExportRecord(
+domain: "Common Cache",
+                    entityType: type
+                        .Split(separator: '/')
+                        .Last(),
+value: value.RootElement.Clone()));
             }
         }
 
@@ -76,39 +86,46 @@ public sealed class PackerApiClient(HttpClient httpClient, Uri source)
         CancellationToken cancellationToken = default)
     {
         int appId = requestedAppId
-            ?? await ResolveAppIdAsync(cancellationToken);
+            ?? await ResolveAppIdAsync(cancellationToken: cancellationToken);
 
         using JsonDocument response = await GetJsonAsync(
-            $"Api/Core/Package/Export?appId={appId}",
-            cancellationToken);
+relativeUrl: $"Api/Core/Package/Export?appId={appId}",
+cancellationToken: cancellationToken);
 
         List<ExportRecord> records = [];
 
         foreach (JsonElement package in response.RootElement.EnumerateArray())
         {
-            if (!TryGetProperty(package, "Items", out JsonElement items))
+            if (!TryGetProperty(value: package, name: "Items", property: out JsonElement items))
+            {
                 continue;
+            }
 
             foreach (JsonElement item in items.EnumerateArray())
             {
-                string type = GetProperty(item, "Type").GetString()
+                string type = GetProperty(value: item, name: "Type")
+                    .GetString()
                     ?? string.Empty;
-                string entityType = type.Split('/').LastOrDefault()
+
+                string entityType = type
+                    .Split(separator: '/')
+                    .LastOrDefault()
                     ?? throw new InvalidDataException(
-                        $"Package item type '{type}' is invalid.");
+                        message: $"Package item type '{type}' is invalid.");
 
                 using JsonDocument data = JsonDocument.Parse(
-                    GetProperty(item, "Data").GetString() ?? "[]");
+                    json: GetProperty(value: item, name: "Data")
+                        .GetString() ?? "[]");
 
                 IEnumerable<JsonElement> values =
                     data.RootElement.ValueKind == JsonValueKind.Array
                         ? data.RootElement.EnumerateArray()
                         : [data.RootElement];
 
-                records.AddRange(values.Select(value => CreateExportRecord(
-                    source.Host,
-                    entityType,
-                    value.Clone())));
+                records.AddRange(collection: values.Select(selector: value => CreateExportRecord(
+domain: source.Host,
+entityType: entityType,
+value: value.Clone())));
             }
         }
 
@@ -118,22 +135,24 @@ public sealed class PackerApiClient(HttpClient httpClient, Uri source)
     private async Task<int> ResolveAppIdAsync(
         CancellationToken cancellationToken)
     {
-        string domain = source.Host.Replace("'", "''");
-        using JsonDocument response = await GetJsonAsync(
-            $"Api/ContentManagement/App?$filter=Domain eq '{domain}'&$top=2",
-            cancellationToken);
+        string domain = source.Host.Replace(oldValue: "'", newValue: "''");
 
-        JsonElement[] apps = GetProperty(response.RootElement, "value")
+        using JsonDocument response = await GetJsonAsync(
+relativeUrl: $"Api/ContentManagement/App?$filter=Domain eq '{domain}'&$top=2",
+cancellationToken: cancellationToken);
+
+        JsonElement[] apps = GetProperty(value: response.RootElement, name: "value")
             .EnumerateArray()
             .ToArray();
 
         return apps.Length switch
         {
-            1 => GetProperty(apps[0], "Id").GetInt32(),
+            1 => GetProperty(value: apps[0], name: "Id")
+                .GetInt32(),
             0 => throw new InvalidOperationException(
-                $"No app uses the domain '{source.Host}'. Use '-appId' explicitly."),
+message: $"No app uses the domain '{source.Host}'. Use '-appId' explicitly."),
             _ => throw new InvalidOperationException(
-                $"Multiple apps use the domain '{source.Host}'. Use '-appId' explicitly."),
+message: $"Multiple apps use the domain '{source.Host}'. Use '-appId' explicitly."),
         };
     }
 
@@ -142,12 +161,13 @@ public sealed class PackerApiClient(HttpClient httpClient, Uri source)
         CancellationToken cancellationToken)
     {
         using HttpResponseMessage response = await httpClient.GetAsync(
-            new Uri(source, relativeUrl),
-            cancellationToken);
+requestUri: new Uri(baseUri: source, relativeUri: relativeUrl),
+cancellationToken: cancellationToken);
 
-        await EnsureSuccessAsync(response, cancellationToken);
+        await EnsureSuccessAsync(response: response, cancellationToken: cancellationToken);
+
         return await JsonDocument.ParseAsync(
-            await response.Content.ReadAsStreamAsync(cancellationToken),
+utf8Json: await response.Content.ReadAsStreamAsync(cancellationToken: cancellationToken),
             cancellationToken: cancellationToken);
     }
 
@@ -156,15 +176,17 @@ public sealed class PackerApiClient(HttpClient httpClient, Uri source)
         CancellationToken cancellationToken)
     {
         if (response.IsSuccessStatusCode)
+        {
             return;
+        }
 
         string detail = await response.Content.ReadAsStringAsync(
-            cancellationToken);
+cancellationToken: cancellationToken);
 
         throw new HttpRequestException(
-            $"{(int)response.StatusCode} {response.ReasonPhrase}: {detail}",
-            null,
-            response.StatusCode);
+message: $"{(int)response.StatusCode} {response.ReasonPhrase}: {detail}",
+inner: null,
+statusCode: response.StatusCode);
     }
 
     private static ExportRecord CreateExportRecord(
@@ -172,29 +194,29 @@ public sealed class PackerApiClient(HttpClient httpClient, Uri source)
         string entityType,
         JsonElement value)
     {
-        if (entityType.Equals("Resource", StringComparison.OrdinalIgnoreCase))
+        if (entityType.Equals(value: "Resource", comparisonType: StringComparison.OrdinalIgnoreCase))
         {
-            string key = OptionalString(value, "Key", "Unkeyed");
-            string culture = OptionalString(value, "Culture", "Default");
+            string key = OptionalString(value: value, name: "Key", fallback: "Unkeyed");
+            string culture = OptionalString(value: value, name: "Culture", fallback: "Default");
 
             return new ExportRecord(
-                domain,
-                Path.Combine(key, "Resources"),
-                culture,
-                value,
+Domain: domain,
+Category: Path.Combine(path1: key, path2: "Resources"),
+Name: culture,
+Value: value,
                 CombineValues: true);
         }
 
         string resourceKey = OptionalString(
-            value,
-            "ResourceKey",
-            OptionalString(value, "Key", "Default"));
+value: value,
+name: "ResourceKey",
+fallback: OptionalString(value: value, name: "Key", fallback: "Default"));
 
         return new ExportRecord(
-            domain,
-            Path.Combine(resourceKey, Pluralize(entityType)),
-            BusinessObjectName(entityType, value),
-            value);
+Domain: domain,
+Category: Path.Combine(path1: resourceKey, path2: Pluralize(entityType: entityType)),
+Name: BusinessObjectName(entityType: entityType, value: value),
+Value: value);
     }
 
     private static string BusinessObjectName(
@@ -202,38 +224,40 @@ public sealed class PackerApiClient(HttpClient httpClient, Uri source)
         JsonElement value)
     {
         if (entityType is "Page" or "PageRole" or "FolderRole"
-            && TryGetProperty(value, "Path", out JsonElement pathProperty))
+            && TryGetProperty(value: value, name: "Path", property: out JsonElement pathProperty))
         {
-            string path = string.IsNullOrWhiteSpace(pathProperty.GetString())
+            string path = string.IsNullOrWhiteSpace(value: pathProperty.GetString())
                 ? "Root"
                 : pathProperty.GetString()!;
 
             string qualifier = entityType switch
             {
-                "PageRole" => OptionalString(value, "Role", string.Empty),
-                "FolderRole" => OptionalString(value, "Name", string.Empty),
+                "PageRole" => OptionalString(value: value, name: "Role", fallback: string.Empty),
+                "FolderRole" => OptionalString(value: value, name: "Name", fallback: string.Empty),
                 _ => string.Empty,
             };
 
-            return string.IsNullOrWhiteSpace(qualifier)
+            return string.IsNullOrWhiteSpace(value: qualifier)
                 ? path
                 : $"{path}-{qualifier}";
         }
 
         foreach (string propertyName in new[] { "Name", "Domain", "Key", "Id" })
         {
-            if (TryGetString(value, propertyName, out string? candidate))
+            if (TryGetString(value: value, name: propertyName, result: out string? candidate))
+            {
                 return candidate;
+            }
         }
 
         throw new InvalidDataException(
-            $"An exported {entityType} did not contain a usable identity.");
+message: $"An exported {entityType} did not contain a usable identity.");
     }
 
     private static string Pluralize(string entityType) =>
-        entityType.EndsWith('s')
+        entityType.EndsWith(value: 's')
             ? entityType
-            : entityType.EndsWith('y')
+            : entityType.EndsWith(value: 'y')
                 ? $"{entityType[..^1]}ies"
                 : $"{entityType}s";
 
@@ -241,7 +265,7 @@ public sealed class PackerApiClient(HttpClient httpClient, Uri source)
         JsonElement value,
         string name,
         string fallback) =>
-        TryGetString(value, name, out string? result)
+        TryGetString(value: value, name: name, result: out string? result)
             ? result
             : fallback;
 
@@ -252,7 +276,8 @@ public sealed class PackerApiClient(HttpClient httpClient, Uri source)
         out string? result)
     {
         result = null;
-        if (!TryGetProperty(value, name, out JsonElement property)
+
+        if (!TryGetProperty(value: value, name: name, property: out JsonElement property)
             || property.ValueKind is JsonValueKind.Null
                 or JsonValueKind.Undefined)
         {
@@ -263,28 +288,30 @@ public sealed class PackerApiClient(HttpClient httpClient, Uri source)
             ? property.GetString()
             : property.ToString();
 
-        return !string.IsNullOrWhiteSpace(result);
+        return !string.IsNullOrWhiteSpace(value: result);
     }
 
     private static JsonElement GetProperty(
         JsonElement value,
         string name) =>
-        TryGetProperty(value, name, out JsonElement property)
+        TryGetProperty(value: value, name: name, property: out JsonElement property)
             ? property
             : throw new InvalidDataException(
-                $"The API response did not contain '{name}'.");
+message: $"The API response did not contain '{name}'.");
 
     private static bool TryGetProperty(
         JsonElement value,
         string name,
         out JsonElement property)
     {
-        if (value.TryGetProperty(name, out property))
+        if (value.TryGetProperty(propertyName: name, value: out property))
+        {
             return true;
+        }
 
         string camelCaseName =
-            char.ToLowerInvariant(name[0]) + name[1..];
+            char.ToLowerInvariant(c: name[0]) + name[1..];
 
-        return value.TryGetProperty(camelCaseName, out property);
+        return value.TryGetProperty(propertyName: camelCaseName, value: out property);
     }
 }
