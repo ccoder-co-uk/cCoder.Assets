@@ -1,0 +1,22 @@
+{
+  "Path": "Documentation/ContentManagement/AppManagement/Templates",
+  "Name": "Templates",
+  "ShowOnMenus": true,
+  "Order": 60,
+  "LastUpdated": "2026-07-21T16:12:48.8578821\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E\u003Cdiv class=\u0022documentation\u0022\u003E\u003Ch2\u003EAccessing Template Management\u003C/h2\u003E\u003Cp\u003EYou Access this page through the App Management Tabs. From here you can manage the app\u0026rsquo;s\n            template, managing things like the colour things appear \u0026amp; any CSS changes that need to happen within the\n            app,\u003C/p\u003E\u003Ch2\u003EThe UI\u003C/h2\u003E\u003Cp\u003EWhen you access the templates tab, you\u0026rsquo;re greeted with something that looks like this: \u003C/p\u003E\u003Cimg src=\u0022[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Templates/TemplatesGrid-en.png\u0022 /\u003E\u003Cp\u003EThis grid contains any relevant templates for the given app, the most commonly used one\n            across all portals is the Theme-Default, which can be customised to ensure that our theming matches the\n            client\u0026rsquo;s requested theme.\u003C/p\u003E\u003Cp\u003E\u0026nbsp;\u003C/p\u003E\u003Ch2\u003ECreating a Template\u003C/h2\u003E\u003Cp\u003ETo create a new template in this UI, you click on the \u003Cstrong\u003E\u0026ldquo;New Template\u0026rdquo;\u003C/strong\u003E button\n            in the header bar. Clicking this will bring up a dialog that looks something like this:\u003C/p\u003E\u003Cimg src=\u0022[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Templates/CreateTemplateDialog-en.png\u0022 height=\u0022208\u0022 style=\u0022display:block;\u0022 /\u003E\u003Cp\u003EHere, \u003Cstrong\u003E\u0026ldquo;Resource Key\u0026rdquo; \u003C/strong\u003Eis the way that the system selects which resources to\n            use in this\n            template. For example, if this is set to B2B, it will use the resources that have the matching key.\n            \u003Cstrong\u003E\u0026ldquo;Name\u0026rdquo;\u003C/strong\u003E\n is the name you want your template to have that should be related to the places it will be used. Once you\u0026rsquo;ve\n            filled these text boxes in with the relevant information, you can press confirm to create your new template.\n        \u003C/p\u003E\u003Cimg src=\u0022[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Templates/CreatedTemplate-en.png\u0022 /\u003E\u003Cp\u003EFor now, I have created a Test template. On this row you can see that there are save and\n            delete functions and there\u0026rsquo;s the ability expand the component.\u003C/p\u003E\u003Cp\u003E\u0026nbsp;\u003C/p\u003E\u003Ch2\u003EUpdating a Template\u003C/h2\u003E\u003Cp\u003EOn expanding a new template, you will come across a large text box, this box is where you\n            implement any css you want to be used across the site.\u003C/p\u003E\u003Cimg src=\u0022[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Templates/UpdateTemplateContent-en.png\u0022 /\u003E\u003Cp\u003ETo save any CSS changes you\u0026rsquo;ve made within a template you click the \u003Cstrong\u003E\u0026ldquo;Save\u0026rdquo;\n \u003C/strong\u003Ebutton on the\n            relevant row. This will save any changes you\u0026rsquo;ve made to this template.\u003C/p\u003E\u003Cp\u003E\u0026nbsp;\u003C/p\u003E\u003Ch2\u003EDeleting a Template \u003C/h2\u003E\u003Cp\u003ETo delete a template that you no longer use or need, then you click the \u0026ldquo;Delete\u0026rdquo; button that\n            will remove your template and its content from the UI.\n        \u003C/p\u003E\u003Cimg src=\u0022[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Templates/DeleteTemplate-en.png\u0022 /\u003E\u003C/div\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "How to access and manage the templates in the portal.",
+      "Title": "Templates"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "Id": 30699,
+  "AppId": 4,
+  "Key": "AccountManagement",
+  "Culture": "fr-FR",
+  "DisplayName": "Soumettre",
+  "ShortDisplayName": "Soumettre",
+  "Name": "submit",
+  "Description": "Soumettre",
+  "LastUpdated": "2021-07-07T09:42:12.1389964Z",
+  "LastUpdatedBy": "Guest",
+  "CreatedOn": "2021-07-06T17:35:47.3458771Z",
+  "CreatedBy": "callum.marshall"
+}

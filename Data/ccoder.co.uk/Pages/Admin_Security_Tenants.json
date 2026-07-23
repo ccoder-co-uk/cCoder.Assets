@@ -1,0 +1,24 @@
+{
+  "Path": "Admin/Security/Tenants",
+  "Name": "Tenants",
+  "ResourceKey": "",
+  "ShowOnMenus": true,
+  "Order": 10,
+  "LastUpdated": "2026-07-21T21:49:06.3580196\u002B00:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[TenantManagement]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Create and manage security tenants and their associated applications.",
+      "Keywords": "Security Tenants, Tenant Administration",
+      "Title": "Tenants"
+    }
+  ]
+}

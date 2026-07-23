@@ -1,0 +1,23 @@
+{
+  "Path": "Tools/DeveloperTools",
+  "Name": "Developer Tools",
+  "ShowOnMenus": true,
+  "Order": 1,
+  "LastUpdated": "2026-07-22T08:21:44.0606047\u002B00:00",
+  "Layout": "StaticContent",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[detailednav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Developer Tools",
+      "Keywords": "Developer Tools",
+      "Title": "Developer Tools"
+    }
+  ]
+}

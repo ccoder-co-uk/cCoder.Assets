@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 4994,
+    "AppId": 4,
+    "Key": "Login",
+    "Culture": "",
+    "DisplayName": "Login",
+    "ShortDisplayName": "Login",
+    "Name": "login",
+    "Description": "Login",
+    "LastUpdated": "2021-07-07T09:42:12.1307556Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 4958,
+        "AppId": 4,
+        "Key": "Login",
+        "Culture": "fr-FR",
+        "DisplayName": "S\u0027identifier",
+        "ShortDisplayName": "\tSe connecter",
+        "Name": "login",
+        "Description": "\tSe connecter",
+        "LastUpdated": "2021-07-07T09:42:12.1304752Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4976,
+    "AppId": 4,
+    "Key": "Login",
+    "Culture": "",
+    "DisplayName": "Logout",
+    "ShortDisplayName": "Logout",
+    "Name": "logout",
+    "Description": "Logout",
+    "LastUpdated": "2021-07-07T09:42:12.1306138Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5062,
+        "AppId": 4,
+        "Key": "Login",
+        "Culture": "fr-FR",
+        "DisplayName": "Se d\u00E9connecter",
+        "ShortDisplayName": "Se d\u00E9connecter",
+        "Name": "logout",
+        "Description": "Se d\u00E9connecter",
+        "LastUpdated": "2021-07-07T09:42:12.1312583Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  }
+]

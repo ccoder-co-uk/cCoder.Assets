@@ -1,0 +1,24 @@
+{
+  "Path": "Admin/Security",
+  "Name": "Security",
+  "ResourceKey": "",
+  "ShowOnMenus": true,
+  "Order": 2,
+  "LastUpdated": "2026-07-21T21:44:40.9847933\u002B00:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[DetailedNav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Manage portal tenants, roles and identity security.",
+      "Keywords": "Security, Tenants, Roles, Administration",
+      "Title": "Security"
+    }
+  ]
+}

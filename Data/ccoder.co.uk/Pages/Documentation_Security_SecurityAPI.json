@@ -1,0 +1,23 @@
+{
+  "Path": "Documentation/Security/SecurityAPI",
+  "Name": "Security API",
+  "ShowOnMenus": true,
+  "Order": 50,
+  "LastUpdated": "2026-07-21T16:14:08.937144\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E\u003Ch2\u003EOur Security API\u003C/h2\u003E\u003Cp\u003EYou can use our Security API to perform different tasks, for example you can use it to register for an account, or use it to sign into an existing account in our system.\u003Cbr /\u003E\u003C/p\u003E\u003Cp\u003EWhen you register for an account in our portal, it does two things:\u003C/p\u003E\u003Cul\u003E\u003Cli\u003ESets up an account in our Security domain,\u003C/li\u003E\u003Cli\u003EAdds you as a user to the portal you\u0027re registering to (this essentially gives you very minimal access to the portal, further access has to be applied for).\u003C/li\u003E\u003C/ul\u003E\u003Cp\u003ETo understand more about the Security API, you can view more details about the possible requests you can make in our \u003Ca href=\u0022[app[root]]Documentation/Security/Metadata\u0022\u003ESecurity Metadata grid\u003C/a\u003E.\u003C/p\u003E\u003Ch2\u003ERegistering using our API\u003C/h2\u003E\u003Cp\u003EThe first thing you have to do is build out your registration request, this will look something like this:\u003C/p\u003E\u003Cp\u003E\u003Cspan style=\u0022font-family:var(--bs-font-monospace);font-size:0.875em;color:var(--kendo-color-on-app-surface, #212529);font-weight:var(--bs-body-font-weight);text-align:var(--bs-body-text-align);\u0022\u003EHTTP POST \u003C/span\u003E\u003Ca href=\u0022https://%3Cappurl%3E/Api/Account/Login\u0022\u003Ehttps://\u0026lt;AppURL\u0026gt;/Api/Account/Login\u003C/a\u003E\u003C/p\u003E\u003Cpre style=\u0022background-color:#ffffff;font-family:var(--bs-font-monospace);font-size:12px;\u0022\u003E        {\n            DisplayName: \u0022Joe Bloggs\u0022,\n            Email:\u0022joe.bloggs@corporatelinx.com\u0022,\n            Password:\u0022superSecretPassword123!!\u0022,\n            Culture: \u0022en-GB\u0022,\n            PhoneNumber: \u002201234 567 890\u0022,\n            AppId: 0\n        }\u003C/pre\u003E\u003Cp\u003EAppId is an optional field (it doesn\u0027t matter if you don\u0027t have one, providing one will automatically register the account with in the app with that particular Id).\u003C/p\u003E\u003Cp\u003EThe rest of this information is standard information that you would expect to have to provide on any account creation.\u003C/p\u003E\u003Ch2\u003ELogging in using our API\u003C/h2\u003E\u003Cp\u003EYou can now use the details you just set up to authenticate and get a token. This request will look something like this:\u003C/p\u003E\u003Cp\u003E\u003Cspan style=\u0022font-family:var(--bs-font-monospace);font-size:0.875em;color:var(--kendo-color-on-app-surface, #212529);font-weight:var(--bs-body-font-weight);text-align:var(--bs-body-text-align);\u0022\u003EHTTP POST\u0026nbsp;\u003C/span\u003E\u003Ca href=\u0022https://%3Cappurl%3E/Api/Account/Register\u0022\u003Ehttps://\u0026lt;AppURL\u0026gt;/Api/Account/Login\u003C/a\u003E\u003Cspan style=\u0022font-family:var(--bs-font-monospace);font-size:0.875em;color:var(--kendo-color-on-app-surface, #212529);font-weight:var(--bs-body-font-weight);text-align:var(--bs-body-text-align);\u0022\u003E\u003C/span\u003E\u003C/p\u003E\u003Cpre style=\u0022background-color:#ffffff;font-family:var(--bs-font-monospace);font-size:12px;\u0022\u003E        {\n            User: \u0026ldquo;joe.bloggs@corporatelinx.com\u0026rdquo;,\n            Pass: \u0026ldquo;superSecretPassword123!!\u0022\n        }\u003C/pre\u003E\u003Cp\u003EWhen this request is made, the server responds with a token which can be used in all subsequent calls you make to the API.\u003C/p\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Reference guidance for integrating with cCoder identity and authentication endpoints.",
+      "Keywords": "SSO API",
+      "Title": "Security API"
+    }
+  ]
+}

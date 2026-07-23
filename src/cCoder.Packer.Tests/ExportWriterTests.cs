@@ -37,33 +37,36 @@ public sealed class ExportWriterTests : IDisposable
     }
 
     [Fact]
-    public async Task ShouldKeepResourceTranslationsInOneNamedFile()
+    public async Task ShouldGroupResourcesByKeyAndCulture()
     {
-        using JsonDocument english = JsonDocument.Parse(
+        using JsonDocument save = JsonDocument.Parse(
             """{"Name":"save","Culture":"en-GB","DisplayName":"Save"}""");
-        using JsonDocument french = JsonDocument.Parse(
-            """{"Name":"save","Culture":"fr-FR","DisplayName":"Enregistrer"}""");
+        using JsonDocument cancel = JsonDocument.Parse(
+            """{"Name":"cancel","Culture":"en-GB","DisplayName":"Cancel"}""");
 
         ExportWriter writer = new(directory);
         await writer.WriteAsync(
         [
             new ExportRecord(
                 "ContentManagement",
-                "Resources",
-                "save",
-                english.RootElement.Clone()),
+                Path.Combine("Resources", "CMS"),
+                "en-GB",
+                save.RootElement.Clone(),
+                CombineValues: true),
             new ExportRecord(
                 "ContentManagement",
-                "Resources",
-                "save",
-                french.RootElement.Clone()),
+                Path.Combine("Resources", "CMS"),
+                "en-GB",
+                cancel.RootElement.Clone(),
+                CombineValues: true),
         ]);
 
         string file = Path.Combine(
             directory,
             "ContentManagement",
             "Resources",
-            "save.json");
+            "CMS",
+            "en-GB.json");
 
         using JsonDocument result = JsonDocument.Parse(
             await File.ReadAllTextAsync(file));

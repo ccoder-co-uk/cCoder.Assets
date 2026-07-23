@@ -1,0 +1,182 @@
+[
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "size",
+    "DisplayName": "Taille",
+    "ShortDisplayName": "Taille",
+    "Description": "Taille",
+    "LastUpdated": "2022-03-18T10:41:54.1905497\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "newname",
+    "DisplayName": "Nouveau nom",
+    "ShortDisplayName": "Nouveau nom",
+    "Description": "Nouveau nom",
+    "LastUpdated": "2022-03-18T10:41:54.1905548\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "renamefoldertitle",
+    "DisplayName": "Renommer le dossier",
+    "ShortDisplayName": "Renommer le dossier",
+    "Description": "Renommer le dossier",
+    "LastUpdated": "2022-03-18T10:41:54.1906711\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "folderpropertiestitle",
+    "DisplayName": "Propri\u00E9t\u00E9s du dossier",
+    "ShortDisplayName": "Propri\u00E9t\u00E9s du dossier",
+    "Description": "Propri\u00E9t\u00E9s du dossier",
+    "LastUpdated": "2022-03-18T10:41:54.1906761\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "addnewfoldertitle",
+    "DisplayName": "Ajouter le dossier",
+    "ShortDisplayName": "Ajouter le dossier",
+    "Description": "Ajouter le dossier",
+    "LastUpdated": "2022-03-18T10:41:54.1906877\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "pleasenamethenewfolder",
+    "DisplayName": "Veuillez nommer le dossier",
+    "ShortDisplayName": "Veuillez nommer le dossier",
+    "Description": "Veuillez nommer le dossier",
+    "LastUpdated": "2022-03-18T10:41:54.1906978\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "folderroles",
+    "DisplayName": "R\u00F4les de dossier",
+    "ShortDisplayName": "R\u00F4les de dossier",
+    "Description": "R\u00F4les de dossier",
+    "LastUpdated": "2022-03-18T10:41:54.1907028\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "areyousureyouwanttodeletethisfolder",
+    "DisplayName": "Voulez-vous vraiment supprimer ce dossier?",
+    "ShortDisplayName": "Voulez-vous vraiment supprimer ce dossier?",
+    "Description": "Voulez-vous vraiment supprimer ce dossier?",
+    "LastUpdated": "2022-03-18T10:41:54.1907346\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "DoYouWantToDeleteThisFolderTitle",
+    "DisplayName": "Voulez-vous supprimer ce dossier?",
+    "ShortDisplayName": "Voulez-vous supprimer ce dossier?",
+    "Description": "Voulez-vous supprimer ce dossier?",
+    "LastUpdated": "2022-03-18T10:41:54.1907396\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "deleteconfirmation",
+    "DisplayName": "Voulez-vous vraiment supprimer ce dossier? Tous les fichiers \u00E0 l\u0027int\u00E9rieur seront \u00E9galement supprim\u00E9s.",
+    "ShortDisplayName": "Voulez-vous vraiment supprimer ce dossier? Tous les fichiers \u00E0 l\u0027int\u00E9rieur seront \u00E9galement supprim\u00E9s.",
+    "Description": "Voulez-vous vraiment supprimer ce dossier? Tous les fichiers \u00E0 l\u0027int\u00E9rieur seront \u00E9galement supprim\u00E9s.",
+    "LastUpdated": "2022-03-18T10:41:54.1907497\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "confirm",
+    "DisplayName": "Confirmer",
+    "ShortDisplayName": "Confirmer",
+    "Description": "Confirmer",
+    "LastUpdated": "2022-03-18T10:41:54.1907547\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "DeleteFolderTitle",
+    "DisplayName": "Supprimer le dossier",
+    "ShortDisplayName": "Supprimer le dossier",
+    "Description": "Supprimer le dossier",
+    "LastUpdated": "2022-03-18T10:41:54.1907821\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "folderwillbepermanentlylost",
+    "DisplayName": "Le dossier sera d\u00E9finitivement perdu,",
+    "ShortDisplayName": "Le dossier sera d\u00E9finitivement perdu,",
+    "Description": "Le dossier sera d\u00E9finitivement perdu,",
+    "LastUpdated": "2022-03-18T10:41:54.1907974\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "nogoback",
+    "DisplayName": "Non, reviens",
+    "ShortDisplayName": "Non, reviens",
+    "Description": "Non, reviens",
+    "LastUpdated": "2022-03-18T10:41:54.190809\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "yesdelete",
+    "DisplayName": "Oui, supprimez.",
+    "ShortDisplayName": "Oui, supprimez.",
+    "Description": "Oui, supprimez.",
+    "LastUpdated": "2022-03-18T10:41:54.1908191\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "doyouwanttodeletethisfolder",
+    "DisplayName": "Voulez-vous supprimer ce dossier?",
+    "ShortDisplayName": "Voulez-vous supprimer ce dossier?",
+    "Description": "Voulez-vous supprimer ce dossier?",
+    "LastUpdated": "2022-03-18T10:41:54.1908407\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "furtherinformation",
+    "DisplayName": "Informations suppl\u00E9mentaires",
+    "ShortDisplayName": "Informations suppl\u00E9mentaires",
+    "Description": "Informations suppl\u00E9mentaires",
+    "LastUpdated": "2022-03-18T10:41:54.190851\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "andallfoldersinsideittoo",
+    "DisplayName": "et tous les dossiers \u00E0 l\u0027int\u00E9rieur.",
+    "ShortDisplayName": "et tous les dossiers \u00E0 l\u0027int\u00E9rieur.",
+    "Description": "et tous les dossiers \u00E0 l\u0027int\u00E9rieur.",
+    "LastUpdated": "2022-03-18T10:41:54.1908561\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "folderdeletedsuccesfully",
+    "DisplayName": "Dossier supprim\u00E9 avec succ\u00E8s",
+    "ShortDisplayName": "Dossier supprim\u00E9 avec succ\u00E8s",
+    "Description": "Dossier supprim\u00E9 avec succ\u00E8s",
+    "LastUpdated": "2022-03-18T10:41:54.190861\u002B00:00"
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DMS",
+    "Name": "newfolder",
+    "DisplayName": "Nouveau Dossier",
+    "ShortDisplayName": "Nouveau Dossier",
+    "Description": "Nouveau Dossier",
+    "LastUpdated": "2023-01-04T12:32:37.1401249\u002B00:00"
+  }
+]

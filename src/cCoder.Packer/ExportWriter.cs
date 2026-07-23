@@ -21,33 +21,64 @@ public sealed class ExportWriter(string dataPath)
                     record.Name)))
         {
             string directory = Path.Combine(
-                dataPath,
-                SafeSegment(group.Key.Domain),
-                SafeSegment(group.Key.Category));
+                new[] { dataPath, SafeSegment(group.Key.Domain) }
+                    .Concat(SafePath(group.Key.Category))
+                    .ToArray());
 
             Directory.CreateDirectory(directory);
 
-            string file = Path.Combine(
-                directory,
-                $"{SafeSegment(group.Key.Name)}.json");
-
             ExportRecord[] values = group.ToArray();
-            object content = values.Length == 1
-                ? values[0].Value
-                : values.Select(record => record.Value).ToArray();
+            if (values.Length == 1 || values.All(value => value.CombineValues))
+            {
+                string file = Path.Combine(
+                    directory,
+                    $"{SafeSegment(group.Key.Name)}.json");
 
-            await using FileStream stream = File.Create(file);
-            await JsonSerializer.SerializeAsync(
-                stream,
-                content,
-                JsonDefaults.Options,
-                cancellationToken);
+                object content = values.Length == 1
+                    ? values[0].Value
+                    : values.Select(record => record.Value).ToArray();
 
-            writtenFiles.Add(file);
+                await WriteFileAsync(file, content, cancellationToken);
+                writtenFiles.Add(file);
+                continue;
+            }
+
+            for (int index = 0; index < values.Length; index++)
+            {
+                string file = Path.Combine(
+                    directory,
+                    $"{SafeSegment(group.Key.Name)}-{index + 1}.json");
+
+                await WriteFileAsync(
+                    file,
+                    values[index].Value,
+                    cancellationToken);
+
+                writtenFiles.Add(file);
+            }
         }
 
         return writtenFiles;
     }
+
+    private static async Task WriteFileAsync(
+        string file,
+        object content,
+        CancellationToken cancellationToken)
+    {
+        await using FileStream stream = File.Create(file);
+        await JsonSerializer.SerializeAsync(
+            stream,
+            content,
+            JsonDefaults.Options,
+            cancellationToken);
+    }
+
+    private static IEnumerable<string> SafePath(string value) =>
+        value.Split(
+                [Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar],
+                StringSplitOptions.RemoveEmptyEntries)
+            .Select(SafeSegment);
 
     private static string SafeSegment(string value)
     {

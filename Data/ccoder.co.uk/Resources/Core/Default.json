@@ -1,0 +1,128 @@
+[
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-2",
+    "DisplayName": "February",
+    "ShortDisplayName": "February",
+    "Description": "February",
+    "LastUpdated": "2026-07-21T20:58:54.0231717\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-3",
+    "DisplayName": "March",
+    "ShortDisplayName": "March",
+    "Description": "March",
+    "LastUpdated": "2026-07-21T20:58:54.1506139\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-4",
+    "DisplayName": "April",
+    "ShortDisplayName": "April",
+    "Description": "April",
+    "LastUpdated": "2026-07-21T20:58:54.2256017\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-5",
+    "DisplayName": "May",
+    "ShortDisplayName": "May",
+    "Description": "May",
+    "LastUpdated": "2026-07-21T20:58:54.3871026\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-6",
+    "DisplayName": "June",
+    "ShortDisplayName": "June",
+    "Description": "June",
+    "LastUpdated": "2026-07-21T20:58:54.5283278\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-7",
+    "DisplayName": "July",
+    "ShortDisplayName": "July",
+    "Description": "July",
+    "LastUpdated": "2026-07-21T20:58:54.6386313\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-1",
+    "DisplayName": "January",
+    "ShortDisplayName": "January",
+    "Description": "January",
+    "LastUpdated": "2026-07-21T20:58:53.9108616\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "dateformat",
+    "DisplayName": "dd MMM yyyy",
+    "ShortDisplayName": "dd MMM yyyy",
+    "Description": "dd MMM yyyy",
+    "LastUpdated": "2026-07-21T20:58:53.6980248\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "shortdateformat",
+    "DisplayName": "dd/MM/yyyy",
+    "ShortDisplayName": "dd/MM/yyyy",
+    "Description": "dd/MM/yyyy",
+    "LastUpdated": "2026-07-21T20:58:53.8125225\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-8",
+    "DisplayName": "August",
+    "ShortDisplayName": "August",
+    "Description": "August",
+    "LastUpdated": "2026-07-21T20:58:54.7380902\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-9",
+    "DisplayName": "September",
+    "ShortDisplayName": "September",
+    "Description": "September",
+    "LastUpdated": "2026-07-21T20:58:54.8490363\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-10",
+    "DisplayName": "October",
+    "ShortDisplayName": "October",
+    "Description": "October",
+    "LastUpdated": "2026-07-21T20:58:54.9837899\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-11",
+    "DisplayName": "November",
+    "ShortDisplayName": "November",
+    "Description": "November",
+    "LastUpdated": "2026-07-21T20:58:55.1342334\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-12",
+    "DisplayName": "December",
+    "ShortDisplayName": "December",
+    "Description": "December",
+    "LastUpdated": "2026-07-21T20:58:55.2899239\u002B00:00"
+  }
+]

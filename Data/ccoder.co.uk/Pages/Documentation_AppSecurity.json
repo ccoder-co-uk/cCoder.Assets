@@ -1,0 +1,22 @@
+{
+  "Path": "Documentation/AppSecurity",
+  "Name": "App Security",
+  "ShowOnMenus": true,
+  "Order": 20,
+  "LastUpdated": "2026-07-21T16:10:58.9493817\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E[component[DetailedNav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Guides for application roles, permissions and user access within a cCoder app.",
+      "Title": "App Security"
+    }
+  ]
+}

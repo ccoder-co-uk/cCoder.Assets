@@ -1,0 +1,962 @@
+[
+  {
+    "Id": 4573,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Address 1",
+    "ShortDisplayName": "address1",
+    "Name": "address1",
+    "Description": "address1",
+    "LastUpdated": "2021-07-07T09:42:12.127501Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5172,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Adresse 1",
+        "ShortDisplayName": "Adresse 1",
+        "Name": "address1",
+        "Description": "Adresse 1",
+        "LastUpdated": "2021-07-07T09:42:12.1321163Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4574,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Address 2",
+    "ShortDisplayName": "address2",
+    "Name": "address2",
+    "Description": "address2",
+    "LastUpdated": "2021-07-07T09:42:12.1275087Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5173,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Adresse 2",
+        "ShortDisplayName": "Adresse 2",
+        "Name": "address2",
+        "Description": "Adresse 2 ",
+        "LastUpdated": "2021-07-07T09:42:12.1321237Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4611,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Are you sure?",
+    "ShortDisplayName": "Are you sure?",
+    "Name": "areyousure_deleteroi",
+    "Description": "areyousure_deleteroi",
+    "LastUpdated": "2021-07-07T09:42:12.1277963Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5174,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "\u00CAtes-vous certain(e)?",
+        "ShortDisplayName": "\u00CAtes-vous certain(e)?",
+        "Name": "areyousure_deleteroi",
+        "Description": "\u00CAtes-vous certain(e)?",
+        "LastUpdated": "2021-07-07T09:42:12.1321311Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4576,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "City",
+    "ShortDisplayName": "City",
+    "Name": "city",
+    "Description": "city",
+    "LastUpdated": "2021-07-07T09:42:12.1275237Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5175,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Ville",
+        "ShortDisplayName": "Ville",
+        "Name": "city",
+        "Description": "Ville",
+        "LastUpdated": "2021-07-07T09:42:12.1321401Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4572,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Company Name",
+    "ShortDisplayName": "Company Name",
+    "Name": "companyname",
+    "Description": "Company Name",
+    "LastUpdated": "2021-07-07T09:42:12.1274915Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5176,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Nom de la soci\u00E9t\u00E9",
+        "ShortDisplayName": "Nom de la soci\u00E9t\u00E9",
+        "Name": "companyname",
+        "Description": "Nom de la soci\u00E9t\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1321476Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4578,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Country",
+    "ShortDisplayName": "Country",
+    "Name": "country",
+    "Description": "country",
+    "LastUpdated": "2021-07-07T09:42:12.1275386Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5177,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Pays",
+        "ShortDisplayName": "Pays",
+        "Name": "country",
+        "Description": "Pays",
+        "LastUpdated": "2021-07-07T09:42:12.1321551Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4580,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Date Sent",
+    "ShortDisplayName": "Date Sent",
+    "Name": "datesent",
+    "Description": "datesent",
+    "LastUpdated": "2021-07-07T09:42:12.1275551Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5178,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Date d\u0027envoi",
+        "ShortDisplayName": "Date d\u0027envoi",
+        "Name": "datesent",
+        "Description": "Date d\u0027envoi",
+        "LastUpdated": "2021-07-07T09:42:12.1321625Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4581,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Early Payment Method",
+    "ShortDisplayName": "Early Payment Method",
+    "Name": "earlypaymentmethod",
+    "Description": "earlypaymentmethod",
+    "LastUpdated": "2021-07-07T09:42:12.1275626Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5179,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "M\u00E9thode de r\u00E8glement anticip\u00E9",
+        "ShortDisplayName": "M\u00E9thode de r\u00E8glement anticip\u00E9",
+        "Name": "earlypaymentmethod",
+        "Description": "M\u00E9thode de r\u00E8glement anticip\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.13217Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4570,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Email",
+    "ShortDisplayName": "email",
+    "Name": "email",
+    "Description": "email",
+    "LastUpdated": "2021-07-07T09:42:12.1274766Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5216,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "E-mail",
+        "ShortDisplayName": "E-mail",
+        "Name": "email",
+        "Description": "E-mail",
+        "LastUpdated": "2021-07-07T09:42:12.1324661Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4608,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Export started",
+    "ShortDisplayName": "Export Started",
+    "Name": "exportstarted",
+    "Description": "exportstarted",
+    "LastUpdated": "2021-07-07T09:42:12.1277738Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5180,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Export d\u00E9marr\u00E9",
+        "ShortDisplayName": "Export d\u00E9marr\u00E9",
+        "Name": "exportstarted",
+        "Description": "Export d\u00E9marr\u00E9",
+        "LastUpdated": "2021-07-07T09:42:12.1321776Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4610,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Export successful",
+    "ShortDisplayName": "Export Successful",
+    "Name": "exportsuccessful",
+    "Description": "exportsuccessful",
+    "LastUpdated": "2021-07-07T09:42:12.1277888Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5181,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Export r\u00E9ussi",
+        "ShortDisplayName": "Export r\u00E9ussi",
+        "Name": "exportsuccessful",
+        "Description": "Export r\u00E9ussi",
+        "LastUpdated": "2021-07-07T09:42:12.1321865Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4589,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Export to Excel",
+    "ShortDisplayName": "Export To Excel",
+    "Name": "exporttoexcel",
+    "Description": "exporttoexcel",
+    "LastUpdated": "2021-07-07T09:42:12.1276244Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5182,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Exporter vers Excel",
+        "ShortDisplayName": "Exporter vers Excel",
+        "Name": "exporttoexcel",
+        "Description": "Exporter vers Excel",
+        "LastUpdated": "2021-07-07T09:42:12.1321939Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4568,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "First name",
+    "ShortDisplayName": "First Name",
+    "Name": "firstname",
+    "Description": "firstname",
+    "LastUpdated": "2021-07-07T09:42:12.1274614Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5183,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Pr\u00E9nom",
+        "ShortDisplayName": "Pr\u00E9nom",
+        "Name": "firstname",
+        "Description": "Pr\u00E9nom",
+        "LastUpdated": "2021-07-07T09:42:12.1322013Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4590,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "New Funding Request",
+    "ShortDisplayName": "New Funding Request",
+    "Name": "newfundingrequest",
+    "Description": "newfundingrequest",
+    "LastUpdated": "2021-07-07T09:42:12.1276321Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5184,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Nouvelle demande de r\u00E8glement",
+        "ShortDisplayName": "Nouvelle demande de r\u00E8glement",
+        "Name": "newfundingrequest",
+        "Description": "Nouvelle demande de r\u00E8glement",
+        "LastUpdated": "2021-07-07T09:42:12.1322089Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4609,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Onboaring Requests",
+    "ShortDisplayName": "Onboarding Requests",
+    "Name": "onboardingrequestlistrequests",
+    "Description": "onboardingrequestlistrequests",
+    "LastUpdated": "2021-07-07T09:42:12.1277813Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5185,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Demandes d\u0027adh\u00E9sion",
+        "ShortDisplayName": "Demandes d\u0027adh\u00E9sion",
+        "Name": "onboardingrequestlistrequests",
+        "Description": "Demandes d\u0027adh\u00E9sion",
+        "LastUpdated": "2021-07-07T09:42:12.1322164Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4571,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Organisation Name",
+    "ShortDisplayName": "Organisation Name",
+    "Name": "organisationname",
+    "Description": "organisationname",
+    "LastUpdated": "2021-07-07T09:42:12.1274841Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5186,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Nom du groupe - maison m\u00E8re",
+        "ShortDisplayName": "Nom du groupe - maison m\u00E8re",
+        "Name": "organisationname",
+        "Description": "Nom du groupe - maison m\u00E8re",
+        "LastUpdated": "2021-07-07T09:42:12.1322238Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4575,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Postcode",
+    "ShortDisplayName": "Postcode",
+    "Name": "postcode",
+    "Description": "postcode",
+    "LastUpdated": "2021-07-07T09:42:12.1275162Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5187,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Code postal",
+        "ShortDisplayName": "Code postal",
+        "Name": "postcode",
+        "Description": "Code postal",
+        "LastUpdated": "2021-07-07T09:42:12.1322313Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4591,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "ROI has been removed",
+    "ShortDisplayName": "ROI has been removed",
+    "Name": "roihasbeenremoved",
+    "Description": "roihasbeenremoved",
+    "LastUpdated": "2021-07-07T09:42:12.1276397Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5188,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "La demande d\u0027adh\u00E9sion a \u00E9t\u00E9 supprim\u00E9e",
+        "ShortDisplayName": "La demande d\u0027adh\u00E9sion a \u00E9t\u00E9 supprim\u00E9e",
+        "Name": "roihasbeenremoved",
+        "Description": "La demande d\u0027adh\u00E9sion a \u00E9t\u00E9 supprim\u00E9e",
+        "LastUpdated": "2021-07-07T09:42:12.1322401Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4603,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Signatory",
+    "ShortDisplayName": "Signatory",
+    "Name": "signatorymobile",
+    "Description": "signatorymobile",
+    "LastUpdated": "2021-07-07T09:42:12.1277343Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5189,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "T\u00E9l mobile du signataire",
+        "ShortDisplayName": "T\u00E9l mobile du signataire",
+        "Name": "signatorymobile",
+        "Description": "T\u00E9l mobile du signataire",
+        "LastUpdated": "2021-07-07T09:42:12.1322476Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4582,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Signatory Name",
+    "ShortDisplayName": "Signatory Name",
+    "Name": "signatoryname",
+    "Description": "signatoryname",
+    "LastUpdated": "2021-07-07T09:42:12.1275701Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5190,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Nom du signataire",
+        "ShortDisplayName": "Nom du signataire",
+        "Name": "signatoryname",
+        "Description": "Nom du signataire",
+        "LastUpdated": "2021-07-07T09:42:12.132255Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4584,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Signatory Number",
+    "ShortDisplayName": "Signatory Number",
+    "Name": "signatorynumber",
+    "Description": "signatorynumber",
+    "LastUpdated": "2021-07-07T09:42:12.1275852Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5191,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Num\u00E9ro du signataire",
+        "ShortDisplayName": "Num\u00E9ro du signataire",
+        "Name": "signatorynumber",
+        "Description": "Num\u00E9ro du signataire",
+        "LastUpdated": "2021-07-07T09:42:12.1322624Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4583,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Signatory Title",
+    "ShortDisplayName": "Signatory Title",
+    "Name": "signatorytitle",
+    "Description": "signatorytitle",
+    "LastUpdated": "2021-07-07T09:42:12.1275777Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5192,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Titre signataire",
+        "ShortDisplayName": "Titre signataire",
+        "Name": "signatorytitle",
+        "Description": "Titre signataire",
+        "LastUpdated": "2021-07-07T09:42:12.1322699Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4588,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "SIREN",
+    "ShortDisplayName": "siren",
+    "Name": "siren",
+    "Description": "siren",
+    "LastUpdated": "2021-07-07T09:42:12.1276169Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5193,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "SIREN",
+        "ShortDisplayName": "SIREN",
+        "Name": "siren",
+        "Description": "SIREN",
+        "LastUpdated": "2021-07-07T09:42:12.1322772Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4579,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "State",
+    "ShortDisplayName": "state",
+    "Name": "state",
+    "Description": "state",
+    "LastUpdated": "2021-07-07T09:42:12.1275476Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5217,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Statut",
+        "ShortDisplayName": "Statut",
+        "Name": "state",
+        "Description": "Statut",
+        "LastUpdated": "2021-07-07T09:42:12.1324734Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4605,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Accepted",
+    "ShortDisplayName": "Accepted",
+    "Name": "state_accepted",
+    "Description": "state_accepted",
+    "LastUpdated": "2021-07-07T09:42:12.1277511Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5194,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Accept\u00E9(e)",
+        "ShortDisplayName": "Accept\u00E9(e)",
+        "Name": "state_accepted",
+        "Description": "Accept\u00E9(e)",
+        "LastUpdated": "2021-07-07T09:42:12.132286Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4607,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Complete",
+    "ShortDisplayName": "Complete",
+    "Name": "state_complete",
+    "Description": "state_complete",
+    "LastUpdated": "2021-07-07T09:42:12.1277661Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5195,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Finalis\u00E9(e)",
+        "ShortDisplayName": "Finalis\u00E9(e)",
+        "Name": "state_complete",
+        "Description": "Finalis\u00E9(e)",
+        "LastUpdated": "2021-07-07T09:42:12.1322936Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4604,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Needs Review",
+    "ShortDisplayName": "Needs Review",
+    "Name": "state_needsreview",
+    "Description": "state_needsreview",
+    "LastUpdated": "2021-07-07T09:42:12.1277418Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5196,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Examen de la demande",
+        "ShortDisplayName": "Examen de la demande",
+        "Name": "state_needsreview",
+        "Description": "Examen de la demande",
+        "LastUpdated": "2021-07-07T09:42:12.1323011Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4606,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Rejected",
+    "ShortDisplayName": "Rejected",
+    "Name": "state_rejected",
+    "Description": "state_rejected",
+    "LastUpdated": "2021-07-07T09:42:12.1277587Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5197,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Rejet\u00E9(e)",
+        "ShortDisplayName": "Rejet\u00E9(e)",
+        "Name": "state_rejected",
+        "Description": "Rejet\u00E9(e)",
+        "LastUpdated": "2021-07-07T09:42:12.1323085Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4585,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Submitted",
+    "ShortDisplayName": "Submitted",
+    "Name": "state_submitted",
+    "Description": "state_submitted",
+    "LastUpdated": "2021-07-07T09:42:12.1275927Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5198,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Soumis",
+        "ShortDisplayName": "Soumis",
+        "Name": "state_submitted",
+        "Description": "Soumis",
+        "LastUpdated": "2021-07-07T09:42:12.1323159Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4569,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "Surname",
+    "ShortDisplayName": "Surname",
+    "Name": "surname",
+    "Description": "surname",
+    "LastUpdated": "2021-07-07T09:42:12.127469Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5199,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Nom de famille",
+        "ShortDisplayName": "Nom de famille",
+        "Name": "surname",
+        "Description": "Nom de famille",
+        "LastUpdated": "2021-07-07T09:42:12.1323234Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4577,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "VAT",
+    "ShortDisplayName": "VAT",
+    "Name": "vat",
+    "Description": "VAT",
+    "LastUpdated": "2021-07-07T09:42:12.1275311Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5200,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "T.V.A.",
+        "ShortDisplayName": "T.V.A.",
+        "Name": "vat",
+        "Description": "T.V.A.",
+        "LastUpdated": "2021-07-07T09:42:12.1323308Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 4602,
+    "AppId": 4,
+    "Key": "ROI",
+    "Culture": "",
+    "DisplayName": "View",
+    "ShortDisplayName": "View",
+    "Name": "view",
+    "Description": "view",
+    "LastUpdated": "2021-07-07T09:42:12.1277267Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5201,
+        "AppId": 4,
+        "Key": "ROI",
+        "Culture": "fr-FR",
+        "DisplayName": "Vue",
+        "ShortDisplayName": "Vue",
+        "Name": "view",
+        "Description": "Vue",
+        "LastUpdated": "2021-07-07T09:42:12.1323398Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  }
+]

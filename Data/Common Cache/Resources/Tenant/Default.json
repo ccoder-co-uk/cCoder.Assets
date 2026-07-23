@@ -1,0 +1,172 @@
+[
+  {
+    "Name": "apihits",
+    "Key": "Tenant",
+    "DisplayName": "Api Hits",
+    "ShortDisplayName": "Api Hits",
+    "Description": "Api Hits",
+    "CreatedOn": "2023-01-04T12:49:01.009Z",
+    "LastUpdated": "2023-01-04T12:49:01.009Z",
+    "Culture": ""
+  },
+  {
+    "Name": "b2b",
+    "Key": "Tenant",
+    "DisplayName": "B2B",
+    "ShortDisplayName": "B2B",
+    "Description": "B2B",
+    "CreatedOn": "2023-01-04T12:45:37.019Z",
+    "LastUpdated": "2023-01-04T12:45:37.019Z",
+    "Culture": ""
+  },
+  {
+    "Name": "buyers",
+    "Key": "Tenant",
+    "DisplayName": "Buyers",
+    "ShortDisplayName": "Buyers",
+    "Description": "Buyers",
+    "CreatedOn": "2023-01-04T12:51:38.892Z",
+    "LastUpdated": "2023-01-04T12:51:38.892Z",
+    "Culture": ""
+  },
+  {
+    "Name": "core",
+    "Key": "Tenant",
+    "DisplayName": "Core",
+    "ShortDisplayName": "Core",
+    "Description": "Core",
+    "CreatedOn": "2023-01-04T12:45:15.149Z",
+    "LastUpdated": "2023-01-04T12:45:15.149Z",
+    "Culture": ""
+  },
+  {
+    "Name": "createdon",
+    "Key": "Tenant",
+    "DisplayName": "Created On",
+    "ShortDisplayName": "Created On",
+    "Description": "Created On",
+    "CreatedOn": "2023-01-04T12:37:06.069Z",
+    "LastUpdated": "2023-01-04T12:37:06.069Z",
+    "Culture": ""
+  },
+  {
+    "Name": "endpoint",
+    "Key": "Tenant",
+    "DisplayName": "Endpoint",
+    "ShortDisplayName": "Endpoint",
+    "Description": "Endpoint",
+    "CreatedOn": "2023-01-04T12:50:45.442Z",
+    "LastUpdated": "2023-01-04T12:50:45.442Z",
+    "Culture": ""
+  },
+  {
+    "Name": "funders",
+    "Key": "Tenant",
+    "DisplayName": "Funders",
+    "ShortDisplayName": "Funders",
+    "Description": "Funders",
+    "CreatedOn": "2023-01-04T12:52:50.399Z",
+    "LastUpdated": "2023-01-04T12:52:50.399Z",
+    "Culture": ""
+  },
+  {
+    "Name": "hits",
+    "Key": "Tenant",
+    "DisplayName": "Hits",
+    "ShortDisplayName": "Hits",
+    "Description": "Hits",
+    "CreatedOn": "2023-01-04T12:50:12.990Z",
+    "LastUpdated": "2023-01-04T12:50:12.990Z",
+    "Culture": ""
+  },
+  {
+    "Name": "key",
+    "Key": "Tenant",
+    "DisplayName": "Key",
+    "ShortDisplayName": "Key",
+    "Description": "Key",
+    "CreatedOn": "2023-01-04T12:44:34.970Z",
+    "LastUpdated": "2023-01-04T12:44:34.970Z",
+    "Culture": ""
+  },
+  {
+    "Name": "name",
+    "Key": "Tenant",
+    "DisplayName": "Name",
+    "ShortDisplayName": "Name",
+    "Description": "Name",
+    "CreatedOn": "2023-01-04T12:44:53.355Z",
+    "LastUpdated": "2023-01-04T12:44:53.355Z",
+    "Culture": ""
+  },
+  {
+    "Name": "page",
+    "Key": "Tenant",
+    "DisplayName": "Page",
+    "ShortDisplayName": "Page",
+    "Description": "Page",
+    "CreatedOn": "2023-01-04T12:49:40.538Z",
+    "LastUpdated": "2023-01-04T12:49:40.538Z",
+    "Culture": ""
+  },
+  {
+    "Name": "pagehits",
+    "Key": "Tenant",
+    "DisplayName": "Page Hits",
+    "ShortDisplayName": "Page Hits",
+    "Description": "Page Hits",
+    "CreatedOn": "2023-01-04T12:48:38.720Z",
+    "LastUpdated": "2023-01-04T12:48:38.720Z",
+    "Culture": ""
+  },
+  {
+    "Name": "sessions",
+    "Key": "Tenant",
+    "DisplayName": "Sessions",
+    "ShortDisplayName": "Sessions",
+    "Description": "Sessions",
+    "CreatedOn": "2023-01-04T12:48:08.116Z",
+    "LastUpdated": "2023-01-04T12:48:08.116Z",
+    "Culture": ""
+  },
+  {
+    "Name": "suppliers",
+    "Key": "Tenant",
+    "DisplayName": "Suppliers",
+    "ShortDisplayName": "Suppliers",
+    "Description": "Suppliers",
+    "CreatedOn": "2023-01-04T12:51:59.118Z",
+    "LastUpdated": "2023-01-04T12:51:59.118Z",
+    "Culture": ""
+  },
+  {
+    "Name": "top",
+    "Key": "Tenant",
+    "DisplayName": "Top",
+    "ShortDisplayName": "Top",
+    "Description": "Top",
+    "CreatedOn": "2023-01-04T12:46:08.791Z",
+    "LastUpdated": "2023-01-04T12:46:08.791Z",
+    "Culture": ""
+  },
+  {
+    "Name": "useremail",
+    "Key": "Tenant",
+    "DisplayName": "User Email",
+    "ShortDisplayName": "User Email",
+    "Description": "User Email",
+    "CreatedOn": "2023-01-04T12:47:35.799Z",
+    "LastUpdated": "2023-01-04T12:47:35.799Z",
+    "Culture": ""
+  },
+  {
+    "Name": "userid",
+    "Key": "Tenant",
+    "DisplayName": "User Id",
+    "ShortDisplayName": "User Id",
+    "Description": "User Id",
+    "CreatedOn": "2023-01-04T12:47:13.549Z",
+    "LastUpdated": "2023-01-04T12:47:13.549Z",
+    "Culture": ""
+  }
+]

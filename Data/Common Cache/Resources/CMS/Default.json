@@ -1,0 +1,2899 @@
+[
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "accessdenied",
+    "DisplayName": "Access Denied",
+    "ShortDisplayName": "Access Denied",
+    "Description": "Access Denied",
+    "LastUpdated": "2022-03-18T10:41:54.1901493\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "accountactive",
+    "DisplayName": "Account Active",
+    "ShortDisplayName": "Account Active",
+    "Description": "accountactive",
+    "LastUpdated": "2022-03-18T10:41:54.190129\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "add",
+    "DisplayName": "Add",
+    "ShortDisplayName": "Add",
+    "Description": "Add",
+    "LastUpdated": "2022-03-18T10:41:54.1909194\u002B00:00"
+  },
+  {
+    "Name": "added",
+    "Key": "CMS",
+    "DisplayName": "Added",
+    "ShortDisplayName": "Added",
+    "Description": "Added",
+    "CreatedOn": "2022-02-25T11:27:01.334Z",
+    "LastUpdated": "2022-02-25T11:27:01.334Z",
+    "Culture": ""
+  },
+  {
+    "Id": 30680,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Add Resource Keys",
+    "ShortDisplayName": "Add Resource Keys",
+    "Name": "AddResourceKeys",
+    "Description": "Add Resource Keys",
+    "LastUpdated": "2021-07-07T09:42:12.1388604Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3460272Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Name": "animation",
+    "Key": "CMS",
+    "DisplayName": "Animation",
+    "ShortDisplayName": "Animation",
+    "Description": "Animation",
+    "CreatedOn": "2022-10-26T09:52:09.720Z",
+    "LastUpdated": "2022-10-26T09:52:09.720Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "apiurl",
+    "DisplayName": "Api URL",
+    "ShortDisplayName": "API URL",
+    "Description": "apiurl",
+    "LastUpdated": "2022-03-18T10:41:54.1896194\u002B00:00"
+  },
+  {
+    "Name": "app",
+    "Key": "CMS",
+    "DisplayName": "App",
+    "ShortDisplayName": "App",
+    "Description": "App",
+    "CreatedOn": "2022-11-14T12:30:27.090Z",
+    "LastUpdated": "2022-11-14T12:30:27.090Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "appconfigparsingerror",
+    "DisplayName": "App config parsing error",
+    "ShortDisplayName": "App config parsing error",
+    "Description": "App config parsing error",
+    "LastUpdated": "2022-03-18T10:41:54.1905228\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "appcreated",
+    "DisplayName": "App Created",
+    "ShortDisplayName": "App Created",
+    "Description": "appcreated",
+    "LastUpdated": "2022-03-18T10:41:54.1905079\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "appdeleted",
+    "DisplayName": "App Deleted",
+    "ShortDisplayName": "App Deleted",
+    "Description": "App Deleted",
+    "LastUpdated": "2023-11-15T14:22:49.0408731\u002B00:00"
+  },
+  {
+    "Id": 30505,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "appid",
+    "ShortDisplayName": "appid",
+    "Name": "appid",
+    "Description": "appid",
+    "LastUpdated": "2021-07-07T09:42:12.1374694Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3449676Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "appname",
+    "DisplayName": "App Name",
+    "ShortDisplayName": "App Name",
+    "Description": "App Name",
+    "LastUpdated": "2022-03-18T10:41:54.1899138\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "apppath",
+    "DisplayName": "App Path",
+    "ShortDisplayName": "App Path",
+    "Description": "App Path",
+    "LastUpdated": "2022-03-18T10:41:54.1898969\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "appsaved",
+    "DisplayName": "App Saved",
+    "ShortDisplayName": "App Saved",
+    "Description": "appsaved",
+    "LastUpdated": "2022-03-18T10:41:54.1903865\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "AppType",
+    "DisplayName": "App Type",
+    "ShortDisplayName": "App Type",
+    "Description": "App Type",
+    "LastUpdated": "2022-03-18T10:41:54.1898925\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "areyousure",
+    "DisplayName": "Are you sure?",
+    "ShortDisplayName": "Are you sure?",
+    "Description": "Are you sure?",
+    "LastUpdated": "2022-03-18T10:41:54.1891863\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "areyousureyouwanttodelete",
+    "DisplayName": "Are you sure you want to delete this? It cannot be reversed.",
+    "ShortDisplayName": "Are you sure you want to delete this? It cannot be reversed.",
+    "Description": "Are you sure you want to delete this? It cannot be reversed.",
+    "LastUpdated": "2022-03-18T10:41:54.1903295\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "areyousureyouwanttodeletethisapp",
+    "DisplayName": "Are you sure you want to delete this App? It cannot be reversed.",
+    "ShortDisplayName": "Are you sure you want to delete this App? It cannot be reversed.",
+    "Description": "Are you sure you want to delete this App? It cannot be reversed.",
+    "LastUpdated": "2022-03-18T10:41:54.1901696\u002B00:00"
+  },
+  {
+    "Name": "attemptedon",
+    "Key": "CMS",
+    "DisplayName": "Attempted On",
+    "ShortDisplayName": "Attempted On",
+    "Description": "Attempted On",
+    "CreatedOn": "2023-01-04T12:29:50.663Z",
+    "LastUpdated": "2023-01-04T12:29:50.663Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "authfailed",
+    "DisplayName": "Authentication failed",
+    "ShortDisplayName": "Authenntication FAILED",
+    "Description": "authfailed",
+    "LastUpdated": "2022-03-18T10:41:54.1894282\u002B00:00"
+  },
+  {
+    "Name": "background",
+    "Key": "CMS",
+    "DisplayName": "Background",
+    "ShortDisplayName": "Background",
+    "Description": "Background",
+    "CreatedOn": "2022-11-16T17:10:19.381Z",
+    "LastUpdated": "2022-11-16T17:10:19.381Z",
+    "Culture": ""
+  },
+  {
+    "Name": "backgroundjobs",
+    "Key": "CMS",
+    "DisplayName": "Background Jobs",
+    "ShortDisplayName": "Background Jobs",
+    "Description": "Background Jobs",
+    "CreatedOn": "2022-07-05T10:27:44.200Z",
+    "LastUpdated": "2022-07-05T10:27:44.200Z",
+    "Culture": ""
+  },
+  {
+    "Name": "basecolours",
+    "Key": "CMS",
+    "DisplayName": "Base Colours",
+    "ShortDisplayName": "Base Colours",
+    "Description": "Base Colours",
+    "CreatedOn": "2021-11-19T22:00:00.524Z",
+    "LastUpdated": "2021-11-19T22:00:00.524Z",
+    "Culture": ""
+  },
+  {
+    "Name": "blurradius",
+    "Key": "CMS",
+    "DisplayName": "Blur Radius",
+    "ShortDisplayName": "Blur Radius",
+    "Description": "Blur Radius",
+    "CreatedOn": "2021-11-19T22:02:33.729Z",
+    "LastUpdated": "2021-11-19T22:02:33.729Z",
+    "Culture": ""
+  },
+  {
+    "Id": 30583,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "body",
+    "ShortDisplayName": "body",
+    "Name": "body",
+    "Description": "body",
+    "LastUpdated": "2021-07-07T09:42:12.1380664Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.346623Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Name": "border",
+    "Key": "CMS",
+    "DisplayName": "Border",
+    "ShortDisplayName": "Border",
+    "Description": "Border",
+    "CreatedOn": "2022-11-21T10:36:35.033Z",
+    "LastUpdated": "2022-11-21T10:36:35.033Z",
+    "Culture": ""
+  },
+  {
+    "Name": "brandlogo",
+    "Key": "CMS",
+    "DisplayName": "Brand Logo",
+    "ShortDisplayName": "Brand Logo",
+    "Description": "Brand Logo",
+    "CreatedOn": "2022-10-26T09:50:47.082Z",
+    "LastUpdated": "2022-10-26T09:50:47.082Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "cancel",
+    "DisplayName": "Cancel",
+    "ShortDisplayName": "Cancel",
+    "Description": "Cancel",
+    "LastUpdated": "2022-03-18T10:41:54.1900314\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "category",
+    "DisplayName": "Category",
+    "ShortDisplayName": "Category",
+    "Description": "category",
+    "LastUpdated": "2022-03-18T10:41:54.1896384\u002B00:00"
+  },
+  {
+    "Name": "cc",
+    "Key": "CMS",
+    "DisplayName": "CC",
+    "ShortDisplayName": "CC",
+    "Description": "CC",
+    "CreatedOn": "2022-10-24T13:20:07.043Z",
+    "LastUpdated": "2022-10-24T13:20:07.043Z",
+    "Culture": ""
+  },
+  {
+    "Name": "chartcolours",
+    "Key": "CMS",
+    "DisplayName": "Chart Colours",
+    "ShortDisplayName": "Chart Colours",
+    "Description": "Chart Colours",
+    "CreatedOn": "2021-11-19T22:00:39.439Z",
+    "LastUpdated": "2021-11-19T22:00:39.439Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "checkyouremail",
+    "DisplayName": "Check your email",
+    "ShortDisplayName": "Check your email",
+    "Description": "Check your email",
+    "LastUpdated": "2022-03-18T10:41:54.1901446\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "close",
+    "DisplayName": "Close",
+    "ShortDisplayName": "Close",
+    "Description": "Close",
+    "LastUpdated": "2022-03-18T10:41:54.1900661\u002B00:00"
+  },
+  {
+    "Name": "colour",
+    "Key": "CMS",
+    "DisplayName": "Colour",
+    "ShortDisplayName": "Colour",
+    "Description": "Colour",
+    "CreatedOn": "2021-11-19T22:01:57.317Z",
+    "LastUpdated": "2021-11-19T22:01:57.317Z",
+    "Culture": ""
+  },
+  {
+    "Name": "colourfive",
+    "Key": "CMS",
+    "DisplayName": "Colour Five",
+    "ShortDisplayName": "Colour Five",
+    "Description": "Colour Five",
+    "CreatedOn": "2021-11-19T22:01:33.059Z",
+    "LastUpdated": "2021-11-19T22:01:33.059Z",
+    "Culture": ""
+  },
+  {
+    "Name": "colourfour",
+    "Key": "CMS",
+    "DisplayName": "Colour Four",
+    "ShortDisplayName": "Colour Four",
+    "Description": "Colour Four",
+    "CreatedOn": "2021-11-19T22:01:22.748Z",
+    "LastUpdated": "2021-11-19T22:01:22.748Z",
+    "Culture": ""
+  },
+  {
+    "Name": "colourone",
+    "Key": "CMS",
+    "DisplayName": "Colour One",
+    "ShortDisplayName": "Colour One",
+    "Description": "Colour One",
+    "CreatedOn": "2021-11-19T22:00:50.973Z",
+    "LastUpdated": "2021-11-19T22:00:50.973Z",
+    "Culture": ""
+  },
+  {
+    "Name": "colours",
+    "Key": "CMS",
+    "DisplayName": "Colours",
+    "ShortDisplayName": "Colours",
+    "Description": "Colours",
+    "CreatedOn": "2022-11-16T17:27:04.647Z",
+    "LastUpdated": "2022-11-16T17:27:04.647Z",
+    "Culture": ""
+  },
+  {
+    "Name": "coloursix",
+    "Key": "CMS",
+    "DisplayName": "Colour Six",
+    "ShortDisplayName": "Colour Six",
+    "Description": "Colour Six",
+    "CreatedOn": "2021-11-19T22:01:44.643Z",
+    "LastUpdated": "2021-11-19T22:01:44.643Z",
+    "Culture": ""
+  },
+  {
+    "Name": "colourthree",
+    "Key": "CMS",
+    "DisplayName": "Colour Three",
+    "ShortDisplayName": "Colour Three",
+    "Description": "Colour Three",
+    "CreatedOn": "2021-11-19T22:01:10.945Z",
+    "LastUpdated": "2021-11-19T22:01:10.945Z",
+    "Culture": ""
+  },
+  {
+    "Name": "colourtwo",
+    "Key": "CMS",
+    "DisplayName": "Colour Two",
+    "ShortDisplayName": "Colour Two",
+    "Description": "Colour Two",
+    "CreatedOn": "2021-11-19T22:00:58.531Z",
+    "LastUpdated": "2021-11-19T22:00:58.531Z",
+    "Culture": ""
+  },
+  {
+    "Id": 7350,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Components",
+    "ShortDisplayName": "Components",
+    "Name": "Components",
+    "Description": "Components",
+    "LastUpdated": "2021-07-07T09:42:12.1351954Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7332,
+        "AppId": 4,
+        "Key": "CMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Composants",
+        "ShortDisplayName": "Composants",
+        "Name": "Components",
+        "Description": "Composants",
+        "LastUpdated": "2021-07-07T09:42:12.135064Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Id": 7370,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Configuration",
+    "ShortDisplayName": "Configuration",
+    "Name": "Configuration",
+    "Description": "Configuration",
+    "LastUpdated": "2021-07-07T09:42:12.1353496Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7338,
+        "AppId": 4,
+        "Key": "CMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Configuration",
+        "ShortDisplayName": "Configuration",
+        "Name": "Configuration",
+        "Description": "Configuration",
+        "LastUpdated": "2021-07-07T09:42:12.1351106Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      },
+      {
+        "Id": 7339,
+        "AppId": 4,
+        "Key": "CMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Configuration",
+        "ShortDisplayName": "Configuration",
+        "Name": "Configuration",
+        "Description": "Configuration",
+        "LastUpdated": "2021-07-07T09:42:12.135118Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "2021-02-24T17:46:54.2331331Z",
+        "CreatedBy": "callum.marshall"
+      }
+    ]
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "configureapp",
+    "DisplayName": "Configure App",
+    "ShortDisplayName": "Configure App",
+    "Description": "configureapp",
+    "LastUpdated": "2022-03-18T10:41:54.1903815\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "confirm",
+    "DisplayName": "Confirm",
+    "ShortDisplayName": "Confirm",
+    "Description": "Confirm",
+    "LastUpdated": "2022-03-18T10:41:54.1902974\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "confirmpassword",
+    "DisplayName": "Confirm Password",
+    "ShortDisplayName": "Confirm Password",
+    "Description": "Confirm Password",
+    "LastUpdated": "2022-03-18T10:41:54.1890291\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "content",
+    "DisplayName": "Content",
+    "ShortDisplayName": "Content",
+    "Description": "Content",
+    "LastUpdated": "2022-03-18T10:41:54.1890475\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "copy",
+    "DisplayName": "Copy",
+    "ShortDisplayName": "Copy",
+    "Description": "copy",
+    "LastUpdated": "2022-03-18T10:41:54.189634\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "copyapp",
+    "DisplayName": "Copy App",
+    "ShortDisplayName": "Copy App",
+    "Description": "copyapp",
+    "LastUpdated": "2022-03-18T10:41:54.1896108\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "create",
+    "DisplayName": "Create",
+    "ShortDisplayName": "Create",
+    "Description": "Create",
+    "LastUpdated": "2022-03-18T10:41:54.1904656\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "createapptitle",
+    "DisplayName": "App Creation",
+    "ShortDisplayName": "App Creation",
+    "Description": "App Creation",
+    "LastUpdated": "2022-03-18T10:41:54.190322\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "created",
+    "DisplayName": "Created",
+    "ShortDisplayName": "Created",
+    "Description": "Created",
+    "LastUpdated": "2022-03-18T10:41:54.1909762\u002B00:00"
+  },
+  {
+    "Id": 30585,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Created By",
+    "ShortDisplayName": "Created By",
+    "Name": "createdby",
+    "Description": "Created By",
+    "LastUpdated": "2021-07-07T09:42:12.1380813Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3464739Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "createdemo",
+    "DisplayName": "Create Demo App",
+    "ShortDisplayName": "Create Demo App",
+    "Description": "Create Demo App",
+    "LastUpdated": "2022-03-18T10:41:54.1899186\u002B00:00"
+  },
+  {
+    "Name": "createdon",
+    "Key": "CMS",
+    "DisplayName": "Created On",
+    "ShortDisplayName": "Created On",
+    "Description": "Created On",
+    "CreatedOn": "2022-11-15T13:55:32.297Z",
+    "LastUpdated": "2022-11-15T13:55:32.297Z",
+    "Culture": ""
+  },
+  {
+    "Id": 30503,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Culture",
+    "ShortDisplayName": "Culture",
+    "Name": "culture",
+    "Description": "Culture",
+    "LastUpdated": "2021-07-07T09:42:12.1374547Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3449841Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "cultureadded",
+    "DisplayName": "Culture added",
+    "ShortDisplayName": "cultureadded",
+    "Description": "cultureadded",
+    "LastUpdated": "2022-03-18T10:41:54.1890428\u002B00:00"
+  },
+  {
+    "Name": "cultureflaglayout",
+    "Key": "CMS",
+    "DisplayName": "Culture Flag Layout",
+    "ShortDisplayName": "Culture Flag Layout",
+    "Description": "Culture Flag Layout",
+    "CreatedOn": "2022-11-22T11:54:51.809Z",
+    "LastUpdated": "2022-11-22T11:54:51.809Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "cultureremoved",
+    "DisplayName": "Culture removed",
+    "ShortDisplayName": "cultureremoved",
+    "Description": "cultureremoved",
+    "LastUpdated": "2022-03-18T10:41:54.1890383\u002B00:00"
+  },
+  {
+    "Id": 7371,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Cultures",
+    "ShortDisplayName": "Cultures",
+    "Name": "Cultures",
+    "Description": "Cultures",
+    "LastUpdated": "2021-07-07T09:42:12.1353569Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": []
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "defaultculture",
+    "DisplayName": "Default Culture",
+    "ShortDisplayName": "Default Culture",
+    "Description": "defaultculture",
+    "LastUpdated": "2022-03-18T10:41:54.1904606\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "defaulttheme",
+    "DisplayName": "Default Theme",
+    "ShortDisplayName": "Default Theme",
+    "Description": "defaulttheme",
+    "LastUpdated": "2022-03-18T10:41:54.1904927\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "delete",
+    "DisplayName": "Delete",
+    "ShortDisplayName": "Delete",
+    "Description": "delete",
+    "LastUpdated": "2022-03-18T10:41:54.1904978\u002B00:00"
+  },
+  {
+    "Name": "deletecalendar",
+    "Key": "CMS",
+    "DisplayName": "Delete Calendar",
+    "ShortDisplayName": "Delete Calendar",
+    "Description": "Delete Calendar",
+    "CreatedOn": "2022-11-14T16:04:26.756Z",
+    "LastUpdated": "2022-11-14T16:04:26.756Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "deleteconfirmation",
+    "DisplayName": "Are you sure you want to delete?",
+    "ShortDisplayName": "Are you sure you want to delete?",
+    "Description": "Are you sure you want to delete?",
+    "LastUpdated": "2022-03-18T10:41:54.1903116\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "deleted",
+    "DisplayName": "Deleted",
+    "ShortDisplayName": "Deleted",
+    "Description": "Deleted",
+    "LastUpdated": "2023-03-13T15:35:35.019476\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "deleteresourcetitle",
+    "DisplayName": "Delete Resource?",
+    "ShortDisplayName": "Delete Resource?",
+    "Description": "Delete Resource?",
+    "LastUpdated": "2022-03-18T10:41:54.1896709\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "deletethisapptitle",
+    "DisplayName": "Delete this App?",
+    "ShortDisplayName": "Delete this App?",
+    "Description": "Delete this App?",
+    "LastUpdated": "2022-03-18T10:41:54.1903447\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "description",
+    "DisplayName": "Description",
+    "ShortDisplayName": "Description",
+    "Description": "description",
+    "LastUpdated": "2024-09-06T15:45:40.1634209\u002B01:00"
+  },
+  {
+    "Name": "destroy",
+    "Key": "CMS",
+    "DisplayName": "Destroy",
+    "ShortDisplayName": "Destroy",
+    "Description": "Destroy",
+    "CreatedOn": "2022-02-25T11:27:21.680Z",
+    "LastUpdated": "2022-02-25T11:27:21.680Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "displayname",
+    "DisplayName": "Display Name",
+    "ShortDisplayName": "Display Name",
+    "Description": "Display Name",
+    "LastUpdated": "2022-03-18T10:41:54.1890634\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "domain",
+    "DisplayName": "Domain",
+    "ShortDisplayName": "Domain",
+    "Description": "Domain",
+    "LastUpdated": "2022-03-18T10:41:54.1904556\u002B00:00"
+  },
+  {
+    "Name": "draganddrop",
+    "Key": "CMS",
+    "DisplayName": "Please drag and drop your image below",
+    "ShortDisplayName": "Please drag and drop your image below",
+    "Description": "Please drag and drop your image below",
+    "CreatedOn": "2023-01-06T10:47:44.263Z",
+    "LastUpdated": "2023-01-06T10:47:44.263Z",
+    "Culture": ""
+  },
+  {
+    "Name": "dropgifbelow",
+    "Key": "CMS",
+    "DisplayName": "Drop Gif Below",
+    "ShortDisplayName": "Drop Gif Below",
+    "Description": "Drop Gif Below",
+    "CreatedOn": "2022-10-26T09:56:05.271Z",
+    "LastUpdated": "2022-10-26T09:56:05.271Z",
+    "Culture": ""
+  },
+  {
+    "Name": "dropimagefilebelow",
+    "Key": "CMS",
+    "DisplayName": "Drop Image File Below",
+    "ShortDisplayName": "Drop Image File Below",
+    "Description": "Drop Image File Below",
+    "CreatedOn": "2022-10-26T09:54:05.458Z",
+    "LastUpdated": "2022-10-26T09:54:05.458Z",
+    "Culture": ""
+  },
+  {
+    "Name": "edit",
+    "Key": "CMS",
+    "DisplayName": "Edit",
+    "ShortDisplayName": "Edit",
+    "Description": "Edit",
+    "CreatedOn": "2022-11-16T17:21:25.680Z",
+    "LastUpdated": "2022-11-16T17:21:25.680Z",
+    "Culture": ""
+  },
+  {
+    "Name": "editargs",
+    "Key": "CMS",
+    "DisplayName": "Edit Args",
+    "ShortDisplayName": "Edit Args",
+    "Description": "Edit Args",
+    "CreatedOn": "2022-02-25T11:20:38.240Z",
+    "LastUpdated": "2022-02-25T11:20:38.240Z",
+    "Culture": ""
+  },
+  {
+    "Name": "edittheme",
+    "Key": "CMS",
+    "DisplayName": "Edit Theme",
+    "ShortDisplayName": "Edit Theme",
+    "Description": "Edit Theme",
+    "CreatedOn": "2022-11-21T11:51:50.311Z",
+    "LastUpdated": "2022-11-21T11:51:50.311Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "email",
+    "DisplayName": "Email",
+    "ShortDisplayName": "Email",
+    "Description": "email",
+    "LastUpdated": "2022-03-18T10:41:54.1900961\u002B00:00"
+  },
+  {
+    "Name": "enablessl",
+    "Key": "CMS",
+    "DisplayName": "Enable SSL",
+    "ShortDisplayName": "Enable SSL",
+    "Description": "Enable SSL",
+    "CreatedOn": "2022-10-24T13:23:18.007Z",
+    "LastUpdated": "2022-10-24T13:23:18.007Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "environment",
+    "DisplayName": "Environment",
+    "ShortDisplayName": "Environment",
+    "Description": "Environment",
+    "LastUpdated": "2022-03-18T10:41:54.1903397\u002B00:00"
+  },
+  {
+    "Name": "etc",
+    "Key": "CMS",
+    "DisplayName": "Etc",
+    "ShortDisplayName": "Etc",
+    "Description": "Etc",
+    "CreatedOn": "2021-11-19T22:02:49.762Z",
+    "LastUpdated": "2021-11-19T22:02:49.762Z",
+    "Culture": ""
+  },
+  {
+    "Name": "execute",
+    "Key": "CMS",
+    "DisplayName": "Execute",
+    "ShortDisplayName": "Execute",
+    "Description": "Execute",
+    "CreatedOn": "2022-02-25T11:20:55.693Z",
+    "LastUpdated": "2022-02-25T11:20:55.693Z",
+    "Culture": ""
+  },
+  {
+    "Name": "executeas",
+    "Key": "CMS",
+    "DisplayName": "Execute As",
+    "ShortDisplayName": "Execute As",
+    "Description": "Execute As",
+    "CreatedOn": "2021-11-19T23:10:46.322Z",
+    "LastUpdated": "2021-11-19T23:10:46.322Z",
+    "Culture": ""
+  },
+  {
+    "Name": "executed",
+    "Key": "CMS",
+    "DisplayName": "Executed",
+    "ShortDisplayName": "Executed",
+    "Description": "Executed",
+    "CreatedOn": "2022-02-25T11:26:48.817Z",
+    "LastUpdated": "2022-02-25T11:26:48.817Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "export",
+    "DisplayName": "Export",
+    "ShortDisplayName": "Export",
+    "Description": "export",
+    "LastUpdated": "2022-03-18T10:41:54.1904505\u002B00:00"
+  },
+  {
+    "Id": 30628,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "failedsavedchanges",
+    "ShortDisplayName": "failedsavedchanges",
+    "Name": "failedsavedchanges",
+    "Description": "failedsavedchanges",
+    "LastUpdated": "2021-07-07T09:42:12.1384451Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3466994Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Name": "failurereason",
+    "Key": "CMS",
+    "DisplayName": "Failure Reason",
+    "ShortDisplayName": "Failure Reason",
+    "Description": "Failure Reason",
+    "CreatedOn": "2023-01-04T12:30:37.904Z",
+    "LastUpdated": "2023-01-04T12:30:37.904Z",
+    "Culture": ""
+  },
+  {
+    "Name": "failures",
+    "Key": "CMS",
+    "DisplayName": "Failures",
+    "ShortDisplayName": "Failures",
+    "Description": "Failures",
+    "CreatedOn": "2023-01-04T11:50:14.683Z",
+    "LastUpdated": "2023-01-04T11:50:14.683Z",
+    "Culture": ""
+  },
+  {
+    "Name": "family",
+    "Key": "CMS",
+    "DisplayName": "Family",
+    "ShortDisplayName": "Family",
+    "Description": "Family",
+    "CreatedOn": "2022-11-22T11:48:02.270Z",
+    "LastUpdated": "2022-11-22T11:48:02.270Z",
+    "Culture": ""
+  },
+  {
+    "Id": 30584,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "flow",
+    "ShortDisplayName": "flow",
+    "Name": "flow",
+    "Description": "flow",
+    "LastUpdated": "2021-07-07T09:42:12.1380738Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3466314Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Name": "font",
+    "Key": "CMS",
+    "DisplayName": "Font",
+    "ShortDisplayName": "Font",
+    "Description": "Font",
+    "CreatedOn": "2022-11-21T10:35:38.982Z",
+    "LastUpdated": "2022-11-21T10:35:38.982Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "forgotpasspleaseenteremail",
+    "DisplayName": "If you forgot your password, please enter your email here",
+    "ShortDisplayName": "If you forgot your password, please enter your email here",
+    "Description": "forgotpasspleaseenteremail",
+    "LastUpdated": "2022-03-18T10:41:54.1901009\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "forgotpassword",
+    "DisplayName": "Forgotten your Password?",
+    "ShortDisplayName": "Forgotten your Password?",
+    "Description": "forgotpassword",
+    "LastUpdated": "2022-03-18T10:41:54.190115\u002B00:00"
+  },
+  {
+    "Name": "friday",
+    "Key": "CMS",
+    "DisplayName": "Friday",
+    "ShortDisplayName": "Friday",
+    "Description": "Friday",
+    "CreatedOn": "2021-10-27T13:45:46.217Z",
+    "LastUpdated": "2021-10-27T13:45:46.217Z",
+    "Culture": ""
+  },
+  {
+    "Name": "from",
+    "Key": "CMS",
+    "DisplayName": "From",
+    "ShortDisplayName": "From",
+    "Description": "From",
+    "CreatedOn": "2022-10-24T13:18:02.010Z",
+    "LastUpdated": "2022-10-24T13:18:02.010Z",
+    "Culture": ""
+  },
+  {
+    "Name": "general",
+    "Key": "CMS",
+    "DisplayName": "General",
+    "ShortDisplayName": "General",
+    "Description": "General",
+    "CreatedOn": "2022-11-16T16:09:59.863Z",
+    "LastUpdated": "2022-11-16T16:09:59.863Z",
+    "Culture": ""
+  },
+  {
+    "Id": 30526,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "header",
+    "ShortDisplayName": "header",
+    "Name": "header",
+    "Description": "header",
+    "LastUpdated": "2021-07-07T09:42:12.1376305Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3445084Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Name": "history",
+    "Key": "CMS",
+    "DisplayName": "History",
+    "ShortDisplayName": "History",
+    "Description": "History",
+    "CreatedOn": "2022-10-24T12:58:36.927Z",
+    "LastUpdated": "2022-10-24T12:58:36.927Z",
+    "Culture": ""
+  },
+  {
+    "Name": "horizontaloffset",
+    "Key": "CMS",
+    "DisplayName": "Horizontal Offset",
+    "ShortDisplayName": "Horizontal Offset",
+    "Description": "Horizontal Offset",
+    "CreatedOn": "2021-11-19T22:02:14.409Z",
+    "LastUpdated": "2021-11-19T22:02:14.409Z",
+    "Culture": ""
+  },
+  {
+    "Name": "host",
+    "Key": "CMS",
+    "DisplayName": "Host",
+    "ShortDisplayName": "Host",
+    "Description": "Host",
+    "CreatedOn": "2022-10-24T13:22:18.945Z",
+    "LastUpdated": "2022-10-24T13:22:18.945Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "id",
+    "DisplayName": "ID",
+    "ShortDisplayName": "ID",
+    "Description": "ID",
+    "LastUpdated": "2022-03-18T10:41:54.1890337\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "import",
+    "DisplayName": "Import",
+    "ShortDisplayName": "Import",
+    "Description": "import",
+    "LastUpdated": "2022-03-18T10:41:54.1896621\u002B00:00"
+  },
+  {
+    "Name": "information",
+    "Key": "CMS",
+    "DisplayName": "Information",
+    "ShortDisplayName": "Information",
+    "Description": "Information",
+    "CreatedOn": "2022-11-16T16:11:27.912Z",
+    "LastUpdated": "2022-11-16T16:11:27.912Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "isshownonmenu",
+    "DisplayName": "Is Shown On Menu?",
+    "ShortDisplayName": "Is Shown On Menu?",
+    "Description": "Is Shown On Menu?",
+    "LastUpdated": "2022-03-18T10:41:54.1897491\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "key",
+    "DisplayName": "Key",
+    "ShortDisplayName": "Key",
+    "Description": "Key",
+    "LastUpdated": "2024-09-06T15:45:40.2425527\u002B01:00"
+  },
+  {
+    "Name": "keywords",
+    "Key": "CMS",
+    "DisplayName": "Keywords",
+    "ShortDisplayName": "Keywords",
+    "Description": "Keywords",
+    "CreatedOn": "2022-11-16T16:24:52.400Z",
+    "LastUpdated": "2022-11-16T16:24:52.400Z",
+    "Culture": ""
+  },
+  {
+    "Key": "CMS",
+    "Name": "lastexecuted",
+    "DisplayName": "Last Executed",
+    "ShortDisplayName": "Last Executed",
+    "Description": "Last Executed",
+    "Culture": "",
+    "Translations": []
+  },
+  {
+    "Key": "CMS",
+    "Name": "lastexecution",
+    "DisplayName": "Last Execution",
+    "ShortDisplayName": "Last Execution",
+    "Description": "Last Execution",
+    "Culture": "",
+    "Translations": []
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "lastupdated",
+    "DisplayName": "Last Updated",
+    "ShortDisplayName": "Last Updated",
+    "Description": "Last Updated",
+    "LastUpdated": "2022-03-18T10:41:54.1891519\u002B00:00"
+  },
+  {
+    "Name": "lastupdatedby",
+    "Key": "CMS",
+    "DisplayName": "Last Updated By",
+    "ShortDisplayName": "Last Updated By",
+    "Description": "Last Updated By",
+    "CreatedOn": "2022-11-14T12:29:08.614Z",
+    "LastUpdated": "2022-11-14T12:29:08.614Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "layout",
+    "DisplayName": "Layout",
+    "ShortDisplayName": "Layout",
+    "Description": "Layout",
+    "LastUpdated": "2022-03-18T10:41:54.1892104\u002B00:00"
+  },
+  {
+    "Id": 30605,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "layoutcreated",
+    "ShortDisplayName": "layoutcreated",
+    "Name": "layoutcreated",
+    "Description": "layoutcreated",
+    "LastUpdated": "2021-07-07T09:42:12.1382447Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.346648Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Id": 30632,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "layoutdeleted",
+    "ShortDisplayName": "layoutdeleted",
+    "Name": "layoutdeleted",
+    "Description": "layoutdeleted",
+    "LastUpdated": "2021-07-07T09:42:12.1384747Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3467261Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Id": 7351,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Layouts",
+    "ShortDisplayName": "Layouts",
+    "Name": "Layouts",
+    "Description": "Layouts",
+    "LastUpdated": "2021-07-07T09:42:12.1352028Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7340,
+        "AppId": 4,
+        "Key": "CMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Layouts",
+        "ShortDisplayName": "Layouts",
+        "Name": "Layouts",
+        "Description": "Layouts",
+        "LastUpdated": "2021-07-07T09:42:12.1351255Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      },
+      {
+        "Id": 7341,
+        "AppId": 4,
+        "Key": "CMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Layouts",
+        "ShortDisplayName": "Layouts",
+        "Name": "Layouts",
+        "Description": "Layouts",
+        "LastUpdated": "2021-07-07T09:42:12.1351329Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "2021-02-24T17:46:54.2331331Z",
+        "CreatedBy": "callum.marshall"
+      }
+    ]
+  },
+  {
+    "Id": 30461,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Layout Saved",
+    "ShortDisplayName": "Layout Saved",
+    "Name": "layoutsaved",
+    "Description": "Layout Saved",
+    "LastUpdated": "2021-07-07T09:42:12.1371155Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3450439Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Name": "links",
+    "Key": "CMS",
+    "DisplayName": "Links",
+    "ShortDisplayName": "Links",
+    "Description": "Links",
+    "CreatedOn": "2022-11-16T17:16:31.698Z",
+    "LastUpdated": "2022-11-16T17:16:31.699Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "mailmanagement",
+    "DisplayName": "Mail Management",
+    "ShortDisplayName": "Mail Management",
+    "Description": "Mail Management",
+    "LastUpdated": "2022-03-18T10:41:54.190777\u002B00:00"
+  },
+  {
+    "Name": "mailserver",
+    "Key": "CMS",
+    "DisplayName": "Mail Server",
+    "ShortDisplayName": "Mail Server",
+    "Description": "Mail Server",
+    "CreatedOn": "2022-10-24T12:59:00.860Z",
+    "LastUpdated": "2022-10-24T12:59:00.860Z",
+    "Culture": ""
+  },
+  {
+    "Name": "margins",
+    "Key": "CMS",
+    "DisplayName": "Margins",
+    "ShortDisplayName": "Margins",
+    "Description": "Margins",
+    "CreatedOn": "2021-11-19T22:00:10.320Z",
+    "LastUpdated": "2021-11-19T22:00:10.320Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "migrate",
+    "DisplayName": "Migrate",
+    "ShortDisplayName": "Migrate",
+    "Description": "migrate",
+    "LastUpdated": "2022-03-18T10:41:54.1904876\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "migrateapp",
+    "DisplayName": "Migrate App",
+    "ShortDisplayName": "Migrate App",
+    "Description": "migrateapp",
+    "LastUpdated": "2022-03-18T10:41:54.1904338\u002B00:00"
+  },
+  {
+    "Name": "migratecomponents",
+    "Key": "CMS",
+    "DisplayName": "Migrate Components",
+    "ShortDisplayName": "Migrate Components",
+    "Description": "Migrate Components",
+    "CreatedOn": "2022-11-30T12:14:31.141Z",
+    "LastUpdated": "2022-11-30T12:14:31.141Z",
+    "Culture": ""
+  },
+  {
+    "Name": "migratelayouts",
+    "Key": "CMS",
+    "DisplayName": "Migrate Layouts",
+    "ShortDisplayName": "Migrate Layouts",
+    "Description": "Migrate Layouts",
+    "CreatedOn": "2022-11-14T14:22:54.537Z",
+    "LastUpdated": "2022-11-14T14:22:54.537Z",
+    "Culture": ""
+  },
+  {
+    "Name": "migratetemplates",
+    "Key": "CMS",
+    "DisplayName": "Migrate Templates",
+    "ShortDisplayName": "Migrate Templates",
+    "Description": "Migrate Templates",
+    "CreatedOn": "2022-11-14T12:26:07.557Z",
+    "LastUpdated": "2022-11-14T12:26:07.557Z",
+    "Culture": ""
+  },
+  {
+    "Name": "migrating",
+    "Key": "CMS",
+    "DisplayName": "Migrating",
+    "ShortDisplayName": "Migrating",
+    "Description": "Migrating",
+    "CreatedOn": "2022-11-30T12:18:07.968Z",
+    "LastUpdated": "2022-11-30T12:18:07.968Z",
+    "Culture": ""
+  },
+  {
+    "Name": "monday",
+    "Key": "CMS",
+    "DisplayName": "Monday",
+    "ShortDisplayName": "Monday",
+    "Description": "Monday",
+    "CreatedOn": "2021-10-27T13:43:16.173Z",
+    "LastUpdated": "2021-10-27T13:43:16.173Z",
+    "Culture": ""
+  },
+  {
+    "Name": "month-1",
+    "Key": "CMS",
+    "DisplayName": "January",
+    "ShortDisplayName": "January",
+    "Description": "January",
+    "CreatedOn": "2021-10-27T13:46:53.665Z",
+    "LastUpdated": "2021-10-27T13:46:53.665Z",
+    "Culture": ""
+  },
+  {
+    "Name": "month-10",
+    "Key": "CMS",
+    "DisplayName": "October",
+    "ShortDisplayName": "October",
+    "Description": "October",
+    "CreatedOn": "2021-11-17T10:13:46.980Z",
+    "LastUpdated": "2021-11-17T10:13:46.980Z",
+    "Culture": ""
+  },
+  {
+    "Name": "month-11",
+    "Key": "CMS",
+    "DisplayName": "November",
+    "ShortDisplayName": "November",
+    "Description": "November",
+    "CreatedOn": "2021-11-17T10:08:35.525Z",
+    "LastUpdated": "2021-11-17T10:08:35.525Z",
+    "Culture": ""
+  },
+  {
+    "Name": "month-12",
+    "Key": "CMS",
+    "DisplayName": "December",
+    "ShortDisplayName": "December",
+    "Description": "December",
+    "CreatedOn": "2021-11-17T10:12:23.058Z",
+    "LastUpdated": "2021-11-17T10:12:23.058Z",
+    "Culture": ""
+  },
+  {
+    "Name": "month-2",
+    "Key": "CMS",
+    "DisplayName": "February",
+    "ShortDisplayName": "February",
+    "Description": "February",
+    "CreatedOn": "2021-10-27T13:47:31.118Z",
+    "LastUpdated": "2021-10-27T13:47:31.118Z",
+    "Culture": ""
+  },
+  {
+    "Name": "month-3",
+    "Key": "CMS",
+    "DisplayName": "March",
+    "ShortDisplayName": "March",
+    "Description": "March",
+    "CreatedOn": "2021-10-27T13:48:01.676Z",
+    "LastUpdated": "2021-10-27T13:48:01.676Z",
+    "Culture": ""
+  },
+  {
+    "Name": "month-4",
+    "Key": "CMS",
+    "DisplayName": "April",
+    "ShortDisplayName": "April",
+    "Description": "April",
+    "CreatedOn": "2021-10-27T13:48:23.491Z",
+    "LastUpdated": "2021-10-27T13:48:23.491Z",
+    "Culture": ""
+  },
+  {
+    "Name": "month-5",
+    "Key": "CMS",
+    "DisplayName": "May",
+    "ShortDisplayName": "May",
+    "Description": "May",
+    "CreatedOn": "2021-11-17T10:04:18.815Z",
+    "LastUpdated": "2021-11-17T10:04:18.815Z",
+    "Culture": ""
+  },
+  {
+    "Name": "month-6",
+    "Key": "CMS",
+    "DisplayName": "June",
+    "ShortDisplayName": "June",
+    "Description": "June",
+    "CreatedOn": "2021-11-17T10:14:47.527Z",
+    "LastUpdated": "2021-11-17T10:14:47.527Z",
+    "Culture": ""
+  },
+  {
+    "Name": "month-7",
+    "Key": "CMS",
+    "DisplayName": "July",
+    "ShortDisplayName": "July",
+    "Description": "July",
+    "CreatedOn": "2021-11-17T10:15:00.444Z",
+    "LastUpdated": "2021-11-17T10:15:00.444Z",
+    "Culture": ""
+  },
+  {
+    "Name": "month-8",
+    "Key": "CMS",
+    "DisplayName": "August",
+    "ShortDisplayName": "August",
+    "Description": "August",
+    "CreatedOn": "2021-11-17T10:15:13.099Z",
+    "LastUpdated": "2021-11-17T10:15:13.099Z",
+    "Culture": ""
+  },
+  {
+    "Name": "month-9",
+    "Key": "CMS",
+    "DisplayName": "September",
+    "ShortDisplayName": "September",
+    "Description": "September",
+    "CreatedOn": "2021-11-17T10:14:08.179Z",
+    "LastUpdated": "2021-11-17T10:14:08.179Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "name",
+    "DisplayName": "Name",
+    "ShortDisplayName": "Name",
+    "Description": "Name",
+    "LastUpdated": "2022-03-18T10:41:54.1903765\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "new",
+    "DisplayName": "New",
+    "ShortDisplayName": "New",
+    "Description": "New",
+    "LastUpdated": "2022-03-18T10:41:54.1904706\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "newapp",
+    "DisplayName": "New App",
+    "ShortDisplayName": "New App",
+    "Description": "New App",
+    "LastUpdated": "2022-03-18T10:41:54.1905028\u002B00:00"
+  },
+  {
+    "Name": "newcalendar",
+    "Key": "CMS",
+    "DisplayName": "New Calendar",
+    "ShortDisplayName": "New Calendar",
+    "Description": "New Calendar",
+    "CreatedOn": "2021-10-27T13:40:32.731Z",
+    "LastUpdated": "2021-10-27T13:40:32.731Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "newchildpage",
+    "DisplayName": "New Child Page",
+    "ShortDisplayName": "New Child Page",
+    "Description": "New Child Page",
+    "LastUpdated": "2022-03-18T10:41:54.190085\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "newcomponent",
+    "DisplayName": "New Component",
+    "ShortDisplayName": "New Component",
+    "Description": "New Component",
+    "LastUpdated": "2022-03-18T10:41:54.1900503\u002B00:00"
+  },
+  {
+    "Name": "newevent",
+    "Key": "CMS",
+    "DisplayName": "New Event",
+    "ShortDisplayName": "New Event",
+    "Description": "New Event",
+    "CreatedOn": "2021-10-27T13:41:34.842Z",
+    "LastUpdated": "2021-10-27T13:41:34.842Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "newlayout",
+    "DisplayName": "New Layout",
+    "ShortDisplayName": "New Layout",
+    "Description": "New Layout",
+    "LastUpdated": "2022-03-18T10:41:54.1891566\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "newpackage",
+    "DisplayName": "New Package",
+    "ShortDisplayName": "New Package",
+    "Description": "newpackage",
+    "LastUpdated": "2022-03-18T10:41:54.1896561\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "newpage",
+    "DisplayName": "New Page",
+    "ShortDisplayName": "New Page",
+    "Description": "New Page",
+    "LastUpdated": "2022-03-18T10:41:54.190154\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "newresource",
+    "DisplayName": "New Resource",
+    "ShortDisplayName": "New Resource",
+    "Description": "New Resource",
+    "LastUpdated": "2022-03-18T10:41:54.1891613\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "newrole",
+    "DisplayName": "New Role",
+    "ShortDisplayName": "New Role",
+    "Description": "New Role",
+    "LastUpdated": "2022-03-18T10:41:54.1900456\u002B00:00"
+  },
+  {
+    "Id": 5944,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "New Schedule",
+    "ShortDisplayName": "New Schedule",
+    "Name": "newschedule",
+    "Description": "New Schedule",
+    "LastUpdated": "2021-07-07T09:42:12.1342238Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5945,
+        "AppId": 4,
+        "Key": "CMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Nouveau programme",
+        "ShortDisplayName": "Nouveau programme",
+        "Name": "newschedule",
+        "Description": "Nouveau programme",
+        "LastUpdated": "2021-07-07T09:42:12.1342312Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Key": "CMS",
+    "Name": "newscheduledtask",
+    "DisplayName": "New Scheduled Task",
+    "ShortDisplayName": "New Scheduled Task",
+    "Description": "New Scheduled Task",
+    "Culture": "",
+    "Translations": []
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "newtemplate",
+    "DisplayName": "New Template",
+    "ShortDisplayName": "New Template",
+    "Description": "New Template",
+    "LastUpdated": "2022-03-18T10:41:54.1890588\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "newtranslation",
+    "DisplayName": "New Translation",
+    "ShortDisplayName": "New Translation",
+    "Description": "New Translation",
+    "LastUpdated": "2022-03-18T10:41:54.1891675\u002B00:00"
+  },
+  {
+    "Key": "CMS",
+    "Name": "nextexecution",
+    "DisplayName": "Next Execution",
+    "ShortDisplayName": "Next Execution",
+    "Description": "Next Execution",
+    "Culture": "",
+    "Translations": []
+  },
+  {
+    "Name": "notifications",
+    "Key": "CMS",
+    "DisplayName": "Notifications",
+    "ShortDisplayName": "Notifications",
+    "Description": "Notifications",
+    "CreatedOn": "2022-11-21T10:37:21.448Z",
+    "LastUpdated": "2022-11-21T10:37:21.448Z",
+    "Culture": ""
+  },
+  {
+    "Name": "notificationserrorbackground",
+    "Key": "CMS",
+    "DisplayName": "Notifications Error Background",
+    "ShortDisplayName": "Notifications Error Background",
+    "Description": "Notifications Error Background",
+    "CreatedOn": "2022-11-22T11:50:08.037Z",
+    "LastUpdated": "2022-11-22T11:50:08.037Z",
+    "Culture": ""
+  },
+  {
+    "Name": "notificationserrortext",
+    "Key": "CMS",
+    "DisplayName": "Notifications Error Text",
+    "ShortDisplayName": "Notifications Error Text",
+    "Description": "Notifications Error Text",
+    "CreatedOn": "2022-11-22T11:49:38.059Z",
+    "LastUpdated": "2022-11-22T11:49:38.059Z",
+    "Culture": ""
+  },
+  {
+    "Name": "notificationsinfobackground",
+    "Key": "CMS",
+    "DisplayName": "Notifications Info Background",
+    "ShortDisplayName": "Notifications Info Background",
+    "Description": "Notifications Info Background",
+    "CreatedOn": "2022-11-22T11:52:49.408Z",
+    "LastUpdated": "2022-11-22T11:52:49.408Z",
+    "Culture": ""
+  },
+  {
+    "Name": "notificationsinfotext",
+    "Key": "CMS",
+    "DisplayName": "Notifications Info Text",
+    "ShortDisplayName": "Notifications Info Text",
+    "Description": "Notifications Info Text",
+    "CreatedOn": "2022-11-22T11:52:15.764Z",
+    "LastUpdated": "2022-11-22T11:52:15.764Z",
+    "Culture": ""
+  },
+  {
+    "Name": "notificationssuccessbackground",
+    "Key": "CMS",
+    "DisplayName": "Notifications Success Background",
+    "ShortDisplayName": "Notifications Success Background",
+    "Description": "Notifications Success Background",
+    "CreatedOn": "2022-11-22T11:54:05.696Z",
+    "LastUpdated": "2022-11-22T11:54:05.696Z",
+    "Culture": ""
+  },
+  {
+    "Name": "notificationssuccesstext",
+    "Key": "CMS",
+    "DisplayName": "Notifications Success Text",
+    "ShortDisplayName": "Notifications Success Text",
+    "Description": "Notifications Success Text",
+    "CreatedOn": "2022-11-22T11:53:27.429Z",
+    "LastUpdated": "2022-11-22T11:53:27.429Z",
+    "Culture": ""
+  },
+  {
+    "Name": "notificationswarningbackground",
+    "Key": "CMS",
+    "DisplayName": "Notifications Warning Background",
+    "ShortDisplayName": "Notifications Warning Background",
+    "Description": "Notifications Warning Background",
+    "CreatedOn": "2022-11-22T11:51:55.296Z",
+    "LastUpdated": "2022-11-22T11:51:55.296Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "notificationswarningtext",
+    "DisplayName": "Notifications Warning Text",
+    "ShortDisplayName": "Notifications Warning Text",
+    "Description": "Notifications Warning Text",
+    "LastUpdated": "2024-09-06T15:45:40.2621133\u002B01:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "packagecreated",
+    "DisplayName": "Package Created",
+    "ShortDisplayName": "Package Created",
+    "Description": "packagecreated",
+    "LastUpdated": "2022-03-18T10:41:54.189598\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "packagedeleted",
+    "DisplayName": "Package Deleted",
+    "ShortDisplayName": "Package Deleted",
+    "Description": "packagedeleted",
+    "LastUpdated": "2022-03-18T10:41:54.1896065\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "packageimported",
+    "DisplayName": "Package Imported",
+    "ShortDisplayName": "Package Imported",
+    "Description": "packageimported",
+    "LastUpdated": "2022-03-18T10:41:54.1896022\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "packages",
+    "DisplayName": "Packages",
+    "ShortDisplayName": "Packages",
+    "Description": "packages",
+    "LastUpdated": "2022-03-18T10:41:54.1896253\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "packagesaved",
+    "DisplayName": "Package Saved",
+    "ShortDisplayName": "Package Saved",
+    "Description": "packagesaved",
+    "LastUpdated": "2022-03-18T10:41:54.1897859\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "pagedeleted",
+    "DisplayName": "Page deleted",
+    "ShortDisplayName": "Page deleted",
+    "Description": "Page deleted",
+    "LastUpdated": "2022-03-18T10:41:54.1891909\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "pagedeletefailed",
+    "DisplayName": "Page delete failed",
+    "ShortDisplayName": "Page delete failed",
+    "Description": "Page delete failed",
+    "LastUpdated": "2022-03-18T10:41:54.1892061\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "pageinfo",
+    "DisplayName": "Page Information",
+    "ShortDisplayName": "Page Information",
+    "Description": "Page Information",
+    "LastUpdated": "2022-03-18T10:41:54.1891167\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "pagemoved",
+    "DisplayName": "Page Moved",
+    "ShortDisplayName": "Page Moved",
+    "Description": "pagemoved",
+    "LastUpdated": "2022-03-18T10:41:54.1893595\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "pageproperties",
+    "DisplayName": "Page Properties",
+    "ShortDisplayName": "Page Properties",
+    "Description": "Page Properties",
+    "LastUpdated": "2022-03-18T10:41:54.1900361\u002B00:00"
+  },
+  {
+    "Name": "paintloginbottom",
+    "Key": "CMS",
+    "DisplayName": "Paint Login Bottom",
+    "ShortDisplayName": "Paint Login Bottom",
+    "Description": "Paint Login Bottom",
+    "CreatedOn": "2021-11-19T22:03:25.538Z",
+    "LastUpdated": "2021-11-19T22:03:25.538Z",
+    "Culture": ""
+  },
+  {
+    "Name": "paintloginmid",
+    "Key": "CMS",
+    "DisplayName": "Paint Login Mid",
+    "ShortDisplayName": "Paint Login Mid",
+    "Description": "Paint Login Mid",
+    "CreatedOn": "2021-11-19T22:03:16.544Z",
+    "LastUpdated": "2021-11-19T22:03:16.544Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "password",
+    "DisplayName": "Password",
+    "ShortDisplayName": "Password",
+    "Description": "password",
+    "LastUpdated": "2022-03-18T10:41:54.1901197\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "passwordresetemailtitle",
+    "DisplayName": "Password Reset Email",
+    "ShortDisplayName": "Password Reset Email",
+    "Description": "passwordresetemailtitle",
+    "LastUpdated": "2022-03-18T10:41:54.19014\u002B00:00"
+  },
+  {
+    "Name": "picture",
+    "Key": "CMS",
+    "DisplayName": "Picture",
+    "ShortDisplayName": "Picture",
+    "Description": "Picture",
+    "CreatedOn": "2022-11-22T11:55:10.347Z",
+    "LastUpdated": "2022-11-22T11:55:10.347Z",
+    "Culture": ""
+  },
+  {
+    "Name": "port",
+    "Key": "CMS",
+    "DisplayName": "Port",
+    "ShortDisplayName": "Port",
+    "Description": "Port",
+    "CreatedOn": "2022-10-24T13:22:46.406Z",
+    "LastUpdated": "2022-10-24T13:22:46.406Z",
+    "Culture": ""
+  },
+  {
+    "Name": "preview",
+    "Key": "CMS",
+    "DisplayName": "Preview",
+    "ShortDisplayName": "Preview",
+    "Description": "Preview",
+    "CreatedOn": "2023-01-04T11:49:35.679Z",
+    "LastUpdated": "2023-01-04T11:49:35.679Z",
+    "Culture": ""
+  },
+  {
+    "Name": "primary",
+    "Key": "CMS",
+    "DisplayName": "Primary",
+    "ShortDisplayName": "Primary",
+    "Description": "Primary",
+    "CreatedOn": "2022-11-16T17:07:55.689Z",
+    "LastUpdated": "2022-11-16T17:07:55.689Z",
+    "Culture": ""
+  },
+  {
+    "Name": "projectlogo",
+    "Key": "CMS",
+    "DisplayName": "Project Logo",
+    "ShortDisplayName": "Project Logo",
+    "Description": "Project Logo",
+    "CreatedOn": "2022-10-26T09:51:19.727Z",
+    "LastUpdated": "2022-10-26T09:51:19.727Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "properties",
+    "DisplayName": "Properties",
+    "ShortDisplayName": "Properties",
+    "Description": "Properties",
+    "LastUpdated": "2022-03-18T10:41:54.1903062\u002B00:00"
+  },
+  {
+    "Name": "queue",
+    "Key": "CMS",
+    "DisplayName": "Queue",
+    "ShortDisplayName": "Queue",
+    "Description": "Queue",
+    "CreatedOn": "2022-10-24T12:58:09.276Z",
+    "LastUpdated": "2022-10-24T12:58:09.277Z",
+    "Culture": ""
+  },
+  {
+    "Name": "radius",
+    "Key": "CMS",
+    "DisplayName": "Radius",
+    "ShortDisplayName": "Radius",
+    "Description": "Radius",
+    "CreatedOn": "2022-11-22T11:48:48.772Z",
+    "LastUpdated": "2022-11-22T11:48:48.772Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "rebuilt",
+    "DisplayName": "Rebuilt",
+    "ShortDisplayName": "Rebuilt",
+    "Description": "Rebuilt",
+    "LastUpdated": "2022-03-18T10:41:54.1909712\u002B00:00"
+  },
+  {
+    "Name": "recent",
+    "Key": "CMS",
+    "DisplayName": "Recent",
+    "ShortDisplayName": "Recent",
+    "Description": "Recent",
+    "CreatedOn": "2022-02-25T11:28:23.913Z",
+    "LastUpdated": "2022-02-25T11:28:23.913Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "refreshcache",
+    "DisplayName": "Refresh Cache",
+    "ShortDisplayName": "Refresh Cache",
+    "Description": "Refresh Cache",
+    "LastUpdated": "2022-03-18T10:41:54.1909128\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "register",
+    "DisplayName": "Register",
+    "ShortDisplayName": "Register",
+    "Description": "Register",
+    "LastUpdated": "2022-03-18T10:41:54.1901102\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "remove",
+    "DisplayName": "Remove",
+    "ShortDisplayName": "Remove",
+    "Description": "Remove",
+    "LastUpdated": "2022-03-18T10:41:54.1909296\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "resourcecreated",
+    "DisplayName": "Resource Created",
+    "ShortDisplayName": "Resource Created",
+    "Description": "Resource Created",
+    "LastUpdated": "2022-03-18T10:41:54.189177\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "resourcedeleteconfirmation",
+    "DisplayName": "Are you sure you want to delete this Resource? It will be gone forever.",
+    "ShortDisplayName": "Are you sure you want to delete this Resource? It will be gone forever.",
+    "Description": "Are you sure you want to delete this Resource? It will be gone forever.",
+    "LastUpdated": "2022-03-18T10:41:54.1899761\u002B00:00"
+  },
+  {
+    "Id": 30630,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "resourcedeleted",
+    "ShortDisplayName": "resourcedeleted",
+    "Name": "resourcedeleted",
+    "Description": "resourcedeleted",
+    "LastUpdated": "2021-07-07T09:42:12.1384599Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3467178Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "resourcekey",
+    "DisplayName": "Resource Key",
+    "ShortDisplayName": "Resource Key",
+    "Description": "Resource Key",
+    "LastUpdated": "2022-03-18T10:41:54.1890196\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "resourcename",
+    "DisplayName": "Resource Name",
+    "ShortDisplayName": "Resource Name",
+    "Description": "Resource Name",
+    "LastUpdated": "2022-03-18T10:41:54.1899808\u002B00:00"
+  },
+  {
+    "Id": 7349,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Resources",
+    "ShortDisplayName": "Resources",
+    "Name": "Resources",
+    "Description": "Resources",
+    "LastUpdated": "2021-07-07T09:42:12.1351864Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7333,
+        "AppId": 4,
+        "Key": "CMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Resources",
+        "ShortDisplayName": "Resources",
+        "Name": "Resources",
+        "Description": "Resources",
+        "LastUpdated": "2021-07-07T09:42:12.1350716Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "resourcesaved",
+    "DisplayName": "Resource has been saved",
+    "ShortDisplayName": "Resource has been saved",
+    "Description": "Resource has been saved",
+    "LastUpdated": "2022-03-18T10:41:54.1891816\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "roles",
+    "DisplayName": "Roles",
+    "ShortDisplayName": "Roles",
+    "Description": "Roles",
+    "LastUpdated": "2022-03-18T10:41:54.1891214\u002B00:00"
+  },
+  {
+    "Name": "saturday",
+    "Key": "CMS",
+    "DisplayName": "Saturday",
+    "ShortDisplayName": "Saturday",
+    "Description": "Saturday",
+    "CreatedOn": "2021-10-27T13:46:09.858Z",
+    "LastUpdated": "2021-10-27T13:46:09.858Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "save",
+    "DisplayName": "Save",
+    "ShortDisplayName": "Save",
+    "Description": "Save",
+    "LastUpdated": "2022-03-18T10:41:54.1904808\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "saved",
+    "DisplayName": "Saved",
+    "ShortDisplayName": "Saved",
+    "Description": "Saved",
+    "LastUpdated": "2022-03-18T10:41:54.1909661\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "saving",
+    "DisplayName": "Saving",
+    "ShortDisplayName": "Saving",
+    "Description": "Saving",
+    "LastUpdated": "2022-03-18T10:41:54.1907871\u002B00:00"
+  },
+  {
+    "Id": 30586,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Schedule",
+    "ShortDisplayName": "Schedule",
+    "Name": "schedule",
+    "Description": "Schedule",
+    "LastUpdated": "2021-07-07T09:42:12.1380886Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3466397Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Id": 30460,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "scheduledtaskdeleted",
+    "ShortDisplayName": "scheduledtaskdeleted",
+    "Name": "scheduledtaskdeleted",
+    "Description": "scheduledtaskdeleted",
+    "LastUpdated": "2021-07-07T09:42:12.1371079Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3450342Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Id": 30562,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "scheduledtasksaved",
+    "ShortDisplayName": "scheduledtasksaved",
+    "Name": "scheduledtasksaved",
+    "Description": "scheduledtasksaved",
+    "LastUpdated": "2021-07-07T09:42:12.1379065Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3447538Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Id": 7331,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Scheduling",
+    "ShortDisplayName": "Scheduling",
+    "Name": "Scheduling",
+    "Description": "Scheduling",
+    "LastUpdated": "2021-07-07T09:42:12.1350565Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7344,
+        "AppId": 4,
+        "Key": "CMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Programmer",
+        "ShortDisplayName": "Programmer",
+        "Name": "Scheduling",
+        "Description": "Programmer",
+        "LastUpdated": "2021-07-07T09:42:12.1351568Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ]
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "script",
+    "DisplayName": "Script",
+    "ShortDisplayName": "Script",
+    "Description": "Script",
+    "LastUpdated": "2022-03-18T10:41:54.1890521\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "scripts",
+    "DisplayName": "Scripts",
+    "ShortDisplayName": "Scripts",
+    "Description": "Scripts",
+    "LastUpdated": "2022-03-18T10:41:54.1909246\u002B00:00"
+  },
+  {
+    "Name": "secondary",
+    "Key": "CMS",
+    "DisplayName": "Secondary",
+    "ShortDisplayName": "Secondary",
+    "Description": "Secondary",
+    "CreatedOn": "2022-11-16T17:09:25.489Z",
+    "LastUpdated": "2022-11-16T17:09:25.489Z",
+    "Culture": ""
+  },
+  {
+    "Name": "selectapp",
+    "Key": "CMS",
+    "DisplayName": "Select App",
+    "ShortDisplayName": "Select App",
+    "Description": "Select App",
+    "CreatedOn": "2022-11-14T12:40:40.380Z",
+    "LastUpdated": "2022-11-14T12:40:40.380Z",
+    "Culture": ""
+  },
+  {
+    "Name": "selectbusinessprocesses",
+    "Key": "CMS",
+    "DisplayName": "Select Business Processes",
+    "ShortDisplayName": "Select Business Processes",
+    "Description": "Select Business Processes",
+    "CreatedOn": "2022-11-14T15:31:17.200Z",
+    "LastUpdated": "2022-11-14T15:31:17.200Z",
+    "Culture": ""
+  },
+  {
+    "Key": "CMS",
+    "Name": "selectcategories",
+    "DisplayName": "Select Categories",
+    "ShortDisplayName": "Select Categories",
+    "Description": "Select Categories",
+    "Culture": "",
+    "Translations": []
+  },
+  {
+    "Id": 30702,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Select Component Categories",
+    "ShortDisplayName": "Select Component Categories",
+    "Name": "selectcomponentcategories",
+    "Description": "Select Component Categories",
+    "LastUpdated": "2021-07-07T09:42:12.1390172Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3459029Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Name": "selectlayouts",
+    "Key": "CMS",
+    "DisplayName": "Select Layouts",
+    "ShortDisplayName": "Select Layouts",
+    "Description": "Select Layouts",
+    "CreatedOn": "2022-11-14T14:20:41.044Z",
+    "LastUpdated": "2022-11-14T14:20:41.044Z",
+    "Culture": ""
+  },
+  {
+    "Id": 30683,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Select Resource Keys",
+    "ShortDisplayName": "Select Resource Keys",
+    "Name": "SelectResourceKeys",
+    "Description": "Select Resource Keys",
+    "LastUpdated": "2021-07-07T09:42:12.1388812Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3460514Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Key": "CMS",
+    "Name": "selecttarget",
+    "DisplayName": "Select Target",
+    "ShortDisplayName": "Select Target",
+    "Description": "Select Target",
+    "Culture": "",
+    "Translations": []
+  },
+  {
+    "Name": "selecttemplates",
+    "Key": "CMS",
+    "DisplayName": "Select Templates",
+    "ShortDisplayName": "Select Templates",
+    "Description": "Select Templates",
+    "CreatedOn": "2022-11-14T12:36:14.907Z",
+    "LastUpdated": "2022-11-14T12:36:14.907Z",
+    "Culture": ""
+  },
+  {
+    "Name": "selecttypes",
+    "Key": "CMS",
+    "DisplayName": "Select Types",
+    "ShortDisplayName": "Select Types",
+    "Description": "Select Types",
+    "CreatedOn": "2022-11-14T13:48:47.929Z",
+    "LastUpdated": "2022-11-14T13:48:47.929Z",
+    "Culture": ""
+  },
+  {
+    "Name": "sentbyuserid",
+    "Key": "CMS",
+    "DisplayName": "Sent By",
+    "ShortDisplayName": "Sent By",
+    "Description": "Sent By",
+    "CreatedOn": "2022-10-24T13:18:37.522Z",
+    "LastUpdated": "2022-10-24T13:18:37.522Z",
+    "Culture": ""
+  },
+  {
+    "Name": "senton",
+    "Key": "CMS",
+    "DisplayName": "Sent On",
+    "ShortDisplayName": "Sent On",
+    "Description": "Sent On",
+    "CreatedOn": "2022-10-24T13:20:43.036Z",
+    "LastUpdated": "2022-10-24T13:20:43.036Z",
+    "Culture": ""
+  },
+  {
+    "Name": "setprimary",
+    "Key": "CMS",
+    "DisplayName": "Set Primary",
+    "ShortDisplayName": "Set Primary",
+    "Description": "Set Primary",
+    "CreatedOn": "2022-11-14T15:16:14.089Z",
+    "LastUpdated": "2022-11-14T15:16:14.089Z",
+    "Culture": ""
+  },
+  {
+    "Name": "shadows",
+    "Key": "CMS",
+    "DisplayName": "Shadows",
+    "ShortDisplayName": "Shadows",
+    "Description": "Shadows",
+    "CreatedOn": "2022-11-21T10:37:54.632Z",
+    "LastUpdated": "2022-11-21T10:37:54.632Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "shortdisplayname",
+    "DisplayName": "Short Display Name",
+    "ShortDisplayName": "Short Display Name",
+    "Description": "Short Display Name",
+    "LastUpdated": "2022-03-18T10:41:54.1890682\u002B00:00"
+  },
+  {
+    "Name": "show",
+    "Key": "CMS",
+    "DisplayName": "Show",
+    "ShortDisplayName": "Show",
+    "Description": "Show",
+    "CreatedOn": "2021-10-27T13:39:32.930Z",
+    "LastUpdated": "2021-10-27T13:39:32.930Z",
+    "Culture": ""
+  },
+  {
+    "Id": 30602,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "showonmenu",
+    "ShortDisplayName": "showonmenu",
+    "Name": "showonmenu",
+    "Description": "showonmenu",
+    "LastUpdated": "2021-07-07T09:42:12.1382233Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3463164Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "showonmenus",
+    "DisplayName": "Show on Menu?",
+    "ShortDisplayName": "Show on Menu?",
+    "Description": "Show on Menu?",
+    "LastUpdated": "2022-03-18T10:41:54.189112\u002B00:00"
+  },
+  {
+    "Name": "size",
+    "Key": "CMS",
+    "DisplayName": "Size",
+    "ShortDisplayName": "Size",
+    "Description": "Size",
+    "CreatedOn": "2022-11-22T11:47:45.148Z",
+    "LastUpdated": "2022-11-22T11:47:45.148Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "source",
+    "DisplayName": "Source",
+    "ShortDisplayName": "Source",
+    "Description": "source",
+    "LastUpdated": "2022-03-18T10:41:54.1896797\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "sourcesystem",
+    "DisplayName": "Source System",
+    "ShortDisplayName": "Source System",
+    "Description": "Source System",
+    "LastUpdated": "2022-03-18T10:41:54.1899234\u002B00:00"
+  },
+  {
+    "Name": "state",
+    "Key": "CMS",
+    "DisplayName": "State",
+    "ShortDisplayName": "State",
+    "Description": "State",
+    "CreatedOn": "2022-11-15T13:54:32.114Z",
+    "LastUpdated": "2022-11-15T13:54:32.114Z",
+    "Culture": ""
+  },
+  {
+    "Name": "style",
+    "Key": "CMS",
+    "DisplayName": "Style",
+    "ShortDisplayName": "Style",
+    "Description": "Style",
+    "CreatedOn": "2022-11-22T11:48:29.922Z",
+    "LastUpdated": "2022-11-22T11:48:29.922Z",
+    "Culture": ""
+  },
+  {
+    "Name": "subject",
+    "Key": "CMS",
+    "DisplayName": "Subject",
+    "ShortDisplayName": "Subject",
+    "Description": "Subject",
+    "CreatedOn": "2022-10-24T13:00:00.853Z",
+    "LastUpdated": "2022-10-24T13:00:00.853Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "submit",
+    "DisplayName": "Submit",
+    "ShortDisplayName": "Submit",
+    "Description": "submit",
+    "LastUpdated": "2022-03-18T10:41:54.1901055\u002B00:00"
+  },
+  {
+    "Id": 30587,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "submitting",
+    "ShortDisplayName": "submitting",
+    "Name": "submitting",
+    "Description": "submitting",
+    "LastUpdated": "2021-07-07T09:42:12.1380974Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.346Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": [
+      {
+        "Id": 30880,
+        "AppId": 4,
+        "Key": "CMS",
+        "Culture": "fr-FR",
+        "DisplayName": "En cours de traitement",
+        "ShortDisplayName": "En cours de traitement",
+        "Name": "submitting",
+        "Description": "En cours de traitement",
+        "LastUpdated": "2021-07-07T09:42:12.1391391Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "2021-07-06T19:33:16.0344372Z",
+        "CreatedBy": "Fabien Jacquot"
+      }
+    ]
+  },
+  {
+    "Id": 30577,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "succesfullyaddednewpage",
+    "ShortDisplayName": "succesfullyaddednewpage",
+    "Name": "succesfullyaddednewpage",
+    "Description": "succesfullyaddednewpage",
+    "LastUpdated": "2021-07-07T09:42:12.1380206Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3463514Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "successfullysavedchanges",
+    "DisplayName": "Successfully saved changes",
+    "ShortDisplayName": "Successfully saved changes",
+    "Description": "Successfully saved changes",
+    "LastUpdated": "2022-03-18T10:41:54.1903168\u002B00:00"
+  },
+  {
+    "Name": "sunday",
+    "Key": "CMS",
+    "DisplayName": "Sunday",
+    "ShortDisplayName": "Sunday",
+    "Description": "Sunday",
+    "CreatedOn": "2021-10-27T13:42:55.194Z",
+    "LastUpdated": "2021-10-27T13:42:55.194Z",
+    "Culture": ""
+  },
+  {
+    "Id": 30557,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "templatecreated",
+    "ShortDisplayName": "templatecreated",
+    "Name": "templatecreated",
+    "Description": "templatecreated",
+    "LastUpdated": "2021-07-07T09:42:12.1378681Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3447961Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Id": 30555,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "templatedeleted",
+    "ShortDisplayName": "templatedeleted",
+    "Name": "templatedeleted",
+    "Description": "templatedeleted",
+    "LastUpdated": "2021-07-07T09:42:12.1378532Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3448124Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Id": 7372,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Templates",
+    "ShortDisplayName": "Templates",
+    "Name": "Templates",
+    "Description": "Templates",
+    "LastUpdated": "2021-07-07T09:42:12.1353644Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 7342,
+        "AppId": 4,
+        "Key": "CMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Templates",
+        "ShortDisplayName": "Templates",
+        "Name": "Templates",
+        "Description": "Templates",
+        "LastUpdated": "2021-07-07T09:42:12.1351419Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      },
+      {
+        "Id": 7343,
+        "AppId": 4,
+        "Key": "CMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Templates",
+        "ShortDisplayName": "Templates",
+        "Name": "Templates",
+        "Description": "Templates",
+        "LastUpdated": "2021-07-07T09:42:12.1351494Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "2021-02-24T17:46:54.2331331Z",
+        "CreatedBy": "callum.marshall"
+      }
+    ]
+  },
+  {
+    "Id": 30556,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "templatesaved",
+    "ShortDisplayName": "templatesaved",
+    "Name": "templatesaved",
+    "Description": "templatesaved",
+    "LastUpdated": "2021-07-07T09:42:12.1378606Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3448043Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "tenantHasAppsCannotDelete",
+    "DisplayName": "Tenant has apps. Cannot delete tenant.",
+    "ShortDisplayName": "Tenant has apps. Cannot delete tenant.",
+    "Description": "Tenant has apps. Cannot delete tenant.",
+    "LastUpdated": "2026-03-02T10:20:33.3808822\u002B00:00"
+  },
+  {
+    "Name": "text",
+    "Key": "CMS",
+    "DisplayName": "Text",
+    "ShortDisplayName": "Text",
+    "Description": "Text",
+    "CreatedOn": "2022-11-16T17:11:46.818Z",
+    "LastUpdated": "2022-11-16T17:11:46.818Z",
+    "Culture": ""
+  },
+  {
+    "Name": "text2",
+    "Key": "CMS",
+    "DisplayName": "Text 2",
+    "ShortDisplayName": "Text 2",
+    "Description": "Text 2",
+    "CreatedOn": "2022-11-16T17:14:57.742Z",
+    "LastUpdated": "2022-11-16T17:14:57.742Z",
+    "Culture": ""
+  },
+  {
+    "Name": "themelist",
+    "Key": "CMS",
+    "DisplayName": "Theme List",
+    "ShortDisplayName": "Theme List",
+    "Description": "Theme List",
+    "CreatedOn": "2022-10-26T09:53:01.318Z",
+    "LastUpdated": "2022-10-26T09:53:01.318Z",
+    "Culture": ""
+  },
+  {
+    "Name": "theming",
+    "Key": "CMS",
+    "DisplayName": "Theming",
+    "ShortDisplayName": "Theming",
+    "Description": "Theming",
+    "CreatedOn": "2021-11-19T22:00:27.790Z",
+    "LastUpdated": "2021-11-19T22:00:27.790Z",
+    "Culture": ""
+  },
+  {
+    "Name": "thursday",
+    "Key": "CMS",
+    "DisplayName": "Thursday",
+    "ShortDisplayName": "Thursday",
+    "Description": "Thursday",
+    "CreatedOn": "2021-10-27T13:44:59.373Z",
+    "LastUpdated": "2021-10-27T13:44:59.373Z",
+    "Culture": ""
+  },
+  {
+    "Name": "title",
+    "Key": "CMS",
+    "DisplayName": "Title",
+    "ShortDisplayName": "Title",
+    "Description": "Title",
+    "CreatedOn": "2022-11-16T16:20:05.209Z",
+    "LastUpdated": "2022-11-16T16:20:05.209Z",
+    "Culture": ""
+  },
+  {
+    "Name": "to",
+    "Key": "CMS",
+    "DisplayName": "To",
+    "ShortDisplayName": "To",
+    "Description": "To",
+    "CreatedOn": "2022-10-24T13:19:52.148Z",
+    "LastUpdated": "2022-10-24T13:19:52.148Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "tokenverificationfailed",
+    "DisplayName": "Token Verification Failed",
+    "ShortDisplayName": "Token Verification Failed",
+    "Description": "tokenverificationfailed",
+    "LastUpdated": "2022-03-18T10:41:54.1901353\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "tokenverificationsuccess",
+    "DisplayName": "Token Verification Success",
+    "ShortDisplayName": "Token Verification Success",
+    "Description": "tokenverificationsuccess",
+    "LastUpdated": "2022-03-18T10:41:54.1900899\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "transactionsourcesystem",
+    "DisplayName": "Transaction Source System",
+    "ShortDisplayName": "Transaction Source System",
+    "Description": "Transaction Source System",
+    "LastUpdated": "2022-03-18T10:41:54.189928\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "translationcreated",
+    "DisplayName": "Translation Created",
+    "ShortDisplayName": "Translation Created",
+    "Description": "Translation Created",
+    "LastUpdated": "2022-03-18T10:41:54.1891724\u002B00:00"
+  },
+  {
+    "Id": 30629,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "translationdeleted",
+    "ShortDisplayName": "translationdeleted",
+    "Name": "translationdeleted",
+    "Description": "translationdeleted",
+    "LastUpdated": "2021-07-07T09:42:12.1384524Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3467095Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Name": "tuesday",
+    "Key": "CMS",
+    "DisplayName": "Tuesday",
+    "ShortDisplayName": "Tuesday",
+    "Description": "Tuesday",
+    "CreatedOn": "2021-10-27T13:44:06.547Z",
+    "LastUpdated": "2021-10-27T13:44:06.547Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "type",
+    "DisplayName": "Type",
+    "ShortDisplayName": "Type",
+    "Description": "Type",
+    "LastUpdated": "2023-08-01T17:34:59.620792\u002B01:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "updatedby",
+    "DisplayName": "Updated By",
+    "ShortDisplayName": "Updated By",
+    "Description": "Updated By",
+    "LastUpdated": "2022-03-18T10:41:54.1891426\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "user",
+    "DisplayName": "User",
+    "ShortDisplayName": "User",
+    "Description": "User",
+    "LastUpdated": "2022-03-18T10:41:54.1901243\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "username",
+    "DisplayName": "Username",
+    "ShortDisplayName": "username",
+    "Description": "username",
+    "LastUpdated": "2022-03-18T10:41:54.1896297\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "version",
+    "DisplayName": "Version",
+    "ShortDisplayName": "Version",
+    "Description": "Version",
+    "LastUpdated": "2023-07-28T14:02:05.322874\u002B01:00"
+  },
+  {
+    "Name": "verticaloffset",
+    "Key": "CMS",
+    "DisplayName": "Vertical Offset",
+    "ShortDisplayName": "Vertical Offset",
+    "Description": "Vertical Offset",
+    "CreatedOn": "2021-11-19T22:02:23.428Z",
+    "LastUpdated": "2021-11-19T22:02:23.428Z",
+    "Culture": ""
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "viewhistory",
+    "DisplayName": "View History",
+    "ShortDisplayName": "View History",
+    "Description": "View History",
+    "LastUpdated": "2023-07-28T14:01:47.4945707\u002B01:00"
+  },
+  {
+    "Id": 30614,
+    "AppId": 4,
+    "Key": "CMS",
+    "Culture": "",
+    "DisplayName": "Source",
+    "ShortDisplayName": "viewSource",
+    "Name": "viewSource",
+    "Description": "viewSource",
+    "LastUpdated": "2021-07-07T09:42:12.1383253Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "2021-07-06T17:35:47.3468795Z",
+    "CreatedBy": "callum.marshall",
+    "Translations": []
+  },
+  {
+    "Culture": "",
+    "Key": "CMS",
+    "Name": "visit",
+    "DisplayName": "Visit",
+    "ShortDisplayName": "Visit",
+    "Description": "visit",
+    "LastUpdated": "2022-03-18T10:41:54.1904757\u002B00:00"
+  },
+  {
+    "Name": "wednesday",
+    "Key": "CMS",
+    "DisplayName": "Wednesday",
+    "ShortDisplayName": "Wednesday",
+    "Description": "Wednesday",
+    "CreatedOn": "2021-10-27T13:44:24.039Z",
+    "LastUpdated": "2021-10-27T13:44:24.039Z",
+    "Culture": ""
+  },
+  {
+    "Name": "width",
+    "Key": "CMS",
+    "DisplayName": "Width",
+    "ShortDisplayName": "Width",
+    "Description": "Width",
+    "CreatedOn": "2022-11-22T12:04:26.892Z",
+    "LastUpdated": "2022-11-22T12:04:26.892Z",
+    "Culture": ""
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "Path": "Documentation/ContentManagement/AppManagement/Cultures",
+  "Name": "Cultures",
+  "ShowOnMenus": true,
+  "Order": 30,
+  "LastUpdated": "2026-07-21T16:12:31.8034477\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E\u003Cdiv class=\u0022documentation\u0022\u003E\u003Ch2\u003EAccessing Culture Management\u003C/h2\u003E\u003Cp\u003EYou Access this page through the App Management Tabs. From here you can manage what Cultures\n            (languages) you wish to support in your App.\u003C/p\u003E\u003Ch2\u003EThe UI\u003C/h2\u003E\u003Cp\u003EWhen you access the cultures tab, you\u0026rsquo;re greeted with something that looks like this: \u003C/p\u003E\u003Cimg src=\u0022[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Cultures/CultureManagementGrid-en.png\u0022 /\u003E\u003Cp\u003EAs you can see here, we currently only allow there to be French and English Cultures within\n            our system. If, for example you de-select French from this list, you will no longer be able to select it\n            from the top right hand corner. The following is a screenshot of the top right hand corner, where the user\n            can select the language that they want to view the page in.\n        \u003C/p\u003E\u003Cimg src=\u0022[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Cultures/SelectingCulture-en.png\u0022 height=\u0022145\u0022 style=\u0022display:block;\u0022 /\u003E\u003C/div\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "How to select the cultures you want to support in the portal.",
+      "Title": "Cultures"
+    }
+  ]
+}

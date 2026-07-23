@@ -1,0 +1,200 @@
+[
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "areyousure",
+    "DisplayName": "Are you sure?",
+    "ShortDisplayName": "Are you sure?",
+    "Description": "Are you sure?",
+    "LastUpdated": "2022-03-18T10:41:54.1894925\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "Line1",
+    "DisplayName": "Address Line 1",
+    "ShortDisplayName": "Address Line 1",
+    "Description": "Address Line 1",
+    "LastUpdated": "2022-03-18T10:41:54.189497\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "confirm",
+    "DisplayName": "Confirm",
+    "ShortDisplayName": "Confirm",
+    "Description": "Confirm",
+    "LastUpdated": "2022-03-18T10:41:54.1895013\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "close",
+    "DisplayName": "Close",
+    "ShortDisplayName": "Close",
+    "Description": "Close",
+    "LastUpdated": "2022-03-18T10:41:54.1895057\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "name",
+    "DisplayName": "Name",
+    "ShortDisplayName": "Name",
+    "Description": "Name",
+    "LastUpdated": "2022-03-18T10:41:54.1895099\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "BucketId",
+    "DisplayName": "Bucket ID",
+    "ShortDisplayName": "Bucket ID",
+    "Description": "Bucket ID",
+    "LastUpdated": "2022-03-18T10:41:54.1895143\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "id",
+    "DisplayName": "ID",
+    "ShortDisplayName": "ID",
+    "Description": "ID",
+    "LastUpdated": "2022-03-18T10:41:54.1895186\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "contactemailaddress",
+    "DisplayName": "Contact Email Address",
+    "ShortDisplayName": "Contact Email Address",
+    "Description": "Contact Email Address",
+    "LastUpdated": "2022-03-18T10:41:54.1895246\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "contactphonenumber",
+    "DisplayName": "Contact Phone Number",
+    "ShortDisplayName": "Contact Phone Number",
+    "Description": "Contact Phone Number",
+    "LastUpdated": "2022-03-18T10:41:54.189529\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "WebsiteUrl",
+    "DisplayName": "Website URL",
+    "ShortDisplayName": "Website URL",
+    "Description": "Website URL",
+    "LastUpdated": "2022-03-18T10:41:54.1895333\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "SystemId",
+    "DisplayName": "System ID",
+    "ShortDisplayName": "System ID",
+    "Description": "System ID",
+    "LastUpdated": "2022-03-18T10:41:54.1895377\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "Line2",
+    "DisplayName": "Address Line 2",
+    "ShortDisplayName": "Address Line 2",
+    "Description": "Address Line 2",
+    "LastUpdated": "2022-03-18T10:41:54.1903595\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "proposedcompanies",
+    "DisplayName": "Proposed Companies",
+    "ShortDisplayName": "Proposed Companies",
+    "Description": "Proposed Companies",
+    "LastUpdated": "2022-03-18T10:41:54.1903646\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "ZipOrPostalCode",
+    "DisplayName": "Zip Or Postal Code",
+    "ShortDisplayName": "Zip Or Postal Code",
+    "Description": "Zip Or Postal Code",
+    "LastUpdated": "2022-03-18T10:41:54.1903714\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "TownOrCity",
+    "DisplayName": "Town Or City",
+    "ShortDisplayName": "Town Or City",
+    "Description": "Town Or City",
+    "LastUpdated": "2022-03-18T10:41:54.1903915\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "StateOrProvince",
+    "DisplayName": "State Or Province",
+    "ShortDisplayName": "State Or Province",
+    "Description": "State Or Province",
+    "LastUpdated": "2022-03-18T10:41:54.1903965\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "DateTradingEnabled",
+    "DisplayName": "Date Trading Enabled",
+    "ShortDisplayName": "Date Trading Enabled",
+    "Description": "Date Trading Enabled",
+    "LastUpdated": "2022-03-18T10:41:54.1904014\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "NewCompany",
+    "DisplayName": "New Company",
+    "ShortDisplayName": "New Company",
+    "Description": "New Company",
+    "LastUpdated": "2022-03-18T10:41:54.1904084\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "newsystem",
+    "DisplayName": "New System",
+    "ShortDisplayName": "New System",
+    "Description": "New System",
+    "LastUpdated": "2022-03-18T10:41:54.1904136\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "companies",
+    "DisplayName": "Companies",
+    "ShortDisplayName": "Companies",
+    "Description": "Companies",
+    "LastUpdated": "2022-03-18T10:41:54.1904187\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "yes",
+    "DisplayName": "Yes",
+    "ShortDisplayName": "Yes",
+    "Description": "Yes",
+    "LastUpdated": "2026-07-21T21:12:37.3013151\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "no",
+    "DisplayName": "No",
+    "ShortDisplayName": "No",
+    "Description": "No",
+    "LastUpdated": "2026-07-21T21:12:37.3644782\u002B00:00"
+  }
+]

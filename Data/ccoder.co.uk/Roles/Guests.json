@@ -1,0 +1,5 @@
+{
+  "$type": "\u003C\u003Ef__AnonymousType2\u00602[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], cCoder.AppSecurity",
+  "Name": "Guests",
+  "Privs": "app_read,appculture_read,file_read,filecontent_read,folder_read,folderrole_read,page_read,pagerole_read,script_execute,userrole_read"
+}

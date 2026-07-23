@@ -1,0 +1,209 @@
+[
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "login",
+    "DisplayName": "Login",
+    "ShortDisplayName": "Login",
+    "Description": "Login",
+    "LastUpdated": "2022-03-18T10:41:54.1907669\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "sitedescription",
+    "DisplayName": "cCoder.co.uk",
+    "ShortDisplayName": "cCoder.co.uk",
+    "Description": "cCoder.co.uk",
+    "LastUpdated": "2023-03-02T17:06:39.7211661\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "month-7",
+    "DisplayName": "July",
+    "ShortDisplayName": "July",
+    "Description": "July",
+    "LastUpdated": "2026-07-21T20:58:51.4456631\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "month-6",
+    "DisplayName": "June",
+    "ShortDisplayName": "June",
+    "Description": "June",
+    "LastUpdated": "2026-07-21T20:58:51.3449256\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "month-5",
+    "DisplayName": "May",
+    "ShortDisplayName": "May",
+    "Description": "May",
+    "LastUpdated": "2026-07-21T20:58:51.2261042\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "month-4",
+    "DisplayName": "April",
+    "ShortDisplayName": "April",
+    "Description": "April",
+    "LastUpdated": "2026-07-21T20:58:51.1019222\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "month-3",
+    "DisplayName": "March",
+    "ShortDisplayName": "March",
+    "Description": "March",
+    "LastUpdated": "2026-07-21T20:58:50.9900197\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "month-2",
+    "DisplayName": "February",
+    "ShortDisplayName": "February",
+    "Description": "February",
+    "LastUpdated": "2026-07-21T20:58:50.896574\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "month-1",
+    "DisplayName": "January",
+    "ShortDisplayName": "January",
+    "Description": "January",
+    "LastUpdated": "2026-07-21T20:58:50.7733084\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "oldpassword",
+    "DisplayName": "Old Password",
+    "ShortDisplayName": "Old Password",
+    "Description": "Old Password",
+    "LastUpdated": "2022-03-18T10:41:54.1909346\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "newpassword",
+    "DisplayName": "New Password",
+    "ShortDisplayName": "New Password",
+    "Description": "New Password",
+    "LastUpdated": "2022-03-18T10:41:54.1909396\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "close",
+    "DisplayName": "Close",
+    "ShortDisplayName": "Close",
+    "Description": "Close",
+    "LastUpdated": "2022-03-18T10:41:54.1909446\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "phonenumber",
+    "DisplayName": "Phone Number",
+    "ShortDisplayName": "Phone Number",
+    "Description": "Phone Number",
+    "LastUpdated": "2022-03-18T10:41:54.1909496\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "updatepassword",
+    "DisplayName": "Update Password",
+    "ShortDisplayName": "Update Password",
+    "Description": "Update Password",
+    "LastUpdated": "2022-03-18T10:41:54.1909545\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "update",
+    "DisplayName": "Update",
+    "ShortDisplayName": "Update",
+    "Description": "Update",
+    "LastUpdated": "2022-03-18T10:41:54.1909611\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "welcomemessage",
+    "DisplayName": "Welcome to the Corporate LinX demo portal!",
+    "ShortDisplayName": "Welcome to the Corporate LinX demo portal!",
+    "Description": "Welcome to the Corporate LinX demo portal!",
+    "LastUpdated": "2024-05-22T10:46:21.4817762\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "dateformat",
+    "DisplayName": "dd MMM yyyy",
+    "ShortDisplayName": "dd MMM yyyy",
+    "Description": "dd MMM yyyy",
+    "LastUpdated": "2026-07-21T20:58:50.5895961\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "shortdateformat",
+    "DisplayName": "dd/MM/yyyy",
+    "ShortDisplayName": "dd/MM/yyyy",
+    "Description": "dd/MM/yyyy",
+    "LastUpdated": "2026-07-21T20:58:50.6797675\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "month-8",
+    "DisplayName": "August",
+    "ShortDisplayName": "August",
+    "Description": "August",
+    "LastUpdated": "2026-07-21T20:58:51.6164457\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "month-9",
+    "DisplayName": "September",
+    "ShortDisplayName": "September",
+    "Description": "September",
+    "LastUpdated": "2026-07-21T20:58:51.726485\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "month-10",
+    "DisplayName": "October",
+    "ShortDisplayName": "October",
+    "Description": "October",
+    "LastUpdated": "2026-07-21T20:58:51.8125462\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "month-11",
+    "DisplayName": "November",
+    "ShortDisplayName": "November",
+    "Description": "November",
+    "LastUpdated": "2026-07-21T20:58:51.8747524\u002B00:00"
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "month-12",
+    "DisplayName": "December",
+    "ShortDisplayName": "December",
+    "Description": "December",
+    "LastUpdated": "2026-07-21T20:58:52.0188347\u002B00:00"
+  }
+]

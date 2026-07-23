@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 7307,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "en",
+    "DisplayName": "Offered To Funder",
+    "ShortDisplayName": "Offered To Funder",
+    "Name": "offeredtofunder",
+    "Description": "Offered To Funder",
+    "LastUpdated": "2021-07-07T09:42:12.1349027Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  },
+  {
+    "Id": 7312,
+    "AppId": 4,
+    "Key": "B2B",
+    "Culture": "en",
+    "DisplayName": "Onboarding Information Saved",
+    "ShortDisplayName": "Saved",
+    "Name": "onboardinginformationsaved",
+    "Description": "The onboarding information has been successfully saved to the database.",
+    "LastUpdated": "2021-07-07T09:42:12.134925Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null
+  }
+]

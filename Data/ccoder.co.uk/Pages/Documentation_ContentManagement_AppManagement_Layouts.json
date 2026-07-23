@@ -1,0 +1,22 @@
+{
+  "Path": "Documentation/ContentManagement/AppManagement/Layouts",
+  "Name": "Layouts",
+  "ShowOnMenus": true,
+  "Order": 40,
+  "LastUpdated": "2026-07-21T16:12:37.2294816\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E\u003Cdiv class=\u0022documentation\u0022\u003E\u003Ch2\u003EAccessing Layout Management\u003C/h2\u003E\u003Cp\u003EYou Access this page through the App Management Tabs. From here you can manage the app\u0026rsquo;s\n            layout, where you can alter the app\u0026rsquo;s logos and their placements and you can manage their sites navigation\n            bar styles.\u003C/p\u003E\u003Ch2\u003EThe UI\u003C/h2\u003E\u003Cp\u003EWhen you access the layouts tab, you\u0026rsquo;re greeted with something that looks like this: \u003C/p\u003E\u003Cimg src=\u0022[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Layouts/LayoutsGrid-en.png\u0022 /\u003E\u003Cp\u003EThis grid contains any relevant layouts, which can be set on a page-by-page basis, for\n            example, the documentation pages you\u0026rsquo;re looking at right now will have a different layout to the app\u0026rsquo;s home\n            page.\u003C/p\u003E\u003Cp\u003E\u0026nbsp;\u003C/p\u003E\u003Ch2\u003ECreating a Layout\u003C/h2\u003E\u003Cp\u003ETo create a new layout in this UI, you click on the \u003Cstrong\u003E\u0026ldquo;New Layout\u0026rdquo;\u003C/strong\u003E button\n            in the header bar.\n            Clicking this will bring up a dialog that looks something like this:\u003C/p\u003E\u003Cimg src=\u0022[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Layouts/CreateLayoutDialog-en.png\u0022 height=\u0022154\u0022 style=\u0022display:block;\u0022 /\u003E\u003Cp\u003ECreating a Layout in our system is incredibly simple \u0026amp; only requires you to give it a name.\n            The name should be relevant to what the layout is going to be used for. Once you\u0026rsquo;ve filled in the field, you\n            can press create and create your new layout.\n        \u003C/p\u003E\u003Cimg src=\u0022[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Layouts/CreatedLayout-en.png\u0022 /\u003E\u003Cp\u003EFor now, I have created a Test layout. On this row you can see that there are save and\n            delete functions and there\u0026rsquo;s the ability expand the component.\u003C/p\u003E\u003Cp\u003E\u0026nbsp;\u003C/p\u003E\u003Ch2\u003EUpdating a Layout \u003C/h2\u003E\u003Cp\u003EOn expanding a new layout, you will come across 2 boxes in which you can implement your\n            layout. In the header box, you will typically find any required\n            \u003Cmeta /\u003Eand\n \u003Clink /\u003Etags for any pages that use that particular layout. In the body box, it\u0026rsquo;s a simple breakdown of the\n            page layout - header, body and footer and all of the page\u0026rsquo;s content get\u0026rsquo;s populated into the page\u0026rsquo;s body.\n        \u003C/p\u003E\u003Cimg src=\u0022[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Layouts/UpdateLayoutContent-en.png\u0022 /\u003E\u003Cp\u003ETo save any changes you\u0026rsquo;ve made within a layout you click the \u003Cstrong\u003E\u0026ldquo;Save\u0026rdquo;\u003C/strong\u003E button\n            on the relevant\n            row. This will save any changes you\u0026rsquo;ve made to this layout.\u003C/p\u003E\u003Cp\u003E\u0026nbsp;\u003C/p\u003E\u003Ch2\u003EDeleting a Layout \u003C/h2\u003E\u003Cp\u003ETo delete a layout that you no longer use or need, then you click the \u003Cstrong\u003E\u0026ldquo;Delete\u0026rdquo;\u003C/strong\u003E button that\n            will remove your layout and its content from the UI.\n        \u003C/p\u003E\u003Cimg src=\u0022[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Layouts/DeleteLayout-en.png\u0022 /\u003E\u003C/div\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "How to access and manage the layouts in the portal.",
+      "Title": "Layouts"
+    }
+  ]
+}

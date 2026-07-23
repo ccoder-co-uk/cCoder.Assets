@@ -1,0 +1,24 @@
+{
+  "Path": "Clients",
+  "Name": "Clients",
+  "ResourceKey": "",
+  "ShowOnMenus": true,
+  "Order": 6,
+  "LastUpdated": "2026-04-30T19:09:38.3746064\u002B00:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[TenantManagement]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Clients",
+      "Keywords": "Clients",
+      "Title": "Clients"
+    }
+  ]
+}

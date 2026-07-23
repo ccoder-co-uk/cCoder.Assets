@@ -1,0 +1,24 @@
+{
+  "Path": "Admin",
+  "Name": "Admin",
+  "ResourceKey": "",
+  "ShowOnMenus": true,
+  "Order": 9,
+  "LastUpdated": "2026-04-30T19:09:38.4066886\u002B00:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[detailednav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Admin",
+      "Keywords": "Admin",
+      "Title": "Admin"
+    }
+  ]
+}

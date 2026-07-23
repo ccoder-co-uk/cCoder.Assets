@@ -1,0 +1,29 @@
+{
+  "Path": "Documentation",
+  "Name": "Documentation",
+  "ResourceKey": "",
+  "ShowOnMenus": true,
+  "Order": 4,
+  "LastUpdated": "2026-05-01T17:20:16.564413\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E[component[DetailedNav]]"
+    },
+    {
+      "CultureId": "en-GB",
+      "Name": "body",
+      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E[component[DetailedNav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Welcome to the cCoder documentation. Choose the domain or area that interests you and dig deeper into how the platform is built, configured and used.",
+      "Keywords": "Documentation",
+      "Title": "Documentation"
+    }
+  ]
+}

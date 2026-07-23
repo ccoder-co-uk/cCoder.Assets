@@ -17,7 +17,7 @@ Common-cache objects are written beneath:
 
 ```text
 Data/Common Cache/Components/{name}.json
-Data/Common Cache/Resources/{name}.json
+Data/Common Cache/Resources/{resource key}/{culture}.json
 Data/Common Cache/Scripts/{name}.json
 ```
 
@@ -32,11 +32,12 @@ dotnet run --project src/cCoder.Packer -- `
 App objects are grouped by their owning domain:
 
 ```text
-Data/{domain}/Components/{name}.json
-Data/{domain}/Resources/{name}.json
-Data/{domain}/Scripts/{name}.json
+Data/{source domain}/Components/{name}.json
+Data/{source domain}/Resources/{resource key}/{culture}.json
+Data/{source domain}/Scripts/{name}.json
 ```
 
 Use `-appId {id}` when the hostname does not uniquely identify an app.
-Translations or other objects sharing the same business name are kept together
-as a JSON array in that name's file.
+An app unpack includes every business-object type returned by the package export
+API. Resources sharing a resource key and culture are kept together as a JSON
+array in that key and culture's file.

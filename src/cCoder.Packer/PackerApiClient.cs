@@ -1,3 +1,4 @@
+using System.Diagnostics.CodeAnalysis;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text.Json;
@@ -59,10 +60,9 @@ public sealed class PackerApiClient(HttpClient httpClient, Uri source)
                 using JsonDocument value = JsonDocument.Parse(
                     GetProperty(item, "Json").GetString() ?? "{}");
 
-                records.Add(new ExportRecord(
+                records.Add(CreateExportRecord(
                     "Common Cache",
-                    PluralCategory(type),
-                    RequiredName(value.RootElement),
+                    type.Split('/').Last(),
                     value.RootElement.Clone()));
             }
         }
@@ -92,14 +92,9 @@ public sealed class PackerApiClient(HttpClient httpClient, Uri source)
             {
                 string type = GetProperty(item, "Type").GetString()
                     ?? string.Empty;
-                string entityType = type.Split('/').LastOrDefault() ?? string.Empty;
-
-                if (entityType is not ("Component" or "Resource" or "Script"))
-                    continue;
-
-                string domain = type.Split('/').FirstOrDefault() ?? "ContentManagement";
-                if (domain.Equals("Core", StringComparison.OrdinalIgnoreCase))
-                    domain = "ContentManagement";
+                string entityType = type.Split('/').LastOrDefault()
+                    ?? throw new InvalidDataException(
+                        $"Package item type '{type}' is invalid.");
 
                 using JsonDocument data = JsonDocument.Parse(
                     GetProperty(item, "Data").GetString() ?? "[]");
@@ -109,10 +104,9 @@ public sealed class PackerApiClient(HttpClient httpClient, Uri source)
                         ? data.RootElement.EnumerateArray()
                         : [data.RootElement];
 
-                records.AddRange(values.Select(value => new ExportRecord(
-                    domain,
-                    $"{entityType}s",
-                    RequiredName(value),
+                records.AddRange(values.Select(value => CreateExportRecord(
+                    source.Host,
+                    entityType,
                     value.Clone())));
             }
         }
@@ -172,19 +166,98 @@ public sealed class PackerApiClient(HttpClient httpClient, Uri source)
             response.StatusCode);
     }
 
-    private static string PluralCategory(string type) =>
-        $"{type.Split('/').Last()}s";
-
-    private static string RequiredName(JsonElement value)
+    private static ExportRecord CreateExportRecord(
+        string domain,
+        string entityType,
+        JsonElement value)
     {
-        if (TryGetProperty(value, "Name", out JsonElement name)
-            && !string.IsNullOrWhiteSpace(name.GetString()))
+        if (entityType.Equals("Resource", StringComparison.OrdinalIgnoreCase))
         {
-            return name.GetString()!;
+            string key = OptionalString(value, "Key", "Unkeyed");
+            string culture = OptionalString(value, "Culture", "Default");
+
+            return new ExportRecord(
+                domain,
+                Path.Combine("Resources", key),
+                culture,
+                value,
+                CombineValues: true);
+        }
+
+        return new ExportRecord(
+            domain,
+            Pluralize(entityType),
+            BusinessObjectName(entityType, value),
+            value);
+    }
+
+    private static string BusinessObjectName(
+        string entityType,
+        JsonElement value)
+    {
+        if (entityType is "Page" or "PageRole" or "FolderRole"
+            && TryGetProperty(value, "Path", out JsonElement pathProperty))
+        {
+            string path = string.IsNullOrWhiteSpace(pathProperty.GetString())
+                ? "Root"
+                : pathProperty.GetString()!;
+
+            string qualifier = entityType switch
+            {
+                "PageRole" => OptionalString(value, "Role", string.Empty),
+                "FolderRole" => OptionalString(value, "Name", string.Empty),
+                _ => string.Empty,
+            };
+
+            return string.IsNullOrWhiteSpace(qualifier)
+                ? path
+                : $"{path}-{qualifier}";
+        }
+
+        foreach (string propertyName in new[] { "Name", "Domain", "Key", "Id" })
+        {
+            if (TryGetString(value, propertyName, out string? candidate))
+                return candidate;
         }
 
         throw new InvalidDataException(
-            "An exported business object did not contain a Name.");
+            $"An exported {entityType} did not contain a usable identity.");
+    }
+
+    private static string Pluralize(string entityType) =>
+        entityType.EndsWith('s')
+            ? entityType
+            : entityType.EndsWith('y')
+                ? $"{entityType[..^1]}ies"
+                : $"{entityType}s";
+
+    private static string OptionalString(
+        JsonElement value,
+        string name,
+        string fallback) =>
+        TryGetString(value, name, out string? result)
+            ? result
+            : fallback;
+
+    private static bool TryGetString(
+        JsonElement value,
+        string name,
+        [NotNullWhen(true)]
+        out string? result)
+    {
+        result = null;
+        if (!TryGetProperty(value, name, out JsonElement property)
+            || property.ValueKind is JsonValueKind.Null
+                or JsonValueKind.Undefined)
+        {
+            return false;
+        }
+
+        result = property.ValueKind == JsonValueKind.String
+            ? property.GetString()
+            : property.ToString();
+
+        return !string.IsNullOrWhiteSpace(result);
     }
 
     private static JsonElement GetProperty(

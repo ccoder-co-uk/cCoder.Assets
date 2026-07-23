@@ -1,0 +1,28 @@
+{
+  "Path": "Admin/FullLogStream",
+  "Name": "Full Log Stream",
+  "ShowOnMenus": true,
+  "Order": 0,
+  "LastUpdated": "2026-04-30T19:09:38.9725081\u002B00:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[LogStream]]"
+    },
+    {
+      "CultureId": "en-GB",
+      "Name": "body",
+      "Html": " [component[LogStream]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Full Log Stream for all portals again",
+      "Keywords": "",
+      "Title": "Full Log Stream"
+    }
+  ]
+}
