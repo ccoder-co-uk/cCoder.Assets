@@ -1,3 +1,9 @@
-using cCoder.Packer;
+using cCoder.Packer.Services.Orchestrations;
 
-return await PackerApplication.RunAsync(args);
+namespace cCoder.Packer.Exposures;
+
+internal static class Program
+{
+    public static Task<int> Main(string[] args) =>
+        PackerApplication.RunAsync(args);
+}

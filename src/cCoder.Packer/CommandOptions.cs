@@ -1,4 +1,4 @@
-namespace cCoder.Packer;
+namespace cCoder.Packer.Models;
 
 public sealed record CommandOptions(
     string Target,

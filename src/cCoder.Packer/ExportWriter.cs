@@ -1,6 +1,7 @@
 using System.Text.Json;
+using cCoder.Packer.Models;
 
-namespace cCoder.Packer;
+namespace cCoder.Packer.Brokers;
 
 public sealed class ExportWriter(string dataPath)
 {

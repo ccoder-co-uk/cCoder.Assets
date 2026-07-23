@@ -1,6 +1,6 @@
 using System.Text.Json;
 
-namespace cCoder.Packer;
+namespace cCoder.Packer.Models;
 
 public sealed record PackerSettings(string DataPath, string PackagesPath)
 {

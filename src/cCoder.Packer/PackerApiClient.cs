@@ -2,8 +2,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text.Json;
+using cCoder.Packer.Models;
 
-namespace cCoder.Packer;
+namespace cCoder.Packer.Brokers;
 
 public sealed class PackerApiClient(HttpClient httpClient, Uri source)
 {

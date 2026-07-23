@@ -1,6 +1,6 @@
 using System.Text.Json;
 
-namespace cCoder.Packer;
+namespace cCoder.Packer.Models;
 
 internal static class JsonDefaults
 {
