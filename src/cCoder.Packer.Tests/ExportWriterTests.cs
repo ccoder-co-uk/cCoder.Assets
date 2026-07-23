@@ -20,7 +20,7 @@ public sealed class ExportWriterTests : IDisposable
         [
             new ExportRecord(
                 "Common Cache",
-                "Components",
+                Path.Combine("Nav", "Components"),
                 "DetailedNav",
                 document.RootElement.Clone()),
         ]);
@@ -28,6 +28,7 @@ public sealed class ExportWriterTests : IDisposable
         string expected = Path.Combine(
             directory,
             "Common Cache",
+            "Nav",
             "Components",
             "DetailedNav.json");
 
@@ -49,13 +50,13 @@ public sealed class ExportWriterTests : IDisposable
         [
             new ExportRecord(
                 "ContentManagement",
-                Path.Combine("Resources", "CMS"),
+                Path.Combine("CMS", "Resources"),
                 "en-GB",
                 save.RootElement.Clone(),
                 CombineValues: true),
             new ExportRecord(
                 "ContentManagement",
-                Path.Combine("Resources", "CMS"),
+                Path.Combine("CMS", "Resources"),
                 "en-GB",
                 cancel.RootElement.Clone(),
                 CombineValues: true),
@@ -64,8 +65,8 @@ public sealed class ExportWriterTests : IDisposable
         string file = Path.Combine(
             directory,
             "ContentManagement",
-            "Resources",
             "CMS",
+            "Resources",
             "en-GB.json");
 
         using JsonDocument result = JsonDocument.Parse(

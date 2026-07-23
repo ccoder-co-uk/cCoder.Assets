@@ -178,15 +178,20 @@ public sealed class PackerApiClient(HttpClient httpClient, Uri source)
 
             return new ExportRecord(
                 domain,
-                Path.Combine("Resources", key),
+                Path.Combine(key, "Resources"),
                 culture,
                 value,
                 CombineValues: true);
         }
 
+        string resourceKey = OptionalString(
+            value,
+            "ResourceKey",
+            OptionalString(value, "Key", "Default"));
+
         return new ExportRecord(
             domain,
-            Pluralize(entityType),
+            Path.Combine(resourceKey, Pluralize(entityType)),
             BusinessObjectName(entityType, value),
             value);
     }
