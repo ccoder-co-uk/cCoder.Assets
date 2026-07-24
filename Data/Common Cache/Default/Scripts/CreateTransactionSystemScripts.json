@@ -1,8 +1,0 @@
-{
-  "Name": "CreateTransactionSystemScripts",
-  "Content": "async function (vars) {\r\n    vars.TransactionSourceSystemResult = (await getSystem({ Id: vars.TransactionSourceSystemId })).value;\r\n},\r\nasync function (vars) {\r\n    if (vars.TransactionSourceSystemResult.length === 0) {\r\n        vars.TransactionSourceSystem = await createSystem({\r\n            Id: vars.TransactionSourceSystemId,\r\n            Name: vars.TransactionSourceSystemId,\r\n            Description: \"Transaction Source System for \" + vars.AppName + \".\" + vars.AppType,\r\n            IsPublic: false\r\n        });\r\n    } else {\r\n        vars.TransactionSourceSystem = vars.TransactionSourceSystemResult[0];\r\n    }\r\n}",
-  "CreatedOn": "2021-09-24T09:42:09.21Z",
-  "LastUpdated": "2021-09-24T09:42:09.21Z",
-  "Key": "Default",
-  "IncludeInSubSequentImports": true
-}

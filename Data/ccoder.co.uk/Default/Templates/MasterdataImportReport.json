@@ -1,7 +1,0 @@
-{
-  "Name": "MasterdataImportReport",
-  "ResourceKey": "MasterdataImportReport",
-  "RawString": "<table>\n    <tr>\n        <td>Type</td>\n        <td>New</td>\n        <td>Updated</td>\n        <td>Failures</td>\n        <td>Total</td>\n    </tr>\n    <tr>\n        <td>Companies</td>\n        <td>[model[Companies.Imported]]</td>\n        <td>[model[Companies.Updated]]</td>\n        <td>[model[Companies.FailuresTotal]]</td>\n        <td>[model[Companies.Total]]</td>\n    </tr>\n    <tr>\n        <td>Supplier Buckets</td>\n        <td>[model[SupplierBuckets.Imported]]</td>\n        <td>[model[SupplierBuckets.Updated]]</td>\n        <td>[model[SupplierBuckets.FailuresTotal]]</td>\n        <td>[model[SupplierBuckets.Total]]</td>\n    </tr>\n</table>",
-  "LastUpdated": "2024-05-22T11:46:21.3579117+01:00",
-  "IncludeInSubSequentImports": true
-}

@@ -1,7 +1,0 @@
-{
-  "Name": "TransactionImportReport",
-  "ResourceKey": "TransactionImportReport",
-  "RawString": "<table>\n    <tr>\n        <td>Type</td>\n        <td>New</td>\n        <td>Updated</td>\n        <td>Failures</td>\n        <td>Total</td>\n    </tr>\n    <tr>\n        <td>Invoices</td>\n        <td>[model[Invoices.Imported]]</td>\n        <td>[model[Invoices.Updated]]</td>\n        <td>[model[Invoices.FailuresTotal]]</td>\n        <td>[model[Invoices.Total]]</td>\n    </tr>\n    <tr>\n        <td>Credits</td>\n        <td>[model[Credits.Imported]]</td>\n        <td>[model[Credits.Updated]]</td>\n        <td>[model[Credits.FailuresTotal]]</td>\n        <td>[model[Credits.Total]]</td>\n    </tr>\n    <tr>\n        <td>Payments</td>\n        <td>[model[Payments.Imported]]</td>\n        <td>[model[Payments.Updated]]</td>\n        <td>[model[Payments.FailuresTotal]]</td>\n        <td>[model[Payments.Total]]</td>\n    </tr>\n    <tr>\n        <td>Purchase Orders</td>\n        <td>[model[PurchaseOrders.Imported]]</td>\n        <td>[model[PurchaseOrders.Updated]]</td>\n        <td>[model[PurchaseOrders.FailuresTotal]]</td>\n        <td>[model[PurchaseOrders.Total]]</td>\n    </tr>\n</table>",
-  "LastUpdated": "2024-05-22T11:46:21.3556511+01:00",
-  "IncludeInSubSequentImports": true
-}

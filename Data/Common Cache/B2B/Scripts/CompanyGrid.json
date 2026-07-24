@@ -1,8 +1,0 @@
-{
-  "Name": "CompanyGrid",
-  "Content": "async function(variables) {\r\n  var g = new GridWidget(variables.element, variables.dataSource);\r\n  g.editable = false;\r\n\tg.sortable = false;\r\n\tg.filterable = false;\r\n\tg.pageable = false;\r\n\tg.scrollable = false;\r\n\tg.groupable = false;\r\n  g.commands.push({ name: \"view\", icon: \"k-i-share\", text: \"[resource_shortdisplayname[View]]\", href: \"/Company/Details?Id=#:Id#\" });\r\n  g.columns = [\r\n    {field: \"Perspective\", title: \"[resource_displayname[perspective]]\", template: \"#=window.B2B.perspectives[Perspective]#\", width: 120},\r\n    {field: \"Name\", title: \"[resource_displayname[name]]\"},\r\n    {field: \"DebtorReference\", title: \"[resource_displayname[debtorreference]]\"},\r\n    {field: \"DebtorVATReference\", title: \"[resource_displayname[debtorvatreference]]\", width: 100}\r\n  ];\r\n  variables.companyGrid = g;\r\n  return g;\r\n}\r\n",
-  "CreatedOn": "2021-09-23T15:17:54.074Z",
-  "LastUpdated": "2021-09-23T15:17:54.074Z",
-  "Key": "B2B",
-  "IncludeInSubSequentImports": true
-}

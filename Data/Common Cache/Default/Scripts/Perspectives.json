@@ -1,8 +1,0 @@
-{
-  "Name": "Perspectives",
-  "Content": "{\r\n    \"Debtor\": \"[resource_displayname[debtor]]\",\r\n    \"Creditor\": \"[resource_displayname[creditor]]\",\r\n    \"Funder\": \"[resource_displayname[funder]]\"\r\n}",
-  "CreatedOn": "2021-10-15T13:21:13.288Z",
-  "LastUpdated": "2021-10-15T13:21:13.288Z",
-  "Key": "Default",
-  "IncludeInSubSequentImports": true
-}

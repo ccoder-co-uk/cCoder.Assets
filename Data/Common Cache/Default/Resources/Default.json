@@ -12,22 +12,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "2021-05-04T13:07:19.25Z",
     "CreatedBy": "Fabien Jacquot",
-    "Translations": [
-      {
-        "Id": 30434,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "A La Carte",
-        "ShortDisplayName": "A La Carte",
-        "Name": "A La Carte",
-        "Description": "A La Carte",
-        "LastUpdated": "2021-07-07T09:42:12.1369084Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "2021-05-04T13:07:32.7666474Z",
-        "CreatedBy": "Fabien Jacquot"
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -43,53 +28,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4684,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Acceptez",
-        "ShortDisplayName": "Acceptez",
-        "Name": "accept",
-        "Description": "Acceptez",
-        "LastUpdated": "2021-07-07T09:42:12.1283471Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4862,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Accepted Offers",
-    "ShortDisplayName": "acceptedoffers",
-    "Name": "acceptedoffers",
-    "Description": "acceptedoffers",
-    "LastUpdated": "2021-07-07T09:42:12.1297155Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4682,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Offres acceptées",
-        "ShortDisplayName": "Offres acceptées",
-        "Name": "acceptedoffers",
-        "Description": "Offres acceptées",
-        "LastUpdated": "2021-07-07T09:42:12.1283321Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -156,22 +95,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 25628,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Prévision de trésorerie cumulée",
-        "ShortDisplayName": "Prévision de trésorerie cumulée",
-        "Name": "accumulativecashforecast",
-        "Description": "Prévision de trésorerie cumulée",
-        "LastUpdated": "2021-07-07T09:42:12.13615Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -249,22 +173,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "2021-04-21T10:56:01.4523216Z",
     "CreatedBy": "Fabien Jacquot",
-    "Translations": [
-      {
-        "Id": 30416,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Numéro de compte",
-        "ShortDisplayName": "Numéro de compte",
-        "Name": "acocuntno",
-        "Description": "Numéro de compte",
-        "LastUpdated": "2021-07-07T09:42:12.1367858Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "2021-04-21T10:57:54.1465498Z",
-        "CreatedBy": "Fabien Jacquot"
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -326,33 +235,6 @@
     "ShortDisplayName": "Add App",
     "Description": "Add App",
     "LastUpdated": "2022-03-18T10:41:54.1911391+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "addatransaction",
-    "Key": "Default",
-    "DisplayName": "Add a Transaction",
-    "ShortDisplayName": "Add a Transaction",
-    "Description": "Add a Transaction",
-    "CreatedOn": "2022-02-08T14:57:52.482Z",
-    "LastUpdated": "2022-02-08T14:57:52.482Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 7379,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Add Company",
-    "ShortDisplayName": "Add Company",
-    "Name": "addcompany",
-    "Description": "Add Company",
-    "LastUpdated": "2021-07-07T09:42:12.1354367Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -496,17 +378,6 @@
     "IncludeInSubSequentImports": true
   },
   {
-    "Name": "addtransaction",
-    "Key": "Default",
-    "DisplayName": "Add Transaction",
-    "ShortDisplayName": "Add Transaction",
-    "Description": "Add Transaction",
-    "CreatedOn": "2022-02-08T14:53:23.454Z",
-    "LastUpdated": "2022-02-08T14:53:23.454Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Id": 30558,
     "AppId": 4,
     "Key": "Default",
@@ -562,22 +433,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4614,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Date de paiement convenue",
-        "ShortDisplayName": "Date de paiement convenue",
-        "Name": "agreeddiscountpaymentdate",
-        "Description": "Date de paiement convenue",
-        "LastUpdated": "2021-07-07T09:42:12.1278205Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -1011,22 +867,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5059,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Application enregistrée",
-        "ShortDisplayName": "Application enregistrée",
-        "Name": "appsaved",
-        "Description": "Application enregistrée",
-        "LastUpdated": "2021-07-07T09:42:12.1312358Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -1094,22 +935,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 7311,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Etes vous certain(e)?",
-        "ShortDisplayName": "Etes vous certain(e)?",
-        "Name": "areyousure",
-        "Description": "Etes vous certain(e)?",
-        "LastUpdated": "2021-07-07T09:42:12.1349176Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -1280,22 +1106,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5060,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Déboguez",
-        "ShortDisplayName": "Déboguez",
-        "Name": "audititemdebug",
-        "Description": "Déboguez",
-        "LastUpdated": "2021-07-07T09:42:12.1312432Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -1311,22 +1122,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5061,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Erreur",
-        "ShortDisplayName": "Erreur",
-        "Name": "audititemerror",
-        "Description": "Erreur",
-        "LastUpdated": "2021-07-07T09:42:12.1312507Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -1342,22 +1138,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5063,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Fatal",
-        "ShortDisplayName": "Fatal",
-        "Name": "audititemfatal",
-        "Description": "Fatal",
-        "LastUpdated": "2021-07-07T09:42:12.1312659Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -1373,22 +1154,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5064,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Info",
-        "ShortDisplayName": "Info",
-        "Name": "audititeminfo",
-        "Description": "Info",
-        "LastUpdated": "2021-07-07T09:42:12.1312748Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -1404,22 +1170,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5066,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Level",
-        "ShortDisplayName": "Level",
-        "Name": "audititemlevel",
-        "Description": "audititemlevel",
-        "LastUpdated": "2021-07-07T09:42:12.1312896Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -1435,22 +1186,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5065,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Succès",
-        "ShortDisplayName": "Succès",
-        "Name": "audititemsuccess",
-        "Description": "Succès",
-        "LastUpdated": "2021-07-07T09:42:12.1312822Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -1466,22 +1202,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5067,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Attention",
-        "ShortDisplayName": "Attention",
-        "Name": "audititemwarning",
-        "Description": "Attention",
-        "LastUpdated": "2021-07-07T09:42:12.1312971Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -1582,65 +1303,6 @@
     "IncludeInSubSequentImports": true
   },
   {
-    "Id": 7359,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Bucket ID",
-    "ShortDisplayName": "Bucket ID",
-    "Name": "bucketid",
-    "Description": "Bucket ID",
-    "LastUpdated": "2021-07-07T09:42:12.1352641Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 30511,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "bucketrequired",
-    "ShortDisplayName": "bucketrequired",
-    "Name": "bucketrequired",
-    "Description": "bucketrequired",
-    "LastUpdated": "2021-07-07T09:42:12.1375152Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "2021-07-06T17:35:47.3446354Z",
-    "CreatedBy": "callum.marshall",
-    "Translations": [],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 7374,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Buckets",
-    "ShortDisplayName": "Buckets",
-    "Name": "Buckets",
-    "Description": "Buckets",
-    "LastUpdated": "2021-07-07T09:42:12.1353953Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "buckets",
-    "Key": "Default",
-    "DisplayName": "Buckets",
-    "ShortDisplayName": "Buckets",
-    "Description": "Buckets",
-    "CreatedOn": "2022-10-19T09:49:37.077Z",
-    "LastUpdated": "2022-10-19T09:49:37.077Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Name": "businessdocs",
     "Key": "Default",
     "DisplayName": "Business Documents",
@@ -1722,172 +1384,6 @@
     "CreatedOn": "2021-11-02T11:46:58.078Z",
     "LastUpdated": "2021-11-02T11:46:58.078Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4759,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Buyer Blocked",
-    "ShortDisplayName": "buyerblocked",
-    "Name": "buyerblocked",
-    "Description": "buyerblocked",
-    "LastUpdated": "2021-07-07T09:42:12.1289051Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4671,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "En attente",
-        "ShortDisplayName": "En attente",
-        "Name": "buyerblocked",
-        "Description": "En attente",
-        "LastUpdated": "2021-07-07T09:42:12.1282556Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 30685,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Buyer Blocked",
-    "ShortDisplayName": "buyerblocked",
-    "Name": "buyerblocked",
-    "Description": "buyerblocked",
-    "LastUpdated": "2021-07-07T09:42:12.1388965Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "2021-07-06T17:35:47.3460091Z",
-    "CreatedBy": "callum.marshall",
-    "Translations": [
-      {
-        "Id": 30548,
-        "AppId": 4,
-        "Key": "Home",
-        "Culture": "fr-FR",
-        "DisplayName": "En attente",
-        "ShortDisplayName": "En attente",
-        "Name": "buyerblocked",
-        "Description": "En attente",
-        "LastUpdated": "2021-07-07T09:42:12.137799Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "2021-07-06T17:35:47.3448727Z",
-        "CreatedBy": "callum.marshall"
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4749,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Client Invoice Reference",
-    "ShortDisplayName": "Client Tran. Ref.",
-    "Name": "buyerinvoicereference",
-    "Description": "Client (Buyer/Debtor) reference to the transaction",
-    "LastUpdated": "2021-07-07T09:42:12.1288357Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5072,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Référence de la facture de l'acheteur",
-        "ShortDisplayName": "Référence de la facture de l'acheteur",
-        "Name": "buyerinvoicereference",
-        "Description": "Référence de la facture de l'acheteur",
-        "LastUpdated": "2021-07-07T09:42:12.1313361Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "buyerpaymentdate",
-    "Key": "Default",
-    "DisplayName": "Buyer Payment Date",
-    "ShortDisplayName": "Buyer Payment Date",
-    "Description": "Buyer Payment Date",
-    "CreatedOn": "2021-09-06T16:28:38.064Z",
-    "LastUpdated": "2021-09-06T16:28:38.064Z",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "Default",
-    "Name": "buyerportal",
-    "DisplayName": "Buyer Portal",
-    "ShortDisplayName": "Buyer Portal",
-    "Description": "Buyer Portal",
-    "LastUpdated": "2022-03-18T10:41:54.191124+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "buyers",
-    "Key": "Default",
-    "DisplayName": "Buyers",
-    "ShortDisplayName": "Buyers",
-    "Description": "Buyers",
-    "CreatedOn": "2023-01-04T12:51:38.892Z",
-    "LastUpdated": "2023-01-04T12:51:38.892Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "buyers",
-    "Key": "Default",
-    "DisplayName": "Buyers",
-    "ShortDisplayName": "Buyers",
-    "Description": "Buyers",
-    "CreatedOn": "2022-10-19T09:47:16.597Z",
-    "LastUpdated": "2022-10-19T09:47:16.597Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 5329,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Cancelled",
-    "ShortDisplayName": "Canc",
-    "Name": "cancelled",
-    "Description": "The transaction is cancelled",
-    "LastUpdated": "2021-07-07T09:42:12.1333325Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5341,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Annulé(e)",
-        "ShortDisplayName": "Annulé(e)",
-        "Name": "cancelled",
-        "Description": "La transaction est annulée",
-        "LastUpdated": "2021-07-07T09:42:12.1334351Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
     "IncludeInSubSequentImports": true
   },
   {
@@ -2066,39 +1562,6 @@
     "IncludeInSubSequentImports": true
   },
   {
-    "Name": "clearingcredits",
-    "Key": "Default",
-    "DisplayName": "Clearing Credits",
-    "ShortDisplayName": "Clearing Credits",
-    "Description": "Clearing Credits",
-    "CreatedOn": "2022-03-15T11:34:15.758Z",
-    "LastUpdated": "2022-03-15T11:34:15.758Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "clearinginvoices",
-    "Key": "Default",
-    "DisplayName": "Clearing Invoices",
-    "ShortDisplayName": "Clearing Invoices",
-    "Description": "Clearing Invoices",
-    "CreatedOn": "2022-03-15T11:34:28.668Z",
-    "LastUpdated": "2022-03-15T11:34:28.668Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "clearingoffers",
-    "Key": "Default",
-    "DisplayName": "Clearing Offers",
-    "ShortDisplayName": "Clearing Offers",
-    "Description": "Clearing Offers",
-    "CreatedOn": "2022-03-15T11:33:25.049Z",
-    "LastUpdated": "2022-03-15T11:33:25.049Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Name": "clearingpayments",
     "Key": "Default",
     "DisplayName": "Clearing Payments",
@@ -2141,22 +1604,6 @@
     "IncludeInSubSequentImports": true
   },
   {
-    "Id": 4740,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Client Name",
-    "ShortDisplayName": "Client Name",
-    "Name": "Client Name",
-    "Description": "Client Name (Debtor, Buyer)",
-    "LastUpdated": "2021-07-07T09:42:12.1287658Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [],
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Id": 25633,
     "AppId": 4,
     "Key": "Default",
@@ -2169,22 +1616,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 7388,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "E-mail Client",
-        "ShortDisplayName": "E-mail Client",
-        "Name": "clientemail",
-        "Description": "E-mail Client",
-        "LastUpdated": "2021-07-07T09:42:12.1355785Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -2210,22 +1642,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 7389,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Téléphone Client",
-        "ShortDisplayName": "Téléphone Client",
-        "Name": "clientphone",
-        "Description": "Téléphone Client",
-        "LastUpdated": "2021-07-07T09:42:12.1355886Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -2241,22 +1658,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 25630,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Référence Client",
-        "ShortDisplayName": "Référence Client",
-        "Name": "clientref",
-        "Description": "Référence Client",
-        "LastUpdated": "2021-07-07T09:42:12.1361644Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -2292,22 +1694,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 7309,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Close",
-        "ShortDisplayName": "Close",
-        "Name": "close",
-        "Description": "Close",
-        "LastUpdated": "2021-07-07T09:42:12.1349102Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -2502,158 +1889,6 @@
     "IncludeInSubSequentImports": true
   },
   {
-    "Name": "companies",
-    "Key": "Default",
-    "DisplayName": "Companies",
-    "ShortDisplayName": "Companies",
-    "Description": "Companies",
-    "CreatedOn": "2022-10-19T09:46:20.612Z",
-    "LastUpdated": "2022-10-19T09:46:20.612Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 7376,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Companies",
-    "ShortDisplayName": "Companies",
-    "Name": "Companies",
-    "Description": "Companies",
-    "LastUpdated": "2021-07-07T09:42:12.1354143Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 30534,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Company Approved",
-    "ShortDisplayName": "Company Approved",
-    "Name": "companyapproved",
-    "Description": "Company Approved",
-    "LastUpdated": "2021-07-07T09:42:12.137691Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "2021-07-06T17:35:47.3445607Z",
-    "CreatedBy": "callum.marshall",
-    "Translations": [],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4501,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Company Created",
-    "ShortDisplayName": "Company Created",
-    "Name": "companycreated",
-    "Description": "companycreated",
-    "LastUpdated": "2021-07-07T09:42:12.1269375Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5074,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Société créée",
-        "ShortDisplayName": "Société créée",
-        "Name": "companycreated",
-        "Description": "Société créée",
-        "LastUpdated": "2021-07-07T09:42:12.1313511Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4499,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Company Deleted",
-    "ShortDisplayName": "Company Deleted",
-    "Name": "companydeleted",
-    "Description": "Company Deleted",
-    "LastUpdated": "2021-07-07T09:42:12.1269213Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5075,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Société supprimée",
-        "ShortDisplayName": "Société supprimée",
-        "Name": "companydeleted",
-        "Description": "Société supprimée",
-        "LastUpdated": "2021-07-07T09:42:12.1313588Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 30510,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "companypicker",
-    "ShortDisplayName": "companypicker",
-    "Name": "companypicker",
-    "Description": "companypicker",
-    "LastUpdated": "2021-07-07T09:42:12.1375078Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "2021-07-06T17:35:47.3446448Z",
-    "CreatedBy": "callum.marshall",
-    "Translations": [],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4500,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Company Saved",
-    "ShortDisplayName": "Company Saved",
-    "Name": "companysaved",
-    "Description": "Company Saved",
-    "LastUpdated": "2021-07-07T09:42:12.1269287Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5076,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Entreprise enregistrée",
-        "ShortDisplayName": "Entreprise enregistrée",
-        "Name": "companysaved",
-        "Description": "Entreprise enregistrée",
-        "LastUpdated": "2021-07-07T09:42:12.1313663Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Name": "complete",
     "Key": "Default",
     "DisplayName": "Complete",
@@ -2719,53 +1954,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4665,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Finalisé(e)",
-        "ShortDisplayName": "Finalisé(e)",
-        "Name": "complete",
-        "Description": "Finalisé(e)",
-        "LastUpdated": "2021-07-07T09:42:12.1282163Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 5330,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Completed",
-    "ShortDisplayName": "Complete",
-    "Name": "completed",
-    "Description": "The transaction is complete.",
-    "LastUpdated": "2021-07-07T09:42:12.1333399Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5340,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Finalisé(e)",
-        "ShortDisplayName": "Finalisé(e)",
-        "Name": "completed",
-        "Description": "La transaction est finalisée.",
-        "LastUpdated": "2021-07-07T09:42:12.1334277Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -2858,22 +2047,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 7306,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Confirmez",
-        "ShortDisplayName": "Confirmez",
-        "Name": "confirm",
-        "Description": "Confirmez",
-        "LastUpdated": "2021-07-07T09:42:12.1348953Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -3005,68 +2179,6 @@
     "IncludeInSubSequentImports": true
   },
   {
-    "Id": 4731,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Copy Invoice",
-    "ShortDisplayName": "copyinvoice",
-    "Name": "copyinvoice",
-    "Description": "copyinvoice",
-    "LastUpdated": "2021-07-07T09:42:12.1286947Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4664,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Copier la facture",
-        "ShortDisplayName": "Copier la facture",
-        "Name": "copyinvoice",
-        "Description": "Copier la facture",
-        "LastUpdated": "2021-07-07T09:42:12.1282089Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4820,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Copy Invoice",
-    "ShortDisplayName": "Copy Invoice",
-    "Name": "copytransaction",
-    "Description": "Said Invoice",
-    "LastUpdated": "2021-07-07T09:42:12.129396Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5215,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Copier la facture",
-        "ShortDisplayName": "Copier la facture",
-        "Name": "copytransaction",
-        "Description": "Said Invoice",
-        "LastUpdated": "2021-07-07T09:42:12.1324587Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Id": 4882,
     "AppId": 4,
     "Key": "Default",
@@ -3079,22 +2191,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4663,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Coût du règlement anticipé",
-        "ShortDisplayName": "Coût du règlement anticipé",
-        "Name": "costofearlypayment",
-        "Description": "Coût du règlement anticipé",
-        "LastUpdated": "2021-07-07T09:42:12.1281997Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -3110,22 +2207,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4672,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Coût - Règlement anticipé",
-        "ShortDisplayName": "\tCoût - Règlement anticipé",
-        "Name": "costoffinancing",
-        "Description": "\tCoût - Règlement anticipé",
-        "LastUpdated": "2021-07-07T09:42:12.1282632Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -3172,22 +2254,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4685,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Nombre",
-        "ShortDisplayName": "Nombre",
-        "Name": "count",
-        "Description": "Nombre",
-        "LastUpdated": "2021-07-07T09:42:12.128356Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -3213,22 +2280,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5079,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Créer",
-        "ShortDisplayName": "Créer",
-        "Name": "create",
-        "Description": "Créer",
-        "LastUpdated": "2021-07-07T09:42:12.1314022Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -3352,22 +2404,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 15860,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Créée par",
-        "ShortDisplayName": "Utilisateur",
-        "Name": "createdby",
-        "Description": "L'Utilisateur qui a fait la demande",
-        "LastUpdated": "2021-07-07T09:42:12.1357702Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -3508,22 +2545,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5080,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Créé le",
-        "ShortDisplayName": "Créé le",
-        "Name": "createdon",
-        "Description": "Créé le",
-        "LastUpdated": "2021-07-07T09:42:12.1314097Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -3565,379 +2587,6 @@
     "ShortDisplayName": "Creating App",
     "Description": "Creating App",
     "LastUpdated": "2023-09-26T16:06:13.2155438+01:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "credit",
-    "Key": "Default",
-    "DisplayName": "Credit",
-    "ShortDisplayName": "Credit",
-    "Description": "Credit",
-    "CreatedOn": "2022-04-27T15:01:46.473Z",
-    "LastUpdated": "2022-04-27T15:01:46.473Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4711,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Credit Note",
-    "ShortDisplayName": "CN",
-    "Name": "creditnote",
-    "Description": "creditnote",
-    "LastUpdated": "2021-07-07T09:42:12.1285548Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4696,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Avoir",
-        "ShortDisplayName": "Avoir",
-        "Name": "creditnote",
-        "Description": "Avoir",
-        "LastUpdated": "2021-07-07T09:42:12.1284451Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 5155,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Credit Note",
-    "ShortDisplayName": "Credit Note",
-    "Name": "creditnote",
-    "Description": "Avoir",
-    "LastUpdated": "2021-07-07T09:42:12.1319869Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5218,
-        "AppId": 4,
-        "Key": "Home",
-        "Culture": "fr-FR",
-        "DisplayName": "Note de crédit",
-        "ShortDisplayName": "Avoir",
-        "Name": "creditnote",
-        "Description": "Avoir",
-        "LastUpdated": "2021-07-07T09:42:12.1324808Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "creditor",
-    "Key": "Default",
-    "DisplayName": "Creditor",
-    "ShortDisplayName": "Creditor",
-    "Description": "Creditor",
-    "CreatedOn": "2021-10-15T13:22:42.563Z",
-    "LastUpdated": "2021-10-15T13:22:42.564Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "Creditor Name",
-    "Key": "Default",
-    "DisplayName": "Supplier Name",
-    "ShortDisplayName": "Supplier Name",
-    "Description": "Supplier Name",
-    "CreatedOn": "2021-08-24T14:45:45.943Z",
-    "LastUpdated": "2021-08-24T14:45:45.943Z",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4803,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Creditor General Ledger Date",
-    "ShortDisplayName": "Creditor General Ledger Date",
-    "Name": "creditorgeneralledgerdate",
-    "Description": "creditorgeneralledgerdate",
-    "LastUpdated": "2021-07-07T09:42:12.129257Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5082,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Date du grand livre fournisseur",
-        "ShortDisplayName": "Statut fournisseur",
-        "Name": "creditorgeneralledgerdate",
-        "Description": "Date du grand livre du fournisseur",
-        "LastUpdated": "2021-07-07T09:42:12.1314244Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 28735,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Supplier Name",
-    "ShortDisplayName": "Supplier Name",
-    "Name": "creditorname",
-    "Description": "Supplier Name",
-    "LastUpdated": "2021-07-07T09:42:12.1363739Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 28742,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Nom du fournisseur",
-        "ShortDisplayName": "Nom Fournisseur",
-        "Name": "creditorname",
-        "Description": "Nom du fournisseur",
-        "LastUpdated": "2021-07-07T09:42:12.1364539Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4869,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Creditor Payment date",
-    "ShortDisplayName": "Creditor Payment Date",
-    "Name": "creditorpaymentdate",
-    "Description": "creditorpaymentdate",
-    "LastUpdated": "2021-07-07T09:42:12.1297695Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5083,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Date de règlement fournisseur",
-        "ShortDisplayName": "Date de règlement fournisseur",
-        "Name": "creditorpaymentdate",
-        "Description": "Date de règlement fournisseur",
-        "LastUpdated": "2021-07-07T09:42:12.1314318Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 7354,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Creditor Reference",
-    "ShortDisplayName": "Creditor Ref.",
-    "Name": "CreditorReference",
-    "Description": "Reference to the Creditor (Supplier)",
-    "LastUpdated": "2021-07-07T09:42:12.1352251Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 7365,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Référence Fournisseur",
-        "ShortDisplayName": "Réf. Fourn.",
-        "Name": "CreditorReference",
-        "Description": "Référence fournisseur",
-        "LastUpdated": "2021-07-07T09:42:12.1353108Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 5314,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Creditor Settlement Date",
-    "ShortDisplayName": "Creditor Settlement Date",
-    "Name": "creditorsettlementdate",
-    "Description": "Creditor Settlement Date",
-    "LastUpdated": "2021-07-07T09:42:12.1332177Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5315,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Date de règlement du créancier",
-        "ShortDisplayName": "Date de règlement du créancier",
-        "Name": "creditorsettlementdate",
-        "Description": "Date de règlement du créancier",
-        "LastUpdated": "2021-07-07T09:42:12.1332251Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4743,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Creditor State",
-    "ShortDisplayName": "Creditor State",
-    "Name": "creditorstate",
-    "Description": "Creditor State",
-    "LastUpdated": "2021-07-07T09:42:12.1287888Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4963,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Statut fournisseur",
-        "ShortDisplayName": "Fournisseur",
-        "Name": "creditorstate",
-        "Description": "Statut fournisseur",
-        "LastUpdated": "2021-07-07T09:42:12.1305126Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4722,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Credits",
-    "ShortDisplayName": "credits",
-    "Name": "credits",
-    "Description": "credits",
-    "LastUpdated": "2021-07-07T09:42:12.1286257Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4905,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Avoirs",
-        "ShortDisplayName": "Avoirs",
-        "Name": "credits",
-        "Description": "Avoirs",
-        "LastUpdated": "2021-07-07T09:42:12.1300494Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4747,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Type",
-    "ShortDisplayName": "Type",
-    "Name": "credittypeid",
-    "Description": "Type",
-    "LastUpdated": "2021-07-07T09:42:12.1288205Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4977,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Type de document",
-        "ShortDisplayName": "Type",
-        "Name": "credittypeid",
-        "Description": "Type de document",
-        "LastUpdated": "2021-07-07T09:42:12.130623Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 15871,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Value of Credits, by Month",
-    "ShortDisplayName": "Credit Value",
-    "Name": "creditvaluebymonth",
-    "Description": "Value of Credits, by Month",
-    "LastUpdated": "2021-07-07T09:42:12.1358554Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 15872,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": " Valeur des avoirs, par mois",
-        "ShortDisplayName": " Valeur des avoirs, par mois",
-        "Name": "creditvaluebymonth",
-        "Description": " Valeur des crédits, par mois",
-        "LastUpdated": "2021-07-07T09:42:12.1358629Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
     "IncludeInSubSequentImports": true
   },
   {
@@ -4047,22 +2696,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5038,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Devise",
-        "ShortDisplayName": "Dev.",
-        "Name": "currency",
-        "Description": "Devise",
-        "LastUpdated": "2021-07-07T09:42:12.1310814Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -4078,22 +2712,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4978,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Devise",
-        "ShortDisplayName": "Dev.",
-        "Name": "currencyid",
-        "Description": "Devise",
-        "LastUpdated": "2021-07-07T09:42:12.1306307Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -4129,22 +2748,6 @@
     "IncludeInSubSequentImports": true
   },
   {
-    "Id": 7403,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Cust. Transaction reference",
-    "ShortDisplayName": "Cust. Trans. Ref?",
-    "Name": "Cust. Transaction reference",
-    "Description": "Client (Debtor/Buyer) System Reference for the transaction",
-    "LastUpdated": "2021-07-07T09:42:12.1357015Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "2021-02-24T17:46:54.2331331Z",
-    "CreatedBy": "callum.marshall",
-    "Translations": [],
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Id": 7396,
     "AppId": 4,
     "Key": "Default",
@@ -4158,37 +2761,6 @@
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
     "Translations": [],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4783,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Offers in this cutoff:",
-    "ShortDisplayName": "cutoffoffers",
-    "Name": "cutoffoffers",
-    "Description": "cutoffoffers",
-    "LastUpdated": "2021-07-07T09:42:12.1290994Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4562,
-        "AppId": 4,
-        "Key": "Home",
-        "Culture": "fr-FR",
-        "DisplayName": "Date limite des propositions",
-        "ShortDisplayName": "Date limite des propositions",
-        "Name": "cutoffoffers",
-        "Description": "Date limite des propositions",
-        "LastUpdated": "2021-07-07T09:42:12.1274147Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
     "IncludeInSubSequentImports": true
   },
   {
@@ -4313,168 +2885,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4686,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Note de débit",
-        "ShortDisplayName": "Note de débit",
-        "Name": "debitnote",
-        "Description": "Note de débit",
-        "LastUpdated": "2021-07-07T09:42:12.1283637Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "debtor",
-    "Key": "Default",
-    "DisplayName": "Debtor",
-    "ShortDisplayName": "Debtor",
-    "Description": "Debtor",
-    "CreatedOn": "2021-10-15T13:21:54.349Z",
-    "LastUpdated": "2021-10-15T13:21:54.349Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4708,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Client General Ledger Date",
-    "ShortDisplayName": "Client GL Date",
-    "Name": "debtorgeneralledgerdate",
-    "Description": "Client General Ledger Date (Debtor/Buyer accounting date for the transaction)",
-    "LastUpdated": "2021-07-07T09:42:12.1285323Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5086,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Date du grand livre du client",
-        "ShortDisplayName": "Date Client",
-        "Name": "debtorgeneralledgerdate",
-        "Description": "Date du grand livre du client",
-        "LastUpdated": "2021-07-07T09:42:12.1314557Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 28736,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Client Name",
-    "ShortDisplayName": "Client Name",
-    "Name": "debtorname",
-    "Description": "Client Name (Debtor, Buyer)",
-    "LastUpdated": "2021-07-07T09:42:12.1363987Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 28740,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Société client",
-        "ShortDisplayName": "Société client",
-        "Name": "debtorname",
-        "Description": "Société client",
-        "LastUpdated": "2021-07-08T15:05:10.2286296Z",
-        "LastUpdatedBy": "Fabien Jacquot",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "debtorpaymentdate",
-    "Key": "Default",
-    "DisplayName": "Debtor Payment Date",
-    "ShortDisplayName": "Debtor Payment Date",
-    "Description": "Debtor Payment Date",
-    "CreatedOn": "2022-02-03T13:50:08.271Z",
-    "LastUpdated": "2022-02-03T13:50:08.271Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4764,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Client State",
-    "ShortDisplayName": "Client State",
-    "Name": "debtorstate",
-    "Description": "Client (Debtor/Buyer) Transaction State",
-    "LastUpdated": "2021-07-07T09:42:12.1289515Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4973,
-        "AppId": 4,
-        "Key": "Home",
-        "Culture": "fr-FR",
-        "DisplayName": "Statut client",
-        "ShortDisplayName": "Statut Client",
-        "Name": "debtorstate",
-        "Description": "Statut client",
-        "LastUpdated": "2021-07-07T09:42:12.1305913Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4752,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Client State",
-    "ShortDisplayName": "Client State",
-    "Name": "debtorstate",
-    "Description": "The Transaction State in the Debtor's system.",
-    "LastUpdated": "2021-07-07T09:42:12.1288581Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4980,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Statut client",
-        "ShortDisplayName": "Statut Client",
-        "Name": "debtorstate",
-        "Description": "Statut client",
-        "LastUpdated": "2021-07-07T09:42:12.1306457Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -4619,22 +3030,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5087,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Supprimer",
-        "ShortDisplayName": "Supprimer",
-        "Name": "delete",
-        "Description": "Supprimer",
-        "LastUpdated": "2021-07-07T09:42:12.131463Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -4777,22 +3173,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5090,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Date de livraison",
-        "ShortDisplayName": "Date de livraison",
-        "Name": "deliverydate",
-        "Description": "Date de livraison",
-        "LastUpdated": "2021-07-07T09:42:12.1314867Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -4900,22 +3281,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5091,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Description",
-        "ShortDisplayName": "Description",
-        "Name": "description",
-        "Description": "Description",
-        "LastUpdated": "2021-07-07T09:42:12.1314942Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -5003,22 +3369,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5093,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Détails",
-        "ShortDisplayName": "Détails",
-        "Name": "details",
-        "Description": "Détails",
-        "LastUpdated": "2021-07-07T09:42:12.1315091Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -5075,22 +3426,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4702,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Règlement anticipé",
-        "ShortDisplayName": "Règlement anticipé",
-        "Name": "discountaccepted",
-        "Description": "Règlement anticipé",
-        "LastUpdated": "2021-07-07T09:42:12.128485Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -5106,22 +3442,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 7346,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Règlement proposé",
-        "ShortDisplayName": "Règlement proposé",
-        "Name": "discountproposed",
-        "Description": "Règlement proposé",
-        "LastUpdated": "2021-07-07T09:42:12.1351716Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -5168,22 +3489,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5257,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Escompte refusé",
-        "ShortDisplayName": "Escompte refusé",
-        "Name": "discountrejected",
-        "Description": "Escompte refusé",
-        "LastUpdated": "2021-07-07T09:42:12.1327806Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -5318,22 +3624,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4699,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Référence document fournisseur",
-        "ShortDisplayName": "Référence document fournisseur",
-        "Name": "documentref",
-        "Description": "Référence document fournisseur",
-        "LastUpdated": "2021-07-07T09:42:12.1284698Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -5531,22 +3822,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5010,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Date d'échéance",
-        "ShortDisplayName": "Echéance",
-        "Name": "duedate",
-        "Description": "Date d'échéance",
-        "LastUpdated": "2021-07-07T09:42:12.1308646Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -5562,22 +3838,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4698,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Dû dans 30 jours",
-        "ShortDisplayName": "Dû dans 30 jours",
-        "Name": "duein30days",
-        "Description": "Dû dans 30 jours",
-        "LastUpdated": "2021-07-07T09:42:12.1284622Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -5655,22 +3916,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4706,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Dû à plus de 30 jours",
-        "ShortDisplayName": "Dû à plus de 30 jours",
-        "Name": "dueover30days",
-        "Description": "Dû à plus de 30 jours",
-        "LastUpdated": "2021-07-07T09:42:12.1285172Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -5686,22 +3932,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5037,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Durée",
-        "ShortDisplayName": "Durée",
-        "Name": "duration",
-        "Description": "Durée",
-        "LastUpdated": "2021-07-07T09:42:12.1310739Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -5842,22 +4073,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5094,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "En vigueur",
-        "ShortDisplayName": "En vigueur",
-        "Name": "effective",
-        "Description": "En vigueur",
-        "LastUpdated": "2021-07-07T09:42:12.1315165Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -5982,22 +4198,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 7303,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Adresse email",
-        "ShortDisplayName": "Adresse email",
-        "Name": "email",
-        "Description": "Adresse email",
-        "LastUpdated": "2021-07-07T09:42:12.1348714Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -6075,22 +4276,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5095,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Entité",
-        "ShortDisplayName": "Entité",
-        "Name": "entity",
-        "Description": "Entité",
-        "LastUpdated": "2021-07-07T09:42:12.1315239Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -6117,22 +4303,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5337,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Euribor",
-        "ShortDisplayName": "Euribor",
-        "Name": "euribor",
-        "Description": "Le taux Euribor.",
-        "LastUpdated": "2021-07-07T09:42:12.13342Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -6148,22 +4319,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5096,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Taux Euribor",
-        "ShortDisplayName": "Taux Euribor",
-        "Name": "euriborrate",
-        "Description": "euriborrate",
-        "LastUpdated": "2021-07-07T09:42:12.1315314Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -6201,22 +4357,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4694,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Export sous Excel",
-        "ShortDisplayName": "Export sous Excel",
-        "Name": "excel",
-        "Description": "Export sous Excel",
-        "LastUpdated": "2021-07-07T09:42:12.1284302Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -6303,22 +4444,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5336,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Expire le",
-        "ShortDisplayName": "Expire le",
-        "Name": "expireson",
-        "Description": "Date d'expiration de l'offre",
-        "LastUpdated": "2021-07-07T09:42:12.133406Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -6662,22 +4788,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4692,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Export sous Excel",
-        "ShortDisplayName": "Export sous Excel",
-        "Name": "exporttoexcel",
-        "Description": "Export sous Excel",
-        "LastUpdated": "2021-07-07T09:42:12.1284152Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -6832,130 +4943,6 @@
         "Name": "filter",
         "Description": "Filtre",
         "LastUpdated": "2021-07-07T09:42:12.1283982Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4877,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Are you sure?",
-    "ShortDisplayName": "financeoffers_areyoursure",
-    "Name": "financeoffers_areyoursure",
-    "Description": "financeoffers_areyoursure",
-    "LastUpdated": "2021-07-07T09:42:12.1298313Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4689,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Voulez-vous confirmer? En acceptant, la demande de règlement ne pourra plus être annulée.",
-        "ShortDisplayName": "Voulez-vous confirmer? En acceptant, la demande de règlement ne pourra plus être annulée.",
-        "Name": "financeoffers_areyoursure",
-        "Description": "Voulez-vous confirmer? En acceptant, la demande de règlement ne pourra plus être annulée.",
-        "LastUpdated": "2021-07-07T09:42:12.1283908Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4726,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Announcement",
-    "ShortDisplayName": "financesupplierannouncement",
-    "Name": "financesupplierannouncement",
-    "Description": "financesupplierannouncement",
-    "LastUpdated": "2021-07-07T09:42:12.1286558Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4914,
-        "AppId": 4,
-        "Key": "Home",
-        "Culture": "fr-FR",
-        "DisplayName": "Annonce",
-        "ShortDisplayName": "Annonce",
-        "Name": "financesupplierannouncement",
-        "Description": "Annonce",
-        "LastUpdated": "2021-07-07T09:42:12.1301194Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4724,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "More Info",
-    "ShortDisplayName": "financesupplierannouncementmoreinfo",
-    "Name": "financesupplierannouncementmoreinfo",
-    "Description": "financesupplierannouncementmoreinfo",
-    "LastUpdated": "2021-07-07T09:42:12.1286408Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4916,
-        "AppId": 4,
-        "Key": "Home",
-        "Culture": "fr-FR",
-        "DisplayName": "Plus d'informations",
-        "ShortDisplayName": "Plus d'informations",
-        "Name": "financesupplierannouncementmoreinfo",
-        "Description": "Plus d'informations",
-        "LastUpdated": "2021-07-07T09:42:12.1301345Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4727,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Click here for news",
-    "ShortDisplayName": "Click here for news",
-    "Name": "financesuppliermarqueemessage",
-    "Description": "financesuppliermarqueemessage",
-    "LastUpdated": "2021-07-07T09:42:12.1286646Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5089,
-        "AppId": 4,
-        "Key": "Home",
-        "Culture": "fr-FR",
-        "DisplayName": "Cliquez ici pour accéder aux informations",
-        "ShortDisplayName": "Cliquez ici pour accéder aux informations",
-        "Name": "financesuppliermarqueemessage",
-        "Description": "Cliquez ici pour accéder aux informations",
-        "LastUpdated": "2021-07-07T09:42:12.1314777Z",
         "LastUpdatedBy": "Guest",
         "CreatedOn": "0001-01-01T00:00:00Z",
         "CreatedBy": null
@@ -7143,22 +5130,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5017,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Pour approbation",
-        "ShortDisplayName": "Pour approbation",
-        "Name": "forapproval",
-        "Description": "Pour approbation",
-        "LastUpdated": "2021-07-07T09:42:12.1309186Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -7356,22 +5328,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5042,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "de",
-        "ShortDisplayName": "de",
-        "Name": "from",
-        "Description": "de",
-        "LastUpdated": "2021-07-07T09:42:12.1311039Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -7434,364 +5391,6 @@
         "CreatedBy": "callum.marshall"
       }
     ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 5308,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Fundable Value",
-    "ShortDisplayName": "Fundable Value",
-    "Name": "fundablevalue",
-    "Description": "Fundable Value",
-    "LastUpdated": "2021-07-07T09:42:12.1331717Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5309,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Valeur finançable",
-        "ShortDisplayName": "Valeur finançable",
-        "Name": "fundablevalue",
-        "Description": "Valeur finançable",
-        "LastUpdated": "2021-07-07T09:42:12.1331792Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "funded",
-    "Key": "Default",
-    "DisplayName": "Early Payment Settled",
-    "ShortDisplayName": "Early Payment Settled",
-    "Description": "Early Payment Settled",
-    "CreatedOn": "2021-10-12T21:39:17.928Z",
-    "LastUpdated": "2021-10-12T21:39:17.928Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 5244,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Early Payment Settled",
-    "ShortDisplayName": "Early Payment Settled",
-    "Name": "funded",
-    "Description": "Early Payment Settled",
-    "LastUpdated": "2021-07-07T09:42:12.1326808Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5261,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Financé(e)",
-        "ShortDisplayName": "Financé(e)",
-        "Name": "funded",
-        "Description": "Financé(e)",
-        "LastUpdated": "2021-07-07T09:42:12.1328117Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "funder",
-    "Key": "Default",
-    "DisplayName": "Funder",
-    "ShortDisplayName": "Funder",
-    "Description": "Funder",
-    "CreatedOn": "2021-10-15T13:23:37.079Z",
-    "LastUpdated": "2021-10-15T13:23:37.079Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "funder",
-    "Key": "Default",
-    "DisplayName": "Funder",
-    "ShortDisplayName": "Funder",
-    "Description": "Funder",
-    "CreatedOn": "2022-02-08T15:15:00.568Z",
-    "LastUpdated": "2022-02-08T15:15:00.568Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "Default",
-    "Name": "funder",
-    "DisplayName": "Funder",
-    "ShortDisplayName": "Funder",
-    "Description": "Funder",
-    "LastUpdated": "2022-08-15T14:07:04.755367+01:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "funderbucket",
-    "Key": "Default",
-    "DisplayName": "Funder Bucket",
-    "ShortDisplayName": "Funder Bucket",
-    "Description": "Funder Bucket",
-    "CreatedOn": "2022-10-19T09:55:17.763Z",
-    "LastUpdated": "2022-10-19T09:55:17.763Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4814,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Funder Name",
-    "ShortDisplayName": "Funder Name",
-    "Name": "fundername",
-    "Description": "Funder Name",
-    "LastUpdated": "2021-07-07T09:42:12.1293443Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5098,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Nom du financier",
-        "ShortDisplayName": "Nom du financier",
-        "Name": "fundername",
-        "Description": "Nom du financier",
-        "LastUpdated": "2021-07-07T09:42:12.1315477Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "funders",
-    "Key": "Default",
-    "DisplayName": "Funders",
-    "ShortDisplayName": "Funders",
-    "Description": "Funders",
-    "CreatedOn": "2022-01-04T09:32:00.71Z",
-    "LastUpdated": "2022-01-04T09:32:00.71Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "funders",
-    "Key": "Default",
-    "DisplayName": "Funders",
-    "ShortDisplayName": "Funders",
-    "Description": "Funders",
-    "CreatedOn": "2022-10-19T09:48:14.229Z",
-    "LastUpdated": "2022-10-19T09:48:14.229Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "funders",
-    "Key": "Default",
-    "DisplayName": "Funders",
-    "ShortDisplayName": "Funders",
-    "Description": "Funders",
-    "CreatedOn": "2023-01-04T12:52:50.399Z",
-    "LastUpdated": "2023-01-04T12:52:50.399Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "fundingonboarding",
-    "Key": "Default",
-    "DisplayName": "Registration of Interest",
-    "ShortDisplayName": "Registration of Interest",
-    "Description": "Registration of Interest",
-    "CreatedOn": "2021-11-01T16:01:24.063Z",
-    "LastUpdated": "2021-11-01T16:01:24.063Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "fundingproposed",
-    "Key": "Default",
-    "DisplayName": "Funding Proposed",
-    "ShortDisplayName": "Funding Proposed",
-    "Description": "Funding Proposed",
-    "CreatedOn": "2021-10-13T15:22:07.602Z",
-    "LastUpdated": "2021-10-13T15:22:07.603Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 5241,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Funding proposed",
-    "ShortDisplayName": "Funding proposed",
-    "Name": "fundingproposed",
-    "Description": "Funding proposed",
-    "LastUpdated": "2021-07-07T09:42:12.1326584Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5262,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Financement proposé",
-        "ShortDisplayName": "Financement proposé",
-        "Name": "fundingproposed",
-        "Description": "Financement proposé",
-        "LastUpdated": "2021-07-07T09:42:12.1328192Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 5243,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Funding rejected",
-    "ShortDisplayName": "Funding rejected",
-    "Name": "fundingrejected",
-    "Description": "Funding rejected",
-    "LastUpdated": "2021-07-07T09:42:12.1326732Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5264,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Financement rejeté",
-        "ShortDisplayName": "Financement rejeté",
-        "Name": "fundingrejected",
-        "Description": "Financement rejeté",
-        "LastUpdated": "2021-07-07T09:42:12.1328339Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "fundingrejected",
-    "Key": "Default",
-    "DisplayName": "Funding Rejected",
-    "ShortDisplayName": "Funding Rejected",
-    "Description": "Funding Rejected",
-    "CreatedOn": "2021-10-12T21:38:59.075Z",
-    "LastUpdated": "2021-10-12T21:38:59.075Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4765,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Funding State",
-    "ShortDisplayName": "Funding State",
-    "Name": "fundingstate",
-    "Description": "Funding State",
-    "LastUpdated": "2021-07-07T09:42:12.128959Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4974,
-        "AppId": 4,
-        "Key": "Home",
-        "Culture": "fr-FR",
-        "DisplayName": "État du financement",
-        "ShortDisplayName": "État du financement",
-        "Name": "fundingstate",
-        "Description": "État du financement",
-        "LastUpdated": "2021-07-07T09:42:12.1305988Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 7363,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Funding State",
-    "ShortDisplayName": "Funding State",
-    "Name": "FundingState",
-    "Description": "Funding State",
-    "LastUpdated": "2021-07-07T09:42:12.1352958Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 30701,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Statut financement",
-        "ShortDisplayName": "Statut financement",
-        "Name": "FundingState",
-        "Description": "Statut financement",
-        "LastUpdated": "2021-07-07T09:42:12.1390103Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "2021-07-06T17:35:47.3458948Z",
-        "CreatedBy": "callum.marshall"
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "fundingtypename",
-    "Key": "Default",
-    "DisplayName": "Funding Type Name",
-    "ShortDisplayName": "Funding Type Name",
-    "Description": "Funding Type Name",
-    "CreatedOn": "2022-07-05T12:02:31.602Z",
-    "LastUpdated": "2022-07-05T12:02:31.602Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "Default",
-    "Name": "fundmanagementsystem",
-    "DisplayName": "Fund Management System",
-    "ShortDisplayName": "Fund Management System",
-    "Description": "Fund Management System",
-    "LastUpdated": "2022-03-18T10:41:54.191134+00:00",
     "IncludeInSubSequentImports": true
   },
   {
@@ -7962,22 +5561,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 15868,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Valeur totale",
-        "ShortDisplayName": "Totale",
-        "Name": "grossvalue",
-        "Description": "Valeur totale",
-        "LastUpdated": "2021-07-07T09:42:12.1358317Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -8023,22 +5607,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4688,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "En attente",
-        "ShortDisplayName": "En attente",
-        "Name": "held",
-        "Description": "En attente",
-        "LastUpdated": "2021-07-07T09:42:12.1283833Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -8127,22 +5696,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5024,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Historique",
-        "ShortDisplayName": "Historique",
-        "Name": "history",
-        "Description": "Historique",
-        "LastUpdated": "2021-07-07T09:42:12.1309744Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -8263,22 +5817,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5041,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Identité",
-        "ShortDisplayName": "Identité",
-        "Name": "id",
-        "Description": "Identité",
-        "LastUpdated": "2021-07-07T09:42:12.1310966Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -8309,17 +5848,6 @@
     "ShortDisplayName": "Import",
     "Description": "import",
     "LastUpdated": "2022-03-18T10:41:54.1896621+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "infundable",
-    "Key": "Default",
-    "DisplayName": "Is Fundable",
-    "ShortDisplayName": "Is Fundable",
-    "Description": "Is Fundable",
-    "CreatedOn": "2022-04-29T15:18:59.025Z",
-    "LastUpdated": "2022-04-29T15:18:59.025Z",
-    "Culture": "",
     "IncludeInSubSequentImports": true
   },
   {
@@ -8392,22 +5920,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4662,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Nombre de factures",
-        "ShortDisplayName": "Nombre de factures",
-        "Name": "invcount",
-        "Description": "Nombre de factures",
-        "LastUpdated": "2021-07-07T09:42:12.1281923Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -8423,22 +5936,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5317,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Date de paiement de l'investisseur",
-        "ShortDisplayName": "Date de paiement de l'investisseur",
-        "Name": "investorpaymentdate",
-        "Description": "Date de paiement de l'investisseur",
-        "LastUpdated": "2021-07-07T09:42:12.13324Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -8454,405 +5952,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5311,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Date de règlement de l'investisseur",
-        "ShortDisplayName": "Date de règlement de l'investisseur",
-        "Name": "investorsettlementdate",
-        "Description": "Date de règlement de l'investisseur",
-        "LastUpdated": "2021-07-07T09:42:12.1331955Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "invoice",
-    "Key": "Default",
-    "DisplayName": "Invoice",
-    "ShortDisplayName": "Invoice",
-    "Description": "Invoice",
-    "CreatedOn": "2022-04-27T15:02:09.277Z",
-    "LastUpdated": "2022-04-27T15:02:09.277Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 5333,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Invoice Count",
-    "ShortDisplayName": "Inv qty",
-    "Name": "invoicecount",
-    "Description": "The number of invoices",
-    "LastUpdated": "2021-07-07T09:42:12.1333642Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 7315,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Nombre de factures",
-        "ShortDisplayName": "Nbr fact",
-        "Name": "invoicecount",
-        "Description": "Le nombre de factures",
-        "LastUpdated": "2021-07-07T09:42:12.1349412Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4715,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Known Issues",
-    "ShortDisplayName": "Known Issues",
-    "Name": "invoiceissues",
-    "Description": "invoiceissues",
-    "LastUpdated": "2021-07-07T09:42:12.1285864Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5099,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Anomalies facture",
-        "ShortDisplayName": "Anomalies facture",
-        "Name": "invoiceissues",
-        "Description": "Anomalies facture",
-        "LastUpdated": "2021-07-07T09:42:12.1315551Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4855,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Invoice Number",
-    "ShortDisplayName": "invoicenumber",
-    "Name": "invoicenumber",
-    "Description": "invoicenumber",
-    "LastUpdated": "2021-07-07T09:42:12.129661Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4661,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Référence document",
-        "ShortDisplayName": "Référence document",
-        "Name": "invoicenumber",
-        "Description": "Référence document",
-        "LastUpdated": "2021-07-07T09:42:12.1281847Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4723,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Invoices",
-    "ShortDisplayName": "invoices",
-    "Name": "invoices",
-    "Description": "invoices",
-    "LastUpdated": "2021-07-07T09:42:12.1286332Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4982,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Factures",
-        "ShortDisplayName": "Factures",
-        "Name": "invoices",
-        "Description": "Factures",
-        "LastUpdated": "2021-07-07T09:42:12.1306609Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4707,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Invoices by Due Date",
-    "ShortDisplayName": "invoicesbyduedate",
-    "Name": "invoicesbyduedate",
-    "Description": "invoicesbyduedate",
-    "LastUpdated": "2021-07-07T09:42:12.1285247Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4909,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Factures par date d'échéance",
-        "ShortDisplayName": "Factures par date d'échéance",
-        "Name": "invoicesbyduedate",
-        "Description": "Factures par date d'échéance",
-        "LastUpdated": "2021-07-07T09:42:12.1300796Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4768,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Invoices by State",
-    "ShortDisplayName": "invoicesbystate",
-    "Name": "invoicesbystate",
-    "Description": "invoicesbystate",
-    "LastUpdated": "2021-07-07T09:42:12.1289834Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4660,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Factures selon leurs statuts",
-        "ShortDisplayName": "Factures selon leurs statuts",
-        "Name": "invoicesbystate",
-        "Description": "Factures selon leurs statuts",
-        "LastUpdated": "2021-07-07T09:42:12.1281771Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 30574,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Invoices by State",
-    "ShortDisplayName": "invoicesbystate",
-    "Name": "invoicesbystate",
-    "Description": "invoicesbystate",
-    "LastUpdated": "2021-07-07T09:42:12.1379982Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "2021-07-06T17:35:47.3464109Z",
-    "CreatedBy": "callum.marshall",
-    "Translations": [
-      {
-        "Id": 30550,
-        "AppId": 4,
-        "Key": "Home",
-        "Culture": "fr-FR",
-        "DisplayName": "Factures par Etat",
-        "ShortDisplayName": "Factures par Etat",
-        "Name": "invoicesbystate",
-        "Description": "Factures par Etat",
-        "LastUpdated": "2021-07-07T09:42:12.1378141Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "2021-07-06T17:35:47.3448548Z",
-        "CreatedBy": "callum.marshall"
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4800,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Invoices Imported",
-    "ShortDisplayName": "invoicesimportedovertime",
-    "Name": "invoicesimportedovertime",
-    "Description": "invoicesimportedovertime",
-    "LastUpdated": "2021-07-07T09:42:12.1292339Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4913,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Factures importées",
-        "ShortDisplayName": "Factures importées",
-        "Name": "invoicesimportedovertime",
-        "Description": "Factures importées",
-        "LastUpdated": "2021-07-07T09:42:12.1301118Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4792,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "InvoiceType",
-    "ShortDisplayName": "invoicetype",
-    "Name": "invoicetype",
-    "Description": "invoicetype",
-    "LastUpdated": "2021-07-07T09:42:12.1291694Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4648,
-        "AppId": 4,
-        "Key": "Home",
-        "Culture": "fr-FR",
-        "DisplayName": "Type de document",
-        "ShortDisplayName": "Type de document",
-        "Name": "invoicetype",
-        "Description": "Type de document",
-        "LastUpdated": "2021-07-07T09:42:12.1280837Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4738,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Type",
-    "ShortDisplayName": "Type",
-    "Name": "invoicetypeid",
-    "Description": "invoicetypeid",
-    "LastUpdated": "2021-07-07T09:42:12.1287492Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4983,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Type de document",
-        "ShortDisplayName": "Type de document",
-        "Name": "invoicetypeid",
-        "Description": "Type de document",
-        "LastUpdated": "2021-07-07T09:42:12.1306701Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 15869,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Invoice Value, by Month",
-    "ShortDisplayName": "Invoice Value",
-    "Name": "invoicevaluebymonth",
-    "Description": "Invoice Value, by Month",
-    "LastUpdated": "2021-07-07T09:42:12.1358406Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 15870,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Valeur des factures, par mois",
-        "ShortDisplayName": "Valeur des factures, par mois",
-        "Name": "invoicevaluebymonth",
-        "Description": "Valeur des factures, par mois",
-        "LastUpdated": "2021-07-07T09:42:12.135848Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4886,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Invoice value total",
-    "ShortDisplayName": "invoicevaluetotal",
-    "Name": "invoicevaluetotal",
-    "Description": "invoicevaluetotal",
-    "LastUpdated": "2021-07-07T09:42:12.1299023Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4634,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Montant de l'encours finançable",
-        "ShortDisplayName": "Montant de l'encours finançable",
-        "Name": "invoicevaluetotal",
-        "Description": "Montant de l'encours finançable",
-        "LastUpdated": "2021-07-07T09:42:12.1279757Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -9052,22 +6152,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5388,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Date d'émission",
-        "ShortDisplayName": "Date d'émission",
-        "Name": "issuedate",
-        "Description": "Date d'émission",
-        "LastUpdated": "2021-07-07T09:42:12.1337499Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -9113,22 +6198,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4633,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Référence document fournisseur",
-        "ShortDisplayName": "Référence document fournisseur",
-        "Name": "itemref",
-        "Description": "Référence document fournisseur",
-        "LastUpdated": "2021-07-07T09:42:12.1279682Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -9144,22 +6214,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4632,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Montant réglé (net des avoirs)",
-        "ShortDisplayName": "Montant réglé (net des avoirs)",
-        "Name": "itemvalue",
-        "Description": "Montant réglé (net des avoirs)",
-        "LastUpdated": "2021-07-07T09:42:12.1279607Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -9229,22 +6284,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5100,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Clé",
-        "ShortDisplayName": "Clé",
-        "Name": "key",
-        "Description": "Clé",
-        "LastUpdated": "2021-07-07T09:42:12.1315626Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -9290,22 +6330,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4984,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Dernière mise à jour",
-        "ShortDisplayName": "MàJ",
-        "Name": "lastupdated",
-        "Description": "Dernière mise à jour",
-        "LastUpdated": "2021-07-07T09:42:12.1306777Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -9530,22 +6555,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5101,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Référence ligne",
-        "ShortDisplayName": "Référence ligne",
-        "Name": "linenumber",
-        "Description": "Référence ligne",
-        "LastUpdated": "2021-07-07T09:42:12.13157Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -9561,22 +6571,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5102,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Prix",
-        "ShortDisplayName": "Prix",
-        "Name": "lineprice",
-        "Description": "Prix",
-        "LastUpdated": "2021-07-07T09:42:12.1315774Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -9685,22 +6680,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5253,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Se déconnecter",
-        "ShortDisplayName": "Se déconnecter",
-        "Name": "logout",
-        "Description": "Se déconnecter",
-        "LastUpdated": "2021-07-07T09:42:12.1327512Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -9790,22 +6770,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5343,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "égal",
-        "ShortDisplayName": " = ",
-        "Name": "matches",
-        "Description": "égal",
-        "LastUpdated": "2021-07-07T09:42:12.1334501Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -10846,22 +7811,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5104,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Nom",
-        "ShortDisplayName": "Nom",
-        "Name": "name",
-        "Description": "Nom",
-        "LastUpdated": "2021-07-07T09:42:12.1315937Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -10971,22 +7921,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5105,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Nouveau",
-        "ShortDisplayName": "Nouveau",
-        "Name": "new",
-        "Description": "Nouveau",
-        "LastUpdated": "2021-07-07T09:42:12.1316012Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -11146,37 +8081,6 @@
     "IncludeInSubSequentImports": true
   },
   {
-    "Id": 4590,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "New Funding Request",
-    "ShortDisplayName": "New Funding Request",
-    "Name": "newfundingrequest",
-    "Description": "newfundingrequest",
-    "LastUpdated": "2021-07-07T09:42:12.1276321Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5184,
-        "AppId": 4,
-        "Key": "ROI",
-        "Culture": "fr-FR",
-        "DisplayName": "Nouvelle demande de règlement",
-        "ShortDisplayName": "Nouvelle demande de règlement",
-        "Name": "newfundingrequest",
-        "Description": "Nouvelle demande de règlement",
-        "LastUpdated": "2021-07-07T09:42:12.1322089Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Culture": "",
     "Key": "Default",
     "Name": "newpackage",
@@ -11184,22 +8088,6 @@
     "ShortDisplayName": "New Package",
     "Description": "newpackage",
     "LastUpdated": "2022-03-18T10:41:54.1896561+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 30481,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "newproposedcompany",
-    "ShortDisplayName": "newproposedcompany",
-    "Name": "newproposedcompany",
-    "Description": "newproposedcompany",
-    "LastUpdated": "2021-07-07T09:42:12.1372698Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "2021-07-06T17:35:47.3454561Z",
-    "CreatedBy": "callum.marshall",
-    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -11215,22 +8103,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5107,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Nouvelle référence",
-        "ShortDisplayName": "Nouvelle référence",
-        "Name": "newreference",
-        "Description": "Nouvelle référence",
-        "LastUpdated": "2021-07-07T09:42:12.131616Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -11371,22 +8244,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5108,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Nouveau système",
-        "ShortDisplayName": "Nouveau système",
-        "Name": "newsystem",
-        "Description": "Nouveau système",
-        "LastUpdated": "2021-07-07T09:42:12.1316233Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -11484,22 +8342,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5133,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Aucune donnée trouvée",
-        "ShortDisplayName": "Aucune donnée trouvée",
-        "Name": "nodatafound",
-        "Description": "Aucune donnée trouvée",
-        "LastUpdated": "2021-07-07T09:42:12.1318168Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -11531,99 +8374,6 @@
     "Description": "None",
     "CreatedOn": "2021-09-06T10:46:02.055Z",
     "LastUpdated": "2021-09-06T10:46:02.055Z",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4733,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Announcement",
-    "ShortDisplayName": "nonfinancesupplierannouncement",
-    "Name": "nonfinancesupplierannouncement",
-    "Description": "nonfinancesupplierannouncement",
-    "LastUpdated": "2021-07-07T09:42:12.1287098Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4917,
-        "AppId": 4,
-        "Key": "Home",
-        "Culture": "fr-FR",
-        "DisplayName": "Annonce",
-        "ShortDisplayName": "Annonce",
-        "Name": "nonfinancesupplierannouncement",
-        "Description": "Annonce",
-        "LastUpdated": "2021-07-07T09:42:12.130142Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4801,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "More Info",
-    "ShortDisplayName": "nonfinancesupplierannouncementmoreinfo",
-    "Name": "nonfinancesupplierannouncementmoreinfo",
-    "Description": "nonfinancesupplierannouncementmoreinfo",
-    "LastUpdated": "2021-07-07T09:42:12.1292416Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4936,
-        "AppId": 4,
-        "Key": "Home",
-        "Culture": "fr-FR",
-        "DisplayName": "Plus d'informations",
-        "ShortDisplayName": "Plus d'informations",
-        "Name": "nonfinancesupplierannouncementmoreinfo",
-        "Description": "Plus d'informations",
-        "LastUpdated": "2021-07-07T09:42:12.1302899Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4890,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "No Offers Found",
-    "ShortDisplayName": "nooffersfound",
-    "Name": "nooffersfound",
-    "Description": "nooffersfound",
-    "LastUpdated": "2021-07-07T09:42:12.1299324Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4629,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Aucune nouvelle offre trouvée",
-        "ShortDisplayName": "Aucune nouvelle offre trouvée",
-        "Name": "nooffersfound",
-        "Description": "Aucune nouvelle offre trouvée",
-        "LastUpdated": "2021-07-07T09:42:12.1279367Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
     "IncludeInSubSequentImports": true
   },
   {
@@ -11778,22 +8528,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "2021-07-06T17:35:47.3457851Z",
     "CreatedBy": "callum.marshall",
-    "Translations": [
-      {
-        "Id": 30539,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Référence",
-        "ShortDisplayName": "Référence",
-        "Name": "number",
-        "Description": "Référence",
-        "LastUpdated": "2021-07-07T09:42:12.1377292Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "2021-07-06T17:35:47.3449491Z",
-        "CreatedBy": "callum.marshall"
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -11805,278 +8540,6 @@
     "CreatedOn": "2022-02-24T10:50:54.948Z",
     "LastUpdated": "2022-02-24T10:50:54.948Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 30706,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Offered to Factor",
-    "ShortDisplayName": "offeredtofactor",
-    "Name": "offeredtofactor",
-    "Description": "offeredtofactor",
-    "LastUpdated": "2021-07-07T09:42:12.1390462Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "2021-07-06T17:35:47.345937Z",
-    "CreatedBy": "callum.marshall",
-    "Translations": [
-      {
-        "Id": 30551,
-        "AppId": 4,
-        "Key": "Home",
-        "Culture": "fr-FR",
-        "DisplayName": "Offert au facteur",
-        "ShortDisplayName": "Offert au facteur",
-        "Name": "offeredtofactor",
-        "Description": "Offert au facteur",
-        "LastUpdated": "2021-07-07T09:42:12.1378216Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "2021-07-06T17:35:47.3448466Z",
-        "CreatedBy": "callum.marshall"
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4775,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Offered to Factor",
-    "ShortDisplayName": "offeredtofactor",
-    "Name": "offeredtofactor",
-    "Description": "offeredtofactor",
-    "LastUpdated": "2021-07-07T09:42:12.1290374Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4628,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Proposé au financier",
-        "ShortDisplayName": "Proposé au financier",
-        "Name": "offeredtofactor",
-        "Description": "Proposé au financier",
-        "LastUpdated": "2021-07-07T09:42:12.1279292Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 7305,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Offered To Funder",
-    "ShortDisplayName": "Offered To Funder",
-    "Name": "offeredtofunder",
-    "Description": "Offered To Funder",
-    "LastUpdated": "2021-07-07T09:42:12.1348866Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 7307,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "en",
-        "DisplayName": "Offered To Funder",
-        "ShortDisplayName": "Offered To Funder",
-        "Name": "offeredtofunder",
-        "Description": "Offered To Funder",
-        "LastUpdated": "2021-07-07T09:42:12.1349027Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      },
-      {
-        "Id": 7353,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Proposé(e) au financier",
-        "ShortDisplayName": "Proposé(e) au financier",
-        "Name": "offeredtofunder",
-        "Description": "Proposé(e) au financier",
-        "LastUpdated": "2021-07-07T09:42:12.1352177Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4830,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Offer History",
-    "ShortDisplayName": "offerhistory",
-    "Name": "offerhistory",
-    "Description": "offerhistory",
-    "LastUpdated": "2021-07-07T09:42:12.1294655Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4911,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Historique de l'offre",
-        "ShortDisplayName": "Historique de l'offre",
-        "Name": "offerhistory",
-        "Description": "Historique de l'offre",
-        "LastUpdated": "2021-07-07T09:42:12.1300964Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "offermanagement",
-    "Key": "Default",
-    "DisplayName": "Early Payment Offers Management",
-    "ShortDisplayName": "Early Payment Offers Management",
-    "Description": "Early Payment Offers Management",
-    "CreatedOn": "2021-09-13T15:16:19.48Z",
-    "LastUpdated": "2021-09-13T15:16:19.48Z",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4888,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Offers available",
-    "ShortDisplayName": "offersavailable",
-    "Name": "offersavailable",
-    "Description": "offersavailable",
-    "LastUpdated": "2021-07-07T09:42:12.1299174Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4627,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Offre(s) disponible(s)",
-        "ShortDisplayName": "Offre(s) disponible(s)",
-        "Name": "offersavailable",
-        "Description": "Offre(s) disponible(s)",
-        "LastUpdated": "2021-07-07T09:42:12.1279217Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4889,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Offers for",
-    "ShortDisplayName": "offersfor",
-    "Name": "offersfor",
-    "Description": "offersfor",
-    "LastUpdated": "2021-07-07T09:42:12.1299249Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4626,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Offre(s) pour",
-        "ShortDisplayName": "Offre(s) pour",
-        "Name": "offersfor",
-        "Description": "Offre(s) pour",
-        "LastUpdated": "2021-07-07T09:42:12.1279142Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 5332,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Offer State",
-    "ShortDisplayName": "State",
-    "Name": "offerstate",
-    "Description": "The State of the Offer",
-    "LastUpdated": "2021-07-07T09:42:12.1333569Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5384,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Statut de l'offre",
-        "ShortDisplayName": "Statut de l'offre",
-        "Name": "offerstate",
-        "Description": "Statut de l'offre",
-        "LastUpdated": "2021-07-07T09:42:12.1337351Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4885,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Offer total",
-    "ShortDisplayName": "offertotall",
-    "Name": "offertotall",
-    "Description": "offertotall",
-    "LastUpdated": "2021-07-07T09:42:12.1298947Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4625,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Offre totale du règlement anticipé",
-        "ShortDisplayName": "Offre totale du règlement anticipé",
-        "Name": "offertotall",
-        "Description": "Offre totale du règlement anticipé",
-        "LastUpdated": "2021-07-07T09:42:12.1279066Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
     "IncludeInSubSequentImports": true
   },
   {
@@ -12092,36 +8555,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5342,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Information enregistrée",
-        "ShortDisplayName": "Enregistré",
-        "Name": "onboardinginformationsaved",
-        "Description": "L'information pour cette adhésion a été enregistrée.",
-        "LastUpdated": "2021-07-07T09:42:12.1334425Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      },
-      {
-        "Id": 7312,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "en",
-        "DisplayName": "Onboarding Information Saved",
-        "ShortDisplayName": "Saved",
-        "Name": "onboardinginformationsaved",
-        "Description": "The onboarding information has been successfully saved to the database.",
-        "LastUpdated": "2021-07-07T09:42:12.134925Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -12251,22 +8685,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4623,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "En retard",
-        "ShortDisplayName": "En retard",
-        "Name": "overdue",
-        "Description": "En retard",
-        "LastUpdated": "2021-07-07T09:42:12.1278898Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -12880,22 +9299,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5268,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Date règlement",
-        "ShortDisplayName": "Date règlement",
-        "Name": "paymentdate",
-        "Description": "Date règlement",
-        "LastUpdated": "2021-07-07T09:42:12.1328652Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -13004,22 +9408,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5267,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Référence règlement",
-        "ShortDisplayName": "Référence règlement",
-        "Name": "paymentreference",
-        "Description": "Référence règlement",
-        "LastUpdated": "2021-07-07T09:42:12.1328577Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -13035,22 +9424,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5030,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Règlements",
-        "ShortDisplayName": "Règlements",
-        "Name": "Payments",
-        "Description": "Règlements",
-        "LastUpdated": "2021-07-07T09:42:12.131019Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -13144,22 +9518,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4619,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Veuillez attendre",
-        "ShortDisplayName": "Veuillez attendre",
-        "Name": "pleasewait",
-        "Description": "Veuillez attendre",
-        "LastUpdated": "2021-07-07T09:42:12.1278597Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -13186,22 +9545,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5109,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Bons de commande",
-        "ShortDisplayName": "Bons de commande",
-        "Name": "pos",
-        "Description": "Bons de commande",
-        "LastUpdated": "2021-07-07T09:42:12.1316307Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -13248,22 +9592,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "2021-04-20T15:57:34.398Z",
     "CreatedBy": "Fabien Jacquot",
-    "Translations": [
-      {
-        "Id": 30402,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Code Postal",
-        "ShortDisplayName": "Code Postal",
-        "Name": "postcode",
-        "Description": "Code Postal",
-        "LastUpdated": "2021-07-07T09:42:12.1366766Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "2021-04-20T15:57:45.3763876Z",
-        "CreatedBy": "Fabien Jacquot"
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -13369,37 +9698,6 @@
     "IncludeInSubSequentImports": true
   },
   {
-    "Id": 4710,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Pro-forma Invoice",
-    "ShortDisplayName": "proformainv",
-    "Name": "proformainv",
-    "Description": "proformainv",
-    "LastUpdated": "2021-07-07T09:42:12.1285473Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4618,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Facture proforma",
-        "ShortDisplayName": "Facture proforma",
-        "Name": "proformainv",
-        "Description": "Facture proforma",
-        "LastUpdated": "2021-07-07T09:42:12.1278521Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Culture": "",
     "Key": "Default",
     "Name": "projectmanageremail",
@@ -13476,22 +9774,6 @@
     "IncludeInSubSequentImports": true
   },
   {
-    "Id": 30538,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Proposed Companies",
-    "ShortDisplayName": "Proposed Companies",
-    "Name": "proposedcompanies",
-    "Description": "Proposed Companies",
-    "LastUpdated": "2021-07-07T09:42:12.1377219Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "2021-07-06T17:35:47.3449592Z",
-    "CreatedBy": "callum.marshall",
-    "Translations": [],
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Id": 7266,
     "AppId": 4,
     "Key": "Default",
@@ -13504,53 +9786,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 7278,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Date proposée de paiement anticipé",
-        "ShortDisplayName": "Date proposée de paiement anticipé",
-        "Name": "ProposedDiscountPaymentDate",
-        "Description": "Date proposée de paiement anticipé",
-        "LastUpdated": "2021-07-07T09:42:12.1347027Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4891,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Proposed Offers",
-    "ShortDisplayName": "proposedoffers",
-    "Name": "proposedoffers",
-    "Description": "proposedoffers",
-    "LastUpdated": "2021-07-07T09:42:12.1299399Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4617,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Factures disponibles pour règlement anticipé",
-        "ShortDisplayName": "Factures disponibles pour règlement anticipé",
-        "Name": "proposedoffers",
-        "Description": "Factures disponibles pour règlement anticipé",
-        "LastUpdated": "2021-07-07T09:42:12.1278431Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -13566,22 +9802,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5319,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Bon de commande",
-        "ShortDisplayName": "Bon de commande",
-        "Name": "purchaseorders",
-        "Description": "Bon de commande",
-        "LastUpdated": "2021-07-07T09:42:12.1332563Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -13597,22 +9818,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5110,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Quantité",
-        "ShortDisplayName": "Quantité",
-        "Name": "quantity",
-        "Description": "Quantité",
-        "LastUpdated": "2021-07-07T09:42:12.1316395Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -13661,22 +9867,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5313,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Taux",
-        "ShortDisplayName": "Taux",
-        "Name": "rate",
-        "Description": "Taux",
-        "LastUpdated": "2021-07-07T09:42:12.1332104Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -13870,79 +10061,6 @@
     "IncludeInSubSequentImports": true
   },
   {
-    "Id": 4873,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Related Transactions",
-    "ShortDisplayName": "Related Transactions",
-    "Name": "relatedtransactions",
-    "Description": "relatedtransactions",
-    "LastUpdated": "2021-07-07T09:42:12.1298012Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5111,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Transactions connexes",
-        "ShortDisplayName": "Transactions connexes",
-        "Name": "relatedtransactions",
-        "Description": "Transactions connexes",
-        "LastUpdated": "2021-07-07T09:42:12.1316469Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "remittanceadvice",
-    "Key": "Default",
-    "DisplayName": "Remittance Advice",
-    "ShortDisplayName": "Remittance Advice",
-    "Description": "Remittance Advice",
-    "CreatedOn": "2022-04-27T15:03:08.298Z",
-    "LastUpdated": "2022-04-27T15:03:08.298Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4750,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Type",
-    "ShortDisplayName": "Type",
-    "Name": "remittanceadvicetypeid",
-    "Description": "remittanceadvicetypeid",
-    "LastUpdated": "2021-07-07T09:42:12.1288432Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5112,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Type d'avis de paiement",
-        "ShortDisplayName": "Type d'avis de paiement",
-        "Name": "remittanceadvicetypeid",
-        "Description": "Type d'avis de paiement",
-        "LastUpdated": "2021-07-07T09:42:12.1316544Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Culture": "",
     "Key": "Default",
     "Name": "remove",
@@ -14011,22 +10129,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4636,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Remplacement",
-        "ShortDisplayName": "Remplacement",
-        "Name": "replacement",
-        "Description": "Remplacement",
-        "LastUpdated": "2021-07-07T09:42:12.1279906Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -14062,22 +10165,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5347,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Requis par",
-        "ShortDisplayName": "Requis par",
-        "Name": "requestedby",
-        "Description": "The nom de l'utilisateur à l'origine de la demande",
-        "LastUpdated": "2021-07-07T09:42:12.1334817Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -14093,22 +10181,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5346,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Requested by Email",
-        "ShortDisplayName": "Requester Email",
-        "Name": "requestedbyemail",
-        "Description": "The email address of the requesting user.",
-        "LastUpdated": "2021-07-07T09:42:12.1334742Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -14268,39 +10341,6 @@
     "IncludeInSubSequentImports": true
   },
   {
-    "Name": "retrievingcredits",
-    "Key": "Default",
-    "DisplayName": "Retrieving Credits",
-    "ShortDisplayName": "Retrieving Credits",
-    "Description": "Retrieving Credits",
-    "CreatedOn": "2022-03-15T11:33:55.725Z",
-    "LastUpdated": "2022-03-15T11:33:55.725Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "retrievinginvoices",
-    "Key": "Default",
-    "DisplayName": "Retrieving Invoices",
-    "ShortDisplayName": "Retrieving Invoices",
-    "Description": "Retrieving Invoices",
-    "CreatedOn": "2022-03-15T11:34:48.235Z",
-    "LastUpdated": "2022-03-15T11:34:48.235Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "retrievingoffers",
-    "Key": "Default",
-    "DisplayName": "Retrieving Offers",
-    "ShortDisplayName": "Retrieving Offers",
-    "Description": "Retrieving Offers",
-    "CreatedOn": "2022-03-15T11:33:11.855Z",
-    "LastUpdated": "2022-03-15T11:33:11.855Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Name": "retrievingpayments",
     "Key": "Default",
     "DisplayName": "Retrieving Payments",
@@ -14422,68 +10462,6 @@
     "IncludeInSubSequentImports": true
   },
   {
-    "Id": 5092,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Sales Invoice",
-    "ShortDisplayName": "Sales Invoice",
-    "Name": "salesinvoice",
-    "Description": "Sales Invoice",
-    "LastUpdated": "2021-07-07T09:42:12.1315017Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5219,
-        "AppId": 4,
-        "Key": "Home",
-        "Culture": "fr-FR",
-        "DisplayName": "Facture de vente",
-        "ShortDisplayName": "Facture de vente",
-        "Name": "salesinvoice",
-        "Description": "Sales Invoice",
-        "LastUpdated": "2021-07-07T09:42:12.1324881Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4732,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Invoice",
-    "ShortDisplayName": "Invoice",
-    "Name": "salesinvoice",
-    "Description": "Sales Invoice",
-    "LastUpdated": "2021-07-07T09:42:12.1287022Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4637,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Facture",
-        "ShortDisplayName": "Facture",
-        "Name": "salesinvoice",
-        "Description": "Facture de vente",
-        "LastUpdated": "2021-07-07T09:42:12.1279979Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Culture": "",
     "Key": "Default",
     "Name": "salesphone",
@@ -14491,37 +10469,6 @@
     "ShortDisplayName": "Sales Phone",
     "Description": "Sales Phone",
     "LastUpdated": "2022-03-18T10:41:54.1911023+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4821,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Sales Invoice",
-    "ShortDisplayName": "salestransaction",
-    "Name": "salestransaction",
-    "Description": "salestransaction",
-    "LastUpdated": "2021-07-07T09:42:12.1294035Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5113,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Facture de vente",
-        "ShortDisplayName": "Facture de vente",
-        "Name": "salestransaction",
-        "Description": "Facture de vente",
-        "LastUpdated": "2021-07-07T09:42:12.1316618Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
     "IncludeInSubSequentImports": true
   },
   {
@@ -14635,22 +10582,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5114,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Sauvegarder",
-        "ShortDisplayName": "Sauvegarder",
-        "Name": "save",
-        "Description": "Sauvegarder",
-        "LastUpdated": "2021-07-07T09:42:12.1316693Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -14868,79 +10800,6 @@
     "IncludeInSubSequentImports": true
   },
   {
-    "Id": 4880,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Selected Offers",
-    "ShortDisplayName": "selectedoffers",
-    "Name": "selectedoffers",
-    "Description": "selectedoffers",
-    "LastUpdated": "2021-07-07T09:42:12.1298554Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4658,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Offres sélectionnées",
-        "ShortDisplayName": "Offres sélectionnées",
-        "Name": "selectedoffers",
-        "Description": "Offres sélectionnées",
-        "LastUpdated": "2021-07-07T09:42:12.1281621Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4887,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Selected offer total",
-    "ShortDisplayName": "selectedoffertotal",
-    "Name": "selectedoffertotal",
-    "Description": "selectedoffertotal",
-    "LastUpdated": "2021-07-07T09:42:12.1299099Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4657,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Total de l'offre sélectionnée",
-        "ShortDisplayName": "Total de l'offre sélectionnée",
-        "Name": "selectedoffertotal",
-        "Description": "Total de l'offre sélectionnée",
-        "LastUpdated": "2021-07-07T09:42:12.1281546Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "selectfundingtype",
-    "Key": "Default",
-    "DisplayName": "Select Funding Type",
-    "ShortDisplayName": "Select Funding Type",
-    "Description": "Select Funding Type",
-    "CreatedOn": "2022-03-10T14:07:22.504Z",
-    "LastUpdated": "2022-03-10T14:07:22.504Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Key": "Default",
     "Name": "selecttarget",
     "DisplayName": "Select Target",
@@ -14997,99 +10856,6 @@
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
     "Translations": [],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4713,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Self-Billing Credit",
-    "ShortDisplayName": "selfbillingcredit",
-    "Name": "selfbillingcredit",
-    "Description": "selfbillingcredit",
-    "LastUpdated": "2021-07-07T09:42:12.1285713Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4656,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Avoir - auto-facturation",
-        "ShortDisplayName": "Avoir - auto-facturation",
-        "Name": "selfbillingcredit",
-        "Description": "Avoir - auto-facturation",
-        "LastUpdated": "2021-07-07T09:42:12.1281457Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4729,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Self-billing Invoice",
-    "ShortDisplayName": "selfbillinginvoice",
-    "Name": "selfbillinginvoice",
-    "Description": "selfbillinginvoice",
-    "LastUpdated": "2021-07-07T09:42:12.1286797Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4655,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Facture - auto-facturation",
-        "ShortDisplayName": "Facture - auto-facturation",
-        "Name": "selfbillinginvoice",
-        "Description": "Facture - auto-facturation",
-        "LastUpdated": "2021-07-07T09:42:12.128138Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4819,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Self-Billing Invoice",
-    "ShortDisplayName": "Self-Billing Invoice",
-    "Name": "selfbillingtransaction",
-    "Description": "selfbillingtransaction",
-    "LastUpdated": "2021-07-07T09:42:12.1293882Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5115,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Facture - auto-facturation",
-        "ShortDisplayName": "Facture - auto-facturation",
-        "Name": "selfbillingtransaction",
-        "Description": "Facture - auto-facturation",
-        "LastUpdated": "2021-07-07T09:42:12.1316768Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
     "IncludeInSubSequentImports": true
   },
   {
@@ -15527,22 +11293,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5116,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Etat",
-        "ShortDisplayName": "Etat",
-        "Name": "state",
-        "Description": "Etat",
-        "LastUpdated": "2021-07-07T09:42:12.1316857Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -15920,22 +11671,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4652,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Résumé",
-        "ShortDisplayName": "Résumé",
-        "Name": "summary",
-        "Description": "Résumé",
-        "LastUpdated": "2021-07-07T09:42:12.1281153Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -15992,163 +11728,6 @@
     "IncludeInSubSequentImports": true
   },
   {
-    "Id": 4742,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Supplier name",
-    "ShortDisplayName": "Supplier name",
-    "Name": "Supplier name",
-    "Description": "Supplier name",
-    "LastUpdated": "2021-07-07T09:42:12.1287813Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4971,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Nom du fournisseur",
-        "ShortDisplayName": "Nom Fournisseur",
-        "Name": "Supplier name",
-        "Description": "Nom du fournisseur",
-        "LastUpdated": "2021-07-07T09:42:12.1305762Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4755,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Click here for news",
-    "ShortDisplayName": "suppliermarqueemessage",
-    "Name": "suppliermarqueemessage",
-    "Description": "suppliermarqueemessage",
-    "LastUpdated": "2021-07-07T09:42:12.1288826Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4600,
-        "AppId": 4,
-        "Key": "Home",
-        "Culture": "fr-FR",
-        "DisplayName": "Cliquez ici pour accéder aux dernières informations",
-        "ShortDisplayName": "Cliquez ici pour accéder aux dernières informations",
-        "Name": "suppliermarqueemessage",
-        "Description": "Cliquez ici pour accéder aux dernières informations",
-        "LastUpdated": "2021-07-07T09:42:12.1277117Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4858,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Supplier Payment Date",
-    "ShortDisplayName": "supplierpaymentdate",
-    "Name": "supplierpaymentdate",
-    "Description": "supplierpaymentdate",
-    "LastUpdated": "2021-07-07T09:42:12.1296837Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4650,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Date du règlement fournisseur",
-        "ShortDisplayName": "Date du règlement fournisseur",
-        "Name": "supplierpaymentdate",
-        "Description": "Date du règlement fournisseur",
-        "LastUpdated": "2021-07-07T09:42:12.1280987Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "suppliers",
-    "Key": "Default",
-    "DisplayName": "Suppliers",
-    "ShortDisplayName": "Suppliers",
-    "Description": "Suppliers",
-    "CreatedOn": "2022-10-19T09:47:49.17Z",
-    "LastUpdated": "2022-10-19T09:47:49.17Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "suppliers",
-    "Key": "Default",
-    "DisplayName": "Suppliers",
-    "ShortDisplayName": "Suppliers",
-    "Description": "Suppliers",
-    "CreatedOn": "2023-01-04T12:51:59.118Z",
-    "LastUpdated": "2023-01-04T12:51:59.118Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4709,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Suppliers Onboarded",
-    "ShortDisplayName": "supplierscount",
-    "Name": "supplierscount",
-    "Description": "supplierscount",
-    "LastUpdated": "2021-07-07T09:42:12.1285397Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4919,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Nombre de fournisseurs",
-        "ShortDisplayName": "Nombre de fournisseurs",
-        "Name": "supplierscount",
-        "Description": "Nombre de fournisseurs",
-        "LastUpdated": "2021-07-07T09:42:12.1301586Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "supplierstate",
-    "Key": "Default",
-    "DisplayName": "Creditor State",
-    "ShortDisplayName": "Creditor State",
-    "Description": "Creditor State",
-    "CreatedOn": "2022-04-27T15:04:00.099Z",
-    "LastUpdated": "2022-04-27T15:04:00.099Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Id": 30431,
     "AppId": 4,
     "Key": "Default",
@@ -16161,22 +11740,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "2021-05-04T13:05:51.722Z",
     "CreatedBy": "Fabien Jacquot",
-    "Translations": [
-      {
-        "Id": 30432,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Systématique",
-        "ShortDisplayName": "Systématique",
-        "Name": "Systematic",
-        "Description": "Systématique",
-        "LastUpdated": "2021-07-07T09:42:12.1368936Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "2021-05-04T13:06:04.4954452Z",
-        "CreatedBy": "Fabien Jacquot"
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -16223,22 +11787,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5118,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Système créé",
-        "ShortDisplayName": "Système créé",
-        "Name": "systemcreated",
-        "Description": "Système créé",
-        "LastUpdated": "2021-07-07T09:42:12.1317008Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -16254,22 +11803,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5145,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Système supprimé",
-        "ShortDisplayName": "Système supprimé",
-        "Name": "systemdeleted",
-        "Description": "Système supprimé",
-        "LastUpdated": "2021-07-07T09:42:12.1319087Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -16285,22 +11819,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5120,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Système enregistré",
-        "ShortDisplayName": "Système enregistré",
-        "Name": "systemsaved",
-        "Description": "Système enregistré",
-        "LastUpdated": "2021-07-07T09:42:12.131716Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -16326,22 +11845,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5121,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Montant de la taxe",
-        "ShortDisplayName": "Montant de la taxe",
-        "Name": "taxamount",
-        "Description": "Montant de la taxe",
-        "LastUpdated": "2021-07-07T09:42:12.1317236Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -16357,53 +11861,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "2021-07-06T17:35:47.346932Z",
     "CreatedBy": "callum.marshall",
-    "Translations": [
-      {
-        "Id": 30886,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Montant TVA",
-        "ShortDisplayName": "Montant TVA",
-        "Name": "taxfee",
-        "Description": "Montant TVA",
-        "LastUpdated": "2021-07-08T15:31:54.1071656Z",
-        "LastUpdatedBy": "Fabien Jacquot",
-        "CreatedOn": "2021-07-08T15:31:37.8928272Z",
-        "CreatedBy": "Fabien Jacquot"
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 5382,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Transaction Date",
-    "ShortDisplayName": "Doc Date",
-    "Name": "taxpoint",
-    "Description": "Ledger Date for the transaction",
-    "LastUpdated": "2021-07-07T09:42:12.13372Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5383,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Date",
-        "ShortDisplayName": "Date",
-        "Name": "taxpoint",
-        "Description": "Date de Facture",
-        "LastUpdated": "2021-07-07T09:42:12.1337277Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -16554,22 +12012,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 15857,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Test456",
-        "ShortDisplayName": "french456",
-        "Name": "Test123",
-        "Description": "Test",
-        "LastUpdated": "2021-07-07T09:42:12.1357478Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -16654,22 +12097,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5122,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Calendrier",
-        "ShortDisplayName": "Calendrier",
-        "Name": "timescale",
-        "Description": "Calendrier",
-        "LastUpdated": "2021-07-07T09:42:12.1317311Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -16685,22 +12113,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5123,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "à",
-        "ShortDisplayName": "à",
-        "Name": "to",
-        "Description": "à",
-        "LastUpdated": "2021-07-07T09:42:12.1317403Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -16820,22 +12233,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5124,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Total",
-        "ShortDisplayName": "Total",
-        "Name": "total",
-        "Description": "Total",
-        "LastUpdated": "2021-07-07T09:42:12.1317479Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -16893,22 +12291,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4918,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Montant total des escomptes",
-        "ShortDisplayName": "Montant total des escomptes",
-        "Name": "totaldiscountsovertime",
-        "Description": "Montant total des escomptes",
-        "LastUpdated": "2021-07-07T09:42:12.130151Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -16924,22 +12307,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4647,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Total coûts règlement anticipé",
-        "ShortDisplayName": "Total coûts règlement anticipé",
-        "Name": "totalearlypaymentcost",
-        "Description": "Total coûts règlement anticipé",
-        "LastUpdated": "2021-07-07T09:42:12.1280762Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -16955,53 +12323,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4646,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Valeur totale du règlement anticipé",
-        "ShortDisplayName": "Valeur totale du règlement anticipé",
-        "Name": "totalearlypaymentvalue",
-        "Description": "Valeur totale du règlement anticipé",
-        "LastUpdated": "2021-07-07T09:42:12.1280687Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4850,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Total Fundable Value",
-    "ShortDisplayName": "totalfundablevalue",
-    "Name": "totalfundablevalue",
-    "Description": "totalfundablevalue",
-    "LastUpdated": "2021-07-07T09:42:12.1296215Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4645,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Montant éligible (net des avoirs)",
-        "ShortDisplayName": "Montant éligible (net des avoirs)",
-        "Name": "totalfundablevalue",
-        "Description": "Montant éligible (net des avoirs)",
-        "LastUpdated": "2021-07-07T09:42:12.1280613Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -17017,282 +12339,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4644,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Montant du règlement",
-        "ShortDisplayName": "Montant du règlement",
-        "Name": "totalsalevalue",
-        "Description": "Montant du règlement",
-        "LastUpdated": "2021-07-07T09:42:12.1280537Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4586,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Total Value of Discounted Invoices",
-    "ShortDisplayName": "totalvalueofdiscountedinvoices",
-    "Name": "totalvalueofdiscountedinvoices",
-    "Description": "totalvalueofdiscountedinvoices",
-    "LastUpdated": "2021-07-07T09:42:12.1276018Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4912,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Somme totale des factures escomptées",
-        "ShortDisplayName": "Somme totale des factures escomptées",
-        "Name": "totalvalueofdiscountedinvoices",
-        "Description": "Somme totale des factures escomptées",
-        "LastUpdated": "2021-07-07T09:42:12.1301041Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 30530,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Transaction Created",
-    "ShortDisplayName": "Transaction Created.",
-    "Name": "Transaction Created.",
-    "Description": "Transaction Created.",
-    "LastUpdated": "2021-07-07T09:42:12.1376615Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "2021-07-06T17:35:47.3444755Z",
-    "CreatedBy": "callum.marshall",
-    "Translations": [
-      {
-        "Id": 30529,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Création de la transaction",
-        "ShortDisplayName": "Création de la transaction",
-        "Name": "Transaction Created.",
-        "Description": "Création de la transaction",
-        "LastUpdated": "2021-07-07T09:42:12.1376541Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "2021-07-06T17:35:47.3444836Z",
-        "CreatedBy": "callum.marshall"
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "transactiondetails",
-    "Key": "Default",
-    "DisplayName": "Transaction Details",
-    "ShortDisplayName": "Transaction Details",
-    "Description": "Transaction Details",
-    "CreatedOn": "2022-02-24T10:31:44.966Z",
-    "LastUpdated": "2022-02-24T10:31:44.966Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4875,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Transaction Lines",
-    "ShortDisplayName": "Transaction Lines",
-    "Name": "transactionlines",
-    "Description": "transactionlines",
-    "LastUpdated": "2021-07-07T09:42:12.1298163Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5126,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Lignes de transaction",
-        "ShortDisplayName": "Lignes de transaction",
-        "Name": "transactionlines",
-        "Description": "transactionlines",
-        "LastUpdated": "2021-07-07T09:42:12.1317629Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 25634,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Transaction References",
-    "ShortDisplayName": "Transaction References",
-    "Name": "transactionreferences",
-    "Description": "transactionreferences",
-    "LastUpdated": "2021-07-07T09:42:12.1361933Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5127,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Références de la transaction",
-        "ShortDisplayName": "Références de la transaction",
-        "Name": "transactionreferences",
-        "Description": "Références de la transaction",
-        "LastUpdated": "2021-07-07T09:42:12.1317703Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "transactions",
-    "Key": "Default",
-    "DisplayName": "Transactions",
-    "ShortDisplayName": "Transactions",
-    "Description": "Transactions",
-    "CreatedOn": "2022-02-08T14:50:34.738Z",
-    "LastUpdated": "2022-02-08T14:50:34.738Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "transactions",
-    "Key": "Default",
-    "DisplayName": "Transactions",
-    "ShortDisplayName": "Transactions",
-    "Description": "Transactions",
-    "CreatedOn": "2022-02-24T17:04:11.865Z",
-    "LastUpdated": "2022-02-24T17:04:11.865Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "Default",
-    "Name": "transactionsourcesystem",
-    "DisplayName": "Transaction Source System",
-    "ShortDisplayName": "Transaction Source System",
-    "Description": "Transaction Source System",
-    "LastUpdated": "2022-03-18T10:41:54.189928+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4818,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Transaction States",
-    "ShortDisplayName": "Transaction States",
-    "Name": "transactionstates",
-    "Description": "transactionstates",
-    "LastUpdated": "2021-07-07T09:42:12.1293788Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5128,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Statut de la transaction",
-        "ShortDisplayName": "Statut de la transaction",
-        "Name": "transactionstates",
-        "Description": "Statut de la transaction",
-        "LastUpdated": "2021-07-07T09:42:12.1317778Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 5248,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Transaction Type",
-    "ShortDisplayName": "Transaction Type",
-    "Name": "transactiontype",
-    "Description": "Type of Transaction",
-    "LastUpdated": "2021-07-07T09:42:12.1327121Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5256,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Type de transaction",
-        "ShortDisplayName": "Type de transaction",
-        "Name": "transactiontype",
-        "Description": "Type de transaction",
-        "LastUpdated": "2021-07-07T09:42:12.1327733Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 15863,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Total Value, by Invoice Date",
-    "ShortDisplayName": "Total Value",
-    "Name": "transactionvaluebymonth",
-    "Description": "Total Invoice Value, by Invoice Date",
-    "LastUpdated": "2021-07-07T09:42:12.1357941Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 15864,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Valeur totale mensuelle des factures par date de facturation",
-        "ShortDisplayName": "Valeur totale mensuelle des factures par date de facturation",
-        "Name": "transactionvaluebymonth",
-        "Description": "Valeur totale mensuelle des factures par date de facturation",
-        "LastUpdated": "2021-07-07T09:42:12.1358018Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -17309,37 +12356,6 @@
     "CreatedOn": "2021-07-06T17:35:47.3467095Z",
     "CreatedBy": "callum.marshall",
     "Translations": [],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 15861,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "Number of Transactions, by Invoice Date",
-    "ShortDisplayName": "Number of Transactions, by Invoice Date",
-    "Name": "trasanctioncountbymonth",
-    "Description": "Number of Transactions, by Invoice Date",
-    "LastUpdated": "2021-07-07T09:42:12.1357778Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 15862,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Nombre de transactions, par date de facturation",
-        "ShortDisplayName": "Nombre de transactions, par date de facturation",
-        "Name": "trasanctioncountbymonth",
-        "Description": "Nombre de transactions, par date de facturation",
-        "LastUpdated": "2021-07-07T09:42:12.1357851Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
     "IncludeInSubSequentImports": true
   },
   {
@@ -17382,22 +12398,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 25620,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Type de règlement",
-        "ShortDisplayName": "Type de règlement",
-        "Name": "type",
-        "Description": "Type de règlement",
-        "LastUpdated": "2021-07-07T09:42:12.1360972Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -17469,22 +12470,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5129,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Prix ​​unitaire",
-        "ShortDisplayName": "Prix ​​unitaire",
-        "Name": "unitprice",
-        "Description": "Prix ​​unitaire",
-        "LastUpdated": "2021-07-07T09:42:12.1317868Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -17583,16 +12569,6 @@
   {
     "Culture": "",
     "Key": "Default",
-    "Name": "uploadcompanylogo",
-    "DisplayName": "Upload Company Logo",
-    "ShortDisplayName": "Upload Company Logo",
-    "Description": "This will appear on the top left of the portal",
-    "LastUpdated": "2022-08-17T11:24:07.4045406+01:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "Default",
     "Name": "uploadprojectlogo",
     "DisplayName": "Upload Project Logo",
     "ShortDisplayName": "Upload Project Logo",
@@ -17674,22 +12650,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5130,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Utilisateur",
-        "ShortDisplayName": "Utilisateur",
-        "Name": "user",
-        "Description": "Utilisateur",
-        "LastUpdated": "2021-07-07T09:42:12.1317944Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -17758,22 +12719,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 15873,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": " E-mail de l'utilisateur",
-        "ShortDisplayName": " E-mail de l'utilisateur",
-        "Name": "useremail",
-        "Description": " E-mail de l'utilisateur",
-        "LastUpdated": "2021-07-07T09:42:12.1358703Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -17800,22 +12746,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5224,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Utilisateur",
-        "ShortDisplayName": "Utilisateur",
-        "Name": "userid",
-        "Description": "Utilisateur",
-        "LastUpdated": "2021-07-07T09:42:12.1325269Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -17883,22 +12814,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 30400,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Nom d'utilisateur",
-        "ShortDisplayName": "Nom d'utilisateur",
-        "Name": "username",
-        "Description": "Nom d'utilisateur",
-        "LastUpdated": "2021-07-07T09:42:12.1366619Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -17936,22 +12852,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 7387,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "User Onboarding",
-        "ShortDisplayName": "User Onboarding",
-        "Name": "UserOnboarding",
-        "Description": "User Onboarding",
-        "LastUpdated": "2021-07-07T09:42:12.1355654Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -17967,22 +12868,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5350,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Utilisateur refusé",
-        "ShortDisplayName": "Utilisateur refusé",
-        "Name": "userrejected",
-        "Description": "Utilisateur refusé",
-        "LastUpdated": "2021-07-07T09:42:12.133504Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -18098,22 +12984,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4970,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Montant",
-        "ShortDisplayName": "Montant",
-        "Name": "value",
-        "Description": "Montant",
-        "LastUpdated": "2021-07-08T15:07:43.6887212Z",
-        "LastUpdatedBy": "Fabien Jacquot",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -18129,22 +13000,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5131,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Montant hors taxes",
-        "ShortDisplayName": "Montant hors taxes",
-        "Name": "valuebeforetax",
-        "Description": "Montant hors taxes",
-        "LastUpdated": "2021-07-07T09:42:12.131802Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -18259,22 +13115,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4640,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Vue",
-        "ShortDisplayName": "Vue",
-        "Name": "view",
-        "Description": "Vue",
-        "LastUpdated": "2021-07-07T09:42:12.1280219Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -18306,99 +13147,6 @@
     "ShortDisplayName": "View History",
     "Description": "View History",
     "LastUpdated": "2023-07-28T14:01:47.4945707+01:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4771,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "View my invoices",
-    "ShortDisplayName": "viewmyinvoices",
-    "Name": "viewmyinvoices",
-    "Description": "viewmyinvoices",
-    "LastUpdated": "2021-07-07T09:42:12.129006Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4804,
-        "AppId": 4,
-        "Key": "Home",
-        "Culture": "fr-FR",
-        "DisplayName": "Afficher mes factures",
-        "ShortDisplayName": "Afficher mes factures",
-        "Name": "viewmyinvoices",
-        "Description": "Afficher mes factures",
-        "LastUpdated": "2021-07-07T09:42:12.1292647Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4718,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "View my invoices",
-    "ShortDisplayName": "viewmyinvoices",
-    "Name": "viewmyinvoices",
-    "Description": "viewmyinvoices",
-    "LastUpdated": "2021-07-07T09:42:12.1285938Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4639,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Afficher mes factures",
-        "ShortDisplayName": "Afficher mes factures",
-        "Name": "viewmyinvoices",
-        "Description": "Afficher mes factures",
-        "LastUpdated": "2021-07-07T09:42:12.1280144Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4798,
-    "AppId": 4,
-    "Key": "Default",
-    "Culture": "",
-    "DisplayName": "View these invoices",
-    "ShortDisplayName": "viewtheseinvoices",
-    "Name": "viewtheseinvoices",
-    "Description": "viewtheseinvoices",
-    "LastUpdated": "2021-07-07T09:42:12.1292167Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 4893,
-        "AppId": 4,
-        "Key": "Home",
-        "Culture": "fr-FR",
-        "DisplayName": "Voir ces factures",
-        "ShortDisplayName": "Voir ces factures",
-        "Name": "viewtheseinvoices",
-        "Description": "Voir ces factures",
-        "LastUpdated": "2021-07-07T09:42:12.1299564Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
     "IncludeInSubSequentImports": true
   },
   {

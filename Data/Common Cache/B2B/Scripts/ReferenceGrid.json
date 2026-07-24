@@ -1,8 +1,0 @@
-{
-  "Name": "ReferenceGrid",
-  "Content": "function (vars) {\n\tvar g = new GridWidget(vars.element, vars.references);\n\tg.editable = false;\n\tg.sortable = false;\n\tg.filterable = false;\n\tg.pageable = false;\n\tg.scrollable = false;\n\tg.groupable = false;\n\tg.columns = [\n\t\t{ field: \"SystemId\", type: \"string\", title: \"[resource_shortdisplayname[SystemId]]\", width: 100 },\n\t\t{ field: \"Value\", type: \"string\", title: \"[resource_shortdisplayname[ReferenceValue]]\" }\n\t];\n\tvars.ReferenceGrid = g;\n\treturn g;\n}\n",
-  "CreatedOn": "2021-09-23T15:17:48.424Z",
-  "LastUpdated": "2021-09-23T15:17:48.424Z",
-  "Key": "B2B",
-  "IncludeInSubSequentImports": true
-}
