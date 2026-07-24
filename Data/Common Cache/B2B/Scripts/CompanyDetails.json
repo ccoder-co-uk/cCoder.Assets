@@ -1,0 +1,8 @@
+{
+  "Name": "CompanyDetails",
+  "Content": "function(variables) {\r\n\tvar g = variables.company && variables.company.IsVerified\r\n\t? new ReadOnlyDetailView(variables.element) \r\n\t: new WritableDetailView(variables.element, {data: variables.company} );\r\n\r\n\tg.title = \"#=(IsVerified) ? '<span class=\\\"k-icon k-i-check\\\" ></span>': '<span class=\\\"k-icon k-i-close\\\" ></span>'# #:Name#\";\r\n\t// optional, but we want a subset of fields here so lets be explicit.\r\n\tg.fields =\r\n\t\tmodel.propertiesFor(\"B2B/Company\", [\"Name\", \"ContactPhoneNumber\", \"ContactEmailAddress\", \"WebsiteUrl\"])\r\n\t\t.concat(model.propertiesFor(\"B2B/Address\", [\"PoBox\", \"Line1\", \"Line2\", \"TownOrCity\", \"StateOrProvince\", \"ZipOrPostalCode\", \"CountryId\"]).map(p => \r\n\t\t{\r\n\t\t\tp.field = \"Address.\" + p.field;\r\n\t\t\treturn p;\r\n\t\t}));\r\n\tg.toolbar = \"<button onClick='javascript: history.go(-1)'><span class='k-icon k-i-arrow-parent'></span> [resource_shortdisplayname[Back]]</button>\";\r\n    variables.CompanyDetails = g;\r\n    return g;\r\n}",
+  "CreatedOn": "2021-09-23T15:17:53.645Z",
+  "LastUpdated": "2021-09-23T15:17:53.645Z",
+  "Key": "B2B",
+  "IncludeInSubSequentImports": true
+}

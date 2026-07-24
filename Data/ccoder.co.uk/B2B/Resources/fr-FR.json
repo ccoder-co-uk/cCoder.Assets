@@ -1,0 +1,42 @@
+[
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "country",
+    "DisplayName": "Pays",
+    "ShortDisplayName": "Pays",
+    "Description": "Pays",
+    "LastUpdated": "2023-01-04T13:47:39.2732407+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "newtenant",
+    "DisplayName": "Nouvelle Cliente",
+    "ShortDisplayName": "Nouvelle Cliente",
+    "Description": "Nouvelle Cliente",
+    "LastUpdated": "2023-01-04T13:50:32.6684242+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "phone",
+    "DisplayName": "Numéro de téléphone",
+    "ShortDisplayName": "Numéro de téléphone",
+    "Description": "Numéro de téléphone",
+    "LastUpdated": "2022-03-18T10:41:54.1895743+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "B2B",
+    "Name": "systemid",
+    "DisplayName": "ID système",
+    "ShortDisplayName": "ID système",
+    "Description": "ID système",
+    "LastUpdated": "2023-01-04T14:32:24.1723301+00:00",
+    "IncludeInSubSequentImports": true
+  }
+]

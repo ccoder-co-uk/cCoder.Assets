@@ -1,0 +1,25 @@
+{
+  "Path": "Login",
+  "Name": "Login",
+  "ShowOnMenus": false,
+  "Order": 0,
+  "LastUpdated": "2026-04-30T20:09:38.8755788+01:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[Login]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Login",
+      "Keywords": "Login",
+      "Title": "Login"
+    }
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
+}

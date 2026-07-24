@@ -1,0 +1,8 @@
+{
+  "Name": "PurchaseOrderDetails",
+  "Content": "async function (variables) {\n\tvar g = new ReadOnlyDetailView(variables.element);\n\tg.title = \"[resource_shortdisplayname[PurchaseORder]]#:Number# [resource_shortdisplayname[from]]: #:CreditorName# [resource_shortdisplayname[to]] #:DebtorName#\";\n\tg.fields = [\n            { field: \"Number\" }, \n            { field: \"DebtorState\", template: \"#:B2B.transactionStates[DebtorState]#\" }, \n            { field: \"DebtorExternalState\" }, \n\t\t    { field: \"SourceSystemId\", title: \"[resource_shortdisplayname[sourcesystemid]]\", description: \"[resource_description[sourcesystemid]]\" },\n            { field:\"CreditorState\", template: \"#:B2B.transactionStates[CreditorState]#\" },  \n            { field:\"CreditorExternalState\" },\n            { field:\"CreationDate\", type: \"date\", format: type.dateFormat  }, \n            { field:\"ReceivedDate\", type: \"date\", format: type.dateFormat },  \n            { field:\"DueDate\", type: \"date\", format: type.dateFormat },  \n            { field:\"LastUpdated\", type: \"date\", format: type.dateFormat }, \n            { field:\"TaxPoint\", type: \"date\", format: type.dateFormat },\n            { field:\"ValueOfTax\", type: \"number\", format: type.moneyFormat },  \n            { field:\"Value\", type: \"number\", format: type.moneyFormat }\n        ];\n        g.splits = [\"CreationDate\"];\n        g.toolbar = \"<button onClick='javascript: history.go(-1)'><span class='k-icon k-i-arrow-parent'></span> [resource_shortdisplayname[back]]</button>\";\n        variables.PurchaseOrderDetails = g;\n}\n",
+  "CreatedOn": "2021-09-23T15:17:48.14Z",
+  "LastUpdated": "2021-09-23T15:17:48.14Z",
+  "Key": "B2B",
+  "IncludeInSubSequentImports": true
+}

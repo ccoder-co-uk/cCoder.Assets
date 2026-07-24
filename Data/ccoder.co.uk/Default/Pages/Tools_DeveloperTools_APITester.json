@@ -1,0 +1,25 @@
+{
+  "Path": "Tools/DeveloperTools/APITester",
+  "Name": "API Tester",
+  "ShowOnMenus": true,
+  "Order": 1,
+  "LastUpdated": "2026-07-22T09:27:09.5417666+01:00",
+  "Layout": "StaticContent",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[DevTools]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Compose HTTP requests and inspect responses directly in the browser.",
+      "Keywords": "API Tester,Developer Tools,HTTP,REST",
+      "Title": "API Tester"
+    }
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
+}

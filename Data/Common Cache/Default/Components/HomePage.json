@@ -1,0 +1,10 @@
+{
+  "Key": "Default",
+  "Name": "HomePage",
+  "ResourceKey": "Default",
+  "Content": "<header>\r\n\t<hgroup>\r\n\t\t<h2>Home</h2>\r\n\t</hgroup>\r\n</header>\r\n\t<p>The first screen to appear as a landing page after pressing the login button is 'Home' Summary page. It has three different summary grids (see image).</p>\r\n\t<ul>\r\n\t\t<li>Summary grid [1] <b>Faurecia Invoices by State</b> (see image) provides a quick analysis of invoices in different states and their corresponding amount's total.</li>\r\n\t\t<li>Summary grid [2] <b>Cash Forecast</b> (see image) provides a summary of invoice's cash forecast on which a discount offer has been proposed, their corresponding quantity, and face value (EUR).</li>\r\n\t</ul>\r\n\t<figure>\r\n\r\n\t\t<img class=\"enlarge\" src=\"[api[root]]DMS/Content/Help/HomePage.png\" />\r\n\t\t<figcaption><i>Image: Home Page</i></figcaption>\r\n\t</figure>",
+  "Script": "HomePage = {\r\n    init: async function (app, container ) {\r\n        app = app || session.app;\r\n        container = container || $(\".component[name=HomePage]\");\r\n    }\r\n}",
+  "CreatedOn": "2022-03-21T15:58:27.056Z",
+  "LastUpdated": "2022-03-21T15:58:27.056Z",
+  "IncludeInSubSequentImports": true
+}

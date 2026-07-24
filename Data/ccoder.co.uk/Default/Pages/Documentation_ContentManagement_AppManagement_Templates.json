@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/ContentManagement/AppManagement/Templates",
+  "Name": "Templates",
+  "ShowOnMenus": true,
+  "Order": 60,
+  "LastUpdated": "2026-07-21T17:12:48.8578821+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>[page[description]]</p></header><div class=\"documentation\"><h2>Accessing Template Management</h2><p>You Access this page through the App Management Tabs. From here you can manage the app&rsquo;s\n            template, managing things like the colour things appear &amp; any CSS changes that need to happen within the\n            app,</p><h2>The UI</h2><p>When you access the templates tab, you&rsquo;re greeted with something that looks like this: </p><img src=\"[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Templates/TemplatesGrid-en.png\" /><p>This grid contains any relevant templates for the given app, the most commonly used one\n            across all portals is the Theme-Default, which can be customised to ensure that our theming matches the\n            client&rsquo;s requested theme.</p><p>&nbsp;</p><h2>Creating a Template</h2><p>To create a new template in this UI, you click on the <strong>&ldquo;New Template&rdquo;</strong> button\n            in the header bar. Clicking this will bring up a dialog that looks something like this:</p><img src=\"[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Templates/CreateTemplateDialog-en.png\" height=\"208\" style=\"display:block;\" /><p>Here, <strong>&ldquo;Resource Key&rdquo; </strong>is the way that the system selects which resources to\n            use in this\n            template. For example, if this is set to B2B, it will use the resources that have the matching key.\n            <strong>&ldquo;Name&rdquo;</strong>\n is the name you want your template to have that should be related to the places it will be used. Once you&rsquo;ve\n            filled these text boxes in with the relevant information, you can press confirm to create your new template.\n        </p><img src=\"[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Templates/CreatedTemplate-en.png\" /><p>For now, I have created a Test template. On this row you can see that there are save and\n            delete functions and there&rsquo;s the ability expand the component.</p><p>&nbsp;</p><h2>Updating a Template</h2><p>On expanding a new template, you will come across a large text box, this box is where you\n            implement any css you want to be used across the site.</p><img src=\"[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Templates/UpdateTemplateContent-en.png\" /><p>To save any CSS changes you&rsquo;ve made within a template you click the <strong>&ldquo;Save&rdquo;\n </strong>button on the\n            relevant row. This will save any changes you&rsquo;ve made to this template.</p><p>&nbsp;</p><h2>Deleting a Template </h2><p>To delete a template that you no longer use or need, then you click the &ldquo;Delete&rdquo; button that\n            will remove your template and its content from the UI.\n        </p><img src=\"[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Templates/DeleteTemplate-en.png\" /></div>"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "How to access and manage the templates in the portal.",
+      "Title": "Templates"
+    }
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
+}

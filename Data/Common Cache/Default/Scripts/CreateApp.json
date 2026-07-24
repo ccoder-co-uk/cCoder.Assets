@@ -1,0 +1,8 @@
+{
+  "Name": "CreateApp",
+  "Content": "function (args) {\r\n    var app = {\r\n        DefaultCultureId: args.DefaultCultureId,\r\n        Name: args.AppName,\r\n        Domain: args.AppPath,\r\n        DefaultTheme: args.DefaultTheme,\r\n        ConfigJson: JSON.stringify(args.ConfigJson, null, 2)\r\n    };\r\n    if (args.SourceSystem && app.ConfigJson.hasOwnProperty(\"B2B\") && app.ConfigJson.B2B.hasOwnProperty(\"SourceSystem\")) {\r\n        app.ConfigJson.B2B.SourceSystem = args.SourceSystem.Id;\r\n    }\r\n    if (args.TransactionSourceSystem && app.ConfigJson.hasOwnProperty(\"B2B\") && app.ConfigJson.B2B.hasOwnProperty(\"TransactionSource\")) {\r\n        app.ConfigJson.B2B.TransactionSource = args.TransactionSourceSystem.Id;\r\n    }\r\n    if (args.RootBucket && app.ConfigJson.hasOwnProperty(\"B2B\") && app.ConfigJson.B2B.hasOwnProperty(\"RootBucket\")) {\r\n        app.ConfigJson.B2B.RootBucket = args.RootBucket.Id;\r\n    }\r\n    return api.add(\"ContentManagement/App\", app);\r\n}",
+  "CreatedOn": "2021-09-24T09:36:41.807Z",
+  "LastUpdated": "2021-09-24T09:36:41.807Z",
+  "Key": "Default",
+  "IncludeInSubSequentImports": true
+}

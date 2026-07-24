@@ -1,0 +1,8 @@
+{
+  "Name": "GetSystem",
+  "Content": "async function(vars) {\r\n\treturn api.get(\"B2B/System?$filter=Id eq '\" + vars.Id + \"'\");\r\n}",
+  "CreatedOn": "2021-09-24T09:45:07.067Z",
+  "LastUpdated": "2021-09-24T09:45:07.067Z",
+  "Key": "Default",
+  "IncludeInSubSequentImports": true
+}

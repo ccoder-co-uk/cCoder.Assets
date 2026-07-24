@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/ContentManagement",
+  "Name": "Content Management",
+  "ShowOnMenus": true,
+  "Order": 40,
+  "LastUpdated": "2026-07-21T17:11:10.6712817+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>[page[description]]</p></header>[component[DetailedNav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Guides for pages, layouts, components, resources, cultures and themes in the cCoder content domain.",
+      "Title": "Content Management"
+    }
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
+}

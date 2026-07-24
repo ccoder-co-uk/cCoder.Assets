@@ -200,7 +200,7 @@ PublishScripts/
 **/[Pp]ackages/*
 # This repository intentionally owns the root package output directory.
 !/Packages/
-!/Packages/.gitkeep
+!/Packages/**
 # except build/, which is used as an MSBuild target.
 !**/[Pp]ackages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
@@ -318,6 +318,9 @@ paket-files/
 
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
+_normalisation-backup*/
+normalised-data/
+normalised-packages/
 *.pyc
 
 # Cake - Uncomment if you are using it

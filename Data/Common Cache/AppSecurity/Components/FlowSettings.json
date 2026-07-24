@@ -1,0 +1,10 @@
+{
+  "AppId": 11,
+  "ResourceKey": "AppSecurity",
+  "Content": "<ul class=\"fieldList\">\n   <li>\n      <label>Flow Roles</label>\n      <div class=\"value\"><div name=\"roles\"></div></div>\n   </li>\n   <li>\n      <label></label>\n      <div class=\"value\"><button name=\"save\"><span class=\"k-icon k-i-save\"></span>Save</button></div>\n   </li>\n</ul>\n\n",
+  "Script": "FlowSettings = {\n\t   init: function (app, container, flow, callback) {\n\t\t\tapi.get('AppSecurity/Role?$filter=AppId eq ' + app.Id).then(function(res){\n\t\t\t\t  FlowSettings.setupRoles(app, container, res.value, flow, callback);\n\t\t\t});\n\t   },\n\t\t\n\t   setupRoles: function(app, container, roles, flow, callback){\n\t\t\tvar userRoles = roles.map(r => {\n\t\t\t\tr.CanExecute = flow.Definition.RequiredRoles.indexOf(r.Name) > -1;\n                r.CanAdminister = r.Privs.indexOf(\"flowdefinition_admin\") > -1;\n\t\t\t\treturn r;\n\t\t\t});\n           \n\t\t\t$('[name=roles]', container).kendoGrid({\n\t\t\t\tdataSource:userRoles,\n                width: 320,\n\t\t\t\tcolumns:[\n\t\t\t\t\t{ width: 50, title:' Exec', field: 'CanExecute', template: '<input data-bind=\"checked: CanExecute\" type=\"checkbox\" #:CanExecute ? \"checked\" : \"\" # />' },\n                    { width: 50, title:'Admin ', field: 'CanAdminister', template: '<input data-bind=\"checked: CanAdminister\" type=\"checkbox\" #:CanAdminister ? \"checked\" : \"\" # />' },\n\t\t\t\t\t{ field: 'Name' , width: 200}\n\t\t\t\t]\n\t\t\t});\n           \n            $(\"button[name=save]\", container).on(\"click\", function(e) { flow.model.save(); callback(); });\n\t   }\n};\n",
+  "Name": "FlowSettings",
+  "Description": null,
+  "Key": "AppSecurity",
+  "IncludeInSubSequentImports": true
+}

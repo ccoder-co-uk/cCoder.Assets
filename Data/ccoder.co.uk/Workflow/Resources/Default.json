@@ -1,0 +1,42 @@
+[
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "instancereportingcomponentname",
+    "DisplayName": "Instance reporting component",
+    "ShortDisplayName": "Instance reporting component",
+    "Description": "Instance reporting component",
+    "LastUpdated": "2026-07-21T22:09:42.3812997+01:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "NewFlow",
+    "DisplayName": "New workflow",
+    "ShortDisplayName": "New workflow",
+    "Description": "New workflow",
+    "LastUpdated": "2026-07-21T22:09:42.7397828+01:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "report",
+    "DisplayName": "Report",
+    "ShortDisplayName": "Report",
+    "Description": "Report",
+    "LastUpdated": "2026-07-21T22:09:42.8132239+01:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "run",
+    "DisplayName": "Run",
+    "ShortDisplayName": "Run",
+    "Description": "Run",
+    "LastUpdated": "2026-07-21T22:09:42.8984458+01:00",
+    "IncludeInSubSequentImports": true
+  }
+]

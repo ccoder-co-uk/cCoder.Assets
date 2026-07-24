@@ -1,0 +1,6 @@
+{
+  "$type": "<>f__AnonymousType2`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], cCoder.AppSecurity",
+  "Name": "Users",
+  "Privs": "culture_read,folderrole_read,pagerole_read,userrole_read,appculture_read,page_read,folder_read,file_read,app_read",
+  "IncludeInSubSequentImports": true
+}

@@ -1,0 +1,8 @@
+{
+  "Name": "BucketRoleGrid",
+  "Content": "async function (variables) {\r\n\tvar bucketRoleGrid = new  GridWidget(variables.element, variables.dataSource);\r\n\tbucketRoleGrid.groupable = false;\r\n\tbucketRoleGrid.editable = false;\r\n\tbucketRoleGrid.change = async function(e) {\r\n\t\tif (!variables.SelectedB2BRoles) { variables.SelectedB2BRoles = []; }\r\n\t\tvar bucketExists = variables.SelectedB2BRoles.filter(r => r.Id == bucket.Id).length > 0;\r\n\t\tif (!bucketExists) {\r\n\t\t\tvar bucketEntity = await api.get(\"B2B/Bucket(\" + bucket.Id + \")\");\r\n\t\t\tvariables.SelectedB2BRoles.push(bucketEntity);\r\n\t\t}\r\n\t\tvariables.SelectedB2BRoles.filter(r => r.Id == bucket.Id)[0].Roles = [];\r\n\t\tvar selectedRows = this.select();\r\n\t\tfor (var i = 0; i < selectedRows.length; i++) {\r\n\t\t\tvar dataItem = this.dataItem(selectedRows[i]);\r\n\t\t\tvariables.SelectedB2BRoles.filter(r => r.Id == bucket.Id)[0].Roles.push(dataItem);\r\n\t\t}\r\n\t\tvariables.SelectedB2BRoles.filter(r => r.Id == bucket.Id)[0].RolesJson = JSON.stringify(variables.SelectedB2BRoles.filter(r => r.Id == bucket.Id)[0].Roles);\r\n\t};\r\n\tbucketRoleGrid.columns = [\r\n\t\t{ selectable: (readonly) ? false : true, width: \"50px\" },\r\n\t\t{ field: \"Name\", title: \"[resource_shortdisplayname[Name]]\" }\r\n\t];\r\n\tvariables.BucketRoleGrid = bucketRoleGrid;\r\n}\r\n",
+  "CreatedOn": "2021-09-23T15:17:47.416Z",
+  "LastUpdated": "2021-09-23T15:17:47.416Z",
+  "Key": "B2B",
+  "IncludeInSubSequentImports": true
+}

@@ -1,0 +1,25 @@
+{
+  "Path": "Tools/FinancialTools",
+  "Name": "Financial Tools",
+  "ShowOnMenus": true,
+  "Order": 0,
+  "LastUpdated": "2026-05-05T16:49:34.0047717+01:00",
+  "Layout": "StaticContent",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": " [component[detailednav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Financial Tools",
+      "Keywords": "Financial Tools",
+      "Title": "Financial Tools"
+    }
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
+}

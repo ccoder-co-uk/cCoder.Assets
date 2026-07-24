@@ -1,0 +1,10 @@
+{
+  "Key": "Default",
+  "Name": "Help",
+  "ResourceKey": "Default",
+  "Content": "<div name=\"tabs\">\r\n\t<ul>\r\n\t\t<li name=\"loginPage\" class = \"k-state-active\">[resource_displayname[loginPage]]</li>\r\n\t\t<li name=\"homePage\">[resource_displayname[homePage]]</li>\r\n        <li name=\"invoicesPage\">[resource_displayname[invoicesPage]]</li>\r\n\t\t<li name=\"analysisPage\">[resource_displayname[analysisPage]]</li>\r\n        <li name=\"paymentsPage\">[resource_displayname[paymentPage]]</li>\r\n        <li name=\"myRegistrations\">[resource_displayname[myRegistrations]]</li>\r\n        <li name=\"summary\">[resource_displayname[summary]]</li>\r\n        <li name=\"userPreferences\">[resource_displayname[userPreferences]]</li>\r\n        <li name=\"howToSetup\">[resource_displayname[howToSetup]]</li>\r\n\t</ul>\r\n\t<div class=\"tab\" name=\"loginPage\">\r\n        [component[LoginPage]]\r\n    </div>\r\n    <div class=\"tab\" name=\"homePage\">\r\n        [component[HomePage]]\r\n    </div>\r\n    <div class=\"tab\" name=\"invoicesPage\"></div>\r\n    <div class=\"tab\" name=\"analysisPage\"></div>\r\n    <div class=\"tab\" name=\"paymentPage\"></div>\r\n    <div class=\"tab\" name=\"myRegistrations\"></div>\r\n    <div class=\"tab\" name=\"summary\"></div>\r\n    <div class=\"tab\" name=\"userPreferences\"></div>\r\n    <div class=\"tab\" name=\"howToSetup\"></div>\r\n</div>\r\n\r\n<style scoped>\r\n</style>",
+  "Script": "Help = {\r\n    init: async function (app, container ) {\r\n        app = app || session.app;\r\n        container = container || $(\".component[name=Help]\");\r\n\r\n        $(\"[name=tabs]\", container).kendoTabStrip({ animation: { open: { effects: \"fadeIn\" } } });\r\n    }\r\n}",
+  "CreatedOn": "2022-03-21T11:44:55.803Z",
+  "LastUpdated": "2022-03-21T11:44:55.803Z",
+  "IncludeInSubSequentImports": true
+}

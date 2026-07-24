@@ -1,0 +1,9 @@
+{
+  "Name": "DataGenerator",
+  "Key": "Default",
+  "ResourceKey": "Default",
+  "Script": "DataGenerator = {\r\n    init: async function(app, container) {\r\n        app = app || session.app;\r\n        container = container || $(\".component[name=DataGenerator]\");\r\n        $(\"[name=tabs]\", container).kendoTabStrip({ animation: { open: { effects: \"fadeIn\" } } });\r\n        loadComponent($(\".tab[name=masterdata]\", container), \"DataGeneratorMasterdata\", async (c) => {\r\n            await c.init(session.app, $(\".tab[name=masterdata]\", container));\r\n        });\r\n        loadComponent($(\".tab[name=transactions]\", container), \"DataGeneratorTransactions\", async (c) => {\r\n            await c.init(session.app, $(\".tab[name=transactions]\", container));\r\n        });\r\n    }\r\n\r\n}",
+  "Content": "   <div name=\"tabs\">\r\n      <ul>\r\n      \t  <li class=\"k-state-active\">[resource_displayname[masterdata]]</li>\r\n          <li>[resource_displayname[transactions]]</li>\r\n      </ul>\r\n      <div class=\"tab\" name=\"masterdata\"></div>\r\n      <div class=\"tab\" name=\"transactions\"></div>\r\n   </div>",
+  "LastUpdated": "2021-11-19T21:26:19.6655273+00:00",
+  "IncludeInSubSequentImports": true
+}

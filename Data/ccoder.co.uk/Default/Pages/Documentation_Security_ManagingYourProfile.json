@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/Security/ManagingYourProfile",
+  "Name": "Managing Your Profile",
+  "ShowOnMenus": true,
+  "Order": 30,
+  "LastUpdated": "2026-07-21T17:13:57.5021812+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>[page[description]]</p></header><div class=\"documentation\">\n\t\n\t<p>When you are logged into the portal, you will see that in the top right there&rsquo;s something that\n        looks like this:</p>\n\t<img src=\"[app[root]]Api/DMS/Content/Documentation/SSO Documentation/Managing Your Profile/HeaderDetails-en.png\" style=\"display:block;\"/>\n\t<p>At the top the culture selection which allows you to select the language you want to view the\n        portal in. Below that displays the current date and time. In order to view your profile you click on your\n        username, this will bring up a dialog that looks something like this: </p>\n\t<img src=\"[app[root]]Api/DMS/Content/Documentation/SSO Documentation/Managing Your Profile/EditProfileDialog-en.png\" style=\"display:block;\"/>\n\t<p>Here, your <strong>&ldquo;Username&rdquo;</strong> cannot be edited as this is what you use to sign into\n        the portal, your\n        <strong>&ldquo;Display Name&rdquo;</strong> can be edited and this is what is displayed in the top right as your profile\n        name, <strong>&ldquo;Email&rdquo;</strong> is\n        where you want any emails from us to be sent to, typically this is your company email address. <strong>&ldquo;Phone\n Number&rdquo;</strong>\n should be populated with your company contact number, however this information is not required.\n        <strong>&ldquo;Culture&rdquo;</strong>\n defines what culture you&rsquo;d like the application to be displayed in be default, setting this to French (France)\n        for example will ensure that the portal is in French once you&rsquo;ve logged in. To save any changes you&rsquo;ve made to\n        your profile, you click the <strong>&ldquo;Confirm&rdquo;</strong> button.\n    </p>\n\t<p>From this dialog, you can also change your password. When you click the <strong>&ldquo;Change\n Password&rdquo;</strong>\n button, a dialog that looks something like this comes up:</p>\n\t<img src=\"[app[root]]Api/DMS/Content/Documentation/SSO Documentation/Managing Your Profile/ChangePasswordDialog-en.png\" style=\"display:block;\"/>\n\t<p>Here, you must enter your current password in the <strong>&ldquo;Old Password&rdquo;</strong> field and in the next two\n        fields you need to populate them with whatever you wish to set your new password to. Clicking <strong>&ldquo;Confirm&rdquo;</strong> will\n        save any changes you&rsquo;ve made</p>\n</div>"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "this page explains how you can view and edit your portal profile.",
+      "Title": "Managing your Profile"
+    }
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
+}

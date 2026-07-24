@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXTEST/STXTEST006",
+  "Name": "STXTEST006",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 6,
+  "LastUpdated": "2026-07-23T17:29:46.558386+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<style class=\"code-analysis-syntax\">\n.docs-content pre{overflow-x:auto;margin:1rem 0 1.75rem;padding:1.25rem 1.4rem;border:1px solid rgba(20,42,72,.16);border-left:4px solid #0e6fae;border-radius:4px;background:#f7fbfe;color:#10263a}\n.docs-content pre code{white-space:pre;color:inherit;background:transparent;font-size:1rem;line-height:1.65}\n.language-csharp .syntax-comment{color:#587287;font-style:italic}.language-csharp .syntax-string{color:#8a3d12}.language-csharp .syntax-keyword{color:#6542a6;font-weight:700}.language-csharp .syntax-number{color:#096b65}.language-csharp .syntax-type{color:#0a6680;font-weight:600}\n</style><header class=\"docs-page-header\"><h1>[page[title]]</h1><p>An API acceptance suite must cover Get, Post, Put, and Delete operations.</p></header><div class=\"public-actions docs-rule-actions\"><a class=\"btn btn-primary\" href=\"/Documentation/CodeAnalysis/STXTEST\"><span class=\"k-icon k-i-arrow-left\"></span>Back to STXTEST rules</a><a class=\"btn btn-secondary\" href=\"https://github.com/hassanhabib/The-Standard\" target=\"_blank\" rel=\"noreferrer\"><span class=\"k-icon k-i-book\"></span>Read The Standard source</a></div><h2>What The Standard says</h2><p>An API acceptance suite must cover Get, Post, Put, and Delete operations. The analyser reports this as a warning at the declaration or statement that needs attention.</p><h2>Why it matters</h2><p>This rule belongs to the Tests family. Following it keeps responsibilities and intent visible to readers, tooling and future maintainers.</p><h2>Bad code example</h2><pre><code class=\"language-csharp\"><span class=\"syntax-comment\">// Violates STXTEST006: An API acceptance suite must cover Get, Post, Put, and Delete operations.</span>\n<span class=\"syntax-comment\">// Acceptance suite covers only Get and Post.</span></code></pre><h2>Good code example</h2><pre><code class=\"language-csharp\"><span class=\"syntax-comment\">// Follows STXTEST006</span>\n[<span class=\"syntax-type\">Fact</span>] <span class=\"syntax-type\">ValueTask</span> <span class=\"syntax-type\">ShouldGet</span>() =&gt; <span class=\"syntax-keyword\">default</span>;\n[<span class=\"syntax-type\">Fact</span>] <span class=\"syntax-type\">ValueTask</span> <span class=\"syntax-type\">ShouldPost</span>() =&gt; <span class=\"syntax-keyword\">default</span>;\n[<span class=\"syntax-type\">Fact</span>] <span class=\"syntax-type\">ValueTask</span> <span class=\"syntax-type\">ShouldPut</span>() =&gt; <span class=\"syntax-keyword\">default</span>;\n[<span class=\"syntax-type\">Fact</span>] <span class=\"syntax-type\">ValueTask</span> <span class=\"syntax-type\">ShouldDelete</span>() =&gt; <span class=\"syntax-keyword\">default</span>;</code></pre>"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "An API acceptance suite must cover Get, Post, Put, and Delete operations.",
+      "Title": "STXTEST006"
+    }
+  ],
+  "IncludeInSubSequentImports": true
+}

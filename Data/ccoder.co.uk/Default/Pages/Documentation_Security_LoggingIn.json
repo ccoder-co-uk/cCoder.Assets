@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/Security/LoggingIn",
+  "Name": "Logging In",
+  "ShowOnMenus": true,
+  "Order": 20,
+  "LastUpdated": "2026-07-21T17:13:51.7594066+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>[page[description]]</p></header><div class=\"documentation\">\n\t<h2>Logging In to the Portal </h2>\n\t<p>When you visit your portal in your browser, the first page you&rsquo;re greeted with is the login page\n        that looks something like this:</p>\n\t<img src=\"[app[root]]Api/DMS/Content/Documentation/SSO Documentation/Logging In/LoginPage-en.png\"/>\n\t<p>Here, you must enter your <strong>&ldquo;User Name&rdquo;</strong> and <strong>&ldquo;Password&rdquo;</strong> to the account you want to access and click\n        the <strong>&ldquo;Submit&rdquo;</strong> button to gain access.</p>\n</div>"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "This page explains how to sign in to a cCoder portal.",
+      "Title": "Logging In"
+    }
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
+}

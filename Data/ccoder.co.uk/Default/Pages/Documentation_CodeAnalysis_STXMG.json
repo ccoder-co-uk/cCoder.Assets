@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXMG",
+  "Name": "STXMG",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 12,
+  "LastUpdated": "2026-07-23T17:29:46.533823+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>STXMG identifies rules for managing coordination services. Select a rule to see what The Standard requires and how to correct a violation.</p></header>[component[DetailedNav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "STXMG diagnostic family: rules for managing coordination services.",
+      "Title": "STXMG: Management services"
+    }
+  ],
+  "IncludeInSubSequentImports": true
+}

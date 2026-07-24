@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXC",
+  "Name": "STXC",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 6,
+  "LastUpdated": "2026-07-23T17:29:46.502773+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>STXC identifies rules for coordinating orchestration services. Select a rule to see what The Standard requires and how to correct a violation.</p></header>[component[DetailedNav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "STXC diagnostic family: rules for coordinating orchestration services.",
+      "Title": "STXC: Coordination services"
+    }
+  ],
+  "IncludeInSubSequentImports": true
+}

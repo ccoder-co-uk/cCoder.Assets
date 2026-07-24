@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/ContentManagement/AppManagement/Components",
+  "Name": "Components",
+  "ShowOnMenus": true,
+  "Order": 10,
+  "LastUpdated": "2026-07-21T17:12:20.3731704+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>[page[description]]</p></header><div class=\"documentation\"><h2>Accessing Component Management</h2><p>You Access this page through the App Management Tabs. From here you can manage any\n            components that are specific to the app that you&rsquo;re working in. This should have a very limited number of\n            components in it as the majority are Common Cached.</p><h2>The UI</h2><p>When you access the components tab, you&rsquo;re greeted with something that looks like this: </p><img src=\"[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Components/EmptyComponentGrid-en.png\" /><p>The reason this grid is empty, is because all of this app&rsquo;s Components live in the Common\n            cache. However, it&rsquo;s still important to understand how to use this functionality should there ever be\n            anything that only needs to exist in this app.</p><p>&nbsp;</p><h2>Creating a Component</h2><p>To create a new component in this UI, you click on the <strong>\"New\"</strong> button in the\n            header bar. Clicking this will bring up a dialog that looks something like this:</p><img src=\"[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Components/CreateComponentDialog-en.png\" height=\"215\" style=\"display:block;\" /><p>Here, <strong>&ldquo;Name&rdquo; </strong>is the name you want your component to have that needs to be\n            related to the\n            contents of it and its function. <strong>&ldquo;Key&rdquo;</strong> is the way that we split the components into\n            sections, for example we\n            have components with the key B2B which contain all things relating to company data and transactions.\n            <strong>&ldquo;Resource Key&rdquo;</strong> is the way that the system selects which resources to use in this component.\n            For example, if\n            this is set to B2B, it will use the resources that have the matching key. Once you&rsquo;ve filled these text\n            boxes in with the relevant information, you can press confirm to create your new component.\n        </p><img src=\"[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Components/CreatedComponent-en.png\" /><p>For now, I have created a Test component. On this row you can see that there are save and\n            delete functions and there is the ability expand the component.</p><p>&nbsp;</p><h2>Updating a Component</h2><p>On expanding a new component, you will come across 2 boxes in which you can implement your\n            component code. It is broken down into two parts, HTML and JavaScript. In which you can view the code that\n            already exists and make any changes you want to.</p><img src=\"[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Components/UpdatingComponent-en.png\" /><p>The left box is where you implement the html breakdown for the component and the right hand\n            box is where you implement the JavaScript code. Once you&rsquo;ve made your changes in either of these boxes, you\n            click the &ldquo;Save&rdquo; button on the relevant row. This will save any changes you&rsquo;ve made to this component.</p><p>&nbsp;</p><h2>Deleting a Component</h2><p>To delete a component that you no longer use or need, then you click the &ldquo;Delete&rdquo; button\n            that will remove your component and its content from the UI.</p><img src=\"[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Components/DeletingComponent-en.png\" /></div>"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "How to access and manage the components in the portal.",
+      "Title": "Components"
+    }
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
+}

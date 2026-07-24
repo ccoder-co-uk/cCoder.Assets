@@ -1,0 +1,8 @@
+{
+  "Name": "RelatedCreditGrid",
+  "Content": "async function(vars) {\r\n\tvar g = new GridWidget(vars.element, vars.credits);\r\n\tg.editable = false;\r\n\tg.sortable = false;\r\n\tg.filterable = false;\r\n\tg.pageable = false;\r\n\tg.scrollable = false;\r\n\tg.groupable = false;\r\n\tg.columns = [\r\n\t\t{ field: \"Number\", title: \"[resource_shortdisplayname[Number]]\", description: \"[resource_description[Number]]\"},\r\n\t\t{ field: \"DueDate\", type: \"date\", format: \"{0:\" + type.dateFormat + \"}\", title: \"[resource_shortdisplayname[DueDate]]\", description: \"[resource_description[DueDate]]\"},\r\n\t\t{ field: \"TaxPoint\", type: \"date\", format: \"{0:\" + type.dateFormat + \"}\", title: \"[resource_shortdisplayname[TaxPoint]]\", description: \"[resource_description[TaxPoint]]\"},\r\n\t\t{ field: \"DebtorState\", template: \"#:B2B.transactionStates[DebtorState]#\", title: \"[resource_shortdisplayname[DebtorState]]\", description: \"[resource_description[DebtorState]]\"},\r\n\t\t{ field: \"FundingState\", title: \"[resource_shortdisplayname[FundingState]]\", description: \"[resource_description[FundingState]]\"},\r\n\t\t{ field: \"Value\", title: \"[resource_shortdisplayname[Value]]\", description: \"[resource_description[Value]]\", format: \"{0:\" + type.moneyFormat + \"}\", attributes:{style:\"text-align:right;\"}}\r\n\t];\r\n        var viewResource = \"[resource_shortdisplayname[View]]\";\r\n        g.commands.push({ name: \"view\", icon: \"k-i-share\", text: viewResource, href: \"/Transactions/Credit?Id=#:Id#\" });\r\n\tvars.RelatedCreditsGrid = g;\r\n\treturn g;\r\n}\r\n",
+  "CreatedOn": "2021-09-29T12:34:23.028Z",
+  "LastUpdated": "2021-09-29T12:34:23.028Z",
+  "Key": "Default",
+  "IncludeInSubSequentImports": true
+}

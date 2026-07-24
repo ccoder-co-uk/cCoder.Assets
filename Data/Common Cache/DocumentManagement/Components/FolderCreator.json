@@ -1,0 +1,10 @@
+{
+  "AppId": 11,
+  "ResourceKey": "DocumentManagement",
+  "Content": "<ul class=\"fieldList\">\n  <li>\n      <label>[resource_displayname[name]]</label>\n      <div class=\"value\">\n          <input name=\"name\" type=\"text\" data-bind=\"value: Name\" />\n      </div>\n  </li>\n</ul>\n<hr>\n<div class=\"value\">\n    <button name=\"create\">[resource_displayname[create]]</button>\n</div>\n\n<style scoped>\n    button[name=create] { float:right; }\n</style>",
+  "Script": "FolderCreator = {\n\tinit: async function(app, container, parentId, callback) {\n\t\tapp = app || session.app;\n\t\tcontainer = container || $(\".component[name=FolderCreator]\");\n        var folder = kendo.observable({\n            \"AppId\": app.Id,\n            \"ParentId\": parentId,\n            \"Name\": \"\"\n        });\n\t\tkendo.bind(container, folder);\n\n\t\t$(\"[name=create]\", container).on(\"click\", (e) => FolderCreator.createFolder(e, folder, callback));\n\t},\n\n\tcreateFolder: async function(e, model, callback) {\n\t\te.preventDefault();\n\t\tawait api.post(\"DocumentManagement/Folder\", model.toJSON(), callback).then((folder) => {\n\t\t\tnotification.success(\"[resource_displayname[added]]\");\n\t\t\tcallback(folder);\n\t\t}).catch((err) => error(err));\n\t}\n}",
+  "Name": "FolderCreator",
+  "Description": null,
+  "Key": "DocumentManagement",
+  "IncludeInSubSequentImports": true
+}

@@ -1,0 +1,25 @@
+{
+  "Path": "Documentation/Security/SecurityAPI",
+  "Name": "Security API",
+  "ShowOnMenus": true,
+  "Order": 50,
+  "LastUpdated": "2026-07-21T17:14:08.937144+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>[page[description]]</p></header><h2>Our Security API</h2><p>You can use our Security API to perform different tasks, for example you can use it to register for an account, or use it to sign into an existing account in our system.<br /></p><p>When you register for an account in our portal, it does two things:</p><ul><li>Sets up an account in our Security domain,</li><li>Adds you as a user to the portal you're registering to (this essentially gives you very minimal access to the portal, further access has to be applied for).</li></ul><p>To understand more about the Security API, you can view more details about the possible requests you can make in our <a href=\"[app[root]]Documentation/Security/Metadata\">Security Metadata grid</a>.</p><h2>Registering using our API</h2><p>The first thing you have to do is build out your registration request, this will look something like this:</p><p><span style=\"font-family:var(--bs-font-monospace);font-size:0.875em;color:var(--kendo-color-on-app-surface, #212529);font-weight:var(--bs-body-font-weight);text-align:var(--bs-body-text-align);\">HTTP POST </span><a href=\"https://%3Cappurl%3E/Api/Account/Login\">https://&lt;AppURL&gt;/Api/Account/Login</a></p><pre style=\"background-color:#ffffff;font-family:var(--bs-font-monospace);font-size:12px;\">        {\n            DisplayName: \"Joe Bloggs\",\n            Email:\"joe.bloggs@corporatelinx.com\",\n            Password:\"superSecretPassword123!!\",\n            Culture: \"en-GB\",\n            PhoneNumber: \"01234 567 890\",\n            AppId: 0\n        }</pre><p>AppId is an optional field (it doesn't matter if you don't have one, providing one will automatically register the account with in the app with that particular Id).</p><p>The rest of this information is standard information that you would expect to have to provide on any account creation.</p><h2>Logging in using our API</h2><p>You can now use the details you just set up to authenticate and get a token. This request will look something like this:</p><p><span style=\"font-family:var(--bs-font-monospace);font-size:0.875em;color:var(--kendo-color-on-app-surface, #212529);font-weight:var(--bs-body-font-weight);text-align:var(--bs-body-text-align);\">HTTP POST&nbsp;</span><a href=\"https://%3Cappurl%3E/Api/Account/Register\">https://&lt;AppURL&gt;/Api/Account/Login</a><span style=\"font-family:var(--bs-font-monospace);font-size:0.875em;color:var(--kendo-color-on-app-surface, #212529);font-weight:var(--bs-body-font-weight);text-align:var(--bs-body-text-align);\"></span></p><pre style=\"background-color:#ffffff;font-family:var(--bs-font-monospace);font-size:12px;\">        {\n            User: &ldquo;joe.bloggs@corporatelinx.com&rdquo;,\n            Pass: &ldquo;superSecretPassword123!!\"\n        }</pre><p>When this request is made, the server responds with a token which can be used in all subsequent calls you make to the API.</p>"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Reference guidance for integrating with cCoder identity and authentication endpoints.",
+      "Keywords": "SSO API",
+      "Title": "Security API"
+    }
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
+}

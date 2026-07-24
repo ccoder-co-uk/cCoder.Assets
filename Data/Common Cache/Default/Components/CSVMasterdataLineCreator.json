@@ -1,0 +1,10 @@
+{
+  "Key": "Default",
+  "Name": "CSVMasterdataLineCreator",
+  "ResourceKey": "Default",
+  "Content": "<div>\r\n\t<ul class=\"fieldList\">\r\n\t\t<li>\r\n\t\t\t<label>[resource_shortdisplayname[pasteyourcsvlinedatahere]]</label>\r\n\t\t\t<div class=\"value\">\r\n\t\t\t\t<textarea type=\"text\" name=\"csvData\">Perspective;Name;Reference;GlobalTax;Address.Line1;Address.Line2;Address.City;Address.Region;Address.Country;Address.PostCode;FundingType;FunderRef;</textarea>\r\n\t\t\t</div>\r\n\t\t</li>\r\n\t</ul>\r\n</div>\r\n<hr>\r\n<div class=\"value\">\r\n   <button name=\"create\">[resource_shortdisplayname[create]]</input>\r\n</div>\r\n\r\n<style scoped>\r\n\t.component[name=CSVMasterdataLineCreator] { border: none; box-shadow: none; }\r\n\t.value >button[name=create] {float:right;}\r\n</style>",
+  "Script": "CSVMasterdataLineCreator = {\r\n  init: async function (app, container) {\r\n    app = app || session.app;\r\n    container = container || $(\".component[name=CSVMasterdataLineCreator]\");\r\n    var validator = container.kendoValidator().data(\"kendoValidator\");\r\n    $(\"[name=create]\", container).on(\"click\", e => CSVMasterdataLineCreator.createMasterdataLine(e, app, container));\r\n  },\r\n\r\n  createMasterdataLine: async function (e, app,  container) {\r\n    e.preventDefault();\r\n    var data = $(\"[name=csvData]\", container).val();\r\n    await api.sendRaw(\"POST\", \"DMS/Data/Masterdata/Received/\" + app.Config.B2B.SourceSystem + \"Masterdata\" + (new Date()).toISOString() + \".csv\", data, \"text/plain\").then(async () => {\r\n      notification.success(\"[resource_displayname[addedtodms]]\");\r\n    }).catch((err) => error(err));\r\n  }\r\n}",
+  "CreatedOn": "2022-08-02T09:21:55.185Z",
+  "LastUpdated": "2022-08-02T09:21:55.185Z",
+  "IncludeInSubSequentImports": true
+}

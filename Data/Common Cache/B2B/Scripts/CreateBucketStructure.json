@@ -1,0 +1,8 @@
+{
+  "Name": "CreateBucketStructure",
+  "Key": "B2B",
+  "Content": "getAppConfig: async function(vars) {\n\tvars.App = await api.get(\"ContentManagement/App(\" + vars.App.Id + \")\");\n\tvars.App.Config = JSON.parse(vars.App.ConfigJson);\n},\ncreateRootBucket: async function (vars) {\n\tvars.RootBucket = await api.post(\"B2B/Bucket/CreateStructure?withSystem=\" + vars.App.Config.B2B.SourceSystem);\n},\nupdateAppB2B: async function(vars) {\n\tvars.App = await api.get(\"ContentManagement/App(\" + vars.App.Id + \")\");\n\tvars.App.Config = JSON.parse(vars.App.ConfigJson);\n\tvars.App.Config.B2B.RootBucket = vars.RootBucket.Id;\n\tvars.App.ConfigJson = JSON.stringify(vars.App.Config, null, 2);\n\tdelete vars.App.Config;\n\tvars.App = await api.update(\"ContentManagement/App(\" + vars.App.Id + \")\", vars.App);\n\t$.ajax({ type: \"DELETE\", url: \"../?key=app\", beforeSend: api.beforeSend });//notify the frontend.\n}\n",
+  "CreatedOn": "2021-11-26T13:38:20.731Z",
+  "LastUpdated": "2021-11-26T13:38:20.731Z",
+  "IncludeInSubSequentImports": true
+}

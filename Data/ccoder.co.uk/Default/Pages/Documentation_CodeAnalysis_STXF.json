@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXF",
+  "Name": "STXF",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 10,
+  "LastUpdated": "2026-07-23T17:29:46.515664+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>STXF identifies rules for the lowest business-service layer. Select a rule to see what The Standard requires and how to correct a violation.</p></header>[component[DetailedNav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "STXF diagnostic family: rules for the lowest business-service layer.",
+      "Title": "STXF: Foundation services"
+    }
+  ],
+  "IncludeInSubSequentImports": true
+}

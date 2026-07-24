@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/Security",
+  "Name": "Security",
+  "ShowOnMenus": true,
+  "Order": 110,
+  "LastUpdated": "2026-07-21T17:11:51.7425607+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>[page[description]]</p></header>[component[DetailedNav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Guides for platform identity, registration, authentication, profiles and security APIs.",
+      "Title": "Security"
+    }
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
+}

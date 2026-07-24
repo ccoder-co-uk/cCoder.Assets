@@ -1,0 +1,62 @@
+[
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "category",
+    "DisplayName": "Catégorie",
+    "ShortDisplayName": "Catégorie",
+    "Description": "Catégorie",
+    "LastUpdated": "2022-03-18T10:41:54.1899372+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "DeleteFolderTitle",
+    "DisplayName": "Supprimer le dossier",
+    "ShortDisplayName": "Supprimer le dossier",
+    "Description": "Supprimer le dossier",
+    "LastUpdated": "2022-03-18T10:41:54.1907821+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "folderdeletedsuccesfully",
+    "DisplayName": "Dossier supprimé avec succès",
+    "ShortDisplayName": "Dossier supprimé avec succès",
+    "Description": "Dossier supprimé avec succès",
+    "LastUpdated": "2022-03-18T10:41:54.190861+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "newfolder",
+    "DisplayName": "Nouveau Dossier",
+    "ShortDisplayName": "Nouveau Dossier",
+    "Description": "Nouveau Dossier",
+    "LastUpdated": "2023-01-04T12:32:37.1401249+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "newname",
+    "DisplayName": "Nouveau nom",
+    "ShortDisplayName": "Nouveau nom",
+    "Description": "Nouveau nom",
+    "LastUpdated": "2022-03-18T10:41:54.1905548+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "size",
+    "DisplayName": "Taille",
+    "ShortDisplayName": "Taille",
+    "Description": "Taille",
+    "LastUpdated": "2022-03-18T10:41:54.1905497+00:00",
+    "IncludeInSubSequentImports": true
+  }
+]

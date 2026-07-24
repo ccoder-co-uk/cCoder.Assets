@@ -1,0 +1,8 @@
+{
+  "Name": "RoiGrid",
+  "Content": "async function (vars) {\r\n    var roiGrid = new GridWidget(vars.element, vars.data);\r\n    roiGrid.editable = false;\r\n    roiGrid.sortable = false;\r\n    roiGrid.filterable = false;\r\n    roiGrid.pageable = false;\r\n    roiGrid.groupable = false;\r\n    roiGrid.toolbar = \"<button name='addROI'><span class='k-icon k-i-plus'></span>[resource_displayname[New]]</button><button name='getPack'><span class='k-icon k-i-download'></span>[resource_displayname[downloadContract]]</button>\";\r\n    roiGrid.columns = [\r\n        { field: \"email\", type: \"string\", title: \"[resource_shortdisplayname[userEmail]]\", width: 100, template: \"#=JSON.parse(DataJson).fields[0].email#\" },\r\n        { field: \"companyName\", type: \"string\", title: \"[resource_shortdisplayname[company]]\", width: 100, template: \"#=JSON.parse(DataJson).fields[1].company#\" },\r\n        { field: \"CreatedOn\", type: \"date\", title: \"[resource_shortdisplayname[requestDate]]\", width: 100, format: \"{0:\" + type.dateFormat + \"}\" },\r\n        { field: \"CreatedBy\", title: \"[resource_shortdisplayname[CreatedBy]]\", width: 100 },\r\n        { field: \"State\", type: \"string\", title: \"[resource_shortdisplayname[requestState]]\", width: 100, template: \"#=RegistrationOfInterest.states[State]#\" },\r\n        { field: \"requestType\", type: \"string\", title: \"[resource_shortdisplayname[fundingType]]\", width: 100, template: \"#=JSON.parse(DataJson).fields[1].requestType#\" }\r\n    ];\r\n    return roiGrid;\r\n}",
+  "CreatedOn": "2021-09-24T09:29:00.416Z",
+  "LastUpdated": "2021-09-24T09:29:00.416Z",
+  "Key": "B2B",
+  "IncludeInSubSequentImports": true
+}

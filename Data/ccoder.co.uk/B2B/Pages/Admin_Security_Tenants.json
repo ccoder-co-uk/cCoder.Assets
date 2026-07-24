@@ -1,0 +1,25 @@
+{
+  "Path": "Admin/Security/Tenants",
+  "Name": "Tenants",
+  "ResourceKey": "B2B",
+  "ShowOnMenus": true,
+  "Order": 10,
+  "LastUpdated": "2026-07-21T22:49:06.3580196+01:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[TenantManagement]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Create and manage security tenants and their associated applications.",
+      "Keywords": "Security Tenants, Tenant Administration",
+      "Title": "Tenants"
+    }
+  ],
+  "IncludeInSubSequentImports": true
+}

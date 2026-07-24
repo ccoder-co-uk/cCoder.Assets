@@ -1,0 +1,8 @@
+{
+  "Name": "CreateRootBucketScripts",
+  "Content": "async function (vars) {\r\n    vars.RootBucketResult = (await getBucket({\r\n        ParentId: null,\r\n        Name: vars.AppName + \" Root \" + vars.AppType\r\n    })).value;\r\n},\r\nasync function (vars) {\r\n    if (vars.RootBucketResult.length === 0) {\r\n        vars.RootBucket = await createBucket({\r\n            ParentId: null,\r\n            Key: \"AppRoot\",\r\n            Name: vars.AppName + \" Root \" + vars.AppType,\r\n            Description: \"Root bucket for application @ \" + vars.AppPath\r\n        });\r\n    } else {\r\n        vars.RootBucket = RootBucketResult.value[0];\r\n    }\r\n    vars.BucketAdminRole = vars.RootBucket.Roles[0];\r\n},\r\nasync function (vars) {\r\n    vars.BucketAdminPrivs = (await api.get(\"B2B/B2BRole?$filter=Name eq 'Bucket Admins'\")).value[0].Privs;\r\n},\r\nasync function (vars) {\r\n    var privileges = vars.BucketAdminPrivs.split(\",\");\r\n    for (var i = privileges.length; i >= privileges.length; i = i - 1) {\r\n        if (privileges.indexOf(\"read\") === -1) {\r\n            privileges.splice(i, 1);\r\n        }\r\n    }\r\n    privs = privileges.join(',');\r\n    var role = {\r\n        Name: \"Debtor Read\",\r\n        Description: \"Read Access to the system\",\r\n        UsersArePortalAdmins: \"false\",\r\n        Privs: privs,\r\n        Buckets: [{ BucketId: vars.RootBucket.Id }]\r\n    };\r\n    vars.DebtorRole = await api.add(\"B2B/B2BRole\", role);\r\n},\r\nasync function (vars) {\r\n    vars.BucketRoles = [vars.BucketAdminRole, vars.DebtorRole];\r\n}",
+  "CreatedOn": "2021-09-24T09:38:10.024Z",
+  "LastUpdated": "2021-09-24T09:38:10.024Z",
+  "Key": "Default",
+  "IncludeInSubSequentImports": true
+}

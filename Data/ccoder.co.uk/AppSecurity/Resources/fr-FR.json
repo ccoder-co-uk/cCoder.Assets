@@ -1,0 +1,72 @@
+[
+  {
+    "Culture": "fr-FR",
+    "Key": "AppSecurity",
+    "Name": "accessdenied",
+    "DisplayName": "Accès refusé",
+    "ShortDisplayName": "Accès refusé",
+    "Description": "Accès refusé",
+    "LastUpdated": "2022-03-18T10:41:54.1897771+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "AppSecurity",
+    "Name": "checkyouremail",
+    "DisplayName": "Vérifiez votre email",
+    "ShortDisplayName": "Vérifiez votre email",
+    "Description": "Vérifiez votre email",
+    "LastUpdated": "2022-03-18T10:41:54.1896946+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "AppSecurity",
+    "Name": "passwordresetemailtitle",
+    "DisplayName": "E-mail de réinitialisation du mot de passe",
+    "ShortDisplayName": "E-mail de réinitialisation du mot de passe",
+    "Description": "E-mail de réinitialisation du mot de passe",
+    "LastUpdated": "2022-03-18T10:41:54.18957+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "AppSecurity",
+    "Name": "passwordresetemailtitle",
+    "DisplayName": "Réinitialisation du mot de passe",
+    "ShortDisplayName": "Réinitialisation du mot de passe",
+    "Description": "Réinitialisation du mot de passe",
+    "LastUpdated": "2022-03-18T10:41:54.1901586+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "AppSecurity",
+    "Name": "resetfailed",
+    "DisplayName": "Échec de la réinitialisation",
+    "ShortDisplayName": "Échec de la réinitialisation",
+    "Description": "Échec de la réinitialisation",
+    "LastUpdated": "2022-03-18T10:41:54.1893183+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "AppSecurity",
+    "Name": "tokenverificationfailed",
+    "DisplayName": "La vérification du jeton a échoué",
+    "ShortDisplayName": "La vérification du jeton a échoué",
+    "Description": "La vérification du jeton a échoué",
+    "LastUpdated": "2022-03-18T10:41:54.1894822+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "AppSecurity",
+    "Name": "tokenverificationsuccess",
+    "DisplayName": "Jeton vérifié avec succès",
+    "ShortDisplayName": "Jeton vérifié avec succès",
+    "Description": "Jeton vérifié avec succès",
+    "LastUpdated": "2022-03-18T10:41:54.1895507+00:00",
+    "IncludeInSubSequentImports": true
+  }
+]

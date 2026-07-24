@@ -1,0 +1,10 @@
+{
+  "AppId": 11,
+  "ResourceKey": "B2B",
+  "Content": "",
+  "Script": "Credits = { \r\n    states: [script[TransactionStates]],\r\n    creditTypes: [\r\n            { id: 1, name: \"[resource_displayname[CreditNote]]\" }, \r\n            { id: 2, name: \"[resource_displayname[Replacement]]\" }, \r\n            { id: 3, name: \"[resource_displayname[DebitNote]]\" },\r\n            { id: 4, name: \"[resource_displayname[SelfBillingCredit]]\" }\r\n     ],\r\n    init: async function (app, container) {\r\n        api.addToMetaCache([\r\n            {\r\n                \"Name\": \"B2B\",\r\n                \"Types\": [\r\n                    [meta[B2B/Credit]],\r\n                    [meta[B2B/Company]]\r\n                ]\r\n            }\r\n        ]);\r\n        var dataSource = await model.getDatasource({ endpoint: \"B2B/Credit\", odataAppend: \"/FromSystem(SystemId='\" + session.app.Config.B2B.TransactionSource + \"')?$expand=Companies\" });\r\n        (await [script[CreditGrid]]({element: container, dataSource: dataSource})).init();\r\n    }\r\n};",
+  "Name": "Credits",
+  "Description": null,
+  "Key": "B2B",
+  "IncludeInSubSequentImports": true
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "Culture": "fr",
+    "Key": "Default",
+    "Name": "dppmessage",
+    "DisplayName": "Assurez-vous d'avoir lu notre politique de protection des donnÃ©es",
+    "ShortDisplayName": "Assurez-vous d'avoir lu notre politique de protection des donnÃ©es",
+    "Description": "Assurez-vous d'avoir lu notre politique de protection des donnÃ©es",
+    "LastUpdated": "2022-03-18T10:41:54.1898747+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr",
+    "Key": "Default",
+    "Name": "DPPTACNotice",
+    "DisplayName": "DPPTACNotice",
+    "ShortDisplayName": "DPPTACNotice",
+    "Description": "En cliquant, dans ces 2 espaces, vous acceptez avoir lu, compris et acceptÃ© nos conditions d'utilisation ainsi que notre politique de protection des donnÃ©es et que consentez Ã  l'utilisation de vos donnÃ©es personnelles telles que dÃ©crites dans le document de Politique de Protection des DonnÃ©es\"",
+    "LastUpdated": "2022-03-18T10:41:54.1898553+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 25768,
+    "AppId": 4,
+    "Key": "Default",
+    "Culture": "fr",
+    "DisplayName": "Veuillez cliquer sur le lien ci-dessous. <b>Information supplémentaires.</b>",
+    "ShortDisplayName": "Veuillez cliquer sur le lien ci-dessous. Information supplémentaires. ",
+    "Name": "furtherinformationvisit",
+    "Description": "Veuillez cliquer sur le lien ci-dessous. Information supplémentaires. ",
+    "LastUpdated": "2021-07-07T09:42:12.1362308Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr",
+    "Key": "Default",
+    "Name": "ourdpp",
+    "DisplayName": "<a href='https://[app[domain]]/Documentation'>Documentation de la plateforme</a>",
+    "ShortDisplayName": "Documentation de la plateforme",
+    "Description": "Documentation de la plateforme",
+    "LastUpdated": "2022-03-18T10:41:54.1898702+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr",
+    "Key": "Default",
+    "Name": "ourtac",
+    "DisplayName": "<a href='https://[app[domain]]/Documentation'>Documentation de la plateforme</a>",
+    "ShortDisplayName": "Documentation de la plateforme",
+    "Description": "Documentation de la plateforme",
+    "LastUpdated": "2022-03-18T10:41:54.1898656+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr",
+    "Key": "Default",
+    "Name": "tacmessage",
+    "DisplayName": "Assurez vous d'avoir lu nos conditions d'utilisation",
+    "ShortDisplayName": "Assurez vous d'avoir lu nos conditions d'utilisation",
+    "Description": "Assurez vous d'avoir lu nos conditions d'utilisation",
+    "LastUpdated": "2022-03-18T10:41:54.1898272+00:00",
+    "IncludeInSubSequentImports": true
+  }
+]

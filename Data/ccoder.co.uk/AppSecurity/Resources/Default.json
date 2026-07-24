@@ -1,0 +1,92 @@
+[
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "accessdenied",
+    "DisplayName": "Access Denied",
+    "ShortDisplayName": "Access Denied",
+    "Description": "Access Denied",
+    "LastUpdated": "2022-03-18T10:41:54.1901493+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "checkyouremail",
+    "DisplayName": "Check your email",
+    "ShortDisplayName": "Check your email",
+    "Description": "Check your email",
+    "LastUpdated": "2022-03-18T10:41:54.1901446+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "newpassword",
+    "DisplayName": "New Password",
+    "ShortDisplayName": "New Password",
+    "Description": "New Password",
+    "LastUpdated": "2022-03-18T10:41:54.1909396+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "oldpassword",
+    "DisplayName": "Old Password",
+    "ShortDisplayName": "Old Password",
+    "Description": "Old Password",
+    "LastUpdated": "2022-03-18T10:41:54.1909346+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "passwordresetemailtitle",
+    "DisplayName": "Password Reset Email",
+    "ShortDisplayName": "Password Reset Email",
+    "Description": "Password Reset Email",
+    "LastUpdated": "2022-03-18T10:41:54.1892757+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "passwordresetemailtitle",
+    "DisplayName": "Password Reset Email",
+    "ShortDisplayName": "Password Reset Email",
+    "Description": "passwordresetemailtitle",
+    "LastUpdated": "2022-03-18T10:41:54.19014+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "resetfailed",
+    "DisplayName": "Reset Failed",
+    "ShortDisplayName": "Reset Failed",
+    "Description": "Reset Failed",
+    "LastUpdated": "2022-03-18T10:41:54.1898141+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "tokenverificationfailed",
+    "DisplayName": "Token Verification Failed",
+    "ShortDisplayName": "Token Verification Failed",
+    "Description": "tokenverificationfailed",
+    "LastUpdated": "2022-03-18T10:41:54.1901353+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "tokenverificationsuccess",
+    "DisplayName": "Token Verification Success",
+    "ShortDisplayName": "Token Verification Success",
+    "Description": "tokenverificationsuccess",
+    "LastUpdated": "2022-03-18T10:41:54.1900899+00:00",
+    "IncludeInSubSequentImports": true
+  }
+]

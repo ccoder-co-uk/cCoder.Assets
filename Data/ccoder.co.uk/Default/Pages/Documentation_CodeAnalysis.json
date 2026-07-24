@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/CodeAnalysis",
+  "Name": "CodeAnalysis",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 15,
+  "LastUpdated": "2026-07-23T17:29:46.471197+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>Install the analyser, understand its diagnostic families, and follow each warning to practical guidance.</p></header>[component[DetailedNav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Getting started and rule reference for the cCoder.CodeAnalysis package.",
+      "Title": "cCoder.CodeAnalysis"
+    }
+  ],
+  "IncludeInSubSequentImports": true
+}

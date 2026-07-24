@@ -1,0 +1,10 @@
+{
+  "Key": "B2B",
+  "Name": "CurrentRates",
+  "ResourceKey": "B2B",
+  "Content": "<h3>Current Rates</h3>\r\n<ul name=\"rateList\" class=\"fieldList\">\r\n\r\n</ul>\r\n\r\n<style>\r\n  .component[name=CurrentRates] { max-height:340px; max-width: 550px; }\r\n  .fieldList[name=rateList] > li > label { width: 270px; }\r\n</style>",
+  "Script": "CurrentRates = {\r\n    init: async function(app, container) {\r\n        var rates = (await api.get(\"B2B/Rate/Current()\")).value;\r\n        var list = $(\"[name=rateList]\", container);\r\n        rates.forEach(rate => \r\n        {\r\n            list.append(\"<li><label>\" + rate.Name + \" (\" + rate.Description + \")</label><div class='value'>\" + rate.Value + \"%</div></li>\");\r\n        });\r\n    }\r\n}",
+  "CreatedOn": "2022-10-21T10:23:54.959Z",
+  "LastUpdated": "2022-10-21T10:23:54.959Z",
+  "IncludeInSubSequentImports": true
+}

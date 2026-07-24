@@ -1,0 +1,25 @@
+{
+  "Path": "Admin/PortalAdmin",
+  "Name": "Portal Admin",
+  "ResourceKey": "ContentManagement",
+  "ShowOnMenus": true,
+  "Order": 9,
+  "LastUpdated": "2026-07-21T22:38:47.9299105+01:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[CoreManagement]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Create, configure, migrate and manage applications across the portal.",
+      "Keywords": "Portal Administration, Application Management, Portal Applications",
+      "Title": "Portal Admin"
+    }
+  ],
+  "IncludeInSubSequentImports": true
+}

@@ -1,0 +1,5 @@
+{
+  "Path": "Admin/CommonCacheEndpoint",
+  "Role": "Administrators",
+  "IncludeInSubSequentImports": true
+}

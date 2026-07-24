@@ -1,0 +1,25 @@
+{
+  "Path": "Tools",
+  "Name": "Tools",
+  "ShowOnMenus": true,
+  "Order": 2,
+  "LastUpdated": "2026-05-05T16:49:33.9167851+01:00",
+  "Layout": "StaticContent",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[detailednav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Tools",
+      "Keywords": "Tools",
+      "Title": "Tools"
+    }
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
+}

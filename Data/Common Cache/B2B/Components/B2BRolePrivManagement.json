@@ -1,0 +1,10 @@
+{
+  "AppId": 11,
+  "ResourceKey": "B2B",
+  "Content": "",
+  "Script": "B2BRolePrivManagement = {\r\n    init: async function(app, container, role) {\r\n        app = app || session.app;\r\n        container = container || $(\".component[name=B2BRolePrivManagement]\");\r\n        if(!role) { return; }\r\n        var privs = (await api.get(\"B2B/B2BPrivilege\")).value;\r\n        privs.forEach(p => p.Has = (role.Privileges.indexOf(p.Id) !== -1));\r\n        var rolePrivGrid = new GridWidget(container, {data: privs});\r\n        rolePrivGrid.columns=[\r\n            {field: \"Has\", title: \" \", template: \"<input type='checkbox' #= (Has == true) ? checked ='checked' : '' # class='chkbx k-checkbox'/>\", width: 40},\r\n            {field: \"Type\", title: \"[resource_displayname[Type]]\" },\r\n            {field: \"Operation\", title: \"[resource_displayname[Operation]]\"},\r\n            {field: \"Description\", title: \"[resource_displayname[PrivExplanation]]\"}\r\n        ];\r\n        rolePrivGrid.groupable = false;\r\n        rolePrivGrid.editable = false;\r\n        rolePrivGrid.pageable = false;\r\n        rolePrivGrid.filterable = false;\r\n        rolePrivGrid.sortable = false;\r\n        rolePrivGrid.dataBound = function() {\r\n            $(\"input[type=checkbox]\", rolePrivGrid.gridElement).off(\"click\").on(\"click\", async function(e) {\r\n                e.preventDefault();\r\n                var dataItem = rolePrivGrid.kendoObject.dataItem($(e.target).closest(\"tr\"));\r\n                dataItem.set(\"Has\", this.checked);\r\n                role.Privileges = rolePrivGrid.kendoObject.dataSource.data().filter(p => p.Has).map(p => p.Id);\r\n                await role.save().then(() => { notification.success(\"[resource_displayname[rolesaved]]\"); })\r\n                .catch((err) => { error(err); });\r\n            });\r\n        };\r\n        await rolePrivGrid.init();\r\n        rolePrivGrid.kendoObject.dataSource.group({field: \"Type\"});\r\n    }\r\n}",
+  "Name": "B2BRolePrivManagement",
+  "Description": null,
+  "Key": "B2B",
+  "IncludeInSubSequentImports": true
+}

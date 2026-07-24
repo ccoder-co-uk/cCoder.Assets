@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/Logging/Metadata",
+  "Name": "Metadata",
+  "ShowOnMenus": true,
+  "Order": 90,
+  "LastUpdated": "2026-07-21T17:17:44.3083709+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>[page[description]]</p></header>[component[DomainMetadata]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Explore the entities and endpoints exposed by the Logging domain.",
+      "Title": "Logging Metadata"
+    }
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
+}
