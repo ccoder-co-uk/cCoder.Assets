@@ -37,7 +37,7 @@ public sealed partial class PackageBuilderTests
                 dataPath,
                 "ccoder.co.uk",
                 "CMS",
-                "Components",
+                "Pages",
             ]);
 
         Directory.CreateDirectory(path: sourceDirectory);
@@ -45,12 +45,13 @@ public sealed partial class PackageBuilderTests
         await File.WriteAllTextAsync(
             path: Path.Combine(
                 path1: sourceDirectory,
-                path2: "Regular.json"),
+                path2: "About.json"),
             contents:
                 """
                 {
-                  "Name": "Regular",
-                  "PackageType": "ContentManagement/Component",
+                  "Path": "About",
+                  "Name": "About",
+                  "PackageType": "ContentManagement/Page",
                   "IncludeInSubSequentImports": false
                 }
                 """);
@@ -58,12 +59,37 @@ public sealed partial class PackageBuilderTests
         await File.WriteAllTextAsync(
             path: Path.Combine(
                 path1: sourceDirectory,
-                path2: "Setup.json"),
+                path2: "Root.json"),
             contents:
                 """
                 {
-                  "Name": "Setup",
-                  "PackageType": "ContentManagement/Component",
+                  "Path": "",
+                  "Name": "Home",
+                  "PackageType": "ContentManagement/Page",
+                  "IncludeInSubSequentImports": true
+                }
+                """);
+
+        string calendarEventsDirectory = Path.Combine(
+            paths:
+            [
+                dataPath,
+                "ccoder.co.uk",
+                "Default",
+                "CalendarEvents",
+            ]);
+
+        Directory.CreateDirectory(path: calendarEventsDirectory);
+
+        await File.WriteAllTextAsync(
+            path: Path.Combine(
+                path1: calendarEventsDirectory,
+                path2: "TestEvent.json"),
+            contents:
+                """
+                {
+                  "CalendarName": "TestAdminCalendar",
+                  "Name": "TestEvent",
                   "IncludeInSubSequentImports": true
                 }
                 """);
@@ -76,7 +102,7 @@ public sealed partial class PackageBuilderTests
             packagesPath: packagesPath);
 
         // Then
-        Assert.Equal(expected: 3, actual: files.Count);
+        Assert.Equal(expected: 4, actual: files.Count);
 
         Assert.False(condition: File.Exists(path: stalePackageFile));
 
@@ -87,7 +113,7 @@ public sealed partial class PackageBuilderTests
                 "App Packages",
                 "ccoder.co.uk",
                 "CMS",
-                "ContentManagement_Component.json",
+                "ContentManagement_Page.json",
             ]);
 
         string setupFile = Path.Combine(
@@ -98,23 +124,47 @@ public sealed partial class PackageBuilderTests
                 "App Packages",
                 "ccoder.co.uk",
                 "CMS",
-                "ContentManagement_Component.json",
+                "ContentManagement_Page.json",
             ]);
 
         Assert.True(condition: File.Exists(path: regularFile));
         Assert.True(condition: File.Exists(path: setupFile));
 
-        using JsonDocument package = JsonDocument.Parse(
-            json: await File.ReadAllTextAsync(path: setupFile));
+        string calendarEventsFile = Path.Combine(
+            paths:
+            [
+                packagesPath,
+                "FirstTimeSetup",
+                "App Packages",
+                "ccoder.co.uk",
+                "Default",
+                "Workflow_CalendarEvent.json",
+            ]);
 
-        string data = package.RootElement.GetProperty(
+        Assert.True(condition: File.Exists(path: calendarEventsFile));
+
+        using JsonDocument regularPackage = JsonDocument.Parse(
+            json: await File.ReadAllTextAsync(path: regularFile));
+
+        string regularData = regularPackage.RootElement.GetProperty(
             propertyName: "Items")[0]
             .GetProperty(propertyName: "Data")
             .GetString()!;
 
+        using JsonDocument setupPackage = JsonDocument.Parse(
+            json: await File.ReadAllTextAsync(path: setupFile));
+
+        string setupData = setupPackage.RootElement.GetProperty(
+            propertyName: "Items")[0]
+            .GetProperty(propertyName: "Data")
+            .GetString()!;
+
+        Assert.Contains(expectedSubstring: "\"Name\": \"Home\"", actualString: setupData);
+        Assert.DoesNotContain(expectedSubstring: "\"Name\": \"Home\"", actualString: regularData);
+
         Assert.DoesNotContain(
             expectedSubstring: "IncludeInSubSequentImports",
-            actualString: data);
+            actualString: setupData);
 
         string manifestFile = Path.Combine(
             path1: packagesPath,
@@ -130,7 +180,7 @@ public sealed partial class PackageBuilderTests
                 .GetInt32());
 
         Assert.Equal(
-            expected: 2,
+            expected: 3,
             actual: manifest.RootElement
                 .GetProperty(propertyName: "Packages")
                 .GetArrayLength());
@@ -139,8 +189,18 @@ public sealed partial class PackageBuilderTests
             .GetProperty(propertyName: "Packages")
             .EnumerateArray()
             .Single(predicate: item =>
-                item.GetProperty(propertyName: "FirstTimeSetup")
-                    .GetBoolean());
+            {
+                string? path = item.GetProperty(
+                    propertyName: "Path")
+                    .GetString();
+
+                return path?.StartsWith(
+                    value: "FirstTimeSetup/",
+                    comparisonType: StringComparison.Ordinal) == true
+                    && path.EndsWith(
+                        value: "CMS/ContentManagement_Page.json",
+                        comparisonType: StringComparison.Ordinal);
+            });
 
         Assert.Equal(
             expected: "ccoder.co.uk",

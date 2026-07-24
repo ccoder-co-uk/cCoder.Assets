@@ -346,6 +346,7 @@ internal sealed partial class PackageBuilderProcessingService
             "Templates" => "ContentManagement/Template",
             "FlowDefinitions" => "Workflow/FlowDefinition",
             "Calendars" => "Workflow/Calendar",
+            "CalendarEvents" => "Workflow/CalendarEvent",
             _ => $"{key}/{Singularize(value: typeFolder)}",
         };
 

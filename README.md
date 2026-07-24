@@ -102,6 +102,9 @@ Packages/FirstTimeSetup/Common Cache/{resource key}/{API type}.json
 Packages/FirstTimeSetup/App Packages/{source domain}/{resource key}/{API type}.json
 ```
 
+The application homepage is baseline data: it belongs in the first-time-setup
+page package and is deliberately excluded from regular page imports.
+
 The packaging-only fields are removed from the business-object JSON embedded in
 each generated package.
 
