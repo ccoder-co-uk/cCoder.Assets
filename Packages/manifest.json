@@ -193,7 +193,7 @@
     },
     {
       "Path": "FirstTimeSetup/App Packages/ccoder.co.uk/Default/Workflow_Calendar.json",
-      "Sha256": "82C5BBACE0CB3ED9E064879167D6F2482F47F3DADADB8D9A16EF5CAFE1DC81B0",
+      "Sha256": "98784D1C4B4A47B748000B4EEF5CF8D0421AA977A36F3CAFE943DEA0CF0D4FB5",
       "FirstTimeSetup": true,
       "Source": "ccoder.co.uk",
       "Category": "Default",
