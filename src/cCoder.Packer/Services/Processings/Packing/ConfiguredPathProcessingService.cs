@@ -32,6 +32,22 @@ internal sealed partial class ConfiguredPathProcessingService(
                 configurationName: "packages");
         });
 
+    public string ResolveBaselinePath(string? suppliedPath) =>
+        TryCatch(operation: () =>
+        {
+            Validate(inputs: suppliedPath);
+
+            if (string.IsNullOrWhiteSpace(value: suppliedPath))
+            {
+                throw new ArgumentException(
+                    message: "The baseline path is required.");
+            }
+
+            return Path.GetFullPath(
+                path: suppliedPath,
+                basePath: AppContext.BaseDirectory);
+        });
+
     private static string ResolvePath(
         string? suppliedPath,
         string? configuredPath,

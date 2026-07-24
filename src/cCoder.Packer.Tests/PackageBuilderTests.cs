@@ -133,7 +133,7 @@ public sealed partial class PackageBuilderTests
             [
                 packagesPath,
                 "First Time Setup",
-                "ccoder.co.uk",
+                "App",
                 "CMS",
                 "ContentManagement_Page.json",
             ]);
@@ -146,7 +146,7 @@ public sealed partial class PackageBuilderTests
             [
                 packagesPath,
                 "First Time Setup",
-                "ccoder.co.uk",
+                "App",
                 "Default",
                 "Workflow_CalendarEvent.json",
             ]);
@@ -215,7 +215,7 @@ public sealed partial class PackageBuilderTests
             });
 
         Assert.Equal(
-            expected: "ccoder.co.uk",
+            expected: "App",
             actual: setupManifestItem
                 .GetProperty(propertyName: "Source")
                 .GetString());

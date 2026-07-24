@@ -9,4 +9,6 @@ internal interface IConfiguredPathProcessingService
     string ResolveDataPath(string? suppliedPath);
 
     string ResolvePackagesPath(string? suppliedPath);
+
+    string ResolveBaselinePath(string? suppliedPath);
 }

@@ -119,13 +119,19 @@ internal sealed partial class PackageBuilderProcessingService
                     ? "Common Cache"
                     : SafeSegment(value: group.Key.Source);
 
+            string setupSourceFolder = sourceFolder.Equals(
+                value: "Common Cache",
+                comparisonType: StringComparison.OrdinalIgnoreCase)
+                ? sourceFolder
+                : "App";
+
             string directory = group.Key.FirstTimeSetup
                 ? Path.Combine(
                     paths:
                     [
                         packagesPath,
                         "First Time Setup",
-                        sourceFolder,
+                        setupSourceFolder,
                         SafeSegment(value: group.Key.Key),
                     ])
                 : Path.Combine(

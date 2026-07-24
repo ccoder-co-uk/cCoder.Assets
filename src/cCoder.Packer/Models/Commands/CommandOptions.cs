@@ -10,6 +10,9 @@ public sealed record CommandOptions(
     Uri? Source,
     string? User,
     string? Password,
+    string? AppName,
+    string? TenantId,
+    string? BaselinePath,
     int? AppId,
     string? DataPath,
     string? PackagesPath);

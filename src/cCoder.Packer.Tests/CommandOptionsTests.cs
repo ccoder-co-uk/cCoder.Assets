@@ -80,6 +80,46 @@ public sealed partial class CommandOptionsTests
     }
 
     [Fact]
+    public void ShouldParseCreateCommand()
+    {
+        // Given
+        string[] args =
+        [
+            "create",
+            "-api", "https://example.test",
+            "-name", "sample",
+            "-tenant", "tenant-one",
+            "-user", "test-user",
+            "-pass", "test-password",
+            "-baseline", @"C:\Baselines\First Time Setup",
+        ];
+
+        // When
+        CommandOptionsParserProcessingService service = new();
+
+        CommandOptions options = service.Parse(args: args);
+
+        // Then
+        Assert.Equal(expected: "create", actual: options.Name);
+
+        Assert.Equal(
+            expected: new Uri(uriString: "https://example.test/"),
+            actual: options.Source);
+
+        Assert.Equal(expected: "sample", actual: options.AppName);
+
+        Assert.Equal(expected: "tenant-one", actual: options.TenantId);
+
+        Assert.Equal(expected: "test-user", actual: options.User);
+
+        Assert.Equal(expected: "test-password", actual: options.Password);
+
+        Assert.Equal(
+            expected: @"C:\Baselines\First Time Setup",
+            actual: options.BaselinePath);
+    }
+
+    [Fact]
     public void ShouldParseCommonCacheCommand()
     {
         // Given

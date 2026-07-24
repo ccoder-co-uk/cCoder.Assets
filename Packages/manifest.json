@@ -432,270 +432,270 @@
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/AppSecurity/ContentManagement_Component.json",
+      "Path": "First Time Setup/App/AppSecurity/ContentManagement_Component.json",
       "Sha256": "622F3C832D7726F8EF8127C560FB83C218B49166BDF0CA8341B8521B449DBEB0",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "AppSecurity",
       "ItemTypes": [
         "ContentManagement/Component"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/AppSecurity/ContentManagement_Page.json",
+      "Path": "First Time Setup/App/AppSecurity/ContentManagement_Page.json",
       "Sha256": "720796AEC9D9C36EBB8BAF996FA81DFE514CAD05C920C63DA7C571B62678899A",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "AppSecurity",
       "ItemTypes": [
         "ContentManagement/Page"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/AppSecurity/ContentManagement_Resource.json",
+      "Path": "First Time Setup/App/AppSecurity/ContentManagement_Resource.json",
       "Sha256": "4FF4777547B1A88C6DE1861DB8459B33B62C085C25D4984B4FBC1682B86D088A",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "AppSecurity",
       "ItemTypes": [
         "ContentManagement/Resource"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/ContentManagement/ContentManagement_Component.json",
+      "Path": "First Time Setup/App/ContentManagement/ContentManagement_Component.json",
       "Sha256": "59A10D62D3E1BCFB984CB4DF71B2877A087E6F7F91B11B84EB24C9401E7ED037",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "ContentManagement",
       "ItemTypes": [
         "ContentManagement/Component"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/ContentManagement/ContentManagement_Page.json",
+      "Path": "First Time Setup/App/ContentManagement/ContentManagement_Page.json",
       "Sha256": "8061DF818D3E34BB1A603A2911EA352561CB224CAE217CCA33D82BB6CD96F3C2",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "ContentManagement",
       "ItemTypes": [
         "ContentManagement/Page"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/ContentManagement/ContentManagement_Resource.json",
+      "Path": "First Time Setup/App/ContentManagement/ContentManagement_Resource.json",
       "Sha256": "6523082A5BFE9D08AEA6D877F6D446CB07EEE9EB38B82200E32E02B59F312C6B",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "ContentManagement",
       "ItemTypes": [
         "ContentManagement/Resource"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/Core/ContentManagement_Component.json",
+      "Path": "First Time Setup/App/Core/ContentManagement_Component.json",
       "Sha256": "EB9504F1A34957AB77CED6D9F085C777C38B8132AC831F156EB78760C650E422",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "Core",
       "ItemTypes": [
         "ContentManagement/Component"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/Default/AppSecurity_Role.json",
+      "Path": "First Time Setup/App/Default/AppSecurity_Role.json",
       "Sha256": "783731C663543D67A88BAEB407DF7AD20774CBA995D4CCC49090F19FC35804AF",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "Default",
       "ItemTypes": [
         "AppSecurity/Role"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/Default/ContentManagement_App.json",
+      "Path": "First Time Setup/App/Default/ContentManagement_App.json",
       "Sha256": "0C8A462C0D1D6E34268D975B0E3B6A7929B5C06A5CB8FD14E449055763E399FB",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "Default",
       "ItemTypes": [
         "ContentManagement/App"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/Default/ContentManagement_Component.json",
+      "Path": "First Time Setup/App/Default/ContentManagement_Component.json",
       "Sha256": "1198320C2CE1993ED5EB6E9376556799F15610C99EF49C9178565FB00FE817DA",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "Default",
       "ItemTypes": [
         "ContentManagement/Component"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/Default/ContentManagement_Layout.json",
+      "Path": "First Time Setup/App/Default/ContentManagement_Layout.json",
       "Sha256": "3E4F5A2153F0AC7F144481D7B92D45305101EBE12A8F379AEF8FAA55E98F1AED",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "Default",
       "ItemTypes": [
         "ContentManagement/Layout"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/Default/ContentManagement_Page.json",
+      "Path": "First Time Setup/App/Default/ContentManagement_Page.json",
       "Sha256": "ED217A31218090F2ECDE8B81A4118D55B0768A88A19E606E53DC1422004EE385",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "Default",
       "ItemTypes": [
         "ContentManagement/Page"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/Default/ContentManagement_PageRole.json",
+      "Path": "First Time Setup/App/Default/ContentManagement_PageRole.json",
       "Sha256": "48886D73046506722ABF02832DF7D916A1FF888DA24DC05B0AF0AFDEC0DA8E99",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "Default",
       "ItemTypes": [
         "ContentManagement/PageRole"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/Default/ContentManagement_Resource.json",
+      "Path": "First Time Setup/App/Default/ContentManagement_Resource.json",
       "Sha256": "2A9F959FDE21B0D79ECB85610D536FB551BCBAE25431B471638CDBFB2719D302",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "Default",
       "ItemTypes": [
         "ContentManagement/Resource"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/Default/ContentManagement_Template.json",
+      "Path": "First Time Setup/App/Default/ContentManagement_Template.json",
       "Sha256": "B83D06A70F9F54406817EEAB679F6B8EF9931F161C2DD8BC0A4E4F048EFA5AB7",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "Default",
       "ItemTypes": [
         "ContentManagement/Template"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/Default/DocumentManagement_FolderRole.json",
+      "Path": "First Time Setup/App/Default/DocumentManagement_FolderRole.json",
       "Sha256": "3DDC2C0F6DCA2387651054F94AEE0E6403E8DCCB44E2B0FA7581E3EB167060F0",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "Default",
       "ItemTypes": [
         "DocumentManagement/FolderRole"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/Default/Workflow_Calendar.json",
+      "Path": "First Time Setup/App/Default/Workflow_Calendar.json",
       "Sha256": "98784D1C4B4A47B748000B4EEF5CF8D0421AA977A36F3CAFE943DEA0CF0D4FB5",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "Default",
       "ItemTypes": [
         "Workflow/Calendar"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/Default/Workflow_FlowDefinition.json",
+      "Path": "First Time Setup/App/Default/Workflow_FlowDefinition.json",
       "Sha256": "DCAEB788F7A7BE6F77CECA847473A2E6D4F25D666703B7E6062B4410C97D382B",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "Default",
       "ItemTypes": [
         "Workflow/FlowDefinition"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/DocumentManagement/ContentManagement_Component.json",
+      "Path": "First Time Setup/App/DocumentManagement/ContentManagement_Component.json",
       "Sha256": "44B0DA755C758F35FC06259778267A38C489A5D008BAA550687F5939125D5FAE",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "DocumentManagement",
       "ItemTypes": [
         "ContentManagement/Component"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/DocumentManagement/ContentManagement_Page.json",
+      "Path": "First Time Setup/App/DocumentManagement/ContentManagement_Page.json",
       "Sha256": "6AA340A5E538D430D5F215128E4F2B1451F6E4CA67978FC62D58595402DE0FD8",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "DocumentManagement",
       "ItemTypes": [
         "ContentManagement/Page"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/DocumentManagement/ContentManagement_Resource.json",
+      "Path": "First Time Setup/App/DocumentManagement/ContentManagement_Resource.json",
       "Sha256": "F2F86AE0F1812C0531C431565E682CD76F86825FBA22B199B02EC4BFDB4564DD",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "DocumentManagement",
       "ItemTypes": [
         "ContentManagement/Resource"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/Mail/ContentManagement_Component.json",
+      "Path": "First Time Setup/App/Mail/ContentManagement_Component.json",
       "Sha256": "E30FD9304842070EC5B48C8A91B0ED55EE56DB0902407DC57F153FDD3459F791",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "Mail",
       "ItemTypes": [
         "ContentManagement/Component"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/Security/ContentManagement_Component.json",
+      "Path": "First Time Setup/App/Security/ContentManagement_Component.json",
       "Sha256": "12AB2A1A61AD4A5D75E3E512DD10E01DD62DFB65935D2AEE2BFA5739833EDD26",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "Security",
       "ItemTypes": [
         "ContentManagement/Component"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/Security/ContentManagement_Page.json",
+      "Path": "First Time Setup/App/Security/ContentManagement_Page.json",
       "Sha256": "0577761E91E3F84562FC0D9E003027A0014486B110FF2412F366FFA7490BE66C",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "Security",
       "ItemTypes": [
         "ContentManagement/Page"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/Workflow/ContentManagement_Component.json",
+      "Path": "First Time Setup/App/Workflow/ContentManagement_Component.json",
       "Sha256": "5DEE016D7BFE9510D4F5A6160055F6D0CC13DE6876B4BCDE47930D0E2CDF1570",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "Workflow",
       "ItemTypes": [
         "ContentManagement/Component"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/Workflow/ContentManagement_Page.json",
+      "Path": "First Time Setup/App/Workflow/ContentManagement_Page.json",
       "Sha256": "CD635F9D9A40A7B2E2B4D94530989224104F498CFA5ED7B3018FAF41CE595116",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "Workflow",
       "ItemTypes": [
         "ContentManagement/Page"
       ]
     },
     {
-      "Path": "First Time Setup/ccoder.co.uk/Workflow/ContentManagement_Resource.json",
+      "Path": "First Time Setup/App/Workflow/ContentManagement_Resource.json",
       "Sha256": "66418529DA6C9F6FA7C31DFFA6D449C2B7010FBAE061C63562E566F920194EBA",
       "FirstTimeSetup": true,
-      "Source": "ccoder.co.uk",
+      "Source": "App",
       "Category": "Workflow",
       "ItemTypes": [
         "ContentManagement/Resource"
