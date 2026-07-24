@@ -1,4 +1,5 @@
 {
   "Path": "Platform-Domains/AI",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

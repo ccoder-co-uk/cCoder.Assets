@@ -1,9 +1,0 @@
-{
-  "Name": "FundingLimits",
-  "ResourceKey": "B2B",
-  "Content": "\u003Ch3\u003EFunding Limits\u003C/h3\u003E\r\n\u003Cul class=\u0022fieldList\u0022\u003E\r\n    \u003Cli\u003E\u003Clabel\u003ECap\u003C/label\u003E\u003Cdiv class=\u0022value\u0022\u003E100,000,000.00\u003C/div\u003E\u003C/li\u003E\r\n    \u003Cli\u003E\u003Clabel\u003EUsed\u003C/label\u003E\u003Cdiv class=\u0022value\u0022\u003E60,000,000.00\u003C/div\u003E\u003C/li\u003E\r\n    \u003Cli\u003E\u003Clabel\u003EAvailable\u003C/label\u003E\u003Cdiv class=\u0022value\u0022\u003E40,000,000.00\u003C/div\u003E\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\u003Cstyle scoped\u003E\r\n    .component[name=FundingLimits] { height: 300px; width: 470px; display: inline-block; float: right; margin-top: -585px; margin-right: 15px; }\r\n\u003C/style\u003E",
-  "Script": "FundingLimits = {\r\n    init: function(app, container) {\r\n        \r\n    }\r\n}",
-  "CreatedOn": "2021-11-04T13:03:56.046Z",
-  "LastUpdated": "2021-11-04T13:03:56.046Z",
-  "Key": "Funding"
-}

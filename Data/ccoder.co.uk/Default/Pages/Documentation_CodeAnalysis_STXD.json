@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXD",
+  "Name": "STXD",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 7,
+  "LastUpdated": "2026-07-23T17:29:46.504716+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>STXD identifies rules for adapters that inherit from types supplied by external libraries. Select a rule to see what The Standard requires and how to correct a violation.</p></header>[component[DetailedNav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "STXD diagnostic family: rules for adapters that inherit from types supplied by external libraries.",
+      "Title": "STXD: Dependencies"
+    }
+  ],
+  "IncludeInSubSequentImports": true
+}

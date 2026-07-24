@@ -5,8 +5,11 @@
 namespace cCoder.Packer.Models.Commands;
 
 public sealed record CommandOptions(
-    string Target,
-    Uri Source,
+    string Name,
+    string? Target,
+    Uri? Source,
     string? User,
     string? Password,
-    int? AppId);
+    int? AppId,
+    string? DataPath,
+    string? PackagesPath);

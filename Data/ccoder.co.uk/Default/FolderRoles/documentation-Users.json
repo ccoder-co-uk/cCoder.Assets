@@ -1,4 +1,5 @@
 {
   "Path": "documentation",
-  "Name": "Users"
+  "Name": "Users",
+  "IncludeInSubSequentImports": true
 }

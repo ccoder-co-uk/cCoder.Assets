@@ -1,4 +1,5 @@
 {
   "Path": "Admin/SSOAdmin",
-  "Role": "Administrators"
+  "Role": "Administrators",
+  "IncludeInSubSequentImports": true
 }

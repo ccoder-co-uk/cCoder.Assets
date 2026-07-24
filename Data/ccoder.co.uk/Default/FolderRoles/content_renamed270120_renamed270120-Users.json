@@ -1,4 +1,5 @@
 {
   "Path": "content/renamed270120/renamed270120",
-  "Name": "Users"
+  "Name": "Users",
+  "IncludeInSubSequentImports": true
 }

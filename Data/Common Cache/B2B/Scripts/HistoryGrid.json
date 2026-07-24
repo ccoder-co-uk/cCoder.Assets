@@ -1,0 +1,8 @@
+{
+  "Name": "HistoryGrid",
+  "Content": "function (variables) {\r\n\tvar historyGrid = new GridWidget(variables.element, variables.history);\r\n\thistoryGrid.editable = false;\r\n\thistoryGrid.sortable = false;\r\n\thistoryGrid.filterable = false;\r\n\thistoryGrid.pageable = false;\r\n\thistoryGrid.scrollable = true;\r\n\thistoryGrid.groupable = false;\r\n\thistoryGrid.columns = [\r\n\t\t{ field: \"UserId\", type: \"string\", title: \"[resource_shortdisplayname[UserId]]\", width: 140 },\r\n\t\t{ field: \"Message\", type: \"string\", title: \"[resource_shortdisplayname[Message]]\" },\r\n\t\t{ field: \"CreatedOn\", type: \"date\", title: \"[resource_shortdisplayname[CreatedOn]]\", format: \"{0:\" + type.dateFormat + \" H:mm:ss}\", width: 150 }\r\n\t];\r\n\tvariables.HistoryGrid = historyGrid;\r\n\treturn historyGrid;\r\n}\r\n",
+  "CreatedOn": "2021-09-23T15:17:47.713Z",
+  "LastUpdated": "2021-09-23T15:17:47.713Z",
+  "Key": "B2B",
+  "IncludeInSubSequentImports": true
+}

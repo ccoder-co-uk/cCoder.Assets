@@ -1,4 +1,5 @@
 {
   "Path": "Documentation/Logging/Metadata",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

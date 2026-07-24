@@ -1,4 +1,5 @@
 {
   "Path": "scripts/folderb/folderb",
-  "Name": "Users"
+  "Name": "Users",
+  "IncludeInSubSequentImports": true
 }

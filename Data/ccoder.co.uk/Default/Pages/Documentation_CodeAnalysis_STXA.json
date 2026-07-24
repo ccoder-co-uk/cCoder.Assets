@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXA",
+  "Name": "STXA",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 3,
+  "LastUpdated": "2026-07-23T17:29:46.492437+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>STXA identifies rules for combining several services of one variation. Select a rule to see what The Standard requires and how to correct a violation.</p></header>[component[DetailedNav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "STXA diagnostic family: rules for combining several services of one variation.",
+      "Title": "STXA: Aggregation services"
+    }
+  ],
+  "IncludeInSubSequentImports": true
+}

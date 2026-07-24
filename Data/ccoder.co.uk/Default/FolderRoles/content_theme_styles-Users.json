@@ -1,4 +1,5 @@
 {
   "Path": "content/theme/styles",
-  "Name": "Users"
+  "Name": "Users",
+  "IncludeInSubSequentImports": true
 }

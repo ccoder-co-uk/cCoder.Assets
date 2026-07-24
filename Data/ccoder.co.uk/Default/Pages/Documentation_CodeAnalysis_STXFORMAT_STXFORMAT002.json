@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXFORMAT/STXFORMAT002",
+  "Name": "STXFORMAT002",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 2,
+  "LastUpdated": "2026-07-23T17:29:46.522026+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<style class=\"code-analysis-syntax\">\n.docs-content pre{overflow-x:auto;margin:1rem 0 1.75rem;padding:1.25rem 1.4rem;border:1px solid rgba(20,42,72,.16);border-left:4px solid #0e6fae;border-radius:4px;background:#f7fbfe;color:#10263a}\n.docs-content pre code{white-space:pre;color:inherit;background:transparent;font-size:1rem;line-height:1.65}\n.language-csharp .syntax-comment{color:#587287;font-style:italic}.language-csharp .syntax-string{color:#8a3d12}.language-csharp .syntax-keyword{color:#6542a6;font-weight:700}.language-csharp .syntax-number{color:#096b65}.language-csharp .syntax-type{color:#0a6680;font-weight:600}\n</style><header class=\"docs-page-header\"><h1>[page[title]]</h1><p>Expression-bodied method implementations must start on the line after the =&gt; token.</p></header><div class=\"public-actions docs-rule-actions\"><a class=\"btn btn-primary\" href=\"/Documentation/CodeAnalysis/STXFORMAT\"><span class=\"k-icon k-i-arrow-left\"></span>Back to STXFORMAT rules</a><a class=\"btn btn-secondary\" href=\"https://github.com/hassanhabib/The-Standard\" target=\"_blank\" rel=\"noreferrer\"><span class=\"k-icon k-i-book\"></span>Read The Standard source</a></div><h2>What The Standard says</h2><p>Expression-bodied method implementations must start on the line after the =&gt; token. The analyser reports this as a warning at the declaration or statement that needs attention.</p><h2>Why it matters</h2><p>This rule belongs to the Source formatting family. Following it keeps responsibilities and intent visible to readers, tooling and future maintainers.</p><h2>Bad code example</h2><pre><code class=\"language-csharp\"><span class=\"syntax-comment\">// Violates STXFORMAT002: Expression-bodied method implementations must start on the line after the =&gt; token.</span>\n<span class=\"syntax-type\">ValueTask</span>&lt;<span class=\"syntax-type\">Student</span>&gt; <span class=\"syntax-type\">GetStudent</span>() =&gt; service.<span class=\"syntax-type\">GetStudent</span>();</code></pre><h2>Good code example</h2><pre><code class=\"language-csharp\"><span class=\"syntax-comment\">// Follows STXFORMAT002</span>\n<span class=\"syntax-type\">ValueTask</span>&lt;<span class=\"syntax-type\">Student</span>&gt; <span class=\"syntax-type\">GetStudent</span>() =&gt;\n    service.<span class=\"syntax-type\">GetStudent</span>();</code></pre>"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Expression-bodied method implementations must start on the line after the => token.",
+      "Title": "STXFORMAT002"
+    }
+  ],
+  "IncludeInSubSequentImports": true
+}

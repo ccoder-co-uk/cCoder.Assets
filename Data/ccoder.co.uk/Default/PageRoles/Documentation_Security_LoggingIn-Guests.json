@@ -1,4 +1,5 @@
 {
   "Path": "Documentation/Security/LoggingIn",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

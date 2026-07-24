@@ -1,4 +1,5 @@
 {
   "Path": "Documentation/AppSecurity",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

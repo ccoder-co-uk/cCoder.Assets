@@ -1,9 +1,0 @@
-{
-  "Name": "MyRegistrations",
-  "ResourceKey": "B2B",
-  "Content": "\u003Cdiv name=\u0022tabs\u0022\u003E\r\n\t\u003Cul\u003E\r\n\t\t\u003Cli class=\u0022k-state-active\u0022 \u003E[resource_displayname[useronboarding]]\u003C/li\u003E\r\n\t\t\u003Cli\u003E[resource_displayname[fundingonboarding]]\u003C/li\u003E\r\n\t\u003C/ul\u003E\r\n\t\u003Cdiv class=\u0022tab\u0022 name=\u0022useronboarding\u0022\u003E[component[UserOnboarding]]\u003C/div\u003E\r\n\t\u003Cdiv class=\u0022tab\u0022 name=\u0022registrationofinterest\u0022\u003E[component[RegistrationOfInterest]]\u003C/div\u003E\r\n\u003C/div\u003E",
-  "Script": "MyRegistrations = {\r\n    init: async function (app, container ) {\r\n        app = app || session.app;\r\n        container = container || $(\u0022.component[name=MyRegistrations]\u0022);\r\n\r\n        $(\u0022[name=tabs]\u0022, container).kendoTabStrip({ animation: { open: { effects: \u0022fadeIn\u0022 } } });\r\n\r\n    }\r\n}",
-  "CreatedOn": "2021-09-20T11:26:31.063Z",
-  "LastUpdated": "2021-09-20T11:26:31.063Z",
-  "Key": "B2B"
-}

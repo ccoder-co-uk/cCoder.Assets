@@ -1,0 +1,252 @@
+[
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "category",
+    "DisplayName": "Category",
+    "ShortDisplayName": "Category",
+    "Description": "category",
+    "LastUpdated": "2022-03-18T10:41:54.1896384+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "clientname",
+    "DisplayName": "Client Name",
+    "ShortDisplayName": "Client Name",
+    "Description": "Client Name",
+    "LastUpdated": "2022-03-18T10:41:54.1910031+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "DeleteFolderTitle",
+    "DisplayName": "Delete Folder",
+    "ShortDisplayName": "Delete Folder",
+    "Description": "Delete Folder",
+    "LastUpdated": "2022-03-18T10:41:54.190866+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "flags",
+    "DisplayName": "Flags",
+    "ShortDisplayName": "Flags",
+    "Description": "Flags",
+    "LastUpdated": "2022-03-18T10:41:54.1911709+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "FolderDeletedSuccesfully",
+    "DisplayName": "Folder deleted successfully",
+    "ShortDisplayName": "Folder deleted successfully",
+    "Description": "Folder deleted successfully",
+    "LastUpdated": "2022-03-18T10:41:54.1907128+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "folderdeletedsuccesfully",
+    "DisplayName": "Folder Deleted Successfully",
+    "ShortDisplayName": "Folder Deleted Successfully",
+    "Description": "Folder Deleted Succesfully",
+    "LastUpdated": "2022-03-18T10:41:54.1905599+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "folderproperties",
+    "DisplayName": "Folder Properties",
+    "ShortDisplayName": "Folder Properties",
+    "Description": "Folder Properties",
+    "LastUpdated": "2022-03-18T10:41:54.1907178+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "newfolder",
+    "DisplayName": "New Folder",
+    "ShortDisplayName": "New Folder",
+    "Description": "New Folder",
+    "LastUpdated": "2022-03-18T10:41:54.1906023+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "newname",
+    "DisplayName": "New Name",
+    "ShortDisplayName": "New Name",
+    "Description": "newname",
+    "LastUpdated": "2022-03-18T10:41:54.1905972+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "projectmanageremail",
+    "DisplayName": "Project Manager Email",
+    "ShortDisplayName": "Project Manager Email",
+    "Description": "Project Manager Email",
+    "LastUpdated": "2022-03-18T10:41:54.1911189+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "projectmanagerphone",
+    "DisplayName": "Project Manager Phone",
+    "ShortDisplayName": "Project Manager Phone",
+    "Description": "Project Manager Phone",
+    "LastUpdated": "2022-03-18T10:41:54.1911137+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "rename",
+    "DisplayName": "Rename",
+    "ShortDisplayName": "Rename",
+    "Description": "Rename",
+    "LastUpdated": "2022-03-18T10:41:54.1905717+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "salesemail",
+    "DisplayName": "Sales Email",
+    "ShortDisplayName": "Sales Email",
+    "Description": "Sales Email",
+    "LastUpdated": "2022-03-18T10:41:54.1911073+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "salesphone",
+    "DisplayName": "Sales Phone",
+    "ShortDisplayName": "Sales Phone",
+    "Description": "Sales Phone",
+    "LastUpdated": "2022-03-18T10:41:54.1911023+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "scanclient",
+    "DisplayName": "Scan Client",
+    "ShortDisplayName": "Scan Client",
+    "Description": "Scan Client",
+    "LastUpdated": "2022-03-18T10:41:54.1910281+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "size",
+    "DisplayName": "Size",
+    "ShortDisplayName": "Size",
+    "Description": "Size",
+    "LastUpdated": "2022-03-18T10:41:54.1912277+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "size",
+    "DisplayName": "Size",
+    "ShortDisplayName": "Size",
+    "Description": "Size",
+    "LastUpdated": "2022-03-18T10:41:54.1905395+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "slideshow",
+    "DisplayName": "Slideshow",
+    "ShortDisplayName": "Slideshow",
+    "Description": "Slideshow",
+    "LastUpdated": "2022-03-18T10:41:54.1911658+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "technicalemail",
+    "DisplayName": "Technical Email",
+    "ShortDisplayName": "Technical Email",
+    "Description": "Technical Email",
+    "LastUpdated": "2022-03-18T10:41:54.1910972+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "technicalphone",
+    "DisplayName": "Technical Phone",
+    "ShortDisplayName": "Technical Phone",
+    "Description": "Technical Phone",
+    "LastUpdated": "2022-03-18T10:41:54.1910922+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "themes",
+    "DisplayName": "Themes",
+    "ShortDisplayName": "Themes",
+    "Description": "Themes",
+    "LastUpdated": "2022-03-18T10:41:54.1910702+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "update",
+    "DisplayName": "Update",
+    "ShortDisplayName": "Update",
+    "Description": "Update",
+    "LastUpdated": "2022-03-18T10:41:54.1909611+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "uploadbrandlogo",
+    "DisplayName": "Upload Brand Logo",
+    "ShortDisplayName": "Upload Brand Logo",
+    "Description": "This will appear on the top right of your portal",
+    "LastUpdated": "2022-08-17T11:24:47.6756602+01:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "uploadslideshowimages",
+    "DisplayName": "Upload Slideshow Images",
+    "ShortDisplayName": "Upload Slideshow Images",
+    "Description": "Upload Slideshow Images",
+    "LastUpdated": "2022-08-17T11:25:41.5674445+01:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "view",
+    "DisplayName": "View",
+    "ShortDisplayName": "View",
+    "Description": "View",
+    "LastUpdated": "2022-03-18T10:41:54.1910181+00:00",
+    "IncludeInSubSequentImports": true
+  }
+]

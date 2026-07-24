@@ -1,4 +1,5 @@
 {
   "Path": "Documentation/DocumentManagement/SendingFilestoDMS",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

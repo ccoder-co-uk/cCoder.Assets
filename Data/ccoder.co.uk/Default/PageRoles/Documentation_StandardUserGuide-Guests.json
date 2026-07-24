@@ -1,4 +1,5 @@
 {
   "Path": "Documentation/StandardUserGuide",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

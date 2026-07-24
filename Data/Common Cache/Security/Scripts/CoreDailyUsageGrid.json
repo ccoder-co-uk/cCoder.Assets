@@ -1,0 +1,8 @@
+{
+  "Name": "CoreDailyUsageGrid",
+  "Key": "Security",
+  "Content": "function (vars) {\r\n\tvar g = new GridWidget(vars.element, vars.dataSource);\r\n\tg.groupable = false;\r\n\tg.searchable = false;\r\n\tg.filterable = false;\r\n\tg.pageable = false;\r\n\tg.scrollable = true;\r\n\tg.editable = false;\r\n\tg.exports = true;\r\n\tg.columns = [\r\n\t\t{\r\n\t\t\tfield: \"CreatedOn\",\r\n\t\t\tformat: \"{0:\" + type.dateFormat + \"}\",\r\n\t\t\ttitle: \"[resource_shortdisplayname[CreatedOn]]\",\r\n\t\t\tdescription: \"[resource_description[CreatedOn]]\",\r\n\t\t\ttype: \"date\",\r\n\t\t\twidth: 80\r\n\t\t},\r\n\t\t{\r\n\t\t\tfield: \"Key\",\r\n\t\t\ttitle: \"[resource_shortdisplayname[key]]\",\r\n\t\t\tdescription: \"[resource_description[key]]\",\r\n\t\t\twidth: 100\r\n\t\t},\r\n        {\r\n\t\t\tfield: \"Name\",\r\n\t\t\ttitle: \"[resource_shortdisplayname[Name]]\",\r\n\t\t\tdescription: \"[resource_description[Name]]\"\r\n\t\t}\r\n\t];\r\n\t\r\n\tg.detailTemplate = \"<div name='container'></div>\";\r\n\tg.detailExpand = async function (e) {\r\n\t\tvar report = JSON.parse(this.dataItem(e.masterRow).Value);\r\n\t\tvar container = $(e.detailRow).find(\"div[name=container]\");\r\n\t\tcontainer.html(\"\");\r\n\t\tawait vars.buildDetails(container, report);\r\n\t};\r\n\r\n\treturn g;\r\n}",
+  "CreatedOn": "2022-08-31T09:46:11.576Z",
+  "LastUpdated": "2022-08-31T09:46:11.576Z",
+  "IncludeInSubSequentImports": true
+}

@@ -1,4 +1,5 @@
 {
   "Path": "Documentation/DocumentManagement",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

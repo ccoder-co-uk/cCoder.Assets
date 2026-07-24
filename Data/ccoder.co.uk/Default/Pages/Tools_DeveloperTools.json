@@ -3,7 +3,7 @@
   "Name": "Developer Tools",
   "ShowOnMenus": true,
   "Order": 1,
-  "LastUpdated": "2026-07-22T08:21:44.0606047\u002B00:00",
+  "LastUpdated": "2026-07-22T09:21:44.0606047+01:00",
   "Layout": "StaticContent",
   "Contents": [
     {
@@ -19,5 +19,7 @@
       "Keywords": "Developer Tools",
       "Title": "Developer Tools"
     }
-  ]
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
 }

@@ -3,7 +3,7 @@
 // ---------------------------------------------------------------
 
 using System.Text.Json;
-using cCoder.Packer.Dependencies;
+using cCoder.Packer.Services.Processings.Packing;
 using cCoder.Packer.Models.Exports;
 
 namespace cCoder.Packer.Tests;
@@ -19,7 +19,7 @@ public sealed partial class ExportWriterTests
         using JsonDocument document = JsonDocument.Parse(
             json: """{"Name":"DetailedNav","Content":"<nav></nav>"}""");
 
-        ExportWriterDependency writer = new(dataPath: directory);
+        ExportWriterProcessingService writer = new(dataPath: directory);
 
         ExportRecord[] records =
         [
@@ -27,11 +27,12 @@ public sealed partial class ExportWriterTests
                 Domain: "Common Cache",
                 Category: Path.Combine(path1: "Nav", path2: "Components"),
                 Name: "DetailedNav",
+                Type: "ContentManagement/Component",
                 Value: document.RootElement.Clone()),
         ];
 
         // When
-        IReadOnlyList<string> files = await writer.WriteAsync(
+        IReadOnlyList<string> files = await writer.WriteExportRecordsAsync(
             records: records);
 
         // Then
@@ -48,6 +49,21 @@ public sealed partial class ExportWriterTests
         Assert.Single(collection: files);
         Assert.Equal(expected: expected, actual: files[0]);
         Assert.True(condition: File.Exists(path: expected));
+
+        using JsonDocument written = JsonDocument.Parse(
+            json: await File.ReadAllTextAsync(path: expected));
+
+        Assert.Equal(
+            expected: "ContentManagement/Component",
+            actual: written.RootElement.GetProperty(
+                propertyName: "PackageType")
+                .GetString());
+
+        Assert.False(
+            condition: written.RootElement.GetProperty(
+                propertyName: "IncludeInSubSequentImports")
+                .GetBoolean());
+
         DeleteTestDirectory(directory: directory);
     }
 
@@ -63,7 +79,7 @@ public sealed partial class ExportWriterTests
         using JsonDocument cancel = JsonDocument.Parse(
             json: """{"Name":"cancel","Culture":"en-GB","DisplayName":"Cancel"}""");
 
-        ExportWriterDependency writer = new(dataPath: directory);
+        ExportWriterProcessingService writer = new(dataPath: directory);
 
         ExportRecord[] records =
         [
@@ -71,18 +87,20 @@ public sealed partial class ExportWriterTests
                 Domain: "ContentManagement",
                 Category: Path.Combine(path1: "CMS", path2: "Resources"),
                 Name: "en-GB",
+                Type: "ContentManagement/Resource",
                 Value: save.RootElement.Clone(),
                 CombineValues: true),
             new ExportRecord(
                 Domain: "ContentManagement",
                 Category: Path.Combine(path1: "CMS", path2: "Resources"),
                 Name: "en-GB",
+                Type: "ContentManagement/Resource",
                 Value: cancel.RootElement.Clone(),
                 CombineValues: true),
         ];
 
         // When
-        await writer.WriteAsync(records: records);
+        await writer.WriteExportRecordsAsync(records: records);
 
         // Then
         string file = Path.Combine(

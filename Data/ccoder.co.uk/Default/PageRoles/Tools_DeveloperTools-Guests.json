@@ -1,4 +1,5 @@
 {
   "Path": "Tools/DeveloperTools",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

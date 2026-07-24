@@ -3,7 +3,7 @@
   "Name": "Full Log Stream",
   "ShowOnMenus": true,
   "Order": 0,
-  "LastUpdated": "2026-04-30T19:09:38.9725081\u002B00:00",
+  "LastUpdated": "2026-04-30T20:09:38.9725081+01:00",
   "Layout": "Default",
   "Contents": [
     {
@@ -24,5 +24,7 @@
       "Keywords": "",
       "Title": "Full Log Stream"
     }
-  ]
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
 }

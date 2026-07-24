@@ -1,4 +1,5 @@
 {
   "Path": "icons",
-  "Name": "Users"
+  "Name": "Users",
+  "IncludeInSubSequentImports": true
 }

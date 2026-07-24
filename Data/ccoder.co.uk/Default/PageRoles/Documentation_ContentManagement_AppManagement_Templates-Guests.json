@@ -1,4 +1,5 @@
 {
   "Path": "Documentation/ContentManagement/AppManagement/Templates",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

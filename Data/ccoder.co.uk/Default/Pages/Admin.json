@@ -1,10 +1,10 @@
 {
   "Path": "Admin",
   "Name": "Admin",
-  "ResourceKey": "",
+  "ResourceKey": "Default",
   "ShowOnMenus": true,
   "Order": 9,
-  "LastUpdated": "2026-04-30T19:09:38.4066886\u002B00:00",
+  "LastUpdated": "2026-04-30T20:09:38.4066886+01:00",
   "Layout": "Default",
   "Contents": [
     {
@@ -20,5 +20,6 @@
       "Keywords": "Admin",
       "Title": "Admin"
     }
-  ]
+  ],
+  "IncludeInSubSequentImports": true
 }

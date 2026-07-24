@@ -1,0 +1,30 @@
+{
+  "Path": "Admin/Workflows",
+  "Name": "Workflows",
+  "ResourceKey": "Workflow",
+  "ShowOnMenus": true,
+  "Order": 3,
+  "LastUpdated": "2026-07-21T22:24:44.9685353+01:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[WorkflowManagement]]"
+    },
+    {
+      "CultureId": "fr-FR",
+      "Name": "body",
+      "Html": "[component[WorkflowManagement]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Create, manage, run and report on application workflows.",
+      "Keywords": "Workflow Management, Business Processes",
+      "Title": "Workflows"
+    }
+  ],
+  "IncludeInSubSequentImports": true
+}

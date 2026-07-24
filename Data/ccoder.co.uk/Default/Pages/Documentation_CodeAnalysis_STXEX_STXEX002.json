@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXEX/STXEX002",
+  "Name": "STXEX002",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 2,
+  "LastUpdated": "2026-07-23T17:29:46.513474+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<style class=\"code-analysis-syntax\">\n.docs-content pre{overflow-x:auto;margin:1rem 0 1.75rem;padding:1.25rem 1.4rem;border:1px solid rgba(20,42,72,.16);border-left:4px solid #0e6fae;border-radius:4px;background:#f7fbfe;color:#10263a}\n.docs-content pre code{white-space:pre;color:inherit;background:transparent;font-size:1rem;line-height:1.65}\n.language-csharp .syntax-comment{color:#587287;font-style:italic}.language-csharp .syntax-string{color:#8a3d12}.language-csharp .syntax-keyword{color:#6542a6;font-weight:700}.language-csharp .syntax-number{color:#096b65}.language-csharp .syntax-type{color:#0a6680;font-weight:600}\n</style><header class=\"docs-page-header\"><h1>[page[title]]</h1><p>Every TryCatch overload must classify, wrap, and preserve dependency exceptions.</p></header><div class=\"public-actions docs-rule-actions\"><a class=\"btn btn-primary\" href=\"/Documentation/CodeAnalysis/STXEX\"><span class=\"k-icon k-i-arrow-left\"></span>Back to STXEX rules</a><a class=\"btn btn-secondary\" href=\"https://github.com/hassanhabib/The-Standard/blob/master/2.%20Services/2.1%20Foundations/2.1%20Foundations.md\" target=\"_blank\" rel=\"noreferrer\"><span class=\"k-icon k-i-book\"></span>Read The Standard source</a></div><h2>What The Standard says</h2><p>Every TryCatch overload must classify, wrap, and preserve dependency exceptions. The analyser reports this as a warning at the declaration or statement that needs attention.</p><h2>Why it matters</h2><p>This rule belongs to the Exception handling family. Following it keeps responsibilities and intent visible to readers, tooling and future maintainers.</p><h2>Bad code example</h2><pre><code class=\"language-csharp\"><span class=\"syntax-comment\">// Violates STXEX002: Every TryCatch overload must classify, wrap, and preserve dependency exceptions.</span>\n<span class=\"syntax-keyword\">catch</span> (<span class=\"syntax-type\">StudentDependencyException</span> exception) { <span class=\"syntax-keyword\">throw</span>; }</code></pre><h2>Good code example</h2><pre><code class=\"language-csharp\"><span class=\"syntax-comment\">// Follows STXEX002</span>\n<span class=\"syntax-keyword\">catch</span> (<span class=\"syntax-type\">StudentDependencyException</span> exception)\n{\n    <span class=\"syntax-keyword\">throw</span> <span class=\"syntax-keyword\">new</span> <span class=\"syntax-type\">StudentServiceDependencyException</span>(message, exception);\n}</code></pre>"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Every TryCatch overload must classify, wrap, and preserve dependency exceptions.",
+      "Title": "STXEX002"
+    }
+  ],
+  "IncludeInSubSequentImports": true
+}

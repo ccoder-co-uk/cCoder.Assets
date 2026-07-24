@@ -1,0 +1,10 @@
+{
+  "AppId": 11,
+  "ResourceKey": "Default",
+  "Content": "\n[component[TransactionCountByMonth]]\n[component[TransactionValueByMonth]]\n[component[ActiveCompanies]]\n\n<style>\n    .component[name=Summary] { display:flex; flex-direction: row; flex:1 }\n    .component[name=Summary] > .component { max-height: 340px; max-width: 550px; }\n    .component[name=stats] > [name=values] { display: none; } \n</style>",
+  "Script": "Summary = {\n\tinit: function (app, container) { }\n};",
+  "Name": "Summary",
+  "Description": null,
+  "Key": "Default",
+  "IncludeInSubSequentImports": true
+}

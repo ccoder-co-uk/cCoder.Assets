@@ -1,8 +1,9 @@
 {
-  "$type": "\u003C\u003Ef__AnonymousType5\u00608[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.DateTimeOffset, System.Private.CoreLib]], cCoder.Workflow",
+  "$type": "<>f__AnonymousType5`8[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.DateTimeOffset, System.Private.CoreLib]], cCoder.Workflow",
   "ProcessName": "cCoder Ltd",
   "Name": "fucky",
   "Description": "New Flow",
-  "DefinitionJson": "{\u0022Name\u0022:\u0022fucky\u0022,\u0022RequiredRoles\u0022:\u0022Administrators,Users,Guests\u0022,\u0022Links\u0022:[],\u0022Activities\u0022:[{\u0022$type\u0022:\u0022Core.Objects.Workflow.Activities.Start, Core.Objects\u0022,\u0022AuthToken\u0022:null,\u0022Data\u0022:null,\u0022Ref\u0022:\u0022Start\u0022,\u0022State\u0022:0}]}",
-  "LastUpdated": "2023-11-05T07:11:21.4728394\u002B00:00"
+  "DefinitionJson": "{\"Name\":\"fucky\",\"RequiredRoles\":\"Administrators,Users,Guests\",\"Links\":[],\"Activities\":[{\"$type\":\"Core.Objects.Workflow.Activities.Start, Core.Objects\",\"AuthToken\":null,\"Data\":null,\"Ref\":\"Start\",\"State\":0}]}",
+  "LastUpdated": "2023-11-05T07:11:21.4728394+00:00",
+  "IncludeInSubSequentImports": true
 }

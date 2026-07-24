@@ -1,7 +1,0 @@
-{
-  "Name": "B2BDailyUsageTransactionDetailsGrid",
-  "Key": "Tenant",
-  "Content": "function (vars) {\r\n\tvar g = new GridWidget(vars.element, vars.dataSource);\r\n\tg.groupable = false;\r\n\tg.searchable = false;\r\n\tg.pageable = false;\r\n\tg.scrollable = false;\r\n\tg.editable = false;\r\n\tg.exports = true;\r\n\t\r\n\tg.columns = [\r\n\t\t{\r\n\t\t\tfield: \u0022Type\u0022,\r\n\t\t\ttitle: \u0022[resource_shortdisplayname[Type]]\u0022,\r\n\t\t\tdescription: \u0022[resource_description[Type]]\u0022,\r\n\t\t\ttype: \u0022string\u0022,\r\n\t\t\twidth: 150\r\n\t\t},\r\n\t\t{\r\n\t\t\tfield: \u0022Currency\u0022,\r\n\t\t\ttitle: \u0022[resource_shortdisplayname[Currency]]\u0022,\r\n\t\t\tdescription: \u0022[resource_description[Currency]]\u0022,\r\n\t\t\ttype: \u0022string\u0022,\r\n\t\t\twidth: 80\r\n\t\t},\r\n\t\t{\r\n\t\t\tfield: \u0022Gross\u0022,\r\n\t\t\ttitle: \u0022[resource_shortdisplayname[Gross]]\u0022,\r\n\t\t\tdescription: \u0022[resource_description[Gross]]\u0022,\r\n\t\t\ttype: \u0022number\u0022,\r\n\t\t\tformat: \u0022{0:\u0022 \u002B type.moneyFormat \u002B \u0022}\u0022,\r\n\t\t\twidth: 80\r\n\t\t},\r\n\t\t{\r\n\t\t\tfield: \u0022Net\u0022,\r\n\t\t\ttitle: \u0022[resource_shortdisplayname[Net]]\u0022,\r\n\t\t\tdescription: \u0022[resource_description[Net]]\u0022,\r\n\t\t\ttype: \u0022number\u0022,\r\n\t\t\tformat: \u0022{0:\u0022 \u002B type.moneyFormat \u002B \u0022}\u0022,\r\n\t\t\twidth: 80\r\n\t\t}\r\n\t];\r\n\t\r\n\treturn g;\r\n}",
-  "CreatedOn": "2022-09-06T14:45:49.360Z",
-  "LastUpdated": "2022-09-06T14:45:49.360Z"
-}

@@ -1,4 +1,5 @@
 {
   "Path": "Admin/PortalAdmin",
-  "Role": "Administrators"
+  "Role": "Administrators",
+  "IncludeInSubSequentImports": true
 }

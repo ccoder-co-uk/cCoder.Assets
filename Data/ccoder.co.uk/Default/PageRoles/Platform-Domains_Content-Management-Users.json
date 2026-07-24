@@ -1,4 +1,5 @@
 {
   "Path": "Platform-Domains/Content-Management",
-  "Role": "Users"
+  "Role": "Users",
+  "IncludeInSubSequentImports": true
 }

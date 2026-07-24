@@ -1,4 +1,5 @@
 {
   "Path": "Admin/Security/Roles",
-  "Role": "Administrators"
+  "Role": "Administrators",
+  "IncludeInSubSequentImports": true
 }

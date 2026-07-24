@@ -1,0 +1,9 @@
+{
+  "Name": "Etc",
+  "Key": "Default",
+  "ResourceKey": "Default",
+  "Script": "Etc = {\n    init: async function (app, container, observable) {\n        app = app || session.app;\n        container = container || $(\".component[name=Etc]\");\n\n        if(!observable)\n            return;\n        \n        kendo.bind(container, observable);\n\n        $(\"[name=cultureFlagLayout]\", container).kendoDropDownList({\n            dataSource: [\n                {key: \"text\", text: \"[resource_displayname[text]]\"},\n                {key: \"picture\", text: \"[resource_displayname[picture]]\"}\n            ],\n            dataTextField: \"text\",\n            dataValueField: \"key\",\n        });\n    }\n}",
+  "Content": "<div class=\"row\">\n    <div class=\"col-md-6\">\n        <div class=\"input-group input-group-sm mb-1\">\n            <span class=\"input-group-text\">[resource_displayname[paintLoginMid]]</span>\n            <div class=\"input-group-text\">\n                <input type=\"checkbox\" class=\"form-check-input\" data-bind=\"value: colours.paintLoginMid\" />\n            </div>\n        </div>\n\n        <div class=\"input-group input-group-sm mb-1\">\n            <span class=\"input-group-text\">[resource_displayname[paintLoginBottom]]</span>\n            <div class=\"input-group-text\">\n                <input type=\"checkbox\" class=\"form-check-input\" data-bind=\"value: colours.paintLoginBottom\" />\n            </div>\n        </div>\n\n        <div class=\"input-group input-group-sm mb-1\">\n            <span class=\"input-group-text\">[resource_displayname[font]]</span>\n            <input type=\"text\" class=\"form-control\" name=\"cultureFlagLayout\" data-bind=\"value: cultureFlagLayout\" />\n        </div>\n    </div>\n</div>",
+  "LastUpdated": "2026-04-30T20:09:37.5287823+01:00",
+  "IncludeInSubSequentImports": true
+}

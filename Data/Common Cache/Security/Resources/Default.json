@@ -1,0 +1,121 @@
+[
+  {
+    "Name": "apihits",
+    "Key": "Security",
+    "DisplayName": "Api Hits",
+    "ShortDisplayName": "Api Hits",
+    "Description": "Api Hits",
+    "CreatedOn": "2023-01-04T12:49:01.009Z",
+    "LastUpdated": "2023-01-04T12:49:01.009Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "b2b",
+    "Key": "Security",
+    "DisplayName": "B2B",
+    "ShortDisplayName": "B2B",
+    "Description": "B2B",
+    "CreatedOn": "2023-01-04T12:45:37.019Z",
+    "LastUpdated": "2023-01-04T12:45:37.019Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "core",
+    "Key": "Security",
+    "DisplayName": "Core",
+    "ShortDisplayName": "Core",
+    "Description": "Core",
+    "CreatedOn": "2023-01-04T12:45:15.149Z",
+    "LastUpdated": "2023-01-04T12:45:15.149Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "Security",
+    "Name": "endpoint",
+    "DisplayName": "Endpoint",
+    "ShortDisplayName": "Endpoint",
+    "Description": "Endpoint",
+    "LastUpdated": "2023-03-23T16:05:36.6000531+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "Security",
+    "Name": "endpoint",
+    "DisplayName": "Endpoint",
+    "ShortDisplayName": "Endpoint",
+    "Description": "Endpoint",
+    "LastUpdated": "2023-03-23T16:05:36.6000531+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "endpoint",
+    "Key": "Security",
+    "DisplayName": "Endpoint",
+    "ShortDisplayName": "Endpoint",
+    "Description": "Endpoint",
+    "CreatedOn": "2023-01-04T12:50:45.442Z",
+    "LastUpdated": "2023-01-04T12:50:45.442Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "hits",
+    "Key": "Security",
+    "DisplayName": "Hits",
+    "ShortDisplayName": "Hits",
+    "Description": "Hits",
+    "CreatedOn": "2023-01-04T12:50:12.99Z",
+    "LastUpdated": "2023-01-04T12:50:12.99Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "page",
+    "Key": "Security",
+    "DisplayName": "Page",
+    "ShortDisplayName": "Page",
+    "Description": "Page",
+    "CreatedOn": "2023-01-04T12:49:40.538Z",
+    "LastUpdated": "2023-01-04T12:49:40.538Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "pagehits",
+    "Key": "Security",
+    "DisplayName": "Page Hits",
+    "ShortDisplayName": "Page Hits",
+    "Description": "Page Hits",
+    "CreatedOn": "2023-01-04T12:48:38.72Z",
+    "LastUpdated": "2023-01-04T12:48:38.72Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "sessions",
+    "Key": "Security",
+    "DisplayName": "Sessions",
+    "ShortDisplayName": "Sessions",
+    "Description": "Sessions",
+    "CreatedOn": "2023-01-04T12:48:08.116Z",
+    "LastUpdated": "2023-01-04T12:48:08.116Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "top",
+    "Key": "Security",
+    "DisplayName": "Top",
+    "ShortDisplayName": "Top",
+    "Description": "Top",
+    "CreatedOn": "2023-01-04T12:46:08.791Z",
+    "LastUpdated": "2023-01-04T12:46:08.791Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  }
+]

@@ -1,4 +1,5 @@
 {
   "Path": "Tools",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

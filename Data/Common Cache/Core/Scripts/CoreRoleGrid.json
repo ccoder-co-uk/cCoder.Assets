@@ -1,7 +1,0 @@
-{
-  "Name": "CoreRoleGrid",
-  "Content": "async function (variables) {\r\n    var roleGrid = new GridWidget(variables.element, variables.dataSource);\r\n    roleGrid.editable = false;\r\n    roleGrid.groupable = false;\r\n    roleGrid.pageable = false;\r\n    roleGrid.change = function (e) {\r\n        var selectedRows = this.select();\r\n        variables.SelectedCoreRoles = [];\r\n        for (var i = 0; i \u003C selectedRows.length; i\u002B\u002B) {\r\n            var dataItem = this.dataItem(selectedRows[i]);\r\n            variables.SelectedCoreRoles.push(dataItem);\r\n        }\r\n    };\r\n    roleGrid.sortable = true;\r\n    roleGrid.filterable = true;\r\n    roleGrid.columns =\r\n        [{ selectable: (variables.readonly) ? false : true, width: \u002250px\u0022 },\r\n        { field: \u0022Name\u0022, title: \u0022[resource_shortdisplayname[name]]\u0022 }\r\n        ];\r\n    variables.CoreRoleGrid = roleGrid;\r\n}",
-  "CreatedOn": "2021-09-24T09:23:11.150Z",
-  "LastUpdated": "2021-09-24T09:23:11.150Z",
-  "Key": "Core"
-}

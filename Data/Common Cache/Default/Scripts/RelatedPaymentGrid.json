@@ -1,0 +1,8 @@
+{
+  "Name": "RelatedPaymentGrid",
+  "Content": "function (vars) {\n\tvar g  = new GridWidget(vars.element, vars.payments);\n\tg.editable = false;\n\tg.sortable = false;\n\tg.filterable = false;\n\tg.pageable = false;\n\tg.scrollable = false;\n\tg.groupable = false;\n\tg.commands.push({ name: \"view\", icon: \"k-i-share\", text: \"[resource_shortdisplayname[View]]\", href: \"/Payments/Payment?Id=#:RemittanceAdviceId#\" });\n\tg.columns = [\n\t\t{ field: \"LineNumber\", type: \"number\", title: \"[resource_shortdisplayname[linenumber]]\", width: 70 },\n\t\t{ field: \"PaymentReference\", type: \"string\", title: \"[resource_shortdisplayname[paymentreference]]\", },\n\t\t{ field: \"Description\", type: \"string\", title: \"[resource_shortdisplayname[Description]]\" },\n\t\t{ field: \"LinePrice\", type: \"number\", title: \"[resource_shortdisplayname[LinePrice]]\", attributes: { style: \"text-align: right;\" }, format: \"{0:\" + type.moneyFormat + \"}\", width: 90, attributes:{style:\"text-align:right;\"}},\n\t\t{ field: \"CurrencyId\", type: \"string\", title: \"[resource_shortdisplayname[CurrencyId]]\", width: 70 },\n\t\t{ field: \"LastUpdated\", type: \"date\", title: \"[resource_shortdisplayname[LastUpdated]]\", format: \"{0:\" + type.dateFormat + \"}\", width: 110 },\n\t];\n\tvars.RelatedPaymentGrid = g;\n}\n",
+  "CreatedOn": "2021-09-23T15:17:48.841Z",
+  "LastUpdated": "2021-09-23T15:17:48.841Z",
+  "Key": "Default",
+  "IncludeInSubSequentImports": true
+}

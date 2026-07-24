@@ -1,4 +1,5 @@
 {
   "Path": "The-Value-of-Core-Business-Systems",
-  "Role": "Users"
+  "Role": "Users",
+  "IncludeInSubSequentImports": true
 }

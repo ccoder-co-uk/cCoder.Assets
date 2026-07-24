@@ -1,7 +1,0 @@
-{
-  "Name": "CoreDailyUsagePageDetailsGrid",
-  "Key": "Tenant",
-  "Content": "function (vars) {\r\n\tvar g = new GridWidget(vars.element, vars.dataSource);\r\n\tg.groupable = false;\r\n\tg.searchable = false;\r\n\tg.pageable = false;\r\n\tg.scrollable = false;\r\n\tg.editable = false;\r\n\tg.exports = true;\r\n\t\r\n\tg.columns = [\r\n\t\t{\r\n\t\t\tfield: \u0022Page\u0022,\r\n\t\t\ttitle: \u0022[resource_shortdisplayname[Page]]\u0022,\r\n\t\t\tdescription: \u0022[resource_description[Page]]\u0022,\r\n\t\t\ttype: \u0022string\u0022\r\n\t\t},\r\n\t\t{\r\n\t\t\tfield: \u0022Sessions\u0022,\r\n\t\t\ttitle: \u0022[resource_shortdisplayname[Sessions]]\u0022,\r\n\t\t\tdescription: \u0022[resource_description[Sessions]]\u0022,\r\n\t\t\twidth: 60\r\n\t\t},\r\n        {\r\n\t\t\tfield: \u0022Hits\u0022,\r\n\t\t\ttitle: \u0022[resource_shortdisplayname[Hits]]\u0022,\r\n\t\t\tdescription: \u0022[resource_description[Hits]]\u0022,\r\n\t\t\twidth: 60\r\n\t\t}\r\n\t];\r\n\treturn g;\r\n}",
-  "CreatedOn": "2022-08-31T17:45:42.898Z",
-  "LastUpdated": "2022-08-31T17:45:42.898Z"
-}

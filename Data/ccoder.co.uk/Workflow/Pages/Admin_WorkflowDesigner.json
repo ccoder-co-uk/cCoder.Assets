@@ -1,0 +1,30 @@
+{
+  "Path": "Admin/WorkflowDesigner",
+  "Name": "Workflow Designer",
+  "ResourceKey": "Workflow",
+  "ShowOnMenus": false,
+  "Order": 0,
+  "LastUpdated": "2026-04-30T20:09:38.8956467+01:00",
+  "Layout": "Workflow",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[floweditor]]"
+    },
+    {
+      "CultureId": "en-GB",
+      "Name": "body",
+      "Html": "[component[floweditor]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Workflow Designer",
+      "Keywords": "Workflow Designer",
+      "Title": "Workflow Designer"
+    }
+  ],
+  "IncludeInSubSequentImports": true
+}

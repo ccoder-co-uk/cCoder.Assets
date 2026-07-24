@@ -1,0 +1,371 @@
+[
+  {
+    "Name": "animation",
+    "Key": "DocumentManagement",
+    "DisplayName": "Animation",
+    "ShortDisplayName": "Animation",
+    "Description": "Animation",
+    "CreatedOn": "2022-10-26T09:52:09.72Z",
+    "LastUpdated": "2022-10-26T09:52:09.72Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "animation",
+    "DisplayName": "Animation",
+    "ShortDisplayName": "Animation",
+    "Description": "Animation",
+    "LastUpdated": "2023-03-13T15:31:40.4033275+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "applyrecursively",
+    "Key": "DocumentManagement",
+    "DisplayName": "Apply Recursively",
+    "ShortDisplayName": "Apply Recursively",
+    "Description": "Apply Recursively",
+    "CreatedOn": "2022-11-16T16:45:43.703Z",
+    "LastUpdated": "2022-11-16T16:45:43.703Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "brandlogo",
+    "Key": "DocumentManagement",
+    "DisplayName": "Brand Logo",
+    "ShortDisplayName": "Brand Logo",
+    "Description": "Brand Logo",
+    "CreatedOn": "2022-10-26T09:50:47.082Z",
+    "LastUpdated": "2022-10-26T09:50:47.082Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "brandlogo",
+    "DisplayName": "Brand Logo",
+    "ShortDisplayName": "Brand Logo",
+    "Description": "Brand Logo",
+    "LastUpdated": "2023-03-13T15:28:16.2486039+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "DeleteFolderTitle",
+    "DisplayName": "Delete Folder",
+    "ShortDisplayName": "Delete Folder",
+    "Description": "Delete Folder",
+    "LastUpdated": "2022-03-18T10:41:54.190866+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 5924,
+    "AppId": 4,
+    "Key": "DocumentManagement",
+    "Culture": "",
+    "DisplayName": "File saved",
+    "ShortDisplayName": "File saved",
+    "Name": "filesaved",
+    "Description": "File saved",
+    "LastUpdated": "2021-07-07T09:42:12.1340672Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [],
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "FolderDeletedSuccesfully",
+    "DisplayName": "Folder deleted successfully",
+    "ShortDisplayName": "Folder deleted successfully",
+    "Description": "Folder deleted successfully",
+    "LastUpdated": "2022-03-18T10:41:54.1907128+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "folderproperties",
+    "DisplayName": "Folder Properties",
+    "ShortDisplayName": "Folder Properties",
+    "Description": "Folder Properties",
+    "LastUpdated": "2022-03-18T10:41:54.1907178+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 25625,
+    "AppId": 4,
+    "Key": "DocumentManagement",
+    "Culture": "",
+    "DisplayName": "Further Information",
+    "ShortDisplayName": "Further Information",
+    "Name": "furtherinformation",
+    "Description": "Further Information",
+    "LastUpdated": "2021-07-07T09:42:12.1361273Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 25624,
+        "AppId": 4,
+        "Key": "Default",
+        "Culture": "fr-FR",
+        "DisplayName": "Informations supplémentaires",
+        "ShortDisplayName": "Infos suppl",
+        "Name": "furtherinformation",
+        "Description": "Informations supplémentaires",
+        "LastUpdated": "2021-07-07T09:42:12.1361201Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ],
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 25769,
+    "AppId": 4,
+    "Key": "DocumentManagement",
+    "Culture": "",
+    "DisplayName": "Further Information",
+    "ShortDisplayName": "Further Information",
+    "Name": "furtherinformation",
+    "Description": "Further Information",
+    "LastUpdated": "2021-07-07T09:42:12.1362502Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 25770,
+        "AppId": 4,
+        "Key": "Account",
+        "Culture": "fr-FR",
+        "DisplayName": "Informations supplémentaires",
+        "ShortDisplayName": "Informations supplémentaires",
+        "Name": "furtherinformation",
+        "Description": "Informations supplémentaires",
+        "LastUpdated": "2021-07-07T09:42:12.136259Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ],
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 25623,
+    "AppId": 4,
+    "Key": "DocumentManagement",
+    "Culture": "",
+    "DisplayName": "Further Information",
+    "ShortDisplayName": "Further Information",
+    "Name": "furtherinformation",
+    "Description": "Further Information",
+    "LastUpdated": "2021-07-07T09:42:12.136113Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 25622,
+        "AppId": 4,
+        "Key": "DMS",
+        "Culture": "fr-FR",
+        "DisplayName": "Informations supplémentaires",
+        "ShortDisplayName": "Informations supplémentaires",
+        "Name": "furtherinformation",
+        "Description": "Informations supplémentaires",
+        "LastUpdated": "2021-07-07T09:42:12.1361058Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ],
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 25771,
+    "AppId": 4,
+    "Key": "DocumentManagement",
+    "Culture": "",
+    "DisplayName": "Further Information",
+    "ShortDisplayName": "Further Information",
+    "Name": "furtherinformation",
+    "Description": "Further Information",
+    "LastUpdated": "2021-07-07T09:42:12.1362665Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 25772,
+        "AppId": 4,
+        "Key": "furtherinformation",
+        "Culture": "fr",
+        "DisplayName": "Informations supplémentaires",
+        "ShortDisplayName": "Informations supplémentaires",
+        "Name": "furtherinformation",
+        "Description": "Informations supplémentaires",
+        "LastUpdated": "2021-07-07T09:42:12.136274Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ],
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 25611,
+    "AppId": 4,
+    "Key": "DocumentManagement",
+    "Culture": "",
+    "DisplayName": "Further Information",
+    "ShortDisplayName": "Further Information",
+    "Name": "furtherinformation",
+    "Description": "Further Information",
+    "LastUpdated": "2021-07-07T09:42:12.1360381Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 25615,
+        "AppId": 4,
+        "Key": "Marketing",
+        "Culture": "fr-FR",
+        "DisplayName": "Informations supplémentaires",
+        "ShortDisplayName": "Informations supplémentaires",
+        "Name": "furtherinformation",
+        "Description": "Informations supplémentaires",
+        "LastUpdated": "2021-07-07T09:42:12.1360685Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ],
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 25612,
+    "AppId": 4,
+    "Key": "DocumentManagement",
+    "Culture": "",
+    "DisplayName": "Legal",
+    "ShortDisplayName": "Legal",
+    "Name": "legal",
+    "Description": "Legal",
+    "LastUpdated": "2021-07-07T09:42:12.1360454Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 25614,
+        "AppId": 4,
+        "Key": "Marketing",
+        "Culture": "fr-FR",
+        "DisplayName": "Informations légales",
+        "ShortDisplayName": "Informations légales",
+        "Name": "legal",
+        "Description": "Informations légales",
+        "LastUpdated": "2021-07-07T09:42:12.1360613Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ],
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "newfolder",
+    "DisplayName": "New Folder",
+    "ShortDisplayName": "New Folder",
+    "Description": "New Folder",
+    "LastUpdated": "2022-03-18T10:41:54.1906023+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "newname",
+    "DisplayName": "New Name",
+    "ShortDisplayName": "New Name",
+    "Description": "newname",
+    "LastUpdated": "2022-03-18T10:41:54.1905972+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "projectlogo",
+    "DisplayName": "Project Logo",
+    "ShortDisplayName": "Project Logo",
+    "Description": "Project Logo",
+    "LastUpdated": "2023-03-13T15:29:51.8342716+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "projectlogo",
+    "Key": "DocumentManagement",
+    "DisplayName": "Project Logo",
+    "ShortDisplayName": "Project Logo",
+    "Description": "Project Logo",
+    "CreatedOn": "2022-10-26T09:51:19.727Z",
+    "LastUpdated": "2022-10-26T09:51:19.727Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "rename",
+    "DisplayName": "Rename",
+    "ShortDisplayName": "Rename",
+    "Description": "Rename",
+    "LastUpdated": "2022-03-18T10:41:54.1905717+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "themelist",
+    "Key": "DocumentManagement",
+    "DisplayName": "Theme List",
+    "ShortDisplayName": "Theme List",
+    "Description": "Theme List",
+    "CreatedOn": "2022-10-26T09:53:01.318Z",
+    "LastUpdated": "2022-10-26T09:53:01.318Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "unpackzipto",
+    "Key": "DocumentManagement",
+    "DisplayName": "Unpack Zip Into",
+    "ShortDisplayName": "Unpack Zip Into",
+    "Description": "Unpack Zip Into",
+    "CreatedOn": "2023-01-04T10:27:16.048Z",
+    "LastUpdated": "2023-01-04T10:27:16.048Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "welcometofurtherinfo",
+    "Key": "DocumentManagement",
+    "DisplayName": "Welcome to the presentation of the [app[name]] supplier programme.\t",
+    "ShortDisplayName": "Welcome to the presentation of the [app[name]] supplier programme.\t",
+    "Description": "Welcome to the presentation of the [app[name]] supplier programme.\t",
+    "CreatedOn": "2022-12-01T15:54:39.41Z",
+    "LastUpdated": "2022-12-01T15:54:39.41Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  }
+]

@@ -1,4 +1,5 @@
 {
   "Path": "Login",
-  "Role": "Users"
+  "Role": "Users",
+  "IncludeInSubSequentImports": true
 }

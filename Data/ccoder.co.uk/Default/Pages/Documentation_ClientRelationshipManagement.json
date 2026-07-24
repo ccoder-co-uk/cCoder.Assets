@@ -3,13 +3,13 @@
   "Name": "Client Relationship Management",
   "ShowOnMenus": true,
   "Order": 30,
-  "LastUpdated": "2026-07-21T16:11:04.681572\u002B00:00",
+  "LastUpdated": "2026-07-21T17:11:04.681572+01:00",
   "Layout": "Documentation",
   "Contents": [
     {
       "CultureId": "",
       "Name": "body",
-      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E[component[DetailedNav]]"
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>[page[description]]</p></header>[component[DetailedNav]]"
     }
   ],
   "PageInfo": [
@@ -18,5 +18,7 @@
       "Description": "Guides for coordinating accounts, opportunities and delivery activity through the cCoder CRM domain.",
       "Title": "Client Relationship Management"
     }
-  ]
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
 }

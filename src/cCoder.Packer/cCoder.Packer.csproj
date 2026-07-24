@@ -2,14 +2,17 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <AssemblyName>packer</AssemblyName>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="cCoder.CodeAnalysis" Version="2026.7.23.1143" />
+    <PackageReference Include="cCoder.CodeAnalysis" Version="2026.7.24.1152" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.10" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.10" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.10" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.10" />
   </ItemGroup>
 
   <ItemGroup>

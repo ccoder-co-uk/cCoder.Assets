@@ -1,4 +1,5 @@
 {
   "Path": "Documentation/Logging/LogStream",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

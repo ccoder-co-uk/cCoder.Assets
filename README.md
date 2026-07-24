@@ -1,11 +1,33 @@
 # cCoder.Assets
 
-Source-controlled cCoder components, resources, scripts, and generated packages.
+Source-controlled cCoder components, resources, scripts, and generated
+installation packages.
 
-## Unpacking assets
+## Running the packer
 
-Run the packer from the repository root. It prompts for credentials unless
-`CCODER_USER` and `CCODER_PASSWORD` are set.
+Run commands from the repository root:
+
+```powershell
+dotnet run --project src/cCoder.Packer -- {command}
+```
+
+The default paths come from `appsettings.json` beside the executable:
+
+```json
+{
+  "Packer": {
+    "DataPath": "Data",
+    "PackagesPath": "Packages"
+  }
+}
+```
+
+Use `-dataPath {path}` or `-packagesPath {path}` to override either path for one
+command.
+
+## Commands
+
+### Unpack the common cache
 
 ```powershell
 dotnet run --project src/cCoder.Packer -- `
@@ -13,7 +35,8 @@ dotnet run --project src/cCoder.Packer -- `
   -from https://ccoder.co.uk/
 ```
 
-Common-cache objects are written beneath:
+This authenticates against the source application, exports every supported
+common-cache business-object type, and splits the export into reviewable files:
 
 ```text
 Data/Common Cache/{resource key}/Components/{name}.json
@@ -21,7 +44,7 @@ Data/Common Cache/{resource key}/Resources/{culture}.json
 Data/Common Cache/{resource key}/Scripts/{name}.json
 ```
 
-To unpack the app associated with the source hostname:
+### Unpack an application
 
 ```powershell
 dotnet run --project src/cCoder.Packer -- `
@@ -29,16 +52,110 @@ dotnet run --project src/cCoder.Packer -- `
   -from https://ccoder.co.uk/
 ```
 
-App objects are grouped by their owning domain:
+This exports every business-object type in the application package and groups
+the files by source domain, resource key, and type:
 
 ```text
 Data/{source domain}/{resource key}/Components/{name}.json
 Data/{source domain}/{resource key}/Resources/{culture}.json
 Data/{source domain}/{resource key}/Scripts/{name}.json
+Data/{source domain}/{resource key}/{other type}/{name}.json
 ```
 
-Use `-appId {id}` when the hostname does not uniquely identify an app.
-An app unpack includes every business-object type returned by the package export
-API. Types without a resource key are placed beneath `Default`. Resources
-sharing a resource key and culture are kept together as a JSON array in that
-key and culture's file.
+Use `-appId {id}` when the source hostname does not uniquely identify an
+application. Credentials can be supplied with `-user` and `-password`; when
+omitted, the packer uses `CCODER_USER` and `CCODER_PASSWORD` or prompts at the
+console.
+
+Resources sharing a key and culture are stored together as a JSON array.
+Types without a resource key are placed beneath `Default`.
+
+Every split business object contains two packaging fields:
+
+- `PackageType` preserves the API type needed when rebuilding packages.
+- `IncludeInSubSequentImports` controls the package destination. New exports
+  default this value to `false`; set it to `true` for baseline data required
+  during first-time setup.
+
+### Build packages
+
+```powershell
+dotnet run --project src/cCoder.Packer -- -pack
+```
+
+This rebuilds the complete `Packages` directory from every JSON file under
+`Data`. Existing generated package output is replaced. Objects are grouped into
+one package per resource key and API type.
+
+Regular common-cache and application packages use matching structures:
+
+```text
+Packages/Common Cache/{resource key}/{API type}.json
+Packages/App Packages/{source domain}/{resource key}/{API type}.json
+```
+
+Objects whose `IncludeInSubSequentImports` value is `true` are collected in the
+first-time-setup tree:
+
+```text
+Packages/FirstTimeSetup/Common Cache/{resource key}/{API type}.json
+Packages/FirstTimeSetup/App Packages/{source domain}/{resource key}/{API type}.json
+```
+
+The packaging-only fields are removed from the business-object JSON embedded in
+each generated package.
+
+`Packages/manifest.json` is rebuilt at the same time. It is the stable entry
+point for downstream setup and integration tests and records:
+
+- the relative path of every package;
+- whether it belongs to first-time setup;
+- its application or common-cache source;
+- its resource-key category and API item types; and
+- a SHA-256 checksum for integrity and deterministic-consumption checks.
+
+The generated package envelope matches the `cCoder.Packaging` API model:
+`Name`, `Description`, `Category`, `SourceApi`, and an `Items` collection whose
+members contain `Type` and JSON `Data`. Item types use the current
+`{domain}/{entity}` API identifiers, such as
+`ContentManagement/Component` and `Workflow/FlowDefinition`.
+
+### Generate the asset-usage report
+
+```powershell
+dotnet run --project src/cCoder.Packer -- -report
+```
+
+This scans every source directory under `Data`, follows layout, page, component,
+resource, script, and dynamic `loadComponent()` references, and writes:
+
+```text
+reports/asset-usage-report.md
+```
+
+The report resolves application assets within their own source first and then
+falls back to the common cache. This prevents an identically named component in
+another exported application from creating a false dependency.
+
+## Normalising an existing export
+
+The checked-in baseline has been normalised so resource keys follow the API
+domains consumed by components. Related scripts, resources, pages, and layouts
+inherit an unambiguous domain key; shared, presentation-only, or ambiguous
+assets use `Default`.
+
+To review the same transformation against a future export without changing the
+source tree:
+
+```powershell
+./tools/normalise-asset-keys.ps1 `
+  -DataPath ./Data `
+  -OutputPath ./normalised-data
+```
+
+The normaliser also repairs the legacy `source/type/key` folder order, writes
+the canonical `source/key/type` structure, and preserves explicitly configured
+`IncludeInSubSequentImports` values. When the field is absent on a legacy
+snapshot, it defaults to `true` because this repository is the source of the
+first-time-setup baseline. Run the report and package commands against the
+separate output before promoting it.

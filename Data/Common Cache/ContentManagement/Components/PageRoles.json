@@ -1,0 +1,10 @@
+{
+  "AppId": 11,
+  "ResourceKey": "ContentManagement",
+  "Content": "",
+  "Script": "PageRoles = {\n\tinit: async function (app, container, page) {\n\t\tapp = app || session.app;\n\t\tcontainer = container || $(\".component[name=PageRoles]\");\n\t\tif(!page) { return; }\n\t\tvar rolesInApp = await api.get(\"AppSecurity/Role?$filter=AppId eq \" + app.Id);\n\t\tPageRoles.setup(container, page, rolesInApp.value);\n\t},\n\n\tsetup: async function (container, page, rolesInApp) {\n\t\tvar grid = new GridWidget(container, {data: rolesInApp, sort: {field: \"Name\", dir: \"asc\"}});\n\t\tgrid.columns = [\n\t\t\t{ selectable: true, width: \"50px\"},\n\t\t\t{ field: \"Name\", title: \"[resource_displayname[name]]\"}\n\t\t];\n\t\tgrid.groupable = false;\n\t\tgrid.pageable = false;\n\t\tgrid.filterable =  false;\n\t\tgrid.dataBound = function() {\n\t\t\t$(\"input[type=checkbox]\", grid.gridElement).on(\"click\", async function () {\n\t\t\t\tvar checked = $(this).is(\":checked\");\n\t\t\t\tvar uid = $(this).closest(\"tr\").attr(\"data-uid\");\n\t\t\t\tvar dataItem = grid.dataSource().getByUid(uid);\n\t\t\t\tif(checked) {\n\t\t\t\t\tawait api.post(\"ContentManagement/PageRole\", { PageId: page.Id, RoleId: dataItem.Id }).then(() => {\n\t\t\t\t\t\tnotification.success(\"[resource_displayname[saved]]\");\n\t\t\t\t\t}).catch((err) => error(err));\n\t\t\t\t} else {\n\t\t\t\t\tawait api.destroy(\"ContentManagement/PageRole(PageId=\" + page.Id + \",RoleId=\" + dataItem.Id + \")\").then(() => {\n\t\t\t\t\t\tnotification.success(\"[resource_displayname[saved]]\");\n\t\t\t\t\t}).catch((err) => error(err));\n\t\t\t\t}\n\t\t\t});\n\t\t};\n\t\tawait grid.init();\n\n\t\tvar pageRoleIds = (await api.get(\"ContentManagement/PageRole?$filter=PageId eq \" + page.Id)).value.map(c => c.RoleId);\n\t\t$(\"tbody > tr\", grid.gridElement).each(function() {\n\t\t\tvar uid = $(this).attr(\"data-uid\");\n\t\t\tvar dataItem = grid.dataSource().getByUid(uid);\n\t\t\tif(pageRoleIds.includes(dataItem.Id)) { grid.kendoObject.select($(this)); }\n\t\t});\n\t}\n}\n",
+  "Name": "PageRoles",
+  "Description": null,
+  "Key": "ContentManagement",
+  "IncludeInSubSequentImports": true
+}

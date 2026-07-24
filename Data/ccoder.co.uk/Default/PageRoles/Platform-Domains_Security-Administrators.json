@@ -1,4 +1,5 @@
 {
   "Path": "Platform-Domains/Security",
-  "Role": "Administrators"
+  "Role": "Administrators",
+  "IncludeInSubSequentImports": true
 }

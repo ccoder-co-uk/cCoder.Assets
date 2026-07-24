@@ -1,6 +1,0 @@
-{
-  "Name": "MasterdataImportReport",
-  "ResourceKey": "MasterdataImportReport",
-  "RawString": "\u003Ctable\u003E\n    \u003Ctr\u003E\n        \u003Ctd\u003EType\u003C/td\u003E\n        \u003Ctd\u003ENew\u003C/td\u003E\n        \u003Ctd\u003EUpdated\u003C/td\u003E\n        \u003Ctd\u003EFailures\u003C/td\u003E\n        \u003Ctd\u003ETotal\u003C/td\u003E\n    \u003C/tr\u003E\n    \u003Ctr\u003E\n        \u003Ctd\u003ECompanies\u003C/td\u003E\n        \u003Ctd\u003E[model[Companies.Imported]]\u003C/td\u003E\n        \u003Ctd\u003E[model[Companies.Updated]]\u003C/td\u003E\n        \u003Ctd\u003E[model[Companies.FailuresTotal]]\u003C/td\u003E\n        \u003Ctd\u003E[model[Companies.Total]]\u003C/td\u003E\n    \u003C/tr\u003E\n    \u003Ctr\u003E\n        \u003Ctd\u003ESupplier Buckets\u003C/td\u003E\n        \u003Ctd\u003E[model[SupplierBuckets.Imported]]\u003C/td\u003E\n        \u003Ctd\u003E[model[SupplierBuckets.Updated]]\u003C/td\u003E\n        \u003Ctd\u003E[model[SupplierBuckets.FailuresTotal]]\u003C/td\u003E\n        \u003Ctd\u003E[model[SupplierBuckets.Total]]\u003C/td\u003E\n    \u003C/tr\u003E\n\u003C/table\u003E",
-  "LastUpdated": "2024-05-22T10:46:21.3579117\u002B00:00"
-}

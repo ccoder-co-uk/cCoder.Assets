@@ -1,4 +1,5 @@
 {
   "Path": "Documentation/Mail",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

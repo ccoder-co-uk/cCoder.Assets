@@ -1,4 +1,5 @@
 {
   "Path": "Documentation/Security/SecurityAPI",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

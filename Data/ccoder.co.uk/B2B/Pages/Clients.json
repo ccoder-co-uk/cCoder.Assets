@@ -1,0 +1,25 @@
+{
+  "Path": "Clients",
+  "Name": "Clients",
+  "ResourceKey": "B2B",
+  "ShowOnMenus": true,
+  "Order": 6,
+  "LastUpdated": "2026-04-30T20:09:38.3746064+01:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[TenantManagement]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Clients",
+      "Keywords": "Clients",
+      "Title": "Clients"
+    }
+  ],
+  "IncludeInSubSequentImports": true
+}

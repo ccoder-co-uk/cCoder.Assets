@@ -1,4 +1,5 @@
 {
   "Path": "Platform-Domains/Eventing",
-  "Role": "Administrators"
+  "Role": "Administrators",
+  "IncludeInSubSequentImports": true
 }

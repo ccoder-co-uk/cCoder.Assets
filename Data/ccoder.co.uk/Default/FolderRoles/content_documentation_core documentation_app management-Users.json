@@ -1,4 +1,5 @@
 {
   "Path": "content/documentation/core documentation/app management",
-  "Name": "Users"
+  "Name": "Users",
+  "IncludeInSubSequentImports": true
 }

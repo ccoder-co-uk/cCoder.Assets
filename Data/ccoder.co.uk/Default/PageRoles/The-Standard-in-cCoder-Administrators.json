@@ -1,4 +1,5 @@
 {
   "Path": "The-Standard-in-cCoder",
-  "Role": "Administrators"
+  "Role": "Administrators",
+  "IncludeInSubSequentImports": true
 }

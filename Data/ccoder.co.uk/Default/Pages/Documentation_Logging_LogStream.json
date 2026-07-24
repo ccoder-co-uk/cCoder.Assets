@@ -3,20 +3,22 @@
   "Name": "Log Stream",
   "ShowOnMenus": true,
   "Order": 10,
-  "LastUpdated": "2026-07-21T16:13:05.9739191\u002B00:00",
+  "LastUpdated": "2026-07-21T17:13:05.9739191+01:00",
   "Layout": "Documentation",
   "Contents": [
     {
       "CultureId": "",
       "Name": "body",
-      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E\u003Cdiv class=\u0022documentation\u0022\u003E\u003Ch2\u003EAccessing the Log Stream \u003C/h2\u003E\u003Cp\u003EYou access this functionality through the App Management Tabs. From here, you can see any API\n        calls that are being made in the system at the time.\u003C/p\u003E\u003Ch2\u003EThe UI\u003C/h2\u003E\u003Cp\u003EWhen you access the log stream tab, you\u0026rsquo;re greeted with something that looks like this: \u003C/p\u003E\u003Cimg src=\u0022[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Log Stream/Logstream-en.png\u0022 style=\u0022display:block;\u0022 /\u003E\u003Cp\u003EHere, you can see the API calls that are made when you hover over the navigation menu in our\n        demo site. The toolbar options at the top of the page allow you toggle on and off \u0026ldquo;Auto Scroll\u0026rdquo;, and select what\n        levels you want to be logged into the console. This allows you to easily debug and see what errors occur from\n        what API calls.\n    \u003C/p\u003E\u003C/div\u003E"
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>[page[description]]</p></header><div class=\"documentation\"><h2>Accessing the Log Stream </h2><p>You access this functionality through the App Management Tabs. From here, you can see any API\n        calls that are being made in the system at the time.</p><h2>The UI</h2><p>When you access the log stream tab, you&rsquo;re greeted with something that looks like this: </p><img src=\"[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Log Stream/Logstream-en.png\" style=\"display:block;\" /><p>Here, you can see the API calls that are made when you hover over the navigation menu in our\n        demo site. The toolbar options at the top of the page allow you toggle on and off &ldquo;Auto Scroll&rdquo;, and select what\n        levels you want to be logged into the console. This allows you to easily debug and see what errors occur from\n        what API calls.\n    </p></div>"
     }
   ],
   "PageInfo": [
     {
       "CultureId": "",
-      "Description": "How to access the portal\u0027s log stream.",
+      "Description": "How to access the portal's log stream.",
       "Title": "Log Stream"
     }
-  ]
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
 }

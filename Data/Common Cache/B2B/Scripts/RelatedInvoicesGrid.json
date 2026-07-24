@@ -1,0 +1,8 @@
+{
+  "Name": "RelatedInvoicesGrid",
+  "Content": "function (vars) {\n\tvar g = new GridWidget(vars.element, vars.invoices);\n        g.editable = false;\n        g.sortable = false;\n        g.filterable = false;\n        g.pageable = false;\n        g.scrollable = false;\n        g.groupable = false;\n        g.commands.push({ name: \"view\", icon: \"k-i-share\", text: \"[resource_shortdisplayname[view]]\", href: \"/Transactions/Invoice?Id=#:Id#\" });\n        g.columns = [\n            { field: \"Number\", title: \"[resource_displayname[number]]\" },\n            { field: \"DueDate\", type: \"date\", format: \"{0:\" + type.dateFormat + \"}\", title: \"[resource_displayname[duedate]]\" },\n            { field: \"TaxPoint\", type: \"date\", format: \"{0:\" + type.dateFormat + \"}\", title: \"[resource_displayname[taxpoint]]\" },\n            { field: \"DebtorState\", template: \"#:B2B.transactionStates[DebtorState]#\", title: \"[resource_displayname[debtorstate]]\" },\n            { field: \"FundingState\", title: \"[resource_displayname[fundingstate]]\", template: \"#:((FundingState) ? B2B.transactionStates[FundingState]: '')#\" }\n        ];\n        vars.RelatedInvoicesGrid = g;\n\t\treturn g;\n}\n\n",
+  "CreatedOn": "2021-09-23T15:17:48.995Z",
+  "LastUpdated": "2021-09-23T15:17:48.995Z",
+  "Key": "B2B",
+  "IncludeInSubSequentImports": true
+}

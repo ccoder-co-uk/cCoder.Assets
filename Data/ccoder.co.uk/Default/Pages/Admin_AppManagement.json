@@ -1,10 +1,10 @@
 {
   "Path": "Admin/AppManagement",
   "Name": "App Management",
-  "ResourceKey": "",
+  "ResourceKey": "Default",
   "ShowOnMenus": true,
   "Order": 4,
-  "LastUpdated": "2026-04-30T19:09:39.3767663\u002B00:00",
+  "LastUpdated": "2026-04-30T20:09:39.3767663+01:00",
   "Layout": "Default",
   "Contents": [
     {
@@ -16,9 +16,10 @@
   "PageInfo": [
     {
       "CultureId": "",
-      "Description": "Manage various aspects of the application, including the app\u0027s Themes (colours and border styles for example), Cultures (what language translations we support) and general things like page Layouts and Templates.",
+      "Description": "Manage various aspects of the application, including the app's Themes (colours and border styles for example), Cultures (what language translations we support) and general things like page Layouts and Templates.",
       "Keywords": "manage, admin, app, roles, cultures",
       "Title": "App Management"
     }
-  ]
+  ],
+  "IncludeInSubSequentImports": true
 }

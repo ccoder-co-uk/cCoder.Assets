@@ -1,4 +1,5 @@
 {
   "Path": "content/theme/fonts",
-  "Name": "Users"
+  "Name": "Users",
+  "IncludeInSubSequentImports": true
 }

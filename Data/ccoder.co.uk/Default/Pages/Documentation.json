@@ -1,21 +1,21 @@
 {
   "Path": "Documentation",
   "Name": "Documentation",
-  "ResourceKey": "",
+  "ResourceKey": "Default",
   "ShowOnMenus": true,
   "Order": 4,
-  "LastUpdated": "2026-05-01T17:20:16.564413\u002B00:00",
+  "LastUpdated": "2026-05-01T18:20:16.564413+01:00",
   "Layout": "Documentation",
   "Contents": [
     {
       "CultureId": "",
       "Name": "body",
-      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E[component[DetailedNav]]"
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>[page[description]]</p></header>[component[DetailedNav]]"
     },
     {
       "CultureId": "en-GB",
       "Name": "body",
-      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E[component[DetailedNav]]"
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>[page[description]]</p></header>[component[DetailedNav]]"
     }
   ],
   "PageInfo": [
@@ -25,5 +25,6 @@
       "Keywords": "Documentation",
       "Title": "Documentation"
     }
-  ]
+  ],
+  "IncludeInSubSequentImports": true
 }

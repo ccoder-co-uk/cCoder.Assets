@@ -1,4 +1,5 @@
 {
   "Path": "Tools/DeveloperTools/APITester",
-  "Role": "Users"
+  "Role": "Users",
+  "IncludeInSubSequentImports": true
 }

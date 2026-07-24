@@ -1,4 +1,5 @@
 {
   "Path": "Documentation/Workflow/CalendarManagement",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

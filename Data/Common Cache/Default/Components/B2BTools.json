@@ -1,0 +1,10 @@
+{
+  "Key": "Default",
+  "Name": "B2BTools",
+  "ResourceKey": "Default",
+  "Content": "<div class=\"component\">\r\n    <h3>Masterdata</h3>\r\n    <ul class=\"fieldset\">\r\n        <li><label>Add a Company</label><div class=\"value\"><button name=\"addCompany\"></button></div></li>\r\n        <li><label>Import Company Data</label><div class=\"value\"><button name=\"importCompaniesFromData\"></button></div></li>\r\n        <li><label>Run Masterdata Import</label><div class=\"value\"><button name=\"importCompanies\"></button></div></li>\r\n    </ul>\r\n</div>\r\n\r\n<div class=\"component\">\r\n    <h3>Transactions</h3>\r\n    <ul class=\"fieldset\">\r\n        <li><label>Add a Transaction</label><div class=\"value\"><button name=\"addTransaction\"></button></div></li>\r\n        <li><label>Import Transaction Data</label><div class=\"value\"><button name=\"importTransactionsFromData\"></button></div></li>\r\n        <li><label>Update Transaction States</label><div class=\"value\"><button name=\"updateTransactions\"></button></div></li>\r\n        <li><label>Run Transaction Import</label><div class=\"value\"><button name=\"importCompanies\"></button></div></li>\r\n    </ul>\r\n</div>\r\n\r\n<div class=\"component\">\r\n    <h3>Funding</h3>\r\n    <ul class=\"fieldset\">\r\n        <li><label>Add an Offer</label><div class=\"value\"><button name=\"addCompany\"></button></div></li>\r\n        <li><label>Import Offer Data</label><div class=\"value\"><button name=\"importCompaniesFomrData\"></button></div></li>\r\n        <li><label>Run Offer Generation</label><div class=\"value\"><button name=\"importCompanies\"></button></div></li>\r\n    </ul>\r\n</div>\r\n\r\n<style scoped>\r\n    .component[name=B2BTools] { border: none; box-shadow: none; }\r\n    .component[name=B2BTools] > .component { width: 300px; }\r\n</style>",
+  "Script": "B2BTools = {\r\n    init: async function(app, container) {\r\n        app = app || session.app;\r\n        container = container || $(\".component[name=B2BTools]\");\r\n    }\r\n}",
+  "CreatedOn": "2022-01-04T09:29:06.699Z",
+  "LastUpdated": "2022-01-04T09:29:06.699Z",
+  "IncludeInSubSequentImports": true
+}

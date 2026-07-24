@@ -3,13 +3,13 @@
   "Name": "Metadata",
   "ShowOnMenus": true,
   "Order": 90,
-  "LastUpdated": "2026-07-21T16:17:20.4804186\u002B00:00",
+  "LastUpdated": "2026-07-21T17:17:20.4804186+01:00",
   "Layout": "Documentation",
   "Contents": [
     {
       "CultureId": "",
       "Name": "body",
-      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E[component[DomainMetadata]]"
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>[page[description]]</p></header>[component[DomainMetadata]]"
     }
   ],
   "PageInfo": [
@@ -18,5 +18,7 @@
       "Description": "Explore the entities and endpoints exposed by the Content Management domain.",
       "Title": "Content Management Metadata"
     }
-  ]
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
 }

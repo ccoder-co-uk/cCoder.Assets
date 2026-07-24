@@ -1,4 +1,5 @@
 {
   "Path": "Documentation/DocumentManagement/Metadata",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

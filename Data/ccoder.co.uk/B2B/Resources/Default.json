@@ -2,65 +2,32 @@
   {
     "Culture": "",
     "Key": "B2B",
-    "Name": "areyousure",
-    "DisplayName": "Are you sure?",
-    "ShortDisplayName": "Are you sure?",
-    "Description": "Are you sure?",
-    "LastUpdated": "2022-03-18T10:41:54.1894925\u002B00:00"
-  },
-  {
-    "Culture": "",
-    "Key": "B2B",
-    "Name": "Line1",
-    "DisplayName": "Address Line 1",
-    "ShortDisplayName": "Address Line 1",
-    "Description": "Address Line 1",
-    "LastUpdated": "2022-03-18T10:41:54.189497\u002B00:00"
-  },
-  {
-    "Culture": "",
-    "Key": "B2B",
-    "Name": "confirm",
-    "DisplayName": "Confirm",
-    "ShortDisplayName": "Confirm",
-    "Description": "Confirm",
-    "LastUpdated": "2022-03-18T10:41:54.1895013\u002B00:00"
-  },
-  {
-    "Culture": "",
-    "Key": "B2B",
-    "Name": "close",
-    "DisplayName": "Close",
-    "ShortDisplayName": "Close",
-    "Description": "Close",
-    "LastUpdated": "2022-03-18T10:41:54.1895057\u002B00:00"
-  },
-  {
-    "Culture": "",
-    "Key": "B2B",
-    "Name": "name",
-    "DisplayName": "Name",
-    "ShortDisplayName": "Name",
-    "Description": "Name",
-    "LastUpdated": "2022-03-18T10:41:54.1895099\u002B00:00"
-  },
-  {
-    "Culture": "",
-    "Key": "B2B",
     "Name": "BucketId",
     "DisplayName": "Bucket ID",
     "ShortDisplayName": "Bucket ID",
     "Description": "Bucket ID",
-    "LastUpdated": "2022-03-18T10:41:54.1895143\u002B00:00"
+    "LastUpdated": "2022-03-18T10:41:54.1895143+00:00",
+    "IncludeInSubSequentImports": true
   },
   {
     "Culture": "",
     "Key": "B2B",
-    "Name": "id",
-    "DisplayName": "ID",
-    "ShortDisplayName": "ID",
-    "Description": "ID",
-    "LastUpdated": "2022-03-18T10:41:54.1895186\u002B00:00"
+    "Name": "buyer",
+    "DisplayName": "Buyer",
+    "ShortDisplayName": "Buyer",
+    "Description": "Buyer",
+    "LastUpdated": "2022-08-15T14:06:11.8953815+01:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "clienttype",
+    "DisplayName": "Client Type",
+    "ShortDisplayName": "Client Type",
+    "Description": "Client Type",
+    "LastUpdated": "2022-08-15T14:05:51.358952+01:00",
+    "IncludeInSubSequentImports": true
   },
   {
     "Culture": "",
@@ -69,7 +36,8 @@
     "DisplayName": "Contact Email Address",
     "ShortDisplayName": "Contact Email Address",
     "Description": "Contact Email Address",
-    "LastUpdated": "2022-03-18T10:41:54.1895246\u002B00:00"
+    "LastUpdated": "2022-03-18T10:41:54.1895246+00:00",
+    "IncludeInSubSequentImports": true
   },
   {
     "Culture": "",
@@ -78,70 +46,18 @@
     "DisplayName": "Contact Phone Number",
     "ShortDisplayName": "Contact Phone Number",
     "Description": "Contact Phone Number",
-    "LastUpdated": "2022-03-18T10:41:54.189529\u002B00:00"
+    "LastUpdated": "2022-03-18T10:41:54.189529+00:00",
+    "IncludeInSubSequentImports": true
   },
   {
     "Culture": "",
     "Key": "B2B",
-    "Name": "WebsiteUrl",
-    "DisplayName": "Website URL",
-    "ShortDisplayName": "Website URL",
-    "Description": "Website URL",
-    "LastUpdated": "2022-03-18T10:41:54.1895333\u002B00:00"
-  },
-  {
-    "Culture": "",
-    "Key": "B2B",
-    "Name": "SystemId",
-    "DisplayName": "System ID",
-    "ShortDisplayName": "System ID",
-    "Description": "System ID",
-    "LastUpdated": "2022-03-18T10:41:54.1895377\u002B00:00"
-  },
-  {
-    "Culture": "",
-    "Key": "B2B",
-    "Name": "Line2",
-    "DisplayName": "Address Line 2",
-    "ShortDisplayName": "Address Line 2",
-    "Description": "Address Line 2",
-    "LastUpdated": "2022-03-18T10:41:54.1903595\u002B00:00"
-  },
-  {
-    "Culture": "",
-    "Key": "B2B",
-    "Name": "proposedcompanies",
-    "DisplayName": "Proposed Companies",
-    "ShortDisplayName": "Proposed Companies",
-    "Description": "Proposed Companies",
-    "LastUpdated": "2022-03-18T10:41:54.1903646\u002B00:00"
-  },
-  {
-    "Culture": "",
-    "Key": "B2B",
-    "Name": "ZipOrPostalCode",
-    "DisplayName": "Zip Or Postal Code",
-    "ShortDisplayName": "Zip Or Postal Code",
-    "Description": "Zip Or Postal Code",
-    "LastUpdated": "2022-03-18T10:41:54.1903714\u002B00:00"
-  },
-  {
-    "Culture": "",
-    "Key": "B2B",
-    "Name": "TownOrCity",
-    "DisplayName": "Town Or City",
-    "ShortDisplayName": "Town Or City",
-    "Description": "Town Or City",
-    "LastUpdated": "2022-03-18T10:41:54.1903915\u002B00:00"
-  },
-  {
-    "Culture": "",
-    "Key": "B2B",
-    "Name": "StateOrProvince",
-    "DisplayName": "State Or Province",
-    "ShortDisplayName": "State Or Province",
-    "Description": "State Or Province",
-    "LastUpdated": "2022-03-18T10:41:54.1903965\u002B00:00"
+    "Name": "country",
+    "DisplayName": "Country",
+    "ShortDisplayName": "Country",
+    "Description": "Country",
+    "LastUpdated": "2022-09-27T12:15:28.2287827+01:00",
+    "IncludeInSubSequentImports": true
   },
   {
     "Culture": "",
@@ -150,7 +66,38 @@
     "DisplayName": "Date Trading Enabled",
     "ShortDisplayName": "Date Trading Enabled",
     "Description": "Date Trading Enabled",
-    "LastUpdated": "2022-03-18T10:41:54.1904014\u002B00:00"
+    "LastUpdated": "2022-03-18T10:41:54.1904014+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "funder",
+    "DisplayName": "Funder",
+    "ShortDisplayName": "Funder",
+    "Description": "Funder",
+    "LastUpdated": "2022-08-15T14:07:04.755367+01:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "Line1",
+    "DisplayName": "Address Line 1",
+    "ShortDisplayName": "Address Line 1",
+    "Description": "Address Line 1",
+    "LastUpdated": "2022-03-18T10:41:54.189497+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "Line2",
+    "DisplayName": "Address Line 2",
+    "ShortDisplayName": "Address Line 2",
+    "Description": "Address Line 2",
+    "LastUpdated": "2022-03-18T10:41:54.1903595+00:00",
+    "IncludeInSubSequentImports": true
   },
   {
     "Culture": "",
@@ -159,7 +106,8 @@
     "DisplayName": "New Company",
     "ShortDisplayName": "New Company",
     "Description": "New Company",
-    "LastUpdated": "2022-03-18T10:41:54.1904084\u002B00:00"
+    "LastUpdated": "2022-03-18T10:41:54.1904084+00:00",
+    "IncludeInSubSequentImports": true
   },
   {
     "Culture": "",
@@ -168,25 +116,28 @@
     "DisplayName": "New System",
     "ShortDisplayName": "New System",
     "Description": "New System",
-    "LastUpdated": "2022-03-18T10:41:54.1904136\u002B00:00"
+    "LastUpdated": "2022-03-18T10:41:54.1904136+00:00",
+    "IncludeInSubSequentImports": true
   },
   {
     "Culture": "",
     "Key": "B2B",
-    "Name": "companies",
-    "DisplayName": "Companies",
-    "ShortDisplayName": "Companies",
-    "Description": "Companies",
-    "LastUpdated": "2022-03-18T10:41:54.1904187\u002B00:00"
+    "Name": "newsystem",
+    "DisplayName": "New System",
+    "ShortDisplayName": "New System",
+    "Description": "New System",
+    "LastUpdated": "2022-03-18T10:41:54.1890033+00:00",
+    "IncludeInSubSequentImports": true
   },
   {
     "Culture": "",
     "Key": "B2B",
-    "Name": "yes",
-    "DisplayName": "Yes",
-    "ShortDisplayName": "Yes",
-    "Description": "Yes",
-    "LastUpdated": "2026-07-21T21:12:37.3013151\u002B00:00"
+    "Name": "newtenant",
+    "DisplayName": "New Tenant",
+    "ShortDisplayName": "New Tenant",
+    "Description": "New Tenant",
+    "LastUpdated": "2023-01-04T13:50:06.7855372+00:00",
+    "IncludeInSubSequentImports": true
   },
   {
     "Culture": "",
@@ -195,6 +146,97 @@
     "DisplayName": "No",
     "ShortDisplayName": "No",
     "Description": "No",
-    "LastUpdated": "2026-07-21T21:12:37.3644782\u002B00:00"
+    "LastUpdated": "2026-07-21T22:12:37.3644782+01:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "phone",
+    "DisplayName": "Phone number",
+    "ShortDisplayName": "Phone number",
+    "Description": "Phone number",
+    "LastUpdated": "2022-03-18T10:41:54.1894047+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "StateOrProvince",
+    "DisplayName": "State Or Province",
+    "ShortDisplayName": "State Or Province",
+    "Description": "State Or Province",
+    "LastUpdated": "2022-03-18T10:41:54.1903965+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "supplier",
+    "DisplayName": "Supplier",
+    "ShortDisplayName": "Supplier",
+    "Description": "Supplier",
+    "LastUpdated": "2022-08-15T14:06:52.5214722+01:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "SystemId",
+    "DisplayName": "System ID",
+    "ShortDisplayName": "System ID",
+    "Description": "System ID",
+    "LastUpdated": "2022-03-18T10:41:54.1895377+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "systemid",
+    "DisplayName": "System Id",
+    "ShortDisplayName": "System Id",
+    "Description": "System Id",
+    "LastUpdated": "2023-01-04T14:32:02.4805633+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "TownOrCity",
+    "DisplayName": "Town Or City",
+    "ShortDisplayName": "Town Or City",
+    "Description": "Town Or City",
+    "LastUpdated": "2022-03-18T10:41:54.1903915+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "WebsiteUrl",
+    "DisplayName": "Website URL",
+    "ShortDisplayName": "Website URL",
+    "Description": "Website URL",
+    "LastUpdated": "2022-03-18T10:41:54.1895333+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "yes",
+    "DisplayName": "Yes",
+    "ShortDisplayName": "Yes",
+    "Description": "Yes",
+    "LastUpdated": "2026-07-21T22:12:37.3013151+01:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "B2B",
+    "Name": "ZipOrPostalCode",
+    "DisplayName": "Zip Or Postal Code",
+    "ShortDisplayName": "Zip Or Postal Code",
+    "Description": "Zip Or Postal Code",
+    "LastUpdated": "2022-03-18T10:41:54.1903714+00:00",
+    "IncludeInSubSequentImports": true
   }
 ]

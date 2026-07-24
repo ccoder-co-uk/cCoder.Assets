@@ -1,4 +1,5 @@
 {
   "Path": "content/apiuploadprobe",
-  "Name": "Guests"
+  "Name": "Guests",
+  "IncludeInSubSequentImports": true
 }

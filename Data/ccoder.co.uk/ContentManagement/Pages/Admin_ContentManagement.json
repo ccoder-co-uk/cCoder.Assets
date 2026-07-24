@@ -1,0 +1,29 @@
+{
+  "Path": "Admin/ContentManagement",
+  "Name": "Content Management",
+  "ShowOnMenus": true,
+  "Order": 0,
+  "LastUpdated": "2026-04-30T20:09:38.9168421+01:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[cms]]"
+    },
+    {
+      "CultureId": "en-GB",
+      "Name": "body",
+      "Html": "[component[cms]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Manage the app's pages, including what's displayed on them, who has access to them and its name.",
+      "Title": "Content Management"
+    }
+  ],
+  "ResourceKey": "ContentManagement",
+  "IncludeInSubSequentImports": true
+}

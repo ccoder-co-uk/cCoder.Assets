@@ -1,4 +1,5 @@
 {
   "Path": "content/documentation/sso documentation/managing your profile",
-  "Name": "Guests"
+  "Name": "Guests",
+  "IncludeInSubSequentImports": true
 }

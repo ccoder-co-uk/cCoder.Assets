@@ -1,0 +1,52 @@
+[
+  {
+    "Culture": "fr",
+    "Key": "Default",
+    "Name": "dppmessage",
+    "DisplayName": "Assurez-vous d'avoir lu notre politique de protection des données",
+    "ShortDisplayName": "Assurez-vous d'avoir lu notre politique de protection des données",
+    "Description": "Assurez-vous d'avoir lu notre politique de protection des données",
+    "LastUpdated": "2022-03-18T10:41:54.1898747+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr",
+    "Key": "Default",
+    "Name": "DPPTACNotice",
+    "DisplayName": "DPPTACNotice",
+    "ShortDisplayName": "DPPTACNotice",
+    "Description": "En cliquant, dans ces 2 espaces, vous acceptez avoir lu, compris et accepté nos conditions d'utilisation ainsi que notre politique de protection des données et que consentez à l'utilisation de vos données personnelles telles que décrites dans le document de Politique de Protection des Données\"",
+    "LastUpdated": "2022-03-18T10:41:54.1898553+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr",
+    "Key": "Default",
+    "Name": "ourdpp",
+    "DisplayName": "<a href='https://[app[domain]]/FurtherInformation'>Notre politique de protection des données</a>",
+    "ShortDisplayName": "ourdpp",
+    "Description": "ourdpp",
+    "LastUpdated": "2022-03-18T10:41:54.1898702+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr",
+    "Key": "Default",
+    "Name": "ourtac",
+    "DisplayName": "<a href='https://[app[domain]]/FurtherInformation'>Nos conditions d'utilisation</a>",
+    "ShortDisplayName": "Informations supplémentaires",
+    "Description": "Informations supplémentaires",
+    "LastUpdated": "2022-03-18T10:41:54.1898656+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr",
+    "Key": "Default",
+    "Name": "tacmessage",
+    "DisplayName": "Assurez vous d'avoir lu nos conditions d'utilisation",
+    "ShortDisplayName": "Assurez vous d'avoir lu nos conditions d'utilisation",
+    "Description": "Assurez vous d'avoir lu nos conditions d'utilisation",
+    "LastUpdated": "2022-03-18T10:41:54.1898272+00:00",
+    "IncludeInSubSequentImports": true
+  }
+]

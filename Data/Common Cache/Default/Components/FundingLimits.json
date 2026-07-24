@@ -1,0 +1,10 @@
+{
+  "Name": "FundingLimits",
+  "ResourceKey": "Default",
+  "Content": "<h3>Funding Limits</h3>\r\n<ul class=\"fieldList\">\r\n    <li><label>Cap</label><div class=\"value\">100,000,000.00</div></li>\r\n    <li><label>Used</label><div class=\"value\">60,000,000.00</div></li>\r\n    <li><label>Available</label><div class=\"value\">40,000,000.00</div></li>\r\n</ul>\r\n<style scoped>\r\n    .component[name=FundingLimits] { height: 300px; width: 470px; display: inline-block; float: right; margin-top: -585px; margin-right: 15px; }\r\n</style>",
+  "Script": "FundingLimits = {\r\n    init: function(app, container) {\r\n        \r\n    }\r\n}",
+  "CreatedOn": "2021-11-04T13:03:56.046Z",
+  "LastUpdated": "2021-11-04T13:03:56.046Z",
+  "Key": "Default",
+  "IncludeInSubSequentImports": true
+}

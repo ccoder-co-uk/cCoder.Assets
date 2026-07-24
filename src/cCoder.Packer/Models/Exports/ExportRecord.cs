@@ -10,5 +10,6 @@ public sealed record ExportRecord(
     string Domain,
     string Category,
     string Name,
+    string Type,
     JsonElement Value,
     bool CombineValues = false);

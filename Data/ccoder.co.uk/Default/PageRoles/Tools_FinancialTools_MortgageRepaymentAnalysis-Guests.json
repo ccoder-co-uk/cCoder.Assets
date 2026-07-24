@@ -1,4 +1,5 @@
 {
   "Path": "Tools/FinancialTools/MortgageRepaymentAnalysis",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

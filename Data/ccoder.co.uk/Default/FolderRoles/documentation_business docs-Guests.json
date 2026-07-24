@@ -1,4 +1,5 @@
 {
   "Path": "documentation/business docs",
-  "Name": "Guests"
+  "Name": "Guests",
+  "IncludeInSubSequentImports": true
 }

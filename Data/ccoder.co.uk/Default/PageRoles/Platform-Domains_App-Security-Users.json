@@ -1,4 +1,5 @@
 {
   "Path": "Platform-Domains/App-Security",
-  "Role": "Users"
+  "Role": "Users",
+  "IncludeInSubSequentImports": true
 }

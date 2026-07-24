@@ -1,4 +1,5 @@
 {
   "Path": "Documentation/Workflow/BusinessProcessManagement",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

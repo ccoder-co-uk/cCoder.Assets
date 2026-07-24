@@ -1,5 +1,6 @@
 {
-  "$type": "\u003C\u003Ef__AnonymousType3\u00602[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], cCoder.Workflow",
+  "$type": "<>f__AnonymousType3`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], cCoder.Workflow",
   "Name": "AsAdmin_CalendarEventCRUD_ReturnsNoErrors",
-  "Description": "Test Admin Calendar"
+  "Description": "Test Admin Calendar",
+  "IncludeInSubSequentImports": true
 }

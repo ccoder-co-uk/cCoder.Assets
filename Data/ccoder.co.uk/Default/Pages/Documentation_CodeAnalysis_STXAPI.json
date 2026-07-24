@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXAPI",
+  "Name": "STXAPI",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 4,
+  "LastUpdated": "2026-07-23T17:29:46.494521+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>STXAPI identifies rules for HTTP-facing exposure controllers. Select a rule to see what The Standard requires and how to correct a violation.</p></header>[component[DetailedNav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "STXAPI diagnostic family: rules for HTTP-facing exposure controllers.",
+      "Title": "STXAPI: API controllers"
+    }
+  ],
+  "IncludeInSubSequentImports": true
+}

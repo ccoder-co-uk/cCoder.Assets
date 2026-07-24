@@ -1,6 +1,8 @@
 {
   "Name": "GetSystem",
-  "Content": "async function(vars) {\r\n\treturn api.get(\u0022B2B/System?$filter=Id eq \u0027\u0022 \u002B vars.Id \u002B \u0022\u0027\u0022);\r\n}",
+  "Content": "async function(vars) {\r\n\treturn api.get(\"B2B/System?$filter=Id eq '\" + vars.Id + \"'\");\r\n}",
   "CreatedOn": "2021-09-24T09:45:07.067Z",
-  "LastUpdated": "2021-09-24T09:45:07.067Z"
+  "LastUpdated": "2021-09-24T09:45:07.067Z",
+  "Key": "Default",
+  "IncludeInSubSequentImports": true
 }

@@ -1,0 +1,12 @@
+{
+  "Name": "B2B ContentManagement/Page",
+  "Description": "Generated ContentManagement/Page package for B2B.",
+  "Category": "B2B",
+  "SourceApi": "ContentManagement",
+  "Items": [
+    {
+      "Type": "ContentManagement/Page",
+      "Data": "[\r\n  {\r\n    \u0022Path\u0022: \u0022Admin/Security/Tenants\u0022,\r\n    \u0022Name\u0022: \u0022Tenants\u0022,\r\n    \u0022ResourceKey\u0022: \u0022B2B\u0022,\r\n    \u0022ShowOnMenus\u0022: true,\r\n    \u0022Order\u0022: 10,\r\n    \u0022LastUpdated\u0022: \u00222026-07-21T22:49:06.3580196\\u002B01:00\u0022,\r\n    \u0022Layout\u0022: \u0022Default\u0022,\r\n    \u0022Contents\u0022: [\r\n      {\r\n        \u0022CultureId\u0022: \u0022\u0022,\r\n        \u0022Name\u0022: \u0022body\u0022,\r\n        \u0022Html\u0022: \u0022[component[TenantManagement]]\u0022\r\n      }\r\n    ],\r\n    \u0022PageInfo\u0022: [\r\n      {\r\n        \u0022CultureId\u0022: \u0022\u0022,\r\n        \u0022Description\u0022: \u0022Create and manage security tenants and their associated applications.\u0022,\r\n        \u0022Keywords\u0022: \u0022Security Tenants, Tenant Administration\u0022,\r\n        \u0022Title\u0022: \u0022Tenants\u0022\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \u0022Path\u0022: \u0022Clients\u0022,\r\n    \u0022Name\u0022: \u0022Clients\u0022,\r\n    \u0022ResourceKey\u0022: \u0022B2B\u0022,\r\n    \u0022ShowOnMenus\u0022: true,\r\n    \u0022Order\u0022: 6,\r\n    \u0022LastUpdated\u0022: \u00222026-04-30T20:09:38.3746064\\u002B01:00\u0022,\r\n    \u0022Layout\u0022: \u0022Default\u0022,\r\n    \u0022Contents\u0022: [\r\n      {\r\n        \u0022CultureId\u0022: \u0022\u0022,\r\n        \u0022Name\u0022: \u0022body\u0022,\r\n        \u0022Html\u0022: \u0022[component[TenantManagement]]\u0022\r\n      }\r\n    ],\r\n    \u0022PageInfo\u0022: [\r\n      {\r\n        \u0022CultureId\u0022: \u0022\u0022,\r\n        \u0022Description\u0022: \u0022Clients\u0022,\r\n        \u0022Keywords\u0022: \u0022Clients\u0022,\r\n        \u0022Title\u0022: \u0022Clients\u0022\r\n      }\r\n    ]\r\n  }\r\n]"
+    }
+  ]
+}

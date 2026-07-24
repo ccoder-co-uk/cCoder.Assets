@@ -1,4 +1,5 @@
 {
   "Path": "documentation/technical docs",
-  "Name": "Users"
+  "Name": "Users",
+  "IncludeInSubSequentImports": true
 }

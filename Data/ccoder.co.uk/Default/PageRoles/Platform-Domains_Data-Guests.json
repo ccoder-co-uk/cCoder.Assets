@@ -1,4 +1,5 @@
 {
   "Path": "Platform-Domains/Data",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

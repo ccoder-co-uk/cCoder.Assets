@@ -1,4 +1,5 @@
 {
   "Path": "Documentation/Workflow/Scheduling",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }

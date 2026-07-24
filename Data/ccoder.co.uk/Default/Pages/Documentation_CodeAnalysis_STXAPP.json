@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXAPP",
+  "Name": "STXAPP",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 2,
+  "LastUpdated": "2026-07-23T17:29:46.487868+01:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>STXAPP identifies rules for .NET application composition and startup files. Select a rule to see what The Standard requires and how to correct a violation.</p></header>[component[DetailedNav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "STXAPP diagnostic family: rules for .NET application composition and startup files.",
+      "Title": "STXAPP: Applications"
+    }
+  ],
+  "IncludeInSubSequentImports": true
+}

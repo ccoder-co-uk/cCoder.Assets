@@ -1,4 +1,5 @@
 {
   "Path": "Admin/ContentManagement",
-  "Role": "Administrators"
+  "Role": "Administrators",
+  "IncludeInSubSequentImports": true
 }

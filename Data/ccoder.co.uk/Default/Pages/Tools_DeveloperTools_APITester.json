@@ -3,7 +3,7 @@
   "Name": "API Tester",
   "ShowOnMenus": true,
   "Order": 1,
-  "LastUpdated": "2026-07-22T08:27:09.5417666\u002B00:00",
+  "LastUpdated": "2026-07-22T09:27:09.5417666+01:00",
   "Layout": "StaticContent",
   "Contents": [
     {
@@ -19,5 +19,7 @@
       "Keywords": "API Tester,Developer Tools,HTTP,REST",
       "Title": "API Tester"
     }
-  ]
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
 }

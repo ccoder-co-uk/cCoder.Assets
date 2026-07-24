@@ -1,0 +1,24 @@
+{
+  "Path": "/Platform-Domains/Code-Analysis",
+  "Name": "Code-Analysis",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 2,
+  "LastUpdated": "2026-07-23T17:29:46.466504+01:00",
+  "Layout": "PublicContent",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<div class=\"public-flow\"><section class=\"public-flow-section public-section\"><div class=\"public-section-frame\"><div class=\"public-article public-domain-article\">\n  <h1>[page[title]]</h1>\n  <p class=\"public-copy\">Turn The Standard into immediate, navigable feedback while developers write and build C#.</p>\n  <div class=\"public-actions\"><a class=\"btn btn-primary\" href=\"/Platform-Domains\"><span class=\"k-icon k-i-grid-layout\"></span>All platform domains</a><a class=\"btn btn-secondary\" href=\"https://github.com/ccoder-co-uk/cCoder.CodeAnalysis\" target=\"_blank\" rel=\"noreferrer\"><span class=\"k-icon k-i-source-code\"></span>View the GitHub repository</a><a class=\"btn btn-secondary\" href=\"/Documentation/CodeAnalysis\"><span class=\"k-icon k-i-file\"></span>Read the documentation</a></div>\n</div></div></section><section class=\"public-flow-section public-section\"><div class=\"public-section-frame\"><article class=\"public-article public-domain-article\"><h2>What it owns</h2><ul><li>Roslyn diagnostics for cCoder architecture, naming, structure, formatting and tests.</li><li>Architecture reports produced from the same rule evaluations.</li><li>Rule identifiers and documentation links that make every warning actionable.</li></ul><h2>Why the boundary matters</h2><p>The package keeps The Standard executable and independently versioned. A warning identifies both the breached rule and the guidance needed to correct it, reducing interpretation differences between developers and AI coding tools.</p><h2>How it fits</h2><p>Applications consume cCoder.CodeAnalysis as an analyser package. It observes the compilation, classifies Standard elements and reports warnings without becoming a runtime dependency.</p><h2>Getting started</h2><h3>Reference the package</h3><pre><code class=\"language-xml\">&lt;PackageReference Include=\"cCoder.CodeAnalysis\" Version=\"YOUR_VERSION\" PrivateAssets=\"all\" /&gt;</code></pre><p>Keep <code>PrivateAssets=\"all\"</code> when the analyser is a development-time concern and should not flow transitively to consumers.</p><h3>Build normally</h3><pre><code class=\"language-powershell\">dotnet restore\ndotnet build</code></pre><p>Warnings appear in the IDE and build output. Select a diagnostic or follow its help link to read the rule, its Standard context and corrected example.</p><h3>Adopt deliberately</h3><p>Start by fixing architectural classification and dependency-flow warnings, then naming, structure and formatting. Do not suppress a warning merely to make the build quiet: use the linked rule page to confirm the intended design first.</p></article></div></section></div>"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Executable guidance for applying The Standard to C# architecture, source layout and tests.",
+      "Title": "cCoder.CodeAnalysis"
+    }
+  ],
+  "IncludeInSubSequentImports": true
+}

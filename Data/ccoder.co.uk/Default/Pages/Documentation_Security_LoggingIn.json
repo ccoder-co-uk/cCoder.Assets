@@ -3,13 +3,13 @@
   "Name": "Logging In",
   "ShowOnMenus": true,
   "Order": 20,
-  "LastUpdated": "2026-07-21T16:13:51.7594066\u002B00:00",
+  "LastUpdated": "2026-07-21T17:13:51.7594066+01:00",
   "Layout": "Documentation",
   "Contents": [
     {
       "CultureId": "",
       "Name": "body",
-      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E\u003Cdiv class=\u0022documentation\u0022\u003E\n\t\u003Ch2\u003ELogging In to the Portal \u003C/h2\u003E\n\t\u003Cp\u003EWhen you visit your portal in your browser, the first page you\u0026rsquo;re greeted with is the login page\n        that looks something like this:\u003C/p\u003E\n\t\u003Cimg src=\u0022[app[root]]Api/DMS/Content/Documentation/SSO Documentation/Logging In/LoginPage-en.png\u0022/\u003E\n\t\u003Cp\u003EHere, you must enter your \u003Cstrong\u003E\u0026ldquo;User Name\u0026rdquo;\u003C/strong\u003E and \u003Cstrong\u003E\u0026ldquo;Password\u0026rdquo;\u003C/strong\u003E to the account you want to access and click\n        the \u003Cstrong\u003E\u0026ldquo;Submit\u0026rdquo;\u003C/strong\u003E button to gain access.\u003C/p\u003E\n\u003C/div\u003E"
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>[page[description]]</p></header><div class=\"documentation\">\n\t<h2>Logging In to the Portal </h2>\n\t<p>When you visit your portal in your browser, the first page you&rsquo;re greeted with is the login page\n        that looks something like this:</p>\n\t<img src=\"[app[root]]Api/DMS/Content/Documentation/SSO Documentation/Logging In/LoginPage-en.png\"/>\n\t<p>Here, you must enter your <strong>&ldquo;User Name&rdquo;</strong> and <strong>&ldquo;Password&rdquo;</strong> to the account you want to access and click\n        the <strong>&ldquo;Submit&rdquo;</strong> button to gain access.</p>\n</div>"
     }
   ],
   "PageInfo": [
@@ -18,5 +18,7 @@
       "Description": "This page explains how to sign in to a cCoder portal.",
       "Title": "Logging In"
     }
-  ]
+  ],
+  "ResourceKey": "Default",
+  "IncludeInSubSequentImports": true
 }

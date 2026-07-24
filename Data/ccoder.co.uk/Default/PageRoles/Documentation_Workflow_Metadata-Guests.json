@@ -1,4 +1,5 @@
 {
   "Path": "Documentation/Workflow/Metadata",
-  "Role": "Guests"
+  "Role": "Guests",
+  "IncludeInSubSequentImports": true
 }
