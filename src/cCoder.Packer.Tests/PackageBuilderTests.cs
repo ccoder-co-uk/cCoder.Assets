@@ -102,15 +102,27 @@ public sealed partial class PackageBuilderTests
             packagesPath: packagesPath);
 
         // Then
-        Assert.Equal(expected: 4, actual: files.Count);
+        Assert.Equal(expected: 5, actual: files.Count);
 
         Assert.False(condition: File.Exists(path: stalePackageFile));
+
+        Assert.Equal(
+            expected:
+            [
+                "ccoder.co.uk",
+                "Common Cache",
+                "First Time Setup",
+            ],
+            actual: Directory
+                .EnumerateDirectories(path: packagesPath)
+                .Select(selector: Path.GetFileName)
+                .Order(comparer: StringComparer.OrdinalIgnoreCase)
+                .ToArray());
 
         string regularFile = Path.Combine(
             paths:
             [
                 packagesPath,
-                "App Packages",
                 "ccoder.co.uk",
                 "CMS",
                 "ContentManagement_Page.json",
@@ -120,8 +132,7 @@ public sealed partial class PackageBuilderTests
             paths:
             [
                 packagesPath,
-                "FirstTimeSetup",
-                "App Packages",
+                "First Time Setup",
                 "ccoder.co.uk",
                 "CMS",
                 "ContentManagement_Page.json",
@@ -134,8 +145,7 @@ public sealed partial class PackageBuilderTests
             paths:
             [
                 packagesPath,
-                "FirstTimeSetup",
-                "App Packages",
+                "First Time Setup",
                 "ccoder.co.uk",
                 "Default",
                 "Workflow_CalendarEvent.json",
@@ -160,7 +170,9 @@ public sealed partial class PackageBuilderTests
             .GetString()!;
 
         Assert.Contains(expectedSubstring: "\"Name\": \"Home\"", actualString: setupData);
-        Assert.DoesNotContain(expectedSubstring: "\"Name\": \"Home\"", actualString: regularData);
+        Assert.Contains(expectedSubstring: "\"Name\": \"Home\"", actualString: regularData);
+        Assert.Contains(expectedSubstring: "\"Name\": \"About\"", actualString: regularData);
+        Assert.DoesNotContain(expectedSubstring: "\"Name\": \"About\"", actualString: setupData);
 
         Assert.DoesNotContain(
             expectedSubstring: "IncludeInSubSequentImports",
@@ -180,7 +192,7 @@ public sealed partial class PackageBuilderTests
                 .GetInt32());
 
         Assert.Equal(
-            expected: 3,
+            expected: 4,
             actual: manifest.RootElement
                 .GetProperty(propertyName: "Packages")
                 .GetArrayLength());
@@ -195,7 +207,7 @@ public sealed partial class PackageBuilderTests
                     .GetString();
 
                 return path?.StartsWith(
-                    value: "FirstTimeSetup/",
+                    value: "First Time Setup/",
                     comparisonType: StringComparison.Ordinal) == true
                     && path.EndsWith(
                         value: "CMS/ContentManagement_Page.json",

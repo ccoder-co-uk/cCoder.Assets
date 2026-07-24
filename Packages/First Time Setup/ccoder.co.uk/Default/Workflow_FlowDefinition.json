@@ -1,0 +1,12 @@
+{
+  "Name": "Default Workflow/FlowDefinition",
+  "Description": "Generated Workflow/FlowDefinition package for Default.",
+  "Category": "Default",
+  "SourceApi": "Workflow",
+  "Items": [
+    {
+      "Type": "Workflow/FlowDefinition",
+      "Data": "[\r\n  {\r\n    \u0022$type\u0022: \u0022\\u003C\\u003Ef__AnonymousType5\\u00608[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.DateTimeOffset, System.Private.CoreLib]], cCoder.Workflow\u0022,\r\n    \u0022ProcessName\u0022: \u0022cCoder Ltd\u0022,\r\n    \u0022Name\u0022: \u0022Test\u0022,\r\n    \u0022Description\u0022: \u0022newflow\u0022,\r\n    \u0022DefinitionJson\u0022: \u0022{\\u0022Name\\u0022:\\u0022Test\\u0022,\\u0022RequiredRoles\\u0022:\\u0022Administrators\\u0022,\\u0022Links\\u0022:[],\\u0022Activities\\u0022:[{\\u0022$type\\u0022:\\u0022Core.Objects.Workflow.Activities.Start, Core.Objects\\u0022,\\u0022AuthToken\\u0022:null,\\u0022Data\\u0022:null,\\u0022Ref\\u0022:\\u0022Start\\u0022,\\u0022State\\u0022:0}]}\u0022,\r\n    \u0022LastUpdated\u0022: \u00222026-05-01T18:24:30.2555848\\u002B01:00\u0022\r\n  }\r\n]"
+    }
+  ]
+}

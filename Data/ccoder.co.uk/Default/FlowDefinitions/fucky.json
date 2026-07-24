@@ -1,9 +1,0 @@
-{
-  "$type": "<>f__AnonymousType5`8[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.DateTimeOffset, System.Private.CoreLib]], cCoder.Workflow",
-  "ProcessName": "cCoder Ltd",
-  "Name": "fucky",
-  "Description": "New Flow",
-  "DefinitionJson": "{\"Name\":\"fucky\",\"RequiredRoles\":\"Administrators,Users,Guests\",\"Links\":[],\"Activities\":[{\"$type\":\"Core.Objects.Workflow.Activities.Start, Core.Objects\",\"AuthToken\":null,\"Data\":null,\"Ref\":\"Start\",\"State\":0}]}",
-  "LastUpdated": "2023-11-05T07:11:21.4728394+00:00",
-  "IncludeInSubSequentImports": true
-}
