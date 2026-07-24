@@ -19,17 +19,7 @@ internal sealed partial class CommandOptionsParserProcessingService
 
     private static CommandOptions ParseCommandOptions(string[] args)
     {
-        string? localCommand = args.Length > 0
-            && (string.Equals(
-                a: args[0],
-                b: "-report",
-                comparisonType: StringComparison.OrdinalIgnoreCase)
-                || string.Equals(
-                    a: args[0],
-                    b: "-pack",
-                    comparisonType: StringComparison.OrdinalIgnoreCase))
-                ? args[0][1..].ToLowerInvariant()
-                : null;
+        string? localCommand = ResolveLocalCommand(args: args);
 
         Dictionary<string, string> values = new(comparer: StringComparer.OrdinalIgnoreCase);
 
@@ -50,6 +40,41 @@ internal sealed partial class CommandOptionsParserProcessingService
 
         values.TryGetValue(key: "packagesPath", value: out string? packagesPath);
 
+        if (localCommand == "create")
+        {
+            values.TryGetValue(key: "api", value: out string? api);
+            values.TryGetValue(key: "name", value: out string? appName);
+            values.TryGetValue(key: "tenant", value: out string? tenantId);
+            values.TryGetValue(key: "baseline", value: out string? baselinePath);
+            values.TryGetValue(key: "user", value: out string? createUser);
+
+            string? createPassword = values.GetValueOrDefault(key: "pass")
+                ?? values.GetValueOrDefault(key: "password");
+
+            if (!Uri.TryCreate(
+                uriString: api,
+                uriKind: UriKind.Absolute,
+                result: out Uri? apiUri)
+                || apiUri.Scheme is not ("http" or "https"))
+            {
+                throw new ArgumentException(
+                    message: "Use '-api' with an absolute HTTP or HTTPS URL.");
+            }
+
+            return new CommandOptions(
+                Name: localCommand,
+                Target: null,
+                Source: EnsureTrailingSlash(source: apiUri),
+                User: createUser,
+                Password: createPassword,
+                AppName: appName,
+                TenantId: tenantId,
+                BaselinePath: baselinePath,
+                AppId: null,
+                DataPath: null,
+                PackagesPath: null);
+        }
+
         if (localCommand is not null)
         {
             return new CommandOptions(
@@ -58,6 +83,9 @@ internal sealed partial class CommandOptionsParserProcessingService
                 Source: null,
                 User: null,
                 Password: null,
+                AppName: null,
+                TenantId: null,
+                BaselinePath: null,
                 AppId: null,
                 DataPath: dataPath,
                 PackagesPath: packagesPath);
@@ -104,9 +132,34 @@ internal sealed partial class CommandOptionsParserProcessingService
             Source: EnsureTrailingSlash(source: sourceUri),
             User: user,
             Password: password,
+            AppName: null,
+            TenantId: null,
+            BaselinePath: null,
             AppId: appId,
             DataPath: dataPath,
             PackagesPath: packagesPath);
+    }
+
+    private static string? ResolveLocalCommand(string[] args)
+    {
+        if (args.Length == 0)
+        {
+            return null;
+        }
+
+        string candidate = args[0].TrimStart(trimChar: '-');
+
+        return candidate.Equals(
+            value: "pack",
+            comparisonType: StringComparison.OrdinalIgnoreCase)
+            || candidate.Equals(
+                value: "report",
+                comparisonType: StringComparison.OrdinalIgnoreCase)
+            || candidate.Equals(
+                value: "create",
+                comparisonType: StringComparison.OrdinalIgnoreCase)
+                ? candidate.ToLowerInvariant()
+                : null;
     }
 
     private static Uri EnsureTrailingSlash(Uri source)

@@ -27,6 +27,30 @@ command.
 
 ## Commands
 
+### Create an application from a baseline
+
+```powershell
+dotnet run --project src/cCoder.Packer -- create `
+  -api https://ccoder.co.uk `
+  -name test `
+  -tenant default `
+  -user {user} `
+  -pass {password} `
+  -baseline "C:\Data\Github\cCoder\cCoder.Assets\Packages\First Time Setup"
+```
+
+This authenticates against the supplied API, creates an application named
+`test` for the supplied tenant on `test.ccoder.co.uk`, and then:
+
+- imports every package below `App` into the newly created application; and
+- imports every package below `Common Cache` into the deployment-wide common
+  cache.
+
+The platform's existing application-creation behavior makes the authenticated
+user the initial application administrator. The command currently consumes the
+existing app, package-import, and common-object endpoints as-is; those calls may
+need to move when the ongoing API standardisation work lands.
+
 ### Unpack the common cache
 
 ```powershell
@@ -87,23 +111,25 @@ This rebuilds the complete `Packages` directory from every JSON file under
 `Data`. Existing generated package output is replaced. Objects are grouped into
 one package per resource key and API type.
 
-Regular common-cache and application packages use matching structures:
+All common-cache and application objects are written to source-owned package
+trees:
 
 ```text
 Packages/Common Cache/{resource key}/{API type}.json
-Packages/App Packages/{source domain}/{resource key}/{API type}.json
+Packages/{source domain}/{resource key}/{API type}.json
 ```
 
-Objects whose `IncludeInSubSequentImports` value is `true` are collected in the
-first-time-setup tree:
+Objects whose `IncludeInSubSequentImports` value is `true` are also copied into
+the curated first-time-setup tree:
 
 ```text
-Packages/FirstTimeSetup/Common Cache/{resource key}/{API type}.json
-Packages/FirstTimeSetup/App Packages/{source domain}/{resource key}/{API type}.json
+Packages/First Time Setup/Common Cache/{resource key}/{API type}.json
+Packages/First Time Setup/App/{resource key}/{API type}.json
 ```
 
-The application homepage is baseline data: it belongs in the first-time-setup
-page package and is deliberately excluded from regular page imports.
+The application homepage is baseline data: it belongs in the source-owned
+application package and is additionally included in the first-time-setup page
+package.
 
 The packaging-only fields are removed from the business-object JSON embedded in
 each generated package.

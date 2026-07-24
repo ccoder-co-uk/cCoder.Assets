@@ -2,9 +2,11 @@
 // Copyright (c) Paul.Ward@ccoder.co.uk
 // ---------------------------------------------------------------
 
+using cCoder.Packer.Brokers;
 using cCoder.Packer.Models.Configurations;
 using cCoder.Packer.Services.Orchestrations.Commands;
 using cCoder.Packer.Services.Processings.Commands;
+using cCoder.Packer.Services.Processings.Provisioning;
 using cCoder.Packer.Services.Processings.Packing;
 using cCoder.Packer.Services.Processings.Reports;
 using Microsoft.Extensions.DependencyInjection;
@@ -25,6 +27,10 @@ internal static class IServiceCollectionExtensions
         PackerConfiguration configuration) =>
         services
             .AddSingleton(implementationInstance: configuration)
+            .AddSingleton<HttpClient>()
+            .AddTransient<
+                IPackerApiBroker,
+                PackerApiBroker>()
             .AddSingleton<
                 ICommandOptionsParserProcessingService,
                 CommandOptionsParserProcessingService>()
@@ -41,6 +47,12 @@ internal static class IServiceCollectionExtensions
                 IPackageBuilderProcessingService,
                 PackageBuilderProcessingService>()
             .AddTransient<
+                ICreateAppProcessingService,
+                CreateAppProcessingService>()
+            .AddTransient<
+                ICreateCommandHandlingOrchestrationService,
+                CreateCommandHandlingOrchestrationService>()
+            .AddTransient<
                 IPackCommandHandlingOrchestrationService,
                 PackCommandHandlingOrchestrationService>()
             .AddTransient<
@@ -49,6 +61,11 @@ internal static class IServiceCollectionExtensions
             .AddTransient<
                 IUnpackCommandHandlingProcessingService,
                 UnpackCommandHandlingProcessingService>()
+            .AddKeyedTransient<ICommandHandlingService>(
+                serviceKey: "create",
+                implementationFactory: (provider, _) =>
+                    provider.GetRequiredService<
+                        ICreateCommandHandlingOrchestrationService>())
             .AddKeyedTransient<ICommandHandlingService>(
                 serviceKey: "pack",
                 implementationFactory: (provider, _) =>

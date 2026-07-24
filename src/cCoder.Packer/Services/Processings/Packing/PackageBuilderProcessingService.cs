@@ -44,12 +44,6 @@ internal sealed partial class PackageBuilderProcessingService
             Directory.Delete(path: packagesPath, recursive: true);
         }
 
-        string firstTimeSetupPath = Path.Combine(
-            path1: packagesPath,
-            path2: "FirstTimeSetup");
-
-        Directory.CreateDirectory(path: firstTimeSetupPath);
-
         List<PackageSourceItem> items = [];
 
         foreach (string file in Directory.EnumerateFiles(
@@ -64,16 +58,48 @@ internal sealed partial class PackageBuilderProcessingService
                 cancellationToken: cancellationToken));
         }
 
+        string commonCachePath = Path.Combine(
+            path1: packagesPath,
+            path2: "Common Cache");
+
+        string firstTimeSetupPath = Path.Combine(
+            path1: packagesPath,
+            path2: "First Time Setup");
+
+        Directory.CreateDirectory(path: commonCachePath);
+        Directory.CreateDirectory(path: firstTimeSetupPath);
+
+        foreach (string source in items
+            .Select(selector: item => item.Source)
+            .Where(predicate: source => !source.Equals(
+                value: "Common Cache",
+                comparisonType: StringComparison.OrdinalIgnoreCase))
+            .Distinct(comparer: StringComparer.OrdinalIgnoreCase))
+        {
+            Directory.CreateDirectory(path: Path.Combine(
+                path1: packagesPath,
+                path2: SafeSegment(value: source)));
+        }
+
         List<string> writtenFiles = [];
 
         foreach (IGrouping<
             (bool FirstTimeSetup, string Source, string Key, string Type),
-            PackageSourceItem> group in items.GroupBy(
-                keySelector: item => (
-                    item.FirstTimeSetup,
-                    item.Source,
-                    item.Key,
-                    item.Type))
+            (bool FirstTimeSetup, PackageSourceItem Item)> group in items
+                .Select(selector: item => (
+                    FirstTimeSetup: false,
+                    Item: item))
+                .Concat(second: items
+                    .Where(predicate: item => item.FirstTimeSetup)
+                    .Select(selector: item => (
+                        FirstTimeSetup: true,
+                        Item: item)))
+                .GroupBy(
+                    keySelector: packageItem => (
+                        packageItem.FirstTimeSetup,
+                        packageItem.Item.Source,
+                        packageItem.Item.Key,
+                        packageItem.Item.Type))
                 .OrderBy(
                     keySelector: group => group.Key.FirstTimeSetup)
                 .ThenBy(
@@ -91,17 +117,21 @@ internal sealed partial class PackageBuilderProcessingService
                     value: "Common Cache",
                     comparisonType: StringComparison.OrdinalIgnoreCase)
                     ? "Common Cache"
-                    : Path.Combine(
-                        path1: "App Packages",
-                        path2: SafeSegment(value: group.Key.Source));
+                    : SafeSegment(value: group.Key.Source);
+
+            string setupSourceFolder = sourceFolder.Equals(
+                value: "Common Cache",
+                comparisonType: StringComparison.OrdinalIgnoreCase)
+                ? sourceFolder
+                : "App";
 
             string directory = group.Key.FirstTimeSetup
                 ? Path.Combine(
                     paths:
                     [
                         packagesPath,
-                        "FirstTimeSetup",
-                        sourceFolder,
+                        "First Time Setup",
+                        setupSourceFolder,
                         SafeSegment(value: group.Key.Key),
                     ])
                 : Path.Combine(
@@ -121,7 +151,7 @@ internal sealed partial class PackageBuilderProcessingService
             JsonElement[] values =
             [
                 .. group
-                    .Select(selector: item => item.Value)
+                    .Select(selector: item => item.Item.Value)
                     .OrderBy(
                         keySelector: value => value.GetRawText(),
                         comparer: StringComparer.Ordinal),
@@ -206,24 +236,19 @@ internal sealed partial class PackageBuilderProcessingService
 
             int scopeIndex = string.Equals(
                 a: pathSegments[0],
-                b: "FirstTimeSetup",
+                b: "First Time Setup",
                 comparisonType: StringComparison.OrdinalIgnoreCase)
                 ? 1
                 : 0;
 
-            string source = string.Equals(
-                a: pathSegments[scopeIndex],
-                b: "Common Cache",
-                comparisonType: StringComparison.OrdinalIgnoreCase)
-                ? "Common Cache"
-                : pathSegments[scopeIndex + 1];
+            string source = pathSegments[scopeIndex];
 
             manifestItems.Add(item: new AssetPackageManifestItem(
                 Path: relativePath,
                 Sha256: Convert.ToHexString(
                     inArray: SHA256.HashData(source: packageBytes)),
                 FirstTimeSetup: relativePath.StartsWith(
-                    value: "FirstTimeSetup/",
+                    value: "First Time Setup/",
                     comparisonType: StringComparison.OrdinalIgnoreCase),
                 Source: source,
                 Category: package.Category,
