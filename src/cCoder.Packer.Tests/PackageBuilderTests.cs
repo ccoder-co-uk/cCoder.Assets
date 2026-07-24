@@ -21,6 +21,16 @@ public sealed partial class PackageBuilderTests
         string dataPath = Path.Combine(path1: root, path2: "Data");
         string packagesPath = Path.Combine(path1: root, path2: "Packages");
 
+        Directory.CreateDirectory(path: packagesPath);
+
+        string stalePackageFile = Path.Combine(
+            path1: packagesPath,
+            path2: "stale-package.json");
+
+        await File.WriteAllTextAsync(
+            path: stalePackageFile,
+            contents: "{}");
+
         string sourceDirectory = Path.Combine(
             paths:
             [
@@ -67,6 +77,8 @@ public sealed partial class PackageBuilderTests
 
         // Then
         Assert.Equal(expected: 3, actual: files.Count);
+
+        Assert.False(condition: File.Exists(path: stalePackageFile));
 
         string regularFile = Path.Combine(
             paths:
