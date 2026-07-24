@@ -1,8 +1,0 @@
-{
-  "Name": "CoreRoleGrid",
-  "Content": "async function (variables) {\r\n    var roleGrid = new GridWidget(variables.element, variables.dataSource);\r\n    roleGrid.editable = false;\r\n    roleGrid.groupable = false;\r\n    roleGrid.pageable = false;\r\n    roleGrid.change = function (e) {\r\n        var selectedRows = this.select();\r\n        variables.SelectedCoreRoles = [];\r\n        for (var i = 0; i < selectedRows.length; i++) {\r\n            var dataItem = this.dataItem(selectedRows[i]);\r\n            variables.SelectedCoreRoles.push(dataItem);\r\n        }\r\n    };\r\n    roleGrid.sortable = true;\r\n    roleGrid.filterable = true;\r\n    roleGrid.columns =\r\n        [{ selectable: (variables.readonly) ? false : true, width: \"50px\" },\r\n        { field: \"Name\", title: \"[resource_shortdisplayname[name]]\" }\r\n        ];\r\n    variables.CoreRoleGrid = roleGrid;\r\n}",
-  "CreatedOn": "2021-09-24T09:23:11.15Z",
-  "LastUpdated": "2021-09-24T09:23:11.15Z",
-  "Key": "B2B",
-  "IncludeInSubSequentImports": true
-}

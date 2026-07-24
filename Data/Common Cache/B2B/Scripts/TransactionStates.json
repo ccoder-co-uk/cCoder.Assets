@@ -1,8 +1,0 @@
-{
-  "Name": "TransactionStates",
-  "Content": "{\r\nApproved: \"[resource_displayname[approved]]\",\r\nRejectedCancelled: \"[resource_displayname[rejectedcancelled]]\",\r\nForApproval: \"[resource_displayname[forapproval]]\",\r\nFundingAccepted: \"[resource_displayname[fundingaccepted]]\",\r\nHeld: \"[resource_displayname[held]]\",\r\nnull: \"[resource_displayname[noneligible]]\",\r\nPaid: \"[resource_displayname[paid]]\",\r\nProposed: \"[resource_displayname[proposed]]\",\r\nReceived: \"[resource_displayname[received]]\",\r\nSent: \"[resource_displayname[sent]]\",\r\nSentForFunding: \"[resource_displayname[sentforfunding]]\"\r\n}",
-  "CreatedOn": "2021-09-28T13:24:20.604Z",
-  "LastUpdated": "2021-09-28T13:24:20.604Z",
-  "Key": "B2B",
-  "IncludeInSubSequentImports": true
-}

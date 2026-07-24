@@ -46,17 +46,6 @@
     "IncludeInSubSequentImports": true
   },
   {
-    "Name": "buyerbuckets",
-    "Key": "ContentManagement",
-    "DisplayName": "Buyer Buckets",
-    "ShortDisplayName": "Buyer Buckets",
-    "Description": "Buyer Buckets",
-    "CreatedOn": "2022-10-19T09:53:47.631Z",
-    "LastUpdated": "2022-10-19T09:53:47.631Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Id": 7263,
     "AppId": 4,
     "Key": "ContentManagement",
@@ -69,22 +58,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 7274,
-        "AppId": 4,
-        "Key": "B2B",
-        "Culture": "fr-FR",
-        "DisplayName": "Annulé(e)",
-        "ShortDisplayName": "Annulé(e)",
-        "Name": "cancel",
-        "Description": "Annulé(e)",
-        "LastUpdated": "2021-07-07T09:42:12.1346861Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "Translations": [],
     "IncludeInSubSequentImports": true
   },
   {
@@ -589,17 +563,6 @@
     "IncludeInSubSequentImports": true
   },
   {
-    "Name": "offers",
-    "Key": "ContentManagement",
-    "DisplayName": "Offers",
-    "ShortDisplayName": "Offers",
-    "Description": "Offers",
-    "CreatedOn": "2022-02-24T17:01:57.874Z",
-    "LastUpdated": "2022-02-24T17:01:57.874Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Culture": "",
     "Key": "ContentManagement",
     "Name": "pagedeleted",
@@ -890,17 +853,6 @@
     "ShortDisplayName": "Source",
     "Description": "source",
     "LastUpdated": "2022-03-18T10:41:54.1896797+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "supplierbuckets",
-    "Key": "ContentManagement",
-    "DisplayName": "Supplier Buckets",
-    "ShortDisplayName": "Supplier Buckets",
-    "Description": "Supplier Buckets",
-    "CreatedOn": "2022-10-19T09:54:10.472Z",
-    "LastUpdated": "2022-10-19T09:54:10.472Z",
-    "Culture": "",
     "IncludeInSubSequentImports": true
   },
   {

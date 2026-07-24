@@ -1,8 +1,0 @@
-{
-  "Name": "B2BDailyUsageTransactionDetailsGrid",
-  "Key": "Security",
-  "Content": "function (vars) {\r\n\tvar g = new GridWidget(vars.element, vars.dataSource);\r\n\tg.groupable = false;\r\n\tg.searchable = false;\r\n\tg.pageable = false;\r\n\tg.scrollable = false;\r\n\tg.editable = false;\r\n\tg.exports = true;\r\n\t\r\n\tg.columns = [\r\n\t\t{\r\n\t\t\tfield: \"Type\",\r\n\t\t\ttitle: \"[resource_shortdisplayname[Type]]\",\r\n\t\t\tdescription: \"[resource_description[Type]]\",\r\n\t\t\ttype: \"string\",\r\n\t\t\twidth: 150\r\n\t\t},\r\n\t\t{\r\n\t\t\tfield: \"Currency\",\r\n\t\t\ttitle: \"[resource_shortdisplayname[Currency]]\",\r\n\t\t\tdescription: \"[resource_description[Currency]]\",\r\n\t\t\ttype: \"string\",\r\n\t\t\twidth: 80\r\n\t\t},\r\n\t\t{\r\n\t\t\tfield: \"Gross\",\r\n\t\t\ttitle: \"[resource_shortdisplayname[Gross]]\",\r\n\t\t\tdescription: \"[resource_description[Gross]]\",\r\n\t\t\ttype: \"number\",\r\n\t\t\tformat: \"{0:\" + type.moneyFormat + \"}\",\r\n\t\t\twidth: 80\r\n\t\t},\r\n\t\t{\r\n\t\t\tfield: \"Net\",\r\n\t\t\ttitle: \"[resource_shortdisplayname[Net]]\",\r\n\t\t\tdescription: \"[resource_description[Net]]\",\r\n\t\t\ttype: \"number\",\r\n\t\t\tformat: \"{0:\" + type.moneyFormat + \"}\",\r\n\t\t\twidth: 80\r\n\t\t}\r\n\t];\r\n\t\r\n\treturn g;\r\n}",
-  "CreatedOn": "2022-09-06T14:45:49.36Z",
-  "LastUpdated": "2022-09-06T14:45:49.36Z",
-  "IncludeInSubSequentImports": true
-}

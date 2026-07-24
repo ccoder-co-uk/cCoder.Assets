@@ -262,16 +262,6 @@
   {
     "Culture": "",
     "Key": "Default",
-    "Name": "buyerportal",
-    "DisplayName": "Buyer Portal",
-    "ShortDisplayName": "Buyer Portal",
-    "Description": "Buyer Portal",
-    "LastUpdated": "2022-03-18T10:41:54.191124+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "Default",
     "Name": "close",
     "DisplayName": "Close",
     "ShortDisplayName": "Close",
@@ -337,16 +327,6 @@
     "ShortDisplayName": "Colours",
     "Description": "Colours",
     "LastUpdated": "2022-03-18T10:41:54.1912394+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "Default",
-    "Name": "companies",
-    "DisplayName": "Companies",
-    "ShortDisplayName": "Companies",
-    "Description": "Companies",
-    "LastUpdated": "2022-03-18T10:41:54.1904187+00:00",
     "IncludeInSubSequentImports": true
   },
   {
@@ -1052,16 +1032,6 @@
   {
     "Culture": "",
     "Key": "Default",
-    "Name": "fundmanagementsystem",
-    "DisplayName": "Fund Management System",
-    "ShortDisplayName": "Fund Management System",
-    "Description": "Fund Management System",
-    "LastUpdated": "2022-03-18T10:41:54.191134+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "Default",
     "Name": "furtherinformation",
     "DisplayName": "Further Information",
     "ShortDisplayName": "Further Information",
@@ -1752,16 +1722,6 @@
   {
     "Culture": "",
     "Key": "Default",
-    "Name": "proposedcompanies",
-    "DisplayName": "Proposed Companies",
-    "ShortDisplayName": "Proposed Companies",
-    "Description": "Proposed Companies",
-    "LastUpdated": "2022-03-18T10:41:54.1903646+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "Default",
     "Name": "radius",
     "DisplayName": "Radius",
     "ShortDisplayName": "Radius",
@@ -2142,16 +2102,6 @@
   {
     "Culture": "",
     "Key": "Default",
-    "Name": "transactionsourcesystem",
-    "DisplayName": "Transaction Source System",
-    "ShortDisplayName": "Transaction Source System",
-    "Description": "Transaction Source System",
-    "LastUpdated": "2022-03-18T10:41:54.189928+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "Default",
     "Name": "updatedby",
     "DisplayName": "Updated By",
     "ShortDisplayName": "Updated By",
@@ -2167,16 +2117,6 @@
     "ShortDisplayName": "Update Password",
     "Description": "Update Password",
     "LastUpdated": "2022-03-18T10:41:54.1909545+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "Default",
-    "Name": "uploadcompanylogo",
-    "DisplayName": "Upload Company Logo",
-    "ShortDisplayName": "Upload Company Logo",
-    "Description": "This will appear on the top left of the portal",
-    "LastUpdated": "2022-08-17T11:24:07.4045406+01:00",
     "IncludeInSubSequentImports": true
   },
   {

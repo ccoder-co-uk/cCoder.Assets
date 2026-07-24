@@ -1,8 +1,0 @@
-{
-  "Name": "GetBucket",
-  "Content": "async function getBucket(args) {\r\n\r\n    //Grunts... much better for OData query builder task.../one that was sent long ago in Discord.\r\n    //Until then, for simplicity, assumption is always has ParentId.\r\n    var parentIdQuery = \"ParentId eq null\";\r\n    if (args.ParentId !== null) {\r\n        parentIdQuery = \"ParentId eq \" + args.ParentId;\r\n    }\r\n    var keyQuery = \"\";\r\n    var keySet = args.hasOwnProperty(\"Key\");\r\n    if (keySet) {\r\n        keyQuery = \"Key eq '\" + args.Key + \"'\";\r\n    }\r\n    var nameQuery = \"\";\r\n    var nameSet = args.hasOwnProperty(\"Name\");\r\n    if (nameSet) {\r\n        nameQuery = \"Name eq '\" + args.Name + \"'\";\r\n    }\r\n    var baseQuery = \"\";\r\n    if (nameSet && !keySet) {\r\n        baseQuery = nameQuery + \" and \" + parentIdQuery;\r\n    } else if (nameSet && keySet) {\r\n        baseQuery = nameQuery + \" and \" + keyQuery + \" and \" + parentIdQuery;\r\n    } else if (!nameSet && keySet) {\r\n        baseQuery = keyQuery + \" and \" + parentIdQuery;\r\n    } else if (!nameSet && !keySet) {\r\n        baseQuery = parentIdQuery;\r\n    }\r\n    return api.get(\"B2B/Bucket?$filter=\" + baseQuery + \"&$expand=Roles\");\r\n}",
-  "CreatedOn": "2021-09-24T09:44:41.405Z",
-  "LastUpdated": "2021-09-24T09:44:41.405Z",
-  "Key": "Default",
-  "IncludeInSubSequentImports": true
-}

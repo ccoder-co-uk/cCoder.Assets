@@ -11,17 +11,6 @@
     "IncludeInSubSequentImports": true
   },
   {
-    "Name": "b2b",
-    "Key": "Security",
-    "DisplayName": "B2B",
-    "ShortDisplayName": "B2B",
-    "Description": "B2B",
-    "CreatedOn": "2023-01-04T12:45:37.019Z",
-    "LastUpdated": "2023-01-04T12:45:37.019Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Name": "core",
     "Key": "Security",
     "DisplayName": "Core",
