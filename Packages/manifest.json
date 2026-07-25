@@ -433,13 +433,11 @@
     },
     {
       "Path": "First Time Setup/app-baseline.json",
-      "Sha256": "E9A2CBAF071CB7CC2FA1D45FFFADBF6ADEFBF7236B4AE21A2814BC793BD33B28",
+      "Sha256": "714AD011132C09C8BE3FF1FCEA8196BC7D4E4F1826EF45BBE101C14274244A4D",
       "FirstTimeSetup": true,
       "Source": "app-baseline.json",
       "Category": "First Time Setup",
       "ItemTypes": [
-        "AppSecurity/Role",
-        "ContentManagement/App",
         "ContentManagement/Component",
         "ContentManagement/Layout",
         "ContentManagement/Page",

@@ -94,6 +94,54 @@ public sealed partial class PackageBuilderTests
                 }
                 """);
 
+        string rolesDirectory = Path.Combine(
+            paths:
+            [
+                dataPath,
+                "ccoder.co.uk",
+                "Default",
+                "Roles",
+            ]);
+
+        Directory.CreateDirectory(path: rolesDirectory);
+
+        await File.WriteAllTextAsync(
+            path: Path.Combine(
+                path1: rolesDirectory,
+                path2: "Administrators.json"),
+            contents:
+                """
+                {
+                  "Name": "Administrators",
+                  "PackageType": "AppSecurity/Role",
+                  "IncludeInSubSequentImports": true
+                }
+                """);
+
+        string appsDirectory = Path.Combine(
+            paths:
+            [
+                dataPath,
+                "ccoder.co.uk",
+                "Default",
+                "Apps",
+            ]);
+
+        Directory.CreateDirectory(path: appsDirectory);
+
+        await File.WriteAllTextAsync(
+            path: Path.Combine(
+                path1: appsDirectory,
+                path2: "Default.json"),
+            contents:
+                """
+                {
+                  "Name": "Default",
+                  "PackageType": "ContentManagement/App",
+                  "IncludeInSubSequentImports": true
+                }
+                """);
+
         PackageBuilderProcessingService service = new();
 
         // When
@@ -102,7 +150,7 @@ public sealed partial class PackageBuilderTests
             packagesPath: packagesPath);
 
         // Then
-        Assert.Equal(expected: 7, actual: files.Count);
+        Assert.Equal(expected: 11, actual: files.Count);
 
         Assert.False(condition: File.Exists(path: stalePackageFile));
 
@@ -196,6 +244,14 @@ public sealed partial class PackageBuilderTests
                 item.GetProperty(propertyName: "Type")
                     .GetString() == "Workflow/CalendarEvent");
 
+        Assert.DoesNotContain(
+            collection: appBaselineItems,
+            filter: item =>
+                item.GetProperty(propertyName: "Type")
+                    .GetString() is
+                    "ContentManagement/App"
+                    or "AppSecurity/Role");
+
         string appBaselinePages = appBaselineItems
             .Single(predicate: item =>
                 item.GetProperty(propertyName: "Type")
@@ -250,7 +306,7 @@ public sealed partial class PackageBuilderTests
                 .GetInt32());
 
         Assert.Equal(
-            expected: 6,
+            expected: 10,
             actual: manifest.RootElement
                 .GetProperty(propertyName: "Packages")
                 .GetArrayLength());
