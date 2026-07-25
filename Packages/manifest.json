@@ -113,7 +113,7 @@
     },
     {
       "Path": "ccoder.co.uk/Default/ContentManagement_Page.json",
-      "Sha256": "ED217A31218090F2ECDE8B81A4118D55B0768A88A19E606E53DC1422004EE385",
+      "Sha256": "06FBDB43F69DE33F7E28B59FE626AD105145FEFCEFA3433BA70CFC2346E0ED03",
       "FirstTimeSetup": false,
       "Source": "ccoder.co.uk",
       "Category": "Default",
@@ -432,6 +432,26 @@
       ]
     },
     {
+      "Path": "First Time Setup/app-baseline.json",
+      "Sha256": "E9A2CBAF071CB7CC2FA1D45FFFADBF6ADEFBF7236B4AE21A2814BC793BD33B28",
+      "FirstTimeSetup": true,
+      "Source": "app-baseline.json",
+      "Category": "First Time Setup",
+      "ItemTypes": [
+        "AppSecurity/Role",
+        "ContentManagement/App",
+        "ContentManagement/Component",
+        "ContentManagement/Layout",
+        "ContentManagement/Page",
+        "ContentManagement/PageRole",
+        "ContentManagement/Resource",
+        "ContentManagement/Template",
+        "DocumentManagement/FolderRole",
+        "Workflow/Calendar",
+        "Workflow/FlowDefinition"
+      ]
+    },
+    {
       "Path": "First Time Setup/App/AppSecurity/ContentManagement_Component.json",
       "Sha256": "622F3C832D7726F8EF8127C560FB83C218B49166BDF0CA8341B8521B449DBEB0",
       "FirstTimeSetup": true,
@@ -543,7 +563,7 @@
     },
     {
       "Path": "First Time Setup/App/Default/ContentManagement_Page.json",
-      "Sha256": "ED217A31218090F2ECDE8B81A4118D55B0768A88A19E606E53DC1422004EE385",
+      "Sha256": "06FBDB43F69DE33F7E28B59FE626AD105145FEFCEFA3433BA70CFC2346E0ED03",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "Default",
@@ -859,6 +879,18 @@
       "Category": "Workflow",
       "ItemTypes": [
         "ContentManagement/Resource"
+      ]
+    },
+    {
+      "Path": "First Time Setup/common-cache.json",
+      "Sha256": "A8ABFFD267965C3F7BB125AA1094CE25235BB4AD1BF3424DB91EC116B15C518A",
+      "FirstTimeSetup": true,
+      "Source": "common-cache.json",
+      "Category": "First Time Setup",
+      "ItemTypes": [
+        "ContentManagement/Component",
+        "ContentManagement/Resource",
+        "ContentManagement/Script"
       ]
     }
   ]
