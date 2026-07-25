@@ -142,6 +142,39 @@ public sealed partial class PackageBuilderTests
                 }
                 """);
 
+        string pageRolesDirectory = Path.Combine(
+            paths:
+            [
+                dataPath,
+                "ccoder.co.uk",
+                "Default",
+                "PageRoles",
+            ]);
+
+        Directory.CreateDirectory(path: pageRolesDirectory);
+
+        await File.WriteAllTextAsync(
+            path: Path.Combine(
+                path1: pageRolesDirectory,
+                path2: "Roles.json"),
+            contents:
+                """
+                [
+                  {
+                    "Path": "Admin",
+                    "Role": "Administrators",
+                    "PackageType": "ContentManagement/PageRole",
+                    "IncludeInSubSequentImports": true
+                  },
+                  {
+                    "Path": "About",
+                    "Role": "Administrators",
+                    "PackageType": "ContentManagement/PageRole",
+                    "IncludeInSubSequentImports": true
+                  }
+                ]
+                """);
+
         PackageBuilderProcessingService service = new();
 
         // When
@@ -150,7 +183,7 @@ public sealed partial class PackageBuilderTests
             packagesPath: packagesPath);
 
         // Then
-        Assert.Equal(expected: 11, actual: files.Count);
+        Assert.Equal(expected: 13, actual: files.Count);
 
         Assert.False(condition: File.Exists(path: stalePackageFile));
 
@@ -230,7 +263,7 @@ public sealed partial class PackageBuilderTests
                 .EnumerateArray(),
         ];
 
-        Assert.Equal(expected: 2, actual: appBaselineItems.Length);
+        Assert.Equal(expected: 3, actual: appBaselineItems.Length);
 
         Assert.Contains(
             collection: appBaselineItems,
@@ -251,6 +284,21 @@ public sealed partial class PackageBuilderTests
                     .GetString() is
                     "ContentManagement/App"
                     or "AppSecurity/Role");
+
+        string appBaselinePageRoles = appBaselineItems
+            .Single(predicate: item =>
+                item.GetProperty(propertyName: "Type")
+                    .GetString() == "ContentManagement/PageRole")
+            .GetProperty(propertyName: "Data")
+            .GetString()!;
+
+        Assert.Contains(
+            expectedSubstring: "\"Path\": \"Admin\"",
+            actualString: appBaselinePageRoles);
+
+        Assert.DoesNotContain(
+            expectedSubstring: "\"Path\": \"About\"",
+            actualString: appBaselinePageRoles);
 
         string appBaselinePages = appBaselineItems
             .Single(predicate: item =>
@@ -306,7 +354,7 @@ public sealed partial class PackageBuilderTests
                 .GetInt32());
 
         Assert.Equal(
-            expected: 10,
+            expected: 12,
             actual: manifest.RootElement
                 .GetProperty(propertyName: "Packages")
                 .GetArrayLength());

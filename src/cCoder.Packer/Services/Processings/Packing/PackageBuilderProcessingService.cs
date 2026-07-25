@@ -239,9 +239,11 @@ internal sealed partial class PackageBuilderProcessingService
             return false;
         }
 
-        if (!item.Type.Equals(
-            value: "ContentManagement/Page",
-            comparisonType: StringComparison.OrdinalIgnoreCase))
+        bool hasPagePath = item.Type is
+            "ContentManagement/Page"
+            or "ContentManagement/PageRole";
+
+        if (!hasPagePath)
         {
             return true;
         }
