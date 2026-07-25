@@ -205,7 +205,7 @@ internal sealed partial class PackageBuilderProcessingService
                     path2: "app-baseline.json"),
                 packageName: "First Time Setup App Baseline",
                 sourceItems: items.Where(predicate: item =>
-                    IsFirstTimeSetupItem(item: item)
+                    IsFirstTimeSetupAppItem(item: item)
                     &&
                     item.Source.Equals(
                         value: "ccoder.co.uk",
@@ -260,6 +260,12 @@ internal sealed partial class PackageBuilderProcessingService
                 value: "Admin/",
                 comparisonType: StringComparison.OrdinalIgnoreCase);
     }
+
+    private static bool IsFirstTimeSetupAppItem(PackageSourceItem item) =>
+        IsFirstTimeSetupItem(item: item)
+        && item.Type is not
+            "ContentManagement/App"
+            and not "AppSecurity/Role";
 
     private static async Task<string> WriteFirstTimeSetupPackageAsync(
         string file,
