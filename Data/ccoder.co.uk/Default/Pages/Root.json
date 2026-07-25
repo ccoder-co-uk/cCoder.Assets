@@ -4,32 +4,32 @@
   "ResourceKey": "Default",
   "ShowOnMenus": false,
   "Order": 1,
-  "LastUpdated": "2026-07-20T20:08:52.9163572+01:00",
+  "LastUpdated": "2026-07-25T00:00:00+01:00",
   "Layout": "PublicContent",
   "Contents": [
     {
       "CultureId": "",
       "Name": "body",
-      "Html": "<div class=\"public-flow\"><section class=\"public-flow-section public-section\"><div class=\"public-section-frame\"><article class=\"public-article\"><h1>[page[title]]</h1><p>cCoder is a modular .NET platform for building the systems a business depends on: identity, data, content, documents, workflow, communication, logging and deployment. Each capability has a clear owner, API boundary, package and test suite. cCoder.Core composes those domains into usable applications without hiding where responsibilities belong, giving teams a practical route from architectural intent to software that can be built, operated and changed.</p><div class=\"public-actions\"><a class=\"btn btn-primary btn-lg\" href=\"/Platform-Domains\"><span class=\"k-icon k-i-grid-layout\"></span>Explore the platform</a><a class=\"btn btn-secondary btn-lg\" href=\"/Documentation\"><span class=\"k-icon k-i-file\"></span>Read the documentation</a><a class=\"btn btn-secondary btn-lg\" href=\"/About-The-Creator\"><span class=\"k-icon k-i-user\"></span>About the creator</a></div></article></div></section><section class=\"public-flow-section public-section\"><div class=\"public-section-frame\"><article class=\"public-article\"><h2>What the platform demonstrates</h2><p>cCoder turns architectural principles into visible, inspectable choices across a working family of systems.</p></article><div class=\"public-grid\"><article class=\"public-card\"><h2 class=\"public-card-title\">Clear domain ownership</h2><p>Endpoints, metadata and persistence follow the domain that owns the capability. Boundaries remain understandable as the platform grows.</p></article><article class=\"public-card\"><h2 class=\"public-card-title\">Independent, composable systems</h2><p>Domains are developed, tested and published separately, then assembled through a supported composition layer when an application needs the wider platform.</p></article><article class=\"public-card\"><h2 class=\"public-card-title\">Built for real operation</h2><p>Background processing, security, workflow, deployment, observability and failure recovery are treated as part of the architecture rather than work left until later.</p></article></div></div></section><section class=\"public-flow-section public-section public-nav-section\"><div class=\"public-section-frame\"><div class=\"public-section-heading\"><h2>Explore the architecture, thinking and evidence</h2><p>Follow the platform domains, implementation guidance, technical articles and the experience behind cCoder.</p></div>[component[DetailedNav]]</div></section></div>"
+      "Html": "<div class=\"public-flow\"><section class=\"public-flow-section public-section\"><div class=\"public-section-frame\"><article class=\"public-article\"><h1>Welcome to your new web platform</h1><p>Your cCoder platform is ready. Use the administration area to configure your application, manage users and roles, and begin creating content.</p><div class=\"public-actions\"><a class=\"btn btn-primary btn-lg\" href=\"/Admin\">Open administration</a><a class=\"btn btn-secondary btn-lg\" href=\"https://ccoder.co.uk/Documentation\">Read the cCoder documentation</a></div><p>If you need help getting started or want to understand the platform in more detail, visit the full documentation on ccoder.co.uk.</p></article></div></section></div>"
     },
     {
       "CultureId": "en-GB",
       "Name": "body",
-      "Html": "<div class=\"public-flow\"><section class=\"public-flow-section public-section\"><div class=\"public-section-frame\"><article class=\"public-article\"><h1>[page[title]]</h1><p>cCoder is a modular .NET platform for building the systems a business depends on: identity, data, content, documents, workflow, communication, logging and deployment. Each capability has a clear owner, API boundary, package and test suite. cCoder.Core composes those domains into usable applications without hiding where responsibilities belong, giving teams a practical route from architectural intent to software that can be built, operated and changed.</p><div class=\"public-actions\"><a class=\"btn btn-primary btn-lg\" href=\"/Platform-Domains\"><span class=\"k-icon k-i-grid-layout\"></span>Explore the platform</a><a class=\"btn btn-secondary btn-lg\" href=\"/Documentation\"><span class=\"k-icon k-i-file\"></span>Read the documentation</a><a class=\"btn btn-secondary btn-lg\" href=\"/About-The-Creator\"><span class=\"k-icon k-i-user\"></span>About the creator</a></div></article></div></section><section class=\"public-flow-section public-section\"><div class=\"public-section-frame\"><article class=\"public-article\"><h2>What the platform demonstrates</h2><p>cCoder turns architectural principles into visible, inspectable choices across a working family of systems.</p></article><div class=\"public-grid\"><article class=\"public-card\"><h2 class=\"public-card-title\">Clear domain ownership</h2><p>Endpoints, metadata and persistence follow the domain that owns the capability. Boundaries remain understandable as the platform grows.</p></article><article class=\"public-card\"><h2 class=\"public-card-title\">Independent, composable systems</h2><p>Domains are developed, tested and published separately, then assembled through a supported composition layer when an application needs the wider platform.</p></article><article class=\"public-card\"><h2 class=\"public-card-title\">Built for real operation</h2><p>Background processing, security, workflow, deployment, observability and failure recovery are treated as part of the architecture rather than work left until later.</p></article></div></div></section><section class=\"public-flow-section public-section public-nav-section\"><div class=\"public-section-frame\"><div class=\"public-section-heading\"><h2>Explore the architecture, thinking and evidence</h2><p>Follow the platform domains, implementation guidance, technical articles and the experience behind cCoder.</p></div>[component[DetailedNav]]</div></section></div>"
+      "Html": "<div class=\"public-flow\"><section class=\"public-flow-section public-section\"><div class=\"public-section-frame\"><article class=\"public-article\"><h1>Welcome to your new web platform</h1><p>Your cCoder platform is ready. Use the administration area to configure your application, manage users and roles, and begin creating content.</p><div class=\"public-actions\"><a class=\"btn btn-primary btn-lg\" href=\"/Admin\">Open administration</a><a class=\"btn btn-secondary btn-lg\" href=\"https://ccoder.co.uk/Documentation\">Read the cCoder documentation</a></div><p>If you need help getting started or want to understand the platform in more detail, visit the full documentation on ccoder.co.uk.</p></article></div></section></div>"
     }
   ],
   "PageInfo": [
     {
       "CultureId": "",
-      "Description": "A live family of .NET domain systems demonstrating explicit ownership, dependable business capabilities and practical software architecture.",
-      "Keywords": "cCoder,Paul Ward,.NET,The Standard,business systems,domain architecture,software platform",
-      "Title": "Architectural Excellence as Standard"
+      "Description": "Welcome to your new cCoder web platform.",
+      "Keywords": "cCoder,web platform,administration,documentation",
+      "Title": "Welcome to your new web platform"
     },
     {
       "CultureId": "en-GB",
-      "Description": "A live family of .NET domain systems demonstrating explicit ownership, dependable business capabilities and practical software architecture.",
-      "Keywords": "cCoder,Paul Ward,.NET,The Standard,business systems,domain architecture,software platform",
-      "Title": "Architectural Excellence as Standard"
+      "Description": "Welcome to your new cCoder web platform.",
+      "Keywords": "cCoder,web platform,administration,documentation",
+      "Title": "Welcome to your new web platform"
     }
   ],
   "IncludeInSubSequentImports": true

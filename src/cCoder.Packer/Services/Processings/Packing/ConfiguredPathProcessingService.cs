@@ -45,7 +45,7 @@ internal sealed partial class ConfiguredPathProcessingService(
 
             return Path.GetFullPath(
                 path: suppliedPath,
-                basePath: AppContext.BaseDirectory);
+                basePath: Environment.CurrentDirectory);
         });
 
     private static string ResolvePath(
@@ -62,6 +62,6 @@ internal sealed partial class ConfiguredPathProcessingService(
 
         return Path.GetFullPath(
             path: path,
-            basePath: AppContext.BaseDirectory);
+            basePath: Environment.CurrentDirectory);
     }
 }

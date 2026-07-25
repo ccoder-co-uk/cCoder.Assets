@@ -102,7 +102,7 @@ public sealed partial class PackageBuilderTests
             packagesPath: packagesPath);
 
         // Then
-        Assert.Equal(expected: 5, actual: files.Count);
+        Assert.Equal(expected: 7, actual: files.Count);
 
         Assert.False(condition: File.Exists(path: stalePackageFile));
 
@@ -153,6 +153,64 @@ public sealed partial class PackageBuilderTests
 
         Assert.True(condition: File.Exists(path: calendarEventsFile));
 
+        string commonCacheBaselineFile = Path.Combine(
+            paths:
+            [
+                packagesPath,
+                "First Time Setup",
+                "common-cache.json",
+            ]);
+
+        string appBaselineFile = Path.Combine(
+            paths:
+            [
+                packagesPath,
+                "First Time Setup",
+                "app-baseline.json",
+            ]);
+
+        Assert.True(condition: File.Exists(path: commonCacheBaselineFile));
+        Assert.True(condition: File.Exists(path: appBaselineFile));
+
+        using JsonDocument appBaselinePackage = JsonDocument.Parse(
+            json: await File.ReadAllTextAsync(path: appBaselineFile));
+
+        JsonElement[] appBaselineItems =
+        [
+            .. appBaselinePackage.RootElement
+                .GetProperty(propertyName: "Items")
+                .EnumerateArray(),
+        ];
+
+        Assert.Equal(expected: 2, actual: appBaselineItems.Length);
+
+        Assert.Contains(
+            collection: appBaselineItems,
+            filter: item =>
+                item.GetProperty(propertyName: "Type")
+                    .GetString() == "ContentManagement/Page");
+
+        Assert.Contains(
+            collection: appBaselineItems,
+            filter: item =>
+                item.GetProperty(propertyName: "Type")
+                    .GetString() == "Workflow/CalendarEvent");
+
+        string appBaselinePages = appBaselineItems
+            .Single(predicate: item =>
+                item.GetProperty(propertyName: "Type")
+                    .GetString() == "ContentManagement/Page")
+            .GetProperty(propertyName: "Data")
+            .GetString()!;
+
+        Assert.Contains(
+            expectedSubstring: "\"Name\": \"Home\"",
+            actualString: appBaselinePages);
+
+        Assert.DoesNotContain(
+            expectedSubstring: "\"Name\": \"About\"",
+            actualString: appBaselinePages);
+
         using JsonDocument regularPackage = JsonDocument.Parse(
             json: await File.ReadAllTextAsync(path: regularFile));
 
@@ -192,7 +250,7 @@ public sealed partial class PackageBuilderTests
                 .GetInt32());
 
         Assert.Equal(
-            expected: 4,
+            expected: 6,
             actual: manifest.RootElement
                 .GetProperty(propertyName: "Packages")
                 .GetArrayLength());

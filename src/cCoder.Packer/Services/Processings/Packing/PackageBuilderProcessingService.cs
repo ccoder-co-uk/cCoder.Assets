@@ -184,6 +184,34 @@ internal sealed partial class PackageBuilderProcessingService
             writtenFiles.Add(item: file);
         }
 
+        writtenFiles.Add(
+            item: await WriteFirstTimeSetupPackageAsync(
+                file: Path.Combine(
+                    path1: firstTimeSetupPath,
+                    path2: "common-cache.json"),
+                packageName: "First Time Setup Common Cache",
+                sourceItems: items.Where(predicate: item =>
+                    IsFirstTimeSetupItem(item: item)
+                    &&
+                    item.Source.Equals(
+                        value: "Common Cache",
+                        comparisonType: StringComparison.OrdinalIgnoreCase)),
+                cancellationToken: cancellationToken));
+
+        writtenFiles.Add(
+            item: await WriteFirstTimeSetupPackageAsync(
+                file: Path.Combine(
+                    path1: firstTimeSetupPath,
+                    path2: "app-baseline.json"),
+                packageName: "First Time Setup App Baseline",
+                sourceItems: items.Where(predicate: item =>
+                    IsFirstTimeSetupItem(item: item)
+                    &&
+                    item.Source.Equals(
+                        value: "ccoder.co.uk",
+                        comparisonType: StringComparison.OrdinalIgnoreCase)),
+                cancellationToken: cancellationToken));
+
         if (!items.Any(predicate: item => item.FirstTimeSetup))
         {
             await File.WriteAllTextAsync(
@@ -202,6 +230,81 @@ internal sealed partial class PackageBuilderProcessingService
         writtenFiles.Add(item: manifestFile);
 
         return writtenFiles;
+    }
+
+    private static bool IsFirstTimeSetupItem(PackageSourceItem item)
+    {
+        if (!item.FirstTimeSetup)
+        {
+            return false;
+        }
+
+        if (!item.Type.Equals(
+            value: "ContentManagement/Page",
+            comparisonType: StringComparison.OrdinalIgnoreCase))
+        {
+            return true;
+        }
+
+        string? path = item.Value.TryGetProperty(
+            propertyName: "Path",
+            value: out JsonElement pathValue)
+            ? pathValue.GetString()
+            : null;
+
+        return string.IsNullOrWhiteSpace(value: path)
+            || path.Equals(
+                value: "Admin",
+                comparisonType: StringComparison.OrdinalIgnoreCase)
+            || path.StartsWith(
+                value: "Admin/",
+                comparisonType: StringComparison.OrdinalIgnoreCase);
+    }
+
+    private static async Task<string> WriteFirstTimeSetupPackageAsync(
+        string file,
+        string packageName,
+        IEnumerable<PackageSourceItem> sourceItems,
+        CancellationToken cancellationToken)
+    {
+        AssetPackageItem[] packageItems =
+        [
+            .. sourceItems
+                .GroupBy(
+                    keySelector: item => item.Type,
+                    comparer: StringComparer.OrdinalIgnoreCase)
+                .OrderBy(
+                    keySelector: group => group.Key,
+                    comparer: StringComparer.OrdinalIgnoreCase)
+                .Select(selector: group =>
+                    new AssetPackageItem(
+                        Type: group.Key,
+                        Data: JsonSerializer.Serialize(
+                            value: group
+                                .Select(selector: item => item.Value)
+                                .OrderBy(
+                                    keySelector: value =>
+                                        value.GetRawText(),
+                                    comparer: StringComparer.Ordinal)
+                                .ToArray(),
+                            options: JsonDefaults.Options))),
+        ];
+
+        AssetPackage package = new(
+            Name: packageName,
+            Description: $"Generated {packageName.ToLowerInvariant()}.",
+            Category: "First Time Setup",
+            SourceApi: "Multiple",
+            Items: packageItems);
+
+        await File.WriteAllTextAsync(
+            path: file,
+            contents: JsonSerializer.Serialize(
+                value: package,
+                options: JsonDefaults.Options),
+            cancellationToken: cancellationToken);
+
+        return file;
     }
 
     private static async Task<string> WriteManifestAsync(
