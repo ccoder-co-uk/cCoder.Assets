@@ -254,13 +254,30 @@ internal sealed partial class PackageBuilderProcessingService
             ? pathValue.GetString()
             : null;
 
-        return string.IsNullOrWhiteSpace(value: path)
-            || path.Equals(
-                value: "Admin",
+        if (string.IsNullOrWhiteSpace(value: path))
+        {
+            return true;
+        }
+
+        bool isHomepageChildArticle = path.StartsWith(
+            value: "/",
+            comparisonType: StringComparison.Ordinal);
+
+        bool isExcludedSection =
+            path.Equals(
+                value: "Documentation",
                 comparisonType: StringComparison.OrdinalIgnoreCase)
             || path.StartsWith(
-                value: "Admin/",
+                value: "Documentation/",
+                comparisonType: StringComparison.OrdinalIgnoreCase)
+            || path.Equals(
+                value: "Tools",
+                comparisonType: StringComparison.OrdinalIgnoreCase)
+            || path.StartsWith(
+                value: "Tools/",
                 comparisonType: StringComparison.OrdinalIgnoreCase);
+
+        return !isHomepageChildArticle && !isExcludedSection;
     }
 
     private static bool IsFirstTimeSetupAppItem(PackageSourceItem item) =>

@@ -49,10 +49,58 @@ public sealed partial class PackageBuilderTests
             contents:
                 """
                 {
-                  "Path": "About",
+                  "Path": "/About",
                   "Name": "About",
                   "PackageType": "ContentManagement/Page",
                   "IncludeInSubSequentImports": false
+                }
+                """);
+
+        await File.WriteAllTextAsync(
+            path: Path.Combine(path1: sourceDirectory, path2: "Login.json"),
+            contents:
+                """
+                {
+                  "Path": "Login",
+                  "Name": "Login",
+                  "PackageType": "ContentManagement/Page",
+                  "IncludeInSubSequentImports": true
+                }
+                """);
+
+        await File.WriteAllTextAsync(
+            path: Path.Combine(path1: sourceDirectory, path2: "ResetPassword.json"),
+            contents:
+                """
+                {
+                  "Path": "ResetPassword",
+                  "Name": "ResetPassword",
+                  "PackageType": "ContentManagement/Page",
+                  "IncludeInSubSequentImports": true
+                }
+                """);
+
+        await File.WriteAllTextAsync(
+            path: Path.Combine(path1: sourceDirectory, path2: "Documentation.json"),
+            contents:
+                """
+                {
+                  "Path": "Documentation/Core",
+                  "Name": "Documentation",
+                  "PackageType": "ContentManagement/Page",
+                  "IncludeInSubSequentImports": true
+                }
+                """);
+
+        await File.WriteAllTextAsync(
+            path: Path.Combine(path1: sourceDirectory, path2: "Tools.json"),
+            contents:
+                """
+                {
+                  "Path": "Tools/DeveloperTools",
+                  "Name": "Tools",
+                  "PackageType": "ContentManagement/Page",
+                  "IncludeInSubSequentImports": true
                 }
                 """);
 
@@ -167,7 +215,7 @@ public sealed partial class PackageBuilderTests
                     "IncludeInSubSequentImports": true
                   },
                   {
-                    "Path": "About",
+                    "Path": "/About",
                     "Role": "Administrators",
                     "PackageType": "ContentManagement/PageRole",
                     "IncludeInSubSequentImports": true
@@ -311,8 +359,24 @@ public sealed partial class PackageBuilderTests
             expectedSubstring: "\"Name\": \"Home\"",
             actualString: appBaselinePages);
 
+        Assert.Contains(
+            expectedSubstring: "\"Name\": \"Login\"",
+            actualString: appBaselinePages);
+
+        Assert.Contains(
+            expectedSubstring: "\"Name\": \"ResetPassword\"",
+            actualString: appBaselinePages);
+
         Assert.DoesNotContain(
             expectedSubstring: "\"Name\": \"About\"",
+            actualString: appBaselinePages);
+
+        Assert.DoesNotContain(
+            expectedSubstring: "\"Name\": \"Documentation\"",
+            actualString: appBaselinePages);
+
+        Assert.DoesNotContain(
+            expectedSubstring: "\"Name\": \"Tools\"",
             actualString: appBaselinePages);
 
         using JsonDocument regularPackage = JsonDocument.Parse(
