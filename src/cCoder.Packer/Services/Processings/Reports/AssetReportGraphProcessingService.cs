@@ -92,6 +92,8 @@ internal sealed partial class AssetReportGraphProcessingService
 
         report.AppendLine();
 
+        AppendInventory(report: report);
+
         foreach (AssetReportAsset layout in this.layouts.OrderBy(
             keySelector: NameOf,
             comparer: StringComparer.OrdinalIgnoreCase))
@@ -103,6 +105,136 @@ internal sealed partial class AssetReportGraphProcessingService
 
         return report.ToString();
     }
+
+    private void AppendInventory(StringBuilder report)
+    {
+        report.AppendLine(value: "## Package ownership inventory");
+        report.AppendLine();
+        report.AppendLine(value: "| Scope | Resource key | Asset type | Full cut | First-time cut |");
+        report.AppendLine(value: "| --- | --- | --- | ---: | ---: |");
+
+        foreach (var group in this.assets
+            .GroupBy(keySelector: asset => new
+            {
+                Scope = asset.IsCommonCache ? "Common Cache" : "App",
+                asset.Key,
+                asset.Type,
+            })
+            .OrderBy(keySelector: group => group.Key.Scope)
+            .ThenBy(keySelector: group => group.Key.Key)
+            .ThenBy(keySelector: group => group.Key.Type))
+        {
+            report.AppendLine(
+                value: $"| {group.Key.Scope} | `{group.Key.Key}` | " +
+                    $"`{group.Key.Type}` | {group.Count()} | " +
+                    $"{group.Count(predicate: asset => asset.FirstTimeSetup)} |");
+        }
+
+        report.AppendLine();
+
+        AppendQueue(
+            report: report,
+            title: "Default-key ownership candidates",
+            values: this.assets
+                .Where(predicate: asset =>
+                    string.Equals(
+                        a: asset.Key,
+                        b: "Default",
+                        comparisonType: StringComparison.OrdinalIgnoreCase)
+                    || string.Equals(
+                        a: AssetReportProcessingService.GetString(
+                            value: asset.Value,
+                            name: "ResourceKey"),
+                        b: "Default",
+                        comparisonType: StringComparison.OrdinalIgnoreCase)
+                    || string.Equals(
+                        a: AssetReportProcessingService.GetString(
+                            value: asset.Value,
+                            name: "Key"),
+                        b: "Default",
+                        comparisonType: StringComparison.OrdinalIgnoreCase))
+                .Select(selector: asset => asset.RelativePath));
+
+        AppendQueue(
+            report: report,
+            title: "App-specific static page candidates",
+            values: this.pages
+                .Where(predicate: page =>
+                {
+                    string path =
+                        AssetReportProcessingService.GetString(
+                            value: page.Value,
+                            name: "Path")
+                        ?? string.Empty;
+
+                    return path.StartsWith(
+                            value: "/",
+                            comparisonType: StringComparison.Ordinal)
+                        || path.Equals(
+                            value: "Documentation",
+                            comparisonType: StringComparison.OrdinalIgnoreCase)
+                        || path.StartsWith(
+                            value: "Documentation/",
+                            comparisonType: StringComparison.OrdinalIgnoreCase)
+                        || path.Equals(
+                            value: "Tools",
+                            comparisonType: StringComparison.OrdinalIgnoreCase)
+                        || path.StartsWith(
+                            value: "Tools/",
+                            comparisonType: StringComparison.OrdinalIgnoreCase);
+                })
+                .Select(selector: page => page.RelativePath));
+
+        HashSet<string> pagePaths = this.pages
+            .Select(selector: page => NormalizePagePath(
+                path: AssetReportProcessingService.GetString(
+                    value: page.Value,
+                    name: "Path")))
+            .ToHashSet(comparer: StringComparer.OrdinalIgnoreCase);
+
+        AppendQueue(
+            report: report,
+            title: "Orphan page-role targets",
+            values: OfType(type: "PageRoles")
+                .Where(predicate: pageRole => !pagePaths.Contains(
+                    item: NormalizePagePath(
+                        path: AssetReportProcessingService.GetString(
+                            value: pageRole.Value,
+                            name: "Path"))))
+                .Select(selector: pageRole =>
+                    $"{AssetReportProcessingService.GetString(
+                        value: pageRole.Value,
+                        name: "Path")} — {pageRole.RelativePath}"));
+
+        AppendQueue(
+            report: report,
+            title: "Directory and payload resource-key mismatches",
+            values: this.assets
+                .Where(predicate: asset =>
+                {
+                    if (string.Equals(
+                        a: asset.Type,
+                        b: "Templates",
+                        comparisonType: StringComparison.OrdinalIgnoreCase))
+                    {
+                        return false;
+                    }
+
+                    string resourceKey = PayloadKeyOf(asset: asset);
+
+                    return !string.IsNullOrWhiteSpace(value: resourceKey)
+                        && !string.Equals(
+                            a: resourceKey,
+                            b: asset.Key,
+                            comparisonType: StringComparison.OrdinalIgnoreCase);
+                })
+                .Select(selector: asset =>
+                    $"{asset.Key} -> {PayloadKeyOf(asset: asset)} — " +
+                    asset.RelativePath));
+    }
+
+    private static string NormalizePagePath(string? path) =>
+        path?.TrimStart(trimChar: '/') ?? string.Empty;
 
     private void AppendLayout(StringBuilder report, AssetReportAsset layout)
     {
@@ -311,7 +443,7 @@ internal sealed partial class AssetReportGraphProcessingService
                     item: script.RelativePath))];
 
         string[] resourceKeys = [.. this.resources
-            .Select(selector: ResourceKeyOf)
+            .Select(selector: PayloadKeyOf)
             .Where(predicate: value =>
                 !string.IsNullOrWhiteSpace(value: value))
             .Distinct(comparer: StringComparer.OrdinalIgnoreCase)];
@@ -474,11 +606,18 @@ internal sealed partial class AssetReportGraphProcessingService
         AssetReportProcessingService.GetString(value: asset.Value, name: "Name")
         ?? Path.GetFileNameWithoutExtension(path: asset.RelativePath);
 
-    private static string ResourceKeyOf(AssetReportAsset asset)
+    private static string PayloadKeyOf(AssetReportAsset asset)
     {
-        string[] segments = asset.RelativePath.Split(separator: '/');
+        string? resourceKey = AssetReportProcessingService.GetString(
+            value: asset.Value,
+            name: "ResourceKey");
 
-        return segments.Length > 2 ? segments[^3] : string.Empty;
+        return string.IsNullOrWhiteSpace(value: resourceKey)
+            ? AssetReportProcessingService.GetString(
+                value: asset.Value,
+                name: "Key")
+                ?? string.Empty
+            : resourceKey;
     }
 
     private IReadOnlyCollection<string> DirectoryRoots() =>

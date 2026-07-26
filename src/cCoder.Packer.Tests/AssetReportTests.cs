@@ -95,15 +95,20 @@ public sealed partial class AssetReportTests
             value: """
                 {
                   "Name": "Home",
-                  "ResourceKey": "WrongSource"
+                  "ResourceKey": "WrongSource",
+                  "Key": "Default"
                 }
                 """);
 
         reportPath = await service.WriteAsync(dataPath: directory);
         report = await File.ReadAllTextAsync(path: reportPath);
 
-        Assert.DoesNotContain(
-            expectedSubstring: "resource key: `WrongSource`",
+        Assert.Contains(
+            expectedSubstring: "Second/Public/Components/Home.json",
+            actualString: report);
+
+        Assert.Contains(
+            expectedSubstring: "Public -> WrongSource",
             actualString: report);
 
         Directory.Delete(path: testRoot, recursive: true);

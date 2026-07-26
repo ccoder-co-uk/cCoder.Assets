@@ -243,14 +243,14 @@ public sealed partial class PackageBuilderTests
             packagesPath: packagesPath);
 
         // Then
-        Assert.Equal(expected: 13, actual: files.Count);
+        Assert.Equal(expected: 5, actual: files.Count);
 
         Assert.False(condition: File.Exists(path: stalePackageFile));
 
         Assert.Equal(
             expected:
             [
-                "ccoder.co.uk",
+                "App",
                 "Common Cache",
                 "First Time Setup",
             ],
@@ -264,32 +264,18 @@ public sealed partial class PackageBuilderTests
             paths:
             [
                 packagesPath,
-                "ccoder.co.uk",
-                "CMS",
-                "ContentManagement_Page.json",
-            ]);
-
-        string setupFile = Path.Combine(
-            paths:
-            [
-                packagesPath,
-                "First Time Setup",
                 "App",
-                "CMS",
-                "ContentManagement_Page.json",
+                "CMS.json",
             ]);
 
         Assert.True(condition: File.Exists(path: regularFile));
-        Assert.True(condition: File.Exists(path: setupFile));
 
         string calendarEventsFile = Path.Combine(
             paths:
             [
                 packagesPath,
-                "First Time Setup",
                 "App",
-                "Default",
-                "Workflow_CalendarEvent.json",
+                "Default.json",
             ]);
 
         Assert.True(condition: File.Exists(path: calendarEventsFile));
@@ -395,15 +381,23 @@ public sealed partial class PackageBuilderTests
             json: await File.ReadAllTextAsync(path: regularFile));
 
         string regularData = regularPackage.RootElement.GetProperty(
-            propertyName: "Items")[0]
+            propertyName: "Items")
+            .EnumerateArray()
+            .Single(predicate: item =>
+                item.GetProperty(propertyName: "Type")
+                    .GetString() == "ContentManagement/Page")
             .GetProperty(propertyName: "Data")
             .GetString()!;
 
         using JsonDocument setupPackage = JsonDocument.Parse(
-            json: await File.ReadAllTextAsync(path: setupFile));
+            json: await File.ReadAllTextAsync(path: appBaselineFile));
 
-        string setupData = setupPackage.RootElement.GetProperty(
-            propertyName: "Items")[0]
+        string setupData = setupPackage.RootElement
+            .GetProperty(propertyName: "Items")
+            .EnumerateArray()
+            .Single(predicate: item =>
+                item.GetProperty(propertyName: "Type")
+                    .GetString() == "ContentManagement/Page")
             .GetProperty(propertyName: "Data")
             .GetString()!;
 
@@ -430,7 +424,7 @@ public sealed partial class PackageBuilderTests
                 .GetInt32());
 
         Assert.Equal(
-            expected: 12,
+            expected: 4,
             actual: manifest.RootElement
                 .GetProperty(propertyName: "Packages")
                 .GetArrayLength());
@@ -448,7 +442,7 @@ public sealed partial class PackageBuilderTests
                     value: "First Time Setup/",
                     comparisonType: StringComparison.Ordinal) == true
                     && path.EndsWith(
-                        value: "CMS/ContentManagement_Page.json",
+                        value: "app-baseline.json",
                         comparisonType: StringComparison.Ordinal);
             });
 
@@ -461,7 +455,7 @@ public sealed partial class PackageBuilderTests
         Assert.Equal(
             expected: Convert.ToHexString(
                 inArray: SHA256.HashData(
-                    source: await File.ReadAllBytesAsync(path: setupFile))),
+                    source: await File.ReadAllBytesAsync(path: appBaselineFile))),
             actual: setupManifestItem
                 .GetProperty(propertyName: "Sha256")
                 .GetString());
