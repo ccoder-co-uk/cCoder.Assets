@@ -433,7 +433,7 @@
     },
     {
       "Path": "First Time Setup/app-baseline.json",
-      "Sha256": "F1B933F2079D1C6C052E79853F2F2C2E2C031E51689B82FABB67A2E782B1C784",
+      "Sha256": "853D3784C6E3FAEBCF118FC90E2E53B46F762D9B9CA10E36EE5F8502212C5EFB",
       "FirstTimeSetup": true,
       "Source": "app-baseline.json",
       "Category": "First Time Setup",

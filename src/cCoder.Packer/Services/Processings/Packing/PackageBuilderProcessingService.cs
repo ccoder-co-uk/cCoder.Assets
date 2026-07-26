@@ -58,6 +58,16 @@ internal sealed partial class PackageBuilderProcessingService
                 cancellationToken: cancellationToken));
         }
 
+        HashSet<string> firstTimeSetupPagePaths = items
+            .Where(predicate: item =>
+                item.FirstTimeSetup
+                && item.Type == "ContentManagement/Page"
+                && IsFirstTimeSetupPagePath(path: GetPagePath(item: item)))
+            .Select(selector: item => NormalizePagePath(
+                path: GetPagePath(item: item)))
+            .Where(predicate: path => !string.IsNullOrWhiteSpace(value: path))
+            .ToHashSet(comparer: StringComparer.OrdinalIgnoreCase);
+
         string commonCachePath = Path.Combine(
             path1: packagesPath,
             path2: "Common Cache");
@@ -191,7 +201,9 @@ internal sealed partial class PackageBuilderProcessingService
                     path2: "common-cache.json"),
                 packageName: "First Time Setup Common Cache",
                 sourceItems: items.Where(predicate: item =>
-                    IsFirstTimeSetupItem(item: item)
+                    IsFirstTimeSetupItem(
+                        item: item,
+                        firstTimeSetupPagePaths: firstTimeSetupPagePaths)
                     &&
                     item.Source.Equals(
                         value: "Common Cache",
@@ -205,7 +217,9 @@ internal sealed partial class PackageBuilderProcessingService
                     path2: "app-baseline.json"),
                 packageName: "First Time Setup App Baseline",
                 sourceItems: items.Where(predicate: item =>
-                    IsFirstTimeSetupAppItem(item: item)
+                    IsFirstTimeSetupAppItem(
+                        item: item,
+                        firstTimeSetupPagePaths: firstTimeSetupPagePaths)
                     &&
                     item.Source.Equals(
                         value: "ccoder.co.uk",
@@ -232,28 +246,35 @@ internal sealed partial class PackageBuilderProcessingService
         return writtenFiles;
     }
 
-    private static bool IsFirstTimeSetupItem(PackageSourceItem item)
+    private static bool IsFirstTimeSetupItem(
+        PackageSourceItem item,
+        IReadOnlySet<string> firstTimeSetupPagePaths)
     {
         if (!item.FirstTimeSetup)
         {
             return false;
         }
 
-        bool hasPagePath = item.Type is
+        if (item.Type is not
             "ContentManagement/Page"
-            or "ContentManagement/PageRole";
-
-        if (!hasPagePath)
+            and not "ContentManagement/PageRole")
         {
             return true;
         }
 
-        string? path = item.Value.TryGetProperty(
-            propertyName: "Path",
-            value: out JsonElement pathValue)
-            ? pathValue.GetString()
-            : null;
+        string? path = GetPagePath(item: item);
 
+        if (item.Type == "ContentManagement/PageRole")
+        {
+            return firstTimeSetupPagePaths.Contains(
+                item: NormalizePagePath(path: path));
+        }
+
+        return IsFirstTimeSetupPagePath(path: path);
+    }
+
+    private static bool IsFirstTimeSetupPagePath(string? path)
+    {
         if (string.IsNullOrWhiteSpace(value: path))
         {
             return true;
@@ -280,8 +301,22 @@ internal sealed partial class PackageBuilderProcessingService
         return !isHomepageChildArticle && !isExcludedSection;
     }
 
-    private static bool IsFirstTimeSetupAppItem(PackageSourceItem item) =>
-        IsFirstTimeSetupItem(item: item)
+    private static string? GetPagePath(PackageSourceItem item) =>
+        item.Value.TryGetProperty(
+            propertyName: "Path",
+            value: out JsonElement pathValue)
+            ? pathValue.GetString()
+            : null;
+
+    private static string NormalizePagePath(string? path) =>
+        path?.TrimStart(trimChar: '/') ?? string.Empty;
+
+    private static bool IsFirstTimeSetupAppItem(
+        PackageSourceItem item,
+        IReadOnlySet<string> firstTimeSetupPagePaths) =>
+        IsFirstTimeSetupItem(
+            item: item,
+            firstTimeSetupPagePaths: firstTimeSetupPagePaths)
         && item.Type is not
             "ContentManagement/App"
             and not "AppSecurity/Role";
