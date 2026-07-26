@@ -10,26 +10,26 @@
     {
       "CultureId": "",
       "Name": "body",
-      "Html": "<div class=\"public-flow\"><section class=\"public-flow-section public-section\"><div class=\"public-section-frame\"><article class=\"public-article\"><h1>Welcome to your new web platform</h1><p>Your cCoder platform is ready. Use the administration area to configure your application, manage users and roles, and begin creating content.</p><div class=\"public-actions\"><a class=\"btn btn-primary btn-lg\" href=\"/Admin\">Open administration</a><a class=\"btn btn-secondary btn-lg\" href=\"https://ccoder.co.uk/Documentation\">Read the cCoder documentation</a></div><p>If you need help getting started or want to understand the platform in more detail, visit the full documentation on ccoder.co.uk.</p></article></div></section></div>"
+      "Html": "<div class=\"public-flow\"><section class=\"public-flow-section public-section\"><div class=\"public-section-frame\"><header class=\"public-article docs-page-header\"><h1>Welcome to your cCoder platform</h1><p class=\"public-copy\">Your new platform is ready, and this is the starting point for shaping it around the people, content and processes it will support.</p></header><article class=\"public-article\"><h2>Everything begins in administration</h2><p>Open the administration area to configure the application, manage users and access, and explore the capabilities included in your baseline.</p><ul><li>Set up the application experience, themes and reusable content.</li><li>Manage platform users, roles and identity security.</li><li>Explore documents, workflows, shared resources and operational tools.</li></ul><div class=\"docs-title-action-links\" style=\"display:flex;flex-wrap:nowrap;align-items:center;gap:.75rem;margin:1.5rem 0\"><a class=\"btn btn-primary btn-lg\" href=\"/Admin\"><span class=\"k-icon k-i-gear\"></span>Open administration</a><a class=\"btn btn-secondary btn-lg\" href=\"https://ccoder.co.uk/Documentation\" target=\"_blank\" rel=\"noreferrer\"><span class=\"k-icon k-i-book\"></span>Read the documentation</a></div><h2>Build from a working foundation</h2><p>The baseline gives you a clean, reusable platform rather than a finished application. Start with the administration area, keep the documentation close, and evolve the experience as your requirements become clear.</p></article></div></section></div>"
     },
     {
       "CultureId": "en-GB",
       "Name": "body",
-      "Html": "<div class=\"public-flow\"><section class=\"public-flow-section public-section\"><div class=\"public-section-frame\"><article class=\"public-article\"><h1>Welcome to your new web platform</h1><p>Your cCoder platform is ready. Use the administration area to configure your application, manage users and roles, and begin creating content.</p><div class=\"public-actions\"><a class=\"btn btn-primary btn-lg\" href=\"/Admin\">Open administration</a><a class=\"btn btn-secondary btn-lg\" href=\"https://ccoder.co.uk/Documentation\">Read the cCoder documentation</a></div><p>If you need help getting started or want to understand the platform in more detail, visit the full documentation on ccoder.co.uk.</p></article></div></section></div>"
+      "Html": "<div class=\"public-flow\"><section class=\"public-flow-section public-section\"><div class=\"public-section-frame\"><header class=\"public-article docs-page-header\"><h1>Welcome to your cCoder platform</h1><p class=\"public-copy\">Your new platform is ready, and this is the starting point for shaping it around the people, content and processes it will support.</p></header><article class=\"public-article\"><h2>Everything begins in administration</h2><p>Open the administration area to configure the application, manage users and access, and explore the capabilities included in your baseline.</p><ul><li>Set up the application experience, themes and reusable content.</li><li>Manage platform users, roles and identity security.</li><li>Explore documents, workflows, shared resources and operational tools.</li></ul><div class=\"docs-title-action-links\" style=\"display:flex;flex-wrap:nowrap;align-items:center;gap:.75rem;margin:1.5rem 0\"><a class=\"btn btn-primary btn-lg\" href=\"/Admin\"><span class=\"k-icon k-i-gear\"></span>Open administration</a><a class=\"btn btn-secondary btn-lg\" href=\"https://ccoder.co.uk/Documentation\" target=\"_blank\" rel=\"noreferrer\"><span class=\"k-icon k-i-book\"></span>Read the documentation</a></div><h2>Build from a working foundation</h2><p>The baseline gives you a clean, reusable platform rather than a finished application. Start with the administration area, keep the documentation close, and evolve the experience as your requirements become clear.</p></article></div></section></div>"
     }
   ],
   "PageInfo": [
     {
       "CultureId": "",
-      "Description": "Welcome to your new cCoder web platform.",
-      "Keywords": "cCoder,web platform,administration,documentation",
-      "Title": "Welcome to your new web platform"
+      "Description": "Welcome to your new cCoder platform and its administration starting point.",
+      "Keywords": "cCoder,platform,administration,users,content,workflow",
+      "Title": "Welcome to your cCoder platform"
     },
     {
       "CultureId": "en-GB",
-      "Description": "Welcome to your new cCoder web platform.",
-      "Keywords": "cCoder,web platform,administration,documentation",
-      "Title": "Welcome to your new web platform"
+      "Description": "Welcome to your new cCoder platform and its administration starting point.",
+      "Keywords": "cCoder,platform,administration,users,content,workflow",
+      "Title": "Welcome to your cCoder platform"
     }
   ],
   "IncludeInSubSequentImports": true
