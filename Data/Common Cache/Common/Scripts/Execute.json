@@ -1,0 +1,8 @@
+{
+  "Name": "Execute",
+  "Content": "async function (variables = {}, functionSet = []) {\r\n    for (var i in functionSet) {\r\n        console.log(\"Executing function \" + i);\r\n        await Promise.resolve(functionSet[i](variables));\r\n    }\r\n}",
+  "CreatedOn": "2021-09-24T09:42:34.536Z",
+  "LastUpdated": "2021-09-24T09:42:34.536Z",
+  "Key": "Common",
+  "IncludeInSubSequentImports": true
+}

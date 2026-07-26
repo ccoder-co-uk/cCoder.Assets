@@ -1,9 +1,0 @@
-{
-  "Name": "Documentation",
-  "Key": "Default",
-  "ResourceKey": "Default",
-  "Script": "Documentation = {\r\n    init: async function(app, container) {\r\n        app = app || session.app;\r\n        container = container || $(\".component[name=Documentation]\");\r\n        $(\"[name=tabs]\", container).kendoTabStrip({ animation: { open: { effects: \"fadeIn\" } } });\r\n\r\n        var businessDocs = await loadComponent($(\".tab[name=businessDocs]\", container), \"FolderManagement\");\r\n        businessDocs.init(app, $(\".component[name=FolderManagement]\", $(\".tab[name=businessDocs]\", container)), { Id: '6A23BDC8-2CA7-4B91-A62F-08D7725C8272', Path: 'documentation/business docs', Name: 'Business Requirements' }, true);\r\n\r\n        var technicalDocs = await loadComponent($(\".tab[name=technicalDocs]\", container), \"FolderManagement\");\r\n        technicalDocs.init(app, $(\".component[name=FolderManagement]\", $(\".tab[name=technicalDocs]\", container)), { Id: '487DB4A6-D50B-49F6-A630-08D7725C8272', Path: 'documentation/technical docs', Name: 'Technical Requirements' }, true);\r\n    }\r\n};",
-  "Content": "<h3>[resource_displayname[documentationlibrary]]</h3>\r\n<div name=\"tabs\" class=\"tabs\">\r\n\t<ul>\r\n\t\t<li class=\"k-state-active\" name=\"businessDocs\">[resource_displayname[businessDocs]]</li>\r\n\t\t<li name=\"technicalDocs\">[resource_displayname[technicalDocs]]</li>\r\n\t</ul>\r\n\t<div class=\"tab\" name=\"businessDocs\"></div>\r\n\t<div class=\"tab\" name=\"technicalDocs\"></div>\r\n</div>",
-  "LastUpdated": "2026-04-30T20:09:37.524228+01:00",
-  "IncludeInSubSequentImports": true
-}

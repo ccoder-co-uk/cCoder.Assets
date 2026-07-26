@@ -97,15 +97,40 @@ internal sealed partial class AssetReportProcessingService
 
             string[] segments = relativePath.Split(separator: '/');
 
-            assets.Add(item: new AssetReportAsset(
-                RelativePath: relativePath,
-                Source: segments[0],
-                Type: segments.Length > 1 ? segments[^2] : string.Empty,
-                IsCommonCache: string.Equals(
-                    a: segments[0],
-                    b: "Common Cache",
-                    comparisonType: StringComparison.OrdinalIgnoreCase),
-                Value: document.RootElement.Clone()));
+            JsonElement[] values = document.RootElement.ValueKind
+                == JsonValueKind.Array
+                    ? [.. document.RootElement.EnumerateArray()]
+                    : [document.RootElement];
+
+            for (int index = 0; index < values.Length; index++)
+            {
+                JsonElement value = values[index];
+
+                bool firstTimeSetup =
+                    value.ValueKind == JsonValueKind.Object
+                    && value.TryGetProperty(
+                        propertyName: "IncludeInSubSequentImports",
+                        value: out JsonElement includeValue)
+                    && includeValue.ValueKind is JsonValueKind.True;
+
+                assets.Add(item: new AssetReportAsset(
+                    RelativePath: values.Length == 1
+                        ? relativePath
+                        : $"{relativePath}#{index + 1}",
+                    Source: segments[0],
+                    Key: segments.Length > 1
+                        ? segments[1]
+                        : string.Empty,
+                    Type: segments.Length > 2
+                        ? segments[2]
+                        : string.Empty,
+                    IsCommonCache: string.Equals(
+                        a: segments[0],
+                        b: "Common Cache",
+                        comparisonType: StringComparison.OrdinalIgnoreCase),
+                    FirstTimeSetup: firstTimeSetup,
+                    Value: value.Clone()));
+            }
         }
 
         return assets;

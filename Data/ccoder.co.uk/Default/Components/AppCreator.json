@@ -1,9 +1,0 @@
-{
-  "Name": "AppCreator",
-  "Key": "Default",
-  "ResourceKey": "Default",
-  "Script": "",
-  "Content": "<div id=\"AppCreatorForm\">\n\t<div class=\"row\">\n\t\t<label>[resource_displayname[TargetEnvironment]]</label><div id=\"EnvironmentDropDownPlaceholder\"></div>\n\t</div>\n\t<div class=\"row\">\n\t\t<div class=\"col-half\">\n\t\t\t<div id=\"appDetailsSection\">\n\t\t\t\t<h3>[resource_displayname[AppDetails]]</h3>\n\t\t\t\t<ul class=\"fieldList\">\n\t\t\t\t\t<li><label>[resource_displayname[AppName]]</label><input name=\"sourceRoot\" value=\"https://localhost:44313\"></input></li>\n\t\t\t\t\t<li><label>[resource_displayname[DomainName]]</label><input name=\"domainName\" value=\"\"></input></li>\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"col-half\">\n\t\t\t[component[LoginToEnvironment]]\n\t\t</div>\n\t</div>\n\t<div class=\"row\">\n\t\t<div class=\"col-half\">\n\t\t\t[component[SelectPackages]]\n\t\t</div>\n\t\t<div class=\"col-half\">\n\t\t\t[component[AppStyling]]\n\t\t</div>\n\t</div>\n</div>\n\n<style>\n\t.component\n\t{\n\t\toverflow: hidden;\n\t}\n.row                            { display: inline-block; display: flex; flex-wrap: wrap; -webkit-flex-direction: row; flex-direction: row;}\n.row *                          { box-sizing: border-box; }\n.row>h2                         { width: 100%; }\n.row.header                     { padding: 0; border-top: #e0e0e0 1px solid; }\n.row>.col                       { align-content: flex-start; flex: 20%; }\n.row>.col-sm                    { flex: 0 25%; min-width: 25%; max-width: 25%;}\n.row>.col-half                  { flex: 0 50%; min-width: 50%; max-width: 50%; }\n.row>.col-lg                    { flex: 1 100%; }\n#appDetailsSection\n{\n\tborder: solid 1px #ccc;\n\tmargin: 20px;\n}\n</style>",
-  "LastUpdated": "2021-11-19T21:26:10.6665033+00:00",
-  "IncludeInSubSequentImports": true
-}

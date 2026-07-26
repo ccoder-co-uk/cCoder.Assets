@@ -115,7 +115,7 @@
       {
         "Id": 25624,
         "AppId": 4,
-        "Key": "Default",
+        "Key": "DocumentManagement",
         "Culture": "fr-FR",
         "DisplayName": "Informations supplémentaires",
         "ShortDisplayName": "Infos suppl",

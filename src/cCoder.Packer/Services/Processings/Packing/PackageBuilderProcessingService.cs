@@ -76,122 +76,45 @@ internal sealed partial class PackageBuilderProcessingService
             path1: packagesPath,
             path2: "First Time Setup");
 
+        string appPath = Path.Combine(
+            path1: packagesPath,
+            path2: "App");
+
         Directory.CreateDirectory(path: commonCachePath);
         Directory.CreateDirectory(path: firstTimeSetupPath);
-
-        foreach (string source in items
-            .Select(selector: item => item.Source)
-            .Where(predicate: source => !source.Equals(
-                value: "Common Cache",
-                comparisonType: StringComparison.OrdinalIgnoreCase))
-            .Distinct(comparer: StringComparer.OrdinalIgnoreCase))
-        {
-            Directory.CreateDirectory(path: Path.Combine(
-                path1: packagesPath,
-                path2: SafeSegment(value: source)));
-        }
+        Directory.CreateDirectory(path: appPath);
 
         List<string> writtenFiles = [];
 
-        foreach (IGrouping<
-            (bool FirstTimeSetup, string Source, string Key, string Type),
-            (bool FirstTimeSetup, PackageSourceItem Item)> group in items
-                .Select(selector: item => (
-                    FirstTimeSetup: false,
-                    Item: item))
-                .Concat(second: items
-                    .Where(predicate: item => item.FirstTimeSetup)
-                    .Select(selector: item => (
-                        FirstTimeSetup: true,
-                        Item: item)))
+        foreach (IGrouping<(string Scope, string Key), PackageSourceItem> group
+            in items
                 .GroupBy(
-                    keySelector: packageItem => (
-                        packageItem.FirstTimeSetup,
-                        packageItem.Item.Source,
-                        packageItem.Item.Key,
-                        packageItem.Item.Type))
+                    keySelector: item => (
+                        Scope: item.Source.Equals(
+                            value: "Common Cache",
+                            comparisonType: StringComparison.OrdinalIgnoreCase)
+                                ? "Common Cache"
+                                : "App",
+                        item.Key))
                 .OrderBy(
-                    keySelector: group => group.Key.FirstTimeSetup)
-                .ThenBy(
-                    keySelector: group => group.Key.Source,
+                    keySelector: group => group.Key.Scope,
                     comparer: StringComparer.OrdinalIgnoreCase)
                 .ThenBy(
                     keySelector: group => group.Key.Key,
-                    comparer: StringComparer.OrdinalIgnoreCase)
-                .ThenBy(
-                    keySelector: group => group.Key.Type,
                     comparer: StringComparer.OrdinalIgnoreCase))
         {
-            string sourceFolder =
-                group.Key.Source.Equals(
-                    value: "Common Cache",
-                    comparisonType: StringComparison.OrdinalIgnoreCase)
-                    ? "Common Cache"
-                    : SafeSegment(value: group.Key.Source);
-
-            string setupSourceFolder = sourceFolder.Equals(
-                value: "Common Cache",
-                comparisonType: StringComparison.OrdinalIgnoreCase)
-                ? sourceFolder
-                : "App";
-
-            string directory = group.Key.FirstTimeSetup
-                ? Path.Combine(
-                    paths:
-                    [
-                        packagesPath,
-                        "First Time Setup",
-                        setupSourceFolder,
-                        SafeSegment(value: group.Key.Key),
-                    ])
-                : Path.Combine(
-                    paths:
-                    [
-                        packagesPath,
-                        sourceFolder,
-                        SafeSegment(value: group.Key.Key),
-                    ]);
-
-            Directory.CreateDirectory(path: directory);
-
             string file = Path.Combine(
-                path1: directory,
-                path2: $"{SafeSegment(value: group.Key.Type)}.json");
+                path1: Path.Combine(
+                    path1: packagesPath,
+                    path2: group.Key.Scope),
+                path2: $"{SafeSegment(value: group.Key.Key)}.json");
 
-            JsonElement[] values =
-            [
-                .. group
-                    .Select(selector: item => item.Item.Value)
-                    .OrderBy(
-                        keySelector: value => value.GetRawText(),
-                        comparer: StringComparer.Ordinal),
-            ];
-
-            AssetPackage package = new(
-                Name: $"{group.Key.Key} {group.Key.Type}",
-                Description: $"Generated {group.Key.Type} package for " +
-                    $"{group.Key.Key}.",
-                Category: group.Key.Key,
-                SourceApi: group.Key.Type
-                    .Split(separator: '/')
-                    .First(),
-                Items:
-                [
-                    new AssetPackageItem(
-                        Type: group.Key.Type,
-                        Data: JsonSerializer.Serialize(
-                            value: values,
-                            options: JsonDefaults.Options)),
-                ]);
-
-            await File.WriteAllTextAsync(
-                path: file,
-                contents: JsonSerializer.Serialize(
-                    value: package,
-                    options: JsonDefaults.Options),
-                cancellationToken: cancellationToken);
-
-            writtenFiles.Add(item: file);
+            writtenFiles.Add(item: await WriteKeyPackageAsync(
+                file: file,
+                scope: group.Key.Scope,
+                key: group.Key.Key,
+                sourceItems: group,
+                cancellationToken: cancellationToken));
         }
 
         writtenFiles.Add(
@@ -221,8 +144,8 @@ internal sealed partial class PackageBuilderProcessingService
                         item: item,
                         firstTimeSetupPagePaths: firstTimeSetupPagePaths)
                     &&
-                    item.Source.Equals(
-                        value: "ccoder.co.uk",
+                    !item.Source.Equals(
+                        value: "Common Cache",
                         comparisonType: StringComparison.OrdinalIgnoreCase)),
                 cancellationToken: cancellationToken));
 
@@ -244,6 +167,52 @@ internal sealed partial class PackageBuilderProcessingService
         writtenFiles.Add(item: manifestFile);
 
         return writtenFiles;
+    }
+
+    private static async Task<string> WriteKeyPackageAsync(
+        string file,
+        string scope,
+        string key,
+        IEnumerable<PackageSourceItem> sourceItems,
+        CancellationToken cancellationToken)
+    {
+        AssetPackageItem[] packageItems =
+        [
+            .. sourceItems
+                .GroupBy(
+                    keySelector: item => item.Type,
+                    comparer: StringComparer.OrdinalIgnoreCase)
+                .OrderBy(
+                    keySelector: group => group.Key,
+                    comparer: StringComparer.OrdinalIgnoreCase)
+                .Select(selector: group => new AssetPackageItem(
+                    Type: group.Key,
+                    Data: JsonSerializer.Serialize(
+                        value: group
+                            .Select(selector: item => item.Value)
+                            .OrderBy(
+                                keySelector: value => value.GetRawText(),
+                                comparer: StringComparer.Ordinal)
+                            .ToArray(),
+                        options: JsonDefaults.Options))),
+        ];
+
+        AssetPackage package = new(
+            Name: $"{key} {scope}",
+            Description: $"Generated {scope.ToLowerInvariant()} " +
+                $"functionality package for {key}.",
+            Category: key,
+            SourceApi: "Multiple",
+            Items: packageItems);
+
+        await File.WriteAllTextAsync(
+            path: file,
+            contents: JsonSerializer.Serialize(
+                value: package,
+                options: JsonDefaults.Options),
+            cancellationToken: cancellationToken);
+
+        return file;
     }
 
     private static bool IsFirstTimeSetupItem(
@@ -404,7 +373,15 @@ internal sealed partial class PackageBuilderProcessingService
                 ? 1
                 : 0;
 
-            string source = pathSegments[scopeIndex];
+            string source = relativePath.Equals(
+                value: "First Time Setup/app-baseline.json",
+                comparisonType: StringComparison.OrdinalIgnoreCase)
+                    ? "App"
+                    : relativePath.Equals(
+                        value: "First Time Setup/common-cache.json",
+                        comparisonType: StringComparison.OrdinalIgnoreCase)
+                            ? "Common Cache"
+                            : pathSegments[scopeIndex];
 
             manifestItems.Add(item: new AssetPackageManifestItem(
                 Path: relativePath,

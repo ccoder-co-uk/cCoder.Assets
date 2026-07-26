@@ -9,6 +9,8 @@ namespace cCoder.Packer.Models.Reports;
 internal sealed record AssetReportAsset(
     string RelativePath,
     string Source,
+    string Key,
     string Type,
     bool IsCommonCache,
+    bool FirstTimeSetup,
     JsonElement Value);
