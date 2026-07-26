@@ -18,7 +18,7 @@
     },
     {
       "Path": "App/Common.json",
-      "Sha256": "2281EF59AA20859DB62B0E83698107181938EF3C494ED144886E6F1279094629",
+      "Sha256": "8DB12032BCC7DDB4B600A2F20540F655BAFA670EB082E11EF62A694F5985C579",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Common",
@@ -42,7 +42,7 @@
     },
     {
       "Path": "App/Core.json",
-      "Sha256": "811CF8BCB052A8C776A095441F91858859A3380474874D385ED7EA1543BD6B60",
+      "Sha256": "6679F25EAA27B4C4107A1C4024972175FA210A42FA3B30F22D2628370691CADD",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Core",
@@ -191,7 +191,7 @@
     },
     {
       "Path": "First Time Setup/app-baseline.json",
-      "Sha256": "04953D9972B4E959068BFACE12722A08FFA6CFB0AA6CE8A99B7F9B052683DC82",
+      "Sha256": "CF5922FB91051BB1E4B4357E0A9FF552FA605363158FE9C46905595BF48FDCFB",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "First Time Setup",
