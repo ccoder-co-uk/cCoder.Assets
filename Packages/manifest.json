@@ -103,7 +103,7 @@
     },
     {
       "Path": "ccoder.co.uk/Default/ContentManagement_Layout.json",
-      "Sha256": "3E4F5A2153F0AC7F144481D7B92D45305101EBE12A8F379AEF8FAA55E98F1AED",
+      "Sha256": "9CCC2AED74EB587230335569881E860AF5B941D01D62A3C46D490F35FD260941",
       "FirstTimeSetup": false,
       "Source": "ccoder.co.uk",
       "Category": "Default",
@@ -113,7 +113,7 @@
     },
     {
       "Path": "ccoder.co.uk/Default/ContentManagement_Page.json",
-      "Sha256": "06FBDB43F69DE33F7E28B59FE626AD105145FEFCEFA3433BA70CFC2346E0ED03",
+      "Sha256": "9B70AD738A2B077DA718FE1CD738A13B982D56B33969632FF3922907FB78AB9F",
       "FirstTimeSetup": false,
       "Source": "ccoder.co.uk",
       "Category": "Default",
@@ -143,7 +143,7 @@
     },
     {
       "Path": "ccoder.co.uk/Default/ContentManagement_Template.json",
-      "Sha256": "B83D06A70F9F54406817EEAB679F6B8EF9931F161C2DD8BC0A4E4F048EFA5AB7",
+      "Sha256": "BCCA2E27BA5B57BB9488FF78127F66350874B62EC7F4143F69D630B083750F25",
       "FirstTimeSetup": false,
       "Source": "ccoder.co.uk",
       "Category": "Default",
@@ -433,7 +433,7 @@
     },
     {
       "Path": "First Time Setup/app-baseline.json",
-      "Sha256": "3918C0687A53FFEF8E32FFC53CD90D2379941098ECB79B5E25C1FD6F26DA316C",
+      "Sha256": "F1B933F2079D1C6C052E79853F2F2C2E2C031E51689B82FABB67A2E782B1C784",
       "FirstTimeSetup": true,
       "Source": "app-baseline.json",
       "Category": "First Time Setup",
@@ -551,7 +551,7 @@
     },
     {
       "Path": "First Time Setup/App/Default/ContentManagement_Layout.json",
-      "Sha256": "3E4F5A2153F0AC7F144481D7B92D45305101EBE12A8F379AEF8FAA55E98F1AED",
+      "Sha256": "9CCC2AED74EB587230335569881E860AF5B941D01D62A3C46D490F35FD260941",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "Default",
@@ -561,7 +561,7 @@
     },
     {
       "Path": "First Time Setup/App/Default/ContentManagement_Page.json",
-      "Sha256": "06FBDB43F69DE33F7E28B59FE626AD105145FEFCEFA3433BA70CFC2346E0ED03",
+      "Sha256": "9B70AD738A2B077DA718FE1CD738A13B982D56B33969632FF3922907FB78AB9F",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "Default",
@@ -591,7 +591,7 @@
     },
     {
       "Path": "First Time Setup/App/Default/ContentManagement_Template.json",
-      "Sha256": "B83D06A70F9F54406817EEAB679F6B8EF9931F161C2DD8BC0A4E4F048EFA5AB7",
+      "Sha256": "BCCA2E27BA5B57BB9488FF78127F66350874B62EC7F4143F69D630B083750F25",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "Default",
