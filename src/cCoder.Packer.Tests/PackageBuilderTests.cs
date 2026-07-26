@@ -69,6 +69,18 @@ public sealed partial class PackageBuilderTests
                 """);
 
         await File.WriteAllTextAsync(
+            path: Path.Combine(path1: sourceDirectory, path2: "Admin.json"),
+            contents:
+                """
+                {
+                  "Path": "Admin",
+                  "Name": "Admin",
+                  "PackageType": "ContentManagement/Page",
+                  "IncludeInSubSequentImports": true
+                }
+                """);
+
+        await File.WriteAllTextAsync(
             path: Path.Combine(path1: sourceDirectory, path2: "ResetPassword.json"),
             contents:
                 """
