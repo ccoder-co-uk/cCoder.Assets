@@ -15,9 +15,9 @@ internal sealed partial class PackerApiClientProcessingService(HttpClient httpCl
 {
     private static readonly string[] CacheTypes =
     [
-        "Core/Component",
-        "Core/Resource",
-        "Core/Script",
+        "ContentManagement/Component",
+        "ContentManagement/Resource",
+        "ContentManagement/Script",
     ];
 
     public Task LoginAsync(
