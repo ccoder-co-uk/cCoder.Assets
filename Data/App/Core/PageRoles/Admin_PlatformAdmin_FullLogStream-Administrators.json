@@ -1,5 +1,5 @@
 {
-  "Path": "Admin/CommonCacheEndpoint",
+  "Path": "Admin/PlatformAdmin/FullLogStream",
   "Role": "Administrators",
   "IncludeInSubSequentImports": true
 }
