@@ -10,12 +10,12 @@
     {
       "CultureId": "",
       "Name": "body",
-      "Html": "[component[WorkflowManagement]]"
+      "Html": "[component[WorkflowAdmin]]"
     },
     {
       "CultureId": "fr-FR",
       "Name": "body",
-      "Html": "[component[WorkflowManagement]]"
+      "Html": "[component[WorkflowAdmin]]"
     }
   ],
   "PageInfo": [

@@ -1,9 +1,9 @@
 {
-  "Path": "Admin/CommonCacheEndpoint",
+  "Path": "Admin/PlatformAdmin/CommonCacheEndpoint",
   "Name": "Common Cache Endpoint",
   "ResourceKey": "ContentManagement",
   "ShowOnMenus": true,
-  "Order": 0,
+  "Order": 3,
   "LastUpdated": "2026-04-30T20:09:38.4350141+01:00",
   "Layout": "Default",
   "Contents": [
