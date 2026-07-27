@@ -28,7 +28,7 @@
     },
     {
       "Path": "App/ContentManagement.json",
-      "Sha256": "5E7F2E4EE3B48B9DB1630CCA2464403F986DB93C11AA60E45697AEF1A30A87CE",
+      "Sha256": "9859C3B611D7F66911043C1F68F5B2B1C4A12906F3E8827578FB381B073A4EEA",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "ContentManagement",
@@ -54,7 +54,7 @@
     },
     {
       "Path": "App/DocumentManagement.json",
-      "Sha256": "744176D941DAC5578F4524E5763063FB23CD54533E23250F5E4254A637A98555",
+      "Sha256": "C743F94C3EF5BB893A0F76EF6686BD6B5350016806A726E07CEE901095476F90",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "DocumentManagement",
@@ -126,7 +126,7 @@
     },
     {
       "Path": "Common Cache/ContentManagement.json",
-      "Sha256": "5B3BD84B8BF7F9935B17B37FDAE653D1A78A485196FF1EAC9D03E70893084A8F",
+      "Sha256": "9EAE3737E6DE4D2943BFB0B152BF183806EA2A114AE7F71DCBDF843D0AB1374B",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "ContentManagement",
@@ -149,14 +149,15 @@
     },
     {
       "Path": "Common Cache/DocumentManagement.json",
-      "Sha256": "D8F34DAA1E0C62FAC0CFF6A2049ACB0F013819DE14CAF90C0E5D9EE19E290E2F",
+      "Sha256": "206B08D16258CBA165FA1AADF4292E8E4C4BE654D743ACC1A712FE2D6108DDA3",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "DocumentManagement",
       "ItemTypes": [
         "ContentManagement/Component",
         "ContentManagement/Resource",
-        "ContentManagement/Script"
+        "ContentManagement/Script",
+        "DocumentManagement/Resource"
       ]
     },
     {
@@ -193,7 +194,7 @@
     },
     {
       "Path": "First Time Setup/app-baseline.json",
-      "Sha256": "140BBC748277B0305AC5B6119EDD2D3DD137A40A3D5837A4F9666DEB94C89D05",
+      "Sha256": "0F17F233E60872F288FAC372149FE1F7F4E2E78BC5484925ADD506972EEBC8EB",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "First Time Setup",
@@ -208,14 +209,15 @@
     },
     {
       "Path": "First Time Setup/common-cache.json",
-      "Sha256": "A672D28BC643B829631BD5D45225E0A9D26F4E561788C04B6198FBFD118D125A",
+      "Sha256": "14CD31A23A49D1BD7AB649724362A6942FBED695B171CD8D2FD355FE1E20DCD0",
       "FirstTimeSetup": true,
       "Source": "Common Cache",
       "Category": "First Time Setup",
       "ItemTypes": [
         "ContentManagement/Component",
         "ContentManagement/Resource",
-        "ContentManagement/Script"
+        "ContentManagement/Script",
+        "DocumentManagement/Resource"
       ]
     }
   ]
