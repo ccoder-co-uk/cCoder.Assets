@@ -22,6 +22,24 @@ internal sealed partial class PackCommandHandlingOrchestrationService(
             string dataPath = configuredPathService.ResolveDataPath(
                 suppliedPath: command.DataPath);
 
+            if (!string.IsNullOrWhiteSpace(value: command.DestinationPath))
+            {
+                string destinationPath = Path.GetFullPath(
+                    path: command.DestinationPath);
+
+                string file = await packageBuilderService.BuildPackageAsync(
+                    sourcePath: dataPath,
+                    destinationPath: destinationPath,
+                    packageName: command.PackageName,
+                    category: command.Category,
+                    cancellationToken: cancellationToken);
+
+                Console.WriteLine(
+                    value: $"Built package '{file}' from '{dataPath}'.");
+
+                return 0;
+            }
+
             string packagesPath =
                 configuredPathService.ResolvePackagesPath(
                     suppliedPath: command.PackagesPath);

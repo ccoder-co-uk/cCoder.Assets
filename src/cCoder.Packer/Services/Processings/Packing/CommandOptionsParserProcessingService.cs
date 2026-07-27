@@ -39,6 +39,9 @@ internal sealed partial class CommandOptionsParserProcessingService
         values.TryGetValue(key: "dataPath", value: out string? dataPath);
 
         values.TryGetValue(key: "packagesPath", value: out string? packagesPath);
+        values.TryGetValue(key: "destination", value: out string? destinationPath);
+        values.TryGetValue(key: "name", value: out string? packageName);
+        values.TryGetValue(key: "category", value: out string? category);
 
         if (localCommand == "create")
         {
@@ -72,7 +75,10 @@ internal sealed partial class CommandOptionsParserProcessingService
                 BaselinePath: baselinePath,
                 AppId: null,
                 DataPath: null,
-                PackagesPath: null);
+                PackagesPath: null,
+                DestinationPath: null,
+                PackageName: null,
+                Category: null);
         }
 
         if (localCommand is not null)
@@ -88,7 +94,10 @@ internal sealed partial class CommandOptionsParserProcessingService
                 BaselinePath: null,
                 AppId: null,
                 DataPath: dataPath,
-                PackagesPath: packagesPath);
+                PackagesPath: packagesPath,
+                DestinationPath: destinationPath,
+                PackageName: packageName,
+                Category: category);
         }
 
         if (!values.TryGetValue(key: "unpack", value: out string? target)
@@ -137,7 +146,10 @@ internal sealed partial class CommandOptionsParserProcessingService
             BaselinePath: null,
             AppId: appId,
             DataPath: dataPath,
-            PackagesPath: packagesPath);
+            PackagesPath: packagesPath,
+            DestinationPath: null,
+            PackageName: null,
+            Category: null);
     }
 
     private static string? ResolveLocalCommand(string[] args)

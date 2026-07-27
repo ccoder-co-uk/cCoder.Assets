@@ -87,11 +87,6 @@ internal sealed partial class AssetReportGraphProcessingService
 
         report.AppendLine();
 
-        report.AppendLine(
-            value: $"Generated: {DateTimeOffset.UtcNow:O}");
-
-        report.AppendLine();
-
         AppendInventory(report: report);
 
         foreach (AssetReportAsset layout in this.layouts.OrderBy(

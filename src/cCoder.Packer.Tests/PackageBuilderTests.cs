@@ -11,6 +11,83 @@ namespace cCoder.Packer.Tests;
 public sealed partial class PackageBuilderTests
 {
     [Fact]
+    public async Task ShouldBuildOnePackageRecursivelyFromOneFolder()
+    {
+        // Given
+        string root = Path.Combine(
+            path1: Path.GetTempPath(),
+            path2: $"ccoder-single-package-{Guid.NewGuid():N}");
+
+        string sourcePath = Path.Combine(
+            paths: [root, "Data", "Common Cache", "Common"]);
+
+        string componentsPath = Path.Combine(
+            path1: sourcePath,
+            path2: "Components");
+
+        Directory.CreateDirectory(path: componentsPath);
+
+        await File.WriteAllTextAsync(
+            path: Path.Combine(path1: componentsPath, path2: "Nav.json"),
+            contents:
+                """
+                {
+                  "Name": "Nav",
+                  "IncludeInSubSequentImports": true
+                }
+                """);
+
+        string destinationPath = Path.Combine(
+            paths: [root, "Packages", "Common Cache", "Common.json"]);
+
+        PackageBuilderProcessingService service = new();
+
+        // When
+        string result = await service.BuildPackageAsync(
+            sourcePath: sourcePath,
+            destinationPath: destinationPath,
+            packageName: "Common Common Cache",
+            category: "Common");
+
+        // Then
+        Assert.Equal(expected: destinationPath, actual: result);
+
+        using JsonDocument package = JsonDocument.Parse(
+            json: await File.ReadAllTextAsync(path: destinationPath));
+
+        Assert.Equal(
+            expected: "Common Common Cache",
+            actual: package.RootElement
+                .GetProperty(propertyName: "Name")
+                .GetString());
+
+        Assert.Equal(
+            expected: "Common",
+            actual: package.RootElement
+                .GetProperty(propertyName: "Category")
+                .GetString());
+
+        JsonElement item = Assert.Single(
+            collection: package.RootElement
+                .GetProperty(propertyName: "Items")
+                .EnumerateArray());
+
+        Assert.Equal(
+            expected: "ContentManagement/Component",
+            actual: item
+                .GetProperty(propertyName: "Type")
+                .GetString());
+
+        Assert.DoesNotContain(
+            expectedSubstring: "IncludeInSubSequentImports",
+            actualString: item
+                .GetProperty(propertyName: "Data")
+                .GetString());
+
+        Directory.Delete(path: root, recursive: true);
+    }
+
+    [Fact]
     public async Task ShouldBuildRegularAndFirstTimeSetupPackages()
     {
         // Given
@@ -100,7 +177,7 @@ public sealed partial class PackageBuilderTests
                   "Path": "Documentation/Core",
                   "Name": "Documentation",
                   "PackageType": "ContentManagement/Page",
-                  "IncludeInSubSequentImports": true
+                  "IncludeInSubSequentImports": false
                 }
                 """);
 
@@ -112,7 +189,7 @@ public sealed partial class PackageBuilderTests
                   "Path": "Tools/DeveloperTools",
                   "Name": "Tools",
                   "PackageType": "ContentManagement/Page",
-                  "IncludeInSubSequentImports": true
+                  "IncludeInSubSequentImports": false
                 }
                 """);
 
@@ -174,7 +251,7 @@ public sealed partial class PackageBuilderTests
                 {
                   "Name": "Administrators",
                   "PackageType": "AppSecurity/Role",
-                  "IncludeInSubSequentImports": true
+                  "IncludeInSubSequentImports": false
                 }
                 """);
 
@@ -198,7 +275,7 @@ public sealed partial class PackageBuilderTests
                 {
                   "Name": "Default",
                   "PackageType": "ContentManagement/App",
-                  "IncludeInSubSequentImports": true
+                  "IncludeInSubSequentImports": false
                 }
                 """);
 
@@ -230,7 +307,7 @@ public sealed partial class PackageBuilderTests
                     "Path": "/About",
                     "Role": "Administrators",
                     "PackageType": "ContentManagement/PageRole",
-                    "IncludeInSubSequentImports": true
+                    "IncludeInSubSequentImports": false
                   }
                 ]
                 """);
