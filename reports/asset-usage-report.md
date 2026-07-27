@@ -6,51 +6,48 @@
 
 | Scope | Resource key | Asset type | Full cut | First-time cut |
 | --- | --- | --- | ---: | ---: |
-| App | `AppSecurity` | `Components` | 8 | 8 |
+| App | `AppSecurity` | `Components` | 3 | 3 |
 | App | `AppSecurity` | `PageRoles` | 5 | 5 |
 | App | `AppSecurity` | `Pages` | 2 | 2 |
 | App | `AppSecurity` | `Resources` | 16 | 16 |
 | App | `AppSecurity` | `Templates` | 4 | 4 |
 | App | `Common` | `Apps` | 1 | 0 |
 | App | `Common` | `Layouts` | 3 | 3 |
-| App | `ContentManagement` | `Components` | 35 | 35 |
+| App | `ContentManagement` | `Components` | 6 | 6 |
 | App | `ContentManagement` | `PageRoles` | 2 | 2 |
 | App | `ContentManagement` | `Pages` | 2 | 2 |
 | App | `ContentManagement` | `Resources` | 104 | 104 |
 | App | `ContentManagement` | `Templates` | 2 | 2 |
-| App | `Core` | `Components` | 4 | 4 |
+| App | `Core` | `Components` | 1 | 1 |
 | App | `Core` | `PageRoles` | 3 | 3 |
 | App | `Core` | `Pages` | 4 | 4 |
-| App | `DocumentManagement` | `Components` | 7 | 7 |
 | App | `DocumentManagement` | `PageRoles` | 3 | 3 |
 | App | `DocumentManagement` | `Pages` | 2 | 2 |
 | App | `DocumentManagement` | `Resources` | 31 | 31 |
-| App | `Mail` | `Components` | 1 | 1 |
 | App | `Mail` | `PageRoles` | 1 | 1 |
 | App | `Mail` | `Pages` | 1 | 1 |
 | App | `Security` | `Components` | 6 | 6 |
 | App | `Security` | `PageRoles` | 1 | 1 |
 | App | `Security` | `Pages` | 1 | 1 |
-| App | `Workflow` | `Components` | 6 | 6 |
 | App | `Workflow` | `PageRoles` | 3 | 3 |
 | App | `Workflow` | `Pages` | 3 | 3 |
 | App | `Workflow` | `Resources` | 8 | 8 |
-| Common Cache | `AppSecurity` | `Components` | 13 | 13 |
+| Common Cache | `AppSecurity` | `Components` | 11 | 11 |
 | Common Cache | `AppSecurity` | `Resources` | 46 | 46 |
 | Common Cache | `Common` | `Components` | 5 | 5 |
 | Common Cache | `Common` | `Scripts` | 3 | 3 |
-| Common Cache | `ContentManagement` | `Components` | 32 | 32 |
+| Common Cache | `ContentManagement` | `Components` | 39 | 39 |
 | Common Cache | `ContentManagement` | `Resources` | 105 | 105 |
 | Common Cache | `ContentManagement` | `Scripts` | 1 | 1 |
-| Common Cache | `Core` | `Components` | 5 | 5 |
+| Common Cache | `Core` | `Components` | 7 | 7 |
 | Common Cache | `Core` | `Resources` | 14 | 14 |
-| Common Cache | `DocumentManagement` | `Components` | 15 | 15 |
+| Common Cache | `DocumentManagement` | `Components` | 21 | 21 |
 | Common Cache | `DocumentManagement` | `Resources` | 91 | 91 |
 | Common Cache | `DocumentManagement` | `Scripts` | 2 | 2 |
 | Common Cache | `Mail` | `Components` | 1 | 1 |
 | Common Cache | `Security` | `Resources` | 10 | 10 |
 | Common Cache | `Security` | `Scripts` | 4 | 4 |
-| Common Cache | `Workflow` | `Components` | 9 | 9 |
+| Common Cache | `Workflow` | `Components` | 12 | 12 |
 | Common Cache | `Workflow` | `Resources` | 23 | 23 |
 
 ### Default-key ownership candidates
@@ -131,12 +128,8 @@
   - [ ] Resource token `December`
   - [ ] Resource token `dateformat`
 - [ ] Component `TopNav` — Common Cache; resource key: `Common`
-- [ ] Component `CultureFlags` — Application; resource key: `ContentManagement`
-- [ ] Component `UserProfile` — Application; resource key: `AppSecurity`
-  - [ ] Resource token `edituserprofile`
-  - [ ] Resource token `resetpassword`
-  - [ ] Resource token `PasswordChanged`
-  - [ ] Resource token `UserUpdated`
+- [ ] Component `CultureFlags` — Common Cache; resource key: `ContentManagement`
+- [ ] Component `UserProfile` — Common Cache; resource key: `AppSecurity`
   - [ ] Resource token `OldPassword`
   - [ ] Resource token `NewPassword`
   - [ ] Resource token `ConfirmPassword`
@@ -147,7 +140,12 @@
   - [ ] Resource token `Email`
   - [ ] Resource token `PhoneNumber`
   - [ ] Resource token `culture`
-  - [ ] Resource token `changepassword`
+  - [ ] Resource token `updatePassword`
+  - [ ] Resource token `update`
+  - [ ] Resource token `UserProfile`
+  - [ ] Resource token `resetpassword`
+  - [ ] Resource token `PasswordChanged`
+  - [ ] Resource token `UserUpdated`
 ### Pages
 
 - [ ] Page `/` — resource key: `Core`; source: `App/Core/Pages/Root.json`
@@ -214,12 +212,8 @@
   - [ ] Resource token `December`
   - [ ] Resource token `dateformat`
 - [ ] Component `TopNav` — Common Cache; resource key: `Common`
-- [ ] Component `CultureFlags` — Application; resource key: `ContentManagement`
-- [ ] Component `UserProfile` — Application; resource key: `AppSecurity`
-  - [ ] Resource token `edituserprofile`
-  - [ ] Resource token `resetpassword`
-  - [ ] Resource token `PasswordChanged`
-  - [ ] Resource token `UserUpdated`
+- [ ] Component `CultureFlags` — Common Cache; resource key: `ContentManagement`
+- [ ] Component `UserProfile` — Common Cache; resource key: `AppSecurity`
   - [ ] Resource token `OldPassword`
   - [ ] Resource token `NewPassword`
   - [ ] Resource token `ConfirmPassword`
@@ -230,14 +224,19 @@
   - [ ] Resource token `Email`
   - [ ] Resource token `PhoneNumber`
   - [ ] Resource token `culture`
-  - [ ] Resource token `changepassword`
+  - [ ] Resource token `updatePassword`
+  - [ ] Resource token `update`
+  - [ ] Resource token `UserProfile`
+  - [ ] Resource token `resetpassword`
+  - [ ] Resource token `PasswordChanged`
+  - [ ] Resource token `UserUpdated`
 ### Pages
 
 - [ ] Page `/Admin` — resource key: `Core`; source: `App/Core/Pages/Admin.json`
   - [ ] Component `DetailedNav` — Common Cache; resource key: `Common`
     - [ ] Resource token `go`
 - [ ] Page `/Admin/AppManagement` — resource key: `ContentManagement`; source: `App/ContentManagement/Pages/Admin_AppManagement.json`
-  - [ ] Component `AppManagement` — Application; resource key: `ContentManagement`
+  - [ ] Component `AppManagement` — Common Cache; resource key: `ContentManagement`
     - [ ] Resource token `configuration`
     - [ ] Resource token `theming`
     - [ ] Resource token `cultures`
@@ -252,7 +251,7 @@
     - [ ] Resource token `AppConfigParsingError`
     - [ ] Resource token `saving`
     - [ ] Resource token `saved`
-    - [ ] Component `PageManagement` — Application; resource key: `ContentManagement`
+    - [ ] Component `PageManagement` — Common Cache; resource key: `ContentManagement`
       - [ ] Resource token `newchildpage`
       - [ ] Resource token `delete`
       - [ ] Resource token `properties`
@@ -272,74 +271,26 @@
       - [ ] Resource token `description`
       - [ ] Resource token `keywords`
       - [ ] Resource token `submit`
-    - [ ] Component `AppTheming` — Application; resource key: `ContentManagement`
-      - [ ] Resource token `onlyonefile`
-      - [ ] Resource token `brandLogo`
-      - [ ] Resource token `projectLogo`
-      - [ ] Resource token `animation`
-      - [ ] Resource token `themelist`
-      - [ ] Component `AppThemeList` — Application; resource key: `ContentManagement`
-        - [ ] Resource token `new`
+    - [ ] Component `AppTheming` — Common Cache; resource key: `ContentManagement`
+      - [ ] Resource token `saved`
+      - [ ] Component `AppThemeList` — Common Cache; resource key: `ContentManagement`
         - [ ] Resource token `name`
+        - [ ] Resource token `confirm`
+        - [ ] Resource token `save`
+        - [ ] Resource token `new`
         - [ ] Resource token `edit`
         - [ ] Resource token `delete`
         - [ ] Resource token `edittheme`
-        - [ ] Resource token `save`
         - [ ] Resource token `saved`
         - [ ] Resource token `addtheme`
-        - [ ] Resource token `areyousure`
-        - [ ] Resource token `confirm`
-        - [ ] Resource token `close`
-        - [ ] Resource token `add`
-        - [ ] Resource token `newtheme`
-        - [ ] Component `ThemeBuilder` — Application; resource key: `ContentManagement`
+        - [ ] Component `ThemeBuilder` — Common Cache; resource key: `ContentManagement`
           - [ ] Resource token `colours`
           - [ ] Resource token `font`
           - [ ] Resource token `border`
           - [ ] Resource token `notifications`
           - [ ] Resource token `shadows`
           - [ ] Resource token `etc`
-          - [ ] Component `Font` — Application; resource key: `ContentManagement`
-            - [ ] Resource token `font`
-            - [ ] Resource token `fontsize`
-            - [ ] Resource token `preview`
-            - [ ] Resource token `sampletext`
-          - [ ] Component `Border` — Application; resource key: `ContentManagement`
-            - [ ] Resource token `dotted`
-            - [ ] Resource token `dashed`
-            - [ ] Resource token `solid`
-            - [ ] Resource token `double`
-            - [ ] Resource token `groove`
-            - [ ] Resource token `ridge`
-            - [ ] Resource token `inset`
-            - [ ] Resource token `outset`
-            - [ ] Resource token `none`
-            - [ ] Resource token `hidden`
-            - [ ] Resource token `style`
-            - [ ] Resource token `width`
-            - [ ] Resource token `colour`
-            - [ ] Resource token `radius`
-          - [ ] Component `Notifications` — Common Cache; resource key: `Common`
-            - [ ] Resource token `notificationsErrorText`
-            - [ ] Resource token `notificationsWarningText`
-            - [ ] Resource token `notificationsInfoText`
-            - [ ] Resource token `notificationsSuccessText`
-            - [ ] Resource token `notificationsErrorBackground`
-            - [ ] Resource token `notificationsWarningBackground`
-            - [ ] Resource token `notificationsInfoBackground`
-            - [ ] Resource token `notificationsSuccessBackground`
-          - [ ] Component `Shadows` — Common Cache; resource key: `ContentManagement`
-            - [ ] Resource token `horizontaloffset`
-            - [ ] Resource token `verticaloffset`
-            - [ ] Resource token `blurradius`
-            - [ ] Resource token `colour`
-          - [ ] Component `Etc` — Application; resource key: `ContentManagement`
-            - [ ] Resource token `text`
-            - [ ] Resource token `picture`
-            - [ ] Resource token `paintLoginMid`
-            - [ ] Resource token `paintLoginBottom`
-            - [ ] Resource token `font`
-          - [ ] Component `Colours` — Application; resource key: `ContentManagement`
+          - [ ] Component `Colours` — Common Cache; resource key: `ContentManagement`
             - [ ] Resource token `baseColours`
             - [ ] Resource token `primary`
             - [ ] Resource token `secondary`
@@ -355,79 +306,131 @@
             - [ ] Resource token `colourfour`
             - [ ] Resource token `colourfive`
             - [ ] Resource token `coloursix`
-    - [ ] Component `CultureManagement` — Application; resource key: `Core`
+          - [ ] Component `Font` — Common Cache; resource key: `ContentManagement`
+            - [ ] Resource token `font`
+            - [ ] Resource token `size`
+            - [ ] Resource token `family`
+          - [ ] Component `Border` — Common Cache; resource key: `ContentManagement`
+            - [ ] Resource token `border`
+            - [ ] Resource token `style`
+            - [ ] Resource token `width`
+            - [ ] Resource token `colour`
+            - [ ] Resource token `radius`
+            - [ ] Resource token `dotted`
+            - [ ] Resource token `dashed`
+            - [ ] Resource token `solid`
+            - [ ] Resource token `double`
+            - [ ] Resource token `groove`
+            - [ ] Resource token `ridge`
+            - [ ] Resource token `inset`
+            - [ ] Resource token `outset`
+            - [ ] Resource token `none`
+            - [ ] Resource token `hidden`
+          - [ ] Component `Notifications` — Common Cache; resource key: `Common`
+            - [ ] Resource token `notificationsErrorText`
+            - [ ] Resource token `notificationsWarningText`
+            - [ ] Resource token `notificationsInfoText`
+            - [ ] Resource token `notificationsSuccessText`
+            - [ ] Resource token `notificationsErrorBackground`
+            - [ ] Resource token `notificationsWarningBackground`
+            - [ ] Resource token `notificationsInfoBackground`
+            - [ ] Resource token `notificationsSuccessBackground`
+          - [ ] Component `Shadows` — Common Cache; resource key: `ContentManagement`
+            - [ ] Resource token `horizontaloffset`
+            - [ ] Resource token `verticaloffset`
+            - [ ] Resource token `blurradius`
+            - [ ] Resource token `colour`
+          - [ ] Component `Etc` — Common Cache; resource key: `ContentManagement`
+            - [ ] Resource token `etc`
+            - [ ] Resource token `paintLoginMid`
+            - [ ] Resource token `paintLoginBottom`
+            - [ ] Resource token `cultureflaglayout`
+            - [ ] Resource token `text`
+            - [ ] Resource token `picture`
+    - [ ] Component `CultureManagement` — Common Cache; resource key: `Core`
       - [ ] Resource token `cultureid`
       - [ ] Resource token `name`
       - [ ] Resource token `save`
       - [ ] Resource token `delete`
       - [ ] Resource token `saved`
-    - [ ] Component `LayoutManagement` — Application; resource key: `ContentManagement`
-      - [ ] Resource token `new`
-      - [ ] Resource token `migrate`
+    - [ ] Component `LayoutManagement` — Common Cache; resource key: `ContentManagement`
+      - [ ] Resource token `Header`
+      - [ ] Resource token `Body`
       - [ ] Resource token `name`
+      - [ ] Resource token `create`
+      - [ ] Resource token `newlayout`
+      - [ ] Resource token `migrate`
       - [ ] Resource token `lastupdated`
       - [ ] Resource token `save`
       - [ ] Resource token `delete`
       - [ ] Resource token `migrateLayouts`
-      - [ ] Resource token `newlayout`
       - [ ] Resource token `created`
       - [ ] Resource token `saved`
       - [ ] Resource token `LayoutDeleted`
-      - [ ] Resource token `header`
-      - [ ] Resource token `body`
-      - [ ] Resource token `create`
-      - [ ] Component `LayoutMigration` — Application; resource key: `ContentManagement`
-        - [ ] Resource token `migrated`
-        - [ ] Resource token `selectapp`
-        - [ ] Resource token `app`
+      - [ ] Component `LayoutMigration` — Common Cache; resource key: `ContentManagement`
+        - [ ] Resource token `App`
+        - [ ] Resource token `SelectLayouts`
         - [ ] Resource token `migrate`
-    - [ ] Component `TemplateManagement` — Application; resource key: `ContentManagement`
+        - [ ] Resource token `selectapp`
+        - [ ] Resource token `migrated`
+    - [ ] Component `TemplateManagement` — Common Cache; resource key: `ContentManagement`
       - [ ] Resource token `resourcekey`
-      - [ ] Resource token `Name`
+      - [ ] Resource token `name`
+      - [ ] Resource token `create`
       - [ ] Resource token `lastupdated`
       - [ ] Resource token `save`
       - [ ] Resource token `delete`
-      - [ ] Resource token `new`
-      - [ ] Resource token `migrate`
+      - [ ] Resource token `NewTemplate`
+      - [ ] Resource token `Migrate`
       - [ ] Resource token `migrateTemplates`
-      - [ ] Resource token `newtemplate`
       - [ ] Resource token `templatecreated`
       - [ ] Resource token `saved`
       - [ ] Resource token `deleted`
-      - [ ] Resource token `create`
-      - [ ] Component `TemplateMigration` — Application; resource key: `ContentManagement`
+      - [ ] Component `TemplateMigration` — Common Cache; resource key: `ContentManagement`
+        - [ ] Resource token `App`
+        - [ ] Resource token `overwrite`
+        - [ ] Resource token `selecttemplates`
+        - [ ] Resource token `migrate`
         - [ ] Resource token `selectapp`
         - [ ] Resource token `name`
         - [ ] Resource token `migrated`
-        - [ ] Resource token `app`
-        - [ ] Resource token `overwrite`
-        - [ ] Resource token `migrate`
-    - [ ] Component `ComponentManagement` — Application; resource key: `ContentManagement`
+    - [ ] Component `ComponentManagement` — Common Cache; resource key: `ContentManagement`
+      - [ ] Resource token `content`
+      - [ ] Resource token `script`
+      - [ ] Resource token `Name`
+      - [ ] Resource token `Category`
+      - [ ] Resource token `ResourceKey`
+      - [ ] Resource token `Create`
+      - [ ] Resource token `Environment`
+      - [ ] Resource token `Domain`
+      - [ ] Resource token `DefaultCulture`
+      - [ ] Resource token `ConfirmPassword`
+      - [ ] Resource token `Register`
+      - [ ] Resource token `Migrate`
       - [ ] Resource token `new`
-      - [ ] Resource token `migrate`
       - [ ] Resource token `key`
-      - [ ] Resource token `resourcekey`
-      - [ ] Resource token `name`
       - [ ] Resource token `lastupdated`
+      - [ ] Resource token `lastupdatedby`
       - [ ] Resource token `save`
       - [ ] Resource token `delete`
       - [ ] Resource token `migrateComponents`
       - [ ] Resource token `CreateNewComponent`
-      - [ ] Resource token `create`
+      - [ ] Resource token `confirm`
       - [ ] Resource token `close`
       - [ ] Resource token `componentcreated`
       - [ ] Resource token `areyousure`
-      - [ ] Resource token `confirm`
       - [ ] Resource token `deleted`
-      - [ ] Resource token `content`
-      - [ ] Resource token `script`
-      - [ ] Component `ComponentMigration` — Application; resource key: `ContentManagement`
+      - [ ] Component `ComponentMigration` — Common Cache; resource key: `ContentManagement`
+        - [ ] Resource token `App`
+        - [ ] Resource token `SelectComponentCategories`
+        - [ ] Resource token `migrate`
         - [ ] Resource token `selectapp`
         - [ ] Resource token `migrated`
-        - [ ] Resource token `app`
-        - [ ] Resource token `migrate`
-    - [ ] Component `ResourceManagement` — Application; resource key: `ContentManagement`
-      - [ ] Resource token `new`
+    - [ ] Component `ResourceManagement` — Common Cache; resource key: `ContentManagement`
+      - [ ] Resource token `culture`
+      - [ ] Resource token `create`
+      - [ ] Resource token `name=Resourcing`
+      - [ ] Resource token `newresource`
       - [ ] Resource token `migrate`
       - [ ] Resource token `key`
       - [ ] Resource token `name`
@@ -438,25 +441,24 @@
       - [ ] Resource token `save`
       - [ ] Resource token `delete`
       - [ ] Resource token `newtranslation`
-      - [ ] Resource token `culture`
       - [ ] Resource token `lastupdatedby`
       - [ ] Resource token `translationcreated`
-      - [ ] Resource token `newresource`
       - [ ] Resource token `confirm`
       - [ ] Resource token `close`
       - [ ] Resource token `created`
       - [ ] Resource token `saved`
       - [ ] Resource token `areyousure`
-      - [ ] Resource token `thiscannotbeundone`
       - [ ] Resource token `deleted`
-      - [ ] Resource token `create`
-      - [ ] Component `ResourceMigration` — Application; resource key: `ContentManagement`
+      - [ ] Component `ResourceMigration` — Common Cache; resource key: `ContentManagement`
+        - [ ] Resource token `App`
+        - [ ] Resource token `SelectResourceKeys`
+        - [ ] Resource token `migrate`
+        - [ ] Resource token `selectapp`
         - [ ] Resource token `migrating`
         - [ ] Resource token `migrated`
-        - [ ] Resource token `selectapp`
-        - [ ] Resource token `app`
-        - [ ] Resource token `migrate`
-    - [ ] Component `RoleManagement` — Application; resource key: `AppSecurity`
+    - [ ] Component `RoleManagement` — Common Cache; resource key: `AppSecurity`
+      - [ ] Resource token `users`
+      - [ ] Resource token `privileges`
       - [ ] Resource token `NewRole`
       - [ ] Resource token `Name`
       - [ ] Resource token `save`
@@ -467,30 +469,27 @@
       - [ ] Resource token `confirm`
       - [ ] Resource token `close`
       - [ ] Resource token `RoleCreated`
-      - [ ] Resource token `users`
-      - [ ] Resource token `privileges`
-      - [ ] Component `RoleUserManagement` — Application; resource key: `AppSecurity`
+      - [ ] Component `RoleUserManagement` — Common Cache; resource key: `AppSecurity`
         - [ ] Resource token `userid`
-        - [ ] Resource token `email`
-        - [ ] Resource token `adduserbyid`
-        - [ ] Resource token `selectusers`
-        - [ ] Resource token `delete`
-        - [ ] Resource token `displayname`
-        - [ ] Resource token `userdeleted`
         - [ ] Resource token `adduser`
+        - [ ] Resource token `select`
+        - [ ] Resource token `selectusers`
+        - [ ] Resource token `displayname`
+        - [ ] Resource token `email`
+        - [ ] Resource token `addusers`
+        - [ ] Resource token `delete`
+        - [ ] Resource token `userdeleted`
         - [ ] Resource token `added`
-        - [ ] Resource token `add`
-      - [ ] Component `RolePrivManagement` — Application; resource key: `AppSecurity`
-        - [ ] Resource token `save`
-        - [ ] Resource token `type`
-        - [ ] Resource token `operation`
-        - [ ] Resource token `description`
-        - [ ] Resource token `saved`
-    - [ ] Component `AppMigrator` — Application; resource key: `ContentManagement`
-      - [ ] Resource token `migrating`
+      - [ ] Component `RolePrivManagement` — Common Cache; resource key: `AppSecurity`
+        - [ ] Resource token `Type`
+        - [ ] Resource token `Operation`
+        - [ ] Resource token `PrivExplanation`
+        - [ ] Resource token `rolesaved`
+    - [ ] Component `AppMigrator` — Common Cache; resource key: `ContentManagement`
       - [ ] Resource token `Environment`
       - [ ] Resource token `ConfirmPassword`
       - [ ] Resource token `Migrate`
+      - [ ] Resource token `migrating`
       - [ ] Script `MigrateApp`
       - [ ] Component `ScriptRunner` — Common Cache; resource key: `Common`
         - [ ] Script `Execute`
@@ -512,7 +511,12 @@
       - [ ] Resource token `createdby`
       - [ ] Resource token `lastupdated`
 - [ ] Page `/Admin/MailManagement` — resource key: `Mail`; source: `App/Mail/Pages/Admin_MailManagement.json`
-  - [ ] Component `MailManagement` — Application; resource key: `Mail`
+  - [ ] Component `MailManagement` — Common Cache; resource key: `Mail`
+    - [ ] Resource token `queue`
+    - [ ] Resource token `history`
+    - [ ] Resource token `mailServer`
+    - [ ] Resource token `preview`
+    - [ ] Resource token `failures`
     - [ ] Resource token `saved`
     - [ ] Resource token `subject`
     - [ ] Resource token `from`
@@ -522,26 +526,21 @@
     - [ ] Resource token `senton`
     - [ ] Resource token `new`
     - [ ] Resource token `name`
-    - [ ] Resource token `fromEmail`
     - [ ] Resource token `user`
     - [ ] Resource token `password`
     - [ ] Resource token `host`
     - [ ] Resource token `port`
     - [ ] Resource token `enablessl`
     - [ ] Resource token `save`
-    - [ ] Resource token `delete`
+    - [ ] Resource token `remove`
     - [ ] Resource token `attemptedon`
     - [ ] Resource token `failurereason`
     - [ ] Resource token `deleted`
+    - [ ] Resource token `delete`
     - [ ] Resource token `createnewmailserver`
     - [ ] Resource token `confirm`
     - [ ] Resource token `close`
     - [ ] Resource token `created`
-    - [ ] Resource token `queue`
-    - [ ] Resource token `history`
-    - [ ] Resource token `mailserver`
-    - [ ] Resource token `preview`
-    - [ ] Resource token `failures`
 - [ ] Page `/Admin/PlatformAdmin` — resource key: `Core`; source: `App/Core/Pages/Admin_PlatformAdmin.json`
   - [ ] Component `DetailedNav` — Common Cache; resource key: `Common`
     - Already expanded above
@@ -677,13 +676,13 @@
       - [ ] Resource token `name`
       - [ ] Resource token `domain`
       - [ ] Resource token `visit`
-      - [ ] Component `AppManagement` — Application; resource key: `ContentManagement`
+      - [ ] Component `AppManagement` — Common Cache; resource key: `ContentManagement`
         - Already expanded above
 - [ ] Page `/Admin/Workflows` — resource key: `Workflow`; source: `App/Workflow/Pages/Admin_Workflows.json`
-  - [ ] Component `WorkflowAdmin` — Application; resource key: `Workflow`
+  - [ ] Component `WorkflowAdmin` — Common Cache; resource key: `Workflow`
     - [ ] Resource token `workflows`
     - [ ] Resource token `scheduling`
-    - [ ] Component `WorkflowList` — Application; resource key: `Workflow`
+    - [ ] Component `WorkflowList` — Common Cache; resource key: `Workflow`
       - [ ] Resource token `new`
       - [ ] Resource token `name`
       - [ ] Resource token `description`
@@ -706,13 +705,12 @@
       - [ ] Resource token `Instances`
       - [ ] Resource token `executableby`
       - [ ] Resource token `add`
-      - [ ] Component `FlowInstanceManagement` — Application; resource key: `Workflow`
+      - [ ] Component `FlowInstanceManagement` — Common Cache; resource key: `Workflow`
         - [ ] Resource token `notrun`
         - [ ] Resource token `executing`
         - [ ] Resource token `complete`
         - [ ] Resource token `suspended`
         - [ ] Resource token `queued`
-        - [ ] Resource token `failed`
         - [ ] Resource token `deleteall`
         - [ ] Resource token `id`
         - [ ] Resource token `state`
@@ -722,14 +720,14 @@
         - [ ] Resource token `delete`
         - [ ] Resource token `deleting`
         - [ ] Resource token `deleted`
-        - [ ] Component `FlowInstanceDetails` — Application; resource key: `Workflow`
-          - [ ] Resource token `AcitvityLog`
+        - [ ] Component `FlowInstanceDetails` — Common Cache; resource key: `Workflow`
           - [ ] Resource token `log`
           - [ ] Resource token `context`
           - [ ] Resource token `flow`
-          - [ ] Resource token `report`
           - [ ] Resource token `variables`
-    - [ ] Component `WorkflowScheduling` — Application; resource key: `Workflow`
+          - [ ] Resource token `report`
+          - [ ] Resource token `AcitvityLog`
+    - [ ] Component `WorkflowScheduling` — Common Cache; resource key: `Workflow`
       - [ ] Resource token `notimeperiod`
       - [ ] Resource token `days`
       - [ ] Resource token `day`
@@ -762,7 +760,7 @@
       - [ ] Resource token `add`
       - [ ] Resource token `details`
       - [ ] Resource token `instances`
-      - [ ] Component `FlowInstanceManagement` — Application; resource key: `Workflow`
+      - [ ] Component `FlowInstanceManagement` — Common Cache; resource key: `Workflow`
         - Already expanded above
 - [ ] Page `/Admin/Workflows/Editor` — resource key: `Workflow`; source: `App/Workflow/Pages/Admin_Workflows_Editor.json`
   - [ ] Component `WorkflowManagement` — Common Cache; resource key: `Workflow`
@@ -790,29 +788,9 @@
     - [ ] Resource token `deleted`
     - [ ] Resource token `saved`
     - [ ] Component `FlowInstanceManagement` — Common Cache; resource key: `Workflow`
-      - [ ] Resource token `notrun`
-      - [ ] Resource token `executing`
-      - [ ] Resource token `complete`
-      - [ ] Resource token `suspended`
-      - [ ] Resource token `queued`
-      - [ ] Resource token `deleteall`
-      - [ ] Resource token `id`
-      - [ ] Resource token `state`
-      - [ ] Resource token `caller`
-      - [ ] Resource token `start`
-      - [ ] Resource token `end`
-      - [ ] Resource token `delete`
-      - [ ] Resource token `deleting`
-      - [ ] Resource token `deleted`
-      - [ ] Component `FlowInstanceDetails` — Common Cache; resource key: `Workflow`
-        - [ ] Resource token `log`
-        - [ ] Resource token `context`
-        - [ ] Resource token `flow`
-        - [ ] Resource token `variables`
-        - [ ] Resource token `report`
-        - [ ] Resource token `AcitvityLog`
+      - Already expanded above
 - [ ] Page `/Clients/Client` — resource key: `DocumentManagement`; source: `App/DocumentManagement/Pages/Clients_Client.json`
-  - [ ] Component `Client` — Application; resource key: `DocumentManagement`
+  - [ ] Component `Client` — Common Cache; resource key: `DocumentManagement`
     - [ ] Resource token `save`
     - [ ] Resource token `saved`
     - [ ] Resource token `apps`
@@ -827,7 +805,7 @@
     - [ ] Resource token `projectManagerPhone`
     - [ ] Resource token `projectManagerEmail`
     - [ ] Resource token `history`
-    - [ ] Component `AppList` — Application; resource key: `ContentManagement`
+    - [ ] Component `AppList` — Common Cache; resource key: `ContentManagement`
       - [ ] Resource token `visit`
       - [ ] Resource token `applytheming`
       - [ ] Resource token `delete`
@@ -850,30 +828,31 @@
       - [ ] Resource token `saved`
       - [ ] Resource token `AddHistory`
       - [ ] Resource token `edithistory`
-    - [ ] Component `ThemeList` — Application; resource key: `ContentManagement`
-      - [ ] Resource token `add`
-      - [ ] Resource token `save`
-      - [ ] Resource token `editfiles`
+    - [ ] Component `ThemeList` — Common Cache; resource key: `ContentManagement`
       - [ ] Resource token `name`
+      - [ ] Resource token `confirm`
+      - [ ] Resource token `save`
+      - [ ] Resource token `add`
+      - [ ] Resource token `editfiles`
       - [ ] Resource token `edit`
       - [ ] Resource token `delete`
       - [ ] Resource token `saved`
       - [ ] Resource token `addtheme`
       - [ ] Resource token `edittheme`
-      - [ ] Resource token `confirm`
-      - [ ] Component `ClientFiles` — Application; resource key: `DocumentManagement`
+      - [ ] Component `ClientFiles` — Common Cache; resource key: `DocumentManagement`
         - [ ] Resource token `slideshow`
         - [ ] Resource token `flags`
         - [ ] Resource token `content`
         - [ ] Resource token `confirm`
-        - [ ] Component `FolderManagement` — Application; resource key: `DocumentManagement`
+        - [ ] Component `FolderManagement` — Common Cache; resource key: `DocumentManagement`
+          - [ ] Resource token `newname`
+          - [ ] Resource token `rename`
           - [ ] Resource token `name`
           - [ ] Resource token `size`
           - [ ] Resource token `createdby`
           - [ ] Resource token `createdon`
           - [ ] Resource token `lastupdated`
           - [ ] Resource token `download`
-          - [ ] Resource token `rename`
           - [ ] Resource token `delete`
           - [ ] Resource token `saved`
           - [ ] Resource token `batchextensionrenameunsupported`
@@ -881,8 +860,7 @@
           - [ ] Resource token `areyousure`
           - [ ] Resource token `close`
           - [ ] Resource token `confirm`
-          - [ ] Resource token `newname`
-      - [ ] Component `ThemeBuilder` — Application; resource key: `ContentManagement`
+      - [ ] Component `ThemeBuilder` — Common Cache; resource key: `ContentManagement`
         - Already expanded above
 - [ ] Page `/Login` — resource key: `AppSecurity`; source: `App/AppSecurity/Pages/Login.json`
   - [ ] Component `Login` — Application; resource key: `AppSecurity`
@@ -981,12 +959,8 @@
   - [ ] Resource token `December`
   - [ ] Resource token `dateformat`
 - [ ] Component `TopNav` — Common Cache; resource key: `Common`
-- [ ] Component `CultureFlags` — Application; resource key: `ContentManagement`
-- [ ] Component `UserProfile` — Application; resource key: `AppSecurity`
-  - [ ] Resource token `edituserprofile`
-  - [ ] Resource token `resetpassword`
-  - [ ] Resource token `PasswordChanged`
-  - [ ] Resource token `UserUpdated`
+- [ ] Component `CultureFlags` — Common Cache; resource key: `ContentManagement`
+- [ ] Component `UserProfile` — Common Cache; resource key: `AppSecurity`
   - [ ] Resource token `OldPassword`
   - [ ] Resource token `NewPassword`
   - [ ] Resource token `ConfirmPassword`
@@ -997,7 +971,12 @@
   - [ ] Resource token `Email`
   - [ ] Resource token `PhoneNumber`
   - [ ] Resource token `culture`
-  - [ ] Resource token `changepassword`
+  - [ ] Resource token `updatePassword`
+  - [ ] Resource token `update`
+  - [ ] Resource token `UserProfile`
+  - [ ] Resource token `resetpassword`
+  - [ ] Resource token `PasswordChanged`
+  - [ ] Resource token `UserUpdated`
 ### Pages
 
 
@@ -1017,54 +996,22 @@
 
 ### Unreachable components
 
-- [ ] `App/AppSecurity/Components/LoginToEnvironment.json`
 - [ ] `App/ContentManagement/Components/AppCreator.json`
-- [ ] `App/ContentManagement/Components/CalendarManagement.json`
 - [ ] `App/ContentManagement/Components/CoreManagement.json`
-- [ ] `App/ContentManagement/Components/FormManagement.json`
-- [ ] `App/ContentManagement/Components/GridBuilder.json`
-- [ ] `App/ContentManagement/Components/Metadata.json`
-- [ ] `App/ContentManagement/Components/PageInfo.json`
-- [ ] `App/ContentManagement/Components/PageProperties.json`
-- [ ] `App/ContentManagement/Components/PortalBuilderForm.json`
-- [ ] `App/ContentManagement/Components/Sidenav.json`
-- [ ] `App/Core/Components/ApiTester.json`
-- [ ] `App/Core/Components/DevTools.json`
-- [ ] `App/DocumentManagement/Components/ClientList.json`
-- [ ] `App/DocumentManagement/Components/QueryBuilder.json`
-- [ ] `App/DocumentManagement/Components/TenantThemeManagement.json`
-- [ ] `App/DocumentManagement/Components/TestimonialManagement.json`
 - [ ] `App/Security/Components/TenantActivity.json`
-- [ ] `App/Workflow/Components/FlowEditor.json`
 - [ ] `Common Cache/AppSecurity/Components/FlowSettings.json`
-- [ ] `Common Cache/AppSecurity/Components/Login.json`
 - [ ] `Common Cache/AppSecurity/Components/loginPage.json`
+- [ ] `Common Cache/AppSecurity/Components/LoginToEnvironment.json`
 - [ ] `Common Cache/AppSecurity/Components/MyRegistrations.json`
-- [ ] `Common Cache/AppSecurity/Components/PasswordReset.json`
-- [ ] `Common Cache/AppSecurity/Components/Register.json`
 - [ ] `Common Cache/AppSecurity/Components/RegistrationsHome.json`
 - [ ] `Common Cache/AppSecurity/Components/ResetPassword.json`
-- [ ] `Common Cache/AppSecurity/Components/RoleManagement.json`
-- [ ] `Common Cache/AppSecurity/Components/RolePrivManagement.json`
-- [ ] `Common Cache/AppSecurity/Components/RoleUserManagement.json`
 - [ ] `Common Cache/AppSecurity/Components/SummaryHome.json`
-- [ ] `Common Cache/AppSecurity/Components/UserProfile.json`
-- [ ] `Common Cache/ContentManagement/Components/AppMigrator.json`
-- [ ] `Common Cache/ContentManagement/Components/AppThemeList.json`
-- [ ] `Common Cache/ContentManagement/Components/AppTheming.json`
 - [ ] `Common Cache/ContentManagement/Components/AppTree.json`
-- [ ] `Common Cache/ContentManagement/Components/Border.json`
 - [ ] `Common Cache/ContentManagement/Components/BPMigration.json`
 - [ ] `Common Cache/ContentManagement/Components/CalendarManagement.json`
-- [ ] `Common Cache/ContentManagement/Components/Colours.json`
-- [ ] `Common Cache/ContentManagement/Components/ComponentManagement.json`
-- [ ] `Common Cache/ContentManagement/Components/ComponentMigration.json`
-- [ ] `Common Cache/ContentManagement/Components/CultureFlags.json`
-- [ ] `Common Cache/ContentManagement/Components/CultureManagement.json`
-- [ ] `Common Cache/ContentManagement/Components/Etc.json`
-- [ ] `Common Cache/ContentManagement/Components/Font.json`
-- [ ] `Common Cache/ContentManagement/Components/LayoutManagement.json`
-- [ ] `Common Cache/ContentManagement/Components/LayoutMigration.json`
+- [ ] `Common Cache/ContentManagement/Components/FormManagement.json`
+- [ ] `Common Cache/ContentManagement/Components/GridBuilder.json`
+- [ ] `Common Cache/ContentManagement/Components/Metadata.json`
 - [ ] `Common Cache/ContentManagement/Components/MyWorkspace.json`
 - [ ] `Common Cache/ContentManagement/Components/PageContextMenu.json`
 - [ ] `Common Cache/ContentManagement/Components/PageCreator.json`
@@ -1072,19 +1019,17 @@
 - [ ] `Common Cache/ContentManagement/Components/PageInfo.json`
 - [ ] `Common Cache/ContentManagement/Components/PageProperties.json`
 - [ ] `Common Cache/ContentManagement/Components/PageRoles.json`
-- [ ] `Common Cache/ContentManagement/Components/ResourceManagement.json`
-- [ ] `Common Cache/ContentManagement/Components/ResourceMigration.json`
-- [ ] `Common Cache/ContentManagement/Components/TemplateManagement.json`
-- [ ] `Common Cache/ContentManagement/Components/TemplateMigration.json`
-- [ ] `Common Cache/ContentManagement/Components/ThemeBuilder.json`
-- [ ] `Common Cache/ContentManagement/Components/ThemeList.json`
+- [ ] `Common Cache/ContentManagement/Components/PortalBuilderForm.json`
+- [ ] `Common Cache/ContentManagement/Components/Sidenav.json`
 - [ ] `Common Cache/ContentManagement/Components/ThemeSelection.json`
 - [ ] `Common Cache/ContentManagement/Components/Workspace.json`
+- [ ] `Common Cache/Core/Components/ApiTester.json`
 - [ ] `Common Cache/Core/Components/BackgroundJobs.json`
 - [ ] `Common Cache/Core/Components/BPEditor.json`
 - [ ] `Common Cache/Core/Components/BPM.json`
+- [ ] `Common Cache/Core/Components/DevTools.json`
 - [ ] `Common Cache/Core/Components/FolderEventManager.json`
-- [ ] `Common Cache/Core/Components/LogStream.json`
+- [ ] `Common Cache/DocumentManagement/Components/ClientList.json`
 - [ ] `Common Cache/DocumentManagement/Components/DMS.json`
 - [ ] `Common Cache/DocumentManagement/Components/DMSFormatting.json`
 - [ ] `Common Cache/DocumentManagement/Components/FileActions.json`
@@ -1092,13 +1037,14 @@
 - [ ] `Common Cache/DocumentManagement/Components/FileVersionGrid2.json`
 - [ ] `Common Cache/DocumentManagement/Components/FolderActions.json`
 - [ ] `Common Cache/DocumentManagement/Components/FolderCreator.json`
-- [ ] `Common Cache/DocumentManagement/Components/FolderManagement.json`
 - [ ] `Common Cache/DocumentManagement/Components/FolderProperties.json`
 - [ ] `Common Cache/DocumentManagement/Components/FolderRoles.json`
 - [ ] `Common Cache/DocumentManagement/Components/FurtherInfo.json`
+- [ ] `Common Cache/DocumentManagement/Components/QueryBuilder.json`
 - [ ] `Common Cache/DocumentManagement/Components/Slideshow.json`
+- [ ] `Common Cache/DocumentManagement/Components/TenantThemeManagement.json`
+- [ ] `Common Cache/DocumentManagement/Components/TestimonialManagement.json`
 - [ ] `Common Cache/DocumentManagement/Components/UploadActions.json`
-- [ ] `Common Cache/Mail/Components/MailManagement.json`
 - [ ] `Common Cache/Workflow/Components/ActivityEditor.json`
 - [ ] `Common Cache/Workflow/Components/ExpressionBuilder.json`
 - [ ] `Common Cache/Workflow/Components/FlowEditor.json`
@@ -1124,6 +1070,6 @@
 - Directories scanned: 2
 - Layouts: 3
 - Pages: 15
-- Reachable components: 59 / 147
+- Reachable components: 57 / 112
 - Reachable scripts: 4 / 10
 - Reachable resource keys: 6 / 6
