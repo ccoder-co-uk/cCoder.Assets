@@ -39,13 +39,13 @@
 | Common Cache | `AppSecurity` | `Resources` | 46 | 46 |
 | Common Cache | `Common` | `Components` | 5 | 5 |
 | Common Cache | `Common` | `Scripts` | 3 | 3 |
-| Common Cache | `ContentManagement` | `Components` | 31 | 31 |
+| Common Cache | `ContentManagement` | `Components` | 32 | 32 |
 | Common Cache | `ContentManagement` | `Resources` | 105 | 105 |
 | Common Cache | `ContentManagement` | `Scripts` | 1 | 1 |
 | Common Cache | `Core` | `Components` | 5 | 5 |
 | Common Cache | `Core` | `Resources` | 14 | 14 |
-| Common Cache | `DocumentManagement` | `Components` | 9 | 9 |
-| Common Cache | `DocumentManagement` | `Resources` | 37 | 37 |
+| Common Cache | `DocumentManagement` | `Components` | 15 | 15 |
+| Common Cache | `DocumentManagement` | `Resources` | 91 | 91 |
 | Common Cache | `DocumentManagement` | `Scripts` | 2 | 2 |
 | Common Cache | `Mail` | `Components` | 1 | 1 |
 | Common Cache | `Security` | `Resources` | 10 | 10 |
@@ -495,41 +495,22 @@
       - [ ] Component `ScriptRunner` — Common Cache; resource key: `Common`
         - [ ] Script `Execute`
 - [ ] Page `/Admin/DocumentManagement` — resource key: `DocumentManagement`; source: `App/DocumentManagement/Pages/Admin_DocumentManagement.json`
-  - [ ] Component `DMS` — Common Cache; resource key: `DocumentManagement`
-    - [ ] Resource token `newfolder`
-    - [ ] Resource token `delete`
-    - [ ] Resource token `unpackzipto`
-    - [ ] Resource token `rename`
+  - [ ] Component `DocumentManagement` — Common Cache; resource key: `DocumentManagement`
+    - [ ] Resource token `folders`
     - [ ] Resource token `download`
-    - [ ] Resource token `properties`
-    - [ ] Resource token `unpacked`
-    - [ ] Resource token `renamefolder`
-    - [ ] Resource token `name`
-    - [ ] Resource token `update`
-    - [ ] Resource token `folderrenamedsuccessfully`
-    - [ ] Resource token `create`
-    - [ ] Resource token `DeleteFolderTitle`
-    - [ ] Resource token `deleteconfirmation`
-    - [ ] Resource token `confirm`
-    - [ ] Resource token `close`
-    - [ ] Resource token `FolderDeletedSuccesfully`
-    - [ ] Resource token `folderproperties`
-    - [ ] Component `FolderManagement` — Common Cache; resource key: `DocumentManagement`
-      - [ ] Resource token `newname`
-      - [ ] Resource token `rename`
+    - [ ] Resource token `delete`
+    - [ ] Resource token `cannotmovefolderintoitself`
+    - [ ] Component `FolderManagement2` — Common Cache; resource key: `DocumentManagement`
+      - [ ] Resource token `managefolder`
+      - [ ] Resource token `upload`
+      - [ ] Resource token `newfolder`
+      - [ ] Resource token `move`
+      - [ ] Resource token `download`
+      - [ ] Resource token `delete`
       - [ ] Resource token `name`
       - [ ] Resource token `size`
       - [ ] Resource token `createdby`
-      - [ ] Resource token `createdon`
       - [ ] Resource token `lastupdated`
-      - [ ] Resource token `download`
-      - [ ] Resource token `delete`
-      - [ ] Resource token `saved`
-      - [ ] Resource token `batchextensionrenameunsupported`
-      - [ ] Resource token `FileSaved`
-      - [ ] Resource token `areyousure`
-      - [ ] Resource token `close`
-      - [ ] Resource token `confirm`
 - [ ] Page `/Admin/MailManagement` — resource key: `Mail`; source: `App/Mail/Pages/Admin_MailManagement.json`
   - [ ] Component `MailManagement` — Application; resource key: `Mail`
     - [ ] Resource token `saved`
@@ -1070,6 +1051,7 @@
 - [ ] `Common Cache/AppSecurity/Components/UserProfile.json`
 - [ ] `Common Cache/ContentManagement/Components/AppMigrator.json`
 - [ ] `Common Cache/ContentManagement/Components/AppThemeList.json`
+- [ ] `Common Cache/ContentManagement/Components/AppTheming.json`
 - [ ] `Common Cache/ContentManagement/Components/AppTree.json`
 - [ ] `Common Cache/ContentManagement/Components/Border.json`
 - [ ] `Common Cache/ContentManagement/Components/BPMigration.json`
@@ -1103,13 +1085,19 @@
 - [ ] `Common Cache/Core/Components/BPM.json`
 - [ ] `Common Cache/Core/Components/FolderEventManager.json`
 - [ ] `Common Cache/Core/Components/LogStream.json`
-- [ ] `Common Cache/DocumentManagement/Components/AppTheming.json`
+- [ ] `Common Cache/DocumentManagement/Components/DMS.json`
+- [ ] `Common Cache/DocumentManagement/Components/DMSFormatting.json`
+- [ ] `Common Cache/DocumentManagement/Components/FileActions.json`
 - [ ] `Common Cache/DocumentManagement/Components/FileContextMenu.json`
+- [ ] `Common Cache/DocumentManagement/Components/FileVersionGrid2.json`
+- [ ] `Common Cache/DocumentManagement/Components/FolderActions.json`
 - [ ] `Common Cache/DocumentManagement/Components/FolderCreator.json`
+- [ ] `Common Cache/DocumentManagement/Components/FolderManagement.json`
 - [ ] `Common Cache/DocumentManagement/Components/FolderProperties.json`
 - [ ] `Common Cache/DocumentManagement/Components/FolderRoles.json`
 - [ ] `Common Cache/DocumentManagement/Components/FurtherInfo.json`
 - [ ] `Common Cache/DocumentManagement/Components/Slideshow.json`
+- [ ] `Common Cache/DocumentManagement/Components/UploadActions.json`
 - [ ] `Common Cache/Mail/Components/MailManagement.json`
 - [ ] `Common Cache/Workflow/Components/ActivityEditor.json`
 - [ ] `Common Cache/Workflow/Components/ExpressionBuilder.json`
@@ -1136,6 +1124,6 @@
 - Directories scanned: 2
 - Layouts: 3
 - Pages: 15
-- Reachable components: 59 / 140
+- Reachable components: 59 / 147
 - Reachable scripts: 4 / 10
 - Reachable resource keys: 6 / 6
