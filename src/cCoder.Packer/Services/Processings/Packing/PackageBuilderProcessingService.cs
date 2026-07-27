@@ -123,6 +123,7 @@ internal sealed partial class PackageBuilderProcessingService
                     path1: firstTimeSetupPath,
                     path2: "common-cache.json"),
                 packageName: "First Time Setup Common Cache",
+                commonCache: true,
                 sourceItems: items.Where(predicate: item =>
                     IsFirstTimeSetupItem(
                         item: item,
@@ -139,6 +140,7 @@ internal sealed partial class PackageBuilderProcessingService
                     path1: firstTimeSetupPath,
                     path2: "app-baseline.json"),
                 packageName: "First Time Setup App Baseline",
+                commonCache: false,
                 sourceItems: items.Where(predicate: item =>
                     IsFirstTimeSetupAppItem(
                         item: item,
@@ -180,7 +182,11 @@ internal sealed partial class PackageBuilderProcessingService
         [
             .. sourceItems
                 .GroupBy(
-                    keySelector: item => item.Type,
+                    keySelector: item => NormalizePackageType(
+                        type: item.Type,
+                        commonCache: scope.Equals(
+                            value: "Common Cache",
+                            comparisonType: StringComparison.OrdinalIgnoreCase)),
                     comparer: StringComparer.OrdinalIgnoreCase)
                 .OrderBy(
                     keySelector: group => group.Key,
@@ -293,6 +299,7 @@ internal sealed partial class PackageBuilderProcessingService
     private static async Task<string> WriteFirstTimeSetupPackageAsync(
         string file,
         string packageName,
+        bool commonCache,
         IEnumerable<PackageSourceItem> sourceItems,
         CancellationToken cancellationToken)
     {
@@ -300,7 +307,9 @@ internal sealed partial class PackageBuilderProcessingService
         [
             .. sourceItems
                 .GroupBy(
-                    keySelector: item => item.Type,
+                    keySelector: item => NormalizePackageType(
+                        type: item.Type,
+                        commonCache: commonCache),
                     comparer: StringComparer.OrdinalIgnoreCase)
                 .OrderBy(
                     keySelector: group => group.Key,
@@ -334,6 +343,22 @@ internal sealed partial class PackageBuilderProcessingService
             cancellationToken: cancellationToken);
 
         return file;
+    }
+
+    private static string NormalizePackageType(string type, bool commonCache)
+    {
+        if (!commonCache)
+        {
+            return type;
+        }
+
+        return type switch
+        {
+            "ContentManagement/Component" => "Core/Component",
+            "ContentManagement/Resource" => "Core/Resource",
+            "ContentManagement/Script" => "Core/Script",
+            _ => type,
+        };
     }
 
     private static async Task<string> WriteManifestAsync(
