@@ -1,0 +1,11 @@
+{
+  "Id": 1,
+  "DefaultCultureId": "en-GB",
+  "TenantId": "default",
+  "Name": "cCoder Default",
+  "Domain": "localhost",
+  "DefaultTheme": "Default",
+  "ConfigJson": "{\n  \"Deployment\": {\n    \"Targets\": [],\n    \"DMS\": [\"Content\", \"Content/Flags\", \"Common/Cache\"]\n  },\n  \"Components\": {\n    \"Grids\": {\n      \"Details\": \"Expand,Link\"\n    },\n    \"DMS\": [\"Content\", \"Content/Flags\", \"Common/Cache\"]\n  },\n  \"Themes\": {\n    \"Default\": {\n      \"margins\": \"8px\",\n      \"paintLoginMid\": false,\n      \"paintLoginBottom\": false,\n      \"cultureFlagLayout\": \"text\",\n      \"colours\": {\n        \"primary\": \"#142A48\",\n        \"secondary\": \"#52BCFF\",\n        \"background\": \"white\",\n        \"text\": \"black\",\n        \"text2\": \"#FFFFFF\",\n        \"links\": \"#0E6FAE\",\n        \"error\": \"#B42318\",\n        \"charts\": [\"#142A48\", \"#52BCFF\", \"#0E6FAE\", \"#5D7FA3\", \"#8FD4FF\", \"#243B5A\"],\n        \"margins\": \"6px\"\n      },\n      \"font\": {\n        \"size\": \"14px\",\n        \"family\": \"Quicksand, sans-serif\"\n      },\n      \"border\": {\n        \"style\": \"solid 1px #CCC\",\n        \"width\": \"1px\",\n        \"radius\": 0\n      },\n      \"notifications\": {\n        \"error\": { \"text\": \"#222\", \"background\": \"#FFECEC\" },\n        \"warning\": { \"text\": \"#222\", \"background\": \"#FFF4D9\" },\n        \"info\": { \"text\": \"#222\", \"background\": \"#E5F5FA\" },\n        \"success\": { \"text\": \"#222\", \"background\": \"#EAF7EC\" }\n      },\n      \"shadows\": \"6px 6px 10px #CCC\",\n      \"columns\": {\n        \"small\": 150,\n        \"medium\": 250,\n        \"large\": 400,\n        \"date\": 175,\n        \"checkbox\": 50\n      }\n    }\n  }\n}",
+  "IncludeInSubSequentImports": true,
+  "PackageType": "ContentManagement/App"
+}

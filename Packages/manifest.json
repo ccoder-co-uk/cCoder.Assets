@@ -3,7 +3,7 @@
   "Packages": [
     {
       "Path": "App/AppSecurity.json",
-      "Sha256": "1B33E81CB477540C37246CEE8783F6E99849DB2B10C4BEFDCB48C9E110276450",
+      "Sha256": "04CB211EB99AA80AA94EFF15802DDED5D4A10B61C0821974FDFC9C5B4477CA32",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "AppSecurity",
@@ -18,17 +18,18 @@
     },
     {
       "Path": "App/Common.json",
-      "Sha256": "8DB12032BCC7DDB4B600A2F20540F655BAFA670EB082E11EF62A694F5985C579",
+      "Sha256": "F0B98839CB04A7565DA2BE09CB25B2C3808D6FAA961DED44862E5D950B2B921A",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Common",
       "ItemTypes": [
+        "ContentManagement/App",
         "ContentManagement/Layout"
       ]
     },
     {
       "Path": "App/ContentManagement.json",
-      "Sha256": "9A8340DC781D84DA31D87E5AD43EF206E3531DDE7D9013FE3CCBC78119AF608D",
+      "Sha256": "500DC882B9E5FAF912D2E62AC60148C422A327B726503F256DE76C737BF1BA86",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "ContentManagement",
@@ -42,7 +43,7 @@
     },
     {
       "Path": "App/Core.json",
-      "Sha256": "429BC040A5B769CA914FE9A67D703AB40DE0CA8B693F4DF9047AE0B4C83572D0",
+      "Sha256": "F90D064BFB63C60D3655BBBA5BF29128B00A0FDE436A18C32645E84D680E260F",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Core",
@@ -67,7 +68,7 @@
     },
     {
       "Path": "App/Mail.json",
-      "Sha256": "0357A52FEAF6D7993347AF2A3F8C5ADA6D89602B8B76B3EF6CC5B9D1E898BA51",
+      "Sha256": "308AF1738A2831F0DB38EE12352D267D2D7690BD8BA5E7C144A456536A54551A",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Mail",
@@ -77,7 +78,7 @@
     },
     {
       "Path": "App/Security.json",
-      "Sha256": "2885453373A827EB01F548EA0C6B99943377A5EA81712A5BF6C9106D63E96A45",
+      "Sha256": "FFB1661B1F97929B56D562F5D65A71E60B745A844A49AB25F5FEA3C11FEB6F2B",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Security",
@@ -89,7 +90,7 @@
     },
     {
       "Path": "App/Workflow.json",
-      "Sha256": "5EA78D8412528FA551392C7CB2754E791A19742C99754A08F75289A604E14053",
+      "Sha256": "5D09E216F5093A91F7113729851D8D270A046D7AF97D4CC8A1BE6FA16D046D56",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Workflow",
@@ -124,7 +125,7 @@
     },
     {
       "Path": "Common Cache/ContentManagement.json",
-      "Sha256": "5F31AF4E0DECA2C093CBEB90AF9F9CEE062E05029EC376AA602FDC7271C85BE0",
+      "Sha256": "504A8518588FDA32470EA61298675324C5BFFDEB268719F914812CA083A89136",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "ContentManagement",
@@ -136,7 +137,7 @@
     },
     {
       "Path": "Common Cache/Core.json",
-      "Sha256": "AF63838CE2A9B5735308C67572265077F49368BB9E246F7D89728B89B53263B5",
+      "Sha256": "58C2FB6FFDE2A06A9D08202B37FB60501B228704EF48791E6D92151609E4E9C7",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Core",
@@ -147,7 +148,7 @@
     },
     {
       "Path": "Common Cache/DocumentManagement.json",
-      "Sha256": "386F0C8A6722B3D38AC4E7721CA3BE73A13C56ADB2BCC1CB194822F8A4EF197D",
+      "Sha256": "D8F34DAA1E0C62FAC0CFF6A2049ACB0F013819DE14CAF90C0E5D9EE19E290E2F",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "DocumentManagement",
@@ -191,7 +192,7 @@
     },
     {
       "Path": "First Time Setup/app-baseline.json",
-      "Sha256": "1F723376B523685A838DCB58D2B19B9CB9B134D07F80D6C0D6ADCAABD11F2EDE",
+      "Sha256": "8491EAD9A0169F0E568F4250FFA12B5160854ADA0DA2D119101C79721363B5E4",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "First Time Setup",
@@ -206,7 +207,7 @@
     },
     {
       "Path": "First Time Setup/common-cache.json",
-      "Sha256": "62F3D5FF6E4D0F41863B28795D0CE72D8082C93CAACBC0B2E179EB949E3C3755",
+      "Sha256": "88D7D3FBD8D39239EB980D738494A56ED8F312B649D626770C50288FB2A5F58D",
       "FirstTimeSetup": true,
       "Source": "Common Cache",
       "Category": "First Time Setup",

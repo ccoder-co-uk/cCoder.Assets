@@ -1,0 +1,26 @@
+{
+  "Path": "Admin/Tenants",
+  "Name": "Tenants",
+  "ResourceKey": "Security",
+  "ShowOnMenus": true,
+  "Order": 60,
+  "LastUpdated": "2026-07-27T08:00:00+01:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<div name=\"security-tabs\"><ul><li class=\"k-active\">[resource_displayname[tenants]]</li><li>[resource_displayname[roles]]</li></ul><div>[component[TenantManagement]]</div><div>[component[SSORoleManagement]]</div></div><script>$(function(){ $(\"[name=security-tabs]\").kendoTabStrip({ animation: { open: { effects: \"fadeIn\" } } }); });</script>"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Create and manage security tenants and roles.",
+      "Keywords": "Tenants, Roles, Security, Administration",
+      "Title": "Tenants"
+    }
+  ],
+  "IncludeInSubSequentImports": true,
+  "PackageType": "ContentManagement/Page"
+}
