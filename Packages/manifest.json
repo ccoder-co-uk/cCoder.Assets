@@ -79,7 +79,7 @@
     },
     {
       "Path": "App/Security.json",
-      "Sha256": "79D5F9183DE37B8B19A40995FAE52AF72FA218CFCA5C097C5608A1AC7F6FEB53",
+      "Sha256": "9F484671CB54F56BC757751F44A8ECB79184A246E54F59772A775522F38425FD",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Security",
@@ -193,7 +193,7 @@
     },
     {
       "Path": "First Time Setup/app-baseline.json",
-      "Sha256": "B77BD03AEC65B6BF4A8D723122A3AD8E31CF6FEF87190C6F220151ABDC11D8EF",
+      "Sha256": "140BBC748277B0305AC5B6119EDD2D3DD137A40A3D5837A4F9666DEB94C89D05",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "First Time Setup",

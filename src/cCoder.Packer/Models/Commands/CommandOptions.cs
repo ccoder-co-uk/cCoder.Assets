@@ -15,4 +15,7 @@ public sealed record CommandOptions(
     string? BaselinePath,
     int? AppId,
     string? DataPath,
-    string? PackagesPath);
+    string? PackagesPath,
+    string? DestinationPath,
+    string? PackageName,
+    string? Category);

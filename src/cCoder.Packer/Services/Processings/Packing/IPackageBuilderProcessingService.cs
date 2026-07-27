@@ -10,4 +10,11 @@ internal interface IPackageBuilderProcessingService
         string dataPath,
         string packagesPath,
         CancellationToken cancellationToken = default);
+
+    Task<string> BuildPackageAsync(
+        string sourcePath,
+        string destinationPath,
+        string? packageName = null,
+        string? category = null,
+        CancellationToken cancellationToken = default);
 }

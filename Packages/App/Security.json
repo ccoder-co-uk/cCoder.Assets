@@ -14,7 +14,7 @@
     },
     {
       "Type": "ContentManagement/PageRole",
-      "Data": "[\r\n  {\r\n    \u0022PagePath\u0022: \u0022Admin/PlatformAdmin/Tenants\u0022,\r\n    \u0022RoleId\u0022: \u0022Administrators\u0022,\r\n    \u0022LastUpdated\u0022: \u00222026-07-27T08:00:00\\u002B01:00\u0022\r\n  }\r\n]"
+      "Data": "[\r\n  {\r\n    \u0022Path\u0022: \u0022Admin/PlatformAdmin/Tenants\u0022,\r\n    \u0022Role\u0022: \u0022Administrators\u0022,\r\n    \u0022LastUpdated\u0022: \u00222026-07-27T08:00:00\\u002B01:00\u0022\r\n  }\r\n]"
     }
   ]
 }

@@ -104,12 +104,35 @@ Every split business object contains two packaging fields:
 ### Build packages
 
 ```powershell
-dotnet run --project src/cCoder.Packer -- -pack
+.\Rebuild-Packages.ps1
 ```
 
-This rebuilds the complete `Packages` directory from every JSON file under
-`Data`. Existing generated package output is replaced. Objects are grouped into
-one package per resource key and API type.
+This builds the packer and its tests, rebuilds the complete `Packages` directory
+from every JSON file under `Data`, and refreshes the asset-usage report. Existing
+generated package output is replaced. Objects are grouped into one package per
+resource key.
+
+The `Data` tree is the editable source of truth:
+
+```text
+Data/App/{resource key}/{object type}/...
+Data/Common Cache/{resource key}/{object type}/...
+```
+
+The packer also supports a direct folder-to-file operation. It recursively packs
+every JSON object below the supplied folder into exactly one destination file:
+
+```powershell
+dotnet run --project src/cCoder.Packer -- pack `
+  -dataPath "Data/Common Cache/Common" `
+  -destination "Packages/Common Cache/Common.json" `
+  -name "Common Common Cache" `
+  -category "Common"
+```
+
+This form does not infer or rewrite a package destination. Editing files beneath
+the source folder and rerunning the command deterministically replaces the named
+package.
 
 All common-cache and application objects are written to source-owned package
 trees:

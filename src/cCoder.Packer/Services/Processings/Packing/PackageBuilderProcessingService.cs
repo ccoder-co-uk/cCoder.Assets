@@ -13,6 +13,79 @@ namespace cCoder.Packer.Services.Processings.Packing;
 internal sealed partial class PackageBuilderProcessingService
     : IPackageBuilderProcessingService
 {
+    public Task<string> BuildPackageAsync(
+        string sourcePath,
+        string destinationPath,
+        string? packageName = null,
+        string? category = null,
+        CancellationToken cancellationToken = default) =>
+        TryCatch(operation: async () =>
+        {
+            Validate(inputs: [sourcePath, destinationPath, cancellationToken]);
+
+            if (string.IsNullOrWhiteSpace(value: sourcePath))
+            {
+                throw new ArgumentException(
+                    message: "A source folder is required.",
+                    paramName: nameof(sourcePath));
+            }
+
+            if (string.IsNullOrWhiteSpace(value: destinationPath))
+            {
+                throw new ArgumentException(
+                    message: "A destination package path is required.",
+                    paramName: nameof(destinationPath));
+            }
+
+            if (!Directory.Exists(path: sourcePath))
+            {
+                throw new DirectoryNotFoundException(
+                    message: $"Source directory '{sourcePath}' does not exist.");
+            }
+
+            List<PackageSourceItem> items = [];
+
+            foreach (string file in Directory.EnumerateFiles(
+                    path: sourcePath,
+                    searchPattern: "*.json",
+                    searchOption: SearchOption.AllDirectories)
+                .Order(comparer: StringComparer.OrdinalIgnoreCase))
+            {
+                items.AddRange(collection: await ReadFolderItemsAsync(
+                    sourcePath: sourcePath,
+                    file: file,
+                    cancellationToken: cancellationToken));
+            }
+
+            if (items.Count == 0)
+            {
+                throw new InvalidDataException(
+                    message: $"Source directory '{sourcePath}' contains no package items.");
+            }
+
+            string? destinationDirectory = Path.GetDirectoryName(
+                path: destinationPath);
+
+            if (!string.IsNullOrWhiteSpace(value: destinationDirectory))
+            {
+                Directory.CreateDirectory(path: destinationDirectory);
+            }
+
+            string resolvedCategory = category
+                ?? items.Select(selector: item => item.Key)
+                    .Distinct(comparer: StringComparer.OrdinalIgnoreCase)
+                    .SingleOrDefault()
+                ?? Path.GetFileName(path: sourcePath);
+
+            return await WriteKeyPackageAsync(
+                file: destinationPath,
+                scope: "Package",
+                key: resolvedCategory,
+                sourceItems: items,
+                cancellationToken: cancellationToken,
+                packageName: packageName);
+        });
+
     public Task<IReadOnlyList<string>> BuildPackagesAsync(
         string dataPath,
         string packagesPath,
@@ -57,16 +130,6 @@ internal sealed partial class PackageBuilderProcessingService
                 file: file,
                 cancellationToken: cancellationToken));
         }
-
-        HashSet<string> firstTimeSetupPagePaths = items
-            .Where(predicate: item =>
-                item.FirstTimeSetup
-                && item.Type == "ContentManagement/Page"
-                && IsFirstTimeSetupPagePath(path: GetPagePath(item: item)))
-            .Select(selector: item => NormalizePagePath(
-                path: GetPagePath(item: item)))
-            .Where(predicate: path => !string.IsNullOrWhiteSpace(value: path))
-            .ToHashSet(comparer: StringComparer.OrdinalIgnoreCase);
 
         string commonCachePath = Path.Combine(
             path1: packagesPath,
@@ -124,9 +187,7 @@ internal sealed partial class PackageBuilderProcessingService
                     path2: "common-cache.json"),
                 packageName: "First Time Setup Common Cache",
                 sourceItems: items.Where(predicate: item =>
-                    IsFirstTimeSetupItem(
-                        item: item,
-                        firstTimeSetupPagePaths: firstTimeSetupPagePaths)
+                    item.FirstTimeSetup
                     &&
                     item.Source.Equals(
                         value: "Common Cache",
@@ -140,9 +201,7 @@ internal sealed partial class PackageBuilderProcessingService
                     path2: "app-baseline.json"),
                 packageName: "First Time Setup App Baseline",
                 sourceItems: items.Where(predicate: item =>
-                    IsFirstTimeSetupAppItem(
-                        item: item,
-                        firstTimeSetupPagePaths: firstTimeSetupPagePaths)
+                    item.FirstTimeSetup
                     &&
                     !item.Source.Equals(
                         value: "Common Cache",
@@ -174,7 +233,8 @@ internal sealed partial class PackageBuilderProcessingService
         string scope,
         string key,
         IEnumerable<PackageSourceItem> sourceItems,
-        CancellationToken cancellationToken)
+        CancellationToken cancellationToken,
+        string? packageName = null)
     {
         AssetPackageItem[] packageItems =
         [
@@ -198,7 +258,7 @@ internal sealed partial class PackageBuilderProcessingService
         ];
 
         AssetPackage package = new(
-            Name: $"{key} {scope}",
+            Name: packageName ?? $"{key} {scope}",
             Description: $"Generated {scope.ToLowerInvariant()} " +
                 $"functionality package for {key}.",
             Category: key,
@@ -214,81 +274,6 @@ internal sealed partial class PackageBuilderProcessingService
 
         return file;
     }
-
-    private static bool IsFirstTimeSetupItem(
-        PackageSourceItem item,
-        IReadOnlySet<string> firstTimeSetupPagePaths)
-    {
-        if (!item.FirstTimeSetup)
-        {
-            return false;
-        }
-
-        if (item.Type is not
-            "ContentManagement/Page"
-            and not "ContentManagement/PageRole")
-        {
-            return true;
-        }
-
-        string? path = GetPagePath(item: item);
-
-        if (item.Type == "ContentManagement/PageRole")
-        {
-            return firstTimeSetupPagePaths.Contains(
-                item: NormalizePagePath(path: path));
-        }
-
-        return IsFirstTimeSetupPagePath(path: path);
-    }
-
-    private static bool IsFirstTimeSetupPagePath(string? path)
-    {
-        if (string.IsNullOrWhiteSpace(value: path))
-        {
-            return true;
-        }
-
-        bool isHomepageChildArticle = path.StartsWith(
-            value: "/",
-            comparisonType: StringComparison.Ordinal);
-
-        bool isExcludedSection =
-            path.Equals(
-                value: "Documentation",
-                comparisonType: StringComparison.OrdinalIgnoreCase)
-            || path.StartsWith(
-                value: "Documentation/",
-                comparisonType: StringComparison.OrdinalIgnoreCase)
-            || path.Equals(
-                value: "Tools",
-                comparisonType: StringComparison.OrdinalIgnoreCase)
-            || path.StartsWith(
-                value: "Tools/",
-                comparisonType: StringComparison.OrdinalIgnoreCase);
-
-        return !isHomepageChildArticle && !isExcludedSection;
-    }
-
-    private static string? GetPagePath(PackageSourceItem item) =>
-        item.Value.TryGetProperty(
-            propertyName: "Path",
-            value: out JsonElement pathValue)
-            ? pathValue.GetString()
-            : null;
-
-    private static string NormalizePagePath(string? path) =>
-        path?.TrimStart(trimChar: '/') ?? string.Empty;
-
-    private static bool IsFirstTimeSetupAppItem(
-        PackageSourceItem item,
-        IReadOnlySet<string> firstTimeSetupPagePaths) =>
-        IsFirstTimeSetupItem(
-            item: item,
-            firstTimeSetupPagePaths: firstTimeSetupPagePaths)
-        && item.Type is not
-            "ContentManagement/App"
-            and not "AppSecurity/Role";
 
     private static async Task<string> WriteFirstTimeSetupPackageAsync(
         string file,
@@ -457,6 +442,55 @@ internal sealed partial class PackageBuilderProcessingService
                     source: segments[0],
                     key: segments[1],
                     typeFolder: segments[2],
+                    value: value)),
+        ];
+    }
+
+    private static async Task<IEnumerable<PackageSourceItem>> ReadFolderItemsAsync(
+        string sourcePath,
+        string file,
+        CancellationToken cancellationToken)
+    {
+        string[] segments = Path.GetRelativePath(
+            relativeTo: sourcePath,
+            path: file)
+            .Split(
+                separator:
+                [
+                    Path.DirectorySeparatorChar,
+                    Path.AltDirectorySeparatorChar,
+                ],
+                options: StringSplitOptions.RemoveEmptyEntries);
+
+        if (segments.Length < 2)
+        {
+            return [];
+        }
+
+        string key = Path.GetFileName(
+            path: Path.TrimEndingDirectorySeparator(path: sourcePath));
+
+        string typeFolder = segments[^2];
+
+        using JsonDocument document = JsonDocument.Parse(
+            json: await File.ReadAllTextAsync(
+                path: file,
+                cancellationToken: cancellationToken));
+
+        IEnumerable<JsonElement> values =
+            document.RootElement.ValueKind == JsonValueKind.Array
+                ? document.RootElement.EnumerateArray()
+                : [document.RootElement];
+
+        return
+        [
+            .. values.Select(selector: value =>
+                CreatePackageSourceItem(
+                    source: Path.GetFileName(
+                        path: Directory.GetParent(path: sourcePath)?.FullName
+                            ?? sourcePath),
+                    key: key,
+                    typeFolder: typeFolder,
                     value: value)),
         ];
     }
