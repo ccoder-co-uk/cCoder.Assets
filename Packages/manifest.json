@@ -104,91 +104,91 @@
     },
     {
       "Path": "Common Cache/AppSecurity.json",
-      "Sha256": "49F8BB3BD705AAA24C0F21B201181DF757E918D9296A40B985229C5D244F90C9",
+      "Sha256": "C767F50877A72D5D8E26397CE1EC6ED94C720C87EB7E76A69E0CF466B3C66794",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "AppSecurity",
       "ItemTypes": [
-        "Core/Component",
-        "Core/Resource"
+        "ContentManagement/Component",
+        "ContentManagement/Resource"
       ]
     },
     {
       "Path": "Common Cache/Common.json",
-      "Sha256": "8E72F3CF7FF9C3F99B7DF04B1148EFD7C004F65CFD03BF5A0E3FE4ECFAC9C411",
+      "Sha256": "979BF60D7FA7F801A82CA451BA6171B3F947DF9F40847531B03E37AB1C4A2AD0",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Common",
       "ItemTypes": [
-        "Core/Component",
-        "Core/Script"
+        "ContentManagement/Component",
+        "ContentManagement/Script"
       ]
     },
     {
       "Path": "Common Cache/ContentManagement.json",
-      "Sha256": "0464EC3CB1CAD20F8CCEE9B854A3B0F2F507D49DB479CA292668654B8AEC134C",
+      "Sha256": "5B3BD84B8BF7F9935B17B37FDAE653D1A78A485196FF1EAC9D03E70893084A8F",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "ContentManagement",
       "ItemTypes": [
-        "Core/Component",
-        "Core/Resource",
-        "Core/Script"
+        "ContentManagement/Component",
+        "ContentManagement/Resource",
+        "ContentManagement/Script"
       ]
     },
     {
       "Path": "Common Cache/Core.json",
-      "Sha256": "F102DB9E3382F2EA9F9D2050480F6EAC71E8737616A63A1906B0C4C583FEA36D",
+      "Sha256": "20A276CF69ADFFBA886FE77EBC69C3C8289EE33C7F1E72D1183185E42912A9E0",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Core",
       "ItemTypes": [
-        "Core/Component",
-        "Core/Resource"
+        "ContentManagement/Component",
+        "ContentManagement/Resource"
       ]
     },
     {
       "Path": "Common Cache/DocumentManagement.json",
-      "Sha256": "0594E4F4D34E5E2204CB0DEFC00883FF6EECDCCE7F360C4281534F2A1BD7CF74",
+      "Sha256": "D8F34DAA1E0C62FAC0CFF6A2049ACB0F013819DE14CAF90C0E5D9EE19E290E2F",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "DocumentManagement",
       "ItemTypes": [
-        "Core/Component",
-        "Core/Resource",
-        "Core/Script"
+        "ContentManagement/Component",
+        "ContentManagement/Resource",
+        "ContentManagement/Script"
       ]
     },
     {
       "Path": "Common Cache/Mail.json",
-      "Sha256": "0971D511AFF16C5005A8A7BC51D6FB4E82604C6D03BE9D6323789D04531C1673",
+      "Sha256": "4C89C8937F77D82215620952F9904CDF204C0AA6FCEC1EAEF648F8137BBFF778",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Mail",
       "ItemTypes": [
-        "Core/Component"
+        "ContentManagement/Component"
       ]
     },
     {
       "Path": "Common Cache/Security.json",
-      "Sha256": "85E13566E88DB74E3AEC764535A8F6EDEB3B5F27C7F863C69550D6F49D28655D",
+      "Sha256": "B285D8D581835436D7BDDACAC3FC53186BCCE8D9169071A827F493EB7C5C5C7C",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Security",
       "ItemTypes": [
-        "Core/Resource",
-        "Core/Script"
+        "ContentManagement/Resource",
+        "ContentManagement/Script"
       ]
     },
     {
       "Path": "Common Cache/Workflow.json",
-      "Sha256": "8171F8B4BAC5357E3B3851F1F8CC0C21C8E188AEFD0FE109E2566F4D57245D0D",
+      "Sha256": "5CF251599403D86CE87D8B76C9862D79A00D1F6EE36CE33F33842FAA66A99736",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Workflow",
       "ItemTypes": [
-        "Core/Component",
-        "Core/Resource"
+        "ContentManagement/Component",
+        "ContentManagement/Resource"
       ]
     },
     {
@@ -208,14 +208,14 @@
     },
     {
       "Path": "First Time Setup/common-cache.json",
-      "Sha256": "6E1C326A987C12163ACB1ADC7C1DDD1B5C12C00F79C516D470B1B053D2F2844A",
+      "Sha256": "A672D28BC643B829631BD5D45225E0A9D26F4E561788C04B6198FBFD118D125A",
       "FirstTimeSetup": true,
       "Source": "Common Cache",
       "Category": "First Time Setup",
       "ItemTypes": [
-        "Core/Component",
-        "Core/Resource",
-        "Core/Script"
+        "ContentManagement/Component",
+        "ContentManagement/Resource",
+        "ContentManagement/Script"
       ]
     }
   ]
