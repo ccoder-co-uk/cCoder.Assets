@@ -1,0 +1,89 @@
+[
+  {
+    "Id": 5204,
+    "AppId": 4,
+    "Key": "Core",
+    "Culture": "fr-FR",
+    "DisplayName": "Processus métier enregistré",
+    "ShortDisplayName": "Processus métier enregistré",
+    "Name": "businessprocesssaved",
+    "Description": "\tProcessus métier enregistré",
+    "LastUpdated": "2021-07-07T09:42:12.1323621Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Core",
+    "Name": "eventtype",
+    "DisplayName": "Type d'événement",
+    "ShortDisplayName": "Type d'événement",
+    "Description": "Type d'événement",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 5208,
+    "AppId": 4,
+    "Key": "Core",
+    "Culture": "fr-FR",
+    "DisplayName": "JSON",
+    "ShortDisplayName": "JSON",
+    "Name": "json",
+    "Description": "json",
+    "LastUpdated": "2021-07-07T09:42:12.1324054Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Core",
+    "Name": "migratebp",
+    "DisplayName": "Migrate Business Processes",
+    "ShortDisplayName": "Migrate Business Processes",
+    "Description": "Migrate Business Processes",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Core",
+    "Name": "migratebp",
+    "DisplayName": "Migrer les Processus Métier",
+    "ShortDisplayName": "Migrer les Processus Métier",
+    "Description": "Migrer les Processus Métier",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 5211,
+    "AppId": 4,
+    "Key": "Core",
+    "Culture": "fr-FR",
+    "DisplayName": "Composante du rapport",
+    "ShortDisplayName": "Composante du rapport",
+    "Name": "reportingcomponentname",
+    "Description": "Composante du rapport",
+    "LastUpdated": "2021-07-07T09:42:12.1324277Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 5213,
+    "AppId": 4,
+    "Key": "Core",
+    "Culture": "fr-FR",
+    "DisplayName": "Valider",
+    "ShortDisplayName": "Valider",
+    "Name": "validate",
+    "Description": "Valider",
+    "LastUpdated": "2021-07-07T09:42:12.1324424Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "IncludeInSubSequentImports": true
+  }
+]

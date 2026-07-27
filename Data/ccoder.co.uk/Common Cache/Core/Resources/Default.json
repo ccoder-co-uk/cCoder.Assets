@@ -1,0 +1,159 @@
+[
+  {
+    "Id": 4511,
+    "AppId": 4,
+    "Key": "Core",
+    "Culture": "",
+    "DisplayName": "Business Process Saved",
+    "ShortDisplayName": "Business Process Saved",
+    "Name": "businessprocesssaved",
+    "Description": "Business Process Saved",
+    "LastUpdated": "2021-07-07T09:42:12.1270141Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5204,
+        "AppId": 4,
+        "Key": "Workflow",
+        "Culture": "fr-FR",
+        "DisplayName": "Processus métier enregistré",
+        "ShortDisplayName": "Processus métier enregistré",
+        "Name": "businessprocesssaved",
+        "Description": "\tProcessus métier enregistré",
+        "LastUpdated": "2021-07-07T09:42:12.1323621Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ],
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "eventtype",
+    "Key": "Core",
+    "DisplayName": "Event Type",
+    "ShortDisplayName": "Event Type",
+    "Description": "Event Type",
+    "CreatedOn": "2022-11-16T16:50:10.827Z",
+    "LastUpdated": "2022-11-16T16:50:10.827Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 4512,
+    "AppId": 4,
+    "Key": "Core",
+    "Culture": "",
+    "DisplayName": "JSON",
+    "ShortDisplayName": "JSON",
+    "Name": "json",
+    "Description": "json",
+    "LastUpdated": "2021-07-07T09:42:12.1270216Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5208,
+        "AppId": 4,
+        "Key": "Workflow",
+        "Culture": "fr-FR",
+        "DisplayName": "JSON",
+        "ShortDisplayName": "JSON",
+        "Name": "json",
+        "Description": "json",
+        "LastUpdated": "2021-07-07T09:42:12.1324054Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ],
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "migratebp",
+    "Key": "Core",
+    "DisplayName": "Migrate Business Processes",
+    "ShortDisplayName": "Migrate Business Processes",
+    "Description": "Migrate Business Processes",
+    "CreatedOn": "2022-11-14T15:26:14.205Z",
+    "LastUpdated": "2022-11-14T15:26:14.205Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "onexecutioncomplete",
+    "Key": "Core",
+    "DisplayName": "On Execution Complete",
+    "ShortDisplayName": "On Execution Complete",
+    "Description": "On Execution Complete",
+    "CreatedOn": "2021-11-02T12:01:18.853Z",
+    "LastUpdated": "2021-11-02T12:01:18.853Z",
+    "Culture": "",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 4526,
+    "AppId": 4,
+    "Key": "Core",
+    "Culture": "",
+    "DisplayName": "Reporting Component",
+    "ShortDisplayName": "Reporting Component",
+    "Name": "reportingcomponentname",
+    "Description": "reportingcomponentname",
+    "LastUpdated": "2021-07-07T09:42:12.1271291Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5211,
+        "AppId": 4,
+        "Key": "Workflow",
+        "Culture": "fr-FR",
+        "DisplayName": "Composante du rapport",
+        "ShortDisplayName": "Composante du rapport",
+        "Name": "reportingcomponentname",
+        "Description": "Composante du rapport",
+        "LastUpdated": "2021-07-07T09:42:12.1324277Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ],
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 4510,
+    "AppId": 4,
+    "Key": "Core",
+    "Culture": "",
+    "DisplayName": "Validate",
+    "ShortDisplayName": "Validate",
+    "Name": "validate",
+    "Description": "validate",
+    "LastUpdated": "2021-07-07T09:42:12.1270066Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "Translations": [
+      {
+        "Id": 5213,
+        "AppId": 4,
+        "Key": "Workflow",
+        "Culture": "fr-FR",
+        "DisplayName": "Valider",
+        "ShortDisplayName": "Valider",
+        "Name": "validate",
+        "Description": "Valider",
+        "LastUpdated": "2021-07-07T09:42:12.1324424Z",
+        "LastUpdatedBy": "Guest",
+        "CreatedOn": "0001-01-01T00:00:00Z",
+        "CreatedBy": null
+      }
+    ],
+    "IncludeInSubSequentImports": true
+  }
+]

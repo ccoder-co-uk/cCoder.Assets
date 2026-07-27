@@ -1,0 +1,8 @@
+{
+  "Name": "CoreDailyUsageUserDetailsGrid",
+  "Key": "Security",
+  "Content": "function (vars) {\r\n\tvar g = new GridWidget(vars.element, vars.dataSource);\r\n\tg.groupable = false;\r\n\tg.searchable = false;\r\n\tg.pageable = false;\r\n\tg.scrollable = false;\r\n\tg.editable = false;\r\n\tg.exports = true;\r\n\t\r\n\tg.columns = [\r\n\t\t{\r\n\t\t\tfield: \"User.Id\",\r\n\t\t\ttitle: \"[resource_shortdisplayname[UserId]]\",\r\n\t\t\tdescription: \"[resource_description[UserId]]\",\r\n\t\t\ttype: \"string\",\r\n\t\t\twidth: 80\r\n\t\t},\r\n        {\r\n\t\t\tfield: \"User.UserEmail\",\r\n\t\t\tformat: \"{0:\" + type.dateFormat + \"}\",\r\n\t\t\ttitle: \"[resource_shortdisplayname[UserEmail]]\",\r\n\t\t\tdescription: \"[resource_description[UserEmail]]\",\r\n\t\t\ttype: \"string\"\r\n\t\t},\r\n\t\t{\r\n\t\t\tfield: \"Sessions\",\r\n\t\t\ttitle: \"[resource_shortdisplayname[Sessions]]\",\r\n\t\t\tdescription: \"[resource_description[Sessions]]\",\r\n\t\t\twidth: 70\r\n\t\t},\r\n        {\r\n\t\t\tfield: \"PageRequests\",\r\n\t\t\ttitle: \"[resource_shortdisplayname[PageHits]]\",\r\n\t\t\tdescription: \"[resource_description[PageHits]]\",\r\n\t\t\twidth: 70\r\n\t\t},\r\n        {\r\n\t\t\tfield: \"ApiRequests\",\r\n\t\t\ttitle: \"[resource_shortdisplayname[ApiHits]]\",\r\n\t\t\tdescription: \"[resource_description[ApiHits]]\",\r\n\t\t\twidth: 100\r\n\t\t}\r\n\t];\r\n\treturn g;\r\n}",
+  "CreatedOn": "2022-08-31T14:54:09.615Z",
+  "LastUpdated": "2022-08-31T14:54:09.615Z",
+  "IncludeInSubSequentImports": true
+}
