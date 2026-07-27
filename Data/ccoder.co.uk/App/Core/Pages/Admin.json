@@ -1,0 +1,25 @@
+{
+  "Path": "Admin",
+  "Name": "Admin",
+  "ResourceKey": "Core",
+  "ShowOnMenus": true,
+  "Order": 9,
+  "LastUpdated": "2026-04-30T20:09:38.4066886+01:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[detailednav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Admin",
+      "Keywords": "Admin",
+      "Title": "Admin"
+    }
+  ],
+  "IncludeInSubSequentImports": true
+}

@@ -1,0 +1,10 @@
+{
+  "Key": "ContentManagement",
+  "Name": "Font",
+  "ResourceKey": "ContentManagement",
+  "Content": "<h4>[resource_displayname[font]]</h4>\r\n<ul class=\"fieldList\">\r\n\t<li>\r\n\t\t<label>[resource_displayname[size]]</label>\r\n\t\t<div class=\"value\">\r\n\t\t\t<input  name=\"fontSizeSlider\"  data-bind=\"value: font.size\" style=\"margin-left: 20px; padding-top: 18px;\"  />\r\n\t\t\t<p name=\"fontSizePreview\">Sample Text</p>\r\n\t\t</div>\r\n\t</li>\r\n\t<li>\r\n\t\t<label>[resource_displayname[family]]</label>\r\n\t\t<div class=\"value\">\r\n\t\t\t<input name=\"fontFamily\" type=\"text\" data-bind=\"value: font.family\" />\r\n\t\t</div>\r\n\t</li>\r\n</ul>",
+  "Script": "Font = {\r\n    init: async function(app, container, observable) {\r\n        app = app || session.app;\r\n        container = container || $(\".component[name=Font]\");\r\n        if(!observable) { return; }\r\n        if(observable) {\r\n            $(\"[name=fontSizeSlider]\", container).kendoSlider({ \r\n                min: 0, \r\n                max: 20, \r\n                smallStep: 1, \r\n                largeStep: 2, \r\n                value: parseFloat(observable.get(\"font.size\").replaceAll(\"px\", \"\")),\r\n                change: function(e) {\r\n                    e.preventDefault();\r\n                    observable.set(\"font.size\", this.value() + \"px\");\r\n                    $(\"[name=fontSizePreview]\", container).css(\"font-size\",  observable.get(\"font.size\"));\r\n                }\r\n            });\r\n            $(\"[name=fontSizePreview]\", container).css(\"font-size\", observable.get(\"font.size\"));\r\n        }\r\n\r\n    }\r\n}",
+  "CreatedOn": "2021-11-19T21:32:16.026Z",
+  "LastUpdated": "2021-11-19T21:32:16.026Z",
+  "IncludeInSubSequentImports": true
+}

@@ -320,7 +320,7 @@ public sealed partial class PackageBuilderTests
             packagesPath: packagesPath);
 
         // Then
-        Assert.Equal(expected: 5, actual: files.Count);
+        Assert.Equal(expected: 6, actual: files.Count);
 
         Assert.False(condition: File.Exists(path: stalePackageFile));
 
@@ -328,6 +328,7 @@ public sealed partial class PackageBuilderTests
             expected:
             [
                 "App",
+                "Baseline New App",
                 "Common Cache",
                 "First Time Setup",
             ],
@@ -365,50 +366,54 @@ public sealed partial class PackageBuilderTests
                 "common-cache.json",
             ]);
 
-        string appBaselineFile = Path.Combine(
+        string firstAppFile = Path.Combine(
             paths:
             [
                 packagesPath,
                 "First Time Setup",
-                "app-baseline.json",
+                "first-app.json",
             ]);
 
         Assert.True(condition: File.Exists(path: commonCacheBaselineFile));
-        Assert.True(condition: File.Exists(path: appBaselineFile));
+        Assert.True(condition: File.Exists(path: firstAppFile));
 
-        using JsonDocument appBaselinePackage = JsonDocument.Parse(
-            json: await File.ReadAllTextAsync(path: appBaselineFile));
+        using JsonDocument firstAppPackage = JsonDocument.Parse(
+            json: await File.ReadAllTextAsync(path: firstAppFile));
 
-        JsonElement[] appBaselineItems =
+        JsonElement[] firstAppItems =
         [
-            .. appBaselinePackage.RootElement
+            .. firstAppPackage.RootElement
                 .GetProperty(propertyName: "Items")
                 .EnumerateArray(),
         ];
 
-        Assert.Equal(expected: 3, actual: appBaselineItems.Length);
+        Assert.Equal(expected: 5, actual: firstAppItems.Length);
 
         Assert.Contains(
-            collection: appBaselineItems,
+            collection: firstAppItems,
             filter: item =>
                 item.GetProperty(propertyName: "Type")
                     .GetString() == "ContentManagement/Page");
 
         Assert.Contains(
-            collection: appBaselineItems,
+            collection: firstAppItems,
             filter: item =>
                 item.GetProperty(propertyName: "Type")
                     .GetString() == "Workflow/CalendarEvent");
 
-        Assert.DoesNotContain(
-            collection: appBaselineItems,
+        Assert.Contains(
+            collection: firstAppItems,
             filter: item =>
                 item.GetProperty(propertyName: "Type")
-                    .GetString() is
-                    "ContentManagement/App"
-                    or "AppSecurity/Role");
+                    .GetString() == "ContentManagement/App");
 
-        string appBaselinePageRoles = appBaselineItems
+        Assert.Contains(
+            collection: firstAppItems,
+            filter: item =>
+                item.GetProperty(propertyName: "Type")
+                    .GetString() == "AppSecurity/Role");
+
+        string firstAppPageRoles = firstAppItems
             .Single(predicate: item =>
                 item.GetProperty(propertyName: "Type")
                     .GetString() == "ContentManagement/PageRole")
@@ -417,13 +422,13 @@ public sealed partial class PackageBuilderTests
 
         Assert.Contains(
             expectedSubstring: "\"Path\": \"Admin\"",
-            actualString: appBaselinePageRoles);
+            actualString: firstAppPageRoles);
 
-        Assert.DoesNotContain(
-            expectedSubstring: "\"Path\": \"About\"",
-            actualString: appBaselinePageRoles);
+        Assert.Contains(
+            expectedSubstring: "\"Path\": \"/About\"",
+            actualString: firstAppPageRoles);
 
-        string appBaselinePages = appBaselineItems
+        string firstAppPages = firstAppItems
             .Single(predicate: item =>
                 item.GetProperty(propertyName: "Type")
                     .GetString() == "ContentManagement/Page")
@@ -432,27 +437,37 @@ public sealed partial class PackageBuilderTests
 
         Assert.Contains(
             expectedSubstring: "\"Name\": \"Home\"",
-            actualString: appBaselinePages);
+            actualString: firstAppPages);
 
         Assert.Contains(
             expectedSubstring: "\"Name\": \"Login\"",
-            actualString: appBaselinePages);
+            actualString: firstAppPages);
 
         Assert.Contains(
             expectedSubstring: "\"Name\": \"ResetPassword\"",
-            actualString: appBaselinePages);
+            actualString: firstAppPages);
 
-        Assert.DoesNotContain(
+        Assert.Contains(
             expectedSubstring: "\"Name\": \"About\"",
-            actualString: appBaselinePages);
+            actualString: firstAppPages);
 
-        Assert.DoesNotContain(
+        Assert.Contains(
             expectedSubstring: "\"Name\": \"Documentation\"",
-            actualString: appBaselinePages);
+            actualString: firstAppPages);
 
-        Assert.DoesNotContain(
+        Assert.Contains(
             expectedSubstring: "\"Name\": \"Tools\"",
-            actualString: appBaselinePages);
+            actualString: firstAppPages);
+
+        string baselineNewAppFile = Path.Combine(
+            paths:
+            [
+                packagesPath,
+                "Baseline New App",
+                "baseline-new-app.json",
+            ]);
+
+        Assert.True(condition: File.Exists(path: baselineNewAppFile));
 
         using JsonDocument regularPackage = JsonDocument.Parse(
             json: await File.ReadAllTextAsync(path: regularFile));
@@ -467,7 +482,7 @@ public sealed partial class PackageBuilderTests
             .GetString()!;
 
         using JsonDocument setupPackage = JsonDocument.Parse(
-            json: await File.ReadAllTextAsync(path: appBaselineFile));
+            json: await File.ReadAllTextAsync(path: baselineNewAppFile));
 
         string setupData = setupPackage.RootElement
             .GetProperty(propertyName: "Items")
@@ -480,7 +495,7 @@ public sealed partial class PackageBuilderTests
 
         Assert.Contains(expectedSubstring: "\"Name\": \"Home\"", actualString: setupData);
         Assert.Contains(expectedSubstring: "\"Name\": \"Home\"", actualString: regularData);
-        Assert.Contains(expectedSubstring: "\"Name\": \"About\"", actualString: regularData);
+        Assert.DoesNotContain(expectedSubstring: "\"Name\": \"About\"", actualString: regularData);
         Assert.DoesNotContain(expectedSubstring: "\"Name\": \"About\"", actualString: setupData);
 
         Assert.DoesNotContain(
@@ -501,7 +516,7 @@ public sealed partial class PackageBuilderTests
                 .GetInt32());
 
         Assert.Equal(
-            expected: 4,
+            expected: 5,
             actual: manifest.RootElement
                 .GetProperty(propertyName: "Packages")
                 .GetArrayLength());
@@ -519,7 +534,7 @@ public sealed partial class PackageBuilderTests
                     value: "First Time Setup/",
                     comparisonType: StringComparison.Ordinal) == true
                     && path.EndsWith(
-                        value: "app-baseline.json",
+                        value: "first-app.json",
                         comparisonType: StringComparison.Ordinal);
             });
 
@@ -532,7 +547,7 @@ public sealed partial class PackageBuilderTests
         Assert.Equal(
             expected: Convert.ToHexString(
                 inArray: SHA256.HashData(
-                    source: await File.ReadAllBytesAsync(path: appBaselineFile))),
+                    source: await File.ReadAllBytesAsync(path: firstAppFile))),
             actual: setupManifestItem
                 .GetProperty(propertyName: "Sha256")
                 .GetString());

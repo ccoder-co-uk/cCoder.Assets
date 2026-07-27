@@ -7,6 +7,8 @@ $repoRoot = $PSScriptRoot
 $project = Join-Path $repoRoot 'src/cCoder.Packer/cCoder.Packer.csproj'
 $configuration = 'Release'
 $packer = Join-Path $repoRoot "src/cCoder.Packer/bin/$configuration/net10.0/cCoder.Packer.exe"
+$baselineData = Join-Path $repoRoot 'Data/Default App'
+$packages = Join-Path $repoRoot 'Packages'
 
 dotnet build $project --configuration $configuration
 
@@ -16,11 +18,11 @@ if (-not $NoTests) {
 }
 
 & $packer pack `
-    -dataPath (Join-Path $repoRoot 'Data') `
-    -packagesPath (Join-Path $repoRoot 'Packages')
+    -dataPath $baselineData `
+    -packagesPath $packages
 
 & $packer report `
     -dataPath (Join-Path $repoRoot 'Data') `
-    -packagesPath (Join-Path $repoRoot 'Packages')
+    -packagesPath $packages
 
 Write-Host 'Packages and asset-usage report rebuilt successfully.'

@@ -1,0 +1,7 @@
+{
+  "Path": "Admin/PlatformAdmin/Tenants",
+  "Role": "Administrators",
+  "LastUpdated": "2026-07-27T08:00:00+01:00",
+  "IncludeInSubSequentImports": false,
+  "PackageType": "ContentManagement/PageRole"
+}

@@ -1,0 +1,153 @@
+[
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "applyrecursively",
+    "DisplayName": " Appliquer de manière récursive",
+    "ShortDisplayName": " Appliquer de manière récursive",
+    "Description": " Appliquer de manière récursive",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "DeleteFolderTitle",
+    "DisplayName": "Supprimer le dossier",
+    "ShortDisplayName": "Supprimer le dossier",
+    "Description": "Supprimer le dossier",
+    "LastUpdated": "2022-03-18T10:41:54.1907821+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "folderdeletedsuccesfully",
+    "DisplayName": "Dossier supprimÃ© avec succÃ¨s",
+    "ShortDisplayName": "Dossier supprimÃ© avec succÃ¨s",
+    "Description": "Dossier supprimÃ© avec succÃ¨s",
+    "LastUpdated": "2022-03-18T10:41:54.190861+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 25770,
+    "AppId": 4,
+    "Key": "DocumentManagement",
+    "Culture": "fr-FR",
+    "DisplayName": "Informations supplémentaires",
+    "ShortDisplayName": "Informations supplémentaires",
+    "Name": "furtherinformation",
+    "Description": "Informations supplémentaires",
+    "LastUpdated": "2021-07-07T09:42:12.136259Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 25624,
+    "AppId": 4,
+    "Key": "DocumentManagement",
+    "Culture": "fr-FR",
+    "DisplayName": "Informations supplémentaires",
+    "ShortDisplayName": "Infos suppl",
+    "Name": "furtherinformation",
+    "Description": "Informations supplémentaires",
+    "LastUpdated": "2021-07-07T09:42:12.1361201Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 25622,
+    "AppId": 4,
+    "Key": "DocumentManagement",
+    "Culture": "fr-FR",
+    "DisplayName": "Informations supplémentaires",
+    "ShortDisplayName": "Informations supplémentaires",
+    "Name": "furtherinformation",
+    "Description": "Informations supplémentaires",
+    "LastUpdated": "2021-07-07T09:42:12.1361058Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 25615,
+    "AppId": 4,
+    "Key": "DocumentManagement",
+    "Culture": "fr-FR",
+    "DisplayName": "Informations supplémentaires",
+    "ShortDisplayName": "Informations supplémentaires",
+    "Name": "furtherinformation",
+    "Description": "Informations supplémentaires",
+    "LastUpdated": "2021-07-07T09:42:12.1360685Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Id": 25614,
+    "AppId": 4,
+    "Key": "DocumentManagement",
+    "Culture": "fr-FR",
+    "DisplayName": "Informations légales",
+    "ShortDisplayName": "Informations légales",
+    "Name": "legal",
+    "Description": "Informations légales",
+    "LastUpdated": "2021-07-07T09:42:12.1360613Z",
+    "LastUpdatedBy": "Guest",
+    "CreatedOn": "0001-01-01T00:00:00Z",
+    "CreatedBy": null,
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "newfolder",
+    "DisplayName": "Nouveau Dossier",
+    "ShortDisplayName": "Nouveau Dossier",
+    "Description": "Nouveau Dossier",
+    "LastUpdated": "2023-01-04T12:32:37.1401249+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "newname",
+    "DisplayName": "Nouveau nom",
+    "ShortDisplayName": "Nouveau nom",
+    "Description": "Nouveau nom",
+    "LastUpdated": "2022-03-18T10:41:54.1905548+00:00",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "rename",
+    "DisplayName": "Renommer",
+    "ShortDisplayName": "Renommer",
+    "Description": "Renommer",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "unpackzipto",
+    "DisplayName": "Décompresser les Fichier dans",
+    "ShortDisplayName": "Décompresser les Fichier dans",
+    "Description": "Décompresser les Fichier dans",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "welcometofurtherinfo",
+    "DisplayName": "Bienvenue dans la présentation du programme [app[name]] dédié à nos fournisseurs.",
+    "ShortDisplayName": "Bienvenue dans la présentation du programme [app[name]] dédié à nos fournisseurs.",
+    "Description": "Bienvenue dans la présentation du programme [app[name]] dédié à nos fournisseurs.",
+    "IncludeInSubSequentImports": true
+  }
+]

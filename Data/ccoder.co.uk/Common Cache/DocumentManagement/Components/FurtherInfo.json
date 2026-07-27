@@ -1,0 +1,10 @@
+{
+  "AppId": 11,
+  "ResourceKey": "DocumentManagement",
+  "Content": "<div class = \"furtherInfo\">\n<p>[resource_displayname[welcometofurtherinfo]]</p>\n<h4>[resource_description[furtherinformation]]</h4>\n<div name=\"furtherInfoFolder\">\n      [component[FolderManagement]]\n</div>\n<br>\n<h4>[resource_displayname[legal]]</h4>\n<div name=\"legalFolder\">\n      [component[FolderManagement]]\n</div>\n<div>\n\n<style scoped>\n      .furtherInfo { display: flex; flex: 1; flex-direction: column; }\n      </style>",
+  "Script": "FurtherInfo = {\n\tinit: async function(app, container) {\n    \tapp = app || session.app;\n        container = container || $(\".component[name=FurtherInfo]\");\n        $(\"[name=downloadPresentation]\", container).on(\"click\", async (e) => await FurtherInfo.downloadPresentation(e, app));\n        var furtherInfoFiles = (await api.get(\"DocumentManagement/Folder?$filter=AppId eq \" + app.Id + \" and Path eq 'furtherinformation'&$expand=Files\")).value[0];\n        FolderManagement.init(app, $(\".component[name=FolderManagement]\", $(\"[name=furtherInfoFolder]\", container)), furtherInfoFiles, true, true);\n        var legalFiles = (await api.get(\"DocumentManagement/Folder?$filter=AppId eq \" + app.Id + \" and Path eq 'furtherinformation/legal'&$expand=Files\")).value[0];\n        FolderManagement.init(app, $(\".component[name=FolderManagement]\", $(\"[name=legalFolder]\", container)), legalFiles, true, true);\n    },\n    \n};",
+  "Name": "FurtherInfo",
+  "Description": null,
+  "Key": "DocumentManagement",
+  "IncludeInSubSequentImports": true
+}

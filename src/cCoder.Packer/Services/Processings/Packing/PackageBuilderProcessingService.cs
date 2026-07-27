@@ -139,18 +139,28 @@ internal sealed partial class PackageBuilderProcessingService
             path1: packagesPath,
             path2: "First Time Setup");
 
+        string baselineNewAppPath = Path.Combine(
+            path1: packagesPath,
+            path2: "Baseline New App");
+
         string appPath = Path.Combine(
             path1: packagesPath,
             path2: "App");
 
         Directory.CreateDirectory(path: commonCachePath);
         Directory.CreateDirectory(path: firstTimeSetupPath);
+        Directory.CreateDirectory(path: baselineNewAppPath);
         Directory.CreateDirectory(path: appPath);
 
         List<string> writtenFiles = [];
 
         foreach (IGrouping<(string Scope, string Key), PackageSourceItem> group
             in items
+                .Where(predicate: item =>
+                    item.Source.Equals(
+                        value: "Common Cache",
+                        comparisonType: StringComparison.OrdinalIgnoreCase)
+                    || item.IncludeInSubsequentImports)
                 .GroupBy(
                     keySelector: item => (
                         Scope: item.Source.Equals(
@@ -187,8 +197,6 @@ internal sealed partial class PackageBuilderProcessingService
                     path2: "common-cache.json"),
                 packageName: "First Time Setup Common Cache",
                 sourceItems: items.Where(predicate: item =>
-                    item.FirstTimeSetup
-                    &&
                     item.Source.Equals(
                         value: "Common Cache",
                         comparisonType: StringComparison.OrdinalIgnoreCase)),
@@ -198,25 +206,28 @@ internal sealed partial class PackageBuilderProcessingService
             item: await WriteFirstTimeSetupPackageAsync(
                 file: Path.Combine(
                     path1: firstTimeSetupPath,
-                    path2: "app-baseline.json"),
-                packageName: "First Time Setup App Baseline",
+                    path2: "first-app.json"),
+                packageName: "First Time Setup First App",
                 sourceItems: items.Where(predicate: item =>
-                    item.FirstTimeSetup
-                    &&
                     !item.Source.Equals(
                         value: "Common Cache",
                         comparisonType: StringComparison.OrdinalIgnoreCase)),
                 cancellationToken: cancellationToken));
 
-        if (!items.Any(predicate: item => item.FirstTimeSetup))
-        {
-            await File.WriteAllTextAsync(
-                path: Path.Combine(
-                    path1: firstTimeSetupPath,
-                    path2: ".gitkeep"),
-                contents: string.Empty,
-                cancellationToken: cancellationToken);
-        }
+        writtenFiles.Add(
+            item: await WriteKeyPackageAsync(
+                file: Path.Combine(
+                    path1: baselineNewAppPath,
+                    path2: "baseline-new-app.json"),
+                scope: "App",
+                key: "Baseline New App",
+                sourceItems: items.Where(predicate: item =>
+                    item.IncludeInSubsequentImports
+                    && !item.Source.Equals(
+                        value: "Common Cache",
+                        comparisonType: StringComparison.OrdinalIgnoreCase)),
+                cancellationToken: cancellationToken,
+                packageName: "Baseline New App"));
 
         string manifestFile = await WriteManifestAsync(
             packagesPath: packagesPath,
@@ -355,13 +366,21 @@ internal sealed partial class PackageBuilderProcessingService
                 a: pathSegments[0],
                 b: "First Time Setup",
                 comparisonType: StringComparison.OrdinalIgnoreCase)
+                || string.Equals(
+                    a: pathSegments[0],
+                    b: "Baseline New App",
+                    comparisonType: StringComparison.OrdinalIgnoreCase)
                 ? 1
                 : 0;
 
             string source = relativePath.Equals(
-                value: "First Time Setup/app-baseline.json",
+                value: "First Time Setup/first-app.json",
                 comparisonType: StringComparison.OrdinalIgnoreCase)
                     ? "App"
+                    : relativePath.Equals(
+                        value: "Baseline New App/baseline-new-app.json",
+                        comparisonType: StringComparison.OrdinalIgnoreCase)
+                        ? "App"
                     : relativePath.Equals(
                         value: "First Time Setup/common-cache.json",
                         comparisonType: StringComparison.OrdinalIgnoreCase)
@@ -511,7 +530,7 @@ internal sealed partial class PackageBuilderProcessingService
                 key: key,
                 typeFolder: typeFolder);
 
-        bool firstTimeSetup =
+        bool includeInSubsequentImports =
             item["IncludeInSubSequentImports"]?.GetValue<bool>()
             ?? false;
 
@@ -522,7 +541,7 @@ internal sealed partial class PackageBuilderProcessingService
             Source: source,
             Key: key,
             Type: type,
-            FirstTimeSetup: firstTimeSetup,
+            IncludeInSubsequentImports: includeInSubsequentImports,
             Value: JsonSerializer.SerializeToElement(
                 value: item,
                 options: JsonDefaults.Options));

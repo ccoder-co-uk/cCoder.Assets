@@ -10,5 +10,5 @@ public sealed record PackageSourceItem(
     string Source,
     string Key,
     string Type,
-    bool FirstTimeSetup,
+    bool IncludeInSubsequentImports,
     JsonElement Value);

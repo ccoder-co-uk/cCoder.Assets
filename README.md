@@ -77,13 +77,13 @@ dotnet run --project src/cCoder.Packer -- `
 ```
 
 This exports every business-object type in the application package and groups
-the files by source domain, resource key, and type:
+the files by source domain, hosting scope, resource key, and type:
 
 ```text
-Data/{source domain}/{resource key}/Components/{name}.json
-Data/{source domain}/{resource key}/Resources/{culture}.json
-Data/{source domain}/{resource key}/Scripts/{name}.json
-Data/{source domain}/{resource key}/{other type}/{name}.json
+Data/{source domain}/App/{resource key}/Components/{name}.json
+Data/{source domain}/App/{resource key}/Resources/{culture}.json
+Data/{source domain}/App/{resource key}/Scripts/{name}.json
+Data/{source domain}/App/{resource key}/{other type}/{name}.json
 ```
 
 Use `-appId {id}` when the source hostname does not uniquely identify an
@@ -97,9 +97,9 @@ Types without a resource key are placed beneath `Default`.
 Every split business object contains two packaging fields:
 
 - `PackageType` preserves the API type needed when rebuilding packages.
-- `IncludeInSubSequentImports` controls the package destination. New exports
-  default this value to `false`; set it to `true` for baseline data required
-  during first-time setup.
+- `IncludeInSubSequentImports` controls whether an app-hosted item is available
+  to later app deployments. First-time setup always receives the complete
+  curated first-app branch. New exports default this value to `false`.
 
 ### Build packages
 
@@ -108,23 +108,31 @@ Every split business object contains two packaging fields:
 ```
 
 This builds the packer and its tests, rebuilds the complete `Packages` directory
-from every JSON file under `Data`, and refreshes the asset-usage report. Existing
-generated package output is replaced. Objects are grouped into one package per
-resource key.
+from `Data/Default App`, and refreshes the asset-usage report. Existing generated
+package output is replaced. Objects are grouped into one package per resource
+key.
 
 The `Data` tree is the editable source of truth:
 
 ```text
-Data/App/{resource key}/{object type}/...
-Data/Common Cache/{resource key}/{object type}/...
+Data/
+  Default App/
+    App/{resource key}/{object type}/...
+    Common Cache/{resource key}/{object type}/...
+  ccoder.co.uk/
+    App/{resource key}/{object type}/...
+    Common Cache/{resource key}/{object type}/...
 ```
+
+`ccoder.co.uk` is the normalized source snapshot. `Default App` is the curated
+deployment baseline.
 
 The packer also supports a direct folder-to-file operation. It recursively packs
 every JSON object below the supplied folder into exactly one destination file:
 
 ```powershell
 dotnet run --project src/cCoder.Packer -- pack `
-  -dataPath "Data/Common Cache/Common" `
+  -dataPath "Data/Default App/Common Cache/Common" `
   -destination "Packages/Common Cache/Common.json" `
   -name "Common Common Cache" `
   -category "Common"
@@ -134,25 +142,29 @@ This form does not infer or rewrite a package destination. Editing files beneath
 the source folder and rerunning the command deterministically replaces the named
 package.
 
-All common-cache and application objects are written to source-owned package
-trees:
+The bulk build produces:
 
 ```text
-Packages/Common Cache/{resource key}/{API type}.json
-Packages/{source domain}/{resource key}/{API type}.json
+Packages/First Time Setup/common-cache.json
+Packages/First Time Setup/first-app.json
+Packages/Baseline New App/baseline-new-app.json
+Packages/Common Cache/{resource key}.json
+Packages/App/{resource key}.json
 ```
 
-Objects whose `IncludeInSubSequentImports` value is `true` are also copied into
-the curated first-time-setup tree:
+The first-time common-cache package contains the complete shared baseline. The
+first-app package contains all curated app-hosted data, including the
+environment-level Platform Admin experience. Both are imported during setup.
 
-```text
-Packages/First Time Setup/Common Cache/{resource key}/{API type}.json
-Packages/First Time Setup/App/{resource key}/{API type}.json
-```
+The Baseline New App package and per-key App packages contain only items marked
+`IncludeInSubSequentImports`. They deliberately exclude Platform Admin. The
+per-key Common Cache packages remain available as complete, independently
+deployable domain bundles.
 
-The application homepage is baseline data: it belongs in the source-owned
-application package and is additionally included in the first-time-setup page
-package.
+After first-time setup, every package outside `Packages/First Time Setup` is
+registered with the local Packaging API. App creation can therefore start with
+Baseline New App and add any combination of resource-key App packages. Their
+shared components are already present in the platform common cache.
 
 The packaging-only fields are removed from the business-object JSON embedded in
 each generated package.
