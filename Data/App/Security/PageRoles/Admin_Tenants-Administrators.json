@@ -1,0 +1,7 @@
+{
+  "PagePath": "Admin/Tenants",
+  "RoleId": "Administrators",
+  "LastUpdated": "2026-07-27T08:00:00+01:00",
+  "IncludeInSubSequentImports": true,
+  "PackageType": "ContentManagement/PageRole"
+}
