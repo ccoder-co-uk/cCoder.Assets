@@ -10,7 +10,7 @@
 | App | `App` | `Common` | 8 | 6 |
 | App | `App` | `ContentManagement` | 232 | 224 |
 | App | `App` | `Core` | 16 | 11 |
-| App | `App` | `DocumentManagement` | 72 | 72 |
+| App | `App` | `DocumentManagement` | 70 | 70 |
 | App | `App` | `Mail` | 4 | 4 |
 | App | `App` | `Security` | 16 | 8 |
 | App | `App` | `Workflow` | 28 | 28 |
@@ -347,7 +347,6 @@
 - [ ] `App -> DocumentManagement — ccoder.co.uk/App/DocumentManagement/Resources/fr-FR.json#5`
 - [ ] `App -> DocumentManagement — ccoder.co.uk/App/DocumentManagement/Resources/fr-FR.json#6`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Pages/Admin_DocumentManagement.json`
-- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Pages/Clients_Client.json`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#1`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#10`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#11`
