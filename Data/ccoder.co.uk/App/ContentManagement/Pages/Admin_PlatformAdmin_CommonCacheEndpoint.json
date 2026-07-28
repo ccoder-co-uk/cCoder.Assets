@@ -3,7 +3,7 @@
   "Name": "Common Cache Endpoint",
   "ResourceKey": "ContentManagement",
   "ShowOnMenus": true,
-  "Order": 3,
+  "Order": 10,
   "LastUpdated": "2026-04-30T20:09:38.4350141+01:00",
   "Layout": "Default",
   "Contents": [

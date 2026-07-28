@@ -3,7 +3,7 @@
   "Name": "Tenants",
   "ResourceKey": "Security",
   "ShowOnMenus": true,
-  "Order": 1,
+  "Order": 30,
   "LastUpdated": "2026-07-27T08:00:00+01:00",
   "Layout": "Default",
   "Contents": [

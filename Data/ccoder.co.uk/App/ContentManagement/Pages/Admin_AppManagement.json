@@ -3,7 +3,7 @@
   "Name": "App Management",
   "ResourceKey": "ContentManagement",
   "ShowOnMenus": true,
-  "Order": 4,
+  "Order": 10,
   "LastUpdated": "2026-04-30T20:09:39.3767663+01:00",
   "Layout": "Default",
   "Contents": [

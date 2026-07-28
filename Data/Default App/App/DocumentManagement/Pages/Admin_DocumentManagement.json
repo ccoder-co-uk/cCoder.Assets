@@ -3,7 +3,7 @@
   "Name": "Document Management",
   "ResourceKey": "DocumentManagement",
   "ShowOnMenus": true,
-  "Order": 7,
+  "Order": 20,
   "LastUpdated": "2026-04-30T20:09:39.3213569+01:00",
   "Layout": "Default",
   "Contents": [

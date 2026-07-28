@@ -3,7 +3,7 @@
   "Name": "Client",
   "ResourceKey": "DocumentManagement",
   "ShowOnMenus": false,
-  "Order": 11,
+  "Order": 10,
   "LastUpdated": "2026-04-30T20:09:39.4175249+01:00",
   "Layout": "Default",
   "Contents": [
