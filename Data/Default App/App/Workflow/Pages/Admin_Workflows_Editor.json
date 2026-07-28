@@ -3,7 +3,7 @@
   "Name": "Editor",
   "ResourceKey": "Workflow",
   "ShowOnMenus": false,
-  "Order": 0,
+  "Order": 10,
   "LastUpdated": "2026-07-21T22:24:45.0110667+01:00",
   "Layout": "Default",
   "Contents": [

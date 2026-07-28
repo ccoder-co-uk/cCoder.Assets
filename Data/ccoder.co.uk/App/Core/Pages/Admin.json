@@ -3,7 +3,7 @@
   "Name": "Admin",
   "ResourceKey": "Core",
   "ShowOnMenus": true,
-  "Order": 9,
+  "Order": 10,
   "LastUpdated": "2026-04-30T20:09:38.4066886+01:00",
   "Layout": "Default",
   "Contents": [
