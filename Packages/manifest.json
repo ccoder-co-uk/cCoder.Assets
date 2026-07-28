@@ -3,7 +3,7 @@
   "Packages": [
     {
       "Path": "App/AppSecurity.json",
-      "Sha256": "91BBF7BF3567EF25C165B8143A139AD94DDE96D27EBF8A04442617926729A015",
+      "Sha256": "8B4885F7640FDADFAB64D9E1A1DADE98071F541D7DD73BF3FD69E5D3DD33EEDE",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "AppSecurity",
@@ -17,7 +17,7 @@
     },
     {
       "Path": "App/Common.json",
-      "Sha256": "2ACC85CDBA886D9156EB9999FCE7378E68B722171B6236276D1C472289BF8891",
+      "Sha256": "E8AB9DB07F9A6BE06E95BCD89B4F5A83B2E82900E495A18A2ED8A01DE643A040",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Common",
@@ -27,7 +27,7 @@
     },
     {
       "Path": "App/ContentManagement.json",
-      "Sha256": "3A70A9BDCE02770CA550A6CFCC7C2D4D67CC592D249E42D156B205ACE4DB41ED",
+      "Sha256": "851F2A1D1277450B0253FDF7DA8C3471B6C85C268FDE5DE29627546DD368FEC6",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "ContentManagement",
@@ -40,7 +40,7 @@
     },
     {
       "Path": "App/Core.json",
-      "Sha256": "88F8E7D71B225E6FDA10A61842E94434E8B09135A451ADE358D0454AF88A7650",
+      "Sha256": "0A1A75AA46151F8F4E6A3C24BE9C0D6F4775A8980375D368F7C6F249DA41440F",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Core",
@@ -51,7 +51,7 @@
     },
     {
       "Path": "App/DocumentManagement.json",
-      "Sha256": "2DE0FC558C9B02B15CDBE89C5586F37BB6D75303F00EB050F1FA44A2244CAE3C",
+      "Sha256": "B71AF0067C6E7BAF8168AF1F309B869815C408DCE15FF7C765B68020E2C30FE4",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "DocumentManagement",
@@ -63,7 +63,7 @@
     },
     {
       "Path": "App/Mail.json",
-      "Sha256": "6E061CED056F56E771CF5F60D46EF85616A677AC930E22CC5D759AFDC8A8081C",
+      "Sha256": "2DCA060FD13D1A317CC8A18F991A20D81E25ABED8006EE0DE590B4E6C836041B",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Mail",
@@ -74,7 +74,7 @@
     },
     {
       "Path": "App/Workflow.json",
-      "Sha256": "EAA9C30C538E8CD6424DC7107B89A15FC9A002AF5F0E025CCD3C7A99CB84E147",
+      "Sha256": "D75FAA2E013944BBE02106A2485DF0B72774C97BB06E34A7F06B3F3D7CB2C547",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Workflow",
@@ -86,7 +86,7 @@
     },
     {
       "Path": "Baseline New App/baseline-new-app.json",
-      "Sha256": "3DD421ED42FC3156B55B73B7049DC382A7AAFF828335820FDF342BCAA6DB0A3E",
+      "Sha256": "DC979FABEBFF7365DD3A97399C4995E1CB48C28763B18293C61C0F50FE6C5A2D",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Baseline New App",
@@ -204,7 +204,7 @@
     },
     {
       "Path": "First Time Setup/first-app.json",
-      "Sha256": "ED35E6ED5B97931B1ABCD59F904BCF5FA859D1ED58C7B55DE2D29DB7641D84C1",
+      "Sha256": "EA47F3A10F0D9E4568200D5B7C80B549BC44A555BE0D5344D3659BA4381624BF",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "First Time Setup",
