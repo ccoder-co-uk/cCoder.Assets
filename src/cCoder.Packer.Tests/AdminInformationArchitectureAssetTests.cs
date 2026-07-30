@@ -68,6 +68,28 @@ public sealed partial class AdminInformationArchitectureAssetTests
                     ]),
                 propertyName: "Script");
 
+            foreach (string layoutName in new[] { "Default.json", "FullPage.json" })
+            {
+                string layout = await ReadPropertyAsync(
+                    path: FindAsset(
+                        baseline: baseline,
+                        segments:
+                        [
+                            "App",
+                            "Common",
+                            "Layouts",
+                            layoutName,
+                        ]),
+                    propertyName: "Html");
+
+                Assert.DoesNotContain(
+                    expectedSubstring:
+                        "var iconName = iconClass.replace"
+                        + "(/^k-i-/, \"\").replace(\"source-code\", \"code\");"
+                        + "\n            })[0].replace",
+                    actualString: layout);
+            }
+
             foreach (string component in new[]
             {
                 "CultureManagement",
