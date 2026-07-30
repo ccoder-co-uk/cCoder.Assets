@@ -56,6 +56,62 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 expectedSubstring: "[component[LogStream]]",
                 actualString: appManagement);
 
+            string appManagementScript = await ReadPropertyAsync(
+                path: FindAsset(
+                    baseline: baseline,
+                    segments:
+                    [
+                        "Common Cache",
+                        "ContentManagement",
+                        "Components",
+                        "AppManagement.json",
+                    ]),
+                propertyName: "Script");
+
+            foreach (string component in new[]
+            {
+                "CultureManagement",
+                "LayoutManagement",
+                "TemplateManagement",
+                "ComponentManagement",
+                "ResourceManagement",
+                "RoleManagement",
+            })
+            {
+                Assert.Contains(
+                    expectedSubstring: $"{component}.init(",
+                    actualString: appManagement);
+            }
+
+            Assert.Contains(
+                expectedSubstring: "AppManagement.resizePane(pane)",
+                actualString: appManagementScript);
+
+            foreach ((string path, string domain, string type) in new[]
+            {
+                ("Core/Components/CultureManagement.json", "ContentManagement", "AppCulture"),
+                ("ContentManagement/Components/LayoutManagement.json", "ContentManagement", "Layout"),
+                ("ContentManagement/Components/TemplateManagement.json", "ContentManagement", "Template"),
+                ("ContentManagement/Components/ComponentManagement.json", "ContentManagement", "Component"),
+                ("ContentManagement/Components/ResourceManagement.json", "ContentManagement", "Resource"),
+                ("AppSecurity/Components/RoleManagement.json", "AppSecurity", "Role"),
+            })
+            {
+                string managerScript = await ReadPropertyAsync(
+                    path: FindAsset(
+                        baseline: baseline,
+                        segments:
+                        [
+                            "Common Cache",
+                            .. path.Split(separator: '/'),
+                        ]),
+                    propertyName: "Script");
+
+                Assert.Contains(
+                    expectedSubstring: $"[meta[{domain}/{type}]]",
+                    actualString: managerScript);
+            }
+
             string workflowAdmin = await ReadPropertyAsync(
                 path: FindAsset(
                     baseline: baseline,
