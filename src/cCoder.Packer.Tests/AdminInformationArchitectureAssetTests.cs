@@ -82,6 +82,38 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 path: "Admin/DocumentManagement",
                 component: "DocumentManagement");
 
+            string documentManagementScript = await ReadPropertyAsync(
+                path: FindAsset(
+                    baseline: baseline,
+                    segments:
+                    [
+                        "Common Cache",
+                        "DocumentManagement",
+                        "Components",
+                        "DocumentManagement.json",
+                    ]),
+                propertyName: "Script");
+
+            Assert.DoesNotContain(
+                expectedSubstring: "tokens truncated",
+                actualString: documentManagementScript);
+
+            Assert.Contains(
+                expectedSubstring: "refreshTreeAfterFolderChange",
+                actualString: documentManagementScript);
+
+            Assert.DoesNotContain(
+                expectedSubstring: "FolderManagement2",
+                actualString: documentManagementScript);
+
+            AssertPromotedDocumentManagementComponent(
+                baseline: baseline,
+                componentName: "FolderManagement");
+
+            AssertPromotedDocumentManagementComponent(
+                baseline: baseline,
+                componentName: "FileVersionGrid");
+
             await AssertPageAsync(
                 baseline: baseline,
                 fileName: "Admin_MailManagement.json",
@@ -100,6 +132,32 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 path: "Admin/Workflows",
                 component: "WorkflowAdmin");
         }
+    }
+
+    private static void AssertPromotedDocumentManagementComponent(
+        string baseline,
+        string componentName)
+    {
+        string componentsDirectory = FindAsset(
+            baseline: baseline,
+            segments:
+            [
+                "Common Cache",
+                "DocumentManagement",
+                "Components",
+            ]);
+
+        Assert.True(
+            condition: File.Exists(
+                path: Path.Combine(
+                    path1: componentsDirectory,
+                    path2: $"{componentName}.json")));
+
+        Assert.False(
+            condition: File.Exists(
+                path: Path.Combine(
+                    path1: componentsDirectory,
+                    path2: $"{componentName}2.json")));
     }
 
     private static async Task AssertPageAsync(
