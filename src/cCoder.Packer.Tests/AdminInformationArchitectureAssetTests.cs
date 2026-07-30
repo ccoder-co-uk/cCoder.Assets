@@ -94,6 +94,34 @@ public sealed partial class AdminInformationArchitectureAssetTests
                     ]),
                 propertyName: "Script");
 
+            string documentManagementContent = await ReadPropertyAsync(
+                path: FindAsset(
+                    baseline: baseline,
+                    segments:
+                    [
+                        "Common Cache",
+                        "DocumentManagement",
+                        "Components",
+                        "DocumentManagement.json",
+                    ]),
+                propertyName: "Content");
+
+            Assert.Contains(
+                expectedSubstring: "ccoder-document-management",
+                actualString: documentManagementContent);
+
+            Assert.Contains(
+                expectedSubstring: "context-toolbar-hidden",
+                actualString: documentManagementContent);
+
+            Assert.Contains(
+                expectedSubstring: "/icons/folder.svg",
+                actualString: documentManagementScript);
+
+            Assert.DoesNotContain(
+                expectedSubstring: "DMSIcons",
+                actualString: documentManagementScript);
+
             Assert.DoesNotContain(
                 expectedSubstring: "tokens truncated",
                 actualString: documentManagementScript);
@@ -126,6 +154,30 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 baseline: baseline,
                 componentName: "FileVersionGrid");
 
+            string formattingScript = await ReadPropertyAsync(
+                path: FindAsset(
+                    baseline: baseline,
+                    segments:
+                    [
+                        "Common Cache",
+                        "DocumentManagement",
+                        "Components",
+                        "DMSFormatting.json",
+                    ]),
+                propertyName: "Script");
+
+            Assert.Contains(
+                expectedSubstring: "dd-MM-yyyy HH:mm:ss",
+                actualString: formattingScript);
+
+            Assert.Contains(
+                expectedSubstring: "return \"/icons/\"",
+                actualString: formattingScript);
+
+            Assert.DoesNotContain(
+                expectedSubstring: "type.dateFormat",
+                actualString: formattingScript);
+
             await AssertPageAsync(
                 baseline: baseline,
                 fileName: "Admin_MailManagement.json",
@@ -137,6 +189,26 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 fileName: "Admin_LogStream.json",
                 path: "Admin/LogStream",
                 component: "LogStream");
+
+            Assert.True(
+                condition: File.Exists(
+                    path: FindAsset(
+                        baseline: baseline,
+                        segments:
+                        [
+                            "Common Cache",
+                            "Core",
+                            "Components",
+                            "LogStream.json",
+                        ])));
+
+            Assert.Empty(
+                collection: Directory.GetFiles(
+                    path: Path.Combine(
+                        path1: baseline,
+                        path2: "App"),
+                    searchPattern: "LogStream.json",
+                    searchOption: SearchOption.AllDirectories));
 
             Assert.Empty(
                 collection: Directory.GetFiles(
@@ -150,6 +222,53 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 path: "Admin/Workflows",
                 component: "WorkflowAdmin");
         }
+
+        string defaultApp = baselines[0];
+        string ccoderApp = baselines[1];
+
+        Assert.Empty(
+            collection: Directory.GetFiles(
+                path: Path.Combine(
+                    path1: defaultApp,
+                    path2: "App"),
+                searchPattern: "Admin_PlatformAdmin*.json",
+                searchOption: SearchOption.AllDirectories));
+
+        Assert.NotEmpty(
+            collection: Directory.GetFiles(
+                path: Path.Combine(
+                    path1: ccoderApp,
+                    path2: "App"),
+                searchPattern: "Admin_PlatformAdmin*.json",
+                searchOption: SearchOption.AllDirectories));
+
+        Assert.Empty(
+            collection: Directory.GetFiles(
+                path: Path.Combine(
+                    path1: defaultApp,
+                    path2: "App"),
+                searchPattern: "Tenant*.json",
+                searchOption: SearchOption.AllDirectories));
+
+        Assert.Empty(
+            collection: Directory.GetFiles(
+                path: Path.Combine(
+                    path1: defaultApp,
+                    path2: "App"),
+                searchPattern: "SSORole*.json",
+                searchOption: SearchOption.AllDirectories));
+
+        Assert.True(
+            condition: File.Exists(
+                path: FindAsset(
+                    baseline: ccoderApp,
+                    segments:
+                    [
+                        "App",
+                        "Security",
+                        "Components",
+                        "TenantManagement.json",
+                    ])));
     }
 
     private static void AssertPromotedDocumentManagementComponent(
