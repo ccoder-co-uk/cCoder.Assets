@@ -40,7 +40,7 @@
     },
     {
       "Path": "App/Core.json",
-      "Sha256": "60397F5E0889C958FC47D575FB6E3747207A955740D7D905A27F94F746D57AF8",
+      "Sha256": "6338E32D54F5B22568A451983802D033537023BA2368D0C5D4BD99B3A8246C9B",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Core",
@@ -86,7 +86,7 @@
     },
     {
       "Path": "Baseline New App/baseline-new-app.json",
-      "Sha256": "598887D6C3A1029494653242D7E483E1E25CA1CF057D2EEF9D8C3A10D3B90A29",
+      "Sha256": "6E4D9CE339FB6D0EB90362E7BDCA84638BF0D47D0C5DE1A0A63CE4B0FB891978",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Baseline New App",
@@ -135,7 +135,7 @@
     },
     {
       "Path": "Common Cache/Core.json",
-      "Sha256": "3195951A166BF15E5A6612908BC3AEC1D3FC08AAC8DB1A26EE0D0196E159DED8",
+      "Sha256": "ECE10ABBF57864BC9B27063560F2205D40057911AC5974EC3C972954C5E6615D",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Core",
@@ -146,7 +146,7 @@
     },
     {
       "Path": "Common Cache/DocumentManagement.json",
-      "Sha256": "8F30319FEBCAE68D37EB9417BC9FD4FA01C8D8C65C30706105C4AE6C59BBCF42",
+      "Sha256": "A4B5DDCB227565D139EEBB6D8D60776BBF9C08B487403DDF0E56E7FC20B0B021",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "DocumentManagement",
@@ -191,7 +191,7 @@
     },
     {
       "Path": "First Time Setup/common-cache.json",
-      "Sha256": "D2FBB1D2758EA4B05D5E443B1DA2D598C84A16D74666BE158F0FB855EB80E203",
+      "Sha256": "6B6D73C0C42C63369732E6D3C86CFA8F0D47A0CC8C30B091D7431BBE61569189",
       "FirstTimeSetup": true,
       "Source": "Common Cache",
       "Category": "First Time Setup",
@@ -204,7 +204,7 @@
     },
     {
       "Path": "First Time Setup/first-app.json",
-      "Sha256": "70B6B7DA49C2276ED16CF9203AB85573E041B0A2FAD0B499F0AA9AE0FE36124F",
+      "Sha256": "11FC79E9D9D93DC81480C940A644EF30807657D3D770B0ACCF61CAD3C377F3B2",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "First Time Setup",
