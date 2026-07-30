@@ -3,7 +3,7 @@
   "Name": "Platform Admin",
   "ResourceKey": "Core",
   "ShowOnMenus": true,
-  "Order": 40,
+  "Order": 50,
   "LastUpdated": "2026-07-27T12:30:00+01:00",
   "Layout": "Default",
   "Contents": [

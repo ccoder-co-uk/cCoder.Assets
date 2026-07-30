@@ -1,9 +1,9 @@
 {
-  "Path": "Admin/PlatformAdmin/FullLogStream",
-  "Name": "Full Log Stream",
+  "Path": "Admin/LogStream",
+  "Name": "Log Stream",
   "ShowOnMenus": true,
-  "Order": 20,
-  "LastUpdated": "2026-04-30T20:09:38.9725081+01:00",
+  "Order": 30,
+  "LastUpdated": "2026-07-30T17:00:00+01:00",
   "Layout": "Default",
   "Contents": [
     {
@@ -15,9 +15,9 @@
   "PageInfo": [
     {
       "CultureId": "",
-      "Description": "Full Log Stream for all portals again",
-      "Keywords": "",
-      "Title": "Full Log Stream"
+      "Description": "View live application log messages by severity.",
+      "Keywords": "logs, diagnostics, administration",
+      "Title": "Log Stream"
     }
   ],
   "ResourceKey": "Core",

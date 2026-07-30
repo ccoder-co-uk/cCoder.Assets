@@ -134,9 +134,15 @@ public sealed partial class AdminInformationArchitectureAssetTests
 
             await AssertPageAsync(
                 baseline: baseline,
-                fileName: "Admin_PlatformAdmin_FullLogStream.json",
-                path: "Admin/PlatformAdmin/FullLogStream",
+                fileName: "Admin_LogStream.json",
+                path: "Admin/LogStream",
                 component: "LogStream");
+
+            Assert.Empty(
+                collection: Directory.GetFiles(
+                    path: baseline,
+                    searchPattern: "Admin_PlatformAdmin_FullLogStream.json",
+                    searchOption: SearchOption.AllDirectories));
 
             await AssertPageAsync(
                 baseline: baseline,
@@ -196,6 +202,11 @@ public sealed partial class AdminInformationArchitectureAssetTests
         Assert.True(
             condition: page.RootElement
                 .GetProperty(propertyName: "ShowOnMenus")
+                .GetBoolean());
+
+        Assert.True(
+            condition: page.RootElement
+                .GetProperty(propertyName: "IncludeInSubSequentImports")
                 .GetBoolean());
 
         string html = page.RootElement
