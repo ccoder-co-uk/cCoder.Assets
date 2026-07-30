@@ -3,7 +3,7 @@
   "Name": "Mail Management",
   "ResourceKey": "Mail",
   "ShowOnMenus": true,
-  "Order": 30,
+  "Order": 40,
   "LastUpdated": "2026-07-27T12:00:00+01:00",
   "Layout": "Default",
   "Contents": [

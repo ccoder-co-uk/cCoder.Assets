@@ -9,7 +9,7 @@
 | App | `App` | `AppSecurity` | 60 | 60 |
 | App | `App` | `Common` | 8 | 6 |
 | App | `App` | `ContentManagement` | 232 | 224 |
-| App | `App` | `Core` | 16 | 11 |
+| App | `App` | `Core` | 16 | 14 |
 | App | `App` | `DocumentManagement` | 70 | 70 |
 | App | `App` | `Mail` | 4 | 4 |
 | App | `App` | `Security` | 16 | 8 |
@@ -305,13 +305,13 @@
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#9`
 - [ ] `App -> Core — ccoder.co.uk/App/Core/Components/LogStream.json`
 - [ ] `App -> Core — ccoder.co.uk/App/Core/Pages/Admin.json`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Pages/Admin_LogStream.json`
 - [ ] `App -> Core — ccoder.co.uk/App/Core/Pages/Admin_PlatformAdmin.json`
-- [ ] `App -> Core — ccoder.co.uk/App/Core/Pages/Admin_PlatformAdmin_FullLogStream.json`
 - [ ] `App -> Core — ccoder.co.uk/App/Core/Pages/Root.json`
 - [ ] `App -> Core — Default App/App/Core/Components/LogStream.json`
 - [ ] `App -> Core — Default App/App/Core/Pages/Admin.json`
+- [ ] `App -> Core — Default App/App/Core/Pages/Admin_LogStream.json`
 - [ ] `App -> Core — Default App/App/Core/Pages/Admin_PlatformAdmin.json`
-- [ ] `App -> Core — Default App/App/Core/Pages/Admin_PlatformAdmin_FullLogStream.json`
 - [ ] `App -> Core — Default App/App/Core/Pages/Root.json`
 - [ ] `App -> DocumentManagement — ccoder.co.uk/App/DocumentManagement/Pages/Admin_DocumentManagement.json`
 - [ ] `App -> DocumentManagement — ccoder.co.uk/App/DocumentManagement/Pages/Clients_Client.json`

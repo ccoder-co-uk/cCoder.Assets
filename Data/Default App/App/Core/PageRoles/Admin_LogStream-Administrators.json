@@ -1,5 +1,5 @@
 {
-  "Path": "Admin/PlatformAdmin/FullLogStream",
+  "Path": "Admin/LogStream",
   "Role": "Administrators",
   "IncludeInSubSequentImports": true
 }

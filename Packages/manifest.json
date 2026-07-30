@@ -40,7 +40,7 @@
     },
     {
       "Path": "App/Core.json",
-      "Sha256": "0A1A75AA46151F8F4E6A3C24BE9C0D6F4775A8980375D368F7C6F249DA41440F",
+      "Sha256": "60397F5E0889C958FC47D575FB6E3747207A955740D7D905A27F94F746D57AF8",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Core",
@@ -63,7 +63,7 @@
     },
     {
       "Path": "App/Mail.json",
-      "Sha256": "2DCA060FD13D1A317CC8A18F991A20D81E25ABED8006EE0DE590B4E6C836041B",
+      "Sha256": "89FA3363238545A36DD2706010FA4D66B69392437691B5839FD8C94E431FB2BE",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Mail",
@@ -86,7 +86,7 @@
     },
     {
       "Path": "Baseline New App/baseline-new-app.json",
-      "Sha256": "0205806DB5C1162E4639AB3716A4D2BCC65FD56B17D004051C0BD7E39C471ABF",
+      "Sha256": "598887D6C3A1029494653242D7E483E1E25CA1CF057D2EEF9D8C3A10D3B90A29",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Baseline New App",
@@ -204,7 +204,7 @@
     },
     {
       "Path": "First Time Setup/first-app.json",
-      "Sha256": "34EF45341F0EA8D251D63F3A377CCF1A2DC55D67F65299C2F4456CEDAA2CA727",
+      "Sha256": "70B6B7DA49C2276ED16CF9203AB85573E041B0A2FAD0B499F0AA9AE0FE36124F",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "First Time Setup",
