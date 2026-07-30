@@ -10,7 +10,7 @@
     {
       "CultureId": "",
       "Name": "body",
-      "Html": "[component[floweditor]]"
+      "Html": "[component[FlowEditor]]"
     }
   ],
   "PageInfo": [

@@ -79,6 +79,10 @@ public sealed partial class AdminInformationArchitectureAssetTests
             })
             {
                 Assert.Contains(
+                    expectedSubstring: $"[component[{component}]]",
+                    actualString: appManagement);
+
+                Assert.DoesNotContain(
                     expectedSubstring: $"{component}.init(",
                     actualString: appManagement);
             }

@@ -10,7 +10,7 @@
     {
       "CultureId": "",
       "Name": "body",
-      "Html": "[component[detailednav]]"
+      "Html": "[component[DetailedNav]]"
     }
   ],
   "PageInfo": [
