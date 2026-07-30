@@ -1,0 +1,8 @@
+{
+  "Name": "Test",
+  "Description": "Baseline workflow used to verify workflow execution.",
+  "DefinitionJson": "{\"Name\":\"Test\",\"Activities\":[{\"$type\":\"cCoder.Workflow.Activities.Start, cCoder.Workflow.Activities\",\"Ref\":\"start\"}],\"Links\":[]}",
+  "ConfigJson": "{}",
+  "IncludeInSubSequentImports": true,
+  "PackageType": "Workflow/FlowDefinition"
+}
