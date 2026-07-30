@@ -4,8 +4,7 @@
   "ResourceKey": "DocumentManagement",
   "Content": "",
   "Script": "DMSFormatting = {\r\n    init: async function (app, container) {\r\n        app = app || session.app;\r\n        DMSFormatting.container = container || $(\".component[name=DMSFormatting]\");\r\n    },\r\n    \r\n    folderPath: function (folder) {\r\n        return (folder.Path || folder.Name || \"\")\r\n            .split(\"/\")\r\n            .filter(Boolean)\r\n            .join(\" / \");\r\n    },\r\n\r\n    fileSize: function (size) {\r\n        if (!size && size !== 0) return \"\";\r\n        if (size < 1024) return size + \" B\";\r\n        if (size < 1024 * 1024) return Math.round(size / 1024) + \" KB\";\r\n        return (size / (1024 * 1024)).toFixed(1) + \" MB\";\r\n    },\r\n\r\n    fileDate: function (value) {\r\n        if (!value) return \"\";\r\n\r\n        var date = new Date(value);\r\n\r\n        return isNaN(date.getTime())\r\n            ? \"\"\r\n            : kendo.toString(date, type.dateFormat);\r\n    },\r\n\r\n    extension: function (fileName) {\r\n        if (!fileName || fileName.indexOf(\".\") === -1) return \"default\";\r\n        return fileName.split(\".\").pop().toLowerCase();\r\n    },\r\n\r\n    iconPath: function (fileName) {\r\n        return \"[api[root]]DMS/Content/DMSIcons/\" +\r\n            DMSFormatting.extension(fileName) +\r\n            \".svg\";\r\n    }\r\n};",
-  "LastUpdated": "2026-07-27T14:15:00+01:00",
+  "LastUpdated": "2026-07-30T15:43:12.2138499Z",
   "IncludeInSubSequentImports": true,
   "PackageType": "ContentManagement/Component"
 }
-
