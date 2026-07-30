@@ -15,7 +15,7 @@
 | App | `App` | `Security` | 16 | 8 |
 | App | `App` | `Workflow` | 30 | 30 |
 | App | `Common Cache` | `AppSecurity` | 114 | 114 |
-| App | `Common Cache` | `Common` | 16 | 16 |
+| App | `Common Cache` | `Common` | 20 | 20 |
 | App | `Common Cache` | `ContentManagement` | 290 | 290 |
 | App | `Common Cache` | `Core` | 44 | 44 |
 | App | `Common Cache` | `DocumentManagement` | 226 | 226 |
@@ -545,6 +545,10 @@
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Components/Notifications.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Components/ScriptRunner.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Components/TopNav.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#1`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#2`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#3`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#4`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/DefaultResourcing.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Execute.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/KendoCultures.json`

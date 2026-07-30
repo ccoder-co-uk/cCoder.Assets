@@ -17,7 +17,7 @@
     },
     {
       "Path": "App/Common.json",
-      "Sha256": "2B46B912736058ED3B97C1BA912712B38CE942BC5ED37430DDC65241ADECA119",
+      "Sha256": "78EBFAAA4340265927680A04CE7851D929B44FEDA86DB03B5362291483787C16",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Common",
@@ -27,7 +27,7 @@
     },
     {
       "Path": "App/ContentManagement.json",
-      "Sha256": "851F2A1D1277450B0253FDF7DA8C3471B6C85C268FDE5DE29627546DD368FEC6",
+      "Sha256": "9BEFE28D6C128B46DFD4E23E83DBA62F998A75D5242694BFE122F1C424014710",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "ContentManagement",
@@ -88,7 +88,7 @@
     },
     {
       "Path": "Baseline New App/baseline-new-app.json",
-      "Sha256": "07AC4A92199CFE206BF24551A98194D44A281CD7A8E232708CAA3F4B275415F6",
+      "Sha256": "33FFA8C8CD82BB2FC4617BC2A1EFE481EC56E94E05F05AF49D3E95E0FC947238",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Baseline New App",
@@ -116,12 +116,13 @@
     },
     {
       "Path": "Common Cache/Common.json",
-      "Sha256": "979BF60D7FA7F801A82CA451BA6171B3F947DF9F40847531B03E37AB1C4A2AD0",
+      "Sha256": "4F9CA45ECA91212469DC40841F6A2C76056BE328C1E56DFD1168DB908C18DE2E",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Common",
       "ItemTypes": [
         "ContentManagement/Component",
+        "ContentManagement/Resource",
         "ContentManagement/Script"
       ]
     },
@@ -195,7 +196,7 @@
     },
     {
       "Path": "First Time Setup/common-cache.json",
-      "Sha256": "F2BFAF538D2F084E31ECB1C03D66E72C2AD18853003819D8C0F4F5F7187200B6",
+      "Sha256": "D1B57424415900D5A08FE2B1D3899F1AA1C3B2A97BE7FDDF2B1F68AEE4579B94",
       "FirstTimeSetup": true,
       "Source": "Common Cache",
       "Category": "First Time Setup",
@@ -208,7 +209,7 @@
     },
     {
       "Path": "First Time Setup/first-app.json",
-      "Sha256": "88148B85F86CDAA8C2E389FAA86DC5914946D1D7CCF8570669669440FEC9DA6A",
+      "Sha256": "1FB15203E912B3C3B3B6C332AA67735E9A82604BAB2CB9A630F2472B5704F5C9",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "First Time Setup",
