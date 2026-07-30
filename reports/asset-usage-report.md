@@ -13,7 +13,7 @@
 | App | `App` | `DocumentManagement` | 70 | 70 |
 | App | `App` | `Mail` | 4 | 4 |
 | App | `App` | `Security` | 16 | 8 |
-| App | `App` | `Workflow` | 28 | 28 |
+| App | `App` | `Workflow` | 30 | 30 |
 | App | `Common Cache` | `AppSecurity` | 114 | 114 |
 | App | `Common Cache` | `Common` | 16 | 16 |
 | App | `Common Cache` | `ContentManagement` | 290 | 290 |
