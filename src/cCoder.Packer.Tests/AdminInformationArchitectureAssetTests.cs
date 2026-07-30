@@ -282,7 +282,7 @@ public sealed partial class AdminInformationArchitectureAssetTests
         string defaultApp = baselines[0];
         string ccoderApp = baselines[1];
 
-        Assert.Empty(
+        Assert.NotEmpty(
             collection: Directory.GetFiles(
                 path: Path.Combine(
                     path1: defaultApp,
@@ -298,7 +298,7 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 searchPattern: "Admin_PlatformAdmin*.json",
                 searchOption: SearchOption.AllDirectories));
 
-        Assert.Empty(
+        Assert.NotEmpty(
             collection: Directory.GetFiles(
                 path: Path.Combine(
                     path1: defaultApp,
@@ -306,7 +306,7 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 searchPattern: "Tenant*.json",
                 searchOption: SearchOption.AllDirectories));
 
-        Assert.Empty(
+        Assert.NotEmpty(
             collection: Directory.GetFiles(
                 path: Path.Combine(
                     path1: defaultApp,

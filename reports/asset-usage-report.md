@@ -8,11 +8,11 @@
 | --- | --- | --- | ---: | ---: |
 | App | `App` | `AppSecurity` | 60 | 60 |
 | App | `App` | `Common` | 8 | 6 |
-| App | `App` | `ContentManagement` | 224 | 224 |
-| App | `App` | `Core` | 12 | 12 |
+| App | `App` | `ContentManagement` | 232 | 224 |
+| App | `App` | `Core` | 14 | 12 |
 | App | `App` | `DocumentManagement` | 70 | 70 |
 | App | `App` | `Mail` | 4 | 4 |
-| App | `App` | `Security` | 8 | 8 |
+| App | `App` | `Security` | 16 | 8 |
 | App | `App` | `Workflow` | 28 | 28 |
 | App | `Common Cache` | `AppSecurity` | 114 | 114 |
 | App | `Common Cache` | `Common` | 16 | 16 |
@@ -191,7 +191,14 @@
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Resources/fr-FR.json#7`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Resources/fr-FR.json#8`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Resources/fr-FR.json#9`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/AppCreator.json`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheComponents.json`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheEndpoint.json`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheResources.json`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheScripts.json`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CoreManagement.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Pages/Admin_AppManagement.json`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Pages/Admin_PlatformAdmin_CommonCacheEndpoint.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#1`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#10`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#11`
@@ -302,6 +309,7 @@
 - [ ] `App -> Core — ccoder.co.uk/App/Core/Pages/Root.json`
 - [ ] `App -> Core — Default App/App/Core/Pages/Admin.json`
 - [ ] `App -> Core — Default App/App/Core/Pages/Admin_LogStream.json`
+- [ ] `App -> Core — Default App/App/Core/Pages/Admin_PlatformAdmin.json`
 - [ ] `App -> Core — Default App/App/Core/Pages/Root.json`
 - [ ] `App -> DocumentManagement — ccoder.co.uk/App/DocumentManagement/Pages/Admin_DocumentManagement.json`
 - [ ] `App -> DocumentManagement — ccoder.co.uk/App/DocumentManagement/Pages/Clients_Client.json`
@@ -381,6 +389,13 @@
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/TenantAppManagement.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/TenantManagement.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Pages/Admin_PlatformAdmin_Tenants.json`
+- [ ] `App -> Security — Default App/App/Security/Components/SSORoleManagement.json`
+- [ ] `App -> Security — Default App/App/Security/Components/SSORolePrivManagement.json`
+- [ ] `App -> Security — Default App/App/Security/Components/SSORoleUserManagement.json`
+- [ ] `App -> Security — Default App/App/Security/Components/TenantActivity.json`
+- [ ] `App -> Security — Default App/App/Security/Components/TenantAppManagement.json`
+- [ ] `App -> Security — Default App/App/Security/Components/TenantManagement.json`
+- [ ] `App -> Security — Default App/App/Security/Pages/Admin_PlatformAdmin_Tenants.json`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Pages/Admin_WorkflowDesigner.json`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Pages/Admin_Workflows.json`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Pages/Admin_Workflows_Editor.json`
