@@ -102,8 +102,20 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 expectedSubstring: "refreshTreeAfterFolderChange",
                 actualString: documentManagementScript);
 
+            Assert.Contains(
+                expectedSubstring: "bindFolderDragDrop",
+                actualString: documentManagementScript);
+
+            Assert.Contains(
+                expectedSubstring: "bindFileDropToTree",
+                actualString: documentManagementScript);
+
             Assert.DoesNotContain(
                 expectedSubstring: "FolderManagement2",
+                actualString: documentManagementScript);
+
+            Assert.DoesNotContain(
+                expectedSubstring: "Core/",
                 actualString: documentManagementScript);
 
             AssertPromotedDocumentManagementComponent(
