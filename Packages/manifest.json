@@ -114,6 +114,26 @@
       ]
     },
     {
+      "Path": "Common Cache/all-resources.json",
+      "Sha256": "7d3dff3e1f6c6b193484c8e18f9b01b753067c36e268162c73f1ca2b7c81182a",
+      "FirstTimeSetup": false,
+      "Source": "Common Cache",
+      "Category": "Common Cache",
+      "ItemTypes": [
+        "ContentManagement/Resource"
+      ]
+    },
+    {
+      "Path": "Common Cache/all-scripts.json",
+      "Sha256": "6a119a57b5ed804c8a08d51d3c68d7bf11f5822b595fffbef855a8836954646a",
+      "FirstTimeSetup": false,
+      "Source": "Common Cache",
+      "Category": "Common Cache",
+      "ItemTypes": [
+        "ContentManagement/Script"
+      ]
+    },
+    {
       "Path": "Common Cache/AppSecurity.json",
       "Sha256": "94B20F0AF19592EC242B6215A54B9A8ED683F883997B2BE5A5F7B43583A4D822",
       "FirstTimeSetup": false,
