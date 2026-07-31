@@ -72,22 +72,150 @@ try {
         throw "The all-components package contains $($packagedComponents.Count) components; expected $($componentIdentities.Count)."
     }
 
+    $additionalPackageSpecifications = @(
+        [pscustomobject]@{
+            Directory = 'Resources'
+            PackageFile = 'all-resources.json'
+            PackageName = 'All Resources Common Cache'
+            ItemType = 'ContentManagement/Resource'
+            ExpectedCount = 314
+            IncludeCulture = $true
+        },
+        [pscustomobject]@{
+            Directory = 'Scripts'
+            PackageFile = 'all-scripts.json'
+            PackageName = 'All Scripts Common Cache'
+            ItemType = 'ContentManagement/Script'
+            ExpectedCount = 10
+            IncludeCulture = $false
+        }
+    )
+
+    foreach ($specification in $additionalPackageSpecifications) {
+        $entityStagingRoot = Join-Path $stagingRoot $specification.Directory
+        $entityFiles = Get-ChildItem -Path $sourceSnapshot -Recurse -File -Filter '*.json' |
+            Where-Object { $_.Directory.Name -eq $specification.Directory } |
+            Sort-Object FullName
+        $entityIdentities = @{}
+
+        foreach ($entityFile in $entityFiles) {
+            $entities = @(Get-Content -Raw $entityFile.FullName | ConvertFrom-Json)
+
+            foreach ($entity in $entities) {
+                $resourceKey = if ([string]::IsNullOrWhiteSpace($entity.ResourceKey)) {
+                    $entity.Key
+                } else {
+                    $entity.ResourceKey
+                }
+                $culture = if ($specification.IncludeCulture) {
+                    [string]$entity.Culture
+                } else {
+                    ''
+                }
+                $identity = "$resourceKey/$($entity.Name)/$culture".ToLowerInvariant()
+                $candidateIsCommonCache =
+                    $entityFile.FullName -like '*\Common Cache\*'
+
+                if ($entityIdentities.ContainsKey($identity)) {
+                    $existing = $entityIdentities[$identity]
+
+                    if ($existing.IsCommonCache -and
+                        -not $candidateIsCommonCache) {
+                        continue
+                    }
+                }
+
+                $entityIdentities[$identity] = [pscustomobject]@{
+                    Entity = $entity
+                    IsCommonCache = $candidateIsCommonCache
+                    Source = $entityFile.FullName
+                }
+            }
+        }
+
+        $entityIndex = 0
+
+        foreach ($identity in @($entityIdentities.Keys | Sort-Object)) {
+            $entry = $entityIdentities[$identity]
+            $entity = $entry.Entity
+            $resourceKey = if ([string]::IsNullOrWhiteSpace($entity.ResourceKey)) {
+                $entity.Key
+            } else {
+                $entity.ResourceKey
+            }
+            $entity.PSObject.Properties.Remove('PackageType')
+            $entity.PSObject.Properties.Remove('IncludeInSubSequentImports')
+            $entityDirectory =
+                Join-Path $entityStagingRoot "$resourceKey/$($specification.Directory)"
+            New-Item -ItemType Directory -Path $entityDirectory -Force | Out-Null
+            $entityJson = $entity | ConvertTo-Json -Depth 100
+            $entityPath =
+                Join-Path $entityDirectory "$($entityIndex.ToString('D4')).json"
+            [System.IO.File]::WriteAllText(
+                $entityPath,
+                "$entityJson$([Environment]::NewLine)",
+                [System.Text.UTF8Encoding]::new($false))
+            $entityIndex++
+        }
+
+        if ($entityIdentities.Count -ne $specification.ExpectedCount) {
+            throw "Expected $($specification.ExpectedCount) unique $($specification.Directory) records in the ccoder.co.uk snapshot but found $($entityIdentities.Count)."
+        }
+
+        $packagePath = Join-Path $packages "Common Cache/$($specification.PackageFile)"
+        & $packer pack `
+            -dataPath $entityStagingRoot `
+            -destination $packagePath `
+            -name $specification.PackageName `
+            -category 'Common Cache'
+
+        $package = Get-Content -Raw $packagePath | ConvertFrom-Json
+        $packageItems = @(
+            $package.Items |
+                Where-Object { $_.Type -eq $specification.ItemType }
+        )
+        $packagedEntities = @($packageItems.Data | ConvertFrom-Json)
+
+        if ($packageItems.Count -ne 1 -or
+            $packagedEntities.Count -ne $entityIdentities.Count) {
+            throw "The $($specification.PackageFile) package contains $($packagedEntities.Count) records; expected $($entityIdentities.Count)."
+        }
+    }
+
     $manifestPath = Join-Path $packages 'manifest.json'
     $manifest = Get-Content -LiteralPath $manifestPath -Raw | ConvertFrom-Json
-    $relativePackagePath = 'Common Cache/all-components.json'
-    $packageHash = (Get-FileHash -LiteralPath $allComponentsPackage -Algorithm SHA256).Hash.ToLowerInvariant()
+    $completePackageEntries = @(
+        [pscustomobject]@{
+            Path = 'Common Cache/all-components.json'
+            ItemType = 'ContentManagement/Component'
+        },
+        [pscustomobject]@{
+            Path = 'Common Cache/all-resources.json'
+            ItemType = 'ContentManagement/Resource'
+        },
+        [pscustomobject]@{
+            Path = 'Common Cache/all-scripts.json'
+            ItemType = 'ContentManagement/Script'
+        }
+    )
+    $completePackagePaths = @($completePackageEntries.Path)
     $manifestPackages = @(
         $manifest.Packages |
-            Where-Object { $_.Path -ne $relativePackagePath }
+            Where-Object { $_.Path -notin $completePackagePaths }
     )
-    $manifestPackages += [pscustomobject]@{
-        Path = $relativePackagePath
-        Sha256 = $packageHash
-        FirstTimeSetup = $false
-        Source = 'Common Cache'
-        Category = 'Common Cache'
-        ItemTypes = @('ContentManagement/Component')
+
+    foreach ($completePackageEntry in $completePackageEntries) {
+        $packagePath = Join-Path $packages $completePackageEntry.Path
+        $manifestPackages += [pscustomobject]@{
+            Path = $completePackageEntry.Path
+            Sha256 = (Get-FileHash -LiteralPath $packagePath -Algorithm SHA256).Hash.ToLowerInvariant()
+            FirstTimeSetup = $false
+            Source = 'Common Cache'
+            Category = 'Common Cache'
+            ItemTypes = @($completePackageEntry.ItemType)
+        }
     }
+
     $manifest.Packages = @($manifestPackages | Sort-Object Path)
     $manifestJson = $manifest | ConvertTo-Json -Depth 10
     [System.IO.File]::WriteAllText(
