@@ -104,6 +104,16 @@
       ]
     },
     {
+      "Path": "Common Cache/all-components.json",
+      "Sha256": "462c962254cfd5ce845b24e6ea7f6b82ee4dcc3f281ab24444b07e0a98b868d6",
+      "FirstTimeSetup": false,
+      "Source": "Common Cache",
+      "Category": "Common Cache",
+      "ItemTypes": [
+        "ContentManagement/Component"
+      ]
+    },
+    {
       "Path": "Common Cache/AppSecurity.json",
       "Sha256": "94B20F0AF19592EC242B6215A54B9A8ED683F883997B2BE5A5F7B43583A4D822",
       "FirstTimeSetup": false,
