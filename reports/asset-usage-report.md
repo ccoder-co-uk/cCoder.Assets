@@ -12,7 +12,7 @@
 | App | `App` | `Core` | 14 | 12 |
 | App | `App` | `DocumentManagement` | 70 | 70 |
 | App | `App` | `Mail` | 4 | 4 |
-| App | `App` | `Security` | 16 | 8 |
+| App | `App` | `Security` | 12 | 6 |
 | App | `App` | `Workflow` | 30 | 30 |
 | App | `Common Cache` | `AppSecurity` | 114 | 114 |
 | App | `Common Cache` | `Common` | 20 | 20 |
@@ -20,7 +20,7 @@
 | App | `Common Cache` | `Core` | 44 | 44 |
 | App | `Common Cache` | `DocumentManagement` | 226 | 226 |
 | App | `Common Cache` | `Mail` | 2 | 2 |
-| App | `Common Cache` | `Security` | 28 | 28 |
+| App | `Common Cache` | `Security` | 32 | 30 |
 | App | `Common Cache` | `Workflow` | 70 | 70 |
 
 ### Default-key ownership candidates
@@ -386,15 +386,11 @@
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/SSORolePrivManagement.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/SSORoleUserManagement.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/TenantActivity.json`
-- [ ] `App -> Security — ccoder.co.uk/App/Security/Components/TenantAppManagement.json`
-- [ ] `App -> Security — ccoder.co.uk/App/Security/Components/TenantManagement.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Pages/Admin_PlatformAdmin_Tenants.json`
 - [ ] `App -> Security — Default App/App/Security/Components/SSORoleManagement.json`
 - [ ] `App -> Security — Default App/App/Security/Components/SSORolePrivManagement.json`
 - [ ] `App -> Security — Default App/App/Security/Components/SSORoleUserManagement.json`
 - [ ] `App -> Security — Default App/App/Security/Components/TenantActivity.json`
-- [ ] `App -> Security — Default App/App/Security/Components/TenantAppManagement.json`
-- [ ] `App -> Security — Default App/App/Security/Components/TenantManagement.json`
 - [ ] `App -> Security — Default App/App/Security/Pages/Admin_PlatformAdmin_Tenants.json`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Pages/Admin_WorkflowDesigner.json`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Pages/Admin_Workflows.json`
@@ -1114,6 +1110,8 @@
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Scripts/FolderManagementGrid.json`
 - [ ] `Common Cache -> Mail — ccoder.co.uk/Common Cache/Mail/Components/MailManagement.json`
 - [ ] `Common Cache -> Mail — Default App/Common Cache/Mail/Components/MailManagement.json`
+- [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Components/TenantAppManagement.json`
+- [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Components/TenantManagement.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#1`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#10`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#2`
@@ -1128,6 +1126,8 @@
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Scripts/CoreDailyUsageGrid.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Scripts/CoreDailyUsagePageDetailsGrid.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Scripts/CoreDailyUsageUserDetailsGrid.json`
+- [ ] `Common Cache -> Security — Default App/Common Cache/Security/Components/TenantAppManagement.json`
+- [ ] `Common Cache -> Security — Default App/Common Cache/Security/Components/TenantManagement.json`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#1`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#10`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#2`

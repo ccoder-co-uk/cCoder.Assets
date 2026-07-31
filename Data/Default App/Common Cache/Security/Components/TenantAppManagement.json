@@ -1,0 +1,10 @@
+{
+  "Name": "TenantAppManagement",
+  "Key": "Security",
+  "ResourceKey": "Security",
+  "Script": "TenantAppManagement = {\n    init: async function(app, container, tenant) {\n        container = container || $(\".component[name=TenantAppManagement]\");\n        api.addToMetaCache([{ Name: \"ContentManagement\", Types: [[meta[ContentManagement/App]]] }]);\n        var tenantId = tenant.Id.replaceAll(\"'\", \"''\");\n        var ds = await model.getDatasource({ endpoint: \"ContentManagement/App\", odataAppend: \"?$filter=TenantId eq '\" + tenantId + \"'&$expand=Cultures\" });\n        var grid = new GridWidget(container, ds);\n        grid.groupable = false;\n        grid.filterable = true;\n        grid.columns = [\n            { field: \"Name\", title: \"[resource_shortdisplayname[name]]\" },\n            { field: \"Domain\", title: \"[resource_shortdisplayname[domain]]\" },\n            { title: \"[resource_displayname[visit]]\", width: 96, editable: false, template: \"<a class='btn btn-sm btn-outline-primary' href='https://#=Domain#/' target='_blank' rel='noopener'><span class='k-icon k-i-share'></span>[resource_displayname[visit]]</a>\" }\n        ];\n        grid.detailTemplate = \"<div name='tenantAppDetails'></div>\";\n        grid.detailExpand = function(e) {\n            var selectedApp = grid.dataItem(e.masterRow);\n            var host = $(\"[name=tenantAppDetails]\", e.detailRow);\n            if (host.data(\"app-initialised\")) return;\n            host.data(\"app-initialised\", true);\n            loadComponent(host, \"AppManagement\", async function() {\n                var component = $(\".component[name=AppManagement]\", host);\n                await AppManagement.init(selectedApp, component);\n            });\n        };\n        await grid.init();\n    }\n};",
+  "Content": "",
+  "LastUpdated": "2026-07-27T10:00:00+01:00",
+  "IncludeInSubSequentImports": false,
+  "PackageType": "ContentManagement/Component"
+}

@@ -350,28 +350,26 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 path: Path.Combine(
                     path1: defaultApp,
                     path2: "App"),
-                searchPattern: "Tenant*.json",
-                searchOption: SearchOption.AllDirectories));
-
-        Assert.NotEmpty(
-            collection: Directory.GetFiles(
-                path: Path.Combine(
-                    path1: defaultApp,
-                    path2: "App"),
                 searchPattern: "SSORole*.json",
                 searchOption: SearchOption.AllDirectories));
 
-        Assert.True(
-            condition: File.Exists(
-                path: FindAsset(
-                    baseline: ccoderApp,
-                    segments:
-                    [
-                        "App",
-                        "Security",
-                        "Components",
-                        "TenantManagement.json",
-                    ])));
+        foreach (string baseline in new[] { defaultApp, ccoderApp })
+        {
+            foreach (string component in new[] { "TenantManagement.json", "TenantAppManagement.json" })
+            {
+                Assert.True(
+                    condition: File.Exists(
+                        path: FindAsset(
+                            baseline: baseline,
+                            segments:
+                            [
+                                "Common Cache",
+                                "Security",
+                                "Components",
+                                component,
+                            ])));
+            }
+        }
     }
 
     private static void AssertPromotedDocumentManagementComponent(
