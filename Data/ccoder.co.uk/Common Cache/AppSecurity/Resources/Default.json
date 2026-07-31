@@ -1,44 +1,14 @@
 [
   {
-    "Id": 4448,
-    "AppId": 4,
-    "Key": "AppSecurity",
-    "Culture": "",
-    "DisplayName": "Access Denied",
-    "ShortDisplayName": "Access Denied",
-    "Name": "accessdenied",
-    "Description": "Access Denied",
-    "LastUpdated": "2021-07-07T09:42:12.1265261Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5002,
-        "AppId": 4,
-        "Key": "Account",
-        "Culture": "fr-FR",
-        "DisplayName": "Accès refusé",
-        "ShortDisplayName": "Accès refusé",
-        "Name": "accessdenied",
-        "Description": "Accès refusé",
-        "LastUpdated": "2021-07-07T09:42:12.1308102Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
     "Culture": "",
     "Key": "AppSecurity",
     "Name": "accessdenied",
     "DisplayName": "Access Denied",
     "ShortDisplayName": "Access Denied",
     "Description": "Access Denied",
-    "LastUpdated": "2022-03-18T10:41:54.1901493+00:00",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2022-03-18T10:41:54.1901493\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "addusers",
@@ -49,7 +19,8 @@
     "CreatedOn": "2023-01-04T11:16:37.663Z",
     "LastUpdated": "2023-01-04T11:16:37.663Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Id": 4449,
@@ -70,38 +41,18 @@
         "AppId": 4,
         "Key": "Account",
         "Culture": "fr-FR",
-        "DisplayName": "L'email a été envoyé. Vérifiez votre boîte de réception.",
-        "ShortDisplayName": "L'email a été envoyé. Vérifiez votre boîte de réception.",
+        "DisplayName": "L\u0027email a \u00E9t\u00E9 envoy\u00E9. V\u00E9rifiez votre bo\u00EEte de r\u00E9ception.",
+        "ShortDisplayName": "L\u0027email a \u00E9t\u00E9 envoy\u00E9. V\u00E9rifiez votre bo\u00EEte de r\u00E9ception.",
         "Name": "checkyouremail",
-        "Description": "L'email a été envoyé. Vérifiez votre boîte de réception.",
+        "Description": "L\u0027email a \u00E9t\u00E9 envoy\u00E9. V\u00E9rifiez votre bo\u00EEte de r\u00E9ception.",
         "LastUpdated": "2021-07-07T09:42:12.1308177Z",
         "LastUpdatedBy": "Guest",
         "CreatedOn": "0001-01-01T00:00:00Z",
         "CreatedBy": null
       }
     ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "AppSecurity",
-    "Name": "checkyouremail",
-    "DisplayName": "Check your email",
-    "ShortDisplayName": "Check your email",
-    "Description": "Check your email",
-    "LastUpdated": "2022-03-18T10:41:54.1901446+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "newpassword",
-    "Key": "AppSecurity",
-    "DisplayName": "New Password",
-    "ShortDisplayName": "New Password",
-    "Description": "New Password",
-    "CreatedOn": "2022-02-24T10:52:39.891Z",
-    "LastUpdated": "2022-02-24T10:52:39.891Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -110,8 +61,9 @@
     "DisplayName": "New Password",
     "ShortDisplayName": "New Password",
     "Description": "New Password",
-    "LastUpdated": "2022-03-18T10:41:54.1909396+00:00",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2022-03-18T10:41:54.1909396\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -120,30 +72,9 @@
     "DisplayName": "Old Password",
     "ShortDisplayName": "Old Password",
     "Description": "Old Password",
-    "LastUpdated": "2022-03-18T10:41:54.1909346+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "oldpassword",
-    "Key": "AppSecurity",
-    "DisplayName": "Old Password",
-    "ShortDisplayName": "Old Password",
-    "Description": "Old Password",
-    "CreatedOn": "2022-02-24T10:52:18.255Z",
-    "LastUpdated": "2022-02-24T10:52:18.255Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "passwordchanged",
-    "Key": "AppSecurity",
-    "DisplayName": "Password Changed",
-    "ShortDisplayName": "Password Changed",
-    "Description": "Password Changed",
-    "CreatedOn": "2022-02-24T10:57:13.735Z",
-    "LastUpdated": "2022-02-24T10:57:13.735Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2022-03-18T10:41:54.1909346\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "passwordchanged",
@@ -154,7 +85,8 @@
     "CreatedOn": "2021-10-12T15:24:45.966Z",
     "LastUpdated": "2021-10-12T15:24:45.966Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -163,18 +95,9 @@
     "DisplayName": "Password Reset Email",
     "ShortDisplayName": "Password Reset Email",
     "Description": "Password Reset Email",
-    "LastUpdated": "2022-03-18T10:41:54.1892757+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "AppSecurity",
-    "Name": "passwordresetemailtitle",
-    "DisplayName": "Password Reset Email",
-    "ShortDisplayName": "Password Reset Email",
-    "Description": "passwordresetemailtitle",
-    "LastUpdated": "2022-03-18T10:41:54.19014+00:00",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2022-03-18T10:41:54.1892757\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -183,19 +106,9 @@
     "DisplayName": "Phone Number",
     "ShortDisplayName": "Phone Number",
     "Description": "Phone Number",
-    "LastUpdated": "2022-03-18T10:41:54.1909496+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "phonenumber",
-    "Key": "AppSecurity",
-    "DisplayName": "Phone Number",
-    "ShortDisplayName": "Phone Number",
-    "Description": "Phone Number",
-    "CreatedOn": "2022-02-24T10:53:21.193Z",
-    "LastUpdated": "2022-02-24T10:53:21.193Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2022-03-18T10:41:54.1909496\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -204,19 +117,9 @@
     "DisplayName": "Reset Failed",
     "ShortDisplayName": "Reset Failed",
     "Description": "Reset Failed",
-    "LastUpdated": "2022-03-18T10:41:54.1898141+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "resetpassword",
-    "Key": "AppSecurity",
-    "DisplayName": "Reset Password",
-    "ShortDisplayName": "Reset Password",
-    "Description": "Reset Password",
-    "CreatedOn": "2022-02-24T10:56:45.468Z",
-    "LastUpdated": "2022-02-24T10:56:45.468Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2022-03-18T10:41:54.1898141\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "resetpassword",
@@ -227,7 +130,8 @@
     "CreatedOn": "2021-10-12T15:24:32.439Z",
     "LastUpdated": "2021-10-12T15:24:32.439Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Id": 4933,
@@ -248,33 +152,18 @@
         "AppId": 4,
         "Key": "Account",
         "Culture": "fr-FR",
-        "DisplayName": "Réinitialiser le succès",
-        "ShortDisplayName": "Réinitialiser le succès",
+        "DisplayName": "R\u00E9initialiser le succ\u00E8s",
+        "ShortDisplayName": "R\u00E9initialiser le succ\u00E8s",
         "Name": "resetsuccess",
-        "Description": "Réinitialiser le succès",
+        "Description": "R\u00E9initialiser le succ\u00E8s",
         "LastUpdated": "2021-07-07T09:42:12.1312043Z",
         "LastUpdatedBy": "Guest",
         "CreatedOn": "0001-01-01T00:00:00Z",
         "CreatedBy": null
       }
     ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 30582,
-    "AppId": 4,
-    "Key": "AppSecurity",
-    "Culture": "",
-    "DisplayName": "rolecreated",
-    "ShortDisplayName": "rolecreated",
-    "Name": "rolecreated",
-    "Description": "rolecreated",
-    "LastUpdated": "2021-07-07T09:42:12.138059Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "2021-07-06T17:35:47.3466124Z",
-    "CreatedBy": "callum.marshall",
-    "Translations": [],
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Id": 30640,
@@ -290,23 +179,8 @@
     "CreatedOn": "2021-07-06T17:35:47.3455405Z",
     "CreatedBy": "callum.marshall",
     "Translations": [],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 30523,
-    "AppId": 4,
-    "Key": "AppSecurity",
-    "Culture": "",
-    "DisplayName": "Role Deleted",
-    "ShortDisplayName": "Role Deleted",
-    "Name": "roledeleted",
-    "Description": "Role Deleted",
-    "LastUpdated": "2021-07-07T09:42:12.1376083Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "2021-07-06T17:35:47.3445344Z",
-    "CreatedBy": "callum.marshall",
-    "Translations": [],
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Id": 30513,
@@ -322,7 +196,8 @@
     "CreatedOn": "2021-07-06T17:35:47.3446192Z",
     "CreatedBy": "callum.marshall",
     "Translations": [],
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -331,39 +206,9 @@
     "DisplayName": "Token Verification Failed",
     "ShortDisplayName": "Token Verification Failed",
     "Description": "tokenverificationfailed",
-    "LastUpdated": "2022-03-18T10:41:54.1901353+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4452,
-    "AppId": 4,
-    "Key": "AppSecurity",
-    "Culture": "",
-    "DisplayName": "Account Verification FAILED",
-    "ShortDisplayName": "Verification FAILED",
-    "Name": "tokenverificationfailed",
-    "Description": "Account Verification FAILED - Please try again or contact your system administrator.",
-    "LastUpdated": "2021-07-07T09:42:12.126558Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5058,
-        "AppId": 4,
-        "Key": "Account",
-        "Culture": "fr-FR",
-        "DisplayName": "Échec de la validation du compte",
-        "ShortDisplayName": "Échec de la validation du compte",
-        "Name": "tokenverificationfailed",
-        "Description": "Échec de la validation du compte",
-        "LastUpdated": "2021-07-07T09:42:12.1312283Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2022-03-18T10:41:54.1901353\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -372,50 +217,9 @@
     "DisplayName": "Token Verification Success",
     "ShortDisplayName": "Token Verification Success",
     "Description": "tokenverificationsuccess",
-    "LastUpdated": "2022-03-18T10:41:54.1900899+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 4443,
-    "AppId": 4,
-    "Key": "AppSecurity",
-    "Culture": "",
-    "DisplayName": "Account Verified",
-    "ShortDisplayName": "Account Verified",
-    "Name": "tokenverificationsuccess",
-    "Description": "Account Verified - Please log in",
-    "LastUpdated": "2021-07-07T09:42:12.1264871Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5056,
-        "AppId": 4,
-        "Key": "Account",
-        "Culture": "fr-FR",
-        "DisplayName": "Compte validé",
-        "ShortDisplayName": "Compte validé",
-        "Name": "tokenverificationsuccess",
-        "Description": "Compte validé",
-        "LastUpdated": "2021-07-07T09:42:12.1312117Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "updatepassword",
-    "Key": "AppSecurity",
-    "DisplayName": "Update Password",
-    "ShortDisplayName": "Update Password",
-    "Description": "Update Password",
-    "CreatedOn": "2022-02-24T10:53:44.593Z",
-    "LastUpdated": "2022-02-24T10:53:44.593Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2022-03-18T10:41:54.1900899\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -424,19 +228,9 @@
     "DisplayName": "Update Password",
     "ShortDisplayName": "Update Password",
     "Description": "Update Password",
-    "LastUpdated": "2022-03-18T10:41:54.1909545+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "userprofile",
-    "Key": "AppSecurity",
-    "DisplayName": "User Profile",
-    "ShortDisplayName": "User Profile",
-    "Description": "User Profile",
-    "CreatedOn": "2022-02-24T10:55:00.832Z",
-    "LastUpdated": "2022-02-24T10:55:00.832Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2022-03-18T10:41:54.1909545\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "userprofile",
@@ -447,18 +241,8 @@
     "CreatedOn": "2021-10-12T15:24:09.407Z",
     "LastUpdated": "2021-10-12T15:24:09.407Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "userupdated",
-    "Key": "AppSecurity",
-    "DisplayName": "User Updated",
-    "ShortDisplayName": "User Updated",
-    "Description": "User Updated",
-    "CreatedOn": "2022-02-24T10:57:35.879Z",
-    "LastUpdated": "2022-02-24T10:57:35.879Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "userupdated",
@@ -469,6 +253,7 @@
     "CreatedOn": "2021-10-12T15:25:12.224Z",
     "LastUpdated": "2021-10-12T15:25:12.224Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   }
 ]

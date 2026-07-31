@@ -1,0 +1,6 @@
+{
+  "Path": "Admin/Workflows",
+  "Role": "Administrators",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": true
+}

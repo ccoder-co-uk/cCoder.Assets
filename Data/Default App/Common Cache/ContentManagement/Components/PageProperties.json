@@ -6,5 +6,6 @@
   "Name": "PageProperties",
   "Description": null,
   "Key": "ContentManagement",
+  "PackageType": "ContentManagement/Component",
   "IncludeInSubSequentImports": true
 }

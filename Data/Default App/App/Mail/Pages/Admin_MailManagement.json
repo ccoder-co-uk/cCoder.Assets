@@ -3,8 +3,8 @@
   "Name": "Mail Management",
   "ResourceKey": "Mail",
   "ShowOnMenus": true,
-  "Order": 40,
-  "LastUpdated": "2026-07-27T12:00:00+01:00",
+  "Order": 4,
+  "LastUpdated": "2026-07-30T23:31:25.1383265+01:00",
   "Layout": "Default",
   "Contents": [
     {
@@ -21,5 +21,6 @@
       "Title": "Mail Management"
     }
   ],
+  "PackageType": "ContentManagement/Page",
   "IncludeInSubSequentImports": true
 }

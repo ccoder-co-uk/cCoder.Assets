@@ -4,5 +4,6 @@
   "Content": "function (vars) {\r\n\tvar g = new GridWidget(vars.element, vars.dataSource);\r\n\tg.groupable = false;\r\n\tg.searchable = false;\r\n\tg.pageable = false;\r\n\tg.scrollable = false;\r\n\tg.editable = false;\r\n\tg.exports = true;\r\n\t\r\n\tg.columns = [\r\n\t\t{\r\n\t\t\tfield: \"Endpoint\",\r\n\t\t\ttitle: \"[resource_shortdisplayname[Endpoint]]\",\r\n\t\t\tdescription: \"[resource_description[Endpoint]]\",\r\n\t\t\ttype: \"string\"\r\n\t\t},\r\n\t\t{\r\n\t\t\tfield: \"Sessions\",\r\n\t\t\ttitle: \"[resource_shortdisplayname[Sessions]]\",\r\n\t\t\tdescription: \"[resource_description[Sessions]]\",\r\n\t\t\ttype: \"string\",\r\n\t\t\twidth: 60\r\n\t\t},\r\n        {\r\n\t\t\tfield: \"Hits\",\r\n\t\t\ttitle: \"[resource_shortdisplayname[Hits]]\",\r\n\t\t\tdescription: \"[resource_description[Hits]]\",\r\n\t\t\ttype: \"string\",\r\n\t\t\twidth: 60\r\n\t\t}\r\n\t];\r\n\treturn g;\r\n}",
   "CreatedOn": "2022-08-31T17:45:58.875Z",
   "LastUpdated": "2022-08-31T17:45:58.875Z",
+  "PackageType": "ContentManagement/Script",
   "IncludeInSubSequentImports": true
 }

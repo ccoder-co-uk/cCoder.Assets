@@ -3,24 +3,26 @@
     "Culture": "fr-FR",
     "Key": "Workflow",
     "Name": "nextcutoff",
-    "DisplayName": "La prochaine heure limite de sélection est dans",
-    "ShortDisplayName": "La prochaine heure limite de sélection est dans",
-    "Description": "La prochaine heure limite de sélection est dans",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "La prochaine heure limite de s\u00E9lection est dans",
+    "ShortDisplayName": "La prochaine heure limite de s\u00E9lection est dans",
+    "Description": "La prochaine heure limite de s\u00E9lection est dans",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Id": 7394,
     "AppId": 4,
     "Key": "Workflow",
     "Culture": "fr-FR",
-    "DisplayName": "Exécuter de programme",
-    "ShortDisplayName": "Exécuter",
+    "DisplayName": "Ex\u00E9cuter de programme",
+    "ShortDisplayName": "Ex\u00E9cuter",
     "Name": "run",
-    "Description": "Exécuter de programme",
+    "Description": "Ex\u00E9cuter de programme",
     "LastUpdated": "2021-07-07T09:42:12.1356305Z",
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   }
 ]

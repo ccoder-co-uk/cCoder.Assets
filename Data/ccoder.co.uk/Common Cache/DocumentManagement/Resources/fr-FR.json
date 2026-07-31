@@ -3,10 +3,22 @@
     "Culture": "fr-FR",
     "Key": "DocumentManagement",
     "Name": "applyrecursively",
-    "DisplayName": " Appliquer de manière récursive",
-    "ShortDisplayName": " Appliquer de manière récursive",
-    "Description": " Appliquer de manière récursive",
-    "IncludeInSubSequentImports": true
+    "DisplayName": " Appliquer de mani\u00E8re r\u00E9cursive",
+    "ShortDisplayName": " Appliquer de mani\u00E8re r\u00E9cursive",
+    "Description": " Appliquer de mani\u00E8re r\u00E9cursive",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "category",
+    "DisplayName": "Cat\u00E9gorie",
+    "ShortDisplayName": "Cat\u00E9gorie",
+    "Description": "Cat\u00E9gorie",
+    "LastUpdated": "2022-03-18T10:41:54.1899372\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
@@ -15,93 +27,52 @@
     "DisplayName": "Supprimer le dossier",
     "ShortDisplayName": "Supprimer le dossier",
     "Description": "Supprimer le dossier",
-    "LastUpdated": "2022-03-18T10:41:54.1907821+00:00",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2022-03-18T10:41:54.1907821\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "DocumentManagement",
     "Name": "folderdeletedsuccesfully",
-    "DisplayName": "Dossier supprimÃ© avec succÃ¨s",
-    "ShortDisplayName": "Dossier supprimÃ© avec succÃ¨s",
-    "Description": "Dossier supprimÃ© avec succÃ¨s",
-    "LastUpdated": "2022-03-18T10:41:54.190861+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 25770,
-    "AppId": 4,
-    "Key": "DocumentManagement",
-    "Culture": "fr-FR",
-    "DisplayName": "Informations supplémentaires",
-    "ShortDisplayName": "Informations supplémentaires",
-    "Name": "furtherinformation",
-    "Description": "Informations supplémentaires",
-    "LastUpdated": "2021-07-07T09:42:12.136259Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 25624,
-    "AppId": 4,
-    "Key": "DocumentManagement",
-    "Culture": "fr-FR",
-    "DisplayName": "Informations supplémentaires",
-    "ShortDisplayName": "Infos suppl",
-    "Name": "furtherinformation",
-    "Description": "Informations supplémentaires",
-    "LastUpdated": "2021-07-07T09:42:12.1361201Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 25622,
-    "AppId": 4,
-    "Key": "DocumentManagement",
-    "Culture": "fr-FR",
-    "DisplayName": "Informations supplémentaires",
-    "ShortDisplayName": "Informations supplémentaires",
-    "Name": "furtherinformation",
-    "Description": "Informations supplémentaires",
-    "LastUpdated": "2021-07-07T09:42:12.1361058Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "IncludeInSubSequentImports": true
+    "DisplayName": "Dossier supprim\u00C3\u00A9 avec succ\u00C3\u00A8s",
+    "ShortDisplayName": "Dossier supprim\u00C3\u00A9 avec succ\u00C3\u00A8s",
+    "Description": "Dossier supprim\u00C3\u00A9 avec succ\u00C3\u00A8s",
+    "LastUpdated": "2022-03-18T10:41:54.190861\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Id": 25615,
     "AppId": 4,
     "Key": "DocumentManagement",
     "Culture": "fr-FR",
-    "DisplayName": "Informations supplémentaires",
-    "ShortDisplayName": "Informations supplémentaires",
+    "DisplayName": "Informations suppl\u00E9mentaires",
+    "ShortDisplayName": "Informations suppl\u00E9mentaires",
     "Name": "furtherinformation",
-    "Description": "Informations supplémentaires",
+    "Description": "Informations suppl\u00E9mentaires",
     "LastUpdated": "2021-07-07T09:42:12.1360685Z",
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Id": 25614,
     "AppId": 4,
     "Key": "DocumentManagement",
     "Culture": "fr-FR",
-    "DisplayName": "Informations légales",
-    "ShortDisplayName": "Informations légales",
+    "DisplayName": "Informations l\u00E9gales",
+    "ShortDisplayName": "Informations l\u00E9gales",
     "Name": "legal",
-    "Description": "Informations légales",
+    "Description": "Informations l\u00E9gales",
     "LastUpdated": "2021-07-07T09:42:12.1360613Z",
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
@@ -110,8 +81,9 @@
     "DisplayName": "Nouveau Dossier",
     "ShortDisplayName": "Nouveau Dossier",
     "Description": "Nouveau Dossier",
-    "LastUpdated": "2023-01-04T12:32:37.1401249+00:00",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2023-01-04T12:32:37.1401249\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
@@ -120,8 +92,9 @@
     "DisplayName": "Nouveau nom",
     "ShortDisplayName": "Nouveau nom",
     "Description": "Nouveau nom",
-    "LastUpdated": "2022-03-18T10:41:54.1905548+00:00",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2022-03-18T10:41:54.1905548\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
@@ -130,24 +103,38 @@
     "DisplayName": "Renommer",
     "ShortDisplayName": "Renommer",
     "Description": "Renommer",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "size",
+    "DisplayName": "Taille",
+    "ShortDisplayName": "Taille",
+    "Description": "Taille",
+    "LastUpdated": "2022-03-18T10:41:54.1905497\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "DocumentManagement",
     "Name": "unpackzipto",
-    "DisplayName": "Décompresser les Fichier dans",
-    "ShortDisplayName": "Décompresser les Fichier dans",
-    "Description": "Décompresser les Fichier dans",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "D\u00E9compresser les Fichier dans",
+    "ShortDisplayName": "D\u00E9compresser les Fichier dans",
+    "Description": "D\u00E9compresser les Fichier dans",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "DocumentManagement",
     "Name": "welcometofurtherinfo",
-    "DisplayName": "Bienvenue dans la présentation du programme [app[name]] dédié à nos fournisseurs.",
-    "ShortDisplayName": "Bienvenue dans la présentation du programme [app[name]] dédié à nos fournisseurs.",
-    "Description": "Bienvenue dans la présentation du programme [app[name]] dédié à nos fournisseurs.",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "Bienvenue dans la pr\u00E9sentation du programme [app[name]] d\u00E9di\u00E9 \u00E0 nos fournisseurs.",
+    "ShortDisplayName": "Bienvenue dans la pr\u00E9sentation du programme [app[name]] d\u00E9di\u00E9 \u00E0 nos fournisseurs.",
+    "Description": "Bienvenue dans la pr\u00E9sentation du programme [app[name]] d\u00E9di\u00E9 \u00E0 nos fournisseurs.",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   }
 ]

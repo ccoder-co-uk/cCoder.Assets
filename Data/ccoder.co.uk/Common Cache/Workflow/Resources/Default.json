@@ -13,7 +13,8 @@
     "CreatedOn": "2021-07-06T17:35:47.3463811Z",
     "CreatedBy": "callum.marshall",
     "Translations": [],
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "autoclose",
@@ -24,7 +25,8 @@
     "CreatedOn": "2022-04-29T23:25:18.291Z",
     "LastUpdated": "2022-04-29T23:25:18.291Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "caller",
@@ -35,7 +37,8 @@
     "CreatedOn": "2022-02-24T16:54:28.089Z",
     "LastUpdated": "2022-02-24T16:54:28.089Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -44,29 +47,9 @@
     "DisplayName": "Context",
     "ShortDisplayName": "Context",
     "Description": "Context",
-    "LastUpdated": "2023-03-23T15:54:18.6532785+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "Workflow",
-    "Name": "context",
-    "DisplayName": "Context",
-    "ShortDisplayName": "Context",
-    "Description": "Context",
-    "LastUpdated": "2023-03-23T15:54:18.6532785+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "context",
-    "Key": "Workflow",
-    "DisplayName": "Context",
-    "ShortDisplayName": "Context",
-    "Description": "Context",
-    "CreatedOn": "2022-02-24T17:00:21.997Z",
-    "LastUpdated": "2022-02-24T17:00:21.997Z",
-    "Culture": "",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2023-03-23T15:54:18.6532785\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "deleteall",
@@ -77,7 +60,8 @@
     "CreatedOn": "2022-02-24T16:56:25.23Z",
     "LastUpdated": "2022-02-24T16:56:25.23Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "end",
@@ -88,7 +72,8 @@
     "CreatedOn": "2022-02-24T16:57:34.497Z",
     "LastUpdated": "2022-02-24T16:57:34.497Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "executing",
@@ -99,7 +84,8 @@
     "CreatedOn": "2022-02-24T16:58:51.464Z",
     "LastUpdated": "2022-02-24T16:58:51.464Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "instancereportingcomponentname",
@@ -110,7 +96,8 @@
     "CreatedOn": "2021-11-02T11:50:36.996Z",
     "LastUpdated": "2021-11-02T11:50:36.996Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "instances",
@@ -121,7 +108,8 @@
     "CreatedOn": "2022-02-24T16:55:22.77Z",
     "LastUpdated": "2022-02-24T16:55:22.77Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "loadindesigner",
@@ -132,7 +120,8 @@
     "CreatedOn": "2022-04-29T23:24:38.156Z",
     "LastUpdated": "2022-04-29T23:24:38.156Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "log",
@@ -143,7 +132,8 @@
     "CreatedOn": "2022-02-24T17:00:07.739Z",
     "LastUpdated": "2022-02-24T17:00:07.739Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Id": 5938,
@@ -159,7 +149,8 @@
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
     "Translations": [],
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "nextcutoff",
@@ -170,7 +161,8 @@
     "CreatedOn": "2021-11-17T10:06:35.858Z",
     "LastUpdated": "2021-11-17T10:06:35.858Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "report",
@@ -181,7 +173,8 @@
     "CreatedOn": "2022-02-24T17:00:35.631Z",
     "LastUpdated": "2022-02-24T17:00:35.631Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "requestdata",
@@ -192,7 +185,8 @@
     "CreatedOn": "2021-11-02T12:01:30.935Z",
     "LastUpdated": "2021-11-02T12:01:30.935Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Id": 7400,
@@ -213,17 +207,18 @@
         "AppId": 4,
         "Key": "Workflow",
         "Culture": "fr-FR",
-        "DisplayName": "Exécuter de programme",
-        "ShortDisplayName": "Exécuter",
+        "DisplayName": "Ex\u00E9cuter de programme",
+        "ShortDisplayName": "Ex\u00E9cuter",
         "Name": "run",
-        "Description": "Exécuter de programme",
+        "Description": "Ex\u00E9cuter de programme",
         "LastUpdated": "2021-07-07T09:42:12.1356305Z",
         "LastUpdatedBy": "Guest",
         "CreatedOn": "0001-01-01T00:00:00Z",
         "CreatedBy": null
       }
     ],
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "settings",
@@ -234,7 +229,8 @@
     "CreatedOn": "2022-04-29T23:23:45.566Z",
     "LastUpdated": "2022-04-29T23:23:45.566Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "start",
@@ -245,7 +241,8 @@
     "CreatedOn": "2022-02-24T16:54:43.075Z",
     "LastUpdated": "2022-02-24T16:54:43.075Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "suspended",
@@ -256,6 +253,7 @@
     "CreatedOn": "2022-02-24T16:58:24.814Z",
     "LastUpdated": "2022-02-24T16:58:24.814Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   }
 ]

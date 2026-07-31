@@ -76,7 +76,7 @@ public sealed partial class AdminInformationArchitectureAssetTests
                         segments:
                         [
                             "App",
-                            "Common",
+                            "Default",
                             "Layouts",
                             layoutName,
                         ]),
@@ -183,7 +183,11 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 baseline: baseline,
                 fileName: "Admin_DocumentManagement.json",
                 path: "Admin/DocumentManagement",
-                component: "DocumentManagement");
+                component: "DocumentManagement",
+                includeInSubsequentImports:
+                    baseline.EndsWith(
+                        value: "Default App",
+                        comparisonType: StringComparison.Ordinal));
 
             string documentManagementScript = await ReadPropertyAsync(
                 path: FindAsset(
@@ -285,13 +289,21 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 baseline: baseline,
                 fileName: "Admin_MailManagement.json",
                 path: "Admin/MailManagement",
-                component: "MailManagement");
+                component: "MailManagement",
+                includeInSubsequentImports:
+                    baseline.EndsWith(
+                        value: "Default App",
+                        comparisonType: StringComparison.Ordinal));
 
             await AssertPageAsync(
                 baseline: baseline,
                 fileName: "Admin_LogStream.json",
                 path: "Admin/LogStream",
-                component: "LogStream");
+                component: "LogStream",
+                includeInSubsequentImports:
+                    baseline.EndsWith(
+                        value: "Default App",
+                        comparisonType: StringComparison.Ordinal));
 
             Assert.True(
                 condition: File.Exists(
@@ -326,7 +338,7 @@ public sealed partial class AdminInformationArchitectureAssetTests
                         baseline: baseline,
                         segments:
                         [
-                            "Common Cache",
+                            "App",
                             "Logging",
                             "Components",
                             "FullLogStream.json",
@@ -336,7 +348,11 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 baseline: baseline,
                 fileName: "Admin_Workflows.json",
                 path: "Admin/Workflows",
-                component: "WorkflowAdmin");
+                component: "WorkflowAdmin",
+                includeInSubsequentImports:
+                    baseline.EndsWith(
+                        value: "Default App",
+                        comparisonType: StringComparison.Ordinal));
         }
 
         string defaultApp = baselines[0];
@@ -358,17 +374,16 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 searchPattern: "Admin_PlatformAdmin*.json",
                 searchOption: SearchOption.AllDirectories));
 
-        Assert.NotEmpty(
-            collection: Directory.GetFiles(
-                path: Path.Combine(
-                    path1: defaultApp,
-                    path2: "App"),
-                searchPattern: "SSORole*.json",
-                searchOption: SearchOption.AllDirectories));
-
         foreach (string baseline in new[] { defaultApp, ccoderApp })
         {
-            foreach (string component in new[] { "TenantManagement.json", "TenantAppManagement.json" })
+            foreach (string component in new[]
+            {
+                "SSORoleManagement.json",
+                "SSORolePrivManagement.json",
+                "SSORoleUserManagement.json",
+                "TenantManagement.json",
+                "TenantAppManagement.json",
+            })
             {
                 Assert.True(
                     condition: File.Exists(
@@ -376,7 +391,7 @@ public sealed partial class AdminInformationArchitectureAssetTests
                             baseline: baseline,
                             segments:
                             [
-                                "Common Cache",
+                                "App",
                                 "Security",
                                 "Components",
                                 component,

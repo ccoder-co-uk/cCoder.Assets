@@ -1,0 +1,6 @@
+{
+  "Path": "Documentation/AppSecurity/SecurityAdministration",
+  "Role": "Guests",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

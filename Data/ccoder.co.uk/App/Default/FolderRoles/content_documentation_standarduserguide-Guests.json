@@ -1,0 +1,6 @@
+{
+  "Path": "content/documentation/standarduserguide",
+  "Name": "Guests",
+  "PackageType": "DocumentManagement/FolderRole",
+  "IncludeInSubSequentImports": false
+}

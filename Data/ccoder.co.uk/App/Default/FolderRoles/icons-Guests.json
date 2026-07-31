@@ -1,0 +1,6 @@
+{
+  "Path": "icons",
+  "Name": "Guests",
+  "PackageType": "DocumentManagement/FolderRole",
+  "IncludeInSubSequentImports": false
+}

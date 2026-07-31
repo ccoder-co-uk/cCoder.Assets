@@ -2,19 +2,12 @@
   {
     "Culture": "",
     "Key": "Default",
-    "Name": "dateformat",
-    "DisplayName": "yyyy MMMM dd",
-    "ShortDisplayName": "yyyy MMMM dd",
-    "Description": "Default date format",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "Default",
-    "Name": "shortdateformat",
-    "DisplayName": "yyyy-MM-dd",
-    "ShortDisplayName": "yyyy-MM-dd",
-    "Description": "Default short date format",
+    "Name": "aggregateMoneyFormat",
+    "DisplayName": "c2",
+    "ShortDisplayName": "c2",
+    "Description": "Default aggregate currency format",
+    "LastUpdated": "2026-07-31T15:02:04.181449Z",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -24,15 +17,19 @@
     "DisplayName": "yyyy MMMM dd HH:mm",
     "ShortDisplayName": "yyyy MMMM dd HH:mm",
     "Description": "Default date and time format",
+    "LastUpdated": "2026-07-31T15:02:04.5436237Z",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
     "Culture": "",
     "Key": "Default",
-    "Name": "timeformat",
-    "DisplayName": "HH:mm",
-    "ShortDisplayName": "HH:mm",
-    "Description": "Default time format",
+    "Name": "dateformat",
+    "DisplayName": "yyyy MMMM dd",
+    "ShortDisplayName": "yyyy MMMM dd",
+    "Description": "Default date format",
+    "LastUpdated": "2026-07-31T15:02:04.6717719Z",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -42,15 +39,30 @@
     "DisplayName": "c2",
     "ShortDisplayName": "c2",
     "Description": "Default currency format",
+    "LastUpdated": "2026-07-31T15:02:04.791302Z",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
     "Culture": "",
     "Key": "Default",
-    "Name": "aggregateMoneyFormat",
-    "DisplayName": "c2",
-    "ShortDisplayName": "c2",
-    "Description": "Default aggregate currency format",
+    "Name": "shortdateformat",
+    "DisplayName": "yyyy-MM-dd",
+    "ShortDisplayName": "yyyy-MM-dd",
+    "Description": "Default short date format",
+    "LastUpdated": "2026-07-31T15:02:05.0264284Z",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "Default",
+    "Name": "timeformat",
+    "DisplayName": "HH:mm",
+    "ShortDisplayName": "HH:mm",
+    "Description": "Default time format",
+    "LastUpdated": "2026-07-31T15:02:05.2504255Z",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   }
 ]

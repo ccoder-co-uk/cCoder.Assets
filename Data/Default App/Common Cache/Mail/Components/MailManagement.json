@@ -6,5 +6,6 @@
   "Name": "MailManagement",
   "Description": null,
   "Key": "Mail",
-  "IncludeInSubSequentImports": true
+  "IncludeInSubSequentImports": true,
+  "PackageType": "ContentManagement/Component"
 }

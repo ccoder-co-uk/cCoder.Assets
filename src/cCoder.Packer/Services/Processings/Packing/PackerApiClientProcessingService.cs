@@ -161,7 +161,7 @@ cancellationToken: cancellationToken);
                         : [data.RootElement];
 
                 records.AddRange(collection: values.Select(selector: value => CreateExportRecord(
-                    domain: source.Host,
+                    domain: "App",
                     type: type,
                     entityType: entityType,
                     value: value.Clone())));

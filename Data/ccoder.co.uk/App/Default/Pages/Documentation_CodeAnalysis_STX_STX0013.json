@@ -1,0 +1,25 @@
+{
+  "Path": "Documentation/CodeAnalysis/STX/STX0013",
+  "Name": "STX0013",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 130,
+  "LastUpdated": "2026-07-28T09:01:51.3867842\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cstyle class=\u0022code-analysis-syntax\u0022\u003E\n.docs-content pre{overflow-x:auto;margin:1rem 0 1.75rem;padding:1.25rem 1.4rem;border:1px solid rgba(20,42,72,.16);border-left:4px solid #0e6fae;border-radius:4px;background:#f7fbfe;color:#10263a}\n.docs-content pre code{white-space:pre;color:inherit;background:transparent;font-size:1rem;line-height:1.65}\n.language-csharp .syntax-comment{color:#587287;font-style:italic}.language-csharp .syntax-string{color:#8a3d12}.language-csharp .syntax-keyword{color:#6542a6;font-weight:700}.language-csharp .syntax-number{color:#096b65}.language-csharp .syntax-type{color:#0a6680;font-weight:600}\n\u003C/style\u003E\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003EA service must implement a local interface.\u003C/p\u003E\u003C/header\u003E\u003Ch2\u003EWhat The Standard says\u003C/h2\u003E\u003Cp\u003E\u0026ldquo;stable contract\u0026rdquo; \u0026mdash; The Standard minimizes the concrete public surface and presents stable contracts to consumers so implementations can change without coupling callers to internal business classes. \u003Ca href=\u0022https://github.com/hassanhabib/The-Standard/blob/master/2.%20Services/2.%20Services.md#204-class-visibility-and-exposure-control\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003Eread it here\u003C/a\u003E.\u003Cbr\u003E\u0026ldquo;Abstraction\u0026rdquo; \u0026mdash; Foundation-service abstraction keeps upstream services independent of the technology and implementation behind a business operation. A local service interface is the contract that preserves that boundary. \u003Ca href=\u0022https://github.com/hassanhabib/The-Standard/blob/master/2.%20Services/2.1%20Foundations/2.1%20Foundations.md#2130-abstraction\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003Eread it here\u003C/a\u003E.\u003C/p\u003E\u003Ch2\u003EWhy it matters\u003C/h2\u003E\u003Cp\u003EA local interface defines the service boundary independently of its implementation. That abstraction supports controlled exposure, dependency injection, and isolated testing while preventing consumers from binding themselves to implementation details.\u003C/p\u003E\u003Ch2\u003EBad code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E\u003Cspan class=\u0022syntax-comment\u0022\u003E// Violates STX0013: A service must implement a local interface.\u003C/span\u003E\n\u003Cspan class=\u0022syntax-keyword\u0022\u003Einternal\u003C/span\u003E \u003Cspan class=\u0022syntax-keyword\u0022\u003Eclass\u003C/span\u003E \u003Cspan class=\u0022syntax-type\u0022\u003EStudentProcessingService\u003C/span\u003E { }\u003C/code\u003E\u003C/pre\u003E\u003Ch2\u003EGood code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E\u003Cspan class=\u0022syntax-comment\u0022\u003E// Follows STX0013\u003C/span\u003E\n\u003Cspan class=\u0022syntax-keyword\u0022\u003Einternal\u003C/span\u003E \u003Cspan class=\u0022syntax-keyword\u0022\u003Eclass\u003C/span\u003E \u003Cspan class=\u0022syntax-type\u0022\u003EStudentProcessingService\u003C/span\u003E : \u003Cspan class=\u0022syntax-type\u0022\u003EIStudentProcessingService\u003C/span\u003E { }\u003C/code\u003E\u003C/pre\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "A service must implement a local interface.",
+      "Title": "STX0013"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

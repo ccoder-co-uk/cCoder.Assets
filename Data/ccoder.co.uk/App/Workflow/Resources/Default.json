@@ -2,12 +2,156 @@
   {
     "Culture": "",
     "Key": "Workflow",
+    "Name": "areyousure",
+    "DisplayName": "Are you sure?",
+    "ShortDisplayName": "Are you sure?",
+    "Description": "Are you sure?",
+    "LastUpdated": "2026-07-21T21:09:41.7626574\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "confirm",
+    "DisplayName": "Confirm",
+    "ShortDisplayName": "Confirm",
+    "Description": "Confirm",
+    "LastUpdated": "2026-07-21T21:09:41.8536764\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "thiscannotbeundone",
+    "DisplayName": "This action cannot be undone.",
+    "ShortDisplayName": "This action cannot be undone.",
+    "Description": "This action cannot be undone.",
+    "LastUpdated": "2026-07-21T21:09:41.9364337\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "created",
+    "DisplayName": "Created",
+    "ShortDisplayName": "Created",
+    "Description": "Created",
+    "LastUpdated": "2026-07-21T21:09:42.0166634\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "createdby",
+    "DisplayName": "Created by",
+    "ShortDisplayName": "Created by",
+    "Description": "Created by",
+    "LastUpdated": "2026-07-21T21:09:42.0940596\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "delete",
+    "DisplayName": "Delete",
+    "ShortDisplayName": "Delete",
+    "Description": "Delete",
+    "LastUpdated": "2026-07-21T21:09:42.1645164\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "deleted",
+    "DisplayName": "Deleted",
+    "ShortDisplayName": "Deleted",
+    "Description": "Deleted",
+    "LastUpdated": "2026-07-21T21:09:42.2069683\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "description",
+    "DisplayName": "Description",
+    "ShortDisplayName": "Description",
+    "Description": "Description",
+    "LastUpdated": "2026-07-21T21:09:42.2491112\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "edit",
+    "DisplayName": "Edit",
+    "ShortDisplayName": "Edit",
+    "Description": "Edit",
+    "LastUpdated": "2026-07-21T21:09:42.3027886\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
     "Name": "instancereportingcomponentname",
     "DisplayName": "Instance reporting component",
     "ShortDisplayName": "Instance reporting component",
     "Description": "Instance reporting component",
-    "LastUpdated": "2026-07-21T22:09:42.3812997+01:00",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2026-07-28T08:45:56.5309946\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "lastupdated",
+    "DisplayName": "Last updated",
+    "ShortDisplayName": "Last updated",
+    "Description": "Last updated",
+    "LastUpdated": "2026-07-21T21:09:42.4611758\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "lastupdatedby",
+    "DisplayName": "Last updated by",
+    "ShortDisplayName": "Last updated by",
+    "Description": "Last updated by",
+    "LastUpdated": "2026-07-21T21:09:42.509483\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "name",
+    "DisplayName": "Name",
+    "ShortDisplayName": "Name",
+    "Description": "Name",
+    "LastUpdated": "2026-07-21T21:09:42.5862154\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "new",
+    "DisplayName": "New",
+    "ShortDisplayName": "New",
+    "Description": "New",
+    "LastUpdated": "2026-07-21T21:09:42.6584034\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -16,8 +160,9 @@
     "DisplayName": "New workflow",
     "ShortDisplayName": "New workflow",
     "Description": "New workflow",
-    "LastUpdated": "2026-07-21T22:09:42.7397828+01:00",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2026-07-28T08:45:56.5111689\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -26,8 +171,9 @@
     "DisplayName": "Report",
     "ShortDisplayName": "Report",
     "Description": "Report",
-    "LastUpdated": "2026-07-21T22:09:42.8132239+01:00",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2026-07-28T08:45:56.5436659\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -36,7 +182,52 @@
     "DisplayName": "Run",
     "ShortDisplayName": "Run",
     "Description": "Run",
-    "LastUpdated": "2026-07-21T22:09:42.8984458+01:00",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2026-07-28T08:45:56.5546373\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "save",
+    "DisplayName": "Save",
+    "ShortDisplayName": "Save",
+    "Description": "Save",
+    "LastUpdated": "2026-07-21T21:09:42.9723986\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "saved",
+    "DisplayName": "Saved",
+    "ShortDisplayName": "Saved",
+    "Description": "Saved",
+    "LastUpdated": "2026-07-21T21:09:43.0830015\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "close",
+    "DisplayName": "Close",
+    "ShortDisplayName": "Close",
+    "Description": "Close",
+    "LastUpdated": "2026-07-21T21:09:43.1763396\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Workflow",
+    "Name": "cancel",
+    "DisplayName": "Cancel",
+    "ShortDisplayName": "Cancel",
+    "Description": "Cancel",
+    "LastUpdated": "2026-07-21T21:09:43.2295437\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   }
 ]

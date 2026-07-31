@@ -6,5 +6,6 @@
   "Script": "",
   "CreatedOn": "2023-11-13T21:16:52.83Z",
   "LastUpdated": "2023-11-13T21:16:52.83Z",
-  "IncludeInSubSequentImports": true
+  "PackageType": "ContentManagement/Component",
+  "IncludeInSubSequentImports": false
 }

@@ -3,51 +3,56 @@
     "Culture": "fr-FR",
     "Key": "ContentManagement",
     "Name": "appcreated",
-    "DisplayName": "Application créée",
-    "ShortDisplayName": "Application créée",
-    "Description": "Application créée",
-    "LastUpdated": "2022-03-18T10:41:54.189721+00:00",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "Application cr\u00E9\u00E9e",
+    "ShortDisplayName": "Application cr\u00E9\u00E9e",
+    "Description": "Application cr\u00E9\u00E9e",
+    "LastUpdated": "2026-07-28T08:45:57.0290799\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "ContentManagement",
     "Name": "appdeleted",
-    "DisplayName": "Application supprimée",
-    "ShortDisplayName": "Application supprimée",
-    "Description": "\tApplication supprimée",
-    "LastUpdated": "2022-03-18T10:41:54.1897166+00:00",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "Application supprim\u00E9e",
+    "ShortDisplayName": "Application supprim\u00E9e",
+    "Description": "\tApplication supprim\u00E9e",
+    "LastUpdated": "2026-07-28T08:45:57.041142\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "ContentManagement",
     "Name": "appsaved",
-    "DisplayName": "Application enregistrée",
-    "ShortDisplayName": "Application enregistrée",
-    "Description": "Application enregistrée",
-    "LastUpdated": "2022-03-18T10:41:54.1897122+00:00",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "Application enregistr\u00E9e",
+    "ShortDisplayName": "Application enregistr\u00E9e",
+    "Description": "Application enregistr\u00E9e",
+    "LastUpdated": "2026-07-28T08:45:57.0606386\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "ContentManagement",
     "Name": "defaultculture",
-    "DisplayName": "Culture par défaut",
-    "ShortDisplayName": "Culture par défaut",
-    "Description": "Culture par défaut",
-    "LastUpdated": "2022-03-18T10:41:54.1898184+00:00",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "Culture par d\u00E9faut",
+    "ShortDisplayName": "Culture par d\u00E9faut",
+    "Description": "Culture par d\u00E9faut",
+    "LastUpdated": "2026-07-28T08:45:57.076655\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "ContentManagement",
     "Name": "defaulttheme",
-    "DisplayName": "Thème par défaut",
-    "ShortDisplayName": "Thème par défaut",
-    "Description": "Thème par défaut",
-    "LastUpdated": "2022-03-18T10:41:54.1894238+00:00",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "Th\u00E8me par d\u00E9faut",
+    "ShortDisplayName": "Th\u00E8me par d\u00E9faut",
+    "Description": "Th\u00E8me par d\u00E9faut",
+    "LastUpdated": "2026-07-28T08:45:57.0908928\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
@@ -56,18 +61,20 @@
     "DisplayName": "Visible dans le menu?",
     "ShortDisplayName": "Visible dans le menu?",
     "Description": "Visible dans le menu?",
-    "LastUpdated": "2022-03-18T10:41:54.1893551+00:00",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2026-07-28T08:45:57.1046024\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "ContentManagement",
     "Name": "key",
-    "DisplayName": "Clé",
-    "ShortDisplayName": "Clé",
-    "Description": "Clé",
-    "LastUpdated": "2022-03-18T10:41:54.1900061+00:00",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "Cl\u00E9",
+    "ShortDisplayName": "Cl\u00E9",
+    "Description": "Cl\u00E9",
+    "LastUpdated": "2026-07-28T08:45:57.1177703\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
@@ -76,8 +83,9 @@
     "DisplayName": "Disposition",
     "ShortDisplayName": "Disposition",
     "Description": "Disposition",
-    "LastUpdated": "2022-03-18T10:41:54.1900109+00:00",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2026-07-28T08:45:57.1294529\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
@@ -86,18 +94,20 @@
     "DisplayName": "Importation",
     "ShortDisplayName": "Importation",
     "Description": "Importation",
-    "LastUpdated": "2022-03-18T10:41:54.1899573+00:00",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2026-07-28T08:45:57.1409406\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "ContentManagement",
     "Name": "migrateapp",
-    "DisplayName": "Migrer l'application",
-    "ShortDisplayName": "Migrer l'application",
-    "Description": "Migrer l'application",
-    "LastUpdated": "2022-03-18T10:41:54.1899526+00:00",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "Migrer l\u0027application",
+    "ShortDisplayName": "Migrer l\u0027application",
+    "Description": "Migrer l\u0027application",
+    "LastUpdated": "2026-07-28T08:45:57.1554304\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
@@ -106,8 +116,9 @@
     "DisplayName": "Nouvelle appli",
     "ShortDisplayName": "Nouvelle appli",
     "Description": "Nouvelle appli",
-    "LastUpdated": "2022-03-18T10:41:54.1899479+00:00",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2026-07-28T08:45:57.1670039\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
@@ -116,18 +127,20 @@
     "DisplayName": "Nouveau composant",
     "ShortDisplayName": "Nouveau composant",
     "Description": "Nouveau composant",
-    "LastUpdated": "2022-03-18T10:41:54.1901633+00:00",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2026-07-28T08:45:57.1803144\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "ContentManagement",
     "Name": "newlayout",
-    "DisplayName": "Nouvelle présentation",
-    "ShortDisplayName": "Nouvelle présentation",
-    "Description": "Nouvelle présentation",
-    "LastUpdated": "2022-03-18T10:41:54.1900708+00:00",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "Nouvelle pr\u00E9sentation",
+    "ShortDisplayName": "Nouvelle pr\u00E9sentation",
+    "Description": "Nouvelle pr\u00E9sentation",
+    "LastUpdated": "2026-07-28T08:45:57.192055\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
@@ -136,18 +149,20 @@
     "DisplayName": "Nouvelle ressource",
     "ShortDisplayName": "Nouvelle ressource",
     "Description": "Nouvelle ressource",
-    "LastUpdated": "2022-03-18T10:41:54.1900014+00:00",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2026-07-28T08:45:57.2037932\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "ContentManagement",
     "Name": "newtemplate",
-    "DisplayName": "Nouveau modèle",
-    "ShortDisplayName": "Nouveau modèle",
-    "Description": "Nouveau modèle",
-    "LastUpdated": "2022-03-18T10:41:54.1897639+00:00",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "Nouveau mod\u00E8le",
+    "ShortDisplayName": "Nouveau mod\u00E8le",
+    "Description": "Nouveau mod\u00E8le",
+    "LastUpdated": "2026-07-28T08:45:57.215471\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
@@ -156,18 +171,20 @@
     "DisplayName": "Nouvelle traduction",
     "ShortDisplayName": "Nouvelle traduction",
     "Description": "Nouvelle traduction",
-    "LastUpdated": "2022-03-18T10:41:54.1897536+00:00",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2026-07-28T08:45:57.2272826\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "ContentManagement",
     "Name": "resourcekey",
-    "DisplayName": "Clé de ressource",
-    "ShortDisplayName": "Clé de ressource",
-    "Description": "Clé de ressource",
-    "LastUpdated": "2022-03-18T10:41:54.1897359+00:00",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "Cl\u00E9 de ressource",
+    "ShortDisplayName": "Cl\u00E9 de ressource",
+    "Description": "Cl\u00E9 de ressource",
+    "LastUpdated": "2026-07-28T08:45:57.2390683\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
@@ -176,17 +193,19 @@
     "DisplayName": "Afficher dans le menu?",
     "ShortDisplayName": "Afficher dans le menu?",
     "Description": "Afficher dans le menu?",
-    "LastUpdated": "2022-03-18T10:41:54.1900407+00:00",
-    "IncludeInSubSequentImports": true
+    "LastUpdated": "2026-07-28T08:45:57.25078\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "ContentManagement",
     "Name": "translationcreated",
-    "DisplayName": "Traduction créée",
-    "ShortDisplayName": "Traduction créée",
-    "Description": "Traduction créée",
-    "LastUpdated": "2022-03-18T10:41:54.1900219+00:00",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "Traduction cr\u00E9\u00E9e",
+    "ShortDisplayName": "Traduction cr\u00E9\u00E9e",
+    "Description": "Traduction cr\u00E9\u00E9e",
+    "LastUpdated": "2026-07-28T08:45:57.2623693\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   }
 ]

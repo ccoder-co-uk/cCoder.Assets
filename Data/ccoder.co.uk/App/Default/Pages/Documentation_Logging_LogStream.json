@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/Logging/LogStream",
+  "Name": "Log Stream",
+  "ShowOnMenus": true,
+  "Order": 10,
+  "LastUpdated": "2026-07-28T09:01:52.6346807\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E\u003Csection class=\u0022docs-value-overview\u0022\u003E\u003Ch2\u003ESee operational behaviour while it happens\u003C/h2\u003E\u003Cp\u003EThe log stream turns persisted application telemetry into a live diagnostic surface. Teams can observe current activity without polling tables or attaching a debugger, shortening the path from a reported problem to useful evidence.\u003C/p\u003E\u003Cp\u003EApp-aware filtering keeps that visibility relevant in a shared platform while the durable log remains available for later investigation.\u003C/p\u003E\u003C/section\u003E\u003Cdiv class=\u0022documentation\u0022\u003E\u003Ch2\u003EAccessing the Log Stream \u003C/h2\u003E\u003Cp\u003EYou access this functionality through the App Management Tabs. From here, you can see any API\n        calls that are being made in the system at the time.\u003C/p\u003E\u003Ch2\u003EThe UI\u003C/h2\u003E\u003Cp\u003EWhen you access the log stream tab, you\u0026rsquo;re greeted with something that looks like this: \u003C/p\u003E\u003Cimg data-ccoder-semantic-image=\u0022true\u0022 src=\u0022[app[root]]Api/DMS/Content/Documentation/Core Documentation/App Management/Log Stream/Logstream-en.png\u0022 style=\u0022display:block;\u0022 /\u003E\u003Cp\u003EHere, you can see the API calls that are made when you hover over the navigation menu in our\n        demo site. The toolbar options at the top of the page allow you toggle on and off \u0026ldquo;Auto Scroll\u0026rdquo;, and select what\n        levels you want to be logged into the console. This allows you to easily debug and see what errors occur from\n        what API calls.\n    \u003C/p\u003E\u003C/div\u003E\u003Csection class=\u0022public-flow-section public-section public-nav-section\u0022\u003E\u003Cdiv class=\u0022public-section-frame\u0022\u003E[component[DetailedNav]]\u003C/div\u003E\u003C/section\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "How to access the portal\u0027s log stream.",
+      "Title": "Log Stream"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

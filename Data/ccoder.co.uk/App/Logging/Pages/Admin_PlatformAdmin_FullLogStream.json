@@ -1,9 +1,10 @@
 {
   "Path": "Admin/PlatformAdmin/FullLogStream",
   "Name": "Full Log Stream",
+  "ResourceKey": "Logging",
   "ShowOnMenus": true,
   "Order": 4,
-  "LastUpdated": "2026-07-31T13:30:00+01:00",
+  "LastUpdated": "2026-07-31T12:31:13.188325\u002B00:00",
   "Layout": "Default",
   "Contents": [
     {
@@ -20,6 +21,6 @@
       "Title": "Full Log Stream"
     }
   ],
-  "ResourceKey": "Logging",
+  "PackageType": "ContentManagement/Page",
   "IncludeInSubSequentImports": false
 }

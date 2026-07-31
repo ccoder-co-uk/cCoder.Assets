@@ -3,12 +3,17 @@
   "Name": "Workflow Designer",
   "ResourceKey": "Workflow",
   "ShowOnMenus": false,
-  "Order": 50,
-  "LastUpdated": "2026-04-30T20:09:38.8956467+01:00",
-  "Layout": "Workflow",
+  "Order": 5,
+  "LastUpdated": "2026-07-30T22:31:26.0676314\u002B00:00",
+  "Layout": "Default",
   "Contents": [
     {
       "CultureId": "",
+      "Name": "body",
+      "Html": "[component[FlowEditor]]"
+    },
+    {
+      "CultureId": "en-GB",
       "Name": "body",
       "Html": "[component[FlowEditor]]"
     }
@@ -21,5 +26,6 @@
       "Title": "Workflow Designer"
     }
   ],
-  "IncludeInSubSequentImports": true
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
 }

@@ -1,0 +1,222 @@
+[
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "name",
+    "DisplayName": "Nom et Pr\u00E9nom",
+    "ShortDisplayName": "Nom et Pr\u00E9nom",
+    "Description": "Nom et Pr\u00E9nom",
+    "LastUpdated": "2022-03-18T10:41:54.189239\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "passwordrules",
+    "DisplayName": "Les mots de passe doivent avoir une longueur minimale de 6 caract\u00E8res et contenir au moins 1 lettre majuscule, au moins 1 lettre minuscule, au moins 1 chiffre, au moins 1 caract\u00E8re non alphanum\u00E9rique",
+    "ShortDisplayName": "Les mots de passe doivent avoir une longueur minimale de 6 caract\u00E8res et contenir au moins 1 lettre majuscule, au moins 1 lettre minuscule, au moins 1 chiffre, au moins 1 caract\u00E8re non alphanum\u00E9rique",
+    "Description": "Les mots de passe doivent avoir une longueur minimale de 6 caract\u00E8res et contenir au moins 1 lettre majuscule, au moins 1 lettre minuscule, au moins 1 chiffre, au moins 1 caract\u00E8re non alphanum\u00E9rique",
+    "LastUpdated": "2022-03-18T10:41:54.1892433\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "resetfailed",
+    "DisplayName": "\u00C9chec de la r\u00E9initialisation",
+    "ShortDisplayName": "\u00C9chec de la r\u00E9initialisation",
+    "Description": "\u00C9chec de la r\u00E9initialisation",
+    "LastUpdated": "2022-03-18T10:41:54.1893183\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "login",
+    "DisplayName": "Se connecter",
+    "ShortDisplayName": "Se connecter",
+    "Description": "Se connecter",
+    "LastUpdated": "2022-03-18T10:41:54.189377\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "logout",
+    "DisplayName": "Se d\u00E9connecter",
+    "ShortDisplayName": "Se d\u00E9connecter",
+    "Description": "Se d\u00E9connecter",
+    "LastUpdated": "2022-03-18T10:41:54.1894134\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "confirmationemailsentto",
+    "DisplayName": "Un e-mail de confirmation a \u00E9t\u00E9 envoy\u00E9 \u00E0",
+    "ShortDisplayName": "Un e-mail de confirmation a \u00E9t\u00E9 envoy\u00E9 \u00E0",
+    "Description": "Un e-mail de confirmation a \u00E9t\u00E9 envoy\u00E9 \u00E0",
+    "LastUpdated": "2022-03-18T10:41:54.1894326\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "passwordsdontmatch",
+    "DisplayName": "Pas de correspondance des mots de passe",
+    "ShortDisplayName": "Pas de correspondance des mots de passe",
+    "Description": "Pas de correspondance des mots de passe",
+    "LastUpdated": "2022-03-18T10:41:54.189437\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "passwordrulesheading",
+    "DisplayName": "R\u00E8gles pour le mot de passe",
+    "ShortDisplayName": "R\u00E8gles pour le mot de passe",
+    "Description": "R\u00E8gles pour le mot de passe",
+    "LastUpdated": "2022-03-18T10:41:54.1894502\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "passwordrequirementsline3",
+    "DisplayName": "Au moins 1 lettre majuscule",
+    "ShortDisplayName": "Au moins 1 lettre majuscule",
+    "Description": "Au moins 1 lettre majuscule",
+    "LastUpdated": "2022-03-18T10:41:54.1894604\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "confirmpassword",
+    "DisplayName": "Confirmez le mot de passe",
+    "ShortDisplayName": "Confirmez le mot de passe",
+    "Description": "Confirmez le mot de passe",
+    "LastUpdated": "2022-03-18T10:41:54.1894778\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "pleaseresolvevalidationissues",
+    "DisplayName": "Veuillez r\u00E9soudre l\u0027(es) anomalie(s) pour la validation ",
+    "ShortDisplayName": "Veuillez r\u00E9soudre l\u0027(es) anomalie(s) pour la validation",
+    "Description": "Veuillez r\u00E9soudre l\u0027(es) anomalie(s) pour la validation",
+    "LastUpdated": "2022-03-18T10:41:54.1895421\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "passworddoesmeetrequirements",
+    "DisplayName": "Le mot de passe r\u00E9pond aux exigences",
+    "ShortDisplayName": "Le mot de passe r\u00E9pond aux exigences",
+    "Description": "Le mot de passe r\u00E9pond aux exigences",
+    "LastUpdated": "2022-03-18T10:41:54.1895612\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "passwordmeetsrequirements",
+    "DisplayName": "Le mot de passe r\u00E9pond aux exigences",
+    "ShortDisplayName": "Le mot de passe r\u00E9pond aux exigences",
+    "Description": "Le mot de passe r\u00E9pond aux exigences",
+    "LastUpdated": "2022-03-18T10:41:54.1895656\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "passwordresetemailtitle",
+    "DisplayName": "E-mail de r\u00E9initialisation du mot de passe",
+    "ShortDisplayName": "E-mail de r\u00E9initialisation du mot de passe",
+    "Description": "E-mail de r\u00E9initialisation du mot de passe",
+    "LastUpdated": "2022-03-18T10:41:54.18957\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "phone",
+    "DisplayName": "Num\u00E9ro de t\u00E9l\u00E9phone",
+    "ShortDisplayName": "Num\u00E9ro de t\u00E9l\u00E9phone",
+    "Description": "Num\u00E9ro de t\u00E9l\u00E9phone",
+    "LastUpdated": "2022-03-18T10:41:54.1895743\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "newrole",
+    "DisplayName": "New Role",
+    "ShortDisplayName": "New Role",
+    "Description": "New Role",
+    "LastUpdated": "2022-03-18T10:41:54.189888\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "passwordrulescontent",
+    "DisplayName": "\u003Cdiv class=\u0022value\u0022\u003E           \t\u003Cul\u003E \t             \u003Cli\u003ELa longueur minimale est de 6 caract\u00E8res\u003C/li\u003E \t             \u003Cli\u003EAu moins 1 chiffre\u003C/li\u003E \t             \u003Cli\u003EAu moins 1 lettre majuscule\u003C/li\u003E \t             \u003Cli\u003EAu moins 1 lettre minuscule\u003C/li\u003E \t             \u003Cli\u003EAu moins 1 caract\u00E8re sp\u00E9cial non alphanum\u00E9rique\u003C/li\u003E \t\u003C/ul\u003E \u003C/div\u003E",
+    "ShortDisplayName": "\u003Cdiv class=\u0022value\u0022\u003E           \t\u003Cul\u003E \t             \u003Cli\u003ELa longueur minimale est de 6 caract\u00E8res\u003C/li\u003E \t             \u003Cli\u003EAu moins 1 chiffre\u003C/li\u003E \t             \u003Cli\u003EAu moins 1 lettre majuscule\u003C/li\u003E \t             \u003Cli\u003EAu moins 1 lettre minuscule\u003C/li\u003E \t             \u003Cli\u003EAu moins 1 caract\u00E8re sp\u00E9cial non alphanum\u00E9rique\u003C/li\u003E \t\u003C/ul\u003E \u003C/div\u003E",
+    "Description": "\u003Cdiv class=\u0022value\u0022\u003E           \t\u003Cul\u003E \t             \u003Cli\u003ELa longueur minimale est de 6 caract\u00E8res\u003C/li\u003E \t             \u003Cli\u003EAu moins 1 chiffre\u003C/li\u003E \t             \u003Cli\u003EAu moins 1 lettre majuscule\u003C/li\u003E \t             \u003Cli\u003EAu moins 1 lettre minuscule\u003C/li\u003E \t             \u003Cli\u003EAu moins 1 caract\u00E8re sp\u00E9cial non alphanum\u00E9rique\u003C/li\u003E \t\u003C/ul\u003E \u003C/div\u003E",
+    "LastUpdated": "2022-03-18T10:41:54.1899326\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "furtherinformationlogin",
+    "DisplayName": "Si vous souhaitez en savoir plus sur le programme [app[name]], \u003Ca href=\u0027/FurtherInformation\u0027\u003ECliquez sur le lien.\u003C/a\u003E",
+    "ShortDisplayName": "Si vous souhaitez en savoir plus sur le programme [app[name]], \u003Ca href=\u0027/FurtherInformation\u0027\u003ECliquez sur le lien.\u003C/a\u003E",
+    "Description": "Si vous souhaitez en savoir plus sur le programme [app[name]], \u003Ca href=\u0027/FurtherInformation\u0027\u003ECliquez sur le lien.\u003C/a\u003E",
+    "LastUpdated": "2024-05-22T10:46:21.4788641\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "furtherinformation",
+    "DisplayName": "Informations suppl\u00E9mentaires",
+    "ShortDisplayName": "Informations suppl\u00E9mentaires",
+    "Description": "Informations suppl\u00E9mentaires",
+    "LastUpdated": "2022-03-18T10:41:54.1906512\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Account",
+    "Name": "furtherinformationvisit",
+    "DisplayName": "Rendez-vous sur Informations suppl\u00E9mentaires.",
+    "ShortDisplayName": "Rendez-vous sur Informations suppl\u00E9mentaires.",
+    "Description": "Rendez-vous sur Informations suppl\u00E9mentaires.",
+    "LastUpdated": "2022-03-18T10:41:54.1906562\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  }
+]

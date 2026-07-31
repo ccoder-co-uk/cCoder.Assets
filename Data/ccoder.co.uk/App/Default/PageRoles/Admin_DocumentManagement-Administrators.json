@@ -1,0 +1,6 @@
+{
+  "Path": "Admin/DocumentManagement",
+  "Role": "Administrators",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

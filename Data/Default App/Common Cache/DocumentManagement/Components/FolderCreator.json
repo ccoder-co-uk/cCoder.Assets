@@ -6,5 +6,6 @@
   "Name": "FolderCreator",
   "Description": null,
   "Key": "DocumentManagement",
+  "PackageType": "ContentManagement/Component",
   "IncludeInSubSequentImports": true
 }

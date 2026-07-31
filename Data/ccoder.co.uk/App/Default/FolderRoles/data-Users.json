@@ -1,0 +1,6 @@
+{
+  "Path": "data",
+  "Name": "Users",
+  "PackageType": "DocumentManagement/FolderRole",
+  "IncludeInSubSequentImports": false
+}

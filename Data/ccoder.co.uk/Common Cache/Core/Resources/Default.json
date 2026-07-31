@@ -18,17 +18,18 @@
         "AppId": 4,
         "Key": "Workflow",
         "Culture": "fr-FR",
-        "DisplayName": "Processus métier enregistré",
-        "ShortDisplayName": "Processus métier enregistré",
+        "DisplayName": "Processus m\u00E9tier enregistr\u00E9",
+        "ShortDisplayName": "Processus m\u00E9tier enregistr\u00E9",
         "Name": "businessprocesssaved",
-        "Description": "\tProcessus métier enregistré",
+        "Description": "\tProcessus m\u00E9tier enregistr\u00E9",
         "LastUpdated": "2021-07-07T09:42:12.1323621Z",
         "LastUpdatedBy": "Guest",
         "CreatedOn": "0001-01-01T00:00:00Z",
         "CreatedBy": null
       }
     ],
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "eventtype",
@@ -39,7 +40,8 @@
     "CreatedOn": "2022-11-16T16:50:10.827Z",
     "LastUpdated": "2022-11-16T16:50:10.827Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Id": 4512,
@@ -70,7 +72,8 @@
         "CreatedBy": null
       }
     ],
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "migratebp",
@@ -81,7 +84,8 @@
     "CreatedOn": "2022-11-14T15:26:14.205Z",
     "LastUpdated": "2022-11-14T15:26:14.205Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Name": "onexecutioncomplete",
@@ -92,7 +96,8 @@
     "CreatedOn": "2021-11-02T12:01:18.853Z",
     "LastUpdated": "2021-11-02T12:01:18.853Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Id": 4526,
@@ -123,7 +128,8 @@
         "CreatedBy": null
       }
     ],
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Id": 4510,
@@ -154,6 +160,7 @@
         "CreatedBy": null
       }
     ],
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   }
 ]

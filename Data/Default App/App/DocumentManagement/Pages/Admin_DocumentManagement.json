@@ -3,8 +3,8 @@
   "Name": "Document Management",
   "ResourceKey": "DocumentManagement",
   "ShowOnMenus": true,
-  "Order": 20,
-  "LastUpdated": "2026-04-30T20:09:39.3213569+01:00",
+  "Order": 2,
+  "LastUpdated": "2026-07-30T23:31:25.1141686+01:00",
   "Layout": "Default",
   "Contents": [
     {
@@ -21,6 +21,6 @@
       "Title": "Document Management"
     }
   ],
-  "IncludeInSubSequentImports": true,
-  "PackageType": "ContentManagement/Page"
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": true
 }

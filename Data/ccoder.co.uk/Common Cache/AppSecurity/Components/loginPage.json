@@ -2,9 +2,10 @@
   "Key": "AppSecurity",
   "Name": "loginPage",
   "ResourceKey": "AppSecurity",
-  "Content": "\t\t<h1>Faurecia-Direct Portal Login</h1>\r\n\t<p>The login page has an area for users to login. Clicking on 'Information Centre' will take users to the information centre for vendors who wish to participate in the Faurecia-DIRECT programme (see image).</p>\r\n\t<figure>\r\n\t\t<img class=\"enlarge\" src=\"[api[root]]DMS/Content/Help/LoginPage.png\"/>\r\n\t\t<figcaption><i>Image: Login Page</i></figcaption>\r\n\t</figure>",
-  "Script": "LoginPage = {\r\n    init: async function (app, container ) {\r\n        app = app || session.app;\r\n        container = container || $(\".component[name=LoginPage]\");\r\n    }\r\n}",
+  "Content": "\t\t\u003Ch1\u003EFaurecia-Direct Portal Login\u003C/h1\u003E\r\n\t\u003Cp\u003EThe login page has an area for users to login. Clicking on \u0027Information Centre\u0027 will take users to the information centre for vendors who wish to participate in the Faurecia-DIRECT programme (see image).\u003C/p\u003E\r\n\t\u003Cfigure\u003E\r\n\t\t\u003Cimg class=\u0022enlarge\u0022 src=\u0022[api[root]]DMS/Content/Help/LoginPage.png\u0022/\u003E\r\n\t\t\u003Cfigcaption\u003E\u003Ci\u003EImage: Login Page\u003C/i\u003E\u003C/figcaption\u003E\r\n\t\u003C/figure\u003E",
+  "Script": "LoginPage = {\r\n    init: async function (app, container ) {\r\n        app = app || session.app;\r\n        container = container || $(\u0022.component[name=LoginPage]\u0022);\r\n    }\r\n}",
   "CreatedOn": "2022-03-21T12:37:55.368Z",
   "LastUpdated": "2022-03-21T12:37:55.368Z",
-  "IncludeInSubSequentImports": true
+  "PackageType": "ContentManagement/Component",
+  "IncludeInSubSequentImports": false
 }

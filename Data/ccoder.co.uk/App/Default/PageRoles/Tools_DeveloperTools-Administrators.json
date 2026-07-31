@@ -1,0 +1,6 @@
+{
+  "Path": "Tools/DeveloperTools",
+  "Role": "Administrators",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

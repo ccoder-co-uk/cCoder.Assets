@@ -1,0 +1,6 @@
+{
+  "Path": "content/documentation",
+  "Name": "Users",
+  "PackageType": "DocumentManagement/FolderRole",
+  "IncludeInSubSequentImports": false
+}
