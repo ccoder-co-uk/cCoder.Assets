@@ -3,13 +3,14 @@
   "AppId": 4,
   "Key": "DocumentManagement",
   "Culture": "fr",
-  "DisplayName": "Informations supplémentaires",
-  "ShortDisplayName": "Informations supplémentaires",
+  "DisplayName": "Informations suppl\u00E9mentaires",
+  "ShortDisplayName": "Informations suppl\u00E9mentaires",
   "Name": "furtherinformation",
-  "Description": "Informations supplémentaires",
+  "Description": "Informations suppl\u00E9mentaires",
   "LastUpdated": "2021-07-07T09:42:12.136274Z",
   "LastUpdatedBy": "Guest",
   "CreatedOn": "0001-01-01T00:00:00Z",
   "CreatedBy": null,
-  "IncludeInSubSequentImports": true
+  "PackageType": "ContentManagement/Resource",
+  "IncludeInSubSequentImports": false
 }

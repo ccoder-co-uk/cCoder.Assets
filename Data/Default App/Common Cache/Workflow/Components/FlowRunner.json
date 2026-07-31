@@ -6,5 +6,6 @@
   "Name": "FlowRunner",
   "Description": null,
   "Key": "Workflow",
+  "PackageType": "ContentManagement/Component",
   "IncludeInSubSequentImports": true
 }

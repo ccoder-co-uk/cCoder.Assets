@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/AppSecurity/Metadata",
+  "Name": "Metadata",
+  "ShowOnMenus": true,
+  "Order": 10,
+  "LastUpdated": "2026-07-28T09:01:51.1589858\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E\u003Csection class=\u0022docs-value-overview\u0022\u003E\u003Ch2\u003EA discoverable contract for application authorisation\u003C/h2\u003E\u003Cp\u003EThe metadata view turns the App Security domain into an explorable integration surface. Consumers can see the entities and endpoints behind apps, users, roles and privileges before writing a client, reducing guesswork and accidental coupling to internal implementation.\u003C/p\u003E\u003Cp\u003EUse this reference when building administration tools, integrations or diagnostics that must understand app-local access without crossing into the SSO account boundary.\u003C/p\u003E\u003C/section\u003E[component[DomainMetadata]]\u003Csection class=\u0022public-flow-section public-section public-nav-section\u0022\u003E\u003Cdiv class=\u0022public-section-frame\u0022\u003E[component[DetailedNav]]\u003C/div\u003E\u003C/section\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Explore the entities and endpoints exposed by the App Security domain.",
+      "Title": "App Security Metadata"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

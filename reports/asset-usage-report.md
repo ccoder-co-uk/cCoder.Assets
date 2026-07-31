@@ -6,28 +6,209 @@
 
 | Scope | Resource key | Asset type | Full cut | First-time cut |
 | --- | --- | --- | ---: | ---: |
-| App | `App` | `AppSecurity` | 60 | 60 |
-| App | `App` | `Common` | 8 | 6 |
-| App | `App` | `ContentManagement` | 232 | 224 |
-| App | `App` | `Core` | 14 | 12 |
-| App | `App` | `DocumentManagement` | 70 | 70 |
+| App | `App` | `Account` | 59 | 0 |
+| App | `App` | `addUserDropDown` | 1 | 0 |
+| App | `App` | `AppSecurity` | 42 | 21 |
+| App | `App` | `B2B` | 26 | 0 |
+| App | `App` | `B2B Portal Admin` | 2 | 0 |
+| App | `App` | `CMS` | 222 | 0 |
+| App | `App` | `Common` | 1 | 0 |
+| App | `App` | `ContentManagement` | 220 | 105 |
+| App | `App` | `Core` | 35 | 2 |
+| App | `App` | `CRM` | 78 | 0 |
+| App | `App` | `Debug` | 3 | 0 |
+| App | `App` | `Default` | 541 | 21 |
+| App | `App` | `DevTools` | 1 | 0 |
+| App | `App` | `DMS` | 52 | 0 |
+| App | `App` | `Documentation` | 1 | 0 |
+| App | `App` | `DocumentManagement` | 64 | 32 |
+| App | `App` | `ForgotPassword` | 2 | 1 |
+| App | `App` | `Forms` | 1 | 0 |
+| App | `App` | `Key` | 1 | 0 |
 | App | `App` | `Logging` | 4 | 0 |
-| App | `App` | `Mail` | 4 | 4 |
-| App | `App` | `Security` | 12 | 6 |
-| App | `App` | `Workflow` | 30 | 30 |
-| App | `Common Cache` | `AppSecurity` | 114 | 114 |
-| App | `Common Cache` | `Common` | 16 | 16 |
-| App | `Common Cache` | `ContentManagement` | 290 | 290 |
-| App | `Common Cache` | `Core` | 44 | 44 |
-| App | `Common Cache` | `Default` | 12 | 12 |
-| App | `Common Cache` | `DocumentManagement` | 226 | 226 |
-| App | `Common Cache` | `Logging` | 2 | 2 |
+| App | `App` | `Mail` | 2 | 1 |
+| App | `App` | `notifications` | 1 | 0 |
+| App | `App` | `QueryBuilder` | 1 | 0 |
+| App | `App` | `Register` | 2 | 1 |
+| App | `App` | `Security` | 12 | 0 |
+| App | `App` | `Tools` | 2 | 0 |
+| App | `App` | `Workflow` | 94 | 45 |
+| App | `Common Cache` | `AppSecurity` | 76 | 41 |
+| App | `Common Cache` | `Common` | 30 | 19 |
+| App | `Common Cache` | `ContentManagement` | 356 | 202 |
+| App | `Common Cache` | `Core` | 42 | 24 |
+| App | `Common Cache` | `Default` | 12 | 6 |
+| App | `Common Cache` | `DocumentManagement` | 254 | 211 |
 | App | `Common Cache` | `Mail` | 2 | 2 |
-| App | `Common Cache` | `Security` | 32 | 30 |
-| App | `Common Cache` | `Workflow` | 70 | 70 |
+| App | `Common Cache` | `Security` | 26 | 13 |
+| App | `Common Cache` | `Workflow` | 74 | 40 |
 
 ### Default-key ownership candidates
 
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI003.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI004.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP003.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP004.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP005.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP006.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP007.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP008.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP009.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA_STXA001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA_STXA002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB003.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB004.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB005.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB006.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB007.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXC.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXC_STXC001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXC_STXC002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXEX.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXEX_STXEX001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXEX_STXEX002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXEX_STXEX003.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE003.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE004.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE005.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT003.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT004.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT005.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT006.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT007.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT008.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT009.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT010.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT011.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT012.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT013.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF003.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXM.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXMG.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXMG_STXMG001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXMG_STXMG002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXM_STXM001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXM_STXM002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXM_STXM003.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXO.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXO_STXO001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXO_STXO002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXP.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXP_STXP001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXP_STXP002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXP_STXP003.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST003.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST004.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST005.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST006.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0003.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0004.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0005.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0006.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0007.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0008.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0009.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0010.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0011.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0012.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0013.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0014.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0015.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0016.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0017.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0018.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0019.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0020.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0021.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0022.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0023.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Root.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/_About-The-Creator.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/_Platform-Domains.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/_Platform-Domains_AI.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/_Platform-Domains_App-Security.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/_Platform-Domains_Client-Relationship-Management.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/_Platform-Domains_Code-Analysis.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/_Platform-Domains_Content-Management.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/_Platform-Domains_Data.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/_Platform-Domains_Document-Management.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/_Platform-Domains_Eventing.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/_Platform-Domains_Logging.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/_Platform-Domains_Mail.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/_Platform-Domains_Packaging.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/_Platform-Domains_Security.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/_Platform-Domains_Workflow.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/_The-Standard-in-cCoder.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/_The-Value-of-Core-Business-Systems.json`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#1`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#10`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#11`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#12`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#13`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#14`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#15`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#16`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#17`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#18`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#19`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#2`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#20`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#21`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#22`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#23`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#3`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#4`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#5`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#6`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#7`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#8`
+- [ ] `ccoder.co.uk/App/Default/Resources/Default.json#9`
+- [ ] `ccoder.co.uk/App/Default/Resources/en-GB.json#1`
+- [ ] `ccoder.co.uk/App/Default/Resources/en-GB.json#10`
+- [ ] `ccoder.co.uk/App/Default/Resources/en-GB.json#11`
+- [ ] `ccoder.co.uk/App/Default/Resources/en-GB.json#12`
+- [ ] `ccoder.co.uk/App/Default/Resources/en-GB.json#13`
+- [ ] `ccoder.co.uk/App/Default/Resources/en-GB.json#14`
+- [ ] `ccoder.co.uk/App/Default/Resources/en-GB.json#2`
+- [ ] `ccoder.co.uk/App/Default/Resources/en-GB.json#3`
+- [ ] `ccoder.co.uk/App/Default/Resources/en-GB.json#4`
+- [ ] `ccoder.co.uk/App/Default/Resources/en-GB.json#5`
+- [ ] `ccoder.co.uk/App/Default/Resources/en-GB.json#6`
+- [ ] `ccoder.co.uk/App/Default/Resources/en-GB.json#7`
+- [ ] `ccoder.co.uk/App/Default/Resources/en-GB.json#8`
+- [ ] `ccoder.co.uk/App/Default/Resources/en-GB.json#9`
+- [ ] `ccoder.co.uk/App/Default/Resources/fr-FR.json`
 - [ ] `ccoder.co.uk/Common Cache/Default/Resources/Default.json#1`
 - [ ] `ccoder.co.uk/Common Cache/Default/Resources/Default.json#2`
 - [ ] `ccoder.co.uk/Common Cache/Default/Resources/Default.json#3`
@@ -51,6 +232,66 @@
 
 ### Directory and payload resource-key mismatches
 
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Components/CultureFlags.json`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Components/UserProfile.json`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#1`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#10`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#11`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#12`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#13`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#14`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#15`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#16`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#17`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#18`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#19`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#2`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#20`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#21`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#22`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#23`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#24`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#25`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#26`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#27`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#28`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#29`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#3`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#30`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#31`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#4`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#5`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#6`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#7`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#8`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#9`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/en-GB.json`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#1`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#10`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#11`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#12`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#13`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#14`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#15`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#16`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#17`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#18`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#19`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#2`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#20`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#3`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#4`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#5`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#6`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#7`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#8`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr-FR.json#9`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr.json#1`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr.json#2`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr.json#3`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr.json#4`
+- [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr.json#5`
+- [ ] `App -> addUserDropDown — ccoder.co.uk/App/addUserDropDown/Resources/Default.json`
 - [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Components/Login.json`
 - [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Components/PasswordReset.json`
 - [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Components/Register.json`
@@ -93,12 +334,260 @@
 - [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/fr-FR.json#5`
 - [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/fr-FR.json#6`
 - [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/fr-FR.json#7`
-- [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Components/AppCreator.json`
+- [ ] `App -> B2B Portal Admin — ccoder.co.uk/App/B2B Portal Admin/Resources/Default.json#1`
+- [ ] `App -> B2B Portal Admin — ccoder.co.uk/App/B2B Portal Admin/Resources/Default.json#2`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#1`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#10`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#11`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#12`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#13`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#14`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#15`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#16`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#17`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#18`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#19`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#2`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#20`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#21`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#22`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#3`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#4`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#5`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#6`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#7`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#8`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#9`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/en-GB.json#1`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/en-GB.json#2`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/fr-FR.json#1`
+- [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/fr-FR.json#2`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Components/CalendarManagement.json`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Components/CMS.json`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Components/PortalBuilderForm.json`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Components/TestimonialManagement.json`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#1`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#10`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#100`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#101`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#102`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#103`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#104`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#105`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#106`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#107`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#108`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#109`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#11`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#110`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#111`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#112`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#113`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#114`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#115`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#116`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#117`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#118`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#119`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#12`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#120`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#121`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#122`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#123`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#124`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#125`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#126`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#127`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#128`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#129`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#13`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#130`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#131`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#132`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#133`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#134`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#135`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#136`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#137`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#138`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#139`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#14`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#140`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#15`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#16`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#17`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#18`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#19`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#2`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#20`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#21`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#22`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#23`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#24`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#25`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#26`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#27`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#28`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#29`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#3`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#30`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#31`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#32`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#33`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#34`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#35`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#36`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#37`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#38`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#39`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#4`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#40`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#41`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#42`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#43`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#44`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#45`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#46`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#47`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#48`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#49`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#5`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#50`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#51`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#52`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#53`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#54`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#55`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#56`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#57`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#58`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#59`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#6`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#60`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#61`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#62`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#63`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#64`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#65`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#66`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#67`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#68`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#69`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#7`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#70`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#71`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#72`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#73`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#74`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#75`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#76`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#77`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#78`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#79`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#8`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#80`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#81`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#82`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#83`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#84`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#85`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#86`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#87`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#88`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#89`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#9`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#90`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#91`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#92`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#93`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#94`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#95`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#96`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#97`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#98`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/Default.json#99`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/en-GB.json#1`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/en-GB.json#2`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/en-GB.json#3`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/en-GB.json#4`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/en-GB.json#5`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#1`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#10`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#11`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#12`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#13`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#14`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#15`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#16`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#17`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#18`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#19`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#2`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#20`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#21`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#22`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#23`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#24`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#25`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#26`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#27`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#28`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#29`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#3`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#30`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#31`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#32`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#33`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#34`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#35`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#36`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#37`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#38`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#39`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#4`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#40`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#41`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#42`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#43`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#44`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#45`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#46`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#47`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#48`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#49`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#5`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#50`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#51`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#52`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#53`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#54`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#55`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#56`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#57`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#58`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#59`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#6`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#60`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#61`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#62`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#63`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#64`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#65`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#66`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#67`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#68`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#69`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#7`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#70`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#71`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#72`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#73`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#8`
+- [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#9`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Components/CommonCacheComponents.json`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Components/CommonCacheEndpoint.json`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Components/CommonCacheResources.json`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Components/CommonCacheScripts.json`
-- [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Components/CoreManagement.json`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Pages/Admin_AppManagement.json`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Pages/Admin_PlatformAdmin_CommonCacheEndpoint.json`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Resources/Default.json#1`
@@ -205,12 +694,10 @@
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Resources/fr-FR.json#7`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Resources/fr-FR.json#8`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Resources/fr-FR.json#9`
-- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/AppCreator.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheComponents.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheEndpoint.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheResources.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheScripts.json`
-- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CoreManagement.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Pages/Admin_AppManagement.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Pages/Admin_PlatformAdmin_CommonCacheEndpoint.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#1`
@@ -320,13 +807,338 @@
 - [ ] `App -> Core — ccoder.co.uk/App/Core/Pages/Admin.json`
 - [ ] `App -> Core — ccoder.co.uk/App/Core/Pages/Admin_LogStream.json`
 - [ ] `App -> Core — ccoder.co.uk/App/Core/Pages/Admin_PlatformAdmin.json`
-- [ ] `App -> Core — ccoder.co.uk/App/Core/Pages/Root.json`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/Default.json#1`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/Default.json#10`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/Default.json#11`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/Default.json#12`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/Default.json#13`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/Default.json#14`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/Default.json#2`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/Default.json#3`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/Default.json#4`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/Default.json#5`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/Default.json#6`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/Default.json#7`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/Default.json#8`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/Default.json#9`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/en-GB.json#1`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/en-GB.json#10`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/en-GB.json#11`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/en-GB.json#12`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/en-GB.json#13`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/en-GB.json#14`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/en-GB.json#2`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/en-GB.json#3`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/en-GB.json#4`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/en-GB.json#5`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/en-GB.json#6`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/en-GB.json#7`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/en-GB.json#8`
+- [ ] `App -> Core — ccoder.co.uk/App/Core/Resources/en-GB.json#9`
 - [ ] `App -> Core — Default App/App/Core/Pages/Admin.json`
 - [ ] `App -> Core — Default App/App/Core/Pages/Admin_LogStream.json`
 - [ ] `App -> Core — Default App/App/Core/Pages/Admin_PlatformAdmin.json`
 - [ ] `App -> Core — Default App/App/Core/Pages/Root.json`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Components/AppList.json`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Components/Client.json`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Components/ClientFiles.json`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Components/ClientList.json`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Components/ClientState.json`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Components/HistoryList.json`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Components/TenantDetailsManagement.json`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Components/TenantThemeManagement.json`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Components/ThemeList.json`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#1`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#10`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#11`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#12`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#13`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#14`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#15`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#16`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#17`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#18`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#19`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#2`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#20`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#21`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#22`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#23`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#24`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#25`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#26`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#27`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#28`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#29`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#3`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#30`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#31`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#32`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#33`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#34`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#35`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#36`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#37`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#38`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#39`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#4`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#40`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#41`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#42`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#43`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#44`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#45`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#46`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#47`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#48`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#49`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#5`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#50`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#51`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#52`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#53`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#54`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#55`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#56`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#57`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#58`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#59`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#6`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#60`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#61`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#7`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#8`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/Default.json#9`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#1`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#2`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#3`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#4`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#5`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#6`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#7`
+- [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#8`
+- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/ApiTester.json`
+- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/DomainMetadata.json`
+- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/Metadata.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI003.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI004.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP003.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP004.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP005.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP006.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP007.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP008.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP009.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA_STXA001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA_STXA002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB003.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB004.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB005.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB006.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB007.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXC.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXC_STXC001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXC_STXC002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXEX.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXEX_STXEX001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXEX_STXEX002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXEX_STXEX003.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE003.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE004.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE005.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT003.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT004.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT005.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT006.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT007.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT008.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT009.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT010.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT011.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT012.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT013.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF003.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXM.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXMG.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXMG_STXMG001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXMG_STXMG002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXM_STXM001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXM_STXM002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXM_STXM003.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXO.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXO_STXO001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXO_STXO002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXP.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXP_STXP001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXP_STXP002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXP_STXP003.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST003.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST004.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST005.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST006.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0003.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0004.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0005.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0006.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0007.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0008.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0009.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0010.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0011.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0012.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0013.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0014.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0015.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0016.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0017.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0018.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0019.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0020.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0021.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0022.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0023.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Root.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_About-The-Creator.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_Platform-Domains.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_Platform-Domains_AI.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_Platform-Domains_App-Security.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_Platform-Domains_Client-Relationship-Management.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_Platform-Domains_Code-Analysis.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_Platform-Domains_Content-Management.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_Platform-Domains_Data.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_Platform-Domains_Document-Management.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_Platform-Domains_Eventing.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_Platform-Domains_Logging.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_Platform-Domains_Mail.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_Platform-Domains_Packaging.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_Platform-Domains_Security.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_Platform-Domains_Workflow.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_The-Standard-in-cCoder.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_The-Value-of-Core-Business-Systems.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#1`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#10`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#11`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#12`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#13`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#14`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#15`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#16`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#17`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#18`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#19`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#2`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#20`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#21`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#22`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#23`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#3`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#4`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#5`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#6`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#7`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#8`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/Default.json#9`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/en-GB.json#1`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/en-GB.json#10`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/en-GB.json#11`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/en-GB.json#12`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/en-GB.json#13`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/en-GB.json#14`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/en-GB.json#2`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/en-GB.json#3`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/en-GB.json#4`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/en-GB.json#5`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/en-GB.json#6`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/en-GB.json#7`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/en-GB.json#8`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/en-GB.json#9`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/fr-FR.json`
+- [ ] `App -> DevTools — ccoder.co.uk/App/DevTools/Components/DevTools.json`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#1`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#10`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#11`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#12`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#13`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#14`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#15`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#16`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#17`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#18`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#19`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#2`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#20`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#21`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#22`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#23`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#24`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#25`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#26`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#27`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#28`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#29`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#3`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#30`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#31`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#32`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#4`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#5`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#6`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#7`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#8`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#9`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#1`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#10`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#11`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#12`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#13`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#14`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#15`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#16`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#17`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#18`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#19`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#2`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#20`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#3`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#4`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#5`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#6`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#7`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#8`
+- [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#9`
+- [ ] `App -> Documentation — ccoder.co.uk/App/Documentation/Components/Documentation.json`
 - [ ] `App -> DocumentManagement — ccoder.co.uk/App/DocumentManagement/Pages/Admin_DocumentManagement.json`
-- [ ] `App -> DocumentManagement — ccoder.co.uk/App/DocumentManagement/Pages/Clients_Client.json`
 - [ ] `App -> DocumentManagement — ccoder.co.uk/App/DocumentManagement/Resources/Default.json#1`
 - [ ] `App -> DocumentManagement — ccoder.co.uk/App/DocumentManagement/Resources/Default.json#10`
 - [ ] `App -> DocumentManagement — ccoder.co.uk/App/DocumentManagement/Resources/Default.json#11`
@@ -390,56 +1202,137 @@
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/fr-FR.json#4`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/fr-FR.json#5`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/fr-FR.json#6`
-- [ ] `App -> ForgotPassword — ccoder.co.uk/App/AppSecurity/Templates/ForgotPassword.json`
-- [ ] `App -> ForgotPassword — Default App/App/AppSecurity/Templates/ForgotPassword.json`
+- [ ] `App -> ForgotPassword — ccoder.co.uk/App/ForgotPassword/Templates/ForgotPassword.json`
+- [ ] `App -> ForgotPassword — Default App/App/ForgotPassword/Templates/ForgotPassword.json`
+- [ ] `App -> Forms — ccoder.co.uk/App/Forms/Components/FormManagement.json`
+- [ ] `App -> Key — ccoder.co.uk/App/Key/Resources/Culture.json`
+- [ ] `App -> Logging — ccoder.co.uk/App/Logging/Components/FullLogStream.json`
 - [ ] `App -> Logging — ccoder.co.uk/App/Logging/Pages/Admin_PlatformAdmin_FullLogStream.json`
+- [ ] `App -> Logging — Default App/App/Logging/Components/FullLogStream.json`
 - [ ] `App -> Logging — Default App/App/Logging/Pages/Admin_PlatformAdmin_FullLogStream.json`
 - [ ] `App -> Mail — ccoder.co.uk/App/Mail/Pages/Admin_MailManagement.json`
 - [ ] `App -> Mail — Default App/App/Mail/Pages/Admin_MailManagement.json`
-- [ ] `App -> Register — ccoder.co.uk/App/AppSecurity/Templates/ConfirmRegistration.json`
-- [ ] `App -> Register — Default App/App/AppSecurity/Templates/ConfirmRegistration.json`
+- [ ] `App -> notifications — ccoder.co.uk/App/notifications/Resources/Default.json`
+- [ ] `App -> QueryBuilder — ccoder.co.uk/App/QueryBuilder/Components/QueryBuilder.json`
+- [ ] `App -> Register — ccoder.co.uk/App/Register/Templates/ConfirmRegistration.json`
+- [ ] `App -> Register — Default App/App/Register/Templates/ConfirmRegistration.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/SSORoleManagement.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/SSORolePrivManagement.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/SSORoleUserManagement.json`
-- [ ] `App -> Security — ccoder.co.uk/App/Security/Components/TenantActivity.json`
+- [ ] `App -> Security — ccoder.co.uk/App/Security/Components/TenantAppManagement.json`
+- [ ] `App -> Security — ccoder.co.uk/App/Security/Components/TenantManagement.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Pages/Admin_PlatformAdmin_Tenants.json`
 - [ ] `App -> Security — Default App/App/Security/Components/SSORoleManagement.json`
 - [ ] `App -> Security — Default App/App/Security/Components/SSORolePrivManagement.json`
 - [ ] `App -> Security — Default App/App/Security/Components/SSORoleUserManagement.json`
-- [ ] `App -> Security — Default App/App/Security/Components/TenantActivity.json`
+- [ ] `App -> Security — Default App/App/Security/Components/TenantAppManagement.json`
+- [ ] `App -> Security — Default App/App/Security/Components/TenantManagement.json`
 - [ ] `App -> Security — Default App/App/Security/Pages/Admin_PlatformAdmin_Tenants.json`
+- [ ] `App -> Tools — ccoder.co.uk/App/Tools/Components/GridBuilder.json`
+- [ ] `App -> Tools — ccoder.co.uk/App/Tools/Components/LoginToEnvironment.json`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Components/MasterdataImportResults.json`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Components/TransactionImportResults.json`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Pages/Admin_WorkflowDesigner.json`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Pages/Admin_Workflows.json`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Pages/Admin_Workflows_Editor.json`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#1`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#10`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#11`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#12`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#13`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#14`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#15`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#16`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#17`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#18`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#19`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#2`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#20`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#21`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#3`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#4`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#5`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#6`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#7`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#8`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/Default.json#9`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#1`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#10`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#11`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#12`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#13`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#14`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#15`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#16`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#17`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#18`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#19`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#2`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#20`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#21`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#3`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#4`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#5`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#6`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#7`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#8`
+- [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Resources/en-GB.json#9`
 - [ ] `App -> Workflow — Default App/App/Workflow/Pages/Admin_WorkflowDesigner.json`
 - [ ] `App -> Workflow — Default App/App/Workflow/Pages/Admin_Workflows.json`
 - [ ] `App -> Workflow — Default App/App/Workflow/Pages/Admin_Workflows_Editor.json`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#1`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#10`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#11`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#12`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#13`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#14`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#15`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#16`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#17`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#18`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#19`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#2`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#20`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#21`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#3`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#4`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#5`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#6`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#7`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#8`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#9`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#1`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#10`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#11`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#12`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#13`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#14`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#15`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#16`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#17`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#18`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#19`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#2`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#20`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#21`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#3`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#4`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#5`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#6`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#7`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#8`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#9`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/FlowSettings.json`
+- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/Login.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/loginPage.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/LoginToEnvironment.json`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/MyRegistrations.json`
+- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/PasswordReset.json`
+- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/Register.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/RegistrationsHome.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/ResetPassword.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/RoleManagement.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/RolePrivManagement.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/RoleUserManagement.json`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/SummaryHome.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/UserProfile.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#1`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#10`
@@ -451,23 +1344,8 @@
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#16`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#17`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#18`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#19`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#2`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#20`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#21`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#22`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#23`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#24`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#25`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#26`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#27`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#28`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#29`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#3`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#30`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#31`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#32`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#33`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#4`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#5`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#6`
@@ -475,10 +1353,6 @@
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#8`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/Default.json#9`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/fr-FR.json#1`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/fr-FR.json#10`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/fr-FR.json#11`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/fr-FR.json#12`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/fr-FR.json#13`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/fr-FR.json#2`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/fr-FR.json#3`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/fr-FR.json#4`
@@ -486,17 +1360,17 @@
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/fr-FR.json#6`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/fr-FR.json#7`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/fr-FR.json#8`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Resources/fr-FR.json#9`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/FlowSettings.json`
+- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/Login.json`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/loginPage.json`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/LoginToEnvironment.json`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/MyRegistrations.json`
+- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/PasswordReset.json`
+- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/Register.json`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/RegistrationsHome.json`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/ResetPassword.json`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/RoleManagement.json`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/RolePrivManagement.json`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/RoleUserManagement.json`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/SummaryHome.json`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/UserProfile.json`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#1`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#10`
@@ -508,23 +1382,8 @@
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#16`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#17`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#18`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#19`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#2`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#20`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#21`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#22`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#23`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#24`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#25`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#26`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#27`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#28`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#29`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#3`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#30`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#31`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#32`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#33`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#4`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#5`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#6`
@@ -532,10 +1391,6 @@
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#8`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/Default.json#9`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#1`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#10`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#11`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#12`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#13`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#2`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#3`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#4`
@@ -543,12 +1398,18 @@
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#6`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#7`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#8`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#9`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Components/DetailedNav.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Components/HistoryList.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Components/Notifications.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Components/ScriptRunner.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Components/Sidenav.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Components/TopNav.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Resources/Default.json#1`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Resources/Default.json#2`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Resources/Default.json#3`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Resources/Default.json#4`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Resources/Default.json#5`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Resources/Default.json#6`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/DefaultResourcing.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Execute.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/KendoCultures.json`
@@ -556,10 +1417,18 @@
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Components/HistoryList.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Components/Notifications.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Components/ScriptRunner.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Components/Sidenav.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Components/TopNav.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#1`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#2`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#3`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#4`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#5`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#6`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/DefaultResourcing.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Execute.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/KendoCultures.json`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/AppCreator.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/AppList.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/AppManagement.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/AppMigrator.json`
@@ -572,6 +1441,7 @@
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/Colours.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/ComponentManagement.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/ComponentMigration.json`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/CoreManagement.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/CultureFlags.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/Etc.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/Font.json`
@@ -592,7 +1462,6 @@
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/ResourceManagement.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/ResourceMigration.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/Shadows.json`
-- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/Sidenav.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/TemplateManagement.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/TemplateMigration.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/ThemeBuilder.json`
@@ -669,8 +1538,33 @@
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/Default.json#70`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/Default.json#71`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/Default.json#72`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/Default.json#73`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/Default.json#74`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/Default.json#75`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/Default.json#76`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/Default.json#77`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/Default.json#78`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/Default.json#79`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/Default.json#8`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/Default.json#80`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/Default.json#81`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/Default.json#82`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/Default.json#83`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/Default.json#84`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/Default.json#9`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/en-GB.json#1`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/en-GB.json#10`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/en-GB.json#11`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/en-GB.json#12`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/en-GB.json#13`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/en-GB.json#2`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/en-GB.json#3`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/en-GB.json#4`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/en-GB.json#5`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/en-GB.json#6`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/en-GB.json#7`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/en-GB.json#8`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/en-GB.json#9`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#1`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#10`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#11`
@@ -698,13 +1592,21 @@
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#31`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#32`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#33`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#34`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#35`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#36`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#37`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#38`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#39`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#4`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#40`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#5`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#6`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#7`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#8`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#9`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/MigrateApp.json`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/AppCreator.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/AppList.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/AppManagement.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/AppMigrator.json`
@@ -717,6 +1619,7 @@
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/Colours.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/ComponentManagement.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/ComponentMigration.json`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/CoreManagement.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/CultureFlags.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/Etc.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/Font.json`
@@ -737,7 +1640,6 @@
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/ResourceManagement.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/ResourceMigration.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/Shadows.json`
-- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/Sidenav.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/TemplateManagement.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/TemplateMigration.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/ThemeBuilder.json`
@@ -814,8 +1716,33 @@
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/Default.json#70`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/Default.json#71`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/Default.json#72`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/Default.json#73`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/Default.json#74`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/Default.json#75`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/Default.json#76`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/Default.json#77`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/Default.json#78`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/Default.json#79`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/Default.json#8`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/Default.json#80`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/Default.json#81`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/Default.json#82`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/Default.json#83`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/Default.json#84`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/Default.json#9`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/en-GB.json#1`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/en-GB.json#10`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/en-GB.json#11`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/en-GB.json#12`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/en-GB.json#13`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/en-GB.json#2`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/en-GB.json#3`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/en-GB.json#4`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/en-GB.json#5`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/en-GB.json#6`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/en-GB.json#7`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/en-GB.json#8`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/en-GB.json#9`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#1`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#10`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#11`
@@ -843,7 +1770,14 @@
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#31`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#32`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#33`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#34`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#35`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#36`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#37`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#38`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#39`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#4`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#40`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#5`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#6`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#7`
@@ -871,7 +1805,6 @@
 - [ ] `Common Cache -> Core — ccoder.co.uk/Common Cache/Core/Resources/fr-FR.json#4`
 - [ ] `Common Cache -> Core — ccoder.co.uk/Common Cache/Core/Resources/fr-FR.json#5`
 - [ ] `Common Cache -> Core — ccoder.co.uk/Common Cache/Core/Resources/fr-FR.json#6`
-- [ ] `Common Cache -> Core — ccoder.co.uk/Common Cache/Core/Resources/fr-FR.json#7`
 - [ ] `Common Cache -> Core — Default App/Common Cache/Core/Components/ApiTester.json`
 - [ ] `Common Cache -> Core — Default App/Common Cache/Core/Components/BackgroundJobs.json`
 - [ ] `Common Cache -> Core — Default App/Common Cache/Core/Components/BPEditor.json`
@@ -893,7 +1826,6 @@
 - [ ] `Common Cache -> Core — Default App/Common Cache/Core/Resources/fr-FR.json#4`
 - [ ] `Common Cache -> Core — Default App/Common Cache/Core/Resources/fr-FR.json#5`
 - [ ] `Common Cache -> Core — Default App/Common Cache/Core/Resources/fr-FR.json#6`
-- [ ] `Common Cache -> Core — Default App/Common Cache/Core/Resources/fr-FR.json#7`
 - [ ] `Common Cache -> Default — ccoder.co.uk/Common Cache/Default/Resources/Default.json#1`
 - [ ] `Common Cache -> Default — ccoder.co.uk/Common Cache/Default/Resources/Default.json#2`
 - [ ] `Common Cache -> Default — ccoder.co.uk/Common Cache/Default/Resources/Default.json#3`
@@ -1001,13 +1933,27 @@
 - [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#75`
 - [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#76`
 - [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#77`
+- [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#78`
+- [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#79`
 - [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#8`
+- [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#80`
+- [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#81`
+- [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#82`
+- [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#83`
+- [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#84`
+- [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#85`
+- [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#86`
+- [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#87`
+- [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#88`
+- [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#89`
 - [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#9`
+- [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#90`
+- [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#91`
+- [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/Default.json#92`
 - [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/fr-FR.json#1`
 - [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/fr-FR.json#10`
 - [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/fr-FR.json#11`
 - [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/fr-FR.json#12`
-- [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/fr-FR.json#13`
 - [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/fr-FR.json#2`
 - [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/fr-FR.json#3`
 - [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Resources/fr-FR.json#4`
@@ -1114,13 +2060,27 @@
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#75`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#76`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#77`
+- [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#78`
+- [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#79`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#8`
+- [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#80`
+- [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#81`
+- [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#82`
+- [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#83`
+- [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#84`
+- [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#85`
+- [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#86`
+- [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#87`
+- [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#88`
+- [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#89`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#9`
+- [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#90`
+- [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#91`
+- [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/Default.json#92`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/fr-FR.json#1`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/fr-FR.json#10`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/fr-FR.json#11`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/fr-FR.json#12`
-- [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/fr-FR.json#13`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/fr-FR.json#2`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/fr-FR.json#3`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/fr-FR.json#4`
@@ -1132,14 +2092,10 @@
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/fr.json`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Scripts/FileVersionsGrid.json`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Scripts/FolderManagementGrid.json`
-- [ ] `Common Cache -> Logging — ccoder.co.uk/Common Cache/Logging/Components/FullLogStream.json`
-- [ ] `Common Cache -> Logging — Default App/Common Cache/Logging/Components/FullLogStream.json`
 - [ ] `Common Cache -> Mail — ccoder.co.uk/Common Cache/Mail/Components/MailManagement.json`
 - [ ] `Common Cache -> Mail — Default App/Common Cache/Mail/Components/MailManagement.json`
-- [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Components/TenantAppManagement.json`
-- [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Components/TenantManagement.json`
+- [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Components/TenantActivity.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#1`
-- [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#10`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#2`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#3`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#4`
@@ -1147,15 +2103,12 @@
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#6`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#7`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#8`
-- [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#9`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Scripts/CoreDailyUsageApiDetailsGrid.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Scripts/CoreDailyUsageGrid.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Scripts/CoreDailyUsagePageDetailsGrid.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Scripts/CoreDailyUsageUserDetailsGrid.json`
-- [ ] `Common Cache -> Security — Default App/Common Cache/Security/Components/TenantAppManagement.json`
-- [ ] `Common Cache -> Security — Default App/Common Cache/Security/Components/TenantManagement.json`
+- [ ] `Common Cache -> Security — Default App/Common Cache/Security/Components/TenantActivity.json`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#1`
-- [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#10`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#2`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#3`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#4`
@@ -1163,7 +2116,6 @@
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#6`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#7`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#8`
-- [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#9`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Scripts/CoreDailyUsageApiDetailsGrid.json`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Scripts/CoreDailyUsageGrid.json`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Scripts/CoreDailyUsagePageDetailsGrid.json`
@@ -1192,8 +2144,6 @@
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/Default.json#18`
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/Default.json#19`
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/Default.json#2`
-- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/Default.json#20`
-- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/Default.json#21`
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/Default.json#3`
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/Default.json#4`
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/Default.json#5`
@@ -1201,6 +2151,10 @@
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/Default.json#7`
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/Default.json#8`
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/Default.json#9`
+- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/en-GB.json#1`
+- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/en-GB.json#2`
+- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/en-GB.json#3`
+- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/en-GB.json#4`
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/fr-FR.json#1`
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/fr-FR.json#2`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Components/ActivityEditor.json`
@@ -1227,8 +2181,6 @@
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/Default.json#18`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/Default.json#19`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/Default.json#2`
-- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/Default.json#20`
-- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/Default.json#21`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/Default.json#3`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/Default.json#4`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/Default.json#5`
@@ -1236,6 +2188,10 @@
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/Default.json#7`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/Default.json#8`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/Default.json#9`
+- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/en-GB.json#1`
+- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/en-GB.json#2`
+- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/en-GB.json#3`
+- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/en-GB.json#4`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/fr-FR.json#1`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/fr-FR.json#2`
 

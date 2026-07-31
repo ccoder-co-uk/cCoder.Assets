@@ -1,0 +1,25 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXFORMAT/STXFORMAT005",
+  "Name": "STXFORMAT005",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 50,
+  "LastUpdated": "2026-07-28T09:01:52.3346152\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cstyle class=\u0022code-analysis-syntax\u0022\u003E\n.docs-content pre{overflow-x:auto;margin:1rem 0 1.75rem;padding:1.25rem 1.4rem;border:1px solid rgba(20,42,72,.16);border-left:4px solid #0e6fae;border-radius:4px;background:#f7fbfe;color:#10263a}\n.docs-content pre code{white-space:pre;color:inherit;background:transparent;font-size:1rem;line-height:1.65}\n.language-csharp .syntax-comment{color:#587287;font-style:italic}.language-csharp .syntax-string{color:#8a3d12}.language-csharp .syntax-keyword{color:#6542a6;font-weight:700}.language-csharp .syntax-number{color:#096b65}.language-csharp .syntax-type{color:#0a6680;font-weight:600}\n\u003C/style\u003E\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003EMethod call arguments must declare their parameter names.\u003C/p\u003E\u003C/header\u003E\u003Ch2\u003EWhat The Standard says\u003C/h2\u003E\u003Cp\u003E\u0026ldquo;Level 0\u0026rdquo; \u0026mdash; The Standard requires code to be understandable by entry-level engineers. Named arguments expose the meaning of each value without requiring the reader to navigate to the called method. \u003Ca href=\u0022https://github.com/hassanhabib/The-Standard/blob/master/0.%20Introduction/0.2%20Principles.md#023-level-0\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003Eread it here\u003C/a\u003E.\u003Cbr\u003E\u0026ldquo;collector\u0026rdquo; \u0026mdash; The validation collector examples name arguments such as message, rule and parameter to keep dense rule construction readable. The analyser generalizes that canonical style. \u003Ca href=\u0022https://github.com/hassanhabib/The-Standard/blob/master/2.%20Services/2.1%20Foundations/2.1%20Foundations.md#213112-rules--validations-collector\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003Eread it here\u003C/a\u003E.\u003C/p\u003E\u003Ch2\u003EWhy it matters\u003C/h2\u003E\u003Cp\u003ENamed arguments reveal the contract of a call at its point of use, particularly where several values share a type. This supports the Standard\u0027s preference for self-explanatory code and reduces mistakes caused by positional ordering.\u003C/p\u003E\u003Ch2\u003EBad code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E\u003Cspan class=\u0022syntax-comment\u0022\u003E// Violates STXFORMAT005: Method call arguments must declare their parameter names.\u003C/span\u003E\nservice.\u003Cspan class=\u0022syntax-type\u0022\u003EAddStudent\u003C/span\u003E(student, \u003Cspan class=\u0022syntax-keyword\u0022\u003Etrue\u003C/span\u003E);\u003C/code\u003E\u003C/pre\u003E\u003Ch2\u003EGood code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E\u003Cspan class=\u0022syntax-comment\u0022\u003E// Follows STXFORMAT005\u003C/span\u003E\nservice.\u003Cspan class=\u0022syntax-type\u0022\u003EAddStudent\u003C/span\u003E(newStudent: student, notify: \u003Cspan class=\u0022syntax-keyword\u0022\u003Etrue\u003C/span\u003E);\u003C/code\u003E\u003C/pre\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Method call arguments must declare their parameter names.",
+      "Title": "STXFORMAT005"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

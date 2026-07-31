@@ -1,0 +1,6 @@
+{
+  "Path": "Documentation/Mail/MailManagement",
+  "Role": "Guests",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

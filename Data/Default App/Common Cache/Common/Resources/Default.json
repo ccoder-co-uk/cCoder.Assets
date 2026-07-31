@@ -1,0 +1,68 @@
+[
+  {
+    "Culture": "",
+    "Key": "Common",
+    "Name": "aggregateMoneyFormat",
+    "DisplayName": "c2",
+    "ShortDisplayName": "c2",
+    "Description": "Default aggregate currency format",
+    "LastUpdated": "2026-07-31T15:08:57.074831+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "Common",
+    "Name": "dateandtimeformat",
+    "DisplayName": "yyyy MMMM dd HH:mm",
+    "ShortDisplayName": "yyyy MMMM dd HH:mm",
+    "Description": "Default date and time format",
+    "LastUpdated": "2026-07-31T14:24:33.0246945Z",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "Common",
+    "Name": "dateformat",
+    "DisplayName": "yyyy MMMM dd",
+    "ShortDisplayName": "yyyy MMMM dd",
+    "Description": "Default date format",
+    "LastUpdated": "2026-07-31T14:24:33.0246945Z",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "Common",
+    "Name": "moneyformat",
+    "DisplayName": "c2",
+    "ShortDisplayName": "c2",
+    "Description": "Default currency format",
+    "LastUpdated": "2026-07-31T15:08:57.074831+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "Common",
+    "Name": "shortdateformat",
+    "DisplayName": "yyyy-MM-dd",
+    "ShortDisplayName": "yyyy-MM-dd",
+    "Description": "Default short date format",
+    "LastUpdated": "2026-07-31T14:24:33.0246945Z",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "Common",
+    "Name": "timeformat",
+    "DisplayName": "HH:mm",
+    "ShortDisplayName": "HH:mm",
+    "Description": "Default time format",
+    "LastUpdated": "2026-07-31T14:47:12.6824758Z",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  }
+]

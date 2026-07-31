@@ -1,0 +1,6 @@
+{
+  "Path": "content/theme",
+  "Name": "Administrators",
+  "PackageType": "DocumentManagement/FolderRole",
+  "IncludeInSubSequentImports": false
+}

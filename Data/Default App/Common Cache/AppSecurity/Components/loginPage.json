@@ -6,5 +6,6 @@
   "Script": "LoginPage = {\r\n    init: async function (app, container ) {\r\n        app = app || session.app;\r\n        container = container || $(\".component[name=LoginPage]\");\r\n    }\r\n}",
   "CreatedOn": "2022-03-21T12:37:55.368Z",
   "LastUpdated": "2022-03-21T12:37:55.368Z",
+  "PackageType": "ContentManagement/Component",
   "IncludeInSubSequentImports": true
 }

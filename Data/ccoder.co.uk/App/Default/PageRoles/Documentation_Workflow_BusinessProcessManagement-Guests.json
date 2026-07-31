@@ -1,0 +1,6 @@
+{
+  "Path": "Documentation/Workflow/BusinessProcessManagement",
+  "Role": "Guests",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

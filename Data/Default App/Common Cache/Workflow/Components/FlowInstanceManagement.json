@@ -6,5 +6,6 @@
   "Name": "FlowInstanceManagement",
   "Description": null,
   "Key": "Workflow",
+  "PackageType": "ContentManagement/Component",
   "IncludeInSubSequentImports": true
 }

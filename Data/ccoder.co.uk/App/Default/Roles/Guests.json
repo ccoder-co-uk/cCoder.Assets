@@ -1,0 +1,6 @@
+{
+  "Name": "Guests",
+  "Privs": "app_read,appculture_read,file_read,filecontent_read,folder_read,folderrole_read,page_read,pagerole_read,script_execute,userrole_read",
+  "PackageType": "Core/Role",
+  "IncludeInSubSequentImports": false
+}

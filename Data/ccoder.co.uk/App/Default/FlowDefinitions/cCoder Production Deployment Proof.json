@@ -1,0 +1,11 @@
+{
+  "$type": "\u003C\u003Ef__AnonymousType5\u00608[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib],[System.DateTimeOffset, System.Private.CoreLib]], cCoder.Workflow",
+  "ProcessName": "cCoder Ltd",
+  "Name": "cCoder Production Deployment Proof",
+  "Description": "Deployment proof: Start -\u003E InfoActivity.",
+  "DefinitionJson": "{\u0022Name\u0022:\u0022cCoder Production Deployment Proof\u0022,\u0022RequiredRoles\u0022:\u0022\u0022,\u0022Links\u0022:[{\u0022Source\u0022:\u0022Start\u0022,\u0022Destination\u0022:\u0022a56e6a4b-3ccc-4faf-bf10-8a1d1f82b6e1\u0022,\u0022Expression\u0022:\u0022\u0022}],\u0022Activities\u0022:[{\u0022$type\u0022:\u0022cCoder.Workflow.Activities.Start, cCoder.Workflow.Activities\u0022,\u0022Ref\u0022:\u0022Start\u0022},{\u0022$type\u0022:\u0022cCoder.Workflow.Activities.Activities.InfoActivity, cCoder.Workflow.Activities\u0022,\u0022Ref\u0022:\u0022a56e6a4b-3ccc-4faf-bf10-8a1d1f82b6e1\u0022,\u0022Message\u0022:\u0022cCoder production workflow deployment proof executed successfully.\u0022}]}",
+  "ConfigJson": "{}",
+  "LastUpdated": "2026-07-27T15:54:14.8804356\u002B00:00",
+  "PackageType": "Core/FlowDefinition",
+  "IncludeInSubSequentImports": false
+}

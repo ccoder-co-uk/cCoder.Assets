@@ -1,0 +1,6 @@
+{
+  "Path": "Platform-Domains/Data",
+  "Role": "Guests",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

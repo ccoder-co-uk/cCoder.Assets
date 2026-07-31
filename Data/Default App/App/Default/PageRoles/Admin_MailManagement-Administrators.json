@@ -1,0 +1,6 @@
+{
+  "Path": "Admin/MailManagement",
+  "Role": "Administrators",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": true
+}

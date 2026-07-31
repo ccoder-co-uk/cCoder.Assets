@@ -6,5 +6,6 @@
   "Name": "FlowSettings",
   "Description": null,
   "Key": "AppSecurity",
+  "PackageType": "ContentManagement/Component",
   "IncludeInSubSequentImports": true
 }

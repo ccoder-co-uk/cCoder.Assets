@@ -1,0 +1,6 @@
+{
+  "Path": "Tools/DeveloperTools/APITester",
+  "Role": "Administrators",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

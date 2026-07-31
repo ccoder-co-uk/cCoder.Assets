@@ -2,41 +2,12 @@
   {
     "Culture": "",
     "Key": "DocumentManagement",
-    "Name": "category",
-    "DisplayName": "Category",
-    "ShortDisplayName": "Category",
-    "Description": "category",
-    "LastUpdated": "2022-03-18T10:41:54.1896384+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "DocumentManagement",
-    "Name": "clientname",
-    "DisplayName": "Client Name",
-    "ShortDisplayName": "Client Name",
-    "Description": "Client Name",
-    "LastUpdated": "2022-03-18T10:41:54.1910031+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "DocumentManagement",
     "Name": "DeleteFolderTitle",
     "DisplayName": "Delete Folder",
     "ShortDisplayName": "Delete Folder",
     "Description": "Delete Folder",
-    "LastUpdated": "2022-03-18T10:41:54.190866+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "DocumentManagement",
-    "Name": "flags",
-    "DisplayName": "Flags",
-    "ShortDisplayName": "Flags",
-    "Description": "Flags",
-    "LastUpdated": "2022-03-18T10:41:54.1911709+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.1239883+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -46,7 +17,41 @@
     "DisplayName": "Folder deleted successfully",
     "ShortDisplayName": "Folder deleted successfully",
     "Description": "Folder deleted successfully",
-    "LastUpdated": "2022-03-18T10:41:54.1907128+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.1395642+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "category",
+    "DisplayName": "Category",
+    "ShortDisplayName": "Category",
+    "Description": "category",
+    "LastUpdated": "2026-07-28T09:45:56.1542452+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "clientname",
+    "DisplayName": "Client Name",
+    "ShortDisplayName": "Client Name",
+    "Description": "Client Name",
+    "LastUpdated": "2026-07-28T09:45:56.1701399+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "flags",
+    "DisplayName": "Flags",
+    "ShortDisplayName": "Flags",
+    "Description": "Flags",
+    "LastUpdated": "2026-07-28T09:45:56.1868382+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -56,7 +61,8 @@
     "DisplayName": "Folder Deleted Successfully",
     "ShortDisplayName": "Folder Deleted Successfully",
     "Description": "Folder Deleted Succesfully",
-    "LastUpdated": "2022-03-18T10:41:54.1905599+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.2022007+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -66,7 +72,8 @@
     "DisplayName": "Folder Properties",
     "ShortDisplayName": "Folder Properties",
     "Description": "Folder Properties",
-    "LastUpdated": "2022-03-18T10:41:54.1907178+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.2176011+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -76,7 +83,8 @@
     "DisplayName": "New Folder",
     "ShortDisplayName": "New Folder",
     "Description": "New Folder",
-    "LastUpdated": "2022-03-18T10:41:54.1906023+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.2325722+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -86,7 +94,8 @@
     "DisplayName": "New Name",
     "ShortDisplayName": "New Name",
     "Description": "newname",
-    "LastUpdated": "2022-03-18T10:41:54.1905972+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.247612+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -96,7 +105,8 @@
     "DisplayName": "Project Manager Email",
     "ShortDisplayName": "Project Manager Email",
     "Description": "Project Manager Email",
-    "LastUpdated": "2022-03-18T10:41:54.1911189+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.2622022+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -106,7 +116,8 @@
     "DisplayName": "Project Manager Phone",
     "ShortDisplayName": "Project Manager Phone",
     "Description": "Project Manager Phone",
-    "LastUpdated": "2022-03-18T10:41:54.1911137+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.2770286+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -116,7 +127,8 @@
     "DisplayName": "Rename",
     "ShortDisplayName": "Rename",
     "Description": "Rename",
-    "LastUpdated": "2022-03-18T10:41:54.1905717+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.2918159+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -126,7 +138,8 @@
     "DisplayName": "Sales Email",
     "ShortDisplayName": "Sales Email",
     "Description": "Sales Email",
-    "LastUpdated": "2022-03-18T10:41:54.1911073+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.3066808+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -136,7 +149,8 @@
     "DisplayName": "Sales Phone",
     "ShortDisplayName": "Sales Phone",
     "Description": "Sales Phone",
-    "LastUpdated": "2022-03-18T10:41:54.1911023+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.321681+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -146,7 +160,8 @@
     "DisplayName": "Scan Client",
     "ShortDisplayName": "Scan Client",
     "Description": "Scan Client",
-    "LastUpdated": "2022-03-18T10:41:54.1910281+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.3368349+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -156,7 +171,8 @@
     "DisplayName": "Size",
     "ShortDisplayName": "Size",
     "Description": "Size",
-    "LastUpdated": "2022-03-18T10:41:54.1912277+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.3518182+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -166,7 +182,8 @@
     "DisplayName": "Size",
     "ShortDisplayName": "Size",
     "Description": "Size",
-    "LastUpdated": "2022-03-18T10:41:54.1905395+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.3697771+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -176,7 +193,8 @@
     "DisplayName": "Slideshow",
     "ShortDisplayName": "Slideshow",
     "Description": "Slideshow",
-    "LastUpdated": "2022-03-18T10:41:54.1911658+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.3844156+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -186,7 +204,8 @@
     "DisplayName": "Technical Email",
     "ShortDisplayName": "Technical Email",
     "Description": "Technical Email",
-    "LastUpdated": "2022-03-18T10:41:54.1910972+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.4019327+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -196,7 +215,8 @@
     "DisplayName": "Technical Phone",
     "ShortDisplayName": "Technical Phone",
     "Description": "Technical Phone",
-    "LastUpdated": "2022-03-18T10:41:54.1910922+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.4204507+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -206,7 +226,8 @@
     "DisplayName": "Themes",
     "ShortDisplayName": "Themes",
     "Description": "Themes",
-    "LastUpdated": "2022-03-18T10:41:54.1910702+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.4357339+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -216,7 +237,8 @@
     "DisplayName": "Update",
     "ShortDisplayName": "Update",
     "Description": "Update",
-    "LastUpdated": "2022-03-18T10:41:54.1909611+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.4510557+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -226,7 +248,8 @@
     "DisplayName": "Upload Brand Logo",
     "ShortDisplayName": "Upload Brand Logo",
     "Description": "This will appear on the top right of your portal",
-    "LastUpdated": "2022-08-17T11:24:47.6756602+01:00",
+    "LastUpdated": "2026-07-28T09:45:56.4666948+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -236,7 +259,8 @@
     "DisplayName": "Upload Slideshow Images",
     "ShortDisplayName": "Upload Slideshow Images",
     "Description": "Upload Slideshow Images",
-    "LastUpdated": "2022-08-17T11:25:41.5674445+01:00",
+    "LastUpdated": "2026-07-28T09:45:56.4814924+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -246,7 +270,8 @@
     "DisplayName": "View",
     "ShortDisplayName": "View",
     "Description": "View",
-    "LastUpdated": "2022-03-18T10:41:54.1910181+00:00",
+    "LastUpdated": "2026-07-28T09:45:56.4951455+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   }
 ]

@@ -3,12 +3,17 @@
   "Name": "Workflows",
   "ResourceKey": "Workflow",
   "ShowOnMenus": true,
-  "Order": 60,
-  "LastUpdated": "2026-07-21T22:24:44.9685353+01:00",
+  "Order": 6,
+  "LastUpdated": "2026-07-30T23:31:25.1971452+01:00",
   "Layout": "Default",
   "Contents": [
     {
       "CultureId": "",
+      "Name": "body",
+      "Html": "[component[WorkflowAdmin]]"
+    },
+    {
+      "CultureId": "fr-FR",
       "Name": "body",
       "Html": "[component[WorkflowAdmin]]"
     }
@@ -21,5 +26,6 @@
       "Title": "Workflows"
     }
   ],
+  "PackageType": "ContentManagement/Page",
   "IncludeInSubSequentImports": true
 }

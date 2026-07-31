@@ -3,8 +3,8 @@
   "Name": "Tenants",
   "ResourceKey": "Security",
   "ShowOnMenus": true,
-  "Order": 30,
-  "LastUpdated": "2026-07-27T08:00:00+01:00",
+  "Order": 3,
+  "LastUpdated": "2026-07-30T22:31:25.6417153\u002B00:00",
   "Layout": "Default",
   "Contents": [
     {
@@ -21,6 +21,6 @@
       "Title": "Tenants"
     }
   ],
-  "IncludeInSubSequentImports": true,
-  "PackageType": "ContentManagement/Page"
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
 }

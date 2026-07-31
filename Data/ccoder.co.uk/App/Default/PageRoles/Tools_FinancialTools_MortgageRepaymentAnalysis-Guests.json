@@ -1,0 +1,6 @@
+{
+  "Path": "Tools/FinancialTools/MortgageRepaymentAnalysis",
+  "Role": "Guests",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

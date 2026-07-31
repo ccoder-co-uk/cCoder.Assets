@@ -3,70 +3,77 @@
     "Culture": "fr-FR",
     "Key": "AppSecurity",
     "Name": "accessdenied",
-    "DisplayName": "Accès refusé",
-    "ShortDisplayName": "Accès refusé",
-    "Description": "Accès refusé",
-    "LastUpdated": "2022-03-18T10:41:54.1897771+00:00",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "Acc\u00E8s refus\u00E9",
+    "ShortDisplayName": "Acc\u00E8s refus\u00E9",
+    "Description": "Acc\u00E8s refus\u00E9",
+    "LastUpdated": "2026-07-28T08:45:56.9440707\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "AppSecurity",
     "Name": "checkyouremail",
-    "DisplayName": "Vérifiez votre email",
-    "ShortDisplayName": "Vérifiez votre email",
-    "Description": "Vérifiez votre email",
-    "LastUpdated": "2022-03-18T10:41:54.1896946+00:00",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "V\u00E9rifiez votre email",
+    "ShortDisplayName": "V\u00E9rifiez votre email",
+    "Description": "V\u00E9rifiez votre email",
+    "LastUpdated": "2026-07-28T08:45:56.9560685\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "AppSecurity",
     "Name": "passwordresetemailtitle",
-    "DisplayName": "E-mail de réinitialisation du mot de passe",
-    "ShortDisplayName": "E-mail de réinitialisation du mot de passe",
-    "Description": "E-mail de réinitialisation du mot de passe",
-    "LastUpdated": "2022-03-18T10:41:54.18957+00:00",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "E-mail de r\u00E9initialisation du mot de passe",
+    "ShortDisplayName": "E-mail de r\u00E9initialisation du mot de passe",
+    "Description": "E-mail de r\u00E9initialisation du mot de passe",
+    "LastUpdated": "2026-07-28T08:45:56.9681259\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "AppSecurity",
     "Name": "passwordresetemailtitle",
-    "DisplayName": "Réinitialisation du mot de passe",
-    "ShortDisplayName": "Réinitialisation du mot de passe",
-    "Description": "Réinitialisation du mot de passe",
-    "LastUpdated": "2022-03-18T10:41:54.1901586+00:00",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "R\u00E9initialisation du mot de passe",
+    "ShortDisplayName": "R\u00E9initialisation du mot de passe",
+    "Description": "R\u00E9initialisation du mot de passe",
+    "LastUpdated": "2026-07-28T08:45:56.9801877\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "AppSecurity",
     "Name": "resetfailed",
-    "DisplayName": "Échec de la réinitialisation",
-    "ShortDisplayName": "Échec de la réinitialisation",
-    "Description": "Échec de la réinitialisation",
-    "LastUpdated": "2022-03-18T10:41:54.1893183+00:00",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "\u00C9chec de la r\u00E9initialisation",
+    "ShortDisplayName": "\u00C9chec de la r\u00E9initialisation",
+    "Description": "\u00C9chec de la r\u00E9initialisation",
+    "LastUpdated": "2026-07-28T08:45:56.9932949\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "AppSecurity",
     "Name": "tokenverificationfailed",
-    "DisplayName": "La vérification du jeton a échoué",
-    "ShortDisplayName": "La vérification du jeton a échoué",
-    "Description": "La vérification du jeton a échoué",
-    "LastUpdated": "2022-03-18T10:41:54.1894822+00:00",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "La v\u00E9rification du jeton a \u00E9chou\u00E9",
+    "ShortDisplayName": "La v\u00E9rification du jeton a \u00E9chou\u00E9",
+    "Description": "La v\u00E9rification du jeton a \u00E9chou\u00E9",
+    "LastUpdated": "2026-07-28T08:45:57.0052937\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "AppSecurity",
     "Name": "tokenverificationsuccess",
-    "DisplayName": "Jeton vérifié avec succès",
-    "ShortDisplayName": "Jeton vérifié avec succès",
-    "Description": "Jeton vérifié avec succès",
-    "LastUpdated": "2022-03-18T10:41:54.1895507+00:00",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "Jeton v\u00E9rifi\u00E9 avec succ\u00E8s",
+    "ShortDisplayName": "Jeton v\u00E9rifi\u00E9 avec succ\u00E8s",
+    "Description": "Jeton v\u00E9rifi\u00E9 avec succ\u00E8s",
+    "LastUpdated": "2026-07-28T08:45:57.0171177\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   }
 ]

@@ -1,0 +1,6 @@
+{
+  "Path": "Platform-Domains/Data",
+  "Role": "Users",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

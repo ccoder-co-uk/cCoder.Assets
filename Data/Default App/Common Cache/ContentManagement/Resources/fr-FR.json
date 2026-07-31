@@ -1,5 +1,38 @@
 [
   {
+    "Culture": "fr-FR",
+    "Key": "ContentManagement",
+    "Name": "appcreated",
+    "DisplayName": "Application créée",
+    "ShortDisplayName": "Application créée",
+    "Description": "Application créée",
+    "LastUpdated": "2022-03-18T10:41:54.189721+00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "ContentManagement",
+    "Name": "appdeleted",
+    "DisplayName": "Application supprimée",
+    "ShortDisplayName": "Application supprimée",
+    "Description": "\tApplication supprimée",
+    "LastUpdated": "2022-03-18T10:41:54.1897166+00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "ContentManagement",
+    "Name": "appsaved",
+    "DisplayName": "Application enregistrée",
+    "ShortDisplayName": "Application enregistrée",
+    "Description": "Application enregistrée",
+    "LastUpdated": "2022-03-18T10:41:54.1897122+00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
     "Id": 7274,
     "AppId": 4,
     "Key": "ContentManagement",
@@ -12,21 +45,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 5393,
-    "AppId": 4,
-    "Key": "ContentManagement",
-    "Culture": "fr-FR",
-    "DisplayName": "Annuler",
-    "ShortDisplayName": "Annuler",
-    "Name": "cancel",
-    "Description": "Annuler",
-    "LastUpdated": "2021-07-07T09:42:12.1337892Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -42,6 +61,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -57,6 +77,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -67,6 +88,18 @@
     "ShortDisplayName": "Culture par dÃ©faut",
     "Description": "Culture par dÃ©faut",
     "LastUpdated": "2022-03-18T10:41:54.1898184+00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "ContentManagement",
+    "Name": "defaulttheme",
+    "DisplayName": "Thème par défaut",
+    "ShortDisplayName": "Thème par défaut",
+    "Description": "Thème par défaut",
+    "LastUpdated": "2022-03-18T10:41:54.1894238+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -77,6 +110,7 @@
     "ShortDisplayName": "Domaine",
     "Description": "Domaine",
     "LastUpdated": "2022-03-18T10:41:54.1897963+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -87,6 +121,7 @@
     "ShortDisplayName": "Environnement",
     "Description": "Environnement",
     "LastUpdated": "2022-03-18T10:41:54.1903496+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -96,6 +131,7 @@
     "DisplayName": "Général",
     "ShortDisplayName": "Général",
     "Description": "Général",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -105,6 +141,7 @@
     "DisplayName": "Informations",
     "ShortDisplayName": "Informations",
     "Description": "Informations",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -115,6 +152,18 @@
     "ShortDisplayName": "Visible dans le menu?",
     "Description": "Visible dans le menu?",
     "LastUpdated": "2022-03-18T10:41:54.1893551+00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "ContentManagement",
+    "Name": "key",
+    "DisplayName": "Clé",
+    "ShortDisplayName": "Clé",
+    "Description": "Clé",
+    "LastUpdated": "2022-03-18T10:41:54.1900061+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -124,6 +173,7 @@
     "DisplayName": "Mots clés",
     "ShortDisplayName": "Mots clés",
     "Description": "Mots clés",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -134,6 +184,7 @@
     "ShortDisplayName": "Disposition",
     "Description": "Disposition",
     "LastUpdated": "2022-03-18T10:41:54.1900109+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -149,6 +200,29 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "ContentManagement",
+    "Name": "migrate",
+    "DisplayName": "Importation",
+    "ShortDisplayName": "Importation",
+    "Description": "Importation",
+    "LastUpdated": "2022-03-18T10:41:54.1899573+00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "ContentManagement",
+    "Name": "migrateapp",
+    "DisplayName": "Migrer l'application",
+    "ShortDisplayName": "Migrer l'application",
+    "Description": "Migrer l'application",
+    "LastUpdated": "2022-03-18T10:41:54.1899526+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -158,6 +232,29 @@
     "DisplayName": "Migrer des Modèles",
     "ShortDisplayName": "Migrer des Modèles",
     "Description": "Migrer des Modèles",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "ContentManagement",
+    "Name": "newapp",
+    "DisplayName": "Nouvelle appli",
+    "ShortDisplayName": "Nouvelle appli",
+    "Description": "Nouvelle appli",
+    "LastUpdated": "2022-03-18T10:41:54.1899479+00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "ContentManagement",
+    "Name": "newcomponent",
+    "DisplayName": "Nouveau composant",
+    "ShortDisplayName": "Nouveau composant",
+    "Description": "Nouveau composant",
+    "LastUpdated": "2022-03-18T10:41:54.1901633+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -168,6 +265,7 @@
     "ShortDisplayName": "Nouvelle prÃ©sentation",
     "Description": "Nouvelle prÃ©sentation",
     "LastUpdated": "2022-03-18T10:41:54.1900708+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -178,6 +276,7 @@
     "ShortDisplayName": "Nouvelle ressource",
     "Description": "Nouvelle ressource",
     "LastUpdated": "2022-03-18T10:41:54.1900014+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -188,6 +287,7 @@
     "ShortDisplayName": "Nouveau modÃ¨le",
     "Description": "Nouveau modÃ¨le",
     "LastUpdated": "2022-03-18T10:41:54.1897639+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -198,6 +298,7 @@
     "ShortDisplayName": "Nouvelle traduction",
     "Description": "Nouvelle traduction",
     "LastUpdated": "2022-03-18T10:41:54.1897536+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -208,6 +309,7 @@
     "ShortDisplayName": "ClÃ© de ressource",
     "Description": "ClÃ© de ressource",
     "LastUpdated": "2022-03-18T10:41:54.1897359+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -223,6 +325,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -232,6 +335,7 @@
     "DisplayName": "Samedi",
     "ShortDisplayName": "Samedi",
     "Description": "Samedi",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -247,6 +351,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -256,6 +361,7 @@
     "DisplayName": "Select App",
     "ShortDisplayName": "Select App",
     "Description": "Select App",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -265,15 +371,7 @@
     "DisplayName": " Sélectionnez les Processus Métier",
     "ShortDisplayName": " Sélectionnez les Processus Métier",
     "Description": " Sélectionnez les Processus Métier",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "fr-FR",
-    "Key": "ContentManagement",
-    "Name": "selectbusinessprocesses",
-    "DisplayName": " Sélectionnez les Processus Métier",
-    "ShortDisplayName": " Sélectionnez les Processus Métier",
-    "Description": " Sélectionnez les Processus Métier",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -283,6 +381,7 @@
     "DisplayName": "Sélectionner la Mise en Eage",
     "ShortDisplayName": "Sélectionner la Mise en Eage",
     "Description": "Sélectionner la Mise en Eage",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -292,6 +391,7 @@
     "DisplayName": "Sélectionner des Modèles",
     "ShortDisplayName": "Sélectionner des Modèles",
     "Description": "Sélectionner des Modèles",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -302,6 +402,7 @@
     "ShortDisplayName": "Nom d'affichage court",
     "Description": "Nom d'affichage court",
     "LastUpdated": "2022-03-18T10:41:54.189992+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -312,6 +413,7 @@
     "ShortDisplayName": "Afficher dans le menu?",
     "Description": "Afficher dans le menu?",
     "LastUpdated": "2022-03-18T10:41:54.1900407+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -322,6 +424,7 @@
     "ShortDisplayName": "Source",
     "Description": "Source",
     "LastUpdated": "2022-03-18T10:41:54.1899666+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -337,6 +440,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -346,6 +450,7 @@
     "DisplayName": "Titre",
     "ShortDisplayName": "Titre",
     "Description": "Titre",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -356,6 +461,7 @@
     "ShortDisplayName": "Traduction crÃ©Ã©e",
     "Description": "Traduction crÃ©Ã©e",
     "LastUpdated": "2022-03-18T10:41:54.1900219+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   }
 ]

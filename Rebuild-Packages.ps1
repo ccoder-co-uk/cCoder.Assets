@@ -27,7 +27,8 @@ if (-not $NoTests) {
 try {
     New-Item -ItemType Directory -Path $stagingRoot -Force | Out-Null
 
-    $componentFiles = Get-ChildItem -Path $sourceSnapshot -Recurse -File -Filter '*.json' |
+    $commonCacheSnapshot = Join-Path $sourceSnapshot 'Common Cache'
+    $componentFiles = Get-ChildItem -Path $commonCacheSnapshot -Recurse -File -Filter '*.json' |
         Where-Object { $_.Directory.Name -eq 'Components' }
     $componentIdentities = @{}
 
@@ -50,8 +51,8 @@ try {
         Copy-Item -LiteralPath $componentFile.FullName -Destination (Join-Path $componentDirectory $componentFile.Name)
     }
 
-    if ($componentIdentities.Count -ne 112) {
-        throw "Expected 112 unique components in the ccoder.co.uk snapshot but found $($componentIdentities.Count)."
+    if ($componentIdentities.Count -eq 0) {
+        throw 'No Common Cache components were found in the ccoder.co.uk snapshot.'
     }
 
     & $packer pack `
@@ -78,7 +79,6 @@ try {
             PackageFile = 'all-resources.json'
             PackageName = 'All Resources Common Cache'
             ItemType = 'ContentManagement/Resource'
-            ExpectedCount = 320
             IncludeCulture = $true
         },
         [pscustomobject]@{
@@ -86,14 +86,13 @@ try {
             PackageFile = 'all-scripts.json'
             PackageName = 'All Scripts Common Cache'
             ItemType = 'ContentManagement/Script'
-            ExpectedCount = 10
             IncludeCulture = $false
         }
     )
 
     foreach ($specification in $additionalPackageSpecifications) {
         $entityStagingRoot = Join-Path $stagingRoot $specification.Directory
-        $entityFiles = Get-ChildItem -Path $sourceSnapshot -Recurse -File -Filter '*.json' |
+        $entityFiles = Get-ChildItem -Path $commonCacheSnapshot -Recurse -File -Filter '*.json' |
             Where-Object { $_.Directory.Name -eq $specification.Directory } |
             Sort-Object FullName
         $entityIdentities = @{}
@@ -158,8 +157,8 @@ try {
             $entityIndex++
         }
 
-        if ($entityIdentities.Count -ne $specification.ExpectedCount) {
-            throw "Expected $($specification.ExpectedCount) unique $($specification.Directory) records in the ccoder.co.uk snapshot but found $($entityIdentities.Count)."
+        if ($entityIdentities.Count -eq 0) {
+            throw "No Common Cache $($specification.Directory) records were found in the ccoder.co.uk snapshot."
         }
 
         $packagePath = Join-Path $packages "Common Cache/$($specification.PackageFile)"

@@ -1,0 +1,25 @@
+{
+  "Path": "Documentation/Security/Metadata",
+  "Name": "Metadata",
+  "ShowOnMenus": true,
+  "Order": 60,
+  "LastUpdated": "2026-07-28T09:01:52.7486999\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E\u003Csection class=\u0022docs-value-overview\u0022\u003E\u003Ch2\u003EDiscover the identity API safely\u003C/h2\u003E\u003Cp\u003ESecurity metadata exposes the supported account, tenant and session contracts without revealing persistence details. It is the right starting point for clients that need to authenticate or administer identity through the public boundary.\u003C/p\u003E\u003Cp\u003EUse the explorer to understand available entities, relationships and query operations before building an integration.\u003C/p\u003E\u003C/section\u003E[component[DomainMetadata]]\u003Csection class=\u0022public-flow-section public-section public-nav-section\u0022\u003E\u003Cdiv class=\u0022public-section-frame\u0022\u003E[component[DetailedNav]]\u003C/div\u003E\u003C/section\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Explore the entities and endpoints exposed by the Security domain.",
+      "Keywords": "SSO Metadata",
+      "Title": "Security Metadata"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

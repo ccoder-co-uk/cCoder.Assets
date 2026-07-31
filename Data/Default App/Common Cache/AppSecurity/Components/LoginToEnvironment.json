@@ -5,5 +5,6 @@
   "Script": "",
   "Content": "<div id=\"LoginToEnvironmentPanel\">\n\t<h3>[resource_displayname[LoginTo]]</h3>\n\t<ul class=\"fieldList\">\n\t\t<li name=\"user\">\n\t\t\t<label>[resource_displayname[User]]</label>\n\t\t\t<div class=\"value\">\n\t\t\t\t<input type=\"text\" name=\"email\" />\n\t\t\t</div>\n\t\t</li>\n\t\t<li name=\"pass\">\n\t\t\t<label>[resource_displayname[Password]]</label>\n\t\t\t<div class=\"value\">\n\t\t\t\t<input type=\"password\" name=\"pass\" />\n\t\t\t\t<span class=\"k-icon k-i-preview\"></span>\n\t\t\t\t<br />\n\t\t\t\t<span name=\"error\" class=\"error\"></span>\n\t\t\t</div>\n\t\t</li>\n\t\t<li name=\"buttons\">\n\t\t\t<div class=\"value\">\n\t\t\t\t<button name=\"login\">[resource_displayname[Submit]]</button>\t\n\t\t\t</div>\n\t\t</li>\n\t</ul>\n</div>\n",
   "LastUpdated": "2021-11-19T21:28:21.2385096+00:00",
+  "PackageType": "ContentManagement/Component",
   "IncludeInSubSequentImports": true
 }

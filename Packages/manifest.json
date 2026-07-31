@@ -3,92 +3,104 @@
   "Packages": [
     {
       "Path": "App/AppSecurity.json",
-      "Sha256": "D2ACC198225418C1B2DC748E6AECCE12EF93F358B39ADFD2D9C7E1F9E055EE43",
+      "Sha256": "B876E86CE8FE71A250AD3F6EF5B7AC83D1210739E5BFBA40FA05BFF51244E55F",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "AppSecurity",
       "ItemTypes": [
         "ContentManagement/Component",
         "ContentManagement/Page",
-        "ContentManagement/PageRole",
-        "ContentManagement/Resource",
-        "ContentManagement/Template"
-      ]
-    },
-    {
-      "Path": "App/Common.json",
-      "Sha256": "03C295B219ACAED631B845C1DD4E6917B60DA5E81A9DFE907722111458DB0CD3",
-      "FirstTimeSetup": false,
-      "Source": "App",
-      "Category": "Common",
-      "ItemTypes": [
-        "ContentManagement/Layout"
+        "ContentManagement/Resource"
       ]
     },
     {
       "Path": "App/ContentManagement.json",
-      "Sha256": "3316FF1CB601C1A2A1BF9171E8A4DC3100B0A50E24E52D34198B6297B6E751CF",
+      "Sha256": "679711A5BB6E42244E61073B7603C35ECF37A55276DCC7CF02F1C63F5368CEAD",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "ContentManagement",
       "ItemTypes": [
         "ContentManagement/Page",
-        "ContentManagement/PageRole",
-        "ContentManagement/Resource",
-        "ContentManagement/Template"
+        "ContentManagement/Resource"
       ]
     },
     {
       "Path": "App/Core.json",
-      "Sha256": "600EF37B3C310F86747C77E2986747282E4A19614E5D9760F705B02F46FD9A46",
+      "Sha256": "76CB7339299B2CF4145E381B7196EEAF706CC87A5163F182B8602F63B5696AD4",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Core",
       "ItemTypes": [
-        "ContentManagement/Page",
-        "ContentManagement/PageRole"
+        "ContentManagement/Page"
+      ]
+    },
+    {
+      "Path": "App/Default.json",
+      "Sha256": "C0BE8F6E7F18A7229BA005EB03C65ED82EC705993D1738089AFF95DD3018FB38",
+      "FirstTimeSetup": false,
+      "Source": "App",
+      "Category": "Default",
+      "ItemTypes": [
+        "ContentManagement/Layout",
+        "ContentManagement/PageRole",
+        "ContentManagement/Template"
       ]
     },
     {
       "Path": "App/DocumentManagement.json",
-      "Sha256": "B71AF0067C6E7BAF8168AF1F309B869815C408DCE15FF7C765B68020E2C30FE4",
+      "Sha256": "0BDD26237F2B0C460EE12847D1FE9CA10766DCA33D9565B29172FA4ADEEC03A4",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "DocumentManagement",
       "ItemTypes": [
         "ContentManagement/Page",
-        "ContentManagement/PageRole",
         "ContentManagement/Resource"
       ]
     },
     {
+      "Path": "App/ForgotPassword.json",
+      "Sha256": "227C0A6C4593CA8058D2A58C724DB021D560337513CAAA5575CF2C998C880124",
+      "FirstTimeSetup": false,
+      "Source": "App",
+      "Category": "ForgotPassword",
+      "ItemTypes": [
+        "ContentManagement/Template"
+      ]
+    },
+    {
       "Path": "App/Mail.json",
-      "Sha256": "89FA3363238545A36DD2706010FA4D66B69392437691B5839FD8C94E431FB2BE",
+      "Sha256": "3239A7B5E9B6C3BB2C8A87A965853275F0F7F6E4F76D5267698C923A8DF2FAD0",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Mail",
       "ItemTypes": [
-        "ContentManagement/Page",
-        "ContentManagement/PageRole"
+        "ContentManagement/Page"
+      ]
+    },
+    {
+      "Path": "App/Register.json",
+      "Sha256": "CB209B0CEA80D38627B621B34B4809346CBA71E4F8309D6409C8FD6617D6ED8E",
+      "FirstTimeSetup": false,
+      "Source": "App",
+      "Category": "Register",
+      "ItemTypes": [
+        "ContentManagement/Template"
       ]
     },
     {
       "Path": "App/Workflow.json",
-      "Sha256": "5089BD7ACAC3C6855E7FC7944FF4C0BF0D10535CE89A31315CBE22F6811D8A61",
+      "Sha256": "18081F398F3CD20C15B1EAB58583179828501830956A05CD56286F551DA3DFF9",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Workflow",
       "ItemTypes": [
         "ContentManagement/Page",
-        "ContentManagement/PageRole",
-        "ContentManagement/Resource",
-        "Workflow/FlowDefinition",
-        "Workflow/ScheduledTask"
+        "ContentManagement/Resource"
       ]
     },
     {
       "Path": "Baseline New App/baseline-new-app.json",
-      "Sha256": "3ADA2801A3389DF20D9AAF0EE5C9528413554E5749021D6F2BD2B369F19AA6DD",
+      "Sha256": "A1459BFF16901BBF7194FB0828DFB1DFE1F57E312E41644FE6DEB4C8EBB8D4BD",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Baseline New App",
@@ -98,14 +110,12 @@
         "ContentManagement/Page",
         "ContentManagement/PageRole",
         "ContentManagement/Resource",
-        "ContentManagement/Template",
-        "Workflow/FlowDefinition",
-        "Workflow/ScheduledTask"
+        "ContentManagement/Template"
       ]
     },
     {
       "Path": "Common Cache/all-components.json",
-      "Sha256": "55f0349f67ce3e6a464be454eadb15db5249a5fb613a796a82f0490cc5608fb5",
+      "Sha256": "e39b7af98880358aa308cd453a7b81e7993c349e048b28634a2c6a36834a5201",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Common Cache",
@@ -115,7 +125,7 @@
     },
     {
       "Path": "Common Cache/all-resources.json",
-      "Sha256": "b4758efbc2b75e0fb3d3b4b5e4bd881b5435c30f9c62af5b0e4459dadb9b3b68",
+      "Sha256": "00b6e3406fc81d279c24682031c66adbe34781de92a3145da5e9ef10bea959c7",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Common Cache",
@@ -125,7 +135,7 @@
     },
     {
       "Path": "Common Cache/all-scripts.json",
-      "Sha256": "f2e1ff24d5f106a5b3789f49440f280d3ca200869b6842ffdf8eba409a27ebfc",
+      "Sha256": "be8ba0507d9d5fdf878919f738ee256cce77b60dadd23c37e53a9612f5f39d39",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Common Cache",
@@ -135,7 +145,7 @@
     },
     {
       "Path": "Common Cache/AppSecurity.json",
-      "Sha256": "0E59253BA1A7A21945DC08C80AA1B53F790A4617AF770ECFDD14FA49F4D26C07",
+      "Sha256": "83046C890E9AB0F7D07DCF00CD753679A22243A644984528BC5F0DA286DA7572",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "AppSecurity",
@@ -146,18 +156,19 @@
     },
     {
       "Path": "Common Cache/Common.json",
-      "Sha256": "B6DC8473B9FB16BD029F6F7F03D8146EC5CFDFB37221ED485AAF84075C1F31A1",
+      "Sha256": "D570D5C3BD399536E852774751352B85295A8DAB233F951F1B61287BDD24B31A",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Common",
       "ItemTypes": [
         "ContentManagement/Component",
+        "ContentManagement/Resource",
         "ContentManagement/Script"
       ]
     },
     {
       "Path": "Common Cache/ContentManagement.json",
-      "Sha256": "CE8145AFA7F560D49FA569D379A9EB1870546021C58788A5359D6EB8899CEEA3",
+      "Sha256": "7C81F480A1A1FC1358A45CE067AB9AF4D20759F8050DC3E1F5A4AA8CAC63F6CB",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "ContentManagement",
@@ -169,7 +180,7 @@
     },
     {
       "Path": "Common Cache/Core.json",
-      "Sha256": "B4F3ED9A000700B751FBF97FAF2124EF5A204BF59153CFB6D77D74D1C5C64B17",
+      "Sha256": "36B592E3B5EE5A87B182EB4F98CC172EF07938DF99FE1DD19FB58D54E4161FA1",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Core",
@@ -180,7 +191,7 @@
     },
     {
       "Path": "Common Cache/Default.json",
-      "Sha256": "4FCD220B781B50C3ECACE0654F5A237AE7F145633D67E624837C848FEC3F9A9E",
+      "Sha256": "C5C5C3E1F546A827C64D2130E44DED0D36158BDC08139494312FC1BAE17007E6",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Default",
@@ -190,25 +201,14 @@
     },
     {
       "Path": "Common Cache/DocumentManagement.json",
-      "Sha256": "DDC1BF210C77AE12F39EE8303DD3BC25FAFFACAB4731AC01ABF8DBD1F7E859BE",
+      "Sha256": "76B24E31FE6946C7D1621369AB4A46D86A3054630D9B7B743E13752CEDB86F89",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "DocumentManagement",
       "ItemTypes": [
         "ContentManagement/Component",
         "ContentManagement/Resource",
-        "ContentManagement/Script",
-        "DocumentManagement/Resource"
-      ]
-    },
-    {
-      "Path": "Common Cache/Logging.json",
-      "Sha256": "BE70B026794812A6E04542E6115016D5D17830A4C3BD6D8795ACF9911F4BD5DB",
-      "FirstTimeSetup": false,
-      "Source": "Common Cache",
-      "Category": "Logging",
-      "ItemTypes": [
-        "ContentManagement/Component"
+        "ContentManagement/Script"
       ]
     },
     {
@@ -223,7 +223,7 @@
     },
     {
       "Path": "Common Cache/Security.json",
-      "Sha256": "308CDFB2C063979702E05DA221E281E17414B2C0BF2B1932497F1926CF7696DA",
+      "Sha256": "EBE68DEAA221A98F4EB6314BAA607D1389EA4EE6EA31CF542E2EC6344B23E7A0",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Security",
@@ -235,7 +235,7 @@
     },
     {
       "Path": "Common Cache/Workflow.json",
-      "Sha256": "31549E3CA9BC8FD865F5F2A01744674FF2D2CEBB2B675F910F71E9B16923E267",
+      "Sha256": "2D52DEAD057F1B97FCF65D68B9DCC3C7438B86223BD4F3A8A3A45F0299CC4AFB",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Workflow",
@@ -246,20 +246,19 @@
     },
     {
       "Path": "First Time Setup/common-cache.json",
-      "Sha256": "9951A74AC43D7FD59B931629B98D0E02EB132E5AE8C95A782983A0BA7F69A096",
+      "Sha256": "D17CC1A9730A721213FE97049783154F489E1BE0D71FAC8022AA1BCD9C128D7F",
       "FirstTimeSetup": true,
       "Source": "Common Cache",
       "Category": "First Time Setup",
       "ItemTypes": [
         "ContentManagement/Component",
         "ContentManagement/Resource",
-        "ContentManagement/Script",
-        "DocumentManagement/Resource"
+        "ContentManagement/Script"
       ]
     },
     {
       "Path": "First Time Setup/first-app.json",
-      "Sha256": "DCB5B69F87913AB50A3E5C5DEE496098745377BE1E07A77ECA1F6603978BBEEC",
+      "Sha256": "6267C232DC09CFA2022903636630CEDE248B9541D501986F1FABC9D3CAE03987",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "First Time Setup",

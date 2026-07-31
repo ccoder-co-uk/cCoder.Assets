@@ -4,5 +4,6 @@
   "CreatedOn": "2021-10-05T09:17:55.376Z",
   "LastUpdated": "2021-10-05T09:17:55.376Z",
   "Key": "Common",
+  "PackageType": "ContentManagement/Script",
   "IncludeInSubSequentImports": true
 }

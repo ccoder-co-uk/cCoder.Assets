@@ -21,7 +21,7 @@ public sealed partial class WorkflowThemeAssetTests
                     searchPattern: "*.json",
                     searchOption: SearchOption.AllDirectories),
                 predicate: path => path.Contains(
-                    value: $"{Path.DirectorySeparatorChar}Common{Path.DirectorySeparatorChar}Apps{Path.DirectorySeparatorChar}",
+                    value: $"{Path.DirectorySeparatorChar}Apps{Path.DirectorySeparatorChar}",
                     comparisonType: StringComparison.OrdinalIgnoreCase)));
 
         // When

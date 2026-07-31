@@ -3,8 +3,8 @@
   "Name": "Admin",
   "ResourceKey": "Core",
   "ShowOnMenus": true,
-  "Order": 10,
-  "LastUpdated": "2026-04-30T20:09:38.4066886+01:00",
+  "Order": 1,
+  "LastUpdated": "2026-07-30T23:31:25.0490152+01:00",
   "Layout": "Default",
   "Contents": [
     {
@@ -21,5 +21,6 @@
       "Title": "Admin"
     }
   ],
+  "PackageType": "ContentManagement/Page",
   "IncludeInSubSequentImports": true
 }

@@ -6,5 +6,6 @@
   "Name": "Slideshow",
   "Description": null,
   "Key": "DocumentManagement",
+  "PackageType": "ContentManagement/Component",
   "IncludeInSubSequentImports": true
 }

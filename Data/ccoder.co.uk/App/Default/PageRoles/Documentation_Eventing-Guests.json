@@ -1,0 +1,6 @@
+{
+  "Path": "Documentation/Eventing",
+  "Role": "Guests",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

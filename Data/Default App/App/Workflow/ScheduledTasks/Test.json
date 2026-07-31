@@ -4,6 +4,6 @@
   "FlowName": "Test",
   "ExecutionArgs": "{}",
   "ScheduleInTicks": 864000000000,
-  "IncludeInSubSequentImports": true,
+  "IncludeInSubSequentImports": false,
   "PackageType": "Workflow/ScheduledTask"
 }

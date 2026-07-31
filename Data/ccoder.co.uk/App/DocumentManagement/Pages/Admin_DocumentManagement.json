@@ -3,8 +3,8 @@
   "Name": "Document Management",
   "ResourceKey": "DocumentManagement",
   "ShowOnMenus": true,
-  "Order": 20,
-  "LastUpdated": "2026-04-30T20:09:39.3213569+01:00",
+  "Order": 2,
+  "LastUpdated": "2026-07-30T22:31:25.1141686\u002B00:00",
   "Layout": "Default",
   "Contents": [
     {
@@ -16,11 +16,11 @@
   "PageInfo": [
     {
       "CultureId": "",
-      "Description": "Manage the folders and files within the application, here you are able to upload any Masterdata or Transaction files you'd like to  import.",
+      "Description": "Manage the folders and files within the application, here you are able to upload any Masterdata or Transaction files you\u0027d like to  import.",
       "Keywords": "Documents, DMS, sample, page",
       "Title": "Document Management"
     }
   ],
-  "IncludeInSubSequentImports": true,
-  "PackageType": "ContentManagement/Page"
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
 }

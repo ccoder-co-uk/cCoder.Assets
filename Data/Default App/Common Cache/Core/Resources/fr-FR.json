@@ -12,6 +12,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -21,6 +22,7 @@
     "DisplayName": "Type d'événement",
     "ShortDisplayName": "Type d'événement",
     "Description": "Type d'événement",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -36,6 +38,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -45,15 +48,7 @@
     "DisplayName": "Migrate Business Processes",
     "ShortDisplayName": "Migrate Business Processes",
     "Description": "Migrate Business Processes",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "fr-FR",
-    "Key": "Core",
-    "Name": "migratebp",
-    "DisplayName": "Migrer les Processus Métier",
-    "ShortDisplayName": "Migrer les Processus Métier",
-    "Description": "Migrer les Processus Métier",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -69,6 +64,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -84,6 +80,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   }
 ]

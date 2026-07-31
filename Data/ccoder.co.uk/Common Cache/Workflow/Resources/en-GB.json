@@ -1,0 +1,46 @@
+[
+  {
+    "Culture": "en-GB",
+    "Key": "Workflow",
+    "Name": "instancereportingcomponentname",
+    "DisplayName": "Instance reporting component",
+    "ShortDisplayName": "Instance reporting component",
+    "Description": "Instance reporting component",
+    "LastUpdated": "2026-07-21T22:09:43.9855575\u002B01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Workflow",
+    "Name": "NewFlow",
+    "DisplayName": "New workflow",
+    "ShortDisplayName": "New workflow",
+    "Description": "New workflow",
+    "LastUpdated": "2026-07-21T22:09:44.363371\u002B01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Workflow",
+    "Name": "report",
+    "DisplayName": "Report",
+    "ShortDisplayName": "Report",
+    "Description": "Report",
+    "LastUpdated": "2026-07-21T22:09:44.4343864\u002B01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Workflow",
+    "Name": "run",
+    "DisplayName": "Run",
+    "ShortDisplayName": "Run",
+    "Description": "Run",
+    "LastUpdated": "2026-07-21T22:09:44.510202\u002B01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/Logging/Metadata",
+  "Name": "Metadata",
+  "ShowOnMenus": true,
+  "Order": 20,
+  "LastUpdated": "2026-07-28T09:01:52.6432757\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E\u003Csection class=\u0022docs-value-overview\u0022\u003E\u003Ch2\u003ETreat observability as a queryable domain\u003C/h2\u003E\u003Cp\u003EThe metadata page exposes log and attached-data contracts through the supported API. It allows dashboards and diagnostic tools to discover the public model rather than bind themselves to logging tables.\u003C/p\u003E\u003Cp\u003EUse it to understand the filters, relationships and endpoints available for operational reporting.\u003C/p\u003E\u003C/section\u003E[component[DomainMetadata]]\u003Csection class=\u0022public-flow-section public-section public-nav-section\u0022\u003E\u003Cdiv class=\u0022public-section-frame\u0022\u003E[component[DetailedNav]]\u003C/div\u003E\u003C/section\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Explore the entities and endpoints exposed by the Logging domain.",
+      "Title": "Logging Metadata"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

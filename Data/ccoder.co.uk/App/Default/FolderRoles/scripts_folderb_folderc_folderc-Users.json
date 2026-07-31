@@ -1,0 +1,6 @@
+{
+  "Path": "scripts/folderb/folderc/folderc",
+  "Name": "Users",
+  "PackageType": "DocumentManagement/FolderRole",
+  "IncludeInSubSequentImports": false
+}

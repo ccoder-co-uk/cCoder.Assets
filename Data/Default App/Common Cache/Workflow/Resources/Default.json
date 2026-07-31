@@ -13,6 +13,7 @@
     "CreatedOn": "2021-07-06T17:35:47.3463811Z",
     "CreatedBy": "callum.marshall",
     "Translations": [],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -24,6 +25,7 @@
     "CreatedOn": "2022-04-29T23:25:18.291Z",
     "LastUpdated": "2022-04-29T23:25:18.291Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -35,6 +37,7 @@
     "CreatedOn": "2022-02-24T16:54:28.089Z",
     "LastUpdated": "2022-02-24T16:54:28.089Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -45,27 +48,7 @@
     "ShortDisplayName": "Context",
     "Description": "Context",
     "LastUpdated": "2023-03-23T15:54:18.6532785+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "Workflow",
-    "Name": "context",
-    "DisplayName": "Context",
-    "ShortDisplayName": "Context",
-    "Description": "Context",
-    "LastUpdated": "2023-03-23T15:54:18.6532785+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "context",
-    "Key": "Workflow",
-    "DisplayName": "Context",
-    "ShortDisplayName": "Context",
-    "Description": "Context",
-    "CreatedOn": "2022-02-24T17:00:21.997Z",
-    "LastUpdated": "2022-02-24T17:00:21.997Z",
-    "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -77,6 +60,7 @@
     "CreatedOn": "2022-02-24T16:56:25.23Z",
     "LastUpdated": "2022-02-24T16:56:25.23Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -88,6 +72,7 @@
     "CreatedOn": "2022-02-24T16:57:34.497Z",
     "LastUpdated": "2022-02-24T16:57:34.497Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -99,6 +84,7 @@
     "CreatedOn": "2022-02-24T16:58:51.464Z",
     "LastUpdated": "2022-02-24T16:58:51.464Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -110,6 +96,7 @@
     "CreatedOn": "2021-11-02T11:50:36.996Z",
     "LastUpdated": "2021-11-02T11:50:36.996Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -121,6 +108,7 @@
     "CreatedOn": "2022-02-24T16:55:22.77Z",
     "LastUpdated": "2022-02-24T16:55:22.77Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -132,6 +120,7 @@
     "CreatedOn": "2022-04-29T23:24:38.156Z",
     "LastUpdated": "2022-04-29T23:24:38.156Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -143,6 +132,7 @@
     "CreatedOn": "2022-02-24T17:00:07.739Z",
     "LastUpdated": "2022-02-24T17:00:07.739Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -159,6 +149,7 @@
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
     "Translations": [],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -170,6 +161,7 @@
     "CreatedOn": "2021-11-17T10:06:35.858Z",
     "LastUpdated": "2021-11-17T10:06:35.858Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -181,6 +173,7 @@
     "CreatedOn": "2022-02-24T17:00:35.631Z",
     "LastUpdated": "2022-02-24T17:00:35.631Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -192,6 +185,7 @@
     "CreatedOn": "2021-11-02T12:01:30.935Z",
     "LastUpdated": "2021-11-02T12:01:30.935Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -223,6 +217,7 @@
         "CreatedBy": null
       }
     ],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -234,6 +229,7 @@
     "CreatedOn": "2022-04-29T23:23:45.566Z",
     "LastUpdated": "2022-04-29T23:23:45.566Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -245,6 +241,7 @@
     "CreatedOn": "2022-02-24T16:54:43.075Z",
     "LastUpdated": "2022-02-24T16:54:43.075Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -256,6 +253,7 @@
     "CreatedOn": "2022-02-24T16:58:24.814Z",
     "LastUpdated": "2022-02-24T16:58:24.814Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   }
 ]

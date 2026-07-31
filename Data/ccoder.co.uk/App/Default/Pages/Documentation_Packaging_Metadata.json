@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/Packaging/Metadata",
+  "Name": "Metadata",
+  "ShowOnMenus": true,
+  "Order": 10,
+  "LastUpdated": "2026-07-28T09:01:52.6854589\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E\u003Csection class=\u0022docs-value-overview\u0022\u003E\u003Ch2\u003EDiscover the package transfer contract\u003C/h2\u003E\u003Cp\u003EPackaging metadata exposes the public model used to describe portable application definitions. Consumers can inspect the supported entities and endpoints before creating import, export or administration tooling.\u003C/p\u003E\u003Cp\u003EThe contract keeps package coordination explicit while each participating domain remains responsible for its own payload.\u003C/p\u003E\u003C/section\u003E[component[DomainMetadata]]\u003Csection class=\u0022public-flow-section public-section public-nav-section\u0022\u003E\u003Cdiv class=\u0022public-section-frame\u0022\u003E[component[DetailedNav]]\u003C/div\u003E\u003C/section\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Explore the entities and endpoints exposed by the Packaging domain.",
+      "Title": "Packaging Metadata"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

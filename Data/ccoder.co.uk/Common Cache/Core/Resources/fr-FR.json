@@ -4,24 +4,26 @@
     "AppId": 4,
     "Key": "Core",
     "Culture": "fr-FR",
-    "DisplayName": "Processus métier enregistré",
-    "ShortDisplayName": "Processus métier enregistré",
+    "DisplayName": "Processus m\u00E9tier enregistr\u00E9",
+    "ShortDisplayName": "Processus m\u00E9tier enregistr\u00E9",
     "Name": "businessprocesssaved",
-    "Description": "\tProcessus métier enregistré",
+    "Description": "\tProcessus m\u00E9tier enregistr\u00E9",
     "LastUpdated": "2021-07-07T09:42:12.1323621Z",
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
     "Key": "Core",
     "Name": "eventtype",
-    "DisplayName": "Type d'événement",
-    "ShortDisplayName": "Type d'événement",
-    "Description": "Type d'événement",
-    "IncludeInSubSequentImports": true
+    "DisplayName": "Type d\u0027\u00E9v\u00E9nement",
+    "ShortDisplayName": "Type d\u0027\u00E9v\u00E9nement",
+    "Description": "Type d\u0027\u00E9v\u00E9nement",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Id": 5208,
@@ -36,7 +38,8 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "fr-FR",
@@ -45,16 +48,8 @@
     "DisplayName": "Migrate Business Processes",
     "ShortDisplayName": "Migrate Business Processes",
     "Description": "Migrate Business Processes",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "fr-FR",
-    "Key": "Core",
-    "Name": "migratebp",
-    "DisplayName": "Migrer les Processus Métier",
-    "ShortDisplayName": "Migrer les Processus Métier",
-    "Description": "Migrer les Processus Métier",
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Id": 5211,
@@ -69,7 +64,8 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Id": 5213,
@@ -84,6 +80,7 @@
     "LastUpdatedBy": "Guest",
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
-    "IncludeInSubSequentImports": true
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   }
 ]

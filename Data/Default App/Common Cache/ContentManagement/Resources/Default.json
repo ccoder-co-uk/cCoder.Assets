@@ -7,6 +7,40 @@
     "ShortDisplayName": "App config parsing error",
     "Description": "App config parsing error",
     "LastUpdated": "2022-03-18T10:41:54.1905228+00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "appcreated",
+    "DisplayName": "App Created",
+    "ShortDisplayName": "App Created",
+    "Description": "appcreated",
+    "LastUpdated": "2022-03-18T10:41:54.1905079+00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "appdeleted",
+    "DisplayName": "App Deleted",
+    "ShortDisplayName": "App Deleted",
+    "Description": "appdeleted",
+    "LastUpdated": "2022-03-18T10:41:54.1904439+00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "appsaved",
+    "DisplayName": "App Saved",
+    "ShortDisplayName": "App Saved",
+    "Description": "appsaved",
+    "LastUpdated": "2022-03-18T10:41:54.1903865+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -23,42 +57,7 @@
     "CreatedOn": "2021-07-06T17:35:47.346623Z",
     "CreatedBy": "callum.marshall",
     "Translations": [],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "ContentManagement",
-    "Name": "body",
-    "DisplayName": "Body",
-    "ShortDisplayName": "Body",
-    "Description": "Body",
-    "LastUpdated": "2023-07-04T13:27:13.4329543+01:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "ContentManagement",
-    "Name": "body",
-    "DisplayName": "Body",
-    "ShortDisplayName": "Body",
-    "Description": "Body",
-    "LastUpdated": "2023-07-04T13:27:13.4329543+01:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 7263,
-    "AppId": 4,
-    "Key": "ContentManagement",
-    "Culture": "",
-    "DisplayName": "Cancel",
-    "ShortDisplayName": "Cancel",
-    "Name": "cancel",
-    "Description": "Cancel",
-    "LastUpdated": "2021-07-07T09:42:12.1346485Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -69,37 +68,7 @@
     "ShortDisplayName": "Cancel",
     "Description": "Cancel",
     "LastUpdated": "2022-03-18T10:41:54.1900314+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 5392,
-    "AppId": 4,
-    "Key": "ContentManagement",
-    "Culture": "",
-    "DisplayName": "Cancel",
-    "ShortDisplayName": "Cancel",
-    "Name": "cancel",
-    "Description": "Cancel",
-    "LastUpdated": "2021-07-07T09:42:12.1337817Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [
-      {
-        "Id": 5393,
-        "AppId": 4,
-        "Key": "DMS",
-        "Culture": "fr-FR",
-        "DisplayName": "Annuler",
-        "ShortDisplayName": "Annuler",
-        "Name": "cancel",
-        "Description": "Annuler",
-        "LastUpdated": "2021-07-07T09:42:12.1337892Z",
-        "LastUpdatedBy": "Guest",
-        "CreatedOn": "0001-01-01T00:00:00Z",
-        "CreatedBy": null
-      }
-    ],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -111,6 +80,7 @@
     "CreatedOn": "2022-02-24T17:03:58.234Z",
     "LastUpdated": "2022-02-24T17:03:58.234Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -142,6 +112,7 @@
         "CreatedBy": null
       }
     ],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -187,16 +158,7 @@
         "CreatedBy": "callum.marshall"
       }
     ],
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "ContentManagement",
-    "Name": "content",
-    "DisplayName": "Content",
-    "ShortDisplayName": "Content",
-    "Description": "Content",
-    "LastUpdated": "2022-03-18T10:41:54.1910651+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -207,6 +169,7 @@
     "ShortDisplayName": "Content",
     "Description": "Content",
     "LastUpdated": "2022-03-18T10:41:54.1890475+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -223,6 +186,7 @@
     "CreatedOn": "0001-01-01T00:00:00Z",
     "CreatedBy": null,
     "Translations": [],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -233,6 +197,18 @@
     "ShortDisplayName": "Default Culture",
     "Description": "defaultculture",
     "LastUpdated": "2022-03-18T10:41:54.1904606+00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "defaulttheme",
+    "DisplayName": "Default Theme",
+    "ShortDisplayName": "Default Theme",
+    "Description": "defaulttheme",
+    "LastUpdated": "2022-03-18T10:41:54.1904927+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -244,6 +220,7 @@
     "CreatedOn": "2022-11-14T16:04:26.756Z",
     "LastUpdated": "2022-11-14T16:04:26.756Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -254,36 +231,7 @@
     "ShortDisplayName": "Domain",
     "Description": "Domain",
     "LastUpdated": "2022-03-18T10:41:54.1904556+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "ContentManagement",
-    "Name": "domain",
-    "DisplayName": "Domain",
-    "ShortDisplayName": "Domain",
-    "Description": "Domain",
-    "LastUpdated": "2022-03-18T10:41:54.191055+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "ContentManagement",
-    "Name": "environment",
-    "DisplayName": "Environment",
-    "ShortDisplayName": "Environment",
-    "Description": "Environment",
-    "LastUpdated": "2022-03-18T10:41:54.1903397+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "ContentManagement",
-    "Name": "environment",
-    "DisplayName": "Environment",
-    "ShortDisplayName": "Environment",
-    "Description": "Environment",
-    "LastUpdated": "2022-03-18T10:41:54.1910499+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -294,6 +242,7 @@
     "ShortDisplayName": "Environment",
     "Description": "Environment",
     "LastUpdated": "2022-03-18T10:41:54.1893448+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -305,6 +254,7 @@
     "CreatedOn": "2022-10-19T09:43:23.346Z",
     "LastUpdated": "2022-10-19T09:43:23.346Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -316,6 +266,7 @@
     "CreatedOn": "2022-11-16T16:09:59.863Z",
     "LastUpdated": "2022-11-16T16:09:59.863Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -332,6 +283,7 @@
     "CreatedOn": "2021-07-06T17:35:47.3445084Z",
     "CreatedBy": "callum.marshall",
     "Translations": [],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -343,6 +295,7 @@
     "CreatedOn": "2022-11-16T16:11:27.912Z",
     "LastUpdated": "2022-11-16T16:11:27.912Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -353,6 +306,18 @@
     "ShortDisplayName": "Is Shown On Menu?",
     "Description": "Is Shown On Menu?",
     "LastUpdated": "2022-03-18T10:41:54.1897491+00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "key",
+    "DisplayName": "Key",
+    "ShortDisplayName": "Key",
+    "Description": "Key",
+    "LastUpdated": "2023-11-04T22:39:59.6719907+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -364,6 +329,7 @@
     "CreatedOn": "2022-11-16T16:24:52.4Z",
     "LastUpdated": "2022-11-16T16:24:52.4Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -374,6 +340,7 @@
     "ShortDisplayName": "Layout",
     "Description": "Layout",
     "LastUpdated": "2022-03-18T10:41:54.1892104+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -390,6 +357,7 @@
     "CreatedOn": "2021-07-06T17:35:47.3467261Z",
     "CreatedBy": "callum.marshall",
     "Translations": [],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -435,6 +403,7 @@
         "CreatedBy": "callum.marshall"
       }
     ],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -445,6 +414,29 @@
     "ShortDisplayName": "Mail Management",
     "Description": "Mail Management",
     "LastUpdated": "2022-03-18T10:41:54.190777+00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "migrate",
+    "DisplayName": "Migrate",
+    "ShortDisplayName": "Migrate",
+    "Description": "migrate",
+    "LastUpdated": "2022-03-18T10:41:54.1904876+00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "migrateapp",
+    "DisplayName": "Migrate App",
+    "ShortDisplayName": "Migrate App",
+    "Description": "migrateapp",
+    "LastUpdated": "2022-03-18T10:41:54.1904338+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -456,6 +448,7 @@
     "CreatedOn": "2022-11-30T12:14:31.141Z",
     "LastUpdated": "2022-11-30T12:14:31.141Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -467,6 +460,7 @@
     "CreatedOn": "2022-11-14T14:22:54.537Z",
     "LastUpdated": "2022-11-14T14:22:54.537Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -478,6 +472,7 @@
     "CreatedOn": "2022-11-14T12:26:07.557Z",
     "LastUpdated": "2022-11-14T12:26:07.557Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -489,6 +484,150 @@
     "CreatedOn": "2022-11-30T12:18:07.968Z",
     "LastUpdated": "2022-11-30T12:18:07.968Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "month-1",
+    "DisplayName": "January",
+    "ShortDisplayName": "January",
+    "Description": "January",
+    "LastUpdated": "2026-07-21T21:58:53.9108616+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "month-10",
+    "DisplayName": "October",
+    "ShortDisplayName": "October",
+    "Description": "October",
+    "LastUpdated": "2026-07-21T21:58:51.8125462+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "month-11",
+    "DisplayName": "November",
+    "ShortDisplayName": "November",
+    "Description": "November",
+    "LastUpdated": "2026-07-21T21:58:51.8747524+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "month-12",
+    "DisplayName": "December",
+    "ShortDisplayName": "December",
+    "Description": "December",
+    "LastUpdated": "2026-07-21T21:58:55.2899239+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "month-2",
+    "DisplayName": "February",
+    "ShortDisplayName": "February",
+    "Description": "February",
+    "LastUpdated": "2026-07-21T21:58:50.896574+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "month-3",
+    "DisplayName": "March",
+    "ShortDisplayName": "March",
+    "Description": "March",
+    "LastUpdated": "2026-07-21T21:58:50.9900197+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "month-4",
+    "DisplayName": "April",
+    "ShortDisplayName": "April",
+    "Description": "April",
+    "LastUpdated": "2026-07-21T21:58:51.1019222+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "month-5",
+    "DisplayName": "May",
+    "ShortDisplayName": "May",
+    "Description": "May",
+    "LastUpdated": "2026-07-21T21:58:54.3871026+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "month-6",
+    "DisplayName": "June",
+    "ShortDisplayName": "June",
+    "Description": "June",
+    "LastUpdated": "2026-07-21T21:58:51.3449256+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "month-7",
+    "DisplayName": "July",
+    "ShortDisplayName": "July",
+    "Description": "July",
+    "LastUpdated": "2026-07-21T21:58:54.6386313+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "month-8",
+    "DisplayName": "August",
+    "ShortDisplayName": "August",
+    "Description": "August",
+    "LastUpdated": "2026-07-21T21:58:54.7380902+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "month-9",
+    "DisplayName": "September",
+    "ShortDisplayName": "September",
+    "Description": "September",
+    "LastUpdated": "2026-07-21T21:58:51.726485+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "newapp",
+    "DisplayName": "New App",
+    "ShortDisplayName": "New App",
+    "Description": "New App",
+    "LastUpdated": "2022-03-18T10:41:54.1905028+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -500,6 +639,7 @@
     "CreatedOn": "2021-10-27T13:40:32.731Z",
     "LastUpdated": "2021-10-27T13:40:32.731Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -510,6 +650,18 @@
     "ShortDisplayName": "New Child Page",
     "Description": "New Child Page",
     "LastUpdated": "2022-03-18T10:41:54.190085+00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "newcomponent",
+    "DisplayName": "New Component",
+    "ShortDisplayName": "New Component",
+    "Description": "New Component",
+    "LastUpdated": "2022-03-18T10:41:54.1900503+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -520,6 +672,7 @@
     "ShortDisplayName": "New Layout",
     "Description": "New Layout",
     "LastUpdated": "2022-03-18T10:41:54.1891566+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -530,6 +683,7 @@
     "ShortDisplayName": "New Page",
     "Description": "New Page",
     "LastUpdated": "2022-03-18T10:41:54.190154+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -540,6 +694,7 @@
     "ShortDisplayName": "New Resource",
     "Description": "New Resource",
     "LastUpdated": "2022-03-18T10:41:54.1891613+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -550,6 +705,7 @@
     "ShortDisplayName": "New Template",
     "Description": "New Template",
     "LastUpdated": "2022-03-18T10:41:54.1890588+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -560,6 +716,7 @@
     "ShortDisplayName": "New Translation",
     "Description": "New Translation",
     "LastUpdated": "2022-03-18T10:41:54.1891675+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -570,6 +727,7 @@
     "ShortDisplayName": "Page deleted",
     "Description": "Page deleted",
     "LastUpdated": "2022-03-18T10:41:54.1891909+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -580,6 +738,7 @@
     "ShortDisplayName": "Page Properties",
     "Description": "Page Properties",
     "LastUpdated": "2022-03-18T10:41:54.1900361+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -591,6 +750,29 @@
     "CreatedOn": "2022-02-24T17:04:40.017Z",
     "LastUpdated": "2022-02-24T17:04:40.017Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "rebuilt",
+    "DisplayName": "Rebuilt",
+    "ShortDisplayName": "Rebuilt",
+    "Description": "Rebuilt",
+    "LastUpdated": "2022-03-18T10:41:54.1909712+00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "refreshcache",
+    "DisplayName": "Refresh Cache",
+    "ShortDisplayName": "Refresh Cache",
+    "Description": "Refresh Cache",
+    "LastUpdated": "2022-03-18T10:41:54.1909128+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -601,6 +783,7 @@
     "ShortDisplayName": "Resource Key",
     "Description": "Resource Key",
     "LastUpdated": "2022-03-18T10:41:54.1890196+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -632,6 +815,7 @@
         "CreatedBy": null
       }
     ],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -643,6 +827,7 @@
     "CreatedOn": "2021-10-27T13:46:09.858Z",
     "LastUpdated": "2021-10-27T13:46:09.858Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -653,6 +838,7 @@
     "ShortDisplayName": "Saving",
     "Description": "Saving",
     "LastUpdated": "2022-03-18T10:41:54.1907871+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -684,6 +870,7 @@
         "CreatedBy": null
       }
     ],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -694,6 +881,18 @@
     "ShortDisplayName": "Script",
     "Description": "Script",
     "LastUpdated": "2022-03-18T10:41:54.1890521+00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "scripts",
+    "DisplayName": "Scripts",
+    "ShortDisplayName": "Scripts",
+    "Description": "Scripts",
+    "LastUpdated": "2022-03-18T10:41:54.1909246+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -705,6 +904,7 @@
     "CreatedOn": "2022-11-14T12:40:40.38Z",
     "LastUpdated": "2022-11-14T12:40:40.38Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -716,17 +916,7 @@
     "CreatedOn": "2022-11-14T15:28:42.639Z",
     "LastUpdated": "2022-11-14T15:28:42.639Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Name": "selectbusinessprocesses",
-    "Key": "ContentManagement",
-    "DisplayName": "Select Business Processes",
-    "ShortDisplayName": "Select Business Processes",
-    "Description": "Select Business Processes",
-    "CreatedOn": "2022-11-14T15:31:17.2Z",
-    "LastUpdated": "2022-11-14T15:31:17.2Z",
-    "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -743,6 +933,7 @@
     "CreatedOn": "2021-07-06T17:35:47.3459029Z",
     "CreatedBy": "callum.marshall",
     "Translations": [],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -754,6 +945,7 @@
     "CreatedOn": "2022-11-14T14:20:41.044Z",
     "LastUpdated": "2022-11-14T14:20:41.044Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -770,6 +962,7 @@
     "CreatedOn": "2021-07-06T17:35:47.3460514Z",
     "CreatedBy": "callum.marshall",
     "Translations": [],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -781,6 +974,7 @@
     "CreatedOn": "2022-11-14T12:36:14.907Z",
     "LastUpdated": "2022-11-14T12:36:14.907Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -792,26 +986,7 @@
     "CreatedOn": "2022-11-14T15:16:14.089Z",
     "LastUpdated": "2022-11-14T15:16:14.089Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "ContentManagement",
-    "Name": "shortdisplayname",
-    "DisplayName": "Short Display Name",
-    "ShortDisplayName": "Short Display Name",
-    "Description": "Short Display Name",
-    "LastUpdated": "2023-03-23T16:02:17.6061646+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "ContentManagement",
-    "Name": "shortdisplayname",
-    "DisplayName": "Short Display Name",
-    "ShortDisplayName": "Short Display Name",
-    "Description": "Short Display Name",
-    "LastUpdated": "2023-03-23T16:02:17.6061646+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -822,6 +997,7 @@
     "ShortDisplayName": "Short Display Name",
     "Description": "Short Display Name",
     "LastUpdated": "2022-03-18T10:41:54.1890682+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -833,6 +1009,7 @@
     "CreatedOn": "2021-10-27T13:39:32.93Z",
     "LastUpdated": "2021-10-27T13:39:32.93Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -843,6 +1020,7 @@
     "ShortDisplayName": "Show on Menu?",
     "Description": "Show on Menu?",
     "LastUpdated": "2022-03-18T10:41:54.189112+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -853,6 +1031,18 @@
     "ShortDisplayName": "Source",
     "Description": "source",
     "LastUpdated": "2022-03-18T10:41:54.1896797+00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
+    "Name": "sourcesystem",
+    "DisplayName": "Source System",
+    "ShortDisplayName": "Source System",
+    "Description": "Source System",
+    "LastUpdated": "2022-03-18T10:41:54.1899234+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -869,6 +1059,7 @@
     "CreatedOn": "2021-07-06T17:35:47.3447961Z",
     "CreatedBy": "callum.marshall",
     "Translations": [],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -914,6 +1105,7 @@
         "CreatedBy": "callum.marshall"
       }
     ],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -925,6 +1117,7 @@
     "CreatedOn": "2021-11-19T22:00:27.79Z",
     "LastUpdated": "2021-11-19T22:00:27.79Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -936,22 +1129,7 @@
     "CreatedOn": "2022-11-16T16:20:05.209Z",
     "LastUpdated": "2022-11-16T16:20:05.209Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 30668,
-    "AppId": 4,
-    "Key": "ContentManagement",
-    "Culture": "",
-    "DisplayName": "Translation Created",
-    "ShortDisplayName": "Translation Created",
-    "Name": "translationcreated",
-    "Description": "Translation Created",
-    "LastUpdated": "2021-07-07T09:42:12.1387738Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "2021-07-06T17:35:47.3456075Z",
-    "CreatedBy": "callum.marshall",
-    "Translations": [],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -962,22 +1140,7 @@
     "ShortDisplayName": "Translation Created",
     "Description": "Translation Created",
     "LastUpdated": "2022-03-18T10:41:54.1891724+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Id": 5982,
-    "AppId": 4,
-    "Key": "ContentManagement",
-    "Culture": "",
-    "DisplayName": "Translation Created",
-    "ShortDisplayName": "Translation Created",
-    "Name": "translationcreated",
-    "Description": "Translation Created",
-    "LastUpdated": "2021-07-07T09:42:12.1344945Z",
-    "LastUpdatedBy": "Guest",
-    "CreatedOn": "0001-01-01T00:00:00Z",
-    "CreatedBy": null,
-    "Translations": [],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -994,6 +1157,7 @@
     "CreatedOn": "2021-07-06T17:35:47.3468795Z",
     "CreatedBy": "callum.marshall",
     "Translations": [],
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   }
 ]

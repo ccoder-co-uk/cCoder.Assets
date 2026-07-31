@@ -1,0 +1,6 @@
+{
+  "Path": "content/apiuploadprobe",
+  "Name": "Users",
+  "PackageType": "DocumentManagement/FolderRole",
+  "IncludeInSubSequentImports": false
+}

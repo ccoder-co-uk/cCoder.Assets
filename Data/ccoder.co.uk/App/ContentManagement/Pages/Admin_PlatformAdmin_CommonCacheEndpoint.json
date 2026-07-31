@@ -3,8 +3,8 @@
   "Name": "Common Cache Endpoint",
   "ResourceKey": "ContentManagement",
   "ShowOnMenus": true,
-  "Order": 10,
-  "LastUpdated": "2026-04-30T20:09:38.4350141+01:00",
+  "Order": 1,
+  "LastUpdated": "2026-07-30T22:31:25.6223413\u002B00:00",
   "Layout": "Default",
   "Contents": [
     {
@@ -21,5 +21,6 @@
       "Title": "Common Cache"
     }
   ],
-  "IncludeInSubSequentImports": true
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
 }

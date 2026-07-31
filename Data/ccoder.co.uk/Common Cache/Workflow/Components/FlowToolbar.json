@@ -6,5 +6,6 @@
   "Name": "FlowToolbar",
   "Description": null,
   "Key": "Workflow",
-  "IncludeInSubSequentImports": true
+  "PackageType": "ContentManagement/Component",
+  "IncludeInSubSequentImports": false
 }

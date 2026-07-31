@@ -8,7 +8,7 @@
     "Description": "Added",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -19,7 +19,7 @@
     "Description": "Animation",
     "LastUpdated": "10/26/2022 09:52:09",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -30,7 +30,7 @@
     "Description": "Applied",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -41,7 +41,7 @@
     "Description": "Apply recursively",
     "LastUpdated": "11/16/2022 16:45:43",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -52,7 +52,7 @@
     "Description": "Applyroles",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -63,7 +63,7 @@
     "Description": "Areyousure",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -74,7 +74,7 @@
     "Description": "Areyousureyouwanttodelete",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -85,7 +85,7 @@
     "Description": "Batchextensionrenameunsupported",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -96,7 +96,7 @@
     "Description": "Brand Logo",
     "LastUpdated": "10/26/2022 09:50:47",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -107,7 +107,7 @@
     "Description": "Cancel",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -118,7 +118,7 @@
     "Description": "Cannot Be Undone",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -129,7 +129,18 @@
     "Description": "A folder cannot be moved into itself",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "category",
+    "DisplayName": "Category",
+    "ShortDisplayName": "Category",
+    "Description": "category",
+    "LastUpdated": "2022-03-18T10:41:54.1896384\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -140,7 +151,7 @@
     "Description": "Choose files",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -151,7 +162,18 @@
     "Description": "Choosefolder",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "clientname",
+    "DisplayName": "Client Name",
+    "ShortDisplayName": "Client Name",
+    "Description": "Client Name",
+    "LastUpdated": "2022-03-18T10:41:54.1910031\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -162,7 +184,7 @@
     "Description": "Close",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -173,7 +195,7 @@
     "Description": "Confirm",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -184,7 +206,7 @@
     "Description": "Create",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -195,7 +217,7 @@
     "Description": "Createatroot",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -206,7 +228,7 @@
     "Description": "Created By",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -217,7 +239,7 @@
     "Description": "Created on",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -228,7 +250,7 @@
     "Description": "Createfolder",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -239,7 +261,7 @@
     "Description": "Creating",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -250,7 +272,7 @@
     "Description": "Delete",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -261,7 +283,7 @@
     "Description": "Deleteconfirmation",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -272,7 +294,7 @@
     "Description": "Deletefolder",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -283,7 +305,7 @@
     "Description": "Delete folder",
     "LastUpdated": "03/18/2022 10:41:54",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -294,7 +316,7 @@
     "Description": "Deletefolderwarning",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -305,7 +327,7 @@
     "Description": "Download",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -316,7 +338,7 @@
     "Description": "Downloadfolder",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -327,7 +349,7 @@
     "Description": "Downloadfolderdescription",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -338,7 +360,7 @@
     "Description": "Doyouwanttodeletethisfileversion",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -349,7 +371,7 @@
     "Description": "Dropfilesorfoldershere",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -360,7 +382,7 @@
     "Description": "Enterafoldername",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -371,7 +393,7 @@
     "Description": "Events",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -382,7 +404,7 @@
     "Description": "Filemoved",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -393,7 +415,7 @@
     "Description": "File saved",
     "LastUpdated": "07/07/2021 09:42:12",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -404,7 +426,18 @@
     "Description": "Filesthiscannotbeundone",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "flags",
+    "DisplayName": "Flags",
+    "ShortDisplayName": "Flags",
+    "Description": "Flags",
+    "LastUpdated": "2022-03-18T10:41:54.1911709\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -415,7 +448,7 @@
     "Description": "Foldercreated",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -426,7 +459,7 @@
     "Description": "Folder deleted successfully",
     "LastUpdated": "03/18/2022 10:41:54",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -437,7 +470,7 @@
     "Description": "Folderdetails",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -448,7 +481,7 @@
     "Description": "Folder name",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -459,7 +492,7 @@
     "Description": "Folderpathnotfound",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -470,7 +503,7 @@
     "Description": "Folder Properties",
     "LastUpdated": "03/18/2022 10:41:54",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -481,7 +514,7 @@
     "Description": "Folderrenamedsuccessfully",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -492,7 +525,7 @@
     "Description": "Folders",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -503,7 +536,7 @@
     "Description": "Further Information",
     "LastUpdated": "07/07/2021 09:42:12",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -514,7 +547,7 @@
     "Description": "Last updated",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -525,7 +558,7 @@
     "Description": "Legal",
     "LastUpdated": "07/07/2021 09:42:12",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -536,7 +569,7 @@
     "Description": "Manage",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -547,7 +580,7 @@
     "Description": "Managefolder",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -558,7 +591,7 @@
     "Description": "Move",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -569,7 +602,7 @@
     "Description": "Moving",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -580,7 +613,7 @@
     "Description": "Name",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -591,7 +624,7 @@
     "Description": "New folder",
     "LastUpdated": "03/18/2022 10:41:54",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -602,7 +635,7 @@
     "Description": "New Name",
     "LastUpdated": "03/18/2022 10:41:54",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -613,7 +646,7 @@
     "Description": "Newpath",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -624,7 +657,7 @@
     "Description": "Nothingselected",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -635,7 +668,29 @@
     "Description": "Project Logo",
     "LastUpdated": "03/13/2023 15:29:51",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "projectmanageremail",
+    "DisplayName": "Project Manager Email",
+    "ShortDisplayName": "Project Manager Email",
+    "Description": "Project Manager Email",
+    "LastUpdated": "2022-03-18T10:41:54.1911189\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "projectmanagerphone",
+    "DisplayName": "Project Manager Phone",
+    "ShortDisplayName": "Project Manager Phone",
+    "Description": "Project Manager Phone",
+    "LastUpdated": "2022-03-18T10:41:54.1911137\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -646,7 +701,7 @@
     "Description": "Properties",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -657,7 +712,7 @@
     "Description": "Rename",
     "LastUpdated": "03/18/2022 10:41:54",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -668,7 +723,7 @@
     "Description": "Rename folder",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -679,7 +734,7 @@
     "Description": "Renaming",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -690,7 +745,29 @@
     "Description": "Roles",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "salesemail",
+    "DisplayName": "Sales Email",
+    "ShortDisplayName": "Sales Email",
+    "Description": "Sales Email",
+    "LastUpdated": "2022-03-18T10:41:54.1911073\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "salesphone",
+    "DisplayName": "Sales Phone",
+    "ShortDisplayName": "Sales Phone",
+    "Description": "Sales Phone",
+    "LastUpdated": "2022-03-18T10:41:54.1911023\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -701,7 +778,18 @@
     "Description": "Saved",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "scanclient",
+    "DisplayName": "Scan Client",
+    "ShortDisplayName": "Scan Client",
+    "Description": "Scan Client",
+    "LastUpdated": "2022-03-18T10:41:54.1910281\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -712,7 +800,7 @@
     "Description": "Selectadestination",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -723,7 +811,7 @@
     "Description": "Selecteditems",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -734,7 +822,40 @@
     "Description": "Size",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "slideshow",
+    "DisplayName": "Slideshow",
+    "ShortDisplayName": "Slideshow",
+    "Description": "Slideshow",
+    "LastUpdated": "2022-03-18T10:41:54.1911658\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "technicalemail",
+    "DisplayName": "Technical Email",
+    "ShortDisplayName": "Technical Email",
+    "Description": "Technical Email",
+    "LastUpdated": "2022-03-18T10:41:54.1910972\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "technicalphone",
+    "DisplayName": "Technical Phone",
+    "ShortDisplayName": "Technical Phone",
+    "Description": "Technical Phone",
+    "LastUpdated": "2022-03-18T10:41:54.1910922\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -745,7 +866,18 @@
     "Description": "Theme List",
     "LastUpdated": "10/26/2022 09:53:01",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "themes",
+    "DisplayName": "Themes",
+    "ShortDisplayName": "Themes",
+    "Description": "Themes",
+    "LastUpdated": "2022-03-18T10:41:54.1910702\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -756,7 +888,7 @@
     "Description": "Unpacked",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -767,7 +899,7 @@
     "Description": "Unpack zip into",
     "LastUpdated": "01/04/2023 10:27:16",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -778,7 +910,7 @@
     "Description": "Update",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -789,7 +921,18 @@
     "Description": "Upload",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "uploadbrandlogo",
+    "DisplayName": "Upload Brand Logo",
+    "ShortDisplayName": "Upload Brand Logo",
+    "Description": "This will appear on the top right of your portal",
+    "LastUpdated": "2022-08-17T11:24:47.6756602\u002B01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -800,7 +943,7 @@
     "Description": "Uploading",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -811,7 +954,7 @@
     "Description": "Uploadingto",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -822,7 +965,29 @@
     "Description": "Uploaditemsintofolder",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "uploadslideshowimages",
+    "DisplayName": "Upload Slideshow Images",
+    "ShortDisplayName": "Upload Slideshow Images",
+    "Description": "Upload Slideshow Images",
+    "LastUpdated": "2022-08-17T11:25:41.5674445\u002B01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "DocumentManagement",
+    "Name": "view",
+    "DisplayName": "View",
+    "ShortDisplayName": "View",
+    "Description": "View",
+    "LastUpdated": "2022-03-18T10:41:54.1910181\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
   },
   {
     "Culture": "",
@@ -833,7 +998,7 @@
     "Description": "Welcome to the presentation of the [app[name]] supplier programme.\t",
     "LastUpdated": "12/01/2022 15:54:39",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   },
   {
     "Culture": "",
@@ -844,6 +1009,6 @@
     "Description": "Youwanttodeletethisfile",
     "LastUpdated": "2026-07-27T00:00:00Z",
     "IncludeInSubSequentImports": true,
-    "PackageType": "DocumentManagement/Resource"
+    "PackageType": "ContentManagement/Resource"
   }
 ]

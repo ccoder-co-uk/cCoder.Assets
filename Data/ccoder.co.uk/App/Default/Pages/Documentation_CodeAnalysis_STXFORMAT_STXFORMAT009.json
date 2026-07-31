@@ -1,0 +1,25 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXFORMAT/STXFORMAT009",
+  "Name": "STXFORMAT009",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 90,
+  "LastUpdated": "2026-07-28T09:01:52.3717811\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cstyle class=\u0022code-analysis-syntax\u0022\u003E\n.docs-content pre{overflow-x:auto;margin:1rem 0 1.75rem;padding:1.25rem 1.4rem;border:1px solid rgba(20,42,72,.16);border-left:4px solid #0e6fae;border-radius:4px;background:#f7fbfe;color:#10263a}\n.docs-content pre code{white-space:pre;color:inherit;background:transparent;font-size:1rem;line-height:1.65}\n.language-csharp .syntax-comment{color:#587287;font-style:italic}.language-csharp .syntax-string{color:#8a3d12}.language-csharp .syntax-keyword{color:#6542a6;font-weight:700}.language-csharp .syntax-number{color:#096b65}.language-csharp .syntax-type{color:#0a6680;font-weight:600}\n\u003C/style\u003E\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003EEvery method chained from an invocation result must begin on a new line.\u003C/p\u003E\u003C/header\u003E\u003Ch2\u003EWhat The Standard says\u003C/h2\u003E\u003Cp\u003E\u0026ldquo;Abstraction\u0026rdquo; \u0026mdash; The Standard\u0027s canonical fluent registrations and invocations put each continuation on its own line, making the sequence easy to scan. \u003Ca href=\u0022https://github.com/hassanhabib/The-Standard/blob/master/1.%20Brokers/1.%20Brokers.md#151-asynchronization-abstraction\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003Eread it here\u003C/a\u003E.\u003Cbr\u003E\u0026ldquo;exposure control\u0026rdquo; \u0026mdash; The Standard values a small, understandable surface. Vertically aligning chained calls keeps each operation visible instead of hiding behavior across a long line. \u003Ca href=\u0022https://github.com/hassanhabib/The-Standard/blob/master/2.%20Services/2.%20Services.md#204-class-visibility-and-exposure-control\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003Eread it here\u003C/a\u003E.\u003C/p\u003E\u003Ch2\u003EWhy it matters\u003C/h2\u003E\u003Cp\u003EPutting each stage of a fluent chain on its own line reveals order and transformation as a readable pipeline. It also makes additions, removals, breakpoints, and code review diffs local to the affected stage.\u003C/p\u003E\u003Ch2\u003EBad code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E\u003Cspan class=\u0022syntax-comment\u0022\u003E// Violates STXFORMAT009: Every method chained from an invocation result must begin on a new line.\u003C/span\u003E\nstudents.\u003Cspan class=\u0022syntax-type\u0022\u003EWhere\u003C/span\u003E(student =\u0026gt; student.\u003Cspan class=\u0022syntax-type\u0022\u003EIsReady\u003C/span\u003E).\u003Cspan class=\u0022syntax-type\u0022\u003EToArray\u003C/span\u003E();\u003C/code\u003E\u003C/pre\u003E\u003Ch2\u003EGood code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E\u003Cspan class=\u0022syntax-comment\u0022\u003E// Follows STXFORMAT009\u003C/span\u003E\nstudents\n    .\u003Cspan class=\u0022syntax-type\u0022\u003EWhere\u003C/span\u003E(student =\u0026gt; student.\u003Cspan class=\u0022syntax-type\u0022\u003EIsReady\u003C/span\u003E)\n    .\u003Cspan class=\u0022syntax-type\u0022\u003EToArray\u003C/span\u003E();\u003C/code\u003E\u003C/pre\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Every method chained from an invocation result must begin on a new line.",
+      "Title": "STXFORMAT009"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

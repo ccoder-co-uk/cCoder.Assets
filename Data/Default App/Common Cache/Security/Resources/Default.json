@@ -8,6 +8,7 @@
     "CreatedOn": "2023-01-04T12:49:01.009Z",
     "LastUpdated": "2023-01-04T12:49:01.009Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -19,26 +20,7 @@
     "CreatedOn": "2023-01-04T12:45:15.149Z",
     "LastUpdated": "2023-01-04T12:45:15.149Z",
     "Culture": "",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "Security",
-    "Name": "endpoint",
-    "DisplayName": "Endpoint",
-    "ShortDisplayName": "Endpoint",
-    "Description": "Endpoint",
-    "LastUpdated": "2023-03-23T16:05:36.6000531+00:00",
-    "IncludeInSubSequentImports": true
-  },
-  {
-    "Culture": "",
-    "Key": "Security",
-    "Name": "endpoint",
-    "DisplayName": "Endpoint",
-    "ShortDisplayName": "Endpoint",
-    "Description": "Endpoint",
-    "LastUpdated": "2023-03-23T16:05:36.6000531+00:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -50,6 +32,7 @@
     "CreatedOn": "2023-01-04T12:50:45.442Z",
     "LastUpdated": "2023-01-04T12:50:45.442Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -61,6 +44,7 @@
     "CreatedOn": "2023-01-04T12:50:12.99Z",
     "LastUpdated": "2023-01-04T12:50:12.99Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -72,6 +56,7 @@
     "CreatedOn": "2023-01-04T12:49:40.538Z",
     "LastUpdated": "2023-01-04T12:49:40.538Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -83,6 +68,7 @@
     "CreatedOn": "2023-01-04T12:48:38.72Z",
     "LastUpdated": "2023-01-04T12:48:38.72Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -94,6 +80,7 @@
     "CreatedOn": "2023-01-04T12:48:08.116Z",
     "LastUpdated": "2023-01-04T12:48:08.116Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -105,6 +92,7 @@
     "CreatedOn": "2023-01-04T12:46:08.791Z",
     "LastUpdated": "2023-01-04T12:46:08.791Z",
     "Culture": "",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   }
 ]

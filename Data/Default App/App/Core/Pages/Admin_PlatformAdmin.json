@@ -3,8 +3,8 @@
   "Name": "Platform Admin",
   "ResourceKey": "Core",
   "ShowOnMenus": true,
-  "Order": 50,
-  "LastUpdated": "2026-07-27T12:30:00+01:00",
+  "Order": 5,
+  "LastUpdated": "2026-07-30T23:31:25.5727244+01:00",
   "Layout": "Default",
   "Contents": [
     {
@@ -21,5 +21,6 @@
       "Title": "Platform Admin"
     }
   ],
+  "PackageType": "ContentManagement/Page",
   "IncludeInSubSequentImports": false
 }

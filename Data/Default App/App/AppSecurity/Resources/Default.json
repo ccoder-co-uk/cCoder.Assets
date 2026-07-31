@@ -6,7 +6,8 @@
     "DisplayName": "Access Denied",
     "ShortDisplayName": "Access Denied",
     "Description": "Access Denied",
-    "LastUpdated": "2022-03-18T10:41:54.1901493+00:00",
+    "LastUpdated": "2026-07-28T09:45:55.0607105+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -16,7 +17,8 @@
     "DisplayName": "Check your email",
     "ShortDisplayName": "Check your email",
     "Description": "Check your email",
-    "LastUpdated": "2022-03-18T10:41:54.1901446+00:00",
+    "LastUpdated": "2026-07-28T09:45:55.0961823+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -26,7 +28,8 @@
     "DisplayName": "New Password",
     "ShortDisplayName": "New Password",
     "Description": "New Password",
-    "LastUpdated": "2022-03-18T10:41:54.1909396+00:00",
+    "LastUpdated": "2026-07-28T09:45:55.1115302+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -36,7 +39,8 @@
     "DisplayName": "Old Password",
     "ShortDisplayName": "Old Password",
     "Description": "Old Password",
-    "LastUpdated": "2022-03-18T10:41:54.1909346+00:00",
+    "LastUpdated": "2026-07-28T09:45:55.1263065+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -46,7 +50,8 @@
     "DisplayName": "Password Reset Email",
     "ShortDisplayName": "Password Reset Email",
     "Description": "Password Reset Email",
-    "LastUpdated": "2022-03-18T10:41:54.1892757+00:00",
+    "LastUpdated": "2026-07-28T09:45:55.1412017+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -56,7 +61,8 @@
     "DisplayName": "Password Reset Email",
     "ShortDisplayName": "Password Reset Email",
     "Description": "passwordresetemailtitle",
-    "LastUpdated": "2022-03-18T10:41:54.19014+00:00",
+    "LastUpdated": "2026-07-28T09:45:55.1561561+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -66,7 +72,8 @@
     "DisplayName": "Reset Failed",
     "ShortDisplayName": "Reset Failed",
     "Description": "Reset Failed",
-    "LastUpdated": "2022-03-18T10:41:54.1898141+00:00",
+    "LastUpdated": "2026-07-28T09:45:55.1708577+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -76,7 +83,8 @@
     "DisplayName": "Token Verification Failed",
     "ShortDisplayName": "Token Verification Failed",
     "Description": "tokenverificationfailed",
-    "LastUpdated": "2022-03-18T10:41:54.1901353+00:00",
+    "LastUpdated": "2026-07-28T09:45:55.1843868+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
   {
@@ -86,7 +94,8 @@
     "DisplayName": "Token Verification Success",
     "ShortDisplayName": "Token Verification Success",
     "Description": "tokenverificationsuccess",
-    "LastUpdated": "2022-03-18T10:41:54.1900899+00:00",
+    "LastUpdated": "2026-07-28T09:45:55.1982713+01:00",
+    "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   }
 ]

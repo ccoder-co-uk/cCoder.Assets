@@ -1,0 +1,6 @@
+{
+  "Path": "content",
+  "Name": "Guests",
+  "PackageType": "DocumentManagement/FolderRole",
+  "IncludeInSubSequentImports": false
+}

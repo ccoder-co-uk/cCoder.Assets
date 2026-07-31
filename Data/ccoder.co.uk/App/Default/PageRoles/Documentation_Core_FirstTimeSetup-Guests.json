@@ -1,0 +1,6 @@
+{
+  "Path": "Documentation/Core/FirstTimeSetup",
+  "Role": "Guests",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

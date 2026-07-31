@@ -1,0 +1,6 @@
+{
+  "Path": "Documentation/Workflow/CalendarManagement",
+  "Role": "Guests",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

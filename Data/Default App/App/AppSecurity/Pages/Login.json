@@ -1,8 +1,9 @@
 {
   "Path": "Login",
   "Name": "Login",
+  "ResourceKey": "AppSecurity",
   "ShowOnMenus": false,
-  "Order": 20,
+  "Order": 0,
   "LastUpdated": "2026-04-30T20:09:38.8755788+01:00",
   "Layout": "Default",
   "Contents": [
@@ -20,6 +21,6 @@
       "Title": "Login"
     }
   ],
-  "ResourceKey": "AppSecurity",
+  "PackageType": "ContentManagement/Page",
   "IncludeInSubSequentImports": true
 }
