@@ -158,6 +158,27 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 expectedSubstring: "[component[WorkflowScheduling]]",
                 actualString: workflowAdmin);
 
+            string flowEditorScript = await ReadPropertyAsync(
+                path: FindAsset(
+                    baseline: baseline,
+                    segments:
+                    [
+                        "Common Cache",
+                        "Workflow",
+                        "Components",
+                        "FlowEditor.json",
+                    ]),
+                propertyName: "Script");
+
+            Assert.Contains(
+                expectedSubstring: "if (!id)",
+                actualString: flowEditorScript);
+
+            Assert.Contains(
+                expectedSubstring:
+                    "window.location.replace(\"/Admin/Workflows\")",
+                actualString: flowEditorScript);
+
             await AssertPageAsync(
                 baseline: baseline,
                 fileName: "Admin_DocumentManagement.json",
@@ -423,13 +444,12 @@ public sealed partial class AdminInformationArchitectureAssetTests
 
     private static string FindAsset(
         string baseline,
-        string[] segments)
-    {
-        return Path.Combine(
+        string[] segments) =>
+        Path.Combine(
             paths: Enumerable.Prepend(
                 source: segments,
-                element: baseline).ToArray());
-    }
+                element: baseline)
+            .ToArray());
 
     private static async Task<string> ReadPropertyAsync(
         string path,
