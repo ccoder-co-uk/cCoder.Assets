@@ -11,21 +11,35 @@
 | App | `App` | `ContentManagement` | 232 | 224 |
 | App | `App` | `Core` | 14 | 12 |
 | App | `App` | `DocumentManagement` | 70 | 70 |
+| App | `App` | `Logging` | 4 | 0 |
 | App | `App` | `Mail` | 4 | 4 |
 | App | `App` | `Security` | 12 | 6 |
 | App | `App` | `Workflow` | 30 | 30 |
 | App | `Common Cache` | `AppSecurity` | 114 | 114 |
-| App | `Common Cache` | `Common` | 20 | 20 |
+| App | `Common Cache` | `Common` | 16 | 16 |
 | App | `Common Cache` | `ContentManagement` | 290 | 290 |
 | App | `Common Cache` | `Core` | 44 | 44 |
+| App | `Common Cache` | `Default` | 12 | 12 |
 | App | `Common Cache` | `DocumentManagement` | 226 | 226 |
+| App | `Common Cache` | `Logging` | 2 | 2 |
 | App | `Common Cache` | `Mail` | 2 | 2 |
 | App | `Common Cache` | `Security` | 32 | 30 |
 | App | `Common Cache` | `Workflow` | 70 | 70 |
 
 ### Default-key ownership candidates
 
-- [ ] None
+- [ ] `ccoder.co.uk/Common Cache/Default/Resources/Default.json#1`
+- [ ] `ccoder.co.uk/Common Cache/Default/Resources/Default.json#2`
+- [ ] `ccoder.co.uk/Common Cache/Default/Resources/Default.json#3`
+- [ ] `ccoder.co.uk/Common Cache/Default/Resources/Default.json#4`
+- [ ] `ccoder.co.uk/Common Cache/Default/Resources/Default.json#5`
+- [ ] `ccoder.co.uk/Common Cache/Default/Resources/Default.json#6`
+- [ ] `Default App/Common Cache/Default/Resources/Default.json#1`
+- [ ] `Default App/Common Cache/Default/Resources/Default.json#2`
+- [ ] `Default App/Common Cache/Default/Resources/Default.json#3`
+- [ ] `Default App/Common Cache/Default/Resources/Default.json#4`
+- [ ] `Default App/Common Cache/Default/Resources/Default.json#5`
+- [ ] `Default App/Common Cache/Default/Resources/Default.json#6`
 
 ### App-specific static page candidates
 
@@ -378,6 +392,8 @@
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/fr-FR.json#6`
 - [ ] `App -> ForgotPassword — ccoder.co.uk/App/AppSecurity/Templates/ForgotPassword.json`
 - [ ] `App -> ForgotPassword — Default App/App/AppSecurity/Templates/ForgotPassword.json`
+- [ ] `App -> Logging — ccoder.co.uk/App/Logging/Pages/Admin_PlatformAdmin_FullLogStream.json`
+- [ ] `App -> Logging — Default App/App/Logging/Pages/Admin_PlatformAdmin_FullLogStream.json`
 - [ ] `App -> Mail — ccoder.co.uk/App/Mail/Pages/Admin_MailManagement.json`
 - [ ] `App -> Mail — Default App/App/Mail/Pages/Admin_MailManagement.json`
 - [ ] `App -> Register — ccoder.co.uk/App/AppSecurity/Templates/ConfirmRegistration.json`
@@ -541,10 +557,6 @@
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Components/Notifications.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Components/ScriptRunner.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Components/TopNav.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#1`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#2`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#3`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#4`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/DefaultResourcing.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Execute.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/KendoCultures.json`
@@ -882,6 +894,18 @@
 - [ ] `Common Cache -> Core — Default App/Common Cache/Core/Resources/fr-FR.json#5`
 - [ ] `Common Cache -> Core — Default App/Common Cache/Core/Resources/fr-FR.json#6`
 - [ ] `Common Cache -> Core — Default App/Common Cache/Core/Resources/fr-FR.json#7`
+- [ ] `Common Cache -> Default — ccoder.co.uk/Common Cache/Default/Resources/Default.json#1`
+- [ ] `Common Cache -> Default — ccoder.co.uk/Common Cache/Default/Resources/Default.json#2`
+- [ ] `Common Cache -> Default — ccoder.co.uk/Common Cache/Default/Resources/Default.json#3`
+- [ ] `Common Cache -> Default — ccoder.co.uk/Common Cache/Default/Resources/Default.json#4`
+- [ ] `Common Cache -> Default — ccoder.co.uk/Common Cache/Default/Resources/Default.json#5`
+- [ ] `Common Cache -> Default — ccoder.co.uk/Common Cache/Default/Resources/Default.json#6`
+- [ ] `Common Cache -> Default — Default App/Common Cache/Default/Resources/Default.json#1`
+- [ ] `Common Cache -> Default — Default App/Common Cache/Default/Resources/Default.json#2`
+- [ ] `Common Cache -> Default — Default App/Common Cache/Default/Resources/Default.json#3`
+- [ ] `Common Cache -> Default — Default App/Common Cache/Default/Resources/Default.json#4`
+- [ ] `Common Cache -> Default — Default App/Common Cache/Default/Resources/Default.json#5`
+- [ ] `Common Cache -> Default — Default App/Common Cache/Default/Resources/Default.json#6`
 - [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Components/Client.json`
 - [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Components/ClientFiles.json`
 - [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Components/ClientList.json`
@@ -1108,6 +1132,8 @@
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/fr.json`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Scripts/FileVersionsGrid.json`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Scripts/FolderManagementGrid.json`
+- [ ] `Common Cache -> Logging — ccoder.co.uk/Common Cache/Logging/Components/FullLogStream.json`
+- [ ] `Common Cache -> Logging — Default App/Common Cache/Logging/Components/FullLogStream.json`
 - [ ] `Common Cache -> Mail — ccoder.co.uk/Common Cache/Mail/Components/MailManagement.json`
 - [ ] `Common Cache -> Mail — Default App/Common Cache/Mail/Components/MailManagement.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Components/TenantAppManagement.json`

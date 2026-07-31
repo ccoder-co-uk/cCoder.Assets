@@ -270,7 +270,7 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 propertyName: "Script");
 
             Assert.Contains(
-                expectedSubstring: "dd-MM-yyyy HH:mm:ss",
+                expectedSubstring: "type.dateAndTimeFormat",
                 actualString: formattingScript);
 
             Assert.Contains(
@@ -313,11 +313,24 @@ public sealed partial class AdminInformationArchitectureAssetTests
                     searchPattern: "LogStream.json",
                     searchOption: SearchOption.AllDirectories));
 
-            Assert.Empty(
-                collection: Directory.GetFiles(
-                    path: baseline,
-                    searchPattern: "Admin_PlatformAdmin_FullLogStream.json",
-                    searchOption: SearchOption.AllDirectories));
+            await AssertPageAsync(
+                baseline: baseline,
+                fileName: "Admin_PlatformAdmin_FullLogStream.json",
+                path: "Admin/PlatformAdmin/FullLogStream",
+                component: "FullLogStream",
+                includeInSubsequentImports: false);
+
+            Assert.True(
+                condition: File.Exists(
+                    path: FindAsset(
+                        baseline: baseline,
+                        segments:
+                        [
+                            "Common Cache",
+                            "Logging",
+                            "Components",
+                            "FullLogStream.json",
+                        ])));
 
             await AssertPageAsync(
                 baseline: baseline,
@@ -402,7 +415,8 @@ public sealed partial class AdminInformationArchitectureAssetTests
         string baseline,
         string fileName,
         string path,
-        string component)
+        string component,
+        bool includeInSubsequentImports = true)
     {
         string pagePath = Directory.GetFiles(
                 path: baseline,
@@ -424,8 +438,9 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 .GetProperty(propertyName: "ShowOnMenus")
                 .GetBoolean());
 
-        Assert.True(
-            condition: page.RootElement
+        Assert.Equal(
+            expected: includeInSubsequentImports,
+            actual: page.RootElement
                 .GetProperty(propertyName: "IncludeInSubSequentImports")
                 .GetBoolean());
 

@@ -1,0 +1,12 @@
+{
+  "Name": "Default Common Cache",
+  "Description": "Generated common cache functionality package for Default.",
+  "Category": "Default",
+  "SourceApi": "Multiple",
+  "Items": [
+    {
+      "Type": "ContentManagement/Resource",
+      "Data": "[\r\n  {\r\n    \u0022Culture\u0022: \u0022\u0022,\r\n    \u0022Key\u0022: \u0022Default\u0022,\r\n    \u0022Name\u0022: \u0022aggregateMoneyFormat\u0022,\r\n    \u0022DisplayName\u0022: \u0022c2\u0022,\r\n    \u0022ShortDisplayName\u0022: \u0022c2\u0022,\r\n    \u0022Description\u0022: \u0022Default aggregate currency format\u0022\r\n  },\r\n  {\r\n    \u0022Culture\u0022: \u0022\u0022,\r\n    \u0022Key\u0022: \u0022Default\u0022,\r\n    \u0022Name\u0022: \u0022dateandtimeformat\u0022,\r\n    \u0022DisplayName\u0022: \u0022yyyy MMMM dd HH:mm\u0022,\r\n    \u0022ShortDisplayName\u0022: \u0022yyyy MMMM dd HH:mm\u0022,\r\n    \u0022Description\u0022: \u0022Default date and time format\u0022\r\n  },\r\n  {\r\n    \u0022Culture\u0022: \u0022\u0022,\r\n    \u0022Key\u0022: \u0022Default\u0022,\r\n    \u0022Name\u0022: \u0022dateformat\u0022,\r\n    \u0022DisplayName\u0022: \u0022yyyy MMMM dd\u0022,\r\n    \u0022ShortDisplayName\u0022: \u0022yyyy MMMM dd\u0022,\r\n    \u0022Description\u0022: \u0022Default date format\u0022\r\n  },\r\n  {\r\n    \u0022Culture\u0022: \u0022\u0022,\r\n    \u0022Key\u0022: \u0022Default\u0022,\r\n    \u0022Name\u0022: \u0022moneyformat\u0022,\r\n    \u0022DisplayName\u0022: \u0022c2\u0022,\r\n    \u0022ShortDisplayName\u0022: \u0022c2\u0022,\r\n    \u0022Description\u0022: \u0022Default currency format\u0022\r\n  },\r\n  {\r\n    \u0022Culture\u0022: \u0022\u0022,\r\n    \u0022Key\u0022: \u0022Default\u0022,\r\n    \u0022Name\u0022: \u0022shortdateformat\u0022,\r\n    \u0022DisplayName\u0022: \u0022yyyy-MM-dd\u0022,\r\n    \u0022ShortDisplayName\u0022: \u0022yyyy-MM-dd\u0022,\r\n    \u0022Description\u0022: \u0022Default short date format\u0022\r\n  },\r\n  {\r\n    \u0022Culture\u0022: \u0022\u0022,\r\n    \u0022Key\u0022: \u0022Default\u0022,\r\n    \u0022Name\u0022: \u0022timeformat\u0022,\r\n    \u0022DisplayName\u0022: \u0022HH:mm\u0022,\r\n    \u0022ShortDisplayName\u0022: \u0022HH:mm\u0022,\r\n    \u0022Description\u0022: \u0022Default time format\u0022\r\n  }\r\n]"
+    }
+  ]
+}

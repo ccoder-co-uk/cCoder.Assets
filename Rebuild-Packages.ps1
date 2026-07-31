@@ -50,8 +50,8 @@ try {
         Copy-Item -LiteralPath $componentFile.FullName -Destination (Join-Path $componentDirectory $componentFile.Name)
     }
 
-    if ($componentIdentities.Count -ne 111) {
-        throw "Expected 111 unique components in the ccoder.co.uk snapshot but found $($componentIdentities.Count)."
+    if ($componentIdentities.Count -ne 112) {
+        throw "Expected 112 unique components in the ccoder.co.uk snapshot but found $($componentIdentities.Count)."
     }
 
     & $packer pack `
@@ -78,7 +78,7 @@ try {
             PackageFile = 'all-resources.json'
             PackageName = 'All Resources Common Cache'
             ItemType = 'ContentManagement/Resource'
-            ExpectedCount = 314
+            ExpectedCount = 320
             IncludeCulture = $true
         },
         [pscustomobject]@{
