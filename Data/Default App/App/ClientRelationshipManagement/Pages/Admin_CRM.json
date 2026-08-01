@@ -1,0 +1,26 @@
+{
+  "Path": "Admin/CRM",
+  "Name": "CRM",
+  "ResourceKey": "ClientRelationshipManagement",
+  "ShowOnMenus": true,
+  "Order": 7,
+  "LastUpdated": "2026-08-01T18:30:00+01:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[CRMAdmin]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Administer CRM automation, communications, imports and business processes.",
+      "Keywords": "CRM, Administration, Agents, Imports, Processes",
+      "Title": "CRM Administration"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": true
+}

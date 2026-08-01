@@ -1,0 +1,6 @@
+{
+  "Path": "AI",
+  "Role": "Users",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": true
+}

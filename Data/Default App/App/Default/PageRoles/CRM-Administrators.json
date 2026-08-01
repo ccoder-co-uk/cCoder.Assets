@@ -1,0 +1,6 @@
+{
+  "Path": "CRM",
+  "Role": "Administrators",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": true
+}

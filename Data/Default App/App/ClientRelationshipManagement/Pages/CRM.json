@@ -1,0 +1,26 @@
+{
+  "Path": "CRM",
+  "Name": "CRM",
+  "ResourceKey": "ClientRelationshipManagement",
+  "ShowOnMenus": true,
+  "Order": 4,
+  "LastUpdated": "2026-08-01T18:30:00+01:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[CRMDashboard]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Manage companies, leads, opportunities, clients and the actions that move relationships forward.",
+      "Keywords": "CRM, Companies, Leads, Opportunities, Clients",
+      "Title": "CRM"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": true
+}
