@@ -36,7 +36,7 @@
     },
     {
       "Path": "App/Default.json",
-      "Sha256": "4A6A94B865DA9A734B8E489A3B1AF8BB836A923098005BEDED6DDD136947DFE1",
+      "Sha256": "386A222B23BC8048D93D41E77D96545E2EE6981774C6A1951644F401C4A09ED0",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Default",
@@ -100,7 +100,7 @@
     },
     {
       "Path": "Baseline New App/baseline-new-app.json",
-      "Sha256": "9166FE971ADEFAF80092669D07EFC7F14534AC6EEEF7595CDBDF452104219DCD",
+      "Sha256": "364425853C870C3C4905C504732A3BD6EB1128399F965617A9321EE7B151D740",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Baseline New App",
@@ -258,7 +258,7 @@
     },
     {
       "Path": "First Time Setup/first-app.json",
-      "Sha256": "D57A728AEACC697C9E532944E5F340108F2B1F643BCF31D4271413802C6780BE",
+      "Sha256": "D6F982A22DE4DEB4D06B4F18BACE7DA5F5038CF620CE9527D884CA4D9E8E1F43",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "First Time Setup",
