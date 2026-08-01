@@ -1,0 +1,10 @@
+{
+  "Name": "DomainMetadata",
+  "Key": "ContentManagement",
+  "ResourceKey": "ContentManagement",
+  "Script": null,
+  "Content": "[component[Metadata]]",
+  "LastUpdated": "2026-08-01T18:45:00+01:00",
+  "PackageType": "ContentManagement/Component",
+  "IncludeInSubSequentImports": true
+}
