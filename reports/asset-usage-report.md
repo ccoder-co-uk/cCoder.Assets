@@ -8,16 +8,17 @@
 | --- | --- | --- | ---: | ---: |
 | App | `App` | `Account` | 59 | 0 |
 | App | `App` | `addUserDropDown` | 1 | 0 |
+| App | `App` | `AI` | 2 | 2 |
 | App | `App` | `AppSecurity` | 42 | 21 |
 | App | `App` | `B2B` | 26 | 0 |
 | App | `App` | `B2B Portal Admin` | 2 | 0 |
+| App | `App` | `ClientRelationshipManagement` | 2 | 2 |
 | App | `App` | `CMS` | 222 | 0 |
 | App | `App` | `Common` | 1 | 0 |
 | App | `App` | `ContentManagement` | 220 | 105 |
 | App | `App` | `Core` | 35 | 2 |
 | App | `App` | `CRM` | 78 | 0 |
-| App | `App` | `Debug` | 3 | 0 |
-| App | `App` | `Default` | 541 | 21 |
+| App | `App` | `Default` | 547 | 27 |
 | App | `App` | `DevTools` | 1 | 0 |
 | App | `App` | `DMS` | 52 | 0 |
 | App | `App` | `Documentation` | 1 | 0 |
@@ -33,9 +34,11 @@
 | App | `App` | `Security` | 12 | 0 |
 | App | `App` | `Tools` | 2 | 0 |
 | App | `App` | `Workflow` | 94 | 45 |
+| App | `Common Cache` | `AI` | 2 | 2 |
 | App | `Common Cache` | `AppSecurity` | 76 | 41 |
+| App | `Common Cache` | `ClientRelationshipManagement` | 2 | 2 |
 | App | `Common Cache` | `Common` | 30 | 19 |
-| App | `Common Cache` | `ContentManagement` | 356 | 202 |
+| App | `Common Cache` | `ContentManagement` | 358 | 203 |
 | App | `Common Cache` | `Core` | 42 | 24 |
 | App | `Common Cache` | `Default` | 12 | 6 |
 | App | `Common Cache` | `DocumentManagement` | 254 | 211 |
@@ -292,6 +295,8 @@
 - [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr.json#4`
 - [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr.json#5`
 - [ ] `App -> addUserDropDown — ccoder.co.uk/App/addUserDropDown/Resources/Default.json`
+- [ ] `App -> AI — Default App/App/AI/Pages/Admin_AI.json`
+- [ ] `App -> AI — Default App/App/AI/Pages/AI.json`
 - [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Components/Login.json`
 - [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Components/PasswordReset.json`
 - [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Components/Register.json`
@@ -362,6 +367,8 @@
 - [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/en-GB.json#2`
 - [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/fr-FR.json#1`
 - [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/fr-FR.json#2`
+- [ ] `App -> ClientRelationshipManagement — Default App/App/ClientRelationshipManagement/Pages/Admin_CRM.json`
+- [ ] `App -> ClientRelationshipManagement — Default App/App/ClientRelationshipManagement/Pages/CRM.json`
 - [ ] `App -> CMS — ccoder.co.uk/App/CMS/Components/CalendarManagement.json`
 - [ ] `App -> CMS — ccoder.co.uk/App/CMS/Components/CMS.json`
 - [ ] `App -> CMS — ccoder.co.uk/App/CMS/Components/PortalBuilderForm.json`
@@ -917,9 +924,6 @@
 - [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#6`
 - [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#7`
 - [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#8`
-- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/ApiTester.json`
-- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/DomainMetadata.json`
-- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/Metadata.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA.json`
@@ -1322,6 +1326,8 @@
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#7`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#8`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#9`
+- [ ] `Common Cache -> AI — Default App/Common Cache/AI/Components/AIAdmin.json`
+- [ ] `Common Cache -> AI — Default App/Common Cache/AI/Components/AIWorkspace.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/FlowSettings.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/Login.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/loginPage.json`
@@ -1398,6 +1404,8 @@
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#6`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#7`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#8`
+- [ ] `Common Cache -> ClientRelationshipManagement — Default App/Common Cache/ClientRelationshipManagement/Components/CRMAdmin.json`
+- [ ] `Common Cache -> ClientRelationshipManagement — Default App/Common Cache/ClientRelationshipManagement/Components/CRMDashboard.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Components/DetailedNav.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Components/HistoryList.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Components/Notifications.json`
@@ -1443,6 +1451,7 @@
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/ComponentMigration.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/CoreManagement.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/CultureFlags.json`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/DomainMetadata.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/Etc.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/Font.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/FormManagement.json`
@@ -1621,6 +1630,7 @@
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/ComponentMigration.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/CoreManagement.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/CultureFlags.json`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/DomainMetadata.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/Etc.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/Font.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/FormManagement.json`

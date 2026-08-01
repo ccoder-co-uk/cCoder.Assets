@@ -1,0 +1,26 @@
+{
+  "Path": "AI",
+  "Name": "AI",
+  "ResourceKey": "AI",
+  "ShowOnMenus": true,
+  "Order": 5,
+  "LastUpdated": "2026-08-01T18:30:00+01:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[AIWorkspace]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Explore configured AI providers, models and shared platform capabilities.",
+      "Keywords": "AI, Models, Providers, Agents, Chat",
+      "Title": "AI"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": true
+}
