@@ -94,5 +94,26 @@
     "Culture": "",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "resetyourpassword", "Key": "Security", "DisplayName": "Reset your password", "ShortDisplayName": "Reset password", "Description": "Choose a new password for your account.", "LastUpdated": "2026-08-02T00:00:00Z", "Culture": "", "PackageType": "ContentManagement/Resource", "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "Password", "Key": "Security", "DisplayName": "New password", "ShortDisplayName": "Password", "Description": "New password", "LastUpdated": "2026-08-02T00:00:00Z", "Culture": "", "PackageType": "ContentManagement/Resource", "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "ConfirmPassword", "Key": "Security", "DisplayName": "Confirm password", "ShortDisplayName": "Confirm", "Description": "Confirm the new password", "LastUpdated": "2026-08-02T00:00:00Z", "Culture": "", "PackageType": "ContentManagement/Resource", "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "Submit", "Key": "Security", "DisplayName": "Reset password", "ShortDisplayName": "Reset", "Description": "Reset password", "LastUpdated": "2026-08-02T00:00:00Z", "Culture": "", "PackageType": "ContentManagement/Resource", "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "ResetSuccess", "Key": "Security", "DisplayName": "Password reset", "ShortDisplayName": "Password reset", "Description": "Your password has been reset.", "LastUpdated": "2026-08-02T00:00:00Z", "Culture": "", "PackageType": "ContentManagement/Resource", "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "ResetFailed", "Key": "Security", "DisplayName": "Password reset failed", "ShortDisplayName": "Reset failed", "Description": "We could not reset your password. Check the link and try again.", "LastUpdated": "2026-08-02T00:00:00Z", "Culture": "", "PackageType": "ContentManagement/Resource", "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "ResetLoginFailed", "Key": "Security", "DisplayName": "Password reset complete", "ShortDisplayName": "Sign in required", "Description": "Your password was reset, but automatic sign-in did not complete. Please sign in with your new password.", "LastUpdated": "2026-08-02T00:00:00Z", "Culture": "", "PackageType": "ContentManagement/Resource", "IncludeInSubSequentImports": true
   }
 ]
