@@ -9,7 +9,7 @@
 | App | `App` | `Account` | 59 | 0 |
 | App | `App` | `addUserDropDown` | 1 | 0 |
 | App | `App` | `AI` | 2 | 2 |
-| App | `App` | `AppSecurity` | 42 | 21 |
+| App | `App` | `AppSecurity` | 38 | 19 |
 | App | `App` | `B2B` | 26 | 0 |
 | App | `App` | `B2B Portal Admin` | 2 | 0 |
 | App | `App` | `ClientRelationshipManagement` | 2 | 2 |
@@ -31,11 +31,11 @@
 | App | `App` | `notifications` | 1 | 0 |
 | App | `App` | `QueryBuilder` | 1 | 0 |
 | App | `App` | `Register` | 2 | 1 |
-| App | `App` | `Security` | 12 | 0 |
+| App | `App` | `Security` | 14 | 1 |
 | App | `App` | `Tools` | 2 | 0 |
 | App | `App` | `Workflow` | 94 | 45 |
 | App | `Common Cache` | `AI` | 2 | 2 |
-| App | `Common Cache` | `AppSecurity` | 76 | 41 |
+| App | `Common Cache` | `AppSecurity` | 72 | 39 |
 | App | `Common Cache` | `ClientRelationshipManagement` | 2 | 2 |
 | App | `Common Cache` | `Common` | 30 | 19 |
 | App | `Common Cache` | `ContentManagement` | 358 | 203 |
@@ -43,7 +43,7 @@
 | App | `Common Cache` | `Default` | 12 | 6 |
 | App | `Common Cache` | `DocumentManagement` | 254 | 211 |
 | App | `Common Cache` | `Mail` | 2 | 2 |
-| App | `Common Cache` | `Security` | 26 | 13 |
+| App | `Common Cache` | `Security` | 42 | 21 |
 | App | `Common Cache` | `Workflow` | 74 | 40 |
 
 ### Default-key ownership candidates
@@ -298,10 +298,8 @@
 - [ ] `App -> AI — Default App/App/AI/Pages/Admin_AI.json`
 - [ ] `App -> AI — Default App/App/AI/Pages/AI.json`
 - [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Components/Login.json`
-- [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Components/PasswordReset.json`
 - [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Components/Register.json`
 - [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Pages/Login.json`
-- [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Pages/ResetPassword.json`
 - [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Resources/Default.json#1`
 - [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Resources/Default.json#2`
 - [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Resources/Default.json#3`
@@ -319,10 +317,8 @@
 - [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Resources/fr-FR.json#6`
 - [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Resources/fr-FR.json#7`
 - [ ] `App -> AppSecurity — Default App/App/AppSecurity/Components/Login.json`
-- [ ] `App -> AppSecurity — Default App/App/AppSecurity/Components/PasswordReset.json`
 - [ ] `App -> AppSecurity — Default App/App/AppSecurity/Components/Register.json`
 - [ ] `App -> AppSecurity — Default App/App/AppSecurity/Pages/Login.json`
-- [ ] `App -> AppSecurity — Default App/App/AppSecurity/Pages/ResetPassword.json`
 - [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/Default.json#1`
 - [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/Default.json#2`
 - [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/Default.json#3`
@@ -1226,12 +1222,14 @@
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/TenantAppManagement.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/TenantManagement.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Pages/Admin_PlatformAdmin_Tenants.json`
+- [ ] `App -> Security — ccoder.co.uk/App/Security/Pages/ResetPassword.json`
 - [ ] `App -> Security — Default App/App/Security/Components/SSORoleManagement.json`
 - [ ] `App -> Security — Default App/App/Security/Components/SSORolePrivManagement.json`
 - [ ] `App -> Security — Default App/App/Security/Components/SSORoleUserManagement.json`
 - [ ] `App -> Security — Default App/App/Security/Components/TenantAppManagement.json`
 - [ ] `App -> Security — Default App/App/Security/Components/TenantManagement.json`
 - [ ] `App -> Security — Default App/App/Security/Pages/Admin_PlatformAdmin_Tenants.json`
+- [ ] `App -> Security — Default App/App/Security/Pages/ResetPassword.json`
 - [ ] `App -> Tools — ccoder.co.uk/App/Tools/Components/GridBuilder.json`
 - [ ] `App -> Tools — ccoder.co.uk/App/Tools/Components/LoginToEnvironment.json`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Components/MasterdataImportResults.json`
@@ -1332,10 +1330,8 @@
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/Login.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/loginPage.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/LoginToEnvironment.json`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/PasswordReset.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/Register.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/RegistrationsHome.json`
-- [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/ResetPassword.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/RoleManagement.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/RolePrivManagement.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/RoleUserManagement.json`
@@ -1370,10 +1366,8 @@
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/Login.json`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/loginPage.json`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/LoginToEnvironment.json`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/PasswordReset.json`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/Register.json`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/RegistrationsHome.json`
-- [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/ResetPassword.json`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/RoleManagement.json`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/RolePrivManagement.json`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Components/RoleUserManagement.json`
@@ -2104,8 +2098,15 @@
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Scripts/FolderManagementGrid.json`
 - [ ] `Common Cache -> Mail — ccoder.co.uk/Common Cache/Mail/Components/MailManagement.json`
 - [ ] `Common Cache -> Mail — Default App/Common Cache/Mail/Components/MailManagement.json`
+- [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Components/PasswordReset.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Components/TenantActivity.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#1`
+- [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#10`
+- [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#11`
+- [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#12`
+- [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#13`
+- [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#14`
+- [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#15`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#2`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#3`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#4`
@@ -2113,12 +2114,20 @@
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#6`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#7`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#8`
+- [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#9`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Scripts/CoreDailyUsageApiDetailsGrid.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Scripts/CoreDailyUsageGrid.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Scripts/CoreDailyUsagePageDetailsGrid.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Scripts/CoreDailyUsageUserDetailsGrid.json`
+- [ ] `Common Cache -> Security — Default App/Common Cache/Security/Components/PasswordReset.json`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Components/TenantActivity.json`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#1`
+- [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#10`
+- [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#11`
+- [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#12`
+- [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#13`
+- [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#14`
+- [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#15`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#2`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#3`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#4`
@@ -2126,6 +2135,7 @@
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#6`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#7`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#8`
+- [ ] `Common Cache -> Security — Default App/Common Cache/Security/Resources/Default.json#9`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Scripts/CoreDailyUsageApiDetailsGrid.json`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Scripts/CoreDailyUsageGrid.json`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Scripts/CoreDailyUsagePageDetailsGrid.json`
