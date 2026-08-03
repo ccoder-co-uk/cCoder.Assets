@@ -18,6 +18,7 @@
 | App | `App` | `ContentManagement` | 220 | 105 |
 | App | `App` | `Core` | 35 | 2 |
 | App | `App` | `CRM` | 78 | 0 |
+| App | `App` | `Debug` | 3 | 0 |
 | App | `App` | `Default` | 547 | 27 |
 | App | `App` | `DevTools` | 1 | 0 |
 | App | `App` | `DMS` | 52 | 0 |
@@ -920,6 +921,9 @@
 - [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#6`
 - [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#7`
 - [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#8`
+- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/ApiTester.json`
+- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/DomainMetadata.json`
+- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/Metadata.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA.json`
