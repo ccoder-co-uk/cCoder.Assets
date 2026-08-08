@@ -1,0 +1,26 @@
+{
+  "Path": "Documentation/CodeAnalysis/RFC/RFC0014",
+  "Name": "RFC0014",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 140,
+  "LastUpdated": "2026-08-01T09:19:23.3959986\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cstyle class=\u0022code-analysis-syntax\u0022\u003E.docs-content pre{overflow-x:auto;margin:1rem 0 1.75rem;padding:1.25rem 1.4rem;border-left:4px solid #0e6fae;background:#f7fbfe}.docs-content pre code{white-space:pre}\u003C/style\u003E\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003EA failed request precondition must return 412 Precondition Failed.\u003C/p\u003E\u003C/header\u003E\u003Ch2\u003EWhat the Standard says\u003C/h2\u003E\u003Cp\u003ERFC 9110 defines 412 when one or more request-header preconditions evaluate to false on the server. \u003Ca href=\u0022https://www.rfc-editor.org/rfc/rfc9110.html#section-15.5.13\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003ERead section 15.5.13\u003C/a\u003E.\u003C/p\u003E\u003Ch2\u003EWhy it matters\u003C/h2\u003E\u003Cp\u003EUsing 412 distinguishes stale ETags and other failed conditional requests from general state conflicts, allowing clients to refresh and retry safely.\u003C/p\u003E\u003Ch2\u003EBad code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003Ecatch (OrderPreconditionException)\n{\n    return Conflict();\n}\u003C/code\u003E\u003C/pre\u003E\u003Ch2\u003EGood code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003Ecatch (OrderPreconditionException)\n{\n    return StatusCode(statusCode: 412);\n}\u003C/code\u003E\u003C/pre\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "A failed request precondition must return 412 Precondition Failed.",
+      "Keywords": "RFC0014, HTTP, 412, Precondition Failed, ETag",
+      "Title": "RFC0014"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}
