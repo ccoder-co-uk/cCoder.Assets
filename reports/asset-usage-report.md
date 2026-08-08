@@ -18,7 +18,8 @@
 | App | `App` | `ContentManagement` | 220 | 105 |
 | App | `App` | `Core` | 35 | 2 |
 | App | `App` | `CRM` | 78 | 0 |
-| App | `App` | `Default` | 549 | 27 |
+| App | `App` | `Debug` | 3 | 0 |
+| App | `App` | `Default` | 624 | 27 |
 | App | `App` | `DevTools` | 1 | 0 |
 | App | `App` | `DMS` | 52 | 0 |
 | App | `App` | `Documentation` | 1 | 0 |
@@ -35,7 +36,7 @@
 | App | `App` | `Tools` | 2 | 0 |
 | App | `App` | `Workflow` | 94 | 45 |
 | App | `Common Cache` | `AI` | 2 | 2 |
-| App | `Common Cache` | `AppSecurity` | 72 | 39 |
+| App | `Common Cache` | `AppSecurity` | 72 | 40 |
 | App | `Common Cache` | `ClientRelationshipManagement` | 2 | 2 |
 | App | `Common Cache` | `Common` | 114 | 103 |
 | App | `Common Cache` | `ContentManagement` | 372 | 217 |
@@ -49,6 +50,28 @@
 ### Default-key ownership candidates
 
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0003.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_OWASP.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_OWASP_OWASP0001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0003.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0004.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0005.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0006.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0007.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0008.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0009.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0010.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0011.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0012.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0013.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0014.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0015.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI.json`
@@ -56,6 +79,7 @@
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI002.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI003.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI004.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI005.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP001.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP002.json`
@@ -66,6 +90,12 @@
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP007.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP008.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP009.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP010.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP011.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP012.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP013.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP014.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP015.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA_STXA001.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA_STXA002.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB.json`
@@ -82,6 +112,8 @@
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD001.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD003.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD004.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXEX.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXEX_STXEX001.json`
@@ -92,6 +124,8 @@
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE003.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE004.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE005.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE006.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE007.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT001.json`
@@ -110,6 +144,7 @@
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF001.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF002.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF003.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF004.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXM.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXMG.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXMG_STXMG001.json`
@@ -126,6 +161,8 @@
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXP_STXP003.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT001.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT002.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT003.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST001.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST002.json`
@@ -156,6 +193,7 @@
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0021.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0022.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0023.json`
+- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0024.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Root.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/_About-The-Creator.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/_Platform-Domains.json`
@@ -920,7 +958,32 @@
 - [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#6`
 - [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#7`
 - [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#8`
+- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/ApiTester.json`
+- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/DomainMetadata.json`
+- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/Metadata.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0003.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_OWASP.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_OWASP_OWASP0001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0003.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0004.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0005.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0006.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0007.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0008.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0009.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0010.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0011.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0012.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0013.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0014.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0015.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI.json`
@@ -928,6 +991,7 @@
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI002.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI003.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI004.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI005.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP001.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP002.json`
@@ -938,6 +1002,12 @@
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP007.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP008.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP009.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP010.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP011.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP012.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP013.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP014.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP015.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA_STXA001.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA_STXA002.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB.json`
@@ -954,6 +1024,8 @@
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD001.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD003.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD004.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXEX.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXEX_STXEX001.json`
@@ -964,6 +1036,8 @@
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE003.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE004.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE005.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE006.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE007.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT001.json`
@@ -982,6 +1056,7 @@
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF001.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF002.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF003.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF004.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXM.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXMG.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXMG_STXMG001.json`
@@ -998,6 +1073,8 @@
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXP_STXP003.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT001.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT002.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT003.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST001.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST002.json`
@@ -1028,6 +1105,7 @@
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0021.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0022.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0023.json`
+- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0024.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Root.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_About-The-Creator.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_Platform-Domains.json`

@@ -1,0 +1,26 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXD/STXD003",
+  "Name": "STXD003",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 30,
+  "LastUpdated": "2026-07-31T23:15:45.2559747\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cstyle class=\u0022code-analysis-syntax\u0022\u003E.docs-content pre{overflow-x:auto;margin:1rem 0 1.75rem;padding:1.25rem 1.4rem;border-left:4px solid #0e6fae;background:#f7fbfe}.docs-content pre code{white-space:pre}\u003C/style\u003E\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003EA dependency must encapsulate external resources rather than expose them through its surface.\u003C/p\u003E\u003C/header\u003E\u003Ch2\u003EWhat the Standard says\u003C/h2\u003E\u003Cp\u003EThe Standard keeps each architectural element focused, explicit and discoverable at its owned boundary. \u003Ca href=\u0022https://github.com/hassanhabib/The-Standard\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003Eread it here\u003C/a\u003E.\u003C/p\u003E\u003Ch2\u003EWhy it matters\u003C/h2\u003E\u003Cp\u003EEnforcing this rule gives callers and maintainers one predictable contract and makes drift visible during the build. The analyser proves this specific source-level condition; it does not replace runtime acceptance or security testing.\u003C/p\u003E\u003Ch2\u003EBad code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E\u003Cspan class=\u0022syntax-comment\u0022\u003E// Violates STXD003\u003C/span\u003E\npublic DbContext GetContext() =\u0026gt; context;\u003C/code\u003E\u003C/pre\u003E\u003Ch2\u003EGood code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E\u003Cspan class=\u0022syntax-comment\u0022\u003E// Follows STXD003\u003C/span\u003E\npublic ValueTask\u0026lt;Student\u0026gt; SelectStudentAsync(Guid id) =\u0026gt; context.Students.FindAsync(id);\u003C/code\u003E\u003C/pre\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "A dependency must encapsulate external resources rather than expose them through its surface.",
+      "Keywords": "STXD003",
+      "Title": "STXD003"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

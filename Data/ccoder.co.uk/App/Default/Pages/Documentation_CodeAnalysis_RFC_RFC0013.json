@@ -1,0 +1,26 @@
+{
+  "Path": "Documentation/CodeAnalysis/RFC/RFC0013",
+  "Name": "RFC0013",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 130,
+  "LastUpdated": "2026-08-01T09:19:23.2858025\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cstyle class=\u0022code-analysis-syntax\u0022\u003E.docs-content pre{overflow-x:auto;margin:1rem 0 1.75rem;padding:1.25rem 1.4rem;border-left:4px solid #0e6fae;background:#f7fbfe}.docs-content pre code{white-space:pre}\u003C/style\u003E\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003EAn unsupported request media type must return 415 Unsupported Media Type.\u003C/p\u003E\u003C/header\u003E\u003Ch2\u003EWhat the Standard says\u003C/h2\u003E\u003Cp\u003ERFC 9110 defines 415 for a request that the origin server refuses because the content format is not supported by the target resource or method. \u003Ca href=\u0022https://www.rfc-editor.org/rfc/rfc9110.html#section-15.5.16\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003ERead section 15.5.16\u003C/a\u003E.\u003C/p\u003E\u003Ch2\u003EWhy it matters\u003C/h2\u003E\u003Cp\u003EA precise 415 response lets callers correct Content-Type or content encoding without mistaking a representation problem for validation or server failure.\u003C/p\u003E\u003Ch2\u003EBad code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003Ecatch (OrderUnsupportedMediaException)\n{\n    return BadRequest();\n}\u003C/code\u003E\u003C/pre\u003E\u003Ch2\u003EGood code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003Ecatch (OrderUnsupportedMediaException)\n{\n    return StatusCode(statusCode: 415);\n}\u003C/code\u003E\u003C/pre\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "An unsupported request media type must return 415 Unsupported Media Type.",
+      "Keywords": "RFC0013, HTTP, 415, Unsupported Media Type",
+      "Title": "RFC0013"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}
