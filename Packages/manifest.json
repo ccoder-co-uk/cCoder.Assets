@@ -79,7 +79,7 @@
     },
     {
       "Path": "App/ForgotPassword.json",
-      "Sha256": "227C0A6C4593CA8058D2A58C724DB021D560337513CAAA5575CF2C998C880124",
+      "Sha256": "68B1C1ECC3E743DC4B103D48FFD27DEE0B46D18A47D5F74960384A6F6AF77D67",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "ForgotPassword",
@@ -130,7 +130,7 @@
     },
     {
       "Path": "Baseline New App/baseline-new-app.json",
-      "Sha256": "BA61464E5F22FAA98AAF26D15886FEC1649FF8DA0BD1965CE124D713EBDA84FE",
+      "Sha256": "7E0374BAF59B6D52A32BDF1B698CDF6F6244976CA50BFCE665C321537179D321",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Baseline New App",
@@ -321,7 +321,7 @@
     },
     {
       "Path": "First Time Setup/first-app.json",
-      "Sha256": "884207175D9C299FB7DFFECBEE4C63279E9B2BCE0D31A0BCFF6E78C9D1FE4769",
+      "Sha256": "4B15472CAF886673466A23616CB9CB1B7A2C9DB410F519948ABBE443C9A11132",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "First Time Setup",
