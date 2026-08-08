@@ -56,7 +56,7 @@
     },
     {
       "Path": "App/Default.json",
-      "Sha256": "7E7BF4874AD6490731B692193EC09200A3DB98081B1B06E9FE9FB0250CD1FBFF",
+      "Sha256": "9EE54B90E24DA0251414318252E731D64A1477E137332BC9688BCCC8064AD52A",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Default",
@@ -130,7 +130,7 @@
     },
     {
       "Path": "Baseline New App/baseline-new-app.json",
-      "Sha256": "636AA54918FD8EE196878EDD7AEF3F371F1AC91B9148513D78F4AA56118F1784",
+      "Sha256": "FD0582C2A54A76BC155647BF02669393AAAF4E6F62E5F9CB763DDC9F99381069",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Baseline New App",
@@ -175,12 +175,22 @@
     },
     {
       "Path": "Common Cache/all-scripts.json",
-      "Sha256": "be8ba0507d9d5fdf878919f738ee256cce77b60dadd23c37e53a9612f5f39d39",
+      "Sha256": "05076a5c1f1546d685a0b5e4043ad3ab9916cdd8dddccb4a254efd03a89cce59",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Common Cache",
       "ItemTypes": [
         "ContentManagement/Script"
+      ]
+    },
+    {
+      "Path": "Common Cache/all-styles.json",
+      "Sha256": "6dbc950734dc6198bf30bb0450bc66aaf94a70c3adfaceedc2e409bd0f0a7312",
+      "FirstTimeSetup": false,
+      "Source": "Common Cache",
+      "Category": "Common Cache",
+      "ItemTypes": [
+        "ContentManagement/Style"
       ]
     },
     {
@@ -206,19 +216,20 @@
     },
     {
       "Path": "Common Cache/Common.json",
-      "Sha256": "437F387468F113013D23C17495D70578550D77E25EA529A4A51A24A2FDBA25FE",
+      "Sha256": "2BDCC7A86864C9C7D594231EE02D3BC0E7185CC3955820C81B2DBC2E2221F474",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Common",
       "ItemTypes": [
         "ContentManagement/Component",
         "ContentManagement/Resource",
-        "ContentManagement/Script"
+        "ContentManagement/Script",
+        "ContentManagement/Style"
       ]
     },
     {
       "Path": "Common Cache/ContentManagement.json",
-      "Sha256": "7B1327C7FED407B71462C63EA484D448FD10DBF531ABF9096B2E1D9D120F33C8",
+      "Sha256": "8271BA0147316954342F8172DF51B0C9520A791F12F2FB7F9525D6DE5E49BA17",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "ContentManagement",
@@ -285,21 +296,10 @@
     },
     {
       "Path": "Common Cache/Workflow.json",
-      "Sha256": "541F08723F890036BB16FDD653AF6A0DD39BD60BBF5B91488EC87BDF36369B9B",
+      "Sha256": "BD780BA4F22DBECC0680328642FBFEF6BA888D84758E60EDBFF86720E346F6F6",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Workflow",
-      "ItemTypes": [
-        "ContentManagement/Component",
-        "ContentManagement/Resource"
-      ]
-    },
-    {
-      "Path": "First Time Setup/common-cache.json",
-      "Sha256": "98EE460985F6D6AB01FB89921FC10CAF2518CF5D439272EE842A7F17F1E10CA7",
-      "FirstTimeSetup": true,
-      "Source": "Common Cache",
-      "Category": "First Time Setup",
       "ItemTypes": [
         "ContentManagement/Component",
         "ContentManagement/Resource",
@@ -307,8 +307,21 @@
       ]
     },
     {
+      "Path": "First Time Setup/common-cache.json",
+      "Sha256": "951C1FC10CBF740422675DB697DB3F8A2E257C3E0691E3850D7F4E1AAC74BFB7",
+      "FirstTimeSetup": true,
+      "Source": "Common Cache",
+      "Category": "First Time Setup",
+      "ItemTypes": [
+        "ContentManagement/Component",
+        "ContentManagement/Resource",
+        "ContentManagement/Script",
+        "ContentManagement/Style"
+      ]
+    },
+    {
       "Path": "First Time Setup/first-app.json",
-      "Sha256": "B256804A67F17B33989799621BBD2DCA88E435CCBC6BF0677E87543B06B6FD94",
+      "Sha256": "B7419FB7FBA5E1B231FAA9899ADF4A2EDEBB4600AE189217C472265A47C234B3",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "First Time Setup",

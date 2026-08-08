@@ -1,0 +1,9 @@
+{
+  "Name": "Core.Editor",
+  "Content": "async function initialisePageEditing() {\r\n    if ($(\".component[name=Login]\").length > 0) {\r\n        return;\r\n    }\r\n\r\n    var pageToolbar = new PageToolbar();\r\n    await pageToolbar.init();\r\n\r\n    $(\"[contenteditable]\").each(function (i) {\r\n        (new ContentEditor($(this), pageToolbar.page))\r\n            .init();\r\n    });\r\n}\r\n\r\n$(initialisePageEditing);",
+  "CreatedOn": "2026-07-25T08:49:00.0000000+00:00",
+  "LastUpdated": "2026-07-25T08:49:00.0000000+00:00",
+  "Key": "ContentManagement",
+  "PackageType": "ContentManagement/Script",
+  "IncludeInSubSequentImports": true
+}

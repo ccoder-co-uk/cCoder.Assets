@@ -1,0 +1,9 @@
+{
+  "Name": "Widgets.Widget",
+  "Content": "class Widget\r\n{\r\n    constructor(element, args) {\r\n        if (!args) {\r\n            args = {};\r\n        }\r\n\r\n        let e = element;\r\n\r\n        if (!$(element).hasClass(\"component\") || !$(element).attr(\"name\")) {\r\n            e = $(element).closest(\".component\");\r\n        }\r\n\r\n        this.element = args.e || e;\r\n        this.name = args.name || $(e).attr(\"name\");\r\n        this.app = args.app || session.app;\r\n    }\r\n\r\n    initilizeChildrenOf(parentElement, args, callback) {\r\n        $(\"[data-child-component]\", parentElement)\r\n            .each(function (i, el) {\r\n                let name = $(el).attr(\"data-child-component\");\r\n                loadComponent(el, name, function (c) { c.init(args.widget.app, el, args); });\r\n            });\r\n\r\n        setTimeout(callback, 1000);\r\n    }\r\n}\r\n\r\njQuery.fn.getPath = function () {\r\n    let path, node = this;\r\n\r\n    while (node.length) {\r\n        let realNode = node[0], name = realNode.localName;\r\n\r\n        if (!name)\r\n            break;\r\n\r\n        name = name.toLowerCase();\r\n\r\n        let parent = node.parent();\r\n        let siblings = parent.children(name);\r\n\r\n        if (siblings.length > 1) {\r\n            name += ':eq(' + siblings.index(realNode) + ')';\r\n        }\r\n\r\n        path = name + (path ? '>' + path : '');\r\n        node = parent;\r\n    }\r\n\r\n    return path;\r\n};",
+  "CreatedOn": "2026-07-25T08:49:00.0000000+00:00",
+  "LastUpdated": "2026-07-25T08:49:00.0000000+00:00",
+  "Key": "Common",
+  "PackageType": "ContentManagement/Script",
+  "IncludeInSubSequentImports": true
+}

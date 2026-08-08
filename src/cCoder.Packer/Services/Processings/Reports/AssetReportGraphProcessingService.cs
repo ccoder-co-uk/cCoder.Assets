@@ -21,11 +21,15 @@ internal sealed partial class AssetReportGraphProcessingService
 
     private readonly IReadOnlyList<AssetReportAsset> scripts;
 
+    private readonly IReadOnlyList<AssetReportAsset> styles;
+
     private readonly IReadOnlyList<AssetReportAsset> resources;
 
     private readonly Dictionary<string, List<AssetReportAsset>> componentsByName;
 
     private readonly Dictionary<string, List<AssetReportAsset>> scriptsByName;
+
+    private readonly Dictionary<string, List<AssetReportAsset>> stylesByName;
 
     private readonly HashSet<string> componentNames;
 
@@ -33,6 +37,9 @@ internal sealed partial class AssetReportGraphProcessingService
         new(comparer: StringComparer.OrdinalIgnoreCase);
 
     private readonly HashSet<string> reachableScripts =
+        new(comparer: StringComparer.OrdinalIgnoreCase);
+
+    private readonly HashSet<string> reachableStyles =
         new(comparer: StringComparer.OrdinalIgnoreCase);
 
     private readonly HashSet<string> reachableResourceKeys =
@@ -47,6 +54,9 @@ internal sealed partial class AssetReportGraphProcessingService
     private readonly HashSet<string> unresolvedScripts =
         new(comparer: StringComparer.OrdinalIgnoreCase);
 
+    private readonly HashSet<string> unresolvedStyles =
+        new(comparer: StringComparer.OrdinalIgnoreCase);
+
     public AssetReportGraphProcessingService(IReadOnlyList<AssetReportAsset> assets)
     {
         this.assets = assets;
@@ -59,11 +69,15 @@ internal sealed partial class AssetReportGraphProcessingService
 
         this.scripts = OfType(type: "Scripts");
 
+        this.styles = OfType(type: "Styles");
+
         this.resources = OfType(type: "Resources");
 
         this.componentsByName = IndexByName(values: this.components);
 
         this.scriptsByName = IndexByName(values: this.scripts);
+
+        this.stylesByName = IndexByName(values: this.styles);
 
         this.componentNames = new HashSet<string>(
             collection: this.componentsByName.Keys,
@@ -321,6 +335,16 @@ internal sealed partial class AssetReportGraphProcessingService
                 expanded: expanded);
         }
 
+        foreach (string style in references.Styles)
+        {
+            AppendStyle(
+                report: report,
+                requester: asset,
+                name: style,
+                indent: indent,
+                expanded: expanded);
+        }
+
         foreach (string component in references.Components)
         {
             AppendComponent(
@@ -423,6 +447,43 @@ internal sealed partial class AssetReportGraphProcessingService
         }
     }
 
+    private void AppendStyle(
+        StringBuilder report,
+        AssetReportAsset requester,
+        string name,
+        string indent,
+        ISet<string> expanded)
+    {
+        AssetReportAsset? style = Resolve(
+            index: this.stylesByName,
+            requester: requester,
+            name: name);
+
+        if (style is null)
+        {
+            this.unresolvedStyles.Add(item: name);
+
+            report.AppendLine(
+                value: $"{indent}- [ ] Style `{name}` — unresolved");
+
+            return;
+        }
+
+        this.reachableStyles.Add(item: style.RelativePath);
+
+        report.AppendLine(value:
+            $"{indent}- [ ] Style `{NameOf(asset: style)}`");
+
+        if (expanded.Add(item: style.RelativePath))
+        {
+            AppendReferences(
+                report: report,
+                asset: style,
+                indent: indent + "  ",
+                expanded: expanded);
+        }
+    }
+
     private void AppendReviewQueues(StringBuilder report)
     {
         AssetReportAsset[] unreachableComponents = [.. this.components
@@ -436,6 +497,11 @@ internal sealed partial class AssetReportGraphProcessingService
             .Where(predicate: script =>
                 !this.reachableScripts.Contains(
                     item: script.RelativePath))];
+
+        AssetReportAsset[] unreachableStyles = [.. this.styles
+            .Where(predicate: style =>
+                !this.reachableStyles.Contains(
+                    item: style.RelativePath))];
 
         string[] resourceKeys = [.. this.resources
             .Select(selector: PayloadKeyOf)
@@ -464,6 +530,11 @@ internal sealed partial class AssetReportGraphProcessingService
 
         AppendQueue(
             report: report,
+            title: "Unresolved style references",
+            values: this.unresolvedStyles);
+
+        AppendQueue(
+            report: report,
             title: "Unreachable components",
             values: unreachableComponents.Select(
                 selector: component => component.RelativePath));
@@ -479,6 +550,12 @@ internal sealed partial class AssetReportGraphProcessingService
             title: "Unreachable scripts",
             values: unreachableScripts.Select(
                 selector: script => script.RelativePath));
+
+        AppendQueue(
+            report: report,
+            title: "Unreachable styles",
+            values: unreachableStyles.Select(
+                selector: style => style.RelativePath));
 
         report.AppendLine(value: "## Totals");
 
@@ -496,6 +573,9 @@ internal sealed partial class AssetReportGraphProcessingService
 
         report.AppendLine(value: $"- Reachable scripts: " +
             $"{this.reachableScripts.Count} / {this.scripts.Count}");
+
+        report.AppendLine(value: $"- Reachable styles: " +
+            $"{this.reachableStyles.Count} / {this.styles.Count}");
 
         int reachableResourceKeyCount = resourceKeys.Count(
             predicate: key =>

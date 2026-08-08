@@ -1,0 +1,9 @@
+{
+  "Name": "Widgets.ReadOnlyDetailView",
+  "Content": "class ReadOnlyDetailView extends DetailWidget {\r\n    fieldValueExpression(fieldName) {\r\n        let meta = this.fields.filter(i => i.field === fieldName)[0];\r\n\r\n        if (!meta.type) {\r\n            meta.type = \"string\";\r\n        }\r\n\r\n        if (meta.template) {\r\n            return meta.template;\r\n        }\r\n        else {\r\n            switch (meta.type) {\r\n                case \"number\":\r\n                case \"date\":\r\n                    if (!meta.format) {\r\n                        return \"#:kendo.toString(\" + fieldName + \", '\" + type.dateFormat + \"') || ''#\";\r\n                    } else {\r\n                        return \"#:kendo.toString(\" + fieldName + \", '\" + meta.format + \"') || ''#\";\r\n                    }\r\n                default:\r\n                    return \"#:\" + fieldName + \" || ''#\";\r\n            }\r\n        }\r\n    }\r\n}",
+  "CreatedOn": "2026-07-25T08:49:00.0000000+00:00",
+  "LastUpdated": "2026-07-25T08:49:00.0000000+00:00",
+  "Key": "Common",
+  "PackageType": "ContentManagement/Script",
+  "IncludeInSubSequentImports": true
+}

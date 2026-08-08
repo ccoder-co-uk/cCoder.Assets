@@ -87,6 +87,13 @@ try {
             PackageName = 'All Scripts Common Cache'
             ItemType = 'ContentManagement/Script'
             IncludeCulture = $false
+        },
+        [pscustomobject]@{
+            Directory = 'Styles'
+            PackageFile = 'all-styles.json'
+            PackageName = 'All Styles Common Cache'
+            ItemType = 'ContentManagement/Style'
+            IncludeCulture = $false
         }
     )
 
@@ -195,6 +202,10 @@ try {
         [pscustomobject]@{
             Path = 'Common Cache/all-scripts.json'
             ItemType = 'ContentManagement/Script'
+        },
+        [pscustomobject]@{
+            Path = 'Common Cache/all-styles.json'
+            ItemType = 'ContentManagement/Style'
         }
     )
     $completePackagePaths = @($completePackageEntries.Path)

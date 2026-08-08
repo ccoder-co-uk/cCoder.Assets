@@ -1,0 +1,9 @@
+{
+  "Name": "Dependency.Kendo.KendoUiLicense",
+  "Content": "KendoLicensing.setScriptKey('141j044b041h541j4i1d542e581e4i1i4g260i2k0f2e0b2g0b2h0c2g0e2i0g1b5k3i0a1j4f1h4k224f2c612i5a2k551d4j295d405f3a603e5j3e5k3b5j395h424i2h123d551g4c24511g572f562g614958315e355c355b345c325a4b562856344d034e3k4f06284054311f0g1b3253442g0e4k365j3e1k152d034i4054444d412609520e2i19280g1g3e1h4h074g2c4a2345085g03451b3d1a5i3b0d5c16480k5546270c245a')",
+  "CreatedOn": "2026-07-25T08:49:00.0000000+00:00",
+  "LastUpdated": "2026-07-25T08:49:00.0000000+00:00",
+  "Key": "Common",
+  "PackageType": "ContentManagement/Script",
+  "IncludeInSubSequentImports": true
+}
