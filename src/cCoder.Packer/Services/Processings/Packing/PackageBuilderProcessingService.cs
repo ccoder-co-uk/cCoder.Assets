@@ -561,6 +561,7 @@ internal sealed partial class PackageBuilderProcessingService
             "Resources" => "ContentManagement/Resource",
             "Roles" => "AppSecurity/Role",
             "Scripts" => "ContentManagement/Script",
+            "Styles" => "ContentManagement/Style",
             "Templates" => "ContentManagement/Template",
             "FlowDefinitions" => "Workflow/FlowDefinition",
             "Calendars" => "Workflow/Calendar",

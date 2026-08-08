@@ -1,0 +1,9 @@
+{
+  "Name": "Workflow.Close",
+  "Content": "class Close extends Collidable {\r\n    constructor(parent) {\r\n        super('x', 0, 0, parent.h - 2, parent.h - 2, 0);\r\n        this.type = 'close';\r\n        this.parent = parent;\r\n        this.flow = this.parent.flow;\r\n        this.text = 'x';\r\n        this.col = window.flowTheme.colours.secondary;\r\n        this.sel = '#f00';\r\n        this.updatePosition();\r\n    }\r\n\r\n    updatePosition() {\r\n        this.x = this.parent.x + (this.parent.w - this.parent.h) + 1;\r\n        this.y = this.parent.y + 1;\r\n    }\r\n\r\n    draw(ctx) {\r\n        draw.rect(ctx, this.x, this.y, this.w, this.h, this.col, this.sel);\r\n        draw.text(ctx, this.x + 10, this.y + 15, this.text, '#fff');\r\n    }\r\n\r\n    mouseup(e) {\r\n        this.flow.Activities = this.flow.Activities.filter(a => !Object.is(a, this.parent.activity));\r\n        this.flow.Links = this.flow.Links.filter(l => l.model.Source !== this.parent.activity.model.Ref);\r\n        this.flow.Links = this.flow.Links.filter(l => l.model.Destination !== this.parent.activity.model.Ref);\r\n    }\r\n}",
+  "CreatedOn": "2026-07-25T08:49:00.0000000+00:00",
+  "LastUpdated": "2026-07-25T08:49:00.0000000+00:00",
+  "Key": "Workflow",
+  "PackageType": "ContentManagement/Script",
+  "IncludeInSubSequentImports": true
+}

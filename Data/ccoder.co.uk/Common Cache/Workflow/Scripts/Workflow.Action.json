@@ -1,0 +1,9 @@
+{
+  "Name": "Workflow.Action",
+  "Content": "class Action extends Collidable {\r\n    constructor(parent, text, offsetX, offsetY, height, width, col, onClick) {\r\n        super(text, parent.x + offsetX, parent.y + offsetY, height, width, 0);\r\n        this.type = 'Action';\r\n        this.parent = parent;\r\n        this.flow = this.parent.flow;\r\n        this.text = text;\r\n        this.col = col;\r\n        this.offsetX = offsetX;\r\n        this.offsetY = offsetY;\r\n        this.updatePosition();\r\n        this.click = onClick;\r\n    }\r\n\r\n    updatePosition() {\r\n        this.x = this.parent.x + this.offsetX;\r\n        this.y = this.parent.y + this.offsetY;\r\n    }\r\n\r\n    mouseup(e) {\r\n        this.click(e);\r\n    }\r\n\r\n    draw(ctx) {\r\n        draw.text(ctx, this.x + 10, this.y + 15, this.text, this.col);\r\n    }\r\n}",
+  "CreatedOn": "2026-07-25T08:49:00.0000000+00:00",
+  "LastUpdated": "2026-07-25T08:49:00.0000000+00:00",
+  "Key": "Workflow",
+  "PackageType": "ContentManagement/Script",
+  "IncludeInSubSequentImports": true
+}

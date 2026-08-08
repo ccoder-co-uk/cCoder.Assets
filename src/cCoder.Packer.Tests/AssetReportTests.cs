@@ -54,7 +54,7 @@ public sealed partial class AssetReportTests
                 {
                   "Name": "Home",
                   "ResourceKey": "Public",
-                  "Content": "[script[Home]]"
+                  "Content": "[script[Home]][style[Baseline]]"
                 }
                 """);
 
@@ -65,6 +65,16 @@ public sealed partial class AssetReportTests
                 {
                   "Name": "Home",
                   "Content": "window.home = true;"
+                }
+                """);
+
+        await WriteJsonAsync(
+            directory: directory,
+            relativePath: "First/Public/Styles/Baseline.json",
+            value: """
+                {
+                  "Name": "Baseline",
+                  "Content": "body { margin: 0; }"
                 }
                 """);
 
@@ -87,6 +97,10 @@ public sealed partial class AssetReportTests
 
         Assert.Contains(
             expectedSubstring: "Script `Home`",
+            actualString: report);
+
+        Assert.Contains(
+            expectedSubstring: "Style `Baseline`",
             actualString: report);
 
         await WriteJsonAsync(

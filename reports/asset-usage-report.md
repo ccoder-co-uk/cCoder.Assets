@@ -18,8 +18,7 @@
 | App | `App` | `ContentManagement` | 220 | 105 |
 | App | `App` | `Core` | 35 | 2 |
 | App | `App` | `CRM` | 78 | 0 |
-| App | `App` | `Debug` | 3 | 0 |
-| App | `App` | `Default` | 547 | 27 |
+| App | `App` | `Default` | 549 | 27 |
 | App | `App` | `DevTools` | 1 | 0 |
 | App | `App` | `DMS` | 52 | 0 |
 | App | `App` | `Documentation` | 1 | 0 |
@@ -38,14 +37,14 @@
 | App | `Common Cache` | `AI` | 2 | 2 |
 | App | `Common Cache` | `AppSecurity` | 72 | 39 |
 | App | `Common Cache` | `ClientRelationshipManagement` | 2 | 2 |
-| App | `Common Cache` | `Common` | 30 | 19 |
-| App | `Common Cache` | `ContentManagement` | 358 | 203 |
+| App | `Common Cache` | `Common` | 114 | 103 |
+| App | `Common Cache` | `ContentManagement` | 372 | 217 |
 | App | `Common Cache` | `Core` | 42 | 24 |
 | App | `Common Cache` | `Default` | 12 | 6 |
 | App | `Common Cache` | `DocumentManagement` | 254 | 211 |
 | App | `Common Cache` | `Mail` | 2 | 2 |
 | App | `Common Cache` | `Security` | 42 | 21 |
-| App | `Common Cache` | `Workflow` | 74 | 40 |
+| App | `Common Cache` | `Workflow` | 90 | 56 |
 
 ### Default-key ownership candidates
 
@@ -921,9 +920,6 @@
 - [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#6`
 - [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#7`
 - [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#8`
-- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/ApiTester.json`
-- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/DomainMetadata.json`
-- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/Metadata.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA.json`
@@ -1416,9 +1412,51 @@
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Resources/Default.json#4`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Resources/Default.json#5`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Resources/Default.json#6`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Background.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Core.Api.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Core.Drawing.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Core.Model.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Core.Util.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/DefaultResourcing.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Bootstrap.BootstrapBundle.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Jquery.Jquery370.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Jquery.JqueryUi.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Jquery.JqueryValidate.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Kendo.KendoAllV20242514.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Kendo.KendoUiLicense.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Other.Monaco.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Other.Signalr.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Execute.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/KendoCultures.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.BootstrapDialog.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.BootstrapTabs.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Chart.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.CMS.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.ConfirmDialog.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.ConsoleDialog.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.ContextMenuWidget.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.DataTreeView.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Detail.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Dialog.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.EditorDialog.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.ExportDialog.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.FileDropContainerWidget.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Grid.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.OdataTree.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Picker.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.PieChart.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.ReadOnlyDetailView.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Tree.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.TreeView.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Widget.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Workspace.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.WritableDetailView.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Styles/Baseline.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Styles/Bootstrap.Kendo.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Styles/Dependency.Bootstrap.Bootstrap.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Styles/Dependency.Kendo.KendoV20242514Bootstrap.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Styles/Source.Kendo.json`
+- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Styles/Source.Site.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Components/DetailedNav.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Components/HistoryList.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Components/Notifications.json`
@@ -1431,9 +1469,51 @@
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#4`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#5`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#6`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Background.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Core.Api.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Core.Drawing.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Core.Model.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Core.Util.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/DefaultResourcing.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Bootstrap.BootstrapBundle.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Jquery.Jquery370.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Jquery.JqueryUi.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Jquery.JqueryValidate.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Kendo.KendoAllV20242514.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Kendo.KendoUiLicense.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Other.Monaco.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Other.Signalr.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Execute.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/KendoCultures.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.BootstrapDialog.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.BootstrapTabs.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.Chart.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.CMS.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.ConfirmDialog.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.ConsoleDialog.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.ContextMenuWidget.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.DataTreeView.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.Detail.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.Dialog.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.EditorDialog.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.ExportDialog.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.FileDropContainerWidget.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.Grid.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.OdataTree.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.Picker.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.PieChart.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.ReadOnlyDetailView.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.Tree.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.TreeView.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.Widget.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.Workspace.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.WritableDetailView.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Baseline.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Bootstrap.Kendo.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Dependency.Bootstrap.Bootstrap.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Dependency.Kendo.KendoV20242514Bootstrap.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Source.Kendo.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Source.Site.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/AppCreator.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/AppList.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/AppManagement.json`
@@ -1612,7 +1692,14 @@
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#7`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#8`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#9`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Core.ContentEditor.json`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Core.Editor.json`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Core.PageToolbar.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/MigrateApp.json`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Monaco.CSharpMonacoEditor.json`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Monaco.HTMLMonacoEditor.json`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Monaco.JavaScriptMonacoEditor.json`
+- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Monaco.MonacoEditor.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/AppCreator.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/AppList.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/AppManagement.json`
@@ -1791,7 +1878,14 @@
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#7`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#8`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#9`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Core.ContentEditor.json`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Core.Editor.json`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Core.PageToolbar.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/MigrateApp.json`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Monaco.CSharpMonacoEditor.json`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Monaco.HTMLMonacoEditor.json`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Monaco.JavaScriptMonacoEditor.json`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Monaco.MonacoEditor.json`
 - [ ] `Common Cache -> Core — ccoder.co.uk/Common Cache/Core/Components/ApiTester.json`
 - [ ] `Common Cache -> Core — ccoder.co.uk/Common Cache/Core/Components/BackgroundJobs.json`
 - [ ] `Common Cache -> Core — ccoder.co.uk/Common Cache/Core/Components/BPEditor.json`
@@ -2181,6 +2275,14 @@
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/en-GB.json#4`
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/fr-FR.json#1`
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/fr-FR.json#2`
+- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Action.json`
+- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Activity.json`
+- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Close.json`
+- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Connector.json`
+- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Flow.json`
+- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Handle.json`
+- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Link.json`
+- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Workflowdesigner.json`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Components/ActivityEditor.json`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Components/ExpressionBuilder.json`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Components/FlowEditor.json`
@@ -2218,6 +2320,14 @@
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/en-GB.json#4`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/fr-FR.json#1`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/fr-FR.json#2`
+- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Action.json`
+- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Activity.json`
+- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Close.json`
+- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Connector.json`
+- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Flow.json`
+- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Handle.json`
+- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Link.json`
+- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Workflowdesigner.json`
 
 ## Review queues
 
@@ -2233,6 +2343,10 @@
 
 - [ ] None
 
+### Unresolved style references
+
+- [ ] None
+
 ### Unreachable components
 
 - [ ] None
@@ -2245,6 +2359,10 @@
 
 - [ ] None
 
+### Unreachable styles
+
+- [ ] None
+
 ## Totals
 
 - Directories scanned: 2
@@ -2252,4 +2370,5 @@
 - Pages: 0
 - Reachable components: 0 / 0
 - Reachable scripts: 0 / 0
+- Reachable styles: 0 / 0
 - Reachable resource keys: 0 / 0

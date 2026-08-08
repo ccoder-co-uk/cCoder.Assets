@@ -18,6 +18,7 @@ internal sealed partial class PackerApiClientProcessingService(HttpClient httpCl
         "ContentManagement/Component",
         "ContentManagement/Resource",
         "ContentManagement/Script",
+        "ContentManagement/Style",
     ];
 
     public Task LoginAsync(

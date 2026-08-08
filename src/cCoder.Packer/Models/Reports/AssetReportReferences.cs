@@ -7,4 +7,5 @@ namespace cCoder.Packer.Models.Reports;
 internal sealed record AssetReportReferences(
     IReadOnlyList<string> Components,
     IReadOnlyList<string> Resources,
-    IReadOnlyList<string> Scripts);
+    IReadOnlyList<string> Scripts,
+    IReadOnlyList<string> Styles);

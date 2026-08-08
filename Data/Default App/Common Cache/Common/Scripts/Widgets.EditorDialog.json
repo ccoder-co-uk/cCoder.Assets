@@ -1,0 +1,9 @@
+{
+  "Name": "Widgets.EditorDialog",
+  "Content": "class EditorDialog extends Dialog {\r\n    constructor(args) {\r\n        super(args);\r\n\r\n        args = args || {};\r\n        this.args = args;\r\n        this.data = new kendo.observable(args.data);\r\n        this.confirm = this.args.confirm;\r\n        this.config = args.config;\r\n        this.fields = args.fields;\r\n        this.header = false;\r\n\r\n        this.events.confirm = async function (e) {\r\n            e.preventDefault();\r\n            this.data.save();\r\n            this.events.close();\r\n        };\r\n    }\r\n\r\n    async init() {\r\n        this.template += \"<div name='editor' class='editorDialog'></div><hr><div class='value'><button class='btn btn-sm btn-primary float-end' name='confirm'>\" + this.confirm + \"</button></div>\";\r\n        await super.init();\r\n        this.writableEditor = new WritableDetailView($(\"[name='editor']\", this.element), this);\r\n        await this.writableEditor.init();\r\n        this.data = this.writableEditor.data;\r\n    }\r\n}",
+  "CreatedOn": "2026-07-25T08:49:00.0000000+00:00",
+  "LastUpdated": "2026-07-25T08:49:00.0000000+00:00",
+  "Key": "Common",
+  "PackageType": "ContentManagement/Script",
+  "IncludeInSubSequentImports": true
+}

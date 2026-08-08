@@ -154,6 +154,10 @@ internal sealed partial class AssetReportProcessingService
             text: text,
             tagPrefix: "[script[");
 
+        List<string> styles = GetTaggedValues(
+            text: text,
+            tagPrefix: "[style[");
+
         components.AddRange(collection:
             GetAttributeValues(
                 text: text,
@@ -173,7 +177,8 @@ internal sealed partial class AssetReportProcessingService
         return new AssetReportReferences(
             Components: Distinct(values: components),
             Resources: Distinct(values: resources),
-            Scripts: Distinct(values: scripts));
+            Scripts: Distinct(values: scripts),
+            Styles: Distinct(values: styles));
     }
 
     private static IEnumerable<string> GetStrings(JsonElement value)
