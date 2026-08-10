@@ -135,7 +135,7 @@
     },
     {
       "Path": "Common Cache/all-components.json",
-      "Sha256": "351aa3e356c2d962144e2dc332464247c31b99d360dc008fd80d40caf0f988d2",
+      "Sha256": "040c98b719c1d11386cd08b2178f1540aa4d1867a15e4569612c5daa97c723d7",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Common Cache",
@@ -145,7 +145,7 @@
     },
     {
       "Path": "Common Cache/all-resources.json",
-      "Sha256": "ddc1435546a0ad586a6fb01b4a4b4d3cda5a03fab57977ca67cbb131959171b9",
+      "Sha256": "d14153a2501a2ac8d86570a5da0af1f79cfe13373f2a4b3dcc4ee2ffd127add2",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Common Cache",
@@ -155,7 +155,7 @@
     },
     {
       "Path": "Common Cache/all-scripts.json",
-      "Sha256": "be8ba0507d9d5fdf878919f738ee256cce77b60dadd23c37e53a9612f5f39d39",
+      "Sha256": "05076a5c1f1546d685a0b5e4043ad3ab9916cdd8dddccb4a254efd03a89cce59",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Common Cache",
@@ -164,8 +164,18 @@
       ]
     },
     {
+      "Path": "Common Cache/all-styles.json",
+      "Sha256": "6dbc950734dc6198bf30bb0450bc66aaf94a70c3adfaceedc2e409bd0f0a7312",
+      "FirstTimeSetup": false,
+      "Source": "Common Cache",
+      "Category": "Common Cache",
+      "ItemTypes": [
+        "ContentManagement/Style"
+      ]
+    },
+    {
       "Path": "Common Cache/AppSecurity.json",
-      "Sha256": "648504AE5333BD7B550E95007669913BCD61E044ECD75E0BFE6C3EB56C779ED4",
+      "Sha256": "85771E5968E3FDBCF862DBF42A31FDBEA5CD9148A101CC446B4EE4D3E3AFD8AF",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "AppSecurity",
@@ -280,7 +290,7 @@
     },
     {
       "Path": "First Time Setup/common-cache.json",
-      "Sha256": "6B0DA3726295175DDA20983886D11130FEFB5F095E388548EE7F190DE48BC11E",
+      "Sha256": "F9EDD317CF6368B915236D1AEF3F1503B53D3C4F1BFDB80296538336137BAAEE",
       "FirstTimeSetup": true,
       "Source": "Common Cache",
       "Category": "First Time Setup",
@@ -293,7 +303,7 @@
     },
     {
       "Path": "First Time Setup/first-app.json",
-      "Sha256": "47399E763DA13BCA25AFCBAB70A10A95AF80433C772C31F0917A37782E106C79",
+      "Sha256": "0B0B07AB0B0C4617013E718930B157C4154507C9CC48E918AC41C5C2670D9A03",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "First Time Setup",

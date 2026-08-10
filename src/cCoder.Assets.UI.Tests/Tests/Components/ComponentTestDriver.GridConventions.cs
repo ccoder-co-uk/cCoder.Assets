@@ -106,6 +106,20 @@ internal sealed partial class ComponentTestDriver
             await grid.Page.WaitForLoadStateAsync(
                 state: LoadState.NetworkIdle);
 
+            ILocator loadingComponents = detailRow.Locator(
+                selectorOrLocator: "[data-component-loading='true']");
+
+            if (await loadingComponents.CountAsync() > 0)
+            {
+                await Assertions.Expect(locator: loadingComponents)
+                    .ToHaveCountAsync(
+                        count: 0,
+                        options: new LocatorAssertionsToHaveCountOptions
+                        {
+                            Timeout = 10_000
+                        });
+            }
+
             float height = await detailRow.EvaluateAsync<float>(
                 expression: "element => element.getBoundingClientRect().height");
 
