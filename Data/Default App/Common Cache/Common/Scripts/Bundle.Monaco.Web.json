@@ -1,0 +1,9 @@
+{
+  "Name": "Bundle.Monaco.Web",
+  "Key": "Common",
+  "Content": "[script[Bundle.Monaco.Core]]\r\n[script[Monaco.JavaScriptMonacoEditor]]\r\n[script[Monaco.JavaScriptValidation]]\r\n[script[Monaco.HTMLMonacoEditor]]\r\n[script[Monaco.WebLanguages]]",
+  "CreatedOn": "2026-08-09T00:00:00+01:00",
+  "LastUpdated": "2026-08-10T12:15:00+01:00",
+  "IncludeInSubSequentImports": true,
+  "PackageType": "ContentManagement/Script"
+}

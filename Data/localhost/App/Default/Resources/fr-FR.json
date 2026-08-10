@@ -1,0 +1,11 @@
+{
+  "Culture": "fr-FR",
+  "Key": "Default",
+  "Name": "welcomemessage",
+  "DisplayName": "Welcome to the Corporate LinX demo portal!",
+  "ShortDisplayName": "Welcome to the Corporate LinX demo portal!",
+  "Description": "Welcome to the Corporate LinX demo portal!",
+  "LastUpdated": "2026-08-08T21:42:33.7875781\u002B00:00",
+  "PackageType": "ContentManagement/Resource",
+  "IncludeInSubSequentImports": false
+}

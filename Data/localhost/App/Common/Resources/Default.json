@@ -1,0 +1,68 @@
+[
+  {
+    "Culture": "",
+    "Key": "Common",
+    "Name": "aggregateMoneyFormat",
+    "DisplayName": "c2",
+    "ShortDisplayName": "c2",
+    "Description": "Default aggregate currency format",
+    "LastUpdated": "2026-08-08T21:38:50.1714321\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Common",
+    "Name": "dateandtimeformat",
+    "DisplayName": "yyyy MMMM dd HH:mm",
+    "ShortDisplayName": "yyyy MMMM dd HH:mm",
+    "Description": "Default date and time format",
+    "LastUpdated": "2026-08-08T21:38:50.1847849\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Common",
+    "Name": "dateformat",
+    "DisplayName": "yyyy MMMM dd",
+    "ShortDisplayName": "yyyy MMMM dd",
+    "Description": "Default date format",
+    "LastUpdated": "2026-08-08T21:38:50.2028741\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Common",
+    "Name": "moneyformat",
+    "DisplayName": "c2",
+    "ShortDisplayName": "c2",
+    "Description": "Default currency format",
+    "LastUpdated": "2026-08-08T21:38:50.2199787\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Common",
+    "Name": "shortdateformat",
+    "DisplayName": "yyyy-MM-dd",
+    "ShortDisplayName": "yyyy-MM-dd",
+    "Description": "Default short date format",
+    "LastUpdated": "2026-08-08T21:38:50.2452408\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Common",
+    "Name": "timeformat",
+    "DisplayName": "HH:mm",
+    "ShortDisplayName": "HH:mm",
+    "Description": "Default time format",
+    "LastUpdated": "2026-08-08T21:38:50.2628531\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  }
+]

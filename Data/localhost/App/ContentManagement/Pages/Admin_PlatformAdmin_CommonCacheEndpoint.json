@@ -1,0 +1,26 @@
+{
+  "Path": "Admin/PlatformAdmin/CommonCacheEndpoint",
+  "Name": "Common Cache Endpoint",
+  "ResourceKey": "ContentManagement",
+  "ShowOnMenus": true,
+  "Order": 1,
+  "LastUpdated": "2026-07-30T22:31:25.6223413\u002B00:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": " [component[CommonCacheEndpoint]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Contains any shared Components, Resources and Scripts that are commonly used across all portals within this environment.",
+      "Keywords": "Common Cache",
+      "Title": "Common Cache"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

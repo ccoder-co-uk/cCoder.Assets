@@ -1,0 +1,6 @@
+{
+  "Path": "content",
+  "Name": "Administrators",
+  "PackageType": "DocumentManagement/FolderRole",
+  "IncludeInSubSequentImports": false
+}

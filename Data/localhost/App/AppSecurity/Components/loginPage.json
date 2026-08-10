@@ -1,0 +1,10 @@
+{
+  "Name": "loginPage",
+  "Key": "AppSecurity",
+  "ResourceKey": "AppSecurity",
+  "Script": "LoginPage = {\r\n    init: async function (app, container ) {\r\n        app = app || session.app;\r\n        container = container || $(\u0022.component[name=LoginPage]\u0022);\r\n    }\r\n}",
+  "Content": "\t\t\u003Ch1\u003EFaurecia-Direct Portal Login\u003C/h1\u003E\r\n\t\u003Cp\u003EThe login page has an area for users to login. Clicking on \u0027Information Centre\u0027 will take users to the information centre for vendors who wish to participate in the Faurecia-DIRECT programme (see image).\u003C/p\u003E\r\n\t\u003Cfigure\u003E\r\n\t\t\u003Cimg class=\u0022enlarge\u0022 src=\u0022[api[root]]DMS/Content/Help/LoginPage.png\u0022/\u003E\r\n\t\t\u003Cfigcaption\u003E\u003Ci\u003EImage: Login Page\u003C/i\u003E\u003C/figcaption\u003E\r\n\t\u003C/figure\u003E",
+  "LastUpdated": "2026-08-08T22:15:57.2489442\u002B00:00",
+  "PackageType": "ContentManagement/Component",
+  "IncludeInSubSequentImports": false
+}

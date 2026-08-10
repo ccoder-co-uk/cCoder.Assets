@@ -1,0 +1,90 @@
+[
+  {
+    "Culture": "fr-FR",
+    "Key": "CRM",
+    "Name": "create",
+    "DisplayName": "Cr\u00E9er",
+    "ShortDisplayName": "Cr\u00E9er",
+    "Description": "Cr\u00E9er",
+    "LastUpdated": "2026-08-08T21:42:33.6304432\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CRM",
+    "Name": "name",
+    "DisplayName": "Nom",
+    "ShortDisplayName": "Nom",
+    "Description": "Nom",
+    "LastUpdated": "2026-08-08T21:42:33.6398566\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CRM",
+    "Name": "add",
+    "DisplayName": "Ajouter",
+    "ShortDisplayName": "Ajouter",
+    "Description": "Ajouter",
+    "LastUpdated": "2026-08-08T21:42:33.6482964\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CRM",
+    "Name": "country",
+    "DisplayName": "Pays",
+    "ShortDisplayName": "Pays",
+    "Description": "Pays",
+    "LastUpdated": "2026-08-08T21:42:33.6615126\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CRM",
+    "Name": "references",
+    "DisplayName": "R\u00E9f\u00E9rences",
+    "ShortDisplayName": "R\u00E9f\u00E9rences",
+    "Description": "R\u00E9f\u00E9rences",
+    "LastUpdated": "2026-08-08T21:42:33.6819008\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CRM",
+    "Name": "newtenant",
+    "DisplayName": "Nouvelle Cliente",
+    "ShortDisplayName": "Nouvelle Cliente",
+    "Description": "Nouvelle Cliente",
+    "LastUpdated": "2026-08-08T21:42:33.7051485\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CRM",
+    "Name": "systemid",
+    "DisplayName": "ID syst\u00E8me",
+    "ShortDisplayName": "ID syst\u00E8me",
+    "Description": "ID syst\u00E8me",
+    "LastUpdated": "2026-08-08T21:42:33.724399\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "CRM",
+    "Name": "value",
+    "DisplayName": "R\u00E9f\u00E9rence",
+    "ShortDisplayName": "R\u00E9f\u00E9rence",
+    "Description": "R\u00E9f\u00E9rence",
+    "LastUpdated": "2026-08-08T21:42:33.7578048\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  }
+]

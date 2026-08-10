@@ -1,0 +1,11 @@
+{
+  "Culture": "en-GB",
+  "Key": "Account",
+  "Name": "QWE",
+  "DisplayName": "adduser",
+  "ShortDisplayName": "adduser",
+  "Description": "adduser",
+  "LastUpdated": "2026-08-08T21:42:30.8520785\u002B00:00",
+  "PackageType": "ContentManagement/Resource",
+  "IncludeInSubSequentImports": false
+}

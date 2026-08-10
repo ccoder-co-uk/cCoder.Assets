@@ -1,0 +1,6 @@
+{
+  "Path": "Documentation/CodeAnalysis/RFC/RFC0008",
+  "Role": "Guests",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

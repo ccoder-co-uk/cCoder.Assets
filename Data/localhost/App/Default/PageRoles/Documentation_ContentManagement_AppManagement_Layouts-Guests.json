@@ -1,0 +1,6 @@
+{
+  "Path": "Documentation/ContentManagement/AppManagement/Layouts",
+  "Role": "Guests",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

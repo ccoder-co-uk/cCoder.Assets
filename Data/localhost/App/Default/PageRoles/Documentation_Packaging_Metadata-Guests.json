@@ -1,0 +1,6 @@
+{
+  "Path": "Documentation/Packaging/Metadata",
+  "Role": "Guests",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

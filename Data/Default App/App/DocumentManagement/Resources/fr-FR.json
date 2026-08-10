@@ -6,7 +6,7 @@
     "DisplayName": "Supprimer le dossier",
     "ShortDisplayName": "Supprimer le dossier",
     "Description": "Supprimer le dossier",
-    "LastUpdated": "2026-07-28T09:45:57.2748953+01:00",
+    "LastUpdated": "2026-08-08T22:42:37.2777575+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -17,7 +17,7 @@
     "DisplayName": "Catégorie",
     "ShortDisplayName": "Catégorie",
     "Description": "Catégorie",
-    "LastUpdated": "2026-07-28T09:45:57.289425+01:00",
+    "LastUpdated": "2026-08-08T22:42:37.2972112+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -28,7 +28,7 @@
     "DisplayName": "Dossier supprimé avec succès",
     "ShortDisplayName": "Dossier supprimé avec succès",
     "Description": "Dossier supprimé avec succès",
-    "LastUpdated": "2026-07-28T09:45:57.3008847+01:00",
+    "LastUpdated": "2026-08-08T22:42:37.3165863+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -39,7 +39,7 @@
     "DisplayName": "Nouveau Dossier",
     "ShortDisplayName": "Nouveau Dossier",
     "Description": "Nouveau Dossier",
-    "LastUpdated": "2026-07-28T09:45:57.3126308+01:00",
+    "LastUpdated": "2026-08-08T22:42:37.3357706+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -50,7 +50,7 @@
     "DisplayName": "Nouveau nom",
     "ShortDisplayName": "Nouveau nom",
     "Description": "Nouveau nom",
-    "LastUpdated": "2026-07-28T09:45:57.3244702+01:00",
+    "LastUpdated": "2026-08-08T22:42:37.345331+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -61,7 +61,73 @@
     "DisplayName": "Taille",
     "ShortDisplayName": "Taille",
     "Description": "Taille",
-    "LastUpdated": "2026-07-28T09:45:57.336272+01:00",
+    "LastUpdated": "2026-08-08T22:42:37.358567+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "applyrecursively",
+    "DisplayName": " Appliquer de manière récursive",
+    "ShortDisplayName": " Appliquer de manière récursive",
+    "Description": " Appliquer de manière récursive",
+    "LastUpdated": "2026-08-08T22:38:52.639559+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "rename",
+    "DisplayName": "Renommer",
+    "ShortDisplayName": "Renommer",
+    "Description": "Renommer",
+    "LastUpdated": "2026-08-08T22:38:52.7432479+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "unpackzipto",
+    "DisplayName": "Décompresser les Fichier dans",
+    "ShortDisplayName": "Décompresser les Fichier dans",
+    "Description": "Décompresser les Fichier dans",
+    "LastUpdated": "2026-08-08T22:38:52.7937745+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "welcometofurtherinfo",
+    "DisplayName": "Bienvenue dans la présentation du programme [app[name]] dédié à nos fournisseurs.",
+    "ShortDisplayName": "Bienvenue dans la présentation du programme [app[name]] dédié à nos fournisseurs.",
+    "Description": "Bienvenue dans la présentation du programme [app[name]] dédié à nos fournisseurs.",
+    "LastUpdated": "2026-08-08T22:38:52.8252454+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "legal",
+    "DisplayName": "Informations légales",
+    "ShortDisplayName": "Informations légales",
+    "Description": "Informations légales",
+    "LastUpdated": "2026-08-08T22:38:52.8743179+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "furtherinformation",
+    "DisplayName": "Informations supplémentaires",
+    "ShortDisplayName": "Informations supplémentaires",
+    "Description": "Informations supplémentaires",
+    "LastUpdated": "2026-08-08T22:38:52.9024074+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   }

@@ -1,0 +1,57 @@
+[
+  {
+    "Culture": "en-GB",
+    "Key": "CMS",
+    "Name": "new",
+    "DisplayName": "New",
+    "ShortDisplayName": "new",
+    "Description": "new",
+    "LastUpdated": "2026-08-08T21:42:30.8752498\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "CMS",
+    "Name": "AreYouSure",
+    "DisplayName": "Are you sure?",
+    "ShortDisplayName": "Are you sure?",
+    "Description": "Are you sure?",
+    "LastUpdated": "2026-08-08T21:42:35.0393653\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "CMS",
+    "Name": "Cancel",
+    "DisplayName": "Cancel",
+    "ShortDisplayName": "Cancel",
+    "Description": "Cancel",
+    "LastUpdated": "2026-08-08T21:42:35.054777\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "CMS",
+    "Name": "Confirm",
+    "DisplayName": "Confirm",
+    "ShortDisplayName": "Confirm",
+    "Description": "Confirm",
+    "LastUpdated": "2026-08-08T21:42:35.0768414\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "CMS",
+    "Name": "thiscannotbeundone",
+    "DisplayName": "This action cannot be undone.",
+    "ShortDisplayName": "This action cannot be undone.",
+    "Description": "This action cannot be undone.",
+    "LastUpdated": "2026-08-08T21:42:35.0967058\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  }
+]

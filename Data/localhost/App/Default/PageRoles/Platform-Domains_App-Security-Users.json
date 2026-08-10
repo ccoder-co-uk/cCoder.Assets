@@ -1,0 +1,6 @@
+{
+  "Path": "Platform-Domains/App-Security",
+  "Role": "Users",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

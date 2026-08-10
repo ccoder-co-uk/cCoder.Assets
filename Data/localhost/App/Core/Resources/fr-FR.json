@@ -1,0 +1,68 @@
+[
+  {
+    "Culture": "fr-FR",
+    "Key": "Core",
+    "Name": "eventtype",
+    "DisplayName": "Type d\u0027\u00E9v\u00E9nement",
+    "ShortDisplayName": "Type d\u0027\u00E9v\u00E9nement",
+    "Description": "Type d\u0027\u00E9v\u00E9nement",
+    "LastUpdated": "2026-08-08T21:38:52.5777562\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Core",
+    "Name": "migratebp",
+    "DisplayName": "Migrate Business Processes",
+    "ShortDisplayName": "Migrate Business Processes",
+    "Description": "Migrate Business Processes",
+    "LastUpdated": "2026-08-08T21:38:52.5923203\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Core",
+    "Name": "businessprocesssaved",
+    "DisplayName": "Processus m\u00E9tier enregistr\u00E9",
+    "ShortDisplayName": "Processus m\u00E9tier enregistr\u00E9",
+    "Description": "\tProcessus m\u00E9tier enregistr\u00E9",
+    "LastUpdated": "2026-08-08T21:38:53.2217007\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Core",
+    "Name": "json",
+    "DisplayName": "JSON",
+    "ShortDisplayName": "JSON",
+    "Description": "json",
+    "LastUpdated": "2026-08-08T21:38:53.2290417\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Core",
+    "Name": "reportingcomponentname",
+    "DisplayName": "Composante du rapport",
+    "ShortDisplayName": "Composante du rapport",
+    "Description": "Composante du rapport",
+    "LastUpdated": "2026-08-08T21:38:53.2544196\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Core",
+    "Name": "validate",
+    "DisplayName": "Valider",
+    "ShortDisplayName": "Valider",
+    "Description": "Valider",
+    "LastUpdated": "2026-08-08T21:38:53.2702612\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  }
+]

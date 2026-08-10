@@ -1,0 +1,6 @@
+{
+  "Path": "Documentation/ContentManagement/AppManagement/Components",
+  "Role": "Guests",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

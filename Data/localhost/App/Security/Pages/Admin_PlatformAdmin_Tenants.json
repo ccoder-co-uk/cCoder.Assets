@@ -1,0 +1,26 @@
+{
+  "Path": "Admin/PlatformAdmin/Tenants",
+  "Name": "Tenants",
+  "ResourceKey": "Security",
+  "ShowOnMenus": true,
+  "Order": 3,
+  "LastUpdated": "2026-07-30T22:31:25.6417153\u002B00:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[TenantManagement]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Create and manage security tenants, their roles and applications.",
+      "Keywords": "Tenants, Roles, Security, Administration",
+      "Title": "Tenants"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

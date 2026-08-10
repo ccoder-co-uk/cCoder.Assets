@@ -1,0 +1,6 @@
+{
+  "Path": "content/theme/scripts",
+  "Name": "Users",
+  "PackageType": "DocumentManagement/FolderRole",
+  "IncludeInSubSequentImports": false
+}

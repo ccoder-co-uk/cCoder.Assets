@@ -6,72 +6,48 @@
 
 | Scope | Resource key | Asset type | Full cut | First-time cut |
 | --- | --- | --- | ---: | ---: |
-| App | `App` | `Account` | 59 | 0 |
-| App | `App` | `addUserDropDown` | 1 | 0 |
-| App | `App` | `AI` | 2 | 2 |
-| App | `App` | `AppSecurity` | 38 | 19 |
-| App | `App` | `B2B` | 26 | 0 |
-| App | `App` | `B2B Portal Admin` | 2 | 0 |
-| App | `App` | `ClientRelationshipManagement` | 2 | 2 |
-| App | `App` | `CMS` | 222 | 0 |
-| App | `App` | `Common` | 1 | 0 |
-| App | `App` | `ContentManagement` | 220 | 105 |
-| App | `App` | `Core` | 35 | 2 |
-| App | `App` | `CRM` | 78 | 0 |
-| App | `App` | `Debug` | 3 | 0 |
-| App | `App` | `Default` | 624 | 27 |
-| App | `App` | `DevTools` | 1 | 0 |
-| App | `App` | `DMS` | 52 | 0 |
-| App | `App` | `Documentation` | 1 | 0 |
-| App | `App` | `DocumentManagement` | 64 | 32 |
-| App | `App` | `ForgotPassword` | 2 | 1 |
-| App | `App` | `Forms` | 1 | 0 |
-| App | `App` | `Key` | 1 | 0 |
-| App | `App` | `Logging` | 4 | 0 |
-| App | `App` | `Mail` | 2 | 1 |
-| App | `App` | `notifications` | 1 | 0 |
-| App | `App` | `QueryBuilder` | 1 | 0 |
-| App | `App` | `Register` | 2 | 1 |
-| App | `App` | `Security` | 14 | 1 |
-| App | `App` | `Tools` | 2 | 0 |
-| App | `App` | `Workflow` | 94 | 45 |
+| App | `App` | `Account` | 117 | 0 |
+| App | `App` | `addUserDropDown` | 2 | 0 |
+| App | `App` | `AppSecurity` | 89 | 31 |
+| App | `App` | `B2B` | 52 | 0 |
+| App | `App` | `B2B Portal Admin` | 4 | 0 |
+| App | `App` | `CMS` | 444 | 0 |
+| App | `App` | `Common` | 12 | 0 |
+| App | `App` | `ContentManagement` | 481 | 166 |
+| App | `App` | `Core` | 85 | 3 |
+| App | `App` | `CRM` | 156 | 0 |
+| App | `App` | `Debug` | 6 | 0 |
+| App | `App` | `Default` | 1199 | 23 |
+| App | `App` | `DevTools` | 2 | 0 |
+| App | `App` | `DMS` | 104 | 0 |
+| App | `App` | `Documentation` | 2 | 0 |
+| App | `App` | `DocumentManagement` | 261 | 107 |
+| App | `App` | `ForgotPassword` | 3 | 1 |
+| App | `App` | `Forms` | 2 | 0 |
+| App | `App` | `Key` | 2 | 0 |
+| App | `App` | `Logging` | 6 | 0 |
+| App | `App` | `Mail` | 4 | 1 |
+| App | `App` | `notifications` | 2 | 0 |
+| App | `App` | `QueryBuilder` | 2 | 0 |
+| App | `App` | `Register` | 3 | 1 |
+| App | `App` | `Security` | 37 | 1 |
+| App | `App` | `Tools` | 3 | 0 |
+| App | `App` | `Workflow` | 187 | 61 |
 | App | `Common Cache` | `AI` | 2 | 2 |
-| App | `Common Cache` | `AppSecurity` | 72 | 40 |
+| App | `Common Cache` | `AppSecurity` | 108 | 9 |
 | App | `Common Cache` | `ClientRelationshipManagement` | 2 | 2 |
-| App | `Common Cache` | `Common` | 114 | 103 |
-| App | `Common Cache` | `ContentManagement` | 372 | 217 |
-| App | `Common Cache` | `Core` | 42 | 24 |
-| App | `Common Cache` | `Default` | 12 | 6 |
-| App | `Common Cache` | `DocumentManagement` | 254 | 211 |
-| App | `Common Cache` | `Mail` | 2 | 2 |
-| App | `Common Cache` | `Security` | 42 | 21 |
-| App | `Common Cache` | `Workflow` | 90 | 56 |
+| App | `Common Cache` | `Common` | 137 | 103 |
+| App | `Common Cache` | `ContentManagement` | 555 | 89 |
+| App | `Common Cache` | `Core` | 63 | 9 |
+| App | `Common Cache` | `Default` | 18 | 0 |
+| App | `Common Cache` | `DocumentManagement` | 381 | 252 |
+| App | `Common Cache` | `Mail` | 6 | 6 |
+| App | `Common Cache` | `Security` | 63 | 0 |
+| App | `Common Cache` | `Workflow` | 127 | 25 |
 
 ### Default-key ownership candidates
 
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0001.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0002.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0003.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_OWASP.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_OWASP_OWASP0001.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0001.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0002.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0003.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0004.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0005.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0006.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0007.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0008.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0009.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0010.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0011.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0012.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0013.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0014.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0015.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI.json`
@@ -79,7 +55,6 @@
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI002.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI003.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI004.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI005.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP001.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP002.json`
@@ -90,12 +65,6 @@
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP007.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP008.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP009.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP010.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP011.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP012.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP013.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP014.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP015.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA_STXA001.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA_STXA002.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB.json`
@@ -112,8 +81,6 @@
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD001.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD002.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD003.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD004.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXEX.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXEX_STXEX001.json`
@@ -124,8 +91,6 @@
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE003.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE004.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE005.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE006.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE007.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT001.json`
@@ -144,7 +109,6 @@
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF001.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF002.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF003.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF004.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXM.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXMG.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXMG_STXMG001.json`
@@ -161,8 +125,6 @@
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXP_STXP003.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT001.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT002.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT003.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST001.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST002.json`
@@ -193,7 +155,6 @@
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0021.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0022.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0023.json`
-- [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0024.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Root.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/_About-The-Creator.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/_Platform-Domains.json`
@@ -262,6 +223,217 @@
 - [ ] `Default App/Common Cache/Default/Resources/Default.json#4`
 - [ ] `Default App/Common Cache/Default/Resources/Default.json#5`
 - [ ] `Default App/Common Cache/Default/Resources/Default.json#6`
+- [ ] `localhost/App/Default/Pages/About-The-Creator.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_ODATA.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0003.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_OWASP.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_OWASP_OWASP0001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0003.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0004.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0005.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0006.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0007.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0008.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0009.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0010.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0011.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0012.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0013.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0014.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0015.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXA.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPI.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI003.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI004.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI005.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP003.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP004.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP005.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP006.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP007.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP008.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP009.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP010.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP011.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP012.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP013.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP014.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP015.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXA_STXA001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXA_STXA002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXB.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB003.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB004.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB005.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB006.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB007.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXC.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXC_STXC001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXC_STXC002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXD.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD003.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD004.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXE.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXEX.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXEX_STXEX001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXEX_STXEX002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXEX_STXEX003.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE003.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE004.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE005.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE006.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE007.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXF.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT003.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT004.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT005.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT006.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT007.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT008.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT009.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT010.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT011.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT012.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT013.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF003.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF004.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXM.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXMG.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXMG_STXMG001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXMG_STXMG002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXM_STXM001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXM_STXM002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXM_STXM003.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXO.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXO_STXO001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXO_STXO002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXP.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXP_STXP001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXP_STXP002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXP_STXP003.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT003.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXTEST.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST003.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST004.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST005.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST006.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0001.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0002.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0003.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0004.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0005.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0006.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0007.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0008.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0009.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0010.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0011.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0012.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0013.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0014.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0015.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0016.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0017.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0018.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0019.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0020.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0021.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0022.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0023.json`
+- [ ] `localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0024.json`
+- [ ] `localhost/App/Default/Pages/Platform-Domains.json`
+- [ ] `localhost/App/Default/Pages/Platform-Domains_AI.json`
+- [ ] `localhost/App/Default/Pages/Platform-Domains_App-Security.json`
+- [ ] `localhost/App/Default/Pages/Platform-Domains_Client-Relationship-Management.json`
+- [ ] `localhost/App/Default/Pages/Platform-Domains_Code-Analysis.json`
+- [ ] `localhost/App/Default/Pages/Platform-Domains_Content-Management.json`
+- [ ] `localhost/App/Default/Pages/Platform-Domains_Data.json`
+- [ ] `localhost/App/Default/Pages/Platform-Domains_Document-Management.json`
+- [ ] `localhost/App/Default/Pages/Platform-Domains_Eventing.json`
+- [ ] `localhost/App/Default/Pages/Platform-Domains_Logging.json`
+- [ ] `localhost/App/Default/Pages/Platform-Domains_Mail.json`
+- [ ] `localhost/App/Default/Pages/Platform-Domains_Packaging.json`
+- [ ] `localhost/App/Default/Pages/Platform-Domains_Security.json`
+- [ ] `localhost/App/Default/Pages/Platform-Domains_Workflow.json`
+- [ ] `localhost/App/Default/Pages/Root.json`
+- [ ] `localhost/App/Default/Pages/The-Standard-in-cCoder.json`
+- [ ] `localhost/App/Default/Pages/The-Value-of-Core-Business-Systems.json`
+- [ ] `localhost/App/Default/Resources/Default.json#1`
+- [ ] `localhost/App/Default/Resources/Default.json#10`
+- [ ] `localhost/App/Default/Resources/Default.json#11`
+- [ ] `localhost/App/Default/Resources/Default.json#12`
+- [ ] `localhost/App/Default/Resources/Default.json#13`
+- [ ] `localhost/App/Default/Resources/Default.json#14`
+- [ ] `localhost/App/Default/Resources/Default.json#15`
+- [ ] `localhost/App/Default/Resources/Default.json#16`
+- [ ] `localhost/App/Default/Resources/Default.json#17`
+- [ ] `localhost/App/Default/Resources/Default.json#18`
+- [ ] `localhost/App/Default/Resources/Default.json#19`
+- [ ] `localhost/App/Default/Resources/Default.json#2`
+- [ ] `localhost/App/Default/Resources/Default.json#20`
+- [ ] `localhost/App/Default/Resources/Default.json#21`
+- [ ] `localhost/App/Default/Resources/Default.json#22`
+- [ ] `localhost/App/Default/Resources/Default.json#23`
+- [ ] `localhost/App/Default/Resources/Default.json#24`
+- [ ] `localhost/App/Default/Resources/Default.json#25`
+- [ ] `localhost/App/Default/Resources/Default.json#26`
+- [ ] `localhost/App/Default/Resources/Default.json#27`
+- [ ] `localhost/App/Default/Resources/Default.json#3`
+- [ ] `localhost/App/Default/Resources/Default.json#4`
+- [ ] `localhost/App/Default/Resources/Default.json#5`
+- [ ] `localhost/App/Default/Resources/Default.json#6`
+- [ ] `localhost/App/Default/Resources/Default.json#7`
+- [ ] `localhost/App/Default/Resources/Default.json#8`
+- [ ] `localhost/App/Default/Resources/Default.json#9`
+- [ ] `localhost/App/Default/Resources/en-GB.json#1`
+- [ ] `localhost/App/Default/Resources/en-GB.json#10`
+- [ ] `localhost/App/Default/Resources/en-GB.json#11`
+- [ ] `localhost/App/Default/Resources/en-GB.json#12`
+- [ ] `localhost/App/Default/Resources/en-GB.json#13`
+- [ ] `localhost/App/Default/Resources/en-GB.json#14`
+- [ ] `localhost/App/Default/Resources/en-GB.json#2`
+- [ ] `localhost/App/Default/Resources/en-GB.json#3`
+- [ ] `localhost/App/Default/Resources/en-GB.json#4`
+- [ ] `localhost/App/Default/Resources/en-GB.json#5`
+- [ ] `localhost/App/Default/Resources/en-GB.json#6`
+- [ ] `localhost/App/Default/Resources/en-GB.json#7`
+- [ ] `localhost/App/Default/Resources/en-GB.json#8`
+- [ ] `localhost/App/Default/Resources/en-GB.json#9`
+- [ ] `localhost/App/Default/Resources/fr-FR.json`
+- [ ] `localhost/Common Cache/Default/Resources/Default.json#1`
+- [ ] `localhost/Common Cache/Default/Resources/Default.json#2`
+- [ ] `localhost/Common Cache/Default/Resources/Default.json#3`
+- [ ] `localhost/Common Cache/Default/Resources/Default.json#4`
+- [ ] `localhost/Common Cache/Default/Resources/Default.json#5`
+- [ ] `localhost/Common Cache/Default/Resources/Default.json#6`
 
 ### App-specific static page candidates
 
@@ -332,9 +504,66 @@
 - [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr.json#3`
 - [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr.json#4`
 - [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr.json#5`
+- [ ] `App -> Account — localhost/App/Account/Components/CultureFlags.json`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#1`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#10`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#11`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#12`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#13`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#14`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#15`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#16`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#17`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#18`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#19`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#2`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#20`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#21`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#22`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#23`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#24`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#25`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#26`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#27`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#28`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#29`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#3`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#30`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#31`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#4`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#5`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#6`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#7`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#8`
+- [ ] `App -> Account — localhost/App/Account/Resources/Default.json#9`
+- [ ] `App -> Account — localhost/App/Account/Resources/en-GB.json`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#1`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#10`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#11`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#12`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#13`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#14`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#15`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#16`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#17`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#18`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#19`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#2`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#20`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#3`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#4`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#5`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#6`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#7`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#8`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr-FR.json#9`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr.json#1`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr.json#2`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr.json#3`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr.json#4`
+- [ ] `App -> Account — localhost/App/Account/Resources/fr.json#5`
 - [ ] `App -> addUserDropDown — ccoder.co.uk/App/addUserDropDown/Resources/Default.json`
-- [ ] `App -> AI — Default App/App/AI/Pages/Admin_AI.json`
-- [ ] `App -> AI — Default App/App/AI/Pages/AI.json`
+- [ ] `App -> addUserDropDown — localhost/App/addUserDropDown/Resources/Default.json`
 - [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Components/Login.json`
 - [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Components/Register.json`
 - [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Pages/Login.json`
@@ -358,6 +587,16 @@
 - [ ] `App -> AppSecurity — Default App/App/AppSecurity/Components/Register.json`
 - [ ] `App -> AppSecurity — Default App/App/AppSecurity/Pages/Login.json`
 - [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/Default.json#1`
+- [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/Default.json#10`
+- [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/Default.json#11`
+- [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/Default.json#12`
+- [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/Default.json#13`
+- [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/Default.json#14`
+- [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/Default.json#15`
+- [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/Default.json#16`
+- [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/Default.json#17`
+- [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/Default.json#18`
+- [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/Default.json#19`
 - [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/Default.json#2`
 - [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/Default.json#3`
 - [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/Default.json#4`
@@ -373,8 +612,51 @@
 - [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/fr-FR.json#5`
 - [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/fr-FR.json#6`
 - [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/fr-FR.json#7`
+- [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/fr-FR.json#8`
+- [ ] `App -> AppSecurity — Default App/App/AppSecurity/Resources/fr-FR.json#9`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Components/FlowSettings.json`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Components/Login.json`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Components/loginPage.json`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Components/LoginToEnvironment.json`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Components/Register.json`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Components/RegistrationsHome.json`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Components/RoleManagement.json`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Components/RolePrivManagement.json`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Components/RoleUserManagement.json`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Components/UserProfile.json`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Pages/Login.json`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#1`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#10`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#11`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#12`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#13`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#14`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#15`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#16`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#17`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#18`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#19`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#2`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#3`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#4`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#5`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#6`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#7`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#8`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#9`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#1`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#2`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#3`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#4`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#5`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#6`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#7`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#8`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#9`
 - [ ] `App -> B2B Portal Admin — ccoder.co.uk/App/B2B Portal Admin/Resources/Default.json#1`
 - [ ] `App -> B2B Portal Admin — ccoder.co.uk/App/B2B Portal Admin/Resources/Default.json#2`
+- [ ] `App -> B2B Portal Admin — localhost/App/B2B Portal Admin/Resources/Default.json#1`
+- [ ] `App -> B2B Portal Admin — localhost/App/B2B Portal Admin/Resources/Default.json#2`
 - [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#1`
 - [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#10`
 - [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#11`
@@ -401,8 +683,32 @@
 - [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/en-GB.json#2`
 - [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/fr-FR.json#1`
 - [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/fr-FR.json#2`
-- [ ] `App -> ClientRelationshipManagement — Default App/App/ClientRelationshipManagement/Pages/Admin_CRM.json`
-- [ ] `App -> ClientRelationshipManagement — Default App/App/ClientRelationshipManagement/Pages/CRM.json`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#1`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#10`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#11`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#12`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#13`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#14`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#15`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#16`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#17`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#18`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#19`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#2`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#20`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#21`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#22`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#3`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#4`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#5`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#6`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#7`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#8`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/Default.json#9`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/en-GB.json#1`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/en-GB.json#2`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/fr-FR.json#1`
+- [ ] `App -> B2B — localhost/App/B2B/Resources/fr-FR.json#2`
 - [ ] `App -> CMS — ccoder.co.uk/App/CMS/Components/CalendarManagement.json`
 - [ ] `App -> CMS — ccoder.co.uk/App/CMS/Components/CMS.json`
 - [ ] `App -> CMS — ccoder.co.uk/App/CMS/Components/PortalBuilderForm.json`
@@ -625,6 +931,239 @@
 - [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#73`
 - [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#8`
 - [ ] `App -> CMS — ccoder.co.uk/App/CMS/Resources/fr-FR.json#9`
+- [ ] `App -> CMS — localhost/App/CMS/Components/CalendarManagement.json`
+- [ ] `App -> CMS — localhost/App/CMS/Components/CMS.json`
+- [ ] `App -> CMS — localhost/App/CMS/Components/PortalBuilderForm.json`
+- [ ] `App -> CMS — localhost/App/CMS/Components/TestimonialManagement.json`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#1`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#10`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#100`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#101`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#102`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#103`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#104`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#105`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#106`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#107`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#108`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#109`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#11`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#110`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#111`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#112`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#113`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#114`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#115`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#116`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#117`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#118`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#119`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#12`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#120`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#121`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#122`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#123`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#124`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#125`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#126`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#127`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#128`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#129`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#13`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#130`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#131`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#132`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#133`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#134`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#135`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#136`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#137`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#138`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#139`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#14`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#140`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#15`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#16`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#17`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#18`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#19`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#2`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#20`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#21`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#22`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#23`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#24`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#25`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#26`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#27`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#28`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#29`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#3`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#30`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#31`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#32`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#33`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#34`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#35`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#36`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#37`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#38`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#39`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#4`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#40`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#41`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#42`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#43`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#44`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#45`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#46`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#47`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#48`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#49`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#5`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#50`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#51`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#52`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#53`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#54`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#55`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#56`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#57`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#58`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#59`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#6`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#60`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#61`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#62`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#63`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#64`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#65`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#66`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#67`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#68`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#69`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#7`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#70`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#71`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#72`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#73`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#74`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#75`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#76`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#77`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#78`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#79`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#8`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#80`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#81`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#82`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#83`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#84`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#85`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#86`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#87`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#88`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#89`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#9`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#90`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#91`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#92`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#93`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#94`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#95`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#96`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#97`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#98`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/Default.json#99`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/en-GB.json#1`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/en-GB.json#2`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/en-GB.json#3`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/en-GB.json#4`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/en-GB.json#5`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#1`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#10`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#11`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#12`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#13`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#14`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#15`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#16`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#17`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#18`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#19`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#2`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#20`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#21`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#22`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#23`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#24`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#25`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#26`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#27`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#28`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#29`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#3`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#30`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#31`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#32`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#33`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#34`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#35`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#36`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#37`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#38`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#39`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#4`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#40`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#41`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#42`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#43`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#44`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#45`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#46`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#47`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#48`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#49`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#5`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#50`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#51`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#52`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#53`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#54`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#55`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#56`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#57`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#58`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#59`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#6`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#60`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#61`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#62`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#63`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#64`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#65`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#66`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#67`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#68`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#69`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#7`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#70`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#71`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#72`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#73`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#8`
+- [ ] `App -> CMS — localhost/App/CMS/Resources/fr-FR.json#9`
+- [ ] `App -> Common — localhost/App/Common/Components/DetailedNav.json`
+- [ ] `App -> Common — localhost/App/Common/Components/Notifications.json`
+- [ ] `App -> Common — localhost/App/Common/Components/ScriptRunner.json`
+- [ ] `App -> Common — localhost/App/Common/Components/Sidenav.json`
+- [ ] `App -> Common — localhost/App/Common/Components/TopNav.json`
+- [ ] `App -> Common — localhost/App/Common/Resources/Default.json#1`
+- [ ] `App -> Common — localhost/App/Common/Resources/Default.json#2`
+- [ ] `App -> Common — localhost/App/Common/Resources/Default.json#3`
+- [ ] `App -> Common — localhost/App/Common/Resources/Default.json#4`
+- [ ] `App -> Common — localhost/App/Common/Resources/Default.json#5`
+- [ ] `App -> Common — localhost/App/Common/Resources/Default.json#6`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Components/CommonCacheComponents.json`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Components/CommonCacheEndpoint.json`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Components/CommonCacheResources.json`
@@ -735,10 +1274,7 @@
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Resources/fr-FR.json#7`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Resources/fr-FR.json#8`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Resources/fr-FR.json#9`
-- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheComponents.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheEndpoint.json`
-- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheResources.json`
-- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheScripts.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Pages/Admin_AppManagement.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Pages/Admin_PlatformAdmin_CommonCacheEndpoint.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#1`
@@ -797,9 +1333,49 @@
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#58`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#59`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#6`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#60`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#61`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#62`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#63`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#64`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#65`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#66`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#67`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#68`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#69`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#7`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#70`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#71`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#72`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#73`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#74`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#75`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#76`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#77`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#78`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#79`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#8`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#80`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#81`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#82`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#83`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#84`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#85`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#86`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#87`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#88`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#89`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#9`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#90`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#91`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#92`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#93`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#94`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#95`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#96`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#97`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#98`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#99`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/en-GB.json#1`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/en-GB.json#10`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/en-GB.json#11`
@@ -838,13 +1414,237 @@
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#18`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#19`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#2`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#20`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#21`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#22`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#23`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#24`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#25`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#26`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#27`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#28`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#29`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#3`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#30`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#31`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#32`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#33`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#34`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#35`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#36`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#37`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#38`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#39`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#4`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#40`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#5`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#6`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#7`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#8`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/fr-FR.json#9`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/AppCreator.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/AppManagement.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/AppMigrator.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/AppThemeList.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/AppTheming.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/AppTree.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/Border.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/BPMigration.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/Colours.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/CommonCacheComponents.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/CommonCacheEndpoint.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/CommonCacheResources.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/CommonCacheScripts.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/ComponentManagement.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/ComponentMigration.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/CoreManagement.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/Etc.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/Font.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/LayoutManagement.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/LayoutMigration.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/MyWorkspace.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/PageContextMenu.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/PageCreator.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/PageDesigner.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/PageInfo.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/PageManagement.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/PageProperties.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/PageRoles.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/ResourceManagement.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/ResourceMigration.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/Shadows.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/TemplateManagement.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/TemplateMigration.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/ThemeBuilder.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/ThemeSelection.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/Workspace.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Pages/Admin_AppManagement.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Pages/Admin_PlatformAdmin_CommonCacheEndpoint.json`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#1`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#10`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#11`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#12`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#13`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#14`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#15`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#16`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#17`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#18`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#19`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#2`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#20`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#21`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#22`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#23`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#24`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#25`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#26`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#27`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#28`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#29`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#3`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#30`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#31`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#32`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#33`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#34`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#35`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#36`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#37`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#38`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#39`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#4`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#40`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#41`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#42`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#43`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#44`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#45`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#46`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#47`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#48`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#49`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#5`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#50`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#51`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#52`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#53`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#54`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#55`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#56`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#57`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#58`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#59`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#6`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#60`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#61`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#62`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#63`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#64`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#65`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#66`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#67`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#68`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#69`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#7`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#70`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#71`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#72`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#73`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#74`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#75`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#76`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#77`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#78`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#79`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#8`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#80`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#81`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#82`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#83`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#84`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#85`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#86`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#87`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#88`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#89`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#9`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#90`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#91`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#92`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#93`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#94`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#95`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#96`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#97`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#98`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/Default.json#99`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#1`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#10`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#11`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#12`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#13`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#14`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#15`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#16`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#17`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#18`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#19`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#2`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#20`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#21`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#22`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#23`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#24`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#25`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#26`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#3`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#4`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#5`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#6`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#7`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#8`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/en-GB.json#9`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#1`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#10`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#11`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#12`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#13`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#14`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#15`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#16`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#17`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#18`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#19`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#2`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#20`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#21`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#22`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#23`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#24`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#25`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#26`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#27`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#28`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#29`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#3`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#30`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#31`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#32`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#33`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#34`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#35`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#36`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#37`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#38`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#39`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#4`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#40`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#5`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#6`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#7`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#8`
+- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Resources/fr-FR.json#9`
 - [ ] `App -> Core — ccoder.co.uk/App/Core/Pages/Admin.json`
 - [ ] `App -> Core — ccoder.co.uk/App/Core/Pages/Admin_LogStream.json`
 - [ ] `App -> Core — ccoder.co.uk/App/Core/Pages/Admin_PlatformAdmin.json`
@@ -880,6 +1680,56 @@
 - [ ] `App -> Core — Default App/App/Core/Pages/Admin_LogStream.json`
 - [ ] `App -> Core — Default App/App/Core/Pages/Admin_PlatformAdmin.json`
 - [ ] `App -> Core — Default App/App/Core/Pages/Root.json`
+- [ ] `App -> Core — localhost/App/Core/Components/BackgroundJobs.json`
+- [ ] `App -> Core — localhost/App/Core/Components/BPEditor.json`
+- [ ] `App -> Core — localhost/App/Core/Components/BPM.json`
+- [ ] `App -> Core — localhost/App/Core/Components/CultureManagement.json`
+- [ ] `App -> Core — localhost/App/Core/Components/FolderEventManager.json`
+- [ ] `App -> Core — localhost/App/Core/Components/LogStream.json`
+- [ ] `App -> Core — localhost/App/Core/Pages/Admin.json`
+- [ ] `App -> Core — localhost/App/Core/Pages/Admin_LogStream.json`
+- [ ] `App -> Core — localhost/App/Core/Pages/Admin_PlatformAdmin.json`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#1`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#10`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#11`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#12`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#13`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#14`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#15`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#16`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#17`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#18`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#19`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#2`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#20`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#21`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#3`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#4`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#5`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#6`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#7`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#8`
+- [ ] `App -> Core — localhost/App/Core/Resources/Default.json#9`
+- [ ] `App -> Core — localhost/App/Core/Resources/en-GB.json#1`
+- [ ] `App -> Core — localhost/App/Core/Resources/en-GB.json#10`
+- [ ] `App -> Core — localhost/App/Core/Resources/en-GB.json#11`
+- [ ] `App -> Core — localhost/App/Core/Resources/en-GB.json#12`
+- [ ] `App -> Core — localhost/App/Core/Resources/en-GB.json#13`
+- [ ] `App -> Core — localhost/App/Core/Resources/en-GB.json#14`
+- [ ] `App -> Core — localhost/App/Core/Resources/en-GB.json#2`
+- [ ] `App -> Core — localhost/App/Core/Resources/en-GB.json#3`
+- [ ] `App -> Core — localhost/App/Core/Resources/en-GB.json#4`
+- [ ] `App -> Core — localhost/App/Core/Resources/en-GB.json#5`
+- [ ] `App -> Core — localhost/App/Core/Resources/en-GB.json#6`
+- [ ] `App -> Core — localhost/App/Core/Resources/en-GB.json#7`
+- [ ] `App -> Core — localhost/App/Core/Resources/en-GB.json#8`
+- [ ] `App -> Core — localhost/App/Core/Resources/en-GB.json#9`
+- [ ] `App -> Core — localhost/App/Core/Resources/fr-FR.json#1`
+- [ ] `App -> Core — localhost/App/Core/Resources/fr-FR.json#2`
+- [ ] `App -> Core — localhost/App/Core/Resources/fr-FR.json#3`
+- [ ] `App -> Core — localhost/App/Core/Resources/fr-FR.json#4`
+- [ ] `App -> Core — localhost/App/Core/Resources/fr-FR.json#5`
+- [ ] `App -> Core — localhost/App/Core/Resources/fr-FR.json#6`
 - [ ] `App -> CRM — ccoder.co.uk/App/CRM/Components/AppList.json`
 - [ ] `App -> CRM — ccoder.co.uk/App/CRM/Components/Client.json`
 - [ ] `App -> CRM — ccoder.co.uk/App/CRM/Components/ClientFiles.json`
@@ -958,32 +1808,91 @@
 - [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#6`
 - [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#7`
 - [ ] `App -> CRM — ccoder.co.uk/App/CRM/Resources/fr-FR.json#8`
+- [ ] `App -> CRM — localhost/App/CRM/Components/AppList.json`
+- [ ] `App -> CRM — localhost/App/CRM/Components/Client.json`
+- [ ] `App -> CRM — localhost/App/CRM/Components/ClientFiles.json`
+- [ ] `App -> CRM — localhost/App/CRM/Components/ClientList.json`
+- [ ] `App -> CRM — localhost/App/CRM/Components/ClientState.json`
+- [ ] `App -> CRM — localhost/App/CRM/Components/HistoryList.json`
+- [ ] `App -> CRM — localhost/App/CRM/Components/TenantDetailsManagement.json`
+- [ ] `App -> CRM — localhost/App/CRM/Components/TenantThemeManagement.json`
+- [ ] `App -> CRM — localhost/App/CRM/Components/ThemeList.json`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#1`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#10`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#11`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#12`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#13`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#14`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#15`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#16`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#17`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#18`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#19`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#2`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#20`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#21`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#22`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#23`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#24`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#25`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#26`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#27`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#28`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#29`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#3`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#30`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#31`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#32`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#33`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#34`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#35`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#36`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#37`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#38`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#39`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#4`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#40`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#41`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#42`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#43`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#44`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#45`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#46`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#47`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#48`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#49`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#5`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#50`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#51`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#52`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#53`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#54`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#55`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#56`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#57`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#58`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#59`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#6`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#60`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#61`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#7`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#8`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/Default.json#9`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#1`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#2`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#3`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#4`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#5`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#6`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#7`
+- [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#8`
 - [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/ApiTester.json`
 - [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/DomainMetadata.json`
 - [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/Metadata.json`
+- [ ] `App -> Debug — localhost/App/Debug/Components/ApiTester.json`
+- [ ] `App -> Debug — localhost/App/Debug/Components/DomainMetadata.json`
+- [ ] `App -> Debug — localhost/App/Debug/Components/Metadata.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0001.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0002.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0003.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_OWASP.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_OWASP_OWASP0001.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0001.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0002.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0003.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0004.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0005.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0006.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0007.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0008.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0009.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0010.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0011.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0012.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0013.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0014.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0015.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI.json`
@@ -991,7 +1900,6 @@
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI002.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI003.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI004.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI005.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP001.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP002.json`
@@ -1002,12 +1910,6 @@
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP007.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP008.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP009.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP010.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP011.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP012.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP013.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP014.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP015.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA_STXA001.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXA_STXA002.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXB.json`
@@ -1024,8 +1926,6 @@
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD001.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD002.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD003.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD004.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXEX.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXEX_STXEX001.json`
@@ -1036,8 +1936,6 @@
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE003.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE004.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE005.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE006.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE007.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT001.json`
@@ -1056,7 +1954,6 @@
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF001.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF002.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF003.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF004.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXM.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXMG.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXMG_STXMG001.json`
@@ -1073,8 +1970,6 @@
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXP_STXP003.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT001.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT002.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT003.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST001.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST002.json`
@@ -1105,7 +2000,6 @@
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0021.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0022.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0023.json`
-- [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0024.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Root.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_About-The-Creator.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/_Platform-Domains.json`
@@ -1162,7 +2056,213 @@
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/en-GB.json#8`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/en-GB.json#9`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Resources/fr-FR.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/About-The-Creator.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_ODATA.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0003.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_OWASP.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_OWASP_OWASP0001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0003.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0004.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0005.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0006.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0007.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0008.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0009.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0010.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0011.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0012.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0013.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0014.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_RFC_RFC0015.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXA.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPI.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI003.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI004.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPI_STXAPI005.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP003.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP004.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP005.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP006.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP007.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP008.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP009.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP010.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP011.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP012.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP013.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP014.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXAPP_STXAPP015.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXA_STXA001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXA_STXA002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXB.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB003.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB004.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB005.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB006.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXB_STXB007.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXC.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXC_STXC001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXC_STXC002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXD.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD003.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXD_STXD004.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXE.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXEX.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXEX_STXEX001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXEX_STXEX002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXEX_STXEX003.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE003.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE004.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE005.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE006.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXE_STXE007.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXF.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT003.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT004.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT005.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT006.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT007.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT008.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT009.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT010.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT011.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT012.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXFORMAT_STXFORMAT013.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF003.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXF_STXF004.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXM.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXMG.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXMG_STXMG001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXMG_STXMG002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXM_STXM001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXM_STXM002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXM_STXM003.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXO.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXO_STXO001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXO_STXO002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXP.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXP_STXP001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXP_STXP002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXP_STXP003.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXSTRUCT_STXSTRUCT003.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXTEST.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST003.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST004.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST005.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STXTEST_STXTEST006.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0001.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0002.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0003.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0004.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0005.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0006.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0007.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0008.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0009.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0010.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0011.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0012.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0013.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0014.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0015.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0016.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0017.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0018.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0019.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0020.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0021.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0022.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0023.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Documentation_CodeAnalysis_STX_STX0024.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Platform-Domains.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Platform-Domains_AI.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Platform-Domains_App-Security.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Platform-Domains_Client-Relationship-Management.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Platform-Domains_Code-Analysis.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Platform-Domains_Content-Management.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Platform-Domains_Data.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Platform-Domains_Document-Management.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Platform-Domains_Eventing.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Platform-Domains_Logging.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Platform-Domains_Mail.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Platform-Domains_Packaging.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Platform-Domains_Security.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Platform-Domains_Workflow.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/Root.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/The-Standard-in-cCoder.json`
+- [ ] `App -> Default — localhost/App/Default/Pages/The-Value-of-Core-Business-Systems.json`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#1`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#10`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#11`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#12`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#13`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#14`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#15`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#16`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#17`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#18`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#19`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#2`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#20`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#21`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#22`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#23`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#24`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#25`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#26`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#27`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#3`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#4`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#5`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#6`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#7`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#8`
+- [ ] `App -> Default — localhost/App/Default/Resources/Default.json#9`
+- [ ] `App -> Default — localhost/App/Default/Resources/en-GB.json#1`
+- [ ] `App -> Default — localhost/App/Default/Resources/en-GB.json#10`
+- [ ] `App -> Default — localhost/App/Default/Resources/en-GB.json#11`
+- [ ] `App -> Default — localhost/App/Default/Resources/en-GB.json#12`
+- [ ] `App -> Default — localhost/App/Default/Resources/en-GB.json#13`
+- [ ] `App -> Default — localhost/App/Default/Resources/en-GB.json#14`
+- [ ] `App -> Default — localhost/App/Default/Resources/en-GB.json#2`
+- [ ] `App -> Default — localhost/App/Default/Resources/en-GB.json#3`
+- [ ] `App -> Default — localhost/App/Default/Resources/en-GB.json#4`
+- [ ] `App -> Default — localhost/App/Default/Resources/en-GB.json#5`
+- [ ] `App -> Default — localhost/App/Default/Resources/en-GB.json#6`
+- [ ] `App -> Default — localhost/App/Default/Resources/en-GB.json#7`
+- [ ] `App -> Default — localhost/App/Default/Resources/en-GB.json#8`
+- [ ] `App -> Default — localhost/App/Default/Resources/en-GB.json#9`
+- [ ] `App -> Default — localhost/App/Default/Resources/fr-FR.json`
 - [ ] `App -> DevTools — ccoder.co.uk/App/DevTools/Components/DevTools.json`
+- [ ] `App -> DevTools — localhost/App/DevTools/Components/DevTools.json`
 - [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#1`
 - [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#10`
 - [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/Default.json#11`
@@ -1215,7 +2315,60 @@
 - [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#7`
 - [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#8`
 - [ ] `App -> DMS — ccoder.co.uk/App/DMS/Resources/fr-FR.json#9`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#1`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#10`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#11`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#12`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#13`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#14`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#15`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#16`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#17`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#18`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#19`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#2`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#20`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#21`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#22`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#23`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#24`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#25`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#26`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#27`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#28`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#29`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#3`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#30`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#31`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#32`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#4`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#5`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#6`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#7`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#8`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/Default.json#9`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#1`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#10`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#11`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#12`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#13`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#14`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#15`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#16`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#17`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#18`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#19`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#2`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#20`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#3`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#4`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#5`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#6`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#7`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#8`
+- [ ] `App -> DMS — localhost/App/DMS/Resources/fr-FR.json#9`
 - [ ] `App -> Documentation — ccoder.co.uk/App/Documentation/Components/Documentation.json`
+- [ ] `App -> Documentation — localhost/App/Documentation/Components/Documentation.json`
 - [ ] `App -> DocumentManagement — ccoder.co.uk/App/DocumentManagement/Pages/Admin_DocumentManagement.json`
 - [ ] `App -> DocumentManagement — ccoder.co.uk/App/DocumentManagement/Resources/Default.json#1`
 - [ ] `App -> DocumentManagement — ccoder.co.uk/App/DocumentManagement/Resources/Default.json#10`
@@ -1267,33 +2420,240 @@
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#23`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#24`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#25`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#26`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#27`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#28`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#29`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#3`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#30`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#31`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#32`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#33`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#34`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#35`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#36`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#37`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#38`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#39`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#4`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#40`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#41`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#42`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#43`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#44`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#45`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#46`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#47`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#48`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#49`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#5`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#50`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#51`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#52`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#53`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#54`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#55`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#56`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#57`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#58`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#59`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#6`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#60`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#61`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#62`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#63`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#64`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#65`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#66`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#67`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#68`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#69`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#7`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#70`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#71`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#72`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#73`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#74`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#75`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#76`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#77`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#78`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#79`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#8`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#80`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#81`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#82`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#83`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#84`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#85`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#86`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#87`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#88`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#89`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#9`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#90`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#91`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#92`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#93`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/Default.json#94`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/fr-FR.json#1`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/fr-FR.json#10`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/fr-FR.json#11`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/fr-FR.json#12`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/fr-FR.json#2`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/fr-FR.json#3`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/fr-FR.json#4`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/fr-FR.json#5`
 - [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/fr-FR.json#6`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/fr-FR.json#7`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/fr-FR.json#8`
+- [ ] `App -> DocumentManagement — Default App/App/DocumentManagement/Resources/fr-FR.json#9`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Components/DMS.json`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Components/DMSFormatting.json`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Components/DocumentManagement.json`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Components/FileActions.json`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Components/FileContextMenu.json`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Components/FileVersionGrid.json`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Components/FolderActions.json`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Components/FolderCreator.json`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Components/FolderManagement.json`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Components/FolderProperties.json`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Components/FolderRoles.json`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Components/FurtherInfo.json`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Components/Slideshow.json`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Components/UploadActions.json`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Pages/Admin_DocumentManagement.json`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#1`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#10`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#11`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#12`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#13`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#14`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#15`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#16`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#17`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#18`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#19`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#2`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#20`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#21`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#22`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#23`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#24`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#25`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#26`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#27`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#28`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#29`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#3`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#30`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#31`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#32`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#33`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#34`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#35`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#36`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#37`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#38`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#39`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#4`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#40`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#41`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#42`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#43`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#44`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#45`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#46`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#47`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#48`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#49`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#5`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#50`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#51`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#52`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#53`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#54`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#55`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#56`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#57`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#58`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#59`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#6`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#60`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#61`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#62`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#63`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#64`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#65`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#66`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#67`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#68`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#69`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#7`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#70`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#71`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#72`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#73`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#74`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#75`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#76`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#77`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#78`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#79`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#8`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#80`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#81`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#82`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#83`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#84`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#85`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#86`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#87`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#88`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#89`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#9`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#90`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#91`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#92`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#93`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/Default.json#94`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/fr-FR.json#1`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/fr-FR.json#10`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/fr-FR.json#11`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/fr-FR.json#12`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/fr-FR.json#2`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/fr-FR.json#3`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/fr-FR.json#4`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/fr-FR.json#5`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/fr-FR.json#6`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/fr-FR.json#7`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/fr-FR.json#8`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/fr-FR.json#9`
+- [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/fr.json`
 - [ ] `App -> ForgotPassword — ccoder.co.uk/App/ForgotPassword/Templates/ForgotPassword.json`
 - [ ] `App -> ForgotPassword — Default App/App/ForgotPassword/Templates/ForgotPassword.json`
+- [ ] `App -> ForgotPassword — localhost/App/ForgotPassword/Templates/ForgotPassword.json`
 - [ ] `App -> Forms — ccoder.co.uk/App/Forms/Components/FormManagement.json`
+- [ ] `App -> Forms — localhost/App/Forms/Components/FormManagement.json`
 - [ ] `App -> Key — ccoder.co.uk/App/Key/Resources/Culture.json`
+- [ ] `App -> Key — localhost/App/Key/Resources/Culture.json`
 - [ ] `App -> Logging — ccoder.co.uk/App/Logging/Components/FullLogStream.json`
 - [ ] `App -> Logging — ccoder.co.uk/App/Logging/Pages/Admin_PlatformAdmin_FullLogStream.json`
 - [ ] `App -> Logging — Default App/App/Logging/Components/FullLogStream.json`
 - [ ] `App -> Logging — Default App/App/Logging/Pages/Admin_PlatformAdmin_FullLogStream.json`
+- [ ] `App -> Logging — localhost/App/Logging/Components/FullLogStream.json`
+- [ ] `App -> Logging — localhost/App/Logging/Pages/Admin_PlatformAdmin_FullLogStream.json`
 - [ ] `App -> Mail — ccoder.co.uk/App/Mail/Pages/Admin_MailManagement.json`
 - [ ] `App -> Mail — Default App/App/Mail/Pages/Admin_MailManagement.json`
+- [ ] `App -> Mail — localhost/App/Mail/Components/MailManagement.json`
+- [ ] `App -> Mail — localhost/App/Mail/Pages/Admin_MailManagement.json`
 - [ ] `App -> notifications — ccoder.co.uk/App/notifications/Resources/Default.json`
+- [ ] `App -> notifications — localhost/App/notifications/Resources/Default.json`
 - [ ] `App -> QueryBuilder — ccoder.co.uk/App/QueryBuilder/Components/QueryBuilder.json`
+- [ ] `App -> QueryBuilder — localhost/App/QueryBuilder/Components/QueryBuilder.json`
 - [ ] `App -> Register — ccoder.co.uk/App/Register/Templates/ConfirmRegistration.json`
 - [ ] `App -> Register — Default App/App/Register/Templates/ConfirmRegistration.json`
+- [ ] `App -> Register — localhost/App/Register/Templates/ConfirmRegistration.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/SSORoleManagement.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/SSORolePrivManagement.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/SSORoleUserManagement.json`
@@ -1308,8 +2668,32 @@
 - [ ] `App -> Security — Default App/App/Security/Components/TenantManagement.json`
 - [ ] `App -> Security — Default App/App/Security/Pages/Admin_PlatformAdmin_Tenants.json`
 - [ ] `App -> Security — Default App/App/Security/Pages/ResetPassword.json`
+- [ ] `App -> Security — localhost/App/Security/Components/SSORoleManagement.json`
+- [ ] `App -> Security — localhost/App/Security/Components/SSORolePrivManagement.json`
+- [ ] `App -> Security — localhost/App/Security/Components/SSORoleUserManagement.json`
+- [ ] `App -> Security — localhost/App/Security/Components/TenantActivity.json`
+- [ ] `App -> Security — localhost/App/Security/Components/TenantAppManagement.json`
+- [ ] `App -> Security — localhost/App/Security/Components/TenantManagement.json`
+- [ ] `App -> Security — localhost/App/Security/Pages/Admin_PlatformAdmin_Tenants.json`
+- [ ] `App -> Security — localhost/App/Security/Pages/ResetPassword.json`
+- [ ] `App -> Security — localhost/App/Security/Resources/Default.json#1`
+- [ ] `App -> Security — localhost/App/Security/Resources/Default.json#10`
+- [ ] `App -> Security — localhost/App/Security/Resources/Default.json#11`
+- [ ] `App -> Security — localhost/App/Security/Resources/Default.json#12`
+- [ ] `App -> Security — localhost/App/Security/Resources/Default.json#13`
+- [ ] `App -> Security — localhost/App/Security/Resources/Default.json#14`
+- [ ] `App -> Security — localhost/App/Security/Resources/Default.json#15`
+- [ ] `App -> Security — localhost/App/Security/Resources/Default.json#2`
+- [ ] `App -> Security — localhost/App/Security/Resources/Default.json#3`
+- [ ] `App -> Security — localhost/App/Security/Resources/Default.json#4`
+- [ ] `App -> Security — localhost/App/Security/Resources/Default.json#5`
+- [ ] `App -> Security — localhost/App/Security/Resources/Default.json#6`
+- [ ] `App -> Security — localhost/App/Security/Resources/Default.json#7`
+- [ ] `App -> Security — localhost/App/Security/Resources/Default.json#8`
+- [ ] `App -> Security — localhost/App/Security/Resources/Default.json#9`
 - [ ] `App -> Tools — ccoder.co.uk/App/Tools/Components/GridBuilder.json`
 - [ ] `App -> Tools — ccoder.co.uk/App/Tools/Components/LoginToEnvironment.json`
+- [ ] `App -> Tools — localhost/App/Tools/Components/GridBuilder.json`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Components/MasterdataImportResults.json`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Components/TransactionImportResults.json`
 - [ ] `App -> Workflow — ccoder.co.uk/App/Workflow/Pages/Admin_WorkflowDesigner.json`
@@ -1374,7 +2758,23 @@
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#2`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#20`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#21`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#22`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#23`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#24`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#25`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#26`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#27`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#28`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#29`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#3`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#30`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#31`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#32`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#33`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#34`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#35`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#36`
+- [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#37`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#4`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#5`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/Default.json#6`
@@ -1402,6 +2802,83 @@
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#7`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#8`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#9`
+- [ ] `App -> Workflow — localhost/App/Workflow/Components/ActivityEditor.json`
+- [ ] `App -> Workflow — localhost/App/Workflow/Components/ExpressionBuilder.json`
+- [ ] `App -> Workflow — localhost/App/Workflow/Components/FlowEditor.json`
+- [ ] `App -> Workflow — localhost/App/Workflow/Components/FlowInstanceDetails.json`
+- [ ] `App -> Workflow — localhost/App/Workflow/Components/FlowInstanceManagement.json`
+- [ ] `App -> Workflow — localhost/App/Workflow/Components/FlowRunner.json`
+- [ ] `App -> Workflow — localhost/App/Workflow/Components/FlowToolbar.json`
+- [ ] `App -> Workflow — localhost/App/Workflow/Components/MasterdataImportResults.json`
+- [ ] `App -> Workflow — localhost/App/Workflow/Components/Scheduling.json`
+- [ ] `App -> Workflow — localhost/App/Workflow/Components/TransactionImportResults.json`
+- [ ] `App -> Workflow — localhost/App/Workflow/Components/WorkflowAdmin.json`
+- [ ] `App -> Workflow — localhost/App/Workflow/Components/WorkflowList.json`
+- [ ] `App -> Workflow — localhost/App/Workflow/Components/WorkflowManagement.json`
+- [ ] `App -> Workflow — localhost/App/Workflow/Components/WorkflowScheduling.json`
+- [ ] `App -> Workflow — localhost/App/Workflow/Pages/Admin_WorkflowDesigner.json`
+- [ ] `App -> Workflow — localhost/App/Workflow/Pages/Admin_Workflows.json`
+- [ ] `App -> Workflow — localhost/App/Workflow/Pages/Admin_Workflows_Editor.json`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#1`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#10`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#11`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#12`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#13`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#14`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#15`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#16`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#17`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#18`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#19`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#2`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#20`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#21`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#22`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#23`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#24`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#25`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#26`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#27`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#28`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#29`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#3`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#30`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#31`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#32`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#33`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#34`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#35`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#36`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#37`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#4`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#5`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#6`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#7`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#8`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/Default.json#9`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#1`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#10`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#11`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#12`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#13`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#14`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#15`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#16`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#17`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#18`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#19`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#2`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#20`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#21`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#3`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#4`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#5`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#6`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#7`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#8`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/en-GB.json#9`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/fr-FR.json#1`
+- [ ] `App -> Workflow — localhost/App/Workflow/Resources/fr-FR.json#2`
 - [ ] `Common Cache -> AI — Default App/Common Cache/AI/Components/AIAdmin.json`
 - [ ] `Common Cache -> AI — Default App/Common Cache/AI/Components/AIWorkspace.json`
 - [ ] `Common Cache -> AppSecurity — ccoder.co.uk/Common Cache/AppSecurity/Components/FlowSettings.json`
@@ -1476,6 +2953,42 @@
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#6`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#7`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#8`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Components/FlowSettings.json`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Components/Login.json`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Components/loginPage.json`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Components/LoginToEnvironment.json`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Components/Register.json`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Components/RegistrationsHome.json`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Components/RoleManagement.json`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Components/RolePrivManagement.json`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Components/RoleUserManagement.json`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Components/UserProfile.json`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/Default.json#1`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/Default.json#10`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/Default.json#11`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/Default.json#12`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/Default.json#13`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/Default.json#14`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/Default.json#15`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/Default.json#16`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/Default.json#17`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/Default.json#18`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/Default.json#2`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/Default.json#3`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/Default.json#4`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/Default.json#5`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/Default.json#6`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/Default.json#7`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/Default.json#8`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/Default.json#9`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/fr-FR.json#1`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/fr-FR.json#2`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/fr-FR.json#3`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/fr-FR.json#4`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/fr-FR.json#5`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/fr-FR.json#6`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/fr-FR.json#7`
+- [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/fr-FR.json#8`
 - [ ] `Common Cache -> ClientRelationshipManagement — Default App/Common Cache/ClientRelationshipManagement/Components/CRMAdmin.json`
 - [ ] `Common Cache -> ClientRelationshipManagement — Default App/Common Cache/ClientRelationshipManagement/Components/CRMDashboard.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Components/DetailedNav.json`
@@ -1490,51 +3003,9 @@
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Resources/Default.json#4`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Resources/Default.json#5`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Resources/Default.json#6`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Background.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Core.Api.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Core.Drawing.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Core.Model.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Core.Util.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/DefaultResourcing.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Bootstrap.BootstrapBundle.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Jquery.Jquery370.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Jquery.JqueryUi.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Jquery.JqueryValidate.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Kendo.KendoAllV20242514.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Kendo.KendoUiLicense.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Other.Monaco.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Other.Signalr.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Execute.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/KendoCultures.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.BootstrapDialog.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.BootstrapTabs.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Chart.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.CMS.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.ConfirmDialog.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.ConsoleDialog.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.ContextMenuWidget.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.DataTreeView.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Detail.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Dialog.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.EditorDialog.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.ExportDialog.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.FileDropContainerWidget.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Grid.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.OdataTree.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Picker.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.PieChart.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.ReadOnlyDetailView.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Tree.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.TreeView.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Widget.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Workspace.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.WritableDetailView.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Styles/Baseline.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Styles/Bootstrap.Kendo.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Styles/Dependency.Bootstrap.Bootstrap.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Styles/Dependency.Kendo.KendoV20242514Bootstrap.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Styles/Source.Kendo.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Styles/Source.Site.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Components/DetailedNav.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Components/HistoryList.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Components/Notifications.json`
@@ -1548,6 +3019,9 @@
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#5`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#6`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Background.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Bundle.Monaco.Core.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Bundle.Monaco.CSharp.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Bundle.Monaco.Web.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Core.Api.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Core.Drawing.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Core.Model.json`
@@ -1557,8 +3031,11 @@
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Jquery.Jquery370.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Jquery.JqueryUi.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Jquery.JqueryValidate.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Kendo.CspTemplates.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Kendo.KendoAllV20242514.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Kendo.KendoUiLicense.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Monaco.Runtime.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Monaco.Worker.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Other.Monaco.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Other.Signalr.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Execute.json`
@@ -1588,10 +3065,69 @@
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.WritableDetailView.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Baseline.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Bootstrap.Kendo.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Bundle.Monaco.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Dependency.Bootstrap.Bootstrap.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Dependency.Kendo.KendoV20242514Bootstrap.json`
+- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Dependency.Monaco.Runtime.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Source.Kendo.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Source.Site.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Components/DetailedNav.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Components/HistoryList.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Components/Notifications.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Components/ScriptRunner.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Components/Sidenav.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Components/TopNav.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Resources/Default.json#1`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Resources/Default.json#2`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Resources/Default.json#3`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Resources/Default.json#4`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Resources/Default.json#5`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Resources/Default.json#6`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Background.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Core.Api.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Core.Drawing.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Core.Model.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Core.Util.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/DefaultResourcing.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Dependency.Bootstrap.BootstrapBundle.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Dependency.Jquery.Jquery370.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Dependency.Jquery.JqueryUi.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Dependency.Jquery.JqueryValidate.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Dependency.Kendo.KendoAllV20242514.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Dependency.Kendo.KendoUiLicense.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Dependency.Other.Monaco.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Dependency.Other.Signalr.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Execute.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/KendoCultures.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.BootstrapDialog.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.BootstrapTabs.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.Chart.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.CMS.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.ConfirmDialog.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.ConsoleDialog.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.ContextMenuWidget.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.DataTreeView.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.Detail.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.Dialog.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.EditorDialog.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.ExportDialog.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.FileDropContainerWidget.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.Grid.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.OdataTree.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.Picker.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.PieChart.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.ReadOnlyDetailView.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.Tree.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.TreeView.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.Widget.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.Workspace.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.WritableDetailView.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Styles/Baseline.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Styles/Bootstrap.Kendo.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Styles/Dependency.Bootstrap.Bootstrap.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Styles/Dependency.Kendo.KendoV20242514Bootstrap.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Styles/Source.Kendo.json`
+- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Styles/Source.Site.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/AppCreator.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/AppList.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/AppManagement.json`
@@ -1770,14 +3306,7 @@
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#7`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#8`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#9`
-- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Core.ContentEditor.json`
-- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Core.Editor.json`
-- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Core.PageToolbar.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/MigrateApp.json`
-- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Monaco.CSharpMonacoEditor.json`
-- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Monaco.HTMLMonacoEditor.json`
-- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Monaco.JavaScriptMonacoEditor.json`
-- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Monaco.MonacoEditor.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/AppCreator.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/AppList.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/AppManagement.json`
@@ -1789,6 +3318,9 @@
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/BPMigration.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/CalendarManagement.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/Colours.json`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/CommonCacheComponents.json`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/CommonCacheResources.json`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/CommonCacheScripts.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/ComponentManagement.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/ComponentMigration.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/CoreManagement.json`
@@ -1963,7 +3495,194 @@
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Monaco.CSharpMonacoEditor.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Monaco.HTMLMonacoEditor.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Monaco.JavaScriptMonacoEditor.json`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Monaco.JavaScriptValidation.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Monaco.MonacoEditor.json`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Monaco.WebLanguages.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/AppCreator.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/AppList.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/AppManagement.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/AppMigrator.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/AppThemeList.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/AppTheming.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/AppTree.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/Border.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/BPMigration.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/CalendarManagement.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/Colours.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/ComponentManagement.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/ComponentMigration.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/CoreManagement.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/CultureFlags.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/Etc.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/Font.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/FormManagement.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/GridBuilder.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/LayoutManagement.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/LayoutMigration.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/Metadata.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/MyWorkspace.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/PageContextMenu.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/PageCreator.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/PageDesigner.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/PageInfo.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/PageManagement.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/PageProperties.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/PageRoles.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/PortalBuilderForm.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/ResourceManagement.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/ResourceMigration.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/Shadows.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/TemplateManagement.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/TemplateMigration.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/ThemeBuilder.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/ThemeList.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/ThemeSelection.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/Workspace.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#1`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#10`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#11`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#12`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#13`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#14`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#15`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#16`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#17`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#18`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#19`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#2`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#20`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#21`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#22`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#23`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#24`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#25`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#26`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#27`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#28`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#29`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#3`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#30`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#31`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#32`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#33`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#34`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#35`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#36`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#37`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#38`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#39`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#4`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#40`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#41`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#42`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#43`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#44`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#45`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#46`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#47`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#48`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#49`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#5`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#50`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#51`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#52`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#53`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#54`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#55`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#56`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#57`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#58`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#59`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#6`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#60`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#61`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#62`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#63`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#64`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#65`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#66`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#67`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#68`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#69`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#7`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#70`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#71`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#72`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#73`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#74`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#75`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#76`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#77`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#78`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#79`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#8`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#80`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#81`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#82`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#83`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#84`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/Default.json#9`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/en-GB.json#1`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/en-GB.json#10`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/en-GB.json#11`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/en-GB.json#12`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/en-GB.json#13`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/en-GB.json#2`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/en-GB.json#3`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/en-GB.json#4`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/en-GB.json#5`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/en-GB.json#6`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/en-GB.json#7`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/en-GB.json#8`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/en-GB.json#9`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#1`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#10`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#11`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#12`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#13`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#14`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#15`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#16`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#17`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#18`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#19`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#2`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#20`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#21`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#22`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#23`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#24`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#25`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#26`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#27`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#28`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#29`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#3`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#30`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#31`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#32`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#33`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#34`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#35`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#36`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#37`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#38`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#39`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#4`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#40`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#5`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#6`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#7`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#8`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#9`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Scripts/Core.ContentEditor.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Scripts/Core.Editor.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Scripts/Core.PageToolbar.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Scripts/MigrateApp.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Scripts/Monaco.CSharpMonacoEditor.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Scripts/Monaco.HTMLMonacoEditor.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Scripts/Monaco.JavaScriptMonacoEditor.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Scripts/Monaco.MonacoEditor.json`
 - [ ] `Common Cache -> Core — ccoder.co.uk/Common Cache/Core/Components/ApiTester.json`
 - [ ] `Common Cache -> Core — ccoder.co.uk/Common Cache/Core/Components/BackgroundJobs.json`
 - [ ] `Common Cache -> Core — ccoder.co.uk/Common Cache/Core/Components/BPEditor.json`
@@ -2006,6 +3725,27 @@
 - [ ] `Common Cache -> Core — Default App/Common Cache/Core/Resources/fr-FR.json#4`
 - [ ] `Common Cache -> Core — Default App/Common Cache/Core/Resources/fr-FR.json#5`
 - [ ] `Common Cache -> Core — Default App/Common Cache/Core/Resources/fr-FR.json#6`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Components/ApiTester.json`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Components/BackgroundJobs.json`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Components/BPEditor.json`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Components/BPM.json`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Components/CultureManagement.json`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Components/DevTools.json`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Components/FolderEventManager.json`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Components/LogStream.json`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Resources/Default.json#1`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Resources/Default.json#2`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Resources/Default.json#3`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Resources/Default.json#4`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Resources/Default.json#5`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Resources/Default.json#6`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Resources/Default.json#7`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Resources/fr-FR.json#1`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Resources/fr-FR.json#2`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Resources/fr-FR.json#3`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Resources/fr-FR.json#4`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Resources/fr-FR.json#5`
+- [ ] `Common Cache -> Core — localhost/Common Cache/Core/Resources/fr-FR.json#6`
 - [ ] `Common Cache -> Default — ccoder.co.uk/Common Cache/Default/Resources/Default.json#1`
 - [ ] `Common Cache -> Default — ccoder.co.uk/Common Cache/Default/Resources/Default.json#2`
 - [ ] `Common Cache -> Default — ccoder.co.uk/Common Cache/Default/Resources/Default.json#3`
@@ -2018,6 +3758,12 @@
 - [ ] `Common Cache -> Default — Default App/Common Cache/Default/Resources/Default.json#4`
 - [ ] `Common Cache -> Default — Default App/Common Cache/Default/Resources/Default.json#5`
 - [ ] `Common Cache -> Default — Default App/Common Cache/Default/Resources/Default.json#6`
+- [ ] `Common Cache -> Default — localhost/Common Cache/Default/Resources/Default.json#1`
+- [ ] `Common Cache -> Default — localhost/Common Cache/Default/Resources/Default.json#2`
+- [ ] `Common Cache -> Default — localhost/Common Cache/Default/Resources/Default.json#3`
+- [ ] `Common Cache -> Default — localhost/Common Cache/Default/Resources/Default.json#4`
+- [ ] `Common Cache -> Default — localhost/Common Cache/Default/Resources/Default.json#5`
+- [ ] `Common Cache -> Default — localhost/Common Cache/Default/Resources/Default.json#6`
 - [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Components/Client.json`
 - [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Components/ClientFiles.json`
 - [ ] `Common Cache -> DocumentManagement — ccoder.co.uk/Common Cache/DocumentManagement/Components/ClientList.json`
@@ -2272,8 +4018,139 @@
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/fr.json`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Scripts/FileVersionsGrid.json`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Scripts/FolderManagementGrid.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/Client.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/ClientFiles.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/ClientList.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/DMS.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/DMSFormatting.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/DocumentManagement.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/FileActions.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/FileContextMenu.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/FileVersionGrid.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/FolderActions.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/FolderCreator.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/FolderManagement.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/FolderProperties.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/FolderRoles.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/FurtherInfo.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/QueryBuilder.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/Slideshow.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/TenantThemeManagement.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/TestimonialManagement.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/UploadActions.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#1`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#10`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#11`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#12`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#13`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#14`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#15`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#16`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#17`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#18`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#19`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#2`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#20`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#21`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#22`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#23`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#24`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#25`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#26`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#27`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#28`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#29`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#3`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#30`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#31`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#32`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#33`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#34`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#35`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#36`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#37`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#38`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#39`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#4`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#40`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#41`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#42`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#43`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#44`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#45`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#46`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#47`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#48`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#49`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#5`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#50`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#51`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#52`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#53`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#54`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#55`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#56`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#57`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#58`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#59`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#6`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#60`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#61`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#62`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#63`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#64`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#65`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#66`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#67`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#68`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#69`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#7`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#70`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#71`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#72`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#73`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#74`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#75`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#76`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#77`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#78`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#79`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#8`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#80`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#81`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#82`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#83`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#84`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#85`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#86`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#87`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#88`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#89`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#9`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#90`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#91`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/Default.json#92`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/fr-FR.json#1`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/fr-FR.json#10`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/fr-FR.json#11`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/fr-FR.json#12`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/fr-FR.json#2`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/fr-FR.json#3`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/fr-FR.json#4`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/fr-FR.json#5`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/fr-FR.json#6`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/fr-FR.json#7`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/fr-FR.json#8`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/fr-FR.json#9`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/fr.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Scripts/FileVersionsGrid.json`
+- [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Scripts/FolderManagementGrid.json`
 - [ ] `Common Cache -> Mail — ccoder.co.uk/Common Cache/Mail/Components/MailManagement.json`
 - [ ] `Common Cache -> Mail — Default App/Common Cache/Mail/Components/MailManagement.json`
+- [ ] `Common Cache -> Mail — Default App/Common Cache/Mail/Resources/Default.json#1`
+- [ ] `Common Cache -> Mail — Default App/Common Cache/Mail/Resources/Default.json#2`
+- [ ] `Common Cache -> Mail — Default App/Common Cache/Mail/Scripts/MailManagement.RetryFailedSends.json`
+- [ ] `Common Cache -> Mail — localhost/Common Cache/Mail/Components/MailManagement.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Components/PasswordReset.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Components/TenantActivity.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#1`
@@ -2316,6 +4193,27 @@
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Scripts/CoreDailyUsageGrid.json`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Scripts/CoreDailyUsagePageDetailsGrid.json`
 - [ ] `Common Cache -> Security — Default App/Common Cache/Security/Scripts/CoreDailyUsageUserDetailsGrid.json`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Components/PasswordReset.json`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Components/TenantActivity.json`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Resources/Default.json#1`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Resources/Default.json#10`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Resources/Default.json#11`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Resources/Default.json#12`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Resources/Default.json#13`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Resources/Default.json#14`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Resources/Default.json#15`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Resources/Default.json#2`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Resources/Default.json#3`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Resources/Default.json#4`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Resources/Default.json#5`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Resources/Default.json#6`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Resources/Default.json#7`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Resources/Default.json#8`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Resources/Default.json#9`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Scripts/CoreDailyUsageApiDetailsGrid.json`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Scripts/CoreDailyUsageGrid.json`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Scripts/CoreDailyUsagePageDetailsGrid.json`
+- [ ] `Common Cache -> Security — localhost/Common Cache/Security/Scripts/CoreDailyUsageUserDetailsGrid.json`
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Components/ActivityEditor.json`
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Components/ExpressionBuilder.json`
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Components/FlowEditor.json`
@@ -2353,14 +4251,6 @@
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/en-GB.json#4`
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/fr-FR.json#1`
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/fr-FR.json#2`
-- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Action.json`
-- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Activity.json`
-- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Close.json`
-- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Connector.json`
-- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Flow.json`
-- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Handle.json`
-- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Link.json`
-- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Workflowdesigner.json`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Components/ActivityEditor.json`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Components/ExpressionBuilder.json`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Components/FlowEditor.json`
@@ -2406,6 +4296,51 @@
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Handle.json`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Link.json`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Workflowdesigner.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/ActivityEditor.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/ExpressionBuilder.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/FlowEditor.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/FlowInstanceDetails.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/FlowInstanceManagement.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/FlowRunner.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/FlowToolbar.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/Scheduling.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/WorkflowAdmin.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/WorkflowList.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/WorkflowManagement.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/WorkflowScheduling.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#1`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#10`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#11`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#12`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#13`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#14`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#15`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#16`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#17`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#18`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#19`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#2`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#3`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#4`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#5`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#6`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#7`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#8`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/Default.json#9`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/en-GB.json#1`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/en-GB.json#2`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/en-GB.json#3`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/en-GB.json#4`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/fr-FR.json#1`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/fr-FR.json#2`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Scripts/Workflow.Action.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Scripts/Workflow.Activity.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Scripts/Workflow.Close.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Scripts/Workflow.Connector.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Scripts/Workflow.Flow.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Scripts/Workflow.Handle.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Scripts/Workflow.Link.json`
+- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Scripts/Workflow.Workflowdesigner.json`
 
 ## Review queues
 
@@ -2443,7 +4378,7 @@
 
 ## Totals
 
-- Directories scanned: 2
+- Directories scanned: 3
 - Layouts: 0
 - Pages: 0
 - Reachable components: 0 / 0

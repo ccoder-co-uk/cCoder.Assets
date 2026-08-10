@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/Security/LoggingIn",
+  "Name": "Logging In",
+  "ShowOnMenus": true,
+  "Order": 20,
+  "LastUpdated": "2026-07-28T09:01:52.7137516\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E\u003Csection class=\u0022docs-value-overview\u0022\u003E\u003Ch2\u003EOne predictable entry into the platform\u003C/h2\u003E\u003Cp\u003EA shared login experience gives users and consuming applications a consistent authentication boundary. Sessions and credentials remain owned by Security, so individual business domains do not need to implement or store their own sign-in state.\u003C/p\u003E\u003Cp\u003EThe steps below describe the visible user journey through that boundary.\u003C/p\u003E\u003C/section\u003E\u003Cdiv class=\u0022documentation\u0022\u003E\n\t\u003Ch2\u003ELogging In to the Portal \u003C/h2\u003E\n\t\u003Cp\u003EWhen you visit your portal in your browser, the first page you\u0026rsquo;re greeted with is the login page\n        that looks something like this:\u003C/p\u003E\n\t\u003Cimg data-ccoder-semantic-image=\u0022true\u0022 src=\u0022[app[root]]Api/DMS/Content/Documentation/SSO Documentation/Logging In/LoginPage-en.png\u0022/\u003E\n\t\u003Cp\u003EHere, you must enter your \u003Cstrong\u003E\u0026ldquo;User Name\u0026rdquo;\u003C/strong\u003E and \u003Cstrong\u003E\u0026ldquo;Password\u0026rdquo;\u003C/strong\u003E to the account you want to access and click\n        the \u003Cstrong\u003E\u0026ldquo;Submit\u0026rdquo;\u003C/strong\u003E button to gain access.\u003C/p\u003E\n\u003C/div\u003E\u003Csection class=\u0022public-flow-section public-section public-nav-section\u0022\u003E\u003Cdiv class=\u0022public-section-frame\u0022\u003E[component[DetailedNav]]\u003C/div\u003E\u003C/section\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "This page explains how to sign in to a cCoder portal.",
+      "Title": "Logging In"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

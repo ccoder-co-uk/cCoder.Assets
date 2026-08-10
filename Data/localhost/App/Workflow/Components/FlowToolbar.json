@@ -1,0 +1,10 @@
+{
+  "Name": "FlowToolbar",
+  "Key": "Workflow",
+  "ResourceKey": "Workflow",
+  "Script": "",
+  "Content": "",
+  "LastUpdated": "2026-08-08T21:38:49.193502\u002B00:00",
+  "PackageType": "ContentManagement/Component",
+  "IncludeInSubSequentImports": false
+}

@@ -1,0 +1,25 @@
+{
+  "Path": "Documentation/DocumentManagement/SendingFilestoDMS",
+  "Name": "Sending Files to DMS",
+  "ShowOnMenus": true,
+  "Order": 30,
+  "LastUpdated": "2026-07-28T09:01:52.6094526\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E\u003Csection class=\u0022docs-value-overview\u0022\u003E\u003Ch2\u003EMove files into a governed lifecycle\u003C/h2\u003E\u003Cp\u003ESending a file through the DMS boundary gives it hierarchy, metadata, versioning and access context. Bypassing that boundary may store bytes, but it loses the operational guarantees that make the content manageable later.\u003C/p\u003E\u003Cp\u003EUse the integration guidance below to hand content to the document domain rather than creating parallel storage conventions.\u003C/p\u003E\u003C/section\u003E\u003Csection class=\u0022public-flow-section public-section public-nav-section\u0022\u003E\u003Cdiv class=\u0022public-section-frame\u0022\u003E[component[DetailedNav]]\u003C/div\u003E\u003C/section\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "How to send files into the document-management domain for governed storage and downstream processing.",
+      "Keywords": "",
+      "Title": "Sending Files to DMS"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

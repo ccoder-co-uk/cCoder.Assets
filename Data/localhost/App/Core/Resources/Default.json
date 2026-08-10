@@ -1,0 +1,233 @@
+[
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-2",
+    "DisplayName": "February",
+    "ShortDisplayName": "February",
+    "Description": "February",
+    "LastUpdated": "2026-08-08T21:42:31.3442217\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-3",
+    "DisplayName": "March",
+    "ShortDisplayName": "March",
+    "Description": "March",
+    "LastUpdated": "2026-08-08T21:42:31.3602462\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-4",
+    "DisplayName": "April",
+    "ShortDisplayName": "April",
+    "Description": "April",
+    "LastUpdated": "2026-08-08T21:42:31.3771227\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-5",
+    "DisplayName": "May",
+    "ShortDisplayName": "May",
+    "Description": "May",
+    "LastUpdated": "2026-08-08T21:42:31.3954922\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-6",
+    "DisplayName": "June",
+    "ShortDisplayName": "June",
+    "Description": "June",
+    "LastUpdated": "2026-08-08T21:42:31.4191347\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-7",
+    "DisplayName": "July",
+    "ShortDisplayName": "July",
+    "Description": "July",
+    "LastUpdated": "2026-08-08T21:42:31.4376448\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-1",
+    "DisplayName": "January",
+    "ShortDisplayName": "January",
+    "Description": "January",
+    "LastUpdated": "2026-08-08T21:42:32.0643243\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "dateformat",
+    "DisplayName": "dd MMM yyyy",
+    "ShortDisplayName": "dd MMM yyyy",
+    "Description": "dd MMM yyyy",
+    "LastUpdated": "2026-08-08T21:42:34.0861403\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "shortdateformat",
+    "DisplayName": "dd/MM/yyyy",
+    "ShortDisplayName": "dd/MM/yyyy",
+    "Description": "dd/MM/yyyy",
+    "LastUpdated": "2026-08-08T21:42:34.1027325\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-8",
+    "DisplayName": "August",
+    "ShortDisplayName": "August",
+    "Description": "August",
+    "LastUpdated": "2026-08-08T21:42:34.1185488\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-9",
+    "DisplayName": "September",
+    "ShortDisplayName": "September",
+    "Description": "September",
+    "LastUpdated": "2026-08-08T21:42:34.1294665\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-10",
+    "DisplayName": "October",
+    "ShortDisplayName": "October",
+    "Description": "October",
+    "LastUpdated": "2026-08-08T21:42:34.1457173\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-11",
+    "DisplayName": "November",
+    "ShortDisplayName": "November",
+    "Description": "November",
+    "LastUpdated": "2026-08-08T21:42:34.1615275\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "month-12",
+    "DisplayName": "December",
+    "ShortDisplayName": "December",
+    "Description": "December",
+    "LastUpdated": "2026-08-08T21:42:34.1742742\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "validate",
+    "DisplayName": "Validate",
+    "ShortDisplayName": "Validate",
+    "Description": "validate",
+    "LastUpdated": "2026-08-08T21:38:53.1248469\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "businessprocesssaved",
+    "DisplayName": "Business Process Saved",
+    "ShortDisplayName": "Business Process Saved",
+    "Description": "Business Process Saved",
+    "LastUpdated": "2026-08-08T21:38:53.1528881\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "json",
+    "DisplayName": "JSON",
+    "ShortDisplayName": "JSON",
+    "Description": "json",
+    "LastUpdated": "2026-08-08T21:38:53.1746988\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "reportingcomponentname",
+    "DisplayName": "Reporting Component",
+    "ShortDisplayName": "Reporting Component",
+    "Description": "reportingcomponentname",
+    "LastUpdated": "2026-08-08T21:38:53.1884441\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "eventtype",
+    "DisplayName": "Event Type",
+    "ShortDisplayName": "Event Type",
+    "Description": "Event Type",
+    "LastUpdated": "2026-08-08T21:38:53.8119842\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "migratebp",
+    "DisplayName": "Migrate Business Processes",
+    "ShortDisplayName": "Migrate Business Processes",
+    "Description": "Migrate Business Processes",
+    "LastUpdated": "2026-08-08T21:38:54.006683\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "Core",
+    "Name": "onexecutioncomplete",
+    "DisplayName": "On Execution Complete",
+    "ShortDisplayName": "On Execution Complete",
+    "Description": "On Execution Complete",
+    "LastUpdated": "2026-08-08T21:38:54.1170947\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  }
+]

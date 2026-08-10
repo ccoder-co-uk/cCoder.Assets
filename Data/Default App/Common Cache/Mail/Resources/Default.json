@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "retrysending",
+    "Key": "Mail",
+    "Culture": "",
+    "DisplayName": "Retry sending",
+    "ShortDisplayName": "Retry sending",
+    "Description": "Retry the failed queued email.",
+    "CreatedOn": "2026-08-10T15:00:00+01:00",
+    "LastUpdated": "2026-08-10T15:00:00+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Name": "retryqueued",
+    "Key": "Mail",
+    "Culture": "",
+    "DisplayName": "Retry queued.",
+    "ShortDisplayName": "Retry queued.",
+    "Description": "The failed email has been queued for another sending attempt.",
+    "CreatedOn": "2026-08-10T15:00:00+01:00",
+    "LastUpdated": "2026-08-10T15:00:00+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  }
+]

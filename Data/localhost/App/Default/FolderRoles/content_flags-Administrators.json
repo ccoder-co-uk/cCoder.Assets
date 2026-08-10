@@ -1,0 +1,6 @@
+{
+  "Path": "content/flags",
+  "Name": "Administrators",
+  "PackageType": "DocumentManagement/FolderRole",
+  "IncludeInSubSequentImports": false
+}

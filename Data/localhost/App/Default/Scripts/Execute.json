@@ -1,0 +1,7 @@
+{
+  "Name": "Execute",
+  "Content": "async function (variables = {}, functionSet = []) {\r\n    for (var i in functionSet) {\r\n        console.log(\u0022Executing function \u0022 \u002B i);\r\n        await Promise.resolve(functionSet[i](variables));\r\n    }\r\n}",
+  "LastUpdated": "2026-08-08T21:38:55.1785667\u002B00:00",
+  "PackageType": "ContentManagement/Script",
+  "IncludeInSubSequentImports": false
+}

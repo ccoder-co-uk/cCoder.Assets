@@ -1,0 +1,25 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXTEST/STXTEST006",
+  "Name": "STXTEST006",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 60,
+  "LastUpdated": "2026-07-28T09:01:52.4659689\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cstyle class=\u0022code-analysis-syntax\u0022\u003E\n.docs-content pre{overflow-x:auto;margin:1rem 0 1.75rem;padding:1.25rem 1.4rem;border:1px solid rgba(20,42,72,.16);border-left:4px solid #0e6fae;border-radius:4px;background:#f7fbfe;color:#10263a}\n.docs-content pre code{white-space:pre;color:inherit;background:transparent;font-size:1rem;line-height:1.65}\n.language-csharp .syntax-comment{color:#587287;font-style:italic}.language-csharp .syntax-string{color:#8a3d12}.language-csharp .syntax-keyword{color:#6542a6;font-weight:700}.language-csharp .syntax-number{color:#096b65}.language-csharp .syntax-type{color:#0a6680;font-weight:600}\n\u003C/style\u003E\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003EAn API acceptance suite must cover Get, Post, Put, and Delete operations.\u003C/p\u003E\u003C/header\u003E\u003Ch2\u003EWhat the Standard says\u003C/h2\u003E\u003Cp\u003E\u0026ldquo;Acceptance Tests\u0026rdquo; \u0026mdash; Acceptance tests exercise every available controller endpoint through the running exposure and clean up test data afterward. Resources outside the service\u0027s ownership should be emulated rather than treated as part of the test. \u003Ca href=\u0022https://github.com/hassanhabib/The-Standard/blob/master/3.%20Exposers/3.1%20Communication%20Protocols/3.1.1%20RESTful%20APIs/3.1.1%20RESTful%20APIs.md#31151-acceptance-tests\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003Eread it here\u003C/a\u003E.\u003C/p\u003E\u003Ch2\u003EWhy it matters\u003C/h2\u003E\u003Cp\u003EAcceptance tests verify the application through its real exposure boundary, so every endpoint must have an executable external contract. Missing endpoint coverage leaves routing, serialization, middleware, and composition untested even when the underlying service has unit tests.\u003C/p\u003E\u003Ch2\u003EBad code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E\u003Cspan class=\u0022syntax-comment\u0022\u003E// Violates STXTEST006: An API acceptance suite must cover Get, Post, Put, and Delete operations.\u003C/span\u003E\n\u003Cspan class=\u0022syntax-comment\u0022\u003E// Acceptance suite covers only Get and Post.\u003C/span\u003E\u003C/code\u003E\u003C/pre\u003E\u003Ch2\u003EGood code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E\u003Cspan class=\u0022syntax-comment\u0022\u003E// Follows STXTEST006\u003C/span\u003E\n[\u003Cspan class=\u0022syntax-type\u0022\u003EFact\u003C/span\u003E] \u003Cspan class=\u0022syntax-type\u0022\u003EValueTask\u003C/span\u003E \u003Cspan class=\u0022syntax-type\u0022\u003EShouldGet\u003C/span\u003E() =\u0026gt; \u003Cspan class=\u0022syntax-keyword\u0022\u003Edefault\u003C/span\u003E;\n[\u003Cspan class=\u0022syntax-type\u0022\u003EFact\u003C/span\u003E] \u003Cspan class=\u0022syntax-type\u0022\u003EValueTask\u003C/span\u003E \u003Cspan class=\u0022syntax-type\u0022\u003EShouldPost\u003C/span\u003E() =\u0026gt; \u003Cspan class=\u0022syntax-keyword\u0022\u003Edefault\u003C/span\u003E;\n[\u003Cspan class=\u0022syntax-type\u0022\u003EFact\u003C/span\u003E] \u003Cspan class=\u0022syntax-type\u0022\u003EValueTask\u003C/span\u003E \u003Cspan class=\u0022syntax-type\u0022\u003EShouldPut\u003C/span\u003E() =\u0026gt; \u003Cspan class=\u0022syntax-keyword\u0022\u003Edefault\u003C/span\u003E;\n[\u003Cspan class=\u0022syntax-type\u0022\u003EFact\u003C/span\u003E] \u003Cspan class=\u0022syntax-type\u0022\u003EValueTask\u003C/span\u003E \u003Cspan class=\u0022syntax-type\u0022\u003EShouldDelete\u003C/span\u003E() =\u0026gt; \u003Cspan class=\u0022syntax-keyword\u0022\u003Edefault\u003C/span\u003E;\u003C/code\u003E\u003C/pre\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "An API acceptance suite must cover Get, Post, Put, and Delete operations.",
+      "Title": "STXTEST006"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

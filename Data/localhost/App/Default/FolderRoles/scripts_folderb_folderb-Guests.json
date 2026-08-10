@@ -1,0 +1,6 @@
+{
+  "Path": "scripts/folderb/folderb",
+  "Name": "Guests",
+  "PackageType": "DocumentManagement/FolderRole",
+  "IncludeInSubSequentImports": false
+}

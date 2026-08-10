@@ -1,0 +1,25 @@
+{
+  "Path": "Platform-Domains/Code-Analysis",
+  "Name": "Code-Analysis",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 40,
+  "LastUpdated": "2026-07-28T08:27:55.7074054\u002B00:00",
+  "Layout": "Article",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cdiv class=\u0022public-flow\u0022\u003E\u003Csection class=\u0022public-flow-section public-section\u0022\u003E\u003Cdiv class=\u0022public-section-frame\u0022\u003E\u003Cdiv class=\u0022public-article public-domain-article\u0022\u003E\u003Cdiv class=\u0022docs-title-actions\u0022 style=\u0022display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;flex-wrap:wrap\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cdiv class=\u0022docs-title-action-links\u0022 style=\u0022display:flex;flex-wrap:nowrap;align-items:center;justify-content:flex-end;gap:.75rem;margin:.25rem 0 0 auto;white-space:nowrap\u0022\u003E\u003Ca class=\u0022btn btn-primary\u0022 href=\u0022/Platform-Domains\u0022\u003E\u003Cspan class=\u0022k-icon k-i-grid-layout\u0022\u003E\u003C/span\u003EAll platform domains\u003C/a\u003E\u003Ca class=\u0022btn btn-secondary\u0022 href=\u0022https://github.com/ccoder-co-uk/cCoder.CodeAnalysis\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003E\u003Cspan class=\u0022k-icon k-i-source-code\u0022\u003E\u003C/span\u003EView the GitHub repository\u003C/a\u003E\u003Ca class=\u0022btn btn-secondary\u0022 href=\u0022/Documentation/CodeAnalysis\u0022\u003E\u003Cspan class=\u0022k-icon k-i-file\u0022\u003E\u003C/span\u003ERead the documentation\u003C/a\u003E\u003C/div\u003E\u003C/div\u003E\u003Cp class=\u0022public-copy\u0022\u003ETurn The Standard into immediate, navigable feedback while developers write and build C#.\u003C/p\u003E\n\u003C/div\u003E\u003C/div\u003E\u003C/section\u003E\u003Csection class=\u0022public-flow-section public-section\u0022\u003E\u003Cdiv class=\u0022public-section-frame\u0022\u003E\u003Carticle class=\u0022public-article public-domain-article\u0022\u003E\u003Ch2\u003EWhat it owns\u003C/h2\u003E\u003Cul\u003E\u003Cli\u003ERoslyn diagnostics for cCoder architecture, naming, structure, formatting and tests.\u003C/li\u003E\u003Cli\u003EArchitecture reports produced from the same rule evaluations.\u003C/li\u003E\u003Cli\u003ERule identifiers and documentation links that make every warning actionable.\u003C/li\u003E\u003C/ul\u003E\u003Ch2\u003EWhy the boundary matters\u003C/h2\u003E\u003Cp\u003EThe package keeps The Standard executable and independently versioned. A warning identifies both the breached rule and the guidance needed to correct it, reducing interpretation differences between developers and AI coding tools.\u003C/p\u003E\u003Ch2\u003EHow it fits\u003C/h2\u003E\u003Cp\u003EApplications consume cCoder.CodeAnalysis as an analyser package. It observes the compilation, classifies Standard elements and reports warnings without becoming a runtime dependency.\u003C/p\u003E\u003Ch2\u003EGetting started\u003C/h2\u003E\u003Ch3\u003EReference the package\u003C/h3\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-xml\u0022\u003E\u0026lt;PackageReference Include=\u0022cCoder.CodeAnalysis\u0022 Version=\u0022YOUR_VERSION\u0022 PrivateAssets=\u0022all\u0022 /\u0026gt;\u003C/code\u003E\u003C/pre\u003E\u003Cp\u003EKeep \u003Ccode\u003EPrivateAssets=\u0022all\u0022\u003C/code\u003E when the analyser is a development-time concern and should not flow transitively to consumers.\u003C/p\u003E\u003Ch3\u003EBuild normally\u003C/h3\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-powershell\u0022\u003Edotnet restore\ndotnet build\u003C/code\u003E\u003C/pre\u003E\u003Cp\u003EWarnings appear in the IDE and build output. Select a diagnostic or follow its help link to read the rule, its Standard context and corrected example.\u003C/p\u003E\u003Ch3\u003EAdopt deliberately\u003C/h3\u003E\u003Cp\u003EStart by fixing architectural classification and dependency-flow warnings, then naming, structure and formatting. Do not suppress a warning merely to make the build quiet: use the linked rule page to confirm the intended design first.\u003C/p\u003E\u003C/article\u003E\u003C/div\u003E\u003C/section\u003E\u003C/div\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Executable guidance for applying The Standard to C# architecture, source layout and tests.",
+      "Title": "Code Analysis"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

@@ -1,0 +1,26 @@
+{
+  "Path": "Admin/PlatformAdmin/FullLogStream",
+  "Name": "Full Log Stream",
+  "ResourceKey": "Logging",
+  "ShowOnMenus": true,
+  "Order": 4,
+  "LastUpdated": "2026-07-31T12:31:13.188325\u002B00:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[FullLogStream]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "View the live log stream for every application in this environment.",
+      "Keywords": "logs, diagnostics, platform administration, applications",
+      "Title": "Full Log Stream"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

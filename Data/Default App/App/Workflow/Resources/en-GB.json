@@ -6,7 +6,7 @@
     "DisplayName": "Are you sure?",
     "ShortDisplayName": "Are you sure?",
     "Description": "Are you sure?",
-    "LastUpdated": "2026-07-21T22:09:43.2981777+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.5858581+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -17,7 +17,7 @@
     "DisplayName": "Confirm",
     "ShortDisplayName": "Confirm",
     "Description": "Confirm",
-    "LastUpdated": "2026-07-21T22:09:43.3673348+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.601263+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -28,7 +28,7 @@
     "DisplayName": "This action cannot be undone.",
     "ShortDisplayName": "This action cannot be undone.",
     "Description": "This action cannot be undone.",
-    "LastUpdated": "2026-07-21T22:09:43.4549068+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.6263123+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -39,7 +39,7 @@
     "DisplayName": "Created",
     "ShortDisplayName": "Created",
     "Description": "Created",
-    "LastUpdated": "2026-07-21T22:09:43.5271667+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.6463918+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -50,7 +50,7 @@
     "DisplayName": "Created by",
     "ShortDisplayName": "Created by",
     "Description": "Created by",
-    "LastUpdated": "2026-07-21T22:09:43.6132786+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.6646909+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -61,7 +61,7 @@
     "DisplayName": "Delete",
     "ShortDisplayName": "Delete",
     "Description": "Delete",
-    "LastUpdated": "2026-07-21T22:09:43.6930183+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.6899253+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -72,7 +72,7 @@
     "DisplayName": "Deleted",
     "ShortDisplayName": "Deleted",
     "Description": "Deleted",
-    "LastUpdated": "2026-07-21T22:09:43.7613734+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.709234+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -83,7 +83,7 @@
     "DisplayName": "Description",
     "ShortDisplayName": "Description",
     "Description": "Description",
-    "LastUpdated": "2026-07-21T22:09:43.8476215+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.7300792+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -94,7 +94,7 @@
     "DisplayName": "Edit",
     "ShortDisplayName": "Edit",
     "Description": "Edit",
-    "LastUpdated": "2026-07-21T22:09:43.9171317+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.7466166+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -105,7 +105,7 @@
     "DisplayName": "Instance reporting component",
     "ShortDisplayName": "Instance reporting component",
     "Description": "Instance reporting component",
-    "LastUpdated": "2026-07-28T09:45:56.9139833+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.7790837+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -116,7 +116,7 @@
     "DisplayName": "Last updated",
     "ShortDisplayName": "Last updated",
     "Description": "Last updated",
-    "LastUpdated": "2026-07-21T22:09:44.0551637+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.7924908+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -127,7 +127,7 @@
     "DisplayName": "Last updated by",
     "ShortDisplayName": "Last updated by",
     "Description": "Last updated by",
-    "LastUpdated": "2026-07-21T22:09:44.1368386+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.8054797+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -138,7 +138,7 @@
     "DisplayName": "Name",
     "ShortDisplayName": "Name",
     "Description": "Name",
-    "LastUpdated": "2026-07-21T22:09:44.2132502+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.815188+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -149,7 +149,7 @@
     "DisplayName": "New",
     "ShortDisplayName": "New",
     "Description": "New",
-    "LastUpdated": "2026-07-21T22:09:44.2895035+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.8273816+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -160,7 +160,7 @@
     "DisplayName": "New workflow",
     "ShortDisplayName": "New workflow",
     "Description": "New workflow",
-    "LastUpdated": "2026-07-28T09:45:56.9042105+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.8405354+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -171,7 +171,7 @@
     "DisplayName": "Report",
     "ShortDisplayName": "Report",
     "Description": "Report",
-    "LastUpdated": "2026-07-28T09:45:56.9234001+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.8518317+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -182,7 +182,7 @@
     "DisplayName": "Run",
     "ShortDisplayName": "Run",
     "Description": "Run",
-    "LastUpdated": "2026-07-28T09:45:56.9327304+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.861314+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -193,7 +193,7 @@
     "DisplayName": "Save",
     "ShortDisplayName": "Save",
     "Description": "Save",
-    "LastUpdated": "2026-07-21T22:09:44.5803585+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.8758503+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -204,7 +204,7 @@
     "DisplayName": "Saved",
     "ShortDisplayName": "Saved",
     "Description": "Saved",
-    "LastUpdated": "2026-07-21T22:09:44.6549423+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.8901246+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -215,7 +215,7 @@
     "DisplayName": "Close",
     "ShortDisplayName": "Close",
     "Description": "Close",
-    "LastUpdated": "2026-07-21T22:09:44.7268509+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.9045511+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -226,7 +226,7 @@
     "DisplayName": "Cancel",
     "ShortDisplayName": "Cancel",
     "Description": "Cancel",
-    "LastUpdated": "2026-07-21T22:09:44.8021431+01:00",
+    "LastUpdated": "2026-08-08T22:42:34.9221917+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   }

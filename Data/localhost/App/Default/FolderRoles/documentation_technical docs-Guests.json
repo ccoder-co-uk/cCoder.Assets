@@ -1,0 +1,6 @@
+{
+  "Path": "documentation/technical docs",
+  "Name": "Guests",
+  "PackageType": "DocumentManagement/FolderRole",
+  "IncludeInSubSequentImports": false
+}

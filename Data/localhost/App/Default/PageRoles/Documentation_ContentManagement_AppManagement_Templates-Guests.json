@@ -1,0 +1,6 @@
+{
+  "Path": "Documentation/ContentManagement/AppManagement/Templates",
+  "Role": "Guests",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

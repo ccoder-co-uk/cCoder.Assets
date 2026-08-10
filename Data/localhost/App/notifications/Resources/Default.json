@@ -1,0 +1,11 @@
+{
+  "Culture": "",
+  "Key": "notifications",
+  "Name": "notificationserrortext",
+  "DisplayName": "Notifications Error Text",
+  "ShortDisplayName": "Notifications Error Text",
+  "Description": "Notifications Error Text",
+  "LastUpdated": "2026-08-08T21:42:33.1926013\u002B00:00",
+  "PackageType": "ContentManagement/Resource",
+  "IncludeInSubSequentImports": false
+}

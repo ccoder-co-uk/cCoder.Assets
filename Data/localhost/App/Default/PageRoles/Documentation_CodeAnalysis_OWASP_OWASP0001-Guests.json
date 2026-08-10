@@ -1,0 +1,6 @@
+{
+  "Path": "Documentation/CodeAnalysis/OWASP/OWASP0001",
+  "Role": "Guests",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

@@ -1,0 +1,6 @@
+{
+  "Path": "Documentation/Security/LoggingIn",
+  "Role": "Guests",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

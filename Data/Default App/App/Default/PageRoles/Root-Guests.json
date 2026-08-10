@@ -2,5 +2,5 @@
   "Path": "",
   "Role": "Guests",
   "PackageType": "ContentManagement/PageRole",
-  "IncludeInSubSequentImports": false
+  "IncludeInSubSequentImports": true
 }

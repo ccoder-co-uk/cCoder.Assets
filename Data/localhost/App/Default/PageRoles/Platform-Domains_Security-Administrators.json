@@ -1,0 +1,6 @@
+{
+  "Path": "Platform-Domains/Security",
+  "Role": "Administrators",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "Culture": "",
+    "Key": "B2B Portal Admin",
+    "Name": "newsystem",
+    "DisplayName": "New System",
+    "ShortDisplayName": "New System",
+    "Description": "New System",
+    "LastUpdated": "2026-08-08T21:42:27.7774089\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "",
+    "Key": "B2B Portal Admin",
+    "Name": "systems",
+    "DisplayName": "Systems",
+    "ShortDisplayName": "Systems",
+    "Description": "Systems",
+    "LastUpdated": "2026-08-08T21:42:27.7832879\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  }
+]

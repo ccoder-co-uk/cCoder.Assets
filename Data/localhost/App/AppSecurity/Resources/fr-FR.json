@@ -1,0 +1,101 @@
+[
+  {
+    "Culture": "fr-FR",
+    "Key": "AppSecurity",
+    "Name": "accessdenied",
+    "DisplayName": "Acc\u00C3\u00A8s refus\u00C3\u00A9",
+    "ShortDisplayName": "Acc\u00C3\u00A8s refus\u00C3\u00A9",
+    "Description": "Acc\u00C3\u00A8s refus\u00C3\u00A9",
+    "LastUpdated": "2026-08-08T22:15:57.429808\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "AppSecurity",
+    "Name": "checkyouremail",
+    "DisplayName": "V\u00C3\u00A9rifiez votre email",
+    "ShortDisplayName": "V\u00C3\u00A9rifiez votre email",
+    "Description": "V\u00C3\u00A9rifiez votre email",
+    "LastUpdated": "2026-08-08T22:15:57.4460493\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "AppSecurity",
+    "Name": "passwordresetemailtitle",
+    "DisplayName": "E-mail de r\u00C3\u00A9initialisation du mot de passe",
+    "ShortDisplayName": "E-mail de r\u00C3\u00A9initialisation du mot de passe",
+    "Description": "E-mail de r\u00C3\u00A9initialisation du mot de passe",
+    "LastUpdated": "2026-08-08T22:15:57.4498027\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "AppSecurity",
+    "Name": "passwordresetemailtitle",
+    "DisplayName": "R\u00E9initialisation du mot de passe",
+    "ShortDisplayName": "R\u00E9initialisation du mot de passe",
+    "Description": "R\u00E9initialisation du mot de passe",
+    "LastUpdated": "2026-07-28T08:45:56.9801877\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "AppSecurity",
+    "Name": "resetfailed",
+    "DisplayName": "\u00C3\u2030chec de la r\u00C3\u00A9initialisation",
+    "ShortDisplayName": "\u00C3\u2030chec de la r\u00C3\u00A9initialisation",
+    "Description": "\u00C3\u2030chec de la r\u00C3\u00A9initialisation",
+    "LastUpdated": "2026-08-08T22:15:57.4540013\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "AppSecurity",
+    "Name": "tokenverificationfailed",
+    "DisplayName": "La v\u00C3\u00A9rification du jeton a \u00C3\u00A9chou\u00C3\u00A9",
+    "ShortDisplayName": "La v\u00C3\u00A9rification du jeton a \u00C3\u00A9chou\u00C3\u00A9",
+    "Description": "La v\u00C3\u00A9rification du jeton a \u00C3\u00A9chou\u00C3\u00A9",
+    "LastUpdated": "2026-08-08T22:15:57.4622053\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "AppSecurity",
+    "Name": "tokenverificationsuccess",
+    "DisplayName": "Jeton v\u00C3\u00A9rifi\u00C3\u00A9 avec succ\u00C3\u00A8s",
+    "ShortDisplayName": "Jeton v\u00C3\u00A9rifi\u00C3\u00A9 avec succ\u00C3\u00A8s",
+    "Description": "Jeton v\u00C3\u00A9rifi\u00C3\u00A9 avec succ\u00C3\u00A8s",
+    "LastUpdated": "2026-08-08T22:15:57.466717\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "AppSecurity",
+    "Name": "addusers",
+    "DisplayName": " Ajouter des utilisateurs",
+    "ShortDisplayName": " Ajouter des utilisateurs",
+    "Description": " Ajouter des utilisateurs",
+    "LastUpdated": "2026-08-08T22:15:57.4384628\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "AppSecurity",
+    "Name": "resetsuccess",
+    "DisplayName": "R\u00E9initialiser le succ\u00E8s",
+    "ShortDisplayName": "R\u00E9initialiser le succ\u00E8s",
+    "Description": "R\u00E9initialiser le succ\u00E8s",
+    "LastUpdated": "2026-08-08T22:15:57.4994485\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  }
+]
