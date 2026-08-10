@@ -1,0 +1,9 @@
+{
+  "Name": "MailManagement.RetryFailedSends",
+  "Key": "Mail",
+  "Content": "const renderMailMessageDetails = MailManagement.renderMessageDetails;\r\n\r\nMailManagement.renderMessageDetails = function(host, item, summaryFields, setName) {\r\n    renderMailMessageDetails(host, item, summaryFields, setName);\r\n    const failures = item.FailedSends || [];\r\n    const failureHost = $(\"[name=failures]\", host);\r\n    if (setName !== \"QueuedEmail\" || failures.length === 0) return;\r\n    const retry = $(\"<button class='btn btn-primary mb-3' name='retryFailedSends'><span class='k-icon k-i-arrow-rotate-cw'></span> [resource_displayname[retrysending]]</button>\");\r\n    failureHost.prepend(retry);\r\n    retry.on(\"click\", async function() {\r\n        retry.prop(\"disabled\", true);\r\n        try {\r\n            await api.post(\"Mail/QueuedEmail(\" + item.Id + \")/Retry\", {});\r\n            item.FailedSends = [];\r\n            failureHost.text(\"[resource_displayname[retryqueued]]\");\r\n            notification.success(\"[resource_displayname[retryqueued]]\");\r\n        } catch (err) {\r\n            retry.prop(\"disabled\", false);\r\n            error(err);\r\n        }\r\n    });\r\n};",
+  "CreatedOn": "2026-08-10T12:30:00+01:00",
+  "LastUpdated": "2026-08-10T12:30:00+01:00",
+  "IncludeInSubSequentImports": true,
+  "PackageType": "ContentManagement/Script"
+}

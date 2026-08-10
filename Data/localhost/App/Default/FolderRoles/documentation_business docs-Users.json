@@ -1,0 +1,6 @@
+{
+  "Path": "documentation/business docs",
+  "Name": "Users",
+  "PackageType": "DocumentManagement/FolderRole",
+  "IncludeInSubSequentImports": false
+}

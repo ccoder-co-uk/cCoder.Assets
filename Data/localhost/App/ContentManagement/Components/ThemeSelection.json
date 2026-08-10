@@ -1,0 +1,10 @@
+{
+  "Name": "ThemeSelection",
+  "Key": "ContentManagement",
+  "ResourceKey": "ContentManagement",
+  "Script": "ThemeSelection = {\t\n\tinit: function(app, container){\n        app = app || session.app;\n        container = container || $(\u0022.component[name=ThemeSelection]\u0022);\t\n   \n       var themes = new Array();\n       for(var i in app.Config.Themes) { themes.push({ name: i, value: i }); }\n       \n\t\t$(\u0027[name=defaultFilters]\u0027, container).kendoDropDownList({\n\t\t\tdataSource: themes,\n\t\t\tdataTextField: \u0027name\u0027,\n\t\t\tdataValueField: \u0027value\u0027,\n\t\t\tvalue: session.theme,\n\t\t\tchange: function (e) {\n\t\t\t\tsetQueryParameter(\u0027theme\u0027, e.sender.value());\n\t\t\t}\n\t\t});\n\t}\n}\n\n",
+  "Content": "\u003Clabel\u003ETheme:\u003C/label\u003E\n\u003Cinput name=\u0022defaultFilters\u0022 /\u003E \u003Cspan name=\u0022filterDescription\u0022\u003E\u003C/span\u003E\n\u003Cstyle\u003E\n   .component[name=ThemeSelection] { border: none; width: 300px; display: inline-block; box-shadow: none; margin: 5px; }\n\u003C/style\u003E",
+  "LastUpdated": "2026-08-08T21:38:49.0321597\u002B00:00",
+  "PackageType": "ContentManagement/Component",
+  "IncludeInSubSequentImports": false
+}

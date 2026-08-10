@@ -1,0 +1,6 @@
+{
+  "Path": "Documentation/ClientRelationshipManagement",
+  "Role": "Guests",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

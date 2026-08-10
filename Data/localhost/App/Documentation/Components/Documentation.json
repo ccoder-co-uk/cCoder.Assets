@@ -1,0 +1,10 @@
+{
+  "Name": "Documentation",
+  "Key": "Documentation",
+  "ResourceKey": "Documentation",
+  "Script": "Documentation = {\r\n    init: async function(app, container) {\r\n        app = app || session.app;\r\n        container = container || $(\u0022.component[name=Documentation]\u0022);\r\n        $(\u0022[name=tabs]\u0022, container).kendoTabStrip({ animation: { open: { effects: \u0022fadeIn\u0022 } } });\r\n\r\n        var businessDocs = await loadComponent($(\u0022.tab[name=businessDocs]\u0022, container), \u0022FolderManagement\u0022);\r\n        businessDocs.init(app, $(\u0022.component[name=FolderManagement]\u0022, $(\u0022.tab[name=businessDocs]\u0022, container)), { Id: \u00276A23BDC8-2CA7-4B91-A62F-08D7725C8272\u0027, Path: \u0027documentation/business docs\u0027, Name: \u0027Business Requirements\u0027 }, true);\r\n\r\n        var technicalDocs = await loadComponent($(\u0022.tab[name=technicalDocs]\u0022, container), \u0022FolderManagement\u0022);\r\n        technicalDocs.init(app, $(\u0022.component[name=FolderManagement]\u0022, $(\u0022.tab[name=technicalDocs]\u0022, container)), { Id: \u0027487DB4A6-D50B-49F6-A630-08D7725C8272\u0027, Path: \u0027documentation/technical docs\u0027, Name: \u0027Technical Requirements\u0027 }, true);\r\n    }\r\n};",
+  "Content": "\u003Ch3\u003E[resource_displayname[documentationlibrary]]\u003C/h3\u003E\r\n\u003Cdiv name=\u0022tabs\u0022 class=\u0022tabs\u0022\u003E\r\n\t\u003Cul\u003E\r\n\t\t\u003Cli class=\u0022k-state-active\u0022 name=\u0022businessDocs\u0022\u003E[resource_displayname[businessDocs]]\u003C/li\u003E\r\n\t\t\u003Cli name=\u0022technicalDocs\u0022\u003E[resource_displayname[technicalDocs]]\u003C/li\u003E\r\n\t\u003C/ul\u003E\r\n\t\u003Cdiv class=\u0022tab\u0022 name=\u0022businessDocs\u0022\u003E\u003C/div\u003E\r\n\t\u003Cdiv class=\u0022tab\u0022 name=\u0022technicalDocs\u0022\u003E\u003C/div\u003E\r\n\u003C/div\u003E",
+  "LastUpdated": "2026-08-08T21:42:55.0913042\u002B00:00",
+  "PackageType": "ContentManagement/Component",
+  "IncludeInSubSequentImports": false
+}

@@ -1,0 +1,6 @@
+{
+  "Path": "Documentation/CodeAnalysis/STX/STX0024",
+  "Role": "Guests",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

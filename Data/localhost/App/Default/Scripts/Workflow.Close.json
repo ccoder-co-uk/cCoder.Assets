@@ -1,0 +1,7 @@
+{
+  "Name": "Workflow.Close",
+  "Content": "class Close extends Collidable {\r\n    constructor(parent) {\r\n        super(\u0027x\u0027, 0, 0, parent.h - 2, parent.h - 2, 0);\r\n        this.type = \u0027close\u0027;\r\n        this.parent = parent;\r\n        this.flow = this.parent.flow;\r\n        this.text = \u0027x\u0027;\r\n        this.col = window.flowTheme.colours.secondary;\r\n        this.sel = \u0027#f00\u0027;\r\n        this.updatePosition();\r\n    }\r\n\r\n    updatePosition() {\r\n        this.x = this.parent.x \u002B (this.parent.w - this.parent.h) \u002B 1;\r\n        this.y = this.parent.y \u002B 1;\r\n    }\r\n\r\n    draw(ctx) {\r\n        draw.rect(ctx, this.x, this.y, this.w, this.h, this.col, this.sel);\r\n        draw.text(ctx, this.x \u002B 10, this.y \u002B 15, this.text, \u0027#fff\u0027);\r\n    }\r\n\r\n    mouseup(e) {\r\n        this.flow.Activities = this.flow.Activities.filter(a =\u003E !Object.is(a, this.parent.activity));\r\n        this.flow.Links = this.flow.Links.filter(l =\u003E l.model.Source !== this.parent.activity.model.Ref);\r\n        this.flow.Links = this.flow.Links.filter(l =\u003E l.model.Destination !== this.parent.activity.model.Ref);\r\n    }\r\n}",
+  "LastUpdated": "2026-08-08T21:38:55.6417561\u002B00:00",
+  "PackageType": "ContentManagement/Script",
+  "IncludeInSubSequentImports": false
+}

@@ -465,9 +465,9 @@ public sealed partial class AdminInformationArchitectureAssetTests
             .GetString()
             ?? string.Empty;
 
-        Assert.Equal(
-            expected: $"[component[{component}]]",
-            actual: html);
+        Assert.StartsWith(
+            expectedStartString: $"[component[{component}]]",
+            actualString: html);
     }
 
     private static string FindAsset(

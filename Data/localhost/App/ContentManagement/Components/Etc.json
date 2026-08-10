@@ -1,0 +1,10 @@
+{
+  "Name": "Etc",
+  "Key": "ContentManagement",
+  "ResourceKey": "ContentManagement",
+  "Script": "Etc = {\r\n    init: async function (app, container) {\r\n        app = app || session.app;\r\n        container = container || $(\u0022.component[name=Etc]\u0022);\r\n        $(\u0022[name=cultureFlagLayout]\u0022, container).kendoDropDownList({\r\n            dataSource: [\r\n                {key: \u0022text\u0022, text: \u0022[resource_displayname[text]]\u0022},\r\n                {key: \u0022picture\u0022, text: \u0022[resource_displayname[picture]]\u0022}\r\n            ],\r\n            dataTextField: \u0022text\u0022,\r\n            dataValueField: \u0022key\u0022,\r\n        });\r\n    }\r\n}",
+  "Content": "\u003Ch4\u003E[resource_displayname[etc]]\u003C/h4\u003E\r\n\u003Cul class=\u0022fieldList\u0022\u003E\r\n    \u003Cli\u003E\r\n        \u003Clabel\u003E[resource_displayname[paintLoginMid]]\u003C/label\u003E\r\n        \u003Cdiv class=\u0022value\u0022\u003E\r\n            \u003Cinput type=\u0022checkbox\u0022 data-bind=\u0022value: colours.paintLoginMid\u0022 /\u003E\r\n        \u003C/div\u003E\r\n    \u003C/li\u003E\r\n    \u003Cli\u003E\r\n        \u003Clabel\u003E[resource_displayname[paintLoginBottom]]\u003C/label\u003E\r\n        \u003Cdiv class=\u0022value\u0022\u003E\r\n            \u003Cinput type=\u0022checkbox\u0022 data-bind=\u0022value: colours.paintLoginBottom\u0022 /\u003E\r\n        \u003C/div\u003E\r\n    \u003C/li\u003E\r\n    \u003Cli\u003E\r\n        \u003Clabel\u003E[resource_displayname[cultureflaglayout]]\u003C/label\u003E\r\n        \u003Cdiv class=\u0022value\u0022\u003E\r\n            \u003Cselect name=\u0022cultureFlagLayout\u0022 data-bind=\u0022value: cultureFlagLayout\u0022\u003E\u003C/select\u003E\r\n        \u003C/div\u003E\r\n    \u003C/li\u003E\r\n    \r\n\u003C/ul\u003E",
+  "LastUpdated": "2026-08-08T21:38:49.5587623\u002B00:00",
+  "PackageType": "ContentManagement/Component",
+  "IncludeInSubSequentImports": false
+}

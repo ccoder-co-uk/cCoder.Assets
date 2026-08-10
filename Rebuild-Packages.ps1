@@ -18,6 +18,10 @@ dotnet build $project --configuration $configuration
 if (-not $NoTests) {
     dotnet test (Join-Path $repoRoot 'src/cCoder.Packer.Tests/cCoder.Packer.Tests.csproj') `
         --configuration $configuration
+
+    if ($LASTEXITCODE -ne 0) {
+        throw "Packer tests failed with exit code $LASTEXITCODE."
+    }
 }
 
 & $packer pack `

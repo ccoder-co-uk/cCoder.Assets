@@ -1,0 +1,26 @@
+{
+  "Path": "Admin/PlatformAdmin",
+  "Name": "Platform Admin",
+  "ResourceKey": "Core",
+  "ShowOnMenus": true,
+  "Order": 5,
+  "LastUpdated": "2026-07-30T22:31:25.5727244\u002B00:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[DetailedNav]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Manage shared platform services, tenants, applications, cache resources and runtime logs.",
+      "Keywords": "Platform Administration, Tenants, Applications, Common Cache, Logs",
+      "Title": "Platform Admin"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

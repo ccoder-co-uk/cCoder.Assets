@@ -1,0 +1,26 @@
+{
+  "Path": "Admin/Workflows/Editor",
+  "Name": "Editor",
+  "ResourceKey": "Workflow",
+  "ShowOnMenus": false,
+  "Order": 1,
+  "LastUpdated": "2026-07-30T22:31:25.2085322\u002B00:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[WorkflowManagement]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Business Process Editor",
+      "Keywords": "Business Process Editor",
+      "Title": "Editor"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

@@ -1,0 +1,6 @@
+{
+  "Path": "content/theme/styles",
+  "Name": "Guests",
+  "PackageType": "DocumentManagement/FolderRole",
+  "IncludeInSubSequentImports": false
+}

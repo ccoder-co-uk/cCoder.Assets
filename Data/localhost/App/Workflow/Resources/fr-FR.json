@@ -1,0 +1,24 @@
+[
+  {
+    "Culture": "fr-FR",
+    "Key": "Workflow",
+    "Name": "nextcutoff",
+    "DisplayName": "La prochaine heure limite de s\u00E9lection est dans",
+    "ShortDisplayName": "La prochaine heure limite de s\u00E9lection est dans",
+    "Description": "La prochaine heure limite de s\u00E9lection est dans",
+    "LastUpdated": "2026-08-08T21:38:52.8430467\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "Workflow",
+    "Name": "run",
+    "DisplayName": "Ex\u00E9cuter de programme",
+    "ShortDisplayName": "Ex\u00E9cuter",
+    "Description": "Ex\u00E9cuter de programme",
+    "LastUpdated": "2026-08-08T21:38:53.5060046\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  }
+]

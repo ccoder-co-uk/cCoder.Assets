@@ -1,0 +1,11 @@
+{
+  "Culture": "fr",
+  "Key": "DocumentManagement",
+  "Name": "furtherinformation",
+  "DisplayName": "Informations suppl\u00E9mentaires",
+  "ShortDisplayName": "Informations suppl\u00E9mentaires",
+  "Description": "Informations suppl\u00E9mentaires",
+  "LastUpdated": "2026-08-08T21:38:52.9206169\u002B00:00",
+  "PackageType": "ContentManagement/Resource",
+  "IncludeInSubSequentImports": false
+}

@@ -1,0 +1,26 @@
+{
+  "Path": "Documentation/CodeAnalysis/RFC/RFC0004",
+  "Name": "RFC0004",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 40,
+  "LastUpdated": "2026-07-31T23:15:49.4883337\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cstyle class=\u0022code-analysis-syntax\u0022\u003E.docs-content pre{overflow-x:auto;margin:1rem 0 1.75rem;padding:1.25rem 1.4rem;border-left:4px solid #0e6fae;background:#f7fbfe}.docs-content pre code{white-space:pre}\u003C/style\u003E\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003EAn OData CRUD Put or Patch action that returns the updated representation must return 200 OK.\u003C/p\u003E\u003C/header\u003E\u003Ch2\u003EWhat the Standard says\u003C/h2\u003E\u003Cp\u003ERFC 9110 permits 200 when an update returns content and 204 when it intentionally returns no content; cCoder adopts 200 for its representation-returning update profile. \u003Ca href=\u0022https://www.rfc-editor.org/rfc/rfc9110.html\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003Eread it here\u003C/a\u003E.\u003C/p\u003E\u003Ch2\u003EWhy it matters\u003C/h2\u003E\u003Cp\u003EEnforcing this rule gives callers and maintainers one predictable contract and makes drift visible during the build. The analyser proves this specific source-level condition; it does not replace runtime acceptance or security testing.\u003C/p\u003E\u003Ch2\u003EBad code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E\u003Cspan class=\u0022syntax-comment\u0022\u003E// Violates RFC0004\u003C/span\u003E\nreturn NoContent();\u003C/code\u003E\u003C/pre\u003E\u003Ch2\u003EGood code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E\u003Cspan class=\u0022syntax-comment\u0022\u003E// Follows RFC0004\u003C/span\u003E\nreturn Updated(updatedStudent);\u003C/code\u003E\u003C/pre\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "An OData CRUD Put or Patch action that returns the updated representation must return 200 OK.",
+      "Keywords": "RFC0004",
+      "Title": "RFC0004"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

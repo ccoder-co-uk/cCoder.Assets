@@ -4,13 +4,13 @@
   "ResourceKey": "Mail",
   "ShowOnMenus": true,
   "Order": 4,
-  "LastUpdated": "2026-07-30T23:31:25.1383265+01:00",
+  "LastUpdated": "2026-08-10T12:30:00+01:00",
   "Layout": "Default",
   "Contents": [
     {
       "CultureId": "",
       "Name": "body",
-      "Html": "[component[MailManagement]]"
+      "Html": "[component[MailManagement]]\r\n<script nonce=\"[request[nonce]]\">[script[MailManagement.RetryFailedSends]]</script>"
     }
   ],
   "PageInfo": [

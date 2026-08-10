@@ -1,0 +1,26 @@
+{
+  "Path": "Admin/LogStream",
+  "Name": "Log Stream",
+  "ResourceKey": "Core",
+  "ShowOnMenus": true,
+  "Order": 3,
+  "LastUpdated": "2026-07-30T22:31:25.126296\u002B00:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[LogStream]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "View live application log messages by severity.",
+      "Keywords": "logs, diagnostics, administration",
+      "Title": "Log Stream"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

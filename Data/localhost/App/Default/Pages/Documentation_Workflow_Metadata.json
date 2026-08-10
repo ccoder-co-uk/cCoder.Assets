@@ -1,0 +1,24 @@
+{
+  "Path": "Documentation/Workflow/Metadata",
+  "Name": "Metadata",
+  "ShowOnMenus": true,
+  "Order": 50,
+  "LastUpdated": "2026-07-28T09:01:52.8082014\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E\u003Csection class=\u0022docs-value-overview\u0022\u003E\u003Ch2\u003EExplore the workflow contract before automating it\u003C/h2\u003E\u003Cp\u003EWorkflow metadata exposes processes, workflows, schedules, calendars and their relationships through the public API. Clients can build against a discoverable domain model rather than internal engine state.\u003C/p\u003E\u003Cp\u003EUse this page when designing administration, reporting or process-integration tooling.\u003C/p\u003E\u003C/section\u003E[component[DomainMetadata]]\u003Csection class=\u0022public-flow-section public-section public-nav-section\u0022\u003E\u003Cdiv class=\u0022public-section-frame\u0022\u003E[component[DetailedNav]]\u003C/div\u003E\u003C/section\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Explore the entities and endpoints exposed by the Workflow domain.",
+      "Title": "Workflow Metadata"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

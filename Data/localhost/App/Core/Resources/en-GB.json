@@ -1,0 +1,156 @@
+[
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "dateformat",
+    "DisplayName": "dd MMM yyyy",
+    "ShortDisplayName": "dd MMM yyyy",
+    "Description": "dd MMM yyyy",
+    "LastUpdated": "2026-08-08T21:42:34.1866553\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "shortdateformat",
+    "DisplayName": "dd/MM/yyyy",
+    "ShortDisplayName": "dd/MM/yyyy",
+    "Description": "dd/MM/yyyy",
+    "LastUpdated": "2026-08-08T21:42:34.1929035\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "month-1",
+    "DisplayName": "January",
+    "ShortDisplayName": "January",
+    "Description": "January",
+    "LastUpdated": "2026-08-08T21:42:34.1973597\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "month-2",
+    "DisplayName": "February",
+    "ShortDisplayName": "February",
+    "Description": "February",
+    "LastUpdated": "2026-08-08T21:42:34.2043113\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "month-3",
+    "DisplayName": "March",
+    "ShortDisplayName": "March",
+    "Description": "March",
+    "LastUpdated": "2026-08-08T21:42:34.2101261\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "month-4",
+    "DisplayName": "April",
+    "ShortDisplayName": "April",
+    "Description": "April",
+    "LastUpdated": "2026-08-08T21:42:34.2136685\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "month-5",
+    "DisplayName": "May",
+    "ShortDisplayName": "May",
+    "Description": "May",
+    "LastUpdated": "2026-08-08T21:42:34.2206133\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "month-6",
+    "DisplayName": "June",
+    "ShortDisplayName": "June",
+    "Description": "June",
+    "LastUpdated": "2026-08-08T21:42:34.2259378\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "month-7",
+    "DisplayName": "July",
+    "ShortDisplayName": "July",
+    "Description": "July",
+    "LastUpdated": "2026-08-08T21:42:34.2307953\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "month-8",
+    "DisplayName": "August",
+    "ShortDisplayName": "August",
+    "Description": "August",
+    "LastUpdated": "2026-08-08T21:42:34.2432764\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "month-9",
+    "DisplayName": "September",
+    "ShortDisplayName": "September",
+    "Description": "September",
+    "LastUpdated": "2026-08-08T21:42:34.2629187\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "month-10",
+    "DisplayName": "October",
+    "ShortDisplayName": "October",
+    "Description": "October",
+    "LastUpdated": "2026-08-08T21:42:34.2740295\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "month-11",
+    "DisplayName": "November",
+    "ShortDisplayName": "November",
+    "Description": "November",
+    "LastUpdated": "2026-08-08T21:42:34.286824\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "en-GB",
+    "Key": "Core",
+    "Name": "month-12",
+    "DisplayName": "December",
+    "ShortDisplayName": "December",
+    "Description": "December",
+    "LastUpdated": "2026-08-08T21:42:34.2984293\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  }
+]

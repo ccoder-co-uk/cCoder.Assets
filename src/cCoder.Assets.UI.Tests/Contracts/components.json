@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Login",
+    "route": "/Login",
+    "readySelector": ".component[name='Login'] form.ccoder-code-form",
+    "authenticationRequired": false,
+    "requiredApiResponses": []
+  },
+  {
+    "name": "UserProfile",
+    "route": "/",
+    "readySelector": ".component[name='UserProfile']",
+    "authenticationRequired": true,
+    "requiredApiResponses": [
+      "Account/UserInfo"
+    ]
+  }
+]

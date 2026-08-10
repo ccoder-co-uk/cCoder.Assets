@@ -1,0 +1,25 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXM",
+  "Name": "STXM",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 120,
+  "LastUpdated": "2026-07-28T09:01:52.1591565\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cdiv class=\u0022public-flow\u0022\u003E\n  \u003Csection class=\u0022public-flow-section public-section\u0022\u003E\n    \u003Cdiv class=\u0022public-section-frame\u0022\u003E\n      \u003Cheader class=\u0022public-article docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp class=\u0022public-copy\u0022\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E\n    \u003C/div\u003E\n  \u003C/section\u003E\n  \u003Csection class=\u0022public-flow-section public-section\u0022\u003E\n    \u003Cdiv class=\u0022public-section-frame\u0022\u003E\n      \u003Carticle class=\u0022public-article\u0022\u003E\n        \u003Ch2\u003EKeep models honest as data carriers\u003C/h2\u003E\n        \u003Cp\u003EModel diagnostics prevent behaviour, manufactured defaults and framework-bound validation from accumulating in transported state. Business-operation validation stays in services where creation, update and deletion can apply different policies.\u003C/p\u003E\n        \u003Ch2\u003EThe value of enforcing this family\u003C/h2\u003E\n        \u003Cp\u003EModels remain predictable to serialize, compare and move between layers.\u003C/p\u003E\n        \u003Cp\u003EChoose a diagnostic below for its Standard references, architectural rationale and practical bad and good code examples.\u003C/p\u003E\n      \u003C/article\u003E\n    \u003C/div\u003E\n  \u003C/section\u003E\n  \u003Csection class=\u0022public-flow-section public-section public-nav-section\u0022\u003E\u003Cdiv class=\u0022public-section-frame\u0022\u003E[component[DetailedNav]]\u003C/div\u003E\u003C/section\u003E\n\u003C/div\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "STXM diagnostic family: rules for data-only model types.",
+      "Title": "STXM: Models"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

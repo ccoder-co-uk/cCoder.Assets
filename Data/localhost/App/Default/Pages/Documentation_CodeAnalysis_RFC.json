@@ -1,0 +1,26 @@
+{
+  "Path": "Documentation/CodeAnalysis/RFC",
+  "Name": "RFC",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 180,
+  "LastUpdated": "2026-07-31T23:15:40.5161487\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cdiv class=\u0022public-flow\u0022\u003E\u003Csection class=\u0022public-flow-section public-section\u0022\u003E\u003Cdiv class=\u0022public-section-frame\u0022\u003E\u003Cheader class=\u0022public-article docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp class=\u0022public-copy\u0022\u003E[page[description]]\u003C/p\u003E\u003C/header\u003E\u003C/div\u003E\u003C/section\u003E\u003Csection class=\u0022public-flow-section public-section\u0022\u003E\u003Cdiv class=\u0022public-section-frame\u0022\u003E\u003Carticle class=\u0022public-article\u0022\u003E\u003Ch2\u003ECompliance that stays visible in the build\u003C/h2\u003E\u003Cp\u003EThese diagnostics protect the RFC obligations that can be established from the project architecture model and source-level evidence.\u003C/p\u003E\u003Ch2\u003EThe value of enforcing this family\u003C/h2\u003E\u003Cp\u003EChoose a diagnostic below for its authoritative source, exact analyser contract, rationale, and practical bad and good examples.\u003C/p\u003E\u003C/article\u003E\u003C/div\u003E\u003C/section\u003E\u003Csection class=\u0022public-flow-section public-section public-nav-section\u0022\u003E\u003Cdiv class=\u0022public-section-frame\u0022\u003E[component[DetailedNav]]\u003C/div\u003E\u003C/section\u003E\u003C/div\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "HTTP status-code, authentication and error-path semantics adopted from IETF standards.",
+      "Keywords": "RFC",
+      "Title": "RFC: HTTP semantics"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

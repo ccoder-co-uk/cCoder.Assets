@@ -1,0 +1,25 @@
+{
+  "Path": "Documentation/CodeAnalysis/STX/STX0016",
+  "Name": "STX0016",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 160,
+  "LastUpdated": "2026-07-28T09:01:51.4285375\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cstyle class=\u0022code-analysis-syntax\u0022\u003E\n.docs-content pre{overflow-x:auto;margin:1rem 0 1.75rem;padding:1.25rem 1.4rem;border:1px solid rgba(20,42,72,.16);border-left:4px solid #0e6fae;border-radius:4px;background:#f7fbfe;color:#10263a}\n.docs-content pre code{white-space:pre;color:inherit;background:transparent;font-size:1rem;line-height:1.65}\n.language-csharp .syntax-comment{color:#587287;font-style:italic}.language-csharp .syntax-string{color:#8a3d12}.language-csharp .syntax-keyword{color:#6542a6;font-weight:700}.language-csharp .syntax-number{color:#096b65}.language-csharp .syntax-type{color:#0a6680;font-weight:600}\n\u003C/style\u003E\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003EService CRUD methods must use domain nouns: Get, Add, Update, or Delete.\u003C/p\u003E\u003C/header\u003E\u003Ch2\u003EWhat the Standard says\u003C/h2\u003E\u003Cp\u003E\u0026ldquo;Business Language\u0026rdquo; \u0026mdash; Service operations use business language rather than storage terminology. Names such as Add, Get, Update and Delete describe the domain operation while brokers retain integration-specific vocabulary. \u003Ca href=\u0022https://github.com/hassanhabib/The-Standard/blob/master/2.%20Services/2.1%20Foundations/2.1%20Foundations.md#2122-business-language\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003Eread it here\u003C/a\u003E.\u003C/p\u003E\u003Ch2\u003EWhy it matters\u003C/h2\u003E\u003Cp\u003ECRUD names should speak in business nouns, not generic technical verbs alone. AddStudentAsync and RetrieveStudentByIdAsync reveal the affected capability at the call site and keep the code aligned with the language used by the business.\u003C/p\u003E\u003Ch2\u003EBad code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E\u003Cspan class=\u0022syntax-comment\u0022\u003E// Violates STX0016: Service CRUD methods must use domain nouns: Get, Add, Update, or Delete.\u003C/span\u003E\n\u003Cspan class=\u0022syntax-keyword\u0022\u003Epublic\u003C/span\u003E \u003Cspan class=\u0022syntax-type\u0022\u003EValueTask\u003C/span\u003E\u0026lt;\u003Cspan class=\u0022syntax-type\u0022\u003EStudent\u003C/span\u003E\u0026gt; \u003Cspan class=\u0022syntax-type\u0022\u003EInsertStudent\u003C/span\u003E(\u003Cspan class=\u0022syntax-type\u0022\u003EStudent\u003C/span\u003E newStudent) =\u0026gt; \u003Cspan class=\u0022syntax-keyword\u0022\u003Edefault\u003C/span\u003E;\u003C/code\u003E\u003C/pre\u003E\u003Ch2\u003EGood code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E\u003Cspan class=\u0022syntax-comment\u0022\u003E// Follows STX0016\u003C/span\u003E\n\u003Cspan class=\u0022syntax-keyword\u0022\u003Epublic\u003C/span\u003E \u003Cspan class=\u0022syntax-type\u0022\u003EValueTask\u003C/span\u003E\u0026lt;\u003Cspan class=\u0022syntax-type\u0022\u003EStudent\u003C/span\u003E\u0026gt; \u003Cspan class=\u0022syntax-type\u0022\u003EAddStudent\u003C/span\u003E(\u003Cspan class=\u0022syntax-type\u0022\u003EStudent\u003C/span\u003E newStudent) =\u0026gt; \u003Cspan class=\u0022syntax-keyword\u0022\u003Edefault\u003C/span\u003E;\u003C/code\u003E\u003C/pre\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Service CRUD methods must use domain nouns: Get, Add, Update, or Delete.",
+      "Title": "STX0016"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

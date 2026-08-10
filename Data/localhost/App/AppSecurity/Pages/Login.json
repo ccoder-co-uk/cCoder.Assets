@@ -1,0 +1,26 @@
+{
+  "Path": "Login",
+  "Name": "Login",
+  "ResourceKey": "AppSecurity",
+  "ShowOnMenus": false,
+  "Order": 0,
+  "LastUpdated": "2026-08-05T17:06:07.093681\u002B00:00",
+  "Layout": "Article",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[Login]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Login",
+      "Keywords": "Login",
+      "Title": "Login"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

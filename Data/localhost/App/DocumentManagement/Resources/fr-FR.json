@@ -1,0 +1,134 @@
+[
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "DeleteFolderTitle",
+    "DisplayName": "Supprimer le dossier",
+    "ShortDisplayName": "Supprimer le dossier",
+    "Description": "Supprimer le dossier",
+    "LastUpdated": "2026-08-08T21:42:37.2777575\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "category",
+    "DisplayName": "Cat\u00E9gorie",
+    "ShortDisplayName": "Cat\u00E9gorie",
+    "Description": "Cat\u00E9gorie",
+    "LastUpdated": "2026-08-08T21:42:37.2972112\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "folderdeletedsuccesfully",
+    "DisplayName": "Dossier supprim\u00E9 avec succ\u00E8s",
+    "ShortDisplayName": "Dossier supprim\u00E9 avec succ\u00E8s",
+    "Description": "Dossier supprim\u00E9 avec succ\u00E8s",
+    "LastUpdated": "2026-08-08T21:42:37.3165863\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "newfolder",
+    "DisplayName": "Nouveau Dossier",
+    "ShortDisplayName": "Nouveau Dossier",
+    "Description": "Nouveau Dossier",
+    "LastUpdated": "2026-08-08T21:42:37.3357706\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "newname",
+    "DisplayName": "Nouveau nom",
+    "ShortDisplayName": "Nouveau nom",
+    "Description": "Nouveau nom",
+    "LastUpdated": "2026-08-08T21:42:37.345331\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "size",
+    "DisplayName": "Taille",
+    "ShortDisplayName": "Taille",
+    "Description": "Taille",
+    "LastUpdated": "2026-08-08T21:42:37.358567\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "applyrecursively",
+    "DisplayName": " Appliquer de mani\u00E8re r\u00E9cursive",
+    "ShortDisplayName": " Appliquer de mani\u00E8re r\u00E9cursive",
+    "Description": " Appliquer de mani\u00E8re r\u00E9cursive",
+    "LastUpdated": "2026-08-08T21:38:52.639559\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "rename",
+    "DisplayName": "Renommer",
+    "ShortDisplayName": "Renommer",
+    "Description": "Renommer",
+    "LastUpdated": "2026-08-08T21:38:52.7432479\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "unpackzipto",
+    "DisplayName": "D\u00E9compresser les Fichier dans",
+    "ShortDisplayName": "D\u00E9compresser les Fichier dans",
+    "Description": "D\u00E9compresser les Fichier dans",
+    "LastUpdated": "2026-08-08T21:38:52.7937745\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "welcometofurtherinfo",
+    "DisplayName": "Bienvenue dans la pr\u00E9sentation du programme [app[name]] d\u00E9di\u00E9 \u00E0 nos fournisseurs.",
+    "ShortDisplayName": "Bienvenue dans la pr\u00E9sentation du programme [app[name]] d\u00E9di\u00E9 \u00E0 nos fournisseurs.",
+    "Description": "Bienvenue dans la pr\u00E9sentation du programme [app[name]] d\u00E9di\u00E9 \u00E0 nos fournisseurs.",
+    "LastUpdated": "2026-08-08T21:38:52.8252454\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "legal",
+    "DisplayName": "Informations l\u00E9gales",
+    "ShortDisplayName": "Informations l\u00E9gales",
+    "Description": "Informations l\u00E9gales",
+    "LastUpdated": "2026-08-08T21:38:52.8743179\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  },
+  {
+    "Culture": "fr-FR",
+    "Key": "DocumentManagement",
+    "Name": "furtherinformation",
+    "DisplayName": "Informations suppl\u00E9mentaires",
+    "ShortDisplayName": "Informations suppl\u00E9mentaires",
+    "Description": "Informations suppl\u00E9mentaires",
+    "LastUpdated": "2026-08-08T21:38:52.9024074\u002B00:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": false
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "Path": "Admin/MailManagement",
+  "Name": "Mail Management",
+  "ResourceKey": "Mail",
+  "ShowOnMenus": true,
+  "Order": 4,
+  "LastUpdated": "2026-07-30T22:31:25.1383265\u002B00:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[MailManagement]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Configure mail servers and review queued and sent application email.",
+      "Keywords": "mail, email, queue, administration",
+      "Title": "Mail Management"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

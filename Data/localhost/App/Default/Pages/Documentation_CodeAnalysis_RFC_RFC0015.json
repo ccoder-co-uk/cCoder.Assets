@@ -1,0 +1,26 @@
+{
+  "Path": "Documentation/CodeAnalysis/RFC/RFC0015",
+  "Name": "RFC0015",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 150,
+  "LastUpdated": "2026-08-01T09:19:23.5809038\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cstyle class=\u0022code-analysis-syntax\u0022\u003E.docs-content pre{overflow-x:auto;margin:1rem 0 1.75rem;padding:1.25rem 1.4rem;border-left:4px solid #0e6fae;background:#f7fbfe}.docs-content pre code{white-space:pre}\u003C/style\u003E\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003EAn HTTP response status code must be a three-digit code between 100 and 599.\u003C/p\u003E\u003C/header\u003E\u003Ch2\u003EWhat the Standard says\u003C/h2\u003E\u003Cp\u003ERFC 9110 defines status codes as three-digit integers from 100 through 599, grouped into five response classes. \u003Ca href=\u0022https://www.rfc-editor.org/rfc/rfc9110.html#section-15\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003ERead section 15\u003C/a\u003E.\u003C/p\u003E\u003Ch2\u003EWhy it matters\u003C/h2\u003E\u003Cp\u003EValues outside the defined range are not HTTP status codes and can be rejected or normalized unpredictably by servers, proxies, and clients.\u003C/p\u003E\u003Ch2\u003EBad code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E[HttpGet]\npublic IActionResult Get() =\u0026gt;\n    StatusCode(statusCode: 799);\u003C/code\u003E\u003C/pre\u003E\u003Ch2\u003EGood code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E[HttpGet]\npublic IActionResult Get() =\u0026gt;\n    StatusCode(statusCode: 500);\u003C/code\u003E\u003C/pre\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "An HTTP response status code must be a three-digit code between 100 and 599.",
+      "Keywords": "RFC0015, HTTP, status code",
+      "Title": "RFC0015"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

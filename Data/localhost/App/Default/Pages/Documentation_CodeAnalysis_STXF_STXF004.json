@@ -1,0 +1,26 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXF/STXF004",
+  "Name": "STXF004",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 40,
+  "LastUpdated": "2026-08-01T09:46:54.4485718\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cstyle class=\u0022code-analysis-syntax\u0022\u003E.docs-content pre{overflow-x:auto;margin:1rem 0 1.75rem;padding:1.25rem 1.4rem;border-left:4px solid #0e6fae;background:#f7fbfe}.docs-content pre code{white-space:pre}\u003C/style\u003E\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003EA foundation service must handle or wrap EF concurrency failures before they escape its boundary.\u003C/p\u003E\u003C/header\u003E\u003Ch2\u003EWhat the Standard says\u003C/h2\u003E\u003Cp\u003EThe Standard requires foundation services to map dependency exceptions into local or categorical exceptions while preserving the original failure. STXF004 applies that mapping requirement specifically to Entity Framework concurrency failures discovered through a storage broker and DbContext call chain. \u003Ca href=\u0022https://github.com/hassanhabib/The-Standard/blob/master/2.%20Services/2.1%20Foundations/2.1%20Foundations.md#21321-exceptions-mappings\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003ERead Exceptions Mappings\u003C/a\u003E.\u003C/p\u003E\u003Ch2\u003EWhy it matters\u003C/h2\u003E\u003Cp\u003EA raw DbUpdateConcurrencyException does not give the HTTP boundary a stable business category. Handling it locally or wrapping it as a concurrency exception lets higher layers refresh state, resolve the conflict, or return the adopted HTTP response.\u003C/p\u003E\u003Ch2\u003EBad code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003Epublic async ValueTask\u0026lt;Student\u0026gt; UpdateStudentAsync(Student updatedStudent)\n{\n    await studentBroker.UpdateStudentAsync(updatedStudent);\n    return updatedStudent;\n}\u003C/code\u003E\u003C/pre\u003E\u003Ch2\u003EGood code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003Ecatch (DbUpdateConcurrencyException exception)\n{\n    throw new StudentServiceConcurrencyException(exception);\n}\u003C/code\u003E\u003C/pre\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "A foundation service must handle or wrap EF concurrency failures before they escape its boundary.",
+      "Keywords": "STXF004, The Standard, foundation, Entity Framework, DbUpdateConcurrencyException",
+      "Title": "STXF004"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

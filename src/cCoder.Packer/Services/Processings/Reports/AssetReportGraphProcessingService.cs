@@ -341,8 +341,7 @@ internal sealed partial class AssetReportGraphProcessingService
                 report: report,
                 requester: asset,
                 name: style,
-                indent: indent,
-                expanded: expanded);
+                indent: indent);
         }
 
         foreach (string component in references.Components)
@@ -451,8 +450,7 @@ internal sealed partial class AssetReportGraphProcessingService
         StringBuilder report,
         AssetReportAsset requester,
         string name,
-        string indent,
-        ISet<string> expanded)
+        string indent)
     {
         AssetReportAsset? style = Resolve(
             index: this.stylesByName,
@@ -473,15 +471,6 @@ internal sealed partial class AssetReportGraphProcessingService
 
         report.AppendLine(value:
             $"{indent}- [ ] Style `{NameOf(asset: style)}`");
-
-        if (expanded.Add(item: style.RelativePath))
-        {
-            AppendReferences(
-                report: report,
-                asset: style,
-                indent: indent + "  ",
-                expanded: expanded);
-        }
     }
 
     private void AppendReviewQueues(StringBuilder report)

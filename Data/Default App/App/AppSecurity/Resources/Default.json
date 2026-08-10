@@ -6,7 +6,7 @@
     "DisplayName": "Access Denied",
     "ShortDisplayName": "Access Denied",
     "Description": "Access Denied",
-    "LastUpdated": "2026-07-28T09:45:55.0607105+01:00",
+    "LastUpdated": "2026-08-08T23:15:57.3294278+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -14,10 +14,10 @@
     "Culture": "",
     "Key": "AppSecurity",
     "Name": "checkyouremail",
-    "DisplayName": "Check your email",
-    "ShortDisplayName": "Check your email",
-    "Description": "Check your email",
-    "LastUpdated": "2026-07-28T09:45:55.0961823+01:00",
+    "DisplayName": "Email has been sent. Check your email. ",
+    "ShortDisplayName": "Email has been sent. Check your email. ",
+    "Description": "Email has been sent. Check your email. ",
+    "LastUpdated": "2026-08-08T23:15:57.488259+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -28,7 +28,7 @@
     "DisplayName": "New Password",
     "ShortDisplayName": "New Password",
     "Description": "New Password",
-    "LastUpdated": "2026-07-28T09:45:55.1115302+01:00",
+    "LastUpdated": "2026-08-08T23:15:57.3567583+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -39,7 +39,7 @@
     "DisplayName": "Old Password",
     "ShortDisplayName": "Old Password",
     "Description": "Old Password",
-    "LastUpdated": "2026-07-28T09:45:55.1263065+01:00",
+    "LastUpdated": "2026-08-08T23:15:57.3660466+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -50,7 +50,7 @@
     "DisplayName": "Password Reset Email",
     "ShortDisplayName": "Password Reset Email",
     "Description": "Password Reset Email",
-    "LastUpdated": "2026-07-28T09:45:55.1412017+01:00",
+    "LastUpdated": "2026-08-08T23:15:57.3754398+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -72,7 +72,7 @@
     "DisplayName": "Reset Failed",
     "ShortDisplayName": "Reset Failed",
     "Description": "Reset Failed",
-    "LastUpdated": "2026-07-28T09:45:55.1708577+01:00",
+    "LastUpdated": "2026-08-08T23:15:57.4008162+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -83,7 +83,7 @@
     "DisplayName": "Token Verification Failed",
     "ShortDisplayName": "Token Verification Failed",
     "Description": "tokenverificationfailed",
-    "LastUpdated": "2026-07-28T09:45:55.1843868+01:00",
+    "LastUpdated": "2026-08-08T23:15:57.4092185+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   },
@@ -94,7 +94,117 @@
     "DisplayName": "Token Verification Success",
     "ShortDisplayName": "Token Verification Success",
     "Description": "tokenverificationsuccess",
-    "LastUpdated": "2026-07-28T09:45:55.1982713+01:00",
+    "LastUpdated": "2026-08-08T23:15:57.4143411+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "phonenumber",
+    "DisplayName": "Phone Number",
+    "ShortDisplayName": "Phone Number",
+    "Description": "Phone Number",
+    "LastUpdated": "2026-08-08T23:15:57.3881798+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "updatepassword",
+    "DisplayName": "Update Password",
+    "ShortDisplayName": "Update Password",
+    "Description": "Update Password",
+    "LastUpdated": "2026-08-08T23:15:57.4210692+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "roledeleted",
+    "DisplayName": "roledeleted",
+    "ShortDisplayName": "roledeleted",
+    "Description": "roledeleted",
+    "LastUpdated": "2026-08-08T23:15:57.4754657+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "rolecreated",
+    "DisplayName": "rolecreated",
+    "ShortDisplayName": "rolecreated",
+    "Description": "rolecreated",
+    "LastUpdated": "2026-08-08T23:15:57.4829407+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "resetsuccess",
+    "DisplayName": "Reset Success",
+    "ShortDisplayName": "Reset Success",
+    "Description": "resetsuccess",
+    "LastUpdated": "2026-08-08T23:15:57.4941525+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "addusers",
+    "DisplayName": "Add Users",
+    "ShortDisplayName": "Add Users",
+    "Description": "Add Users",
+    "LastUpdated": "2026-08-08T23:15:57.5026397+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "passwordchanged",
+    "DisplayName": "Password Changed",
+    "ShortDisplayName": "Password Changed",
+    "Description": "Password Changed",
+    "LastUpdated": "2026-08-08T23:15:57.5106614+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "resetpassword",
+    "DisplayName": "Reset Password",
+    "ShortDisplayName": "Reset Password",
+    "Description": "Reset Password",
+    "LastUpdated": "2026-08-08T23:15:57.5161247+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "userprofile",
+    "DisplayName": "User Profile",
+    "ShortDisplayName": "User Profile",
+    "Description": "User Profile",
+    "LastUpdated": "2026-08-08T23:15:57.519752+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "AppSecurity",
+    "Name": "userupdated",
+    "DisplayName": "User Updated",
+    "ShortDisplayName": "User Updated",
+    "Description": "User Updated",
+    "LastUpdated": "2026-08-08T23:15:57.5282838+01:00",
     "PackageType": "ContentManagement/Resource",
     "IncludeInSubSequentImports": true
   }

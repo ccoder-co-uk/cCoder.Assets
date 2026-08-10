@@ -1,0 +1,10 @@
+{
+  "Name": "RegistrationsHome",
+  "Key": "AppSecurity",
+  "ResourceKey": "AppSecurity",
+  "Script": "RegistrationsHome = {\n\tinit: function () {\n\t\tvar root = $(\u0027[name=RegistrationsHome].component\u0027);\n\t\tif (window.JoinCompany) {\n\t\t\tJoinCompany.init();\n\t\t}\n\t\tif (window.PendingRequestsToJoinCompany) {\n\t\t\tPendingRequestsToJoinCompany.init();\n\t\t}\n\t}\n};\n$(function () {\n\tRegistrationsHome.init();\n});\n\n",
+  "Content": "\u003Ch3\u003EJoin a Company\u003C/h3\u003E\n\u003Cdiv class=\u0022row\u0022\u003E\n\t\u003Cdiv class=\u0022col-sm\u0022 id=\u0022pendingRequestsSection\u0022\u003E\n\t\t\u003Ch4 id=\u0022pendingRequestsHeader\u0022\u003E[resource_displayname[PendingRequestsToJoinCompany]]\u003C/h4\u003E\n\t\t[component[PendingRequestsToJoinCompany]]\n\t\u003C/div\u003E\n\t\u003Cdiv class=\u0022col-lg\u0022 id=\u0022joinCompanySection\u0022\u003E\n\t\t\u003Ch4\u003E[resource_displayname[JoinCompany]]\u003C/h4\u003E\n\t\t[component[JoinCompany]]\n\t\u003C/div\u003E\n\u003C/div\u003E\n\u003Ch3\u003EROI\u003C/h3\u003E\n\u003Cdiv class=\u0022row\u0022\u003E\n\t\u003Cdiv class=\u0022col-full\u0022 id=\u0022roiSection\u0022\u003E\n\t\t[component[OnboardingRequestList]]\n\t\u003C/div\u003E\n\u003C/div\u003E\n\u003Cstyle\u003E\n\n\u003C/style\u003E",
+  "LastUpdated": "2026-08-08T22:15:57.2134901\u002B00:00",
+  "PackageType": "ContentManagement/Component",
+  "IncludeInSubSequentImports": false
+}

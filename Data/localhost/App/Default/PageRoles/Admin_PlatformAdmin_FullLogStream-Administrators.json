@@ -1,0 +1,6 @@
+{
+  "Path": "Admin/PlatformAdmin/FullLogStream",
+  "Role": "Administrators",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

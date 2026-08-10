@@ -1,0 +1,6 @@
+{
+  "Path": "Admin/PlatformAdmin/Tenants",
+  "Role": "Administrators",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

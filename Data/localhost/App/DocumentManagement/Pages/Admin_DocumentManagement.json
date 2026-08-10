@@ -1,0 +1,26 @@
+{
+  "Path": "Admin/DocumentManagement",
+  "Name": "Document Management",
+  "ResourceKey": "DocumentManagement",
+  "ShowOnMenus": true,
+  "Order": 2,
+  "LastUpdated": "2026-07-30T22:31:25.1141686\u002B00:00",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "[component[DocumentManagement]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Manage the folders and files within the application, here you are able to upload any Masterdata or Transaction files you\u0027d like to  import.",
+      "Keywords": "Documents, DMS, sample, page",
+      "Title": "Document Management"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

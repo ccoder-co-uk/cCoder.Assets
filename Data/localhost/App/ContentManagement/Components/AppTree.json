@@ -1,0 +1,10 @@
+{
+  "Name": "AppTree",
+  "Key": "ContentManagement",
+  "ResourceKey": "ContentManagement",
+  "Script": "",
+  "Content": "",
+  "LastUpdated": "2026-08-08T21:38:49.2608219\u002B00:00",
+  "PackageType": "ContentManagement/Component",
+  "IncludeInSubSequentImports": false
+}

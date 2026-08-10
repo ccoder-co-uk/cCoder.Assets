@@ -1,0 +1,25 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXTEST/STXTEST002",
+  "Name": "STXTEST002",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 20,
+  "LastUpdated": "2026-07-28T09:01:52.431463\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cstyle class=\u0022code-analysis-syntax\u0022\u003E\n.docs-content pre{overflow-x:auto;margin:1rem 0 1.75rem;padding:1.25rem 1.4rem;border:1px solid rgba(20,42,72,.16);border-left:4px solid #0e6fae;border-radius:4px;background:#f7fbfe;color:#10263a}\n.docs-content pre code{white-space:pre;color:inherit;background:transparent;font-size:1rem;line-height:1.65}\n.language-csharp .syntax-comment{color:#587287;font-style:italic}.language-csharp .syntax-string{color:#8a3d12}.language-csharp .syntax-keyword{color:#6542a6;font-weight:700}.language-csharp .syntax-number{color:#096b65}.language-csharp .syntax-type{color:#0a6680;font-weight:600}\n\u003C/style\u003E\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003ETest suites must not inherit from base test classes.\u003C/p\u003E\u003C/header\u003E\u003Ch2\u003EWhat The Standard says\u003C/h2\u003E\u003Cp\u003E\u0026ldquo;Vertical Entanglement\u0026rdquo; \u0026mdash; The Standard rejects local base components because inherited shared behavior creates hidden vertical coupling and a single point of failure. Test base classes introduce the same obscured dependency. \u003Ca href=\u0022https://github.com/hassanhabib/The-Standard/blob/master/0.%20Introduction/0.2%20Principles.md#020011-vertical-entanglement\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003Eread it here\u003C/a\u003E.\u003Cbr\u003E\u0026ldquo;Unit Tests\u0026rdquo; \u0026mdash; Canonical tests construct their subject and dependencies within the test suite. Requiring standalone suites keeps every test\u0027s setup locally discoverable. \u003Ca href=\u0022https://github.com/hassanhabib/The-Standard/blob/master/3.%20Exposers/3.1%20Communication%20Protocols/3.1.1%20RESTful%20APIs/3.1.1%20RESTful%20APIs.md#31150-unit-tests\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003Eread it here\u003C/a\u003E.\u003C/p\u003E\u003Ch2\u003EWhy it matters\u003C/h2\u003E\u003Cp\u003EInherited test bases hide setup and behaviour outside the suite a reviewer is reading. Keeping tests composition-based and self-contained makes dependencies explicit and prevents shared mutable fixtures from coupling otherwise independent suites.\u003C/p\u003E\u003Ch2\u003EBad code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E\u003Cspan class=\u0022syntax-comment\u0022\u003E// Violates STXTEST002: Test suites must not inherit from base test classes.\u003C/span\u003E\n\u003Cspan class=\u0022syntax-keyword\u0022\u003Eclass\u003C/span\u003E \u003Cspan class=\u0022syntax-type\u0022\u003EStudentServiceTests\u003C/span\u003E : \u003Cspan class=\u0022syntax-type\u0022\u003EServiceTestsBase\u003C/span\u003E { }\u003C/code\u003E\u003C/pre\u003E\u003Ch2\u003EGood code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E\u003Cspan class=\u0022syntax-comment\u0022\u003E// Follows STXTEST002\u003C/span\u003E\n\u003Cspan class=\u0022syntax-keyword\u0022\u003Eclass\u003C/span\u003E \u003Cspan class=\u0022syntax-type\u0022\u003EStudentServiceTests\u003C/span\u003E { }\u003C/code\u003E\u003C/pre\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Test suites must not inherit from base test classes.",
+      "Title": "STXTEST002"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

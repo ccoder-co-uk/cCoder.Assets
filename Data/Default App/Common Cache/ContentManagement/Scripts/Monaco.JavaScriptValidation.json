@@ -1,0 +1,9 @@
+{
+  "Name": "Monaco.JavaScriptValidation",
+  "Key": "ContentManagement",
+  "Content": "JavaScriptMonacoEditor.prototype.init = function(callback) {\r\n    MonacoEditor.prototype.init.call(this, callback);\r\n};",
+  "CreatedOn": "2026-08-10T12:15:00+01:00",
+  "LastUpdated": "2026-08-10T12:15:00+01:00",
+  "IncludeInSubSequentImports": true,
+  "PackageType": "ContentManagement/Script"
+}

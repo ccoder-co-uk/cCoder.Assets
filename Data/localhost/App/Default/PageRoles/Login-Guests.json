@@ -1,0 +1,6 @@
+{
+  "Path": "Login",
+  "Role": "Guests",
+  "PackageType": "ContentManagement/PageRole",
+  "IncludeInSubSequentImports": false
+}

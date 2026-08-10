@@ -1,0 +1,11 @@
+{
+  "Culture": "",
+  "Key": "addUserDropDown",
+  "Name": "Account",
+  "DisplayName": "Select a user to add...",
+  "ShortDisplayName": "Select a user to add...",
+  "Description": "Select a user to add...",
+  "LastUpdated": "2026-08-08T21:42:31.1225563\u002B00:00",
+  "PackageType": "ContentManagement/Resource",
+  "IncludeInSubSequentImports": false
+}

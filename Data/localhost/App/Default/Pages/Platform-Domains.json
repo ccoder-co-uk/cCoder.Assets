@@ -1,0 +1,26 @@
+{
+  "Path": "Platform-Domains",
+  "Name": "Platform-Domains",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 20,
+  "LastUpdated": "2026-07-28T08:27:55.6358242\u002B00:00",
+  "Layout": "Article",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cdiv class=\u0022public-flow\u0022\u003E\u003Csection class=\u0022public-flow-section public-section\u0022\u003E\u003Cdiv class=\u0022public-section-frame\u0022\u003E\u003Cdiv class=\u0022public-article\u0022\u003E\n  \u003Ch1\u003E[page[title]]\u003C/h1\u003E\n  \u003Cp class=\u0022public-copy\u0022\u003EcCoder is a family of separately published and tested domain packages. Each system owns a recognisable job and can evolve without turning the platform into one indistinguishable codebase.\u003C/p\u003E\n  \n\u003C/div\u003E\u003C/div\u003E\u003C/section\u003E\u003Csection class=\u0022public-flow-section public-section\u0022\u003E\u003Cdiv class=\u0022public-section-frame\u0022\u003E\u003Carticle class=\u0022public-article\u0022\u003E\u003Ch2\u003EHow the core is composed\u003C/h2\u003E\u003Cp\u003E\u003Cstrong\u003EcCoder.Core gives applications one supported composition point without erasing the boundaries between domains.\u003C/strong\u003E It composes the separately published domain packages into Web, HostedServices and Workflow execution hosts; centralises connection, cache, event transport, mail and workflow configuration; and supplies aggregate sample applications, acceptance tests and full-process integration tests. Teams can begin with a known-good platform graph while each constituent domain remains independently testable and publishable. Client Relationship Management and AI are already important parts of the wider architecture. They are not included in Core today, but are likely to join it as their package and integration boundaries mature.\u003C/p\u003E\u003C/article\u003E\u003C/div\u003E\u003C/section\u003E\u003Csection class=\u0022public-flow-section public-section public-nav-section\u0022\u003E\u003Cdiv class=\u0022public-section-frame\u0022\u003E[component[DetailedNav]]\u003C/div\u003E\u003C/section\u003E\u003C/div\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "A factual guide to the systems in the cCoder architecture, what each owns, how the core is composed and which domains are still adjacent.",
+      "Keywords": "cCoder,domain architecture,.NET,Core,CRM,AI,Security,Content Management,Workflow,Eventing",
+      "Title": "Platform Domains"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

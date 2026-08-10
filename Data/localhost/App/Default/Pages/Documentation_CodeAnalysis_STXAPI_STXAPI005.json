@@ -1,0 +1,26 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXAPI/STXAPI005",
+  "Name": "STXAPI005",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 50,
+  "LastUpdated": "2026-08-01T09:46:54.1402138\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cstyle class=\u0022code-analysis-syntax\u0022\u003E.docs-content pre{overflow-x:auto;margin:1rem 0 1.75rem;padding:1.25rem 1.4rem;border-left:4px solid #0e6fae;background:#f7fbfe}.docs-content pre code{white-space:pre}\u003C/style\u003E\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003EEvery public HTTP handler must map success and caught failure paths to 2xx, 4xx, or 5xx responses.\u003C/p\u003E\u003C/header\u003E\u003Ch2\u003EWhat the Standard says\u003C/h2\u003E\u003Cp\u003EThe Standard defines success, user-error, and system-error response categories and makes controllers responsible for mapping core categorical exceptions to the appropriate HTTP responses. cCoder applies the same boundary rule to middleware because it also handles HTTP requests and responses. \u003Ca href=\u0022https://github.com/hassanhabib/The-Standard/blob/master/3.%20Exposers/3.1%20Communication%20Protocols/3.1.1%20RESTful%20APIs/3.1.1%20RESTful%20APIs.md#31121-codes--responses\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003ERead Codes \u0026amp; Responses\u003C/a\u003E.\u003C/p\u003E\u003Ch2\u003EWhy it matters\u003C/h2\u003E\u003Cp\u003EA complete boundary mapping prevents categorical service exceptions from leaking through the HTTP surface and makes every statically visible outcome explicit to clients.\u003C/p\u003E\u003Ch2\u003EBad code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E[HttpGet]\npublic IActionResult GetStudent(int studentId) =\u0026gt;\n    Ok(value: studentService.GetStudent(studentId));\u003C/code\u003E\u003C/pre\u003E\u003Ch2\u003EGood code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E[HttpGet]\npublic IActionResult GetStudent(int studentId)\n{\n    try\n    {\n        return Ok(value: studentService.GetStudent(studentId));\n    }\n    catch (StudentValidationException)\n    {\n        return BadRequest();\n    }\n    catch (StudentServiceException)\n    {\n        return StatusCode(statusCode: 500);\n    }\n}\u003C/code\u003E\u003C/pre\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Every public HTTP handler must map success and caught failure paths to 2xx, 4xx, or 5xx responses.",
+      "Keywords": "STXAPI005, The Standard, HTTP exposure, controller, middleware, try catch",
+      "Title": "STXAPI005"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

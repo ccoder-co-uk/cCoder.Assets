@@ -1,0 +1,6 @@
+{
+  "Path": "content/flags",
+  "Name": "Guests",
+  "PackageType": "DocumentManagement/FolderRole",
+  "IncludeInSubSequentImports": false
+}

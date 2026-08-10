@@ -1,0 +1,25 @@
+{
+  "Path": "Documentation/CodeAnalysis/STXFORMAT/STXFORMAT011",
+  "Name": "STXFORMAT011",
+  "ResourceKey": "Default",
+  "ShowOnMenus": true,
+  "Order": 110,
+  "LastUpdated": "2026-07-28T09:01:52.3887977\u002B00:00",
+  "Layout": "Documentation",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "\u003Cstyle class=\u0022code-analysis-syntax\u0022\u003E\n.docs-content pre{overflow-x:auto;margin:1rem 0 1.75rem;padding:1.25rem 1.4rem;border:1px solid rgba(20,42,72,.16);border-left:4px solid #0e6fae;border-radius:4px;background:#f7fbfe;color:#10263a}\n.docs-content pre code{white-space:pre;color:inherit;background:transparent;font-size:1rem;line-height:1.65}\n.language-csharp .syntax-comment{color:#587287;font-style:italic}.language-csharp .syntax-string{color:#8a3d12}.language-csharp .syntax-keyword{color:#6542a6;font-weight:700}.language-csharp .syntax-number{color:#096b65}.language-csharp .syntax-type{color:#0a6680;font-weight:600}\n\u003C/style\u003E\u003Cheader class=\u0022docs-page-header\u0022\u003E\u003Ch1\u003E[page[title]]\u003C/h1\u003E\u003Cp\u003EEvery C# source file must begin with a correctly formatted copyright header.\u003C/p\u003E\u003C/header\u003E\u003Ch2\u003EWhat The Standard says\u003C/h2\u003E\u003Cp\u003E\u0026ldquo;Open Code\u0026rdquo; \u0026mdash; The Standard treats source availability and stewardship as engineering concerns. A consistent ownership header makes the source\u0027s provenance explicit. \u003Ca href=\u0022https://github.com/hassanhabib/The-Standard/blob/master/0.%20Introduction/0.2%20Principles.md#024-open-code\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003Eread it here\u003C/a\u003E.\u003Cbr\u003E\u0026ldquo;Last Day\u0026rdquo; \u0026mdash; The Standard requires work to be left in a state another engineer can pick up immediately. A uniform header is cCoder\u0027s mechanical addition to that continuity and provenance goal. \u003Ca href=\u0022https://github.com/hassanhabib/The-Standard/blob/master/0.%20Introduction/0.2%20Principles.md#0210-last-day\u0022 target=\u0022_blank\u0022 rel=\u0022noreferrer\u0022\u003Eread it here\u003C/a\u003E.\u003C/p\u003E\u003Ch2\u003EWhy it matters\u003C/h2\u003E\u003Cp\u003EA consistent copyright header records ownership and licensing at the source-file boundary. Mechanical enforcement prevents newly generated or copied files from silently falling outside the project\u0027s declared legal convention.\u003C/p\u003E\u003Ch2\u003EBad code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E\u003Cspan class=\u0022syntax-comment\u0022\u003E// Violates STXFORMAT011: Every C# source file must begin with a correctly formatted copyright header.\u003C/span\u003E\n\u003Cspan class=\u0022syntax-keyword\u0022\u003Enamespace\u003C/span\u003E \u003Cspan class=\u0022syntax-type\u0022\u003EStudents\u003C/span\u003E;\n\n\u003Cspan class=\u0022syntax-keyword\u0022\u003Eclass\u003C/span\u003E \u003Cspan class=\u0022syntax-type\u0022\u003EStudent\u003C/span\u003E { }\u003C/code\u003E\u003C/pre\u003E\u003Ch2\u003EGood code example\u003C/h2\u003E\u003Cpre\u003E\u003Ccode class=\u0022language-csharp\u0022\u003E\u003Cspan class=\u0022syntax-comment\u0022\u003E// Follows STXFORMAT011\u003C/span\u003E\n\u003Cspan class=\u0022syntax-comment\u0022\u003E// ---------------------------------------------------------------\u003C/span\u003E\n\u003Cspan class=\u0022syntax-comment\u0022\u003E// Copyright (c) Paul.Ward@ccoder.co.uk\u003C/span\u003E\n\u003Cspan class=\u0022syntax-comment\u0022\u003E// ---------------------------------------------------------------\u003C/span\u003E\n\n\u003Cspan class=\u0022syntax-keyword\u0022\u003Enamespace\u003C/span\u003E \u003Cspan class=\u0022syntax-type\u0022\u003EStudents\u003C/span\u003E;\u003C/code\u003E\u003C/pre\u003E"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Every C# source file must begin with a correctly formatted copyright header.",
+      "Title": "STXFORMAT011"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": false
+}

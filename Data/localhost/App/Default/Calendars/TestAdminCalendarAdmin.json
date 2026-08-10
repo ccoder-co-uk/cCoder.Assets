@@ -1,0 +1,7 @@
+{
+  "$type": "\u003C\u003Ef__AnonymousType3\u00602[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], cCoder.Workflow",
+  "Name": "TestAdminCalendarAdmin",
+  "Description": "Test Admin Calendar",
+  "PackageType": "Core/Calendar",
+  "IncludeInSubSequentImports": false
+}
