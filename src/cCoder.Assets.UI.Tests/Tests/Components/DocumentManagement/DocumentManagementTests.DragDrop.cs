@@ -62,6 +62,9 @@ public sealed partial class DocumentManagementTests
                     arg: ids[0]);
 
                 Assert.Equal(expected: ids[1], actual: parentId);
+
+                await DocumentManagementGridFixture.ArrangeVisibleFileRowAsync(
+                    page: page);
             });
 
         // Then

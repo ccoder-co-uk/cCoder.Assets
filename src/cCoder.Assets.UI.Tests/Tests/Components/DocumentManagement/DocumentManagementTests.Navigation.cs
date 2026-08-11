@@ -15,10 +15,14 @@ public sealed partial class DocumentManagementTests
         const string pagePath = "Admin/DocumentManagement";
 
         // When
-        await driver.AssertComponentRendersAsync(
+        await driver.AssertAuthenticatedActionAsync(
             pagePath: pagePath,
             componentName: "FolderManagement",
-            navigate: true);
+            action: async page =>
+            {
+                await DocumentManagementGridFixture.ArrangeVisibleFileRowAsync(
+                    page: page);
+            });
 
         // Then
     }

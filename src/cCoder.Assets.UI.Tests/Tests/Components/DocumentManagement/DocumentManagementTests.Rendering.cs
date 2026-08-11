@@ -60,6 +60,9 @@ public sealed partial class DocumentManagementTests(PublishedCoreFixture fixture
                             separator: ", ",
                             value: missingTransientComponents)
                         + ".");
+
+                await DocumentManagementGridFixture.ArrangeVisibleFileRowAsync(
+                    page: page);
             });
 
         // Then
