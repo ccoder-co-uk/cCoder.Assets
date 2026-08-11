@@ -303,7 +303,7 @@
     },
     {
       "Path": "First Time Setup/first-app.json",
-      "Sha256": "BD2DA543A6F5F00CCAF2910D3FBA43C779217C84F8C36561D4DE0BBFE5A63E82",
+      "Sha256": "0213C68D36339AE983B4F43AA0C7DF7C0B3D5B16B043E59F301287D0C650AA32",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "First Time Setup",
