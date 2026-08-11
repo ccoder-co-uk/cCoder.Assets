@@ -16,7 +16,6 @@
 | App | `App` | `ContentManagement` | 480 | 166 |
 | App | `App` | `Core` | 85 | 3 |
 | App | `App` | `CRM` | 156 | 0 |
-| App | `App` | `Debug` | 6 | 0 |
 | App | `App` | `Default` | 1274 | 23 |
 | App | `App` | `DevTools` | 2 | 0 |
 | App | `App` | `DMS` | 104 | 0 |
@@ -37,7 +36,7 @@
 | App | `Common Cache` | `AppSecurity` | 108 | 10 |
 | App | `Common Cache` | `ClientRelationshipManagement` | 2 | 2 |
 | App | `Common Cache` | `Common` | 179 | 145 |
-| App | `Common Cache` | `ContentManagement` | 562 | 96 |
+| App | `Common Cache` | `ContentManagement` | 563 | 97 |
 | App | `Common Cache` | `Core` | 63 | 9 |
 | App | `Common Cache` | `Default` | 18 | 0 |
 | App | `Common Cache` | `DocumentManagement` | 381 | 252 |
@@ -1922,12 +1921,6 @@
 - [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#6`
 - [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#7`
 - [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#8`
-- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/ApiTester.json`
-- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/DomainMetadata.json`
-- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/Metadata.json`
-- [ ] `App -> Debug — localhost/App/Debug/Components/ApiTester.json`
-- [ ] `App -> Debug — localhost/App/Debug/Components/DomainMetadata.json`
-- [ ] `App -> Debug — localhost/App/Debug/Components/Metadata.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0001.json`
@@ -3635,6 +3628,7 @@
 - [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/ComponentMigration.json`
 - [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/CoreManagement.json`
 - [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/CultureFlags.json`
+- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/DomainMetadata.json`
 - [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/Etc.json`
 - [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/Font.json`
 - [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/FormManagement.json`
