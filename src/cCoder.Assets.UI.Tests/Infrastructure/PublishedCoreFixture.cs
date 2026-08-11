@@ -459,7 +459,3 @@ public sealed class PublishedCoreFixture : IAsyncLifetime
         return ((IPEndPoint)listener.LocalEndpoint).Port;
     }
 }
-
-[CollectionDefinition(name: "Published Core UI")]
-public sealed class PublishedCoreCollection :
-    ICollectionFixture<PublishedCoreFixture>;

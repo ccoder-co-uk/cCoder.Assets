@@ -40,7 +40,7 @@ public sealed partial class TenantManagementTests
                 ILocator row = page.Locator(
                     selector: ".component[name='TenantManagement'] "
                         + ".k-grid tbody > tr")
-                    .Filter(new() { HasText = tenantName });
+                    .Filter(options: new() { HasText = tenantName });
 
                 await Assertions.Expect(locator: row)
                     .ToHaveCountAsync(
