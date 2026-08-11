@@ -51,8 +51,42 @@ public sealed partial class AppManagementTests
                     }
                     catch (TimeoutException exception)
                     {
+                        string state = await page.EvaluateAsync<string>(
+                            expression: "({ tabName, managerName }) => {"
+                                + "const tab = Array.from(document.querySelectorAll("
+                                + "`.component[name='AppManagement'] "
+                                + "button[data-bs-toggle='tab']`))"
+                                + ".find(item => item.textContent.trim() === tabName);"
+                                + "const paneName = window.jQuery?.data(tab, "
+                                + "'appManagementPane');"
+                                + "const pane = document.querySelector("
+                                + "`.component[name='AppManagement'] "
+                                + ".tab-pane[name='${paneName}']`);"
+                                + "const component = pane?.querySelector("
+                                + "`.component[name='${managerName}']`);"
+                                + "const events = tab && window.jQuery?._data(tab, "
+                                + "'events');"
+                                + "return JSON.stringify({"
+                                + "hasJQuery: Boolean(window.jQuery),"
+                                + "hasManager: Boolean(window[managerName]),"
+                                + "tabTarget: tab?.getAttribute('data-bs-target'),"
+                                + "paneName,"
+                                + "paneFound: Boolean(pane),"
+                                + "componentFound: Boolean(component),"
+                                + "managerLoading: component "
+                                + "? window.jQuery(component).data('managerLoading') "
+                                + ": null,"
+                                + "managerInitialised: component "
+                                + "? window.jQuery(component).data("
+                                + "'managerInitialised') : null,"
+                                + "eventNames: events ? Object.keys(events) : []"
+                                + "});"
+                                + "}",
+                            arg: new { tabName, managerName });
+
                         throw new TimeoutException(
-                            message: $"{managerName} did not initialize from the {tabName} tab.",
+                            message: $"{managerName} did not initialize from "
+                                + $"the {tabName} tab. State={state}",
                             innerException: exception);
                     }
                 }
