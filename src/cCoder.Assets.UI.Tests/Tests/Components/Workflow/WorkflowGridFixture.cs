@@ -18,20 +18,23 @@ internal static class WorkflowGridFixture
             .First;
 
         await grid.EvaluateAsync(
-            expression: "element => {"
+            expression: "async element => {"
                 + "const grid = window.jQuery(element).data('kendoGrid');"
                 + "if (!grid) throw new Error(`${componentName} grid was not initialized`);"
-                + "const now = new Date();"
-                + "grid.dataSource.filter({});"
-                + "grid.dataSource.data([{ Id: crypto.randomUUID(), "
+                + "await api.add('Workflow/FlowDefinition', { "
                 + "AppId: session.app.Id, Name: 'Acceptance workflow', "
-                + "Description: 'Visible workflow row', CreatedBy: session.user.Id, "
-                + "CreatedOn: now, LastUpdatedBy: session.user.Id, LastUpdated: now, "
+                + "Description: 'Visible workflow row', "
                 + "DefinitionJson: JSON.stringify({ Name: 'Acceptance workflow', "
-                + "RequiredRoles: '', Activities: [], Links: [] }), "
+                + "RequiredRoles: '', Links: [], Activities: [{ "
+                + "'$type': 'cCoder.Workflow.Activities.Start, cCoder.Workflow.Activities', "
+                + "AuthToken: null, Data: null, Ref: 'Start', State: 0 }] }), "
                 + "ReportingComponentName: null, "
-                + "InstanceReportingComponentName: null, "
-                + "type: 'Workflow/FlowDefinition' }]);"
-                + "grid.refresh(); }");
+                + "InstanceReportingComponentName: null });"
+                + "await grid.dataSource.read(); }");
+
+        await grid.Locator(
+            selectorOrLocator: "tbody > tr:not(.k-grid-norecords)")
+            .First
+            .WaitForAsync();
     }
 }

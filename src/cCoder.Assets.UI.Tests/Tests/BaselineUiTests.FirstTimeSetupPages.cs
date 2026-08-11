@@ -154,7 +154,7 @@ public sealed partial class BaselineUiTests
         IPage page)
     {
         ILocator tabs = page.Locator(
-            selector: ".k-tabstrip-items [role='tab']:visible");
+            selector: "button[data-bs-toggle='tab']:visible");
 
         int tabCount = await tabs.CountAsync();
 
