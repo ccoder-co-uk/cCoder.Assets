@@ -209,9 +209,24 @@ internal sealed partial class ComponentTestDriver
                 userMessage: $"{componentName} grid {gridIndex + 1} "
                     + $"expanded to only {height:F1}px.");
 
-            int componentCount = await detailRow.Locator(
-                selectorOrLocator: ".component")
-                .CountAsync();
+            ILocator childComponents = detailRow.Locator(
+                selectorOrLocator: ".component");
+
+            int componentCount = await childComponents.CountAsync();
+
+            for (int attempt = 0; attempt < 10; attempt++)
+            {
+                await grid.Page.WaitForTimeoutAsync(timeout: 250);
+
+                int settledCount = await childComponents.CountAsync();
+
+                if (settledCount == componentCount)
+                {
+                    break;
+                }
+
+                componentCount = settledCount;
+            }
 
             string[] childFailures = await detailRow.EvaluateAsync<string[]>(
                 expression: "element => {"
