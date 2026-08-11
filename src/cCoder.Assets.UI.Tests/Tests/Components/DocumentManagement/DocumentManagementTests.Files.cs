@@ -46,7 +46,7 @@ public sealed partial class DocumentManagementTests
                 ILocator row = page.Locator(
                     selector: ".component[name='FolderManagement'] "
                         + ".k-grid tbody > tr")
-                    .Filter(new() { HasText = fileName });
+                    .Filter(options: new() { HasText = fileName });
 
                 await Assertions.Expect(locator: row)
                     .ToHaveCountAsync(
