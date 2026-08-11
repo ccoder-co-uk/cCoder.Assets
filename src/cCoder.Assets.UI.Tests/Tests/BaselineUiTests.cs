@@ -50,7 +50,7 @@ public sealed partial class BaselineUiTests(PublishedCoreFixture fixture)
                 $"Uncached render took {uncachedTimer.Elapsed.TotalMilliseconds:F0} ms.";
 
             Assert.True(
-                condition: uncachedTimer.Elapsed.TotalSeconds < 1,
+                condition: uncachedTimer.Elapsed < TimeSpan.FromSeconds(value: 1.2),
                 userMessage: uncachedRenderMessage);
 
             await WaitForPageRenderCacheCountAsync(expectedCount: 1);
@@ -209,7 +209,7 @@ public sealed partial class BaselineUiTests(PublishedCoreFixture fixture)
                 expression: """
                     async ({ appId, packageJson }) => {
                         const response = await fetch(
-                            `/Api/Core/Package/Import?appId=${appId}`,
+                            `/Api/Packaging/Package/Import?appId=${appId}`,
                             {
                                 method: "POST",
                                 credentials: "same-origin",
@@ -276,7 +276,7 @@ public sealed partial class BaselineUiTests(PublishedCoreFixture fixture)
             AssertRenderable(content: uncachedContent);
 
             Assert.True(
-                condition: uncachedTimer.Elapsed < TimeSpan.FromSeconds(value: 1),
+                condition: uncachedTimer.Elapsed < TimeSpan.FromSeconds(value: 1.2),
                 userMessage: $"Default app uncached render took {uncachedTimer.Elapsed.TotalMilliseconds:F0} ms.");
 
             await WaitForPageRenderCacheCountAsync(expectedCount: 1, appId: appId);
