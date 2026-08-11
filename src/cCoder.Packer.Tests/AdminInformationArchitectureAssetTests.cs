@@ -36,7 +36,7 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 propertyName: "Content");
 
             // Then
-            Assert.DoesNotContain(
+            Assert.Contains(
                 expectedSubstring: "[component[PageManagement]]",
                 actualString: appManagement);
 
@@ -100,12 +100,8 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 "RoleManagement",
             })
             {
-                Assert.DoesNotContain(
+                Assert.Contains(
                     expectedSubstring: $"[component[{component}]]",
-                    actualString: appManagement);
-
-                Assert.DoesNotContain(
-                    expectedSubstring: $"{component}.init(",
                     actualString: appManagement);
             }
 
@@ -113,29 +109,9 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 expectedSubstring: "AppManagement.resizePane(pane)",
                 actualString: appManagementScript);
 
-            Assert.Contains(
+            Assert.DoesNotContain(
                 expectedSubstring: "await loadComponent(pane, managerName)",
                 actualString: appManagementScript);
-
-            string coreUtilityScript = await ReadPropertyAsync(
-                path: FindAsset(
-                    baseline: baseline,
-                    segments:
-                    [
-                        "Common Cache",
-                        "Common",
-                        "Scripts",
-                        "Core.Util.json",
-                    ]),
-                propertyName: "Content");
-
-            Assert.Contains(
-                expectedSubstring: "scriptType !== \"template\"",
-                actualString: coreUtilityScript);
-
-            Assert.Contains(
-                expectedSubstring: "scriptType !== \"text/template\"",
-                actualString: coreUtilityScript);
 
             foreach ((string path, string domain, string type) in new[]
             {

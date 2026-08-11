@@ -13,10 +13,10 @@
 | App | `App` | `B2B Portal Admin` | 4 | 0 |
 | App | `App` | `CMS` | 444 | 0 |
 | App | `App` | `Common` | 12 | 0 |
-| App | `App` | `ContentManagement` | 480 | 167 |
+| App | `App` | `ContentManagement` | 480 | 166 |
 | App | `App` | `Core` | 85 | 3 |
 | App | `App` | `CRM` | 156 | 0 |
-| App | `App` | `Default` | 1274 | 24 |
+| App | `App` | `Default` | 1274 | 23 |
 | App | `App` | `DevTools` | 2 | 0 |
 | App | `App` | `DMS` | 104 | 0 |
 | App | `App` | `Documentation` | 2 | 0 |
@@ -1200,7 +1200,6 @@
 - [ ] `App -> Common — localhost/App/Common/Resources/Default.json#4`
 - [ ] `App -> Common — localhost/App/Common/Resources/Default.json#5`
 - [ ] `App -> Common — localhost/App/Common/Resources/Default.json#6`
-- [ ] `App -> Common — localhost/App/Default/Scripts/Core.Util.json`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Components/CommonCacheComponents.json`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Components/CommonCacheEndpoint.json`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Components/CommonCacheResources.json`
