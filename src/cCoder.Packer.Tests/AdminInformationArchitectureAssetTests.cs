@@ -222,6 +222,10 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 actualString: documentManagementContent);
 
             Assert.Contains(
+                expectedSubstring: "document-tree-node-icon",
+                actualString: documentManagementScript);
+
+            Assert.DoesNotContain(
                 expectedSubstring: "/icons/folder.svg",
                 actualString: documentManagementScript);
 

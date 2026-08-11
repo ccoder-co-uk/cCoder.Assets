@@ -17,13 +17,18 @@ internal sealed partial class ComponentTestDriver
             selector: $".component[name='{componentName}']");
 
         ILocator grids = component.Locator(
-            selectorOrLocator: ".k-grid:visible");
+            selectorOrLocator: ".k-grid");
 
         int gridCount = await grids.CountAsync();
 
         for (int index = 0; index < gridCount; index++)
         {
             ILocator grid = grids.Nth(index: index);
+
+            if (!await grid.IsVisibleAsync())
+            {
+                continue;
+            }
 
             string[] failures = await grid.EvaluateAsync<string[]>(
                 expression: "element => {"
@@ -155,7 +160,14 @@ internal sealed partial class ComponentTestDriver
             return;
         }
 
+        await search.ClickAsync();
+        ILocatorAssertions searchAssertions = Assertions.Expect(
+            locator: search);
+
+        await searchAssertions.ToBeEditableAsync();
         await search.FillAsync(value: "component-search-check");
+
+        await grid.Page.WaitForTimeoutAsync(timeout: 750);
 
         string value = await search.InputValueAsync();
 
