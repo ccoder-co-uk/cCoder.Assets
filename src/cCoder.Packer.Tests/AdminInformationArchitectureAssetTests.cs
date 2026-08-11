@@ -36,7 +36,7 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 propertyName: "Content");
 
             // Then
-            Assert.Contains(
+            Assert.DoesNotContain(
                 expectedSubstring: "[component[PageManagement]]",
                 actualString: appManagement);
 
@@ -100,7 +100,7 @@ public sealed partial class AdminInformationArchitectureAssetTests
                 "RoleManagement",
             })
             {
-                Assert.Contains(
+                Assert.DoesNotContain(
                     expectedSubstring: $"[component[{component}]]",
                     actualString: appManagement);
 
@@ -112,6 +112,30 @@ public sealed partial class AdminInformationArchitectureAssetTests
             Assert.Contains(
                 expectedSubstring: "AppManagement.resizePane(pane)",
                 actualString: appManagementScript);
+
+            Assert.Contains(
+                expectedSubstring: "await loadComponent(pane, managerName)",
+                actualString: appManagementScript);
+
+            string coreUtilityScript = await ReadPropertyAsync(
+                path: FindAsset(
+                    baseline: baseline,
+                    segments:
+                    [
+                        "Common Cache",
+                        "Common",
+                        "Scripts",
+                        "Core.Util.json",
+                    ]),
+                propertyName: "Content");
+
+            Assert.Contains(
+                expectedSubstring: "scriptType !== \"template\"",
+                actualString: coreUtilityScript);
+
+            Assert.Contains(
+                expectedSubstring: "scriptType !== \"text/template\"",
+                actualString: coreUtilityScript);
 
             foreach ((string path, string domain, string type) in new[]
             {
