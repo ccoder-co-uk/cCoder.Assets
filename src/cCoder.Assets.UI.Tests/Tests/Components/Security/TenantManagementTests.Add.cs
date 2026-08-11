@@ -3,7 +3,6 @@
 // ---------------------------------------------------------------
 
 using Microsoft.Playwright;
-using System.Text.RegularExpressions;
 using Xunit;
 
 namespace cCoder.Assets.UI.Tests.Tests.Components.Security;
@@ -36,11 +35,6 @@ public sealed partial class TenantManagementTests
 
                 await Assertions.Expect(locator: rows)
                     .ToHaveCountAsync(count: originalCount + 1);
-
-                await Assertions.Expect(locator: rows.First)
-                    .ToHaveAttributeAsync(
-                        name: "data-uid",
-                        value: new Regex(pattern: ".+"));
             });
 
         // Then

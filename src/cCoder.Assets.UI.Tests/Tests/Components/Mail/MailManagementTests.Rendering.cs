@@ -19,9 +19,13 @@ public sealed partial class MailManagementTests(PublishedCoreFixture fixture)
         const string pagePath = "Admin/MailManagement";
 
         // When
-        await driver.AssertComponentRendersAsync(
+        await driver.AssertAuthenticatedActionAsync(
             pagePath: pagePath,
-            componentName: "MailManagement");
+            componentName: "MailManagement",
+            action: async page =>
+            {
+                await ArrangeVisibleMailRowsAsync(page: page);
+            });
 
         // Then
     }

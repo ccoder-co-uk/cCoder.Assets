@@ -24,6 +24,8 @@ public sealed partial class MailManagementTests
             componentName: "MailManagement",
             action: async page =>
             {
+                await ArrangeVisibleMailRowsAsync(page: page);
+
                 await page.RouteAsync(
                     url: "**/Api/Mail/QueuedEmail(*)/Retry",
                     handler: async route =>

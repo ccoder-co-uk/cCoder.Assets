@@ -33,6 +33,8 @@ public sealed partial class MailManagementTests
             componentName: "MailManagement",
             action: async page =>
             {
+                await ArrangeVisibleMailRowsAsync(page: page);
+
                 ILocator component = page.Locator(
                     selector: ".component[name='MailManagement']");
 

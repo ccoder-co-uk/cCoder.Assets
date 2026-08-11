@@ -19,10 +19,14 @@ public sealed partial class FolderManagementTests(PublishedCoreFixture fixture)
         const string pagePath = "Admin/DocumentManagement";
 
         // When
-        await driver.AssertComponentRendersAsync(
+        await driver.AssertAuthenticatedActionAsync(
             pagePath: pagePath,
             componentName: "FolderManagement",
-            navigate: true);
+            action: async page =>
+            {
+                await DocumentManagementGridFixture.ArrangeVisibleFileRowAsync(
+                    page: page);
+            });
 
         // Then
     }

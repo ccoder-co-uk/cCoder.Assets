@@ -19,10 +19,15 @@ public sealed partial class WorkflowListTests(PublishedCoreFixture fixture)
         const string pagePath = "Admin/Workflows";
 
         // When
-        await driver.AssertComponentRendersAsync(
+        await driver.AssertAuthenticatedActionAsync(
             pagePath: pagePath,
             componentName: "WorkflowList",
-            navigate: true);
+            action: async page =>
+            {
+                await WorkflowGridFixture.ArrangeVisibleFlowAsync(
+                    page: page,
+                    componentName: "WorkflowList");
+            });
 
         // Then
     }

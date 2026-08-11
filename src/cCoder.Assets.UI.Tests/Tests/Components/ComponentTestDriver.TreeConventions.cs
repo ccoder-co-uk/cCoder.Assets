@@ -34,7 +34,7 @@ internal sealed partial class ComponentTestDriver
                     + "const content = node.querySelector('.k-treeview-leaf, "
                     + ".k-in');"
                     + "if (content && !content.querySelector('.k-icon, .k-svg-icon, "
-                    + "img, svg')) failures.push('node ' + (index + 1) "
+                    + ".page-tree-icon, .document-tree-node-icon, img, svg')) failures.push('node ' + (index + 1) "
                     + "+ ' has no icon'); });"
                     + "if (widget.options.dragAndDrop "
                     + "&& typeof widget.options.drop !== 'function') "
