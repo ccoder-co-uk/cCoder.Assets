@@ -114,10 +114,6 @@ public sealed class PublishedCoreFixture : IAsyncLifetime
         BrowserDiagnosticCollector diagnostics = new();
         diagnostics.Attach(page: page);
 
-        await page.RouteAsync(
-            url: "**/Packages/**",
-            handler: ServePackageAsync);
-
         try
         {
             await page.GotoAsync(
@@ -185,58 +181,12 @@ public sealed class PublishedCoreFixture : IAsyncLifetime
             ["Logging__ConnectionString"] = Settings.CoreConnectionString,
             ["Mail__ConnectionString"] = Settings.CoreConnectionString,
             ["Packaging__ConnectionString"] = Settings.CoreConnectionString,
-            ["Packaging__AssetsRoot"] = new Uri(
-                WebBaseAddress,
-                "Packages/").ToString(),
             ["Workflow__ConnectionString"] = Settings.CoreConnectionString,
             ["Eventing__ProviderType"] = "Http",
             ["Eventing__Http__HubUrl"] =
                 $"http://127.0.0.1:{hostedServicesPort}/Api/Eventing",
             ["Eventing__Http__MaxConcurrency"] = "1"
         };
-
-    private async Task ServePackageAsync(IRoute route)
-    {
-        Uri requestUri = new(uriString: route.Request.Url);
-
-        string relativePath = Uri.UnescapeDataString(
-            stringToUnescape: requestUri.AbsolutePath)
-            .TrimStart(trimChar: '/')
-            .Replace(
-                oldValue: "/",
-                newValue: Path.DirectorySeparatorChar.ToString());
-
-        string packageRoot = Path.GetFullPath(
-            path: Path.Combine(
-                path1: Settings.AssetsRoot,
-                path2: "Packages"));
-
-        string requestedPath = Path.GetFullPath(
-            path: Path.Combine(
-                path1: Settings.AssetsRoot,
-                path2: relativePath));
-
-        if (!requestedPath.StartsWith(
-            value: packageRoot,
-            comparisonType: StringComparison.OrdinalIgnoreCase)
-            || !File.Exists(path: requestedPath))
-        {
-            await route.FulfillAsync(
-                options: new RouteFulfillOptions
-                {
-                    Status = 404
-                });
-
-            return;
-        }
-
-        await route.FulfillAsync(
-            options: new RouteFulfillOptions
-            {
-                Path = requestedPath,
-                ContentType = "application/json"
-            });
-    }
 
     private async Task WaitForSetupCompletionAsync(IPage page)
     {
