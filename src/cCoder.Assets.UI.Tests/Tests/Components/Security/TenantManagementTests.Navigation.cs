@@ -63,6 +63,83 @@ public sealed partial class TenantManagementTests
                     locator: appsPane.Locator(
                         selectorOrLocator: ".component[name='TenantAppManagement']"))
                     .ToHaveCountAsync(count: 1);
+
+                ILocator tenantAppManagement = appsPane.Locator(
+                    selectorOrLocator: ".component[name='TenantAppManagement']");
+
+                ILocator appExpander = tenantAppManagement.Locator(
+                    selectorOrLocator: ".k-master-row .k-hierarchy-cell")
+                    .First;
+
+                await appExpander.WaitForAsync(
+                    options: new() { State = WaitForSelectorState.Visible });
+
+                await appExpander.ClickAsync();
+
+                ILocator appDetail = tenantAppManagement.Locator(
+                    selectorOrLocator: ".k-detail-row:visible")
+                    .First;
+
+                ILocator appManagement = appDetail.Locator(
+                    selectorOrLocator: ".component[name='AppManagement']");
+
+                await Assertions.Expect(locator: appManagement)
+                    .ToHaveCountAsync(count: 1);
+
+                Dictionary<string, string> managersByTab = new()
+                {
+                    ["Pages"] = "PageManagement",
+                    ["Theming"] = "AppTheming",
+                    ["Cultures"] = "CultureManagement",
+                    ["Layouts"] = "LayoutManagement",
+                    ["Templates"] = "TemplateManagement",
+                    ["Components"] = "ComponentManagement",
+                    ["Resources"] = "ResourceManagement",
+                    ["roles"] = "RoleManagement"
+                };
+
+                foreach ((string tabName, string managerName) in managersByTab)
+                {
+                    ILocator managerTab = appManagement.GetByRole(
+                        role: AriaRole.Tab,
+                        options: new() { Name = tabName, Exact = true });
+
+                    await managerTab.ClickAsync();
+
+                    await Assertions.Expect(locator: managerTab)
+                        .ToHaveClassAsync(
+                            expected: new Regex(pattern: "(^|\\s)active(\\s|$)"));
+
+                    ILocator manager = appManagement.Locator(
+                        selectorOrLocator: $".component[name='{managerName}']");
+
+                    await Assertions.Expect(locator: manager)
+                        .ToHaveCountAsync(count: 1);
+
+                    try
+                    {
+                        await page.WaitForFunctionAsync(
+                            expression: "element => window.jQuery(element)"
+                                + ".data('managerInitialised') === true",
+                            arg: await manager.ElementHandleAsync(),
+                            options: new() { Timeout = 15_000 });
+                    }
+                    catch (TimeoutException exception)
+                    {
+                        throw new TimeoutException(
+                            message: $"Nested {managerName} did not initialize from the {tabName} tab.",
+                            innerException: exception);
+                    }
+                }
+
+                await appExpander.ClickAsync();
+                await appExpander.ClickAsync();
+
+                await Assertions.Expect(
+                    locator: tenantAppManagement.Locator(
+                        selectorOrLocator: ".k-detail-row:visible "
+                            + ".component[name='AppManagement']"))
+                    .ToHaveCountAsync(count: 1);
             });
 
         // Then
