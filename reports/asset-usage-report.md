@@ -13,7 +13,7 @@
 | App | `App` | `B2B Portal Admin` | 4 | 0 |
 | App | `App` | `CMS` | 444 | 0 |
 | App | `App` | `Common` | 12 | 0 |
-| App | `App` | `ContentManagement` | 481 | 166 |
+| App | `App` | `ContentManagement` | 480 | 166 |
 | App | `App` | `Core` | 85 | 3 |
 | App | `App` | `CRM` | 156 | 0 |
 | App | `App` | `Debug` | 6 | 0 |
@@ -1497,7 +1497,6 @@
 - [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/CoreManagement.json`
 - [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/Etc.json`
 - [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/Font.json`
-- [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/LayoutManagement.json`
 - [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/LayoutMigration.json`
 - [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/MyWorkspace.json`
 - [ ] `App -> ContentManagement — localhost/App/ContentManagement/Components/PageContextMenu.json`

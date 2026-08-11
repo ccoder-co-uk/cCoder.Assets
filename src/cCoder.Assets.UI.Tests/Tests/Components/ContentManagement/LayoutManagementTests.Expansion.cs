@@ -48,9 +48,19 @@ public sealed partial class LayoutManagementTests
                 float height = await detail.EvaluateAsync<float>(
                     expression: "element => element.getBoundingClientRect().height");
 
+                float editorHeight = await detail
+                    .Locator(selectorOrLocator: ".monaco-editor")
+                    .First
+                    .EvaluateAsync<float>(
+                        expression: "element => element.getBoundingClientRect().height");
+
                 Assert.True(
                     condition: height >= 300,
                     userMessage: $"Layout expansion is only {height:F1}px high.");
+
+                Assert.True(
+                    condition: editorHeight >= 250,
+                    userMessage: $"Layout editor is only {editorHeight:F1}px high.");
 
                 await ComponentTestDriver.AssertMonacoEditorAsync(
                     page: page,
