@@ -168,7 +168,7 @@ internal sealed partial class CreateAppProcessingService(
                 requestUri: Endpoint(
                     api: api,
                     relativePath:
-                        "Api/ContentManagement/CommonObject/Import"),
+                        "Api/ContentManagement/CommonObject"),
                 content: commonObjects,
                 bearerToken: bearerToken,
                 cancellationToken: cancellationToken);
@@ -219,10 +219,7 @@ internal sealed partial class CreateAppProcessingService(
         }
 
         return JsonSerializer.SerializeToElement(
-            value: new JsonObject
-            {
-                ["value"] = values,
-            },
+            value: values,
             options: JsonDefaults.Options);
     }
 

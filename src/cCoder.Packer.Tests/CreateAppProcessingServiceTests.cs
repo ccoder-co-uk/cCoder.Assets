@@ -146,11 +146,10 @@ public sealed partial class CreateAppProcessingServiceTests
                 call: broker.Calls[3],
                 expectedUri:
                     "https://example.test/Api/ContentManagement/" +
-                        "CommonObject/Import",
+                        "CommonObject",
                 expectedToken: "test-token");
 
-            JsonElement commonObject = broker.Calls[3].Content
-                .GetProperty(propertyName: "value")[0];
+            JsonElement commonObject = broker.Calls[3].Content[0];
 
             Assert.Equal(
                 expected: "Navigation",
