@@ -10,7 +10,7 @@
     {
       "CultureId": "",
       "Name": "body",
-      "Html": "[component[FlowEditor]]"
+      "Html": "<link rel=\"stylesheet\" href=\"/code-editor.min.css\" />\n<script nonce=\"[request[nonce]]\" src=\"/code-editor.min.js\"></script>\n<script nonce=\"[request[nonce]]\" src=\"/workflow.min.js\"></script>\n[component[FlowEditor]]"
     },
     {
       "CultureId": "en-GB",

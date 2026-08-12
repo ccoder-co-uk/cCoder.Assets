@@ -1,9 +1,0 @@
-{
-  "Name": "Widgets.ConfirmDialog",
-  "Content": "class ConfirmDialog extends Dialog {\r\n\r\n    init(callback) {\r\n        if (!this.template) {\r\n            this.template = \"<div class='dialog'><p>\" + this.args.question + \"</p><hr /><button class='btn btn-sm btn-primary float-end' name='confirm'>\" + this.args.confirm + `</button></div>`;\r\n        }\r\n        super.init(callback);\r\n    }\r\n}",
-  "CreatedOn": "2026-07-25T08:49:00.0000000+00:00",
-  "LastUpdated": "2026-07-25T08:49:00.0000000+00:00",
-  "Key": "Common",
-  "PackageType": "ContentManagement/Script",
-  "IncludeInSubSequentImports": true
-}

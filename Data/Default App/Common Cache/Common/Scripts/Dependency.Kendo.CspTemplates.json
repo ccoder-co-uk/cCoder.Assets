@@ -1,5 +1,0 @@
-{
-  "Name": "Dependency.Kendo.CspTemplates",
-  "Key": "Common",
-  "Content": ";(function () {\r\n    const compileTemplate = kendo.template;\r\n\r\n    kendo.template = function (template, options) {\r\n        if (typeof template === \"function\") {\r\n            return template;\r\n        }\r\n\r\n        if (typeof template === \"string\" && !template.includes(\"#\")) {\r\n            return function () {\r\n                return template;\r\n            };\r\n        }\r\n\r\n        return compileTemplate.call(kendo, template, options);\r\n    };\r\n})();"
-}

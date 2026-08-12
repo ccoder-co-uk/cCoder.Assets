@@ -13,7 +13,7 @@
 | App | `App` | `B2B Portal Admin` | 4 | 0 |
 | App | `App` | `CMS` | 444 | 0 |
 | App | `App` | `Common` | 12 | 0 |
-| App | `App` | `ContentManagement` | 480 | 166 |
+| App | `App` | `ContentManagement` | 481 | 167 |
 | App | `App` | `Core` | 85 | 3 |
 | App | `App` | `CRM` | 156 | 0 |
 | App | `App` | `Default` | 1274 | 23 |
@@ -35,14 +35,14 @@
 | App | `Common Cache` | `AI` | 2 | 2 |
 | App | `Common Cache` | `AppSecurity` | 108 | 10 |
 | App | `Common Cache` | `ClientRelationshipManagement` | 2 | 2 |
-| App | `Common Cache` | `Common` | 179 | 145 |
-| App | `Common Cache` | `ContentManagement` | 563 | 97 |
+| App | `Common Cache` | `Common` | 57 | 24 |
+| App | `Common Cache` | `ContentManagement` | 540 | 74 |
 | App | `Common Cache` | `Core` | 63 | 9 |
 | App | `Common Cache` | `Default` | 18 | 0 |
 | App | `Common Cache` | `DocumentManagement` | 381 | 252 |
 | App | `Common Cache` | `Mail` | 6 | 6 |
 | App | `Common Cache` | `Security` | 63 | 0 |
-| App | `Common Cache` | `Workflow` | 135 | 33 |
+| App | `Common Cache` | `Workflow` | 111 | 9 |
 
 ### Default-key ownership candidates
 
@@ -1315,6 +1315,7 @@
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Pages/Admin_PlatformAdmin_CommonCacheEndpoint.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#1`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#10`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#100`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#11`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#12`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#13`
@@ -3069,49 +3070,11 @@
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Resources/Default.json#4`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Resources/Default.json#5`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Resources/Default.json#6`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Background.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Core.Api.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Core.Drawing.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Core.Model.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Core.Util.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/DefaultResourcing.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Bootstrap.BootstrapBundle.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Jquery.Jquery370.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Jquery.JqueryUi.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Jquery.JqueryValidate.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Kendo.KendoAllV20242514.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Kendo.KendoUiLicense.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Other.Monaco.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Dependency.Other.Signalr.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Execute.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/KendoCultures.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.BootstrapDialog.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.BootstrapTabs.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Chart.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.CMS.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.ConfirmDialog.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.ConsoleDialog.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.ContextMenuWidget.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.DataTreeView.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Detail.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Dialog.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.EditorDialog.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.ExportDialog.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.FileDropContainerWidget.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Grid.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.OdataTree.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Picker.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.PieChart.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.ReadOnlyDetailView.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Tree.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.TreeView.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Widget.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.Workspace.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Scripts/Widgets.WritableDetailView.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Styles/Baseline.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Styles/Bootstrap.Kendo.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Styles/Dependency.Bootstrap.Bootstrap.json`
-- [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Styles/Dependency.Kendo.KendoV20242514Bootstrap.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Styles/Source.Kendo.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Styles/Source.Site.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Components/DetailedNav.json`
@@ -3126,57 +3089,11 @@
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#4`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#5`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Resources/Default.json#6`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Background.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Bundle.Monaco.Core.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Bundle.Monaco.CSharp.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Bundle.Monaco.Web.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Core.Api.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Core.Drawing.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Core.Model.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Core.Util.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/DefaultResourcing.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Bootstrap.BootstrapBundle.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Jquery.Jquery370.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Jquery.JqueryUi.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Jquery.JqueryValidate.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Kendo.CspTemplates.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Kendo.KendoAllV20242514.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Kendo.KendoUiLicense.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Monaco.Runtime.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Monaco.Worker.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Other.Monaco.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Dependency.Other.Signalr.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Execute.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/KendoCultures.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.BootstrapDialog.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.BootstrapTabs.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.Chart.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.CMS.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.ConfirmDialog.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.ConsoleDialog.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.ContextMenuWidget.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.DataTreeView.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.Detail.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.Dialog.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.EditorDialog.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.ExportDialog.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.FileDropContainerWidget.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.Grid.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.OdataTree.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.Picker.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.PieChart.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.ReadOnlyDetailView.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.Tree.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.TreeView.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.Widget.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.Workspace.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Scripts/Widgets.WritableDetailView.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Baseline.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Bootstrap.Kendo.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Bundle.Monaco.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Dependency.Bootstrap.Bootstrap.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Dependency.Kendo.KendoV20242514Bootstrap.json`
-- [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Dependency.Monaco.Runtime.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Source.Kendo.json`
 - [ ] `Common Cache -> Common — Default App/Common Cache/Common/Styles/Source.Site.json`
 - [ ] `Common Cache -> Common — localhost/Common Cache/Common/Components/DetailedNav.json`
@@ -3191,49 +3108,11 @@
 - [ ] `Common Cache -> Common — localhost/Common Cache/Common/Resources/Default.json#4`
 - [ ] `Common Cache -> Common — localhost/Common Cache/Common/Resources/Default.json#5`
 - [ ] `Common Cache -> Common — localhost/Common Cache/Common/Resources/Default.json#6`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Background.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Core.Api.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Core.Drawing.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Core.Model.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Core.Util.json`
 - [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/DefaultResourcing.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Dependency.Bootstrap.BootstrapBundle.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Dependency.Jquery.Jquery370.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Dependency.Jquery.JqueryUi.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Dependency.Jquery.JqueryValidate.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Dependency.Kendo.KendoAllV20242514.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Dependency.Kendo.KendoUiLicense.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Dependency.Other.Monaco.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Dependency.Other.Signalr.json`
 - [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Execute.json`
 - [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/KendoCultures.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.BootstrapDialog.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.BootstrapTabs.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.Chart.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.CMS.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.ConfirmDialog.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.ConsoleDialog.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.ContextMenuWidget.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.DataTreeView.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.Detail.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.Dialog.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.EditorDialog.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.ExportDialog.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.FileDropContainerWidget.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.Grid.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.OdataTree.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.Picker.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.PieChart.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.ReadOnlyDetailView.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.Tree.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.TreeView.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.Widget.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.Workspace.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Scripts/Widgets.WritableDetailView.json`
 - [ ] `Common Cache -> Common — localhost/Common Cache/Common/Styles/Baseline.json`
 - [ ] `Common Cache -> Common — localhost/Common Cache/Common/Styles/Bootstrap.Kendo.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Styles/Dependency.Bootstrap.Bootstrap.json`
-- [ ] `Common Cache -> Common — localhost/Common Cache/Common/Styles/Dependency.Kendo.KendoV20242514Bootstrap.json`
 - [ ] `Common Cache -> Common — localhost/Common Cache/Common/Styles/Source.Kendo.json`
 - [ ] `Common Cache -> Common — localhost/Common Cache/Common/Styles/Source.Site.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Components/AppCreator.json`
@@ -3414,14 +3293,7 @@
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#7`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#8`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Resources/fr-FR.json#9`
-- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Core.ContentEditor.json`
-- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Core.Editor.json`
-- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Core.PageToolbar.json`
 - [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/MigrateApp.json`
-- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Monaco.CSharpMonacoEditor.json`
-- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Monaco.HTMLMonacoEditor.json`
-- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Monaco.JavaScriptMonacoEditor.json`
-- [ ] `Common Cache -> ContentManagement — ccoder.co.uk/Common Cache/ContentManagement/Scripts/Monaco.MonacoEditor.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/AppCreator.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/AppList.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/AppManagement.json`
@@ -3603,16 +3475,7 @@
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#7`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#8`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#9`
-- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Core.ContentEditor.json`
-- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Core.Editor.json`
-- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Core.PageToolbar.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/MigrateApp.json`
-- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Monaco.CSharpMonacoEditor.json`
-- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Monaco.HTMLMonacoEditor.json`
-- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Monaco.JavaScriptMonacoEditor.json`
-- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Monaco.JavaScriptValidation.json`
-- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Monaco.MonacoEditor.json`
-- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/Monaco.WebLanguages.json`
 - [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/AppCreator.json`
 - [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/AppList.json`
 - [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/AppManagement.json`
@@ -3791,14 +3654,7 @@
 - [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#7`
 - [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#8`
 - [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Resources/fr-FR.json#9`
-- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Scripts/Core.ContentEditor.json`
-- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Scripts/Core.Editor.json`
-- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Scripts/Core.PageToolbar.json`
 - [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Scripts/MigrateApp.json`
-- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Scripts/Monaco.CSharpMonacoEditor.json`
-- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Scripts/Monaco.HTMLMonacoEditor.json`
-- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Scripts/Monaco.JavaScriptMonacoEditor.json`
-- [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Scripts/Monaco.MonacoEditor.json`
 - [ ] `Common Cache -> Core — ccoder.co.uk/Common Cache/Core/Components/ApiTester.json`
 - [ ] `Common Cache -> Core — ccoder.co.uk/Common Cache/Core/Components/BackgroundJobs.json`
 - [ ] `Common Cache -> Core — ccoder.co.uk/Common Cache/Core/Components/BPEditor.json`
@@ -4367,14 +4223,6 @@
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/en-GB.json#4`
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/fr-FR.json#1`
 - [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Resources/fr-FR.json#2`
-- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Action.json`
-- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Activity.json`
-- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Close.json`
-- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Connector.json`
-- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Flow.json`
-- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Handle.json`
-- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Link.json`
-- [ ] `Common Cache -> Workflow — ccoder.co.uk/Common Cache/Workflow/Scripts/Workflow.Workflowdesigner.json`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Components/ActivityEditor.json`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Components/ExpressionBuilder.json`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Components/FlowEditor.json`
@@ -4412,14 +4260,6 @@
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/en-GB.json#4`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/fr-FR.json#1`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/fr-FR.json#2`
-- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Action.json`
-- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Activity.json`
-- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Close.json`
-- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Connector.json`
-- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Flow.json`
-- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Handle.json`
-- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Link.json`
-- [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Scripts/Workflow.Workflowdesigner.json`
 - [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/ActivityEditor.json`
 - [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/ExpressionBuilder.json`
 - [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/FlowEditor.json`
@@ -4457,14 +4297,6 @@
 - [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/en-GB.json#4`
 - [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/fr-FR.json#1`
 - [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/fr-FR.json#2`
-- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Scripts/Workflow.Action.json`
-- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Scripts/Workflow.Activity.json`
-- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Scripts/Workflow.Close.json`
-- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Scripts/Workflow.Connector.json`
-- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Scripts/Workflow.Flow.json`
-- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Scripts/Workflow.Handle.json`
-- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Scripts/Workflow.Link.json`
-- [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Scripts/Workflow.Workflowdesigner.json`
 
 ## Review queues
 

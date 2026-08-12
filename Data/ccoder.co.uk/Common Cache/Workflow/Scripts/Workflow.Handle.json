@@ -1,9 +1,0 @@
-{
-  "Name": "Workflow.Handle",
-  "Content": "class Handle extends Collidable {\r\n    constructor(parent, col, textCol) {\r\n        super(parent.model.Ref, parent.x, parent.y, parent.w - 1, handleHeight, 0);\r\n\r\n        if (this.text.length > 25) { this.text = this.text.substring(0, 25) + \"...\"; }\r\n\r\n        this.type = 'handle';\r\n        this.col = col;\r\n        this.textCol = textCol || $('h2').css('color');\r\n        this.parent = parent;\r\n        this.activity = parent;\r\n        this.flow = this.parent.flow;\r\n        this.objects = [new Close(this)]; //, new EditProps(this) ];\r\n    }\r\n\r\n    draw(ctx) {\r\n        draw.enableShadows(ctx, this.x, this.y, this.w, this.h, \"#CCC\", 1);\r\n        draw.rect(ctx, this.x, this.y, this.w, this.h, this.col);\r\n        draw.disableShadows(ctx);\r\n\r\n        draw.text(ctx, this.x + 8, this.y + 17, this.text, this.textCol);\r\n        this.objects.forEach(o => o.draw(ctx));\r\n    }\r\n\r\n    mousedown(e) {\r\n        this.moving = true;\r\n        this.start = mouseposition;\r\n    }\r\n\r\n    mouseup(e) {\r\n        this.moving = false;\r\n    }\r\n\r\n    updatePosition() {\r\n        this.x = this.parent.x;\r\n        this.y = this.parent.y;\r\n        this.objects.forEach(o => o.updatePosition());\r\n    }\r\n\r\n    move(e) {\r\n        if (this.moving) {\r\n            this.parent.setPosition(\r\n                this.x + (mouseposition.x - this.start.x),\r\n                this.y + (mouseposition.y - this.start.y)\r\n            );\r\n            this.start = mouseposition;\r\n        }\r\n    }\r\n}",
-  "CreatedOn": "2026-07-25T08:49:00.0000000+00:00",
-  "LastUpdated": "2026-07-25T08:49:00.0000000+00:00",
-  "Key": "Workflow",
-  "PackageType": "ContentManagement/Script",
-  "IncludeInSubSequentImports": true
-}

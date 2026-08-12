@@ -35,6 +35,17 @@
   {
     "Culture": "",
     "Key": "ContentManagement",
+    "Name": "initialpackages",
+    "DisplayName": "Initial packages",
+    "ShortDisplayName": "Initial packages",
+    "Description": "Packages imported when the app is created",
+    "LastUpdated": "2026-08-12T10:00:00+01:00",
+    "PackageType": "ContentManagement/Resource",
+    "IncludeInSubSequentImports": true
+  },
+  {
+    "Culture": "",
+    "Key": "ContentManagement",
     "Name": "appdeleted",
     "DisplayName": "App Deleted",
     "ShortDisplayName": "App Deleted",

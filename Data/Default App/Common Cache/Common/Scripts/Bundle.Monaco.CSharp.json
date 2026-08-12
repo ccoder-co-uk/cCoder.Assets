@@ -1,9 +1,0 @@
-{
-  "Name": "Bundle.Monaco.CSharp",
-  "Key": "Common",
-  "Content": "[script[Bundle.Monaco.Core]]\r\n[script[Monaco.CSharpMonacoEditor]]",
-  "CreatedOn": "2026-08-09T00:00:00+01:00",
-  "LastUpdated": "2026-08-09T00:00:00+01:00",
-  "IncludeInSubSequentImports": true,
-  "PackageType": "ContentManagement/Script"
-}

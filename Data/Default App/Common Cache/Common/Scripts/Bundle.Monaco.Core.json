@@ -1,9 +1,0 @@
-{
-  "Name": "Bundle.Monaco.Core",
-  "Key": "Common",
-  "Content": "[script[Dependency.Monaco.Worker]]\r\n[script[Monaco.MonacoEditor]]\r\n[script[Dependency.Monaco.Runtime]]",
-  "CreatedOn": "2026-08-09T00:00:00+01:00",
-  "LastUpdated": "2026-08-09T00:00:00+01:00",
-  "IncludeInSubSequentImports": true,
-  "PackageType": "ContentManagement/Script"
-}

@@ -1,9 +1,0 @@
-{
-  "Name": "Bundle.Monaco",
-  "Key": "Common",
-  "Content": "[style[Dependency.Monaco.Runtime]]",
-  "CreatedOn": "2026-08-09T00:00:00+01:00",
-  "LastUpdated": "2026-08-09T00:00:00+01:00",
-  "IncludeInSubSequentImports": true,
-  "PackageType": "ContentManagement/Style"
-}

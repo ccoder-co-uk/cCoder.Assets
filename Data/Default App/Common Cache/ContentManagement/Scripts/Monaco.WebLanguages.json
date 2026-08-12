@@ -1,9 +1,0 @@
-{
-  "Name": "Monaco.WebLanguages",
-  "Key": "ContentManagement",
-  "Content": "if (window.monaco && window.monaco.languages) {\r\n    const registerLanguage = (id, definition) => {\r\n        if (!window.monaco.languages.getLanguages().some(language => language.id === id)) {\r\n            window.monaco.languages.register({ id: id });\r\n        }\r\n\r\n        window.monaco.languages.setMonarchTokensProvider(id, definition);\r\n    };\r\n\r\n    registerLanguage(\"json\", { tokenizer: { root: [[/\\\"(?:[^\\\"\\\\]|\\\\.)*\\\"(?=\\s*:)/, \"key\"], [/\\\"(?:[^\\\"\\\\]|\\\\.)*\\\"/, \"string\"], [/-?\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?/, \"number\"], [/true|false|null/, \"keyword\"], [/[{}\\[\\],:]/, \"delimiter\"], [/\\s+/, \"white\"]] } });\r\n    registerLanguage(\"javascript\", { tokenizer: { root: [[/\\b(?:async|await|break|case|catch|class|const|continue|default|delete|do|else|export|extends|false|finally|for|from|function|if|import|in|instanceof|let|new|null|of|return|static|super|switch|this|throw|true|try|typeof|undefined|var|void|while|yield)\\b/, \"keyword\"], [/\\\"(?:[^\\\"\\\\]|\\\\.)*\\\"|'(?:[^'\\\\]|\\\\.)*'|`(?:[^`\\\\]|\\\\.)*`/, \"string\"], [/\\/\\*.*\\*\\//, \"comment\"], [/\\/\\/.*/, \"comment\"], [/\\b\\d+(?:\\.\\d+)?\\b/, \"number\"], [/[{}\\[\\]().,;:]/, \"delimiter\"]] } });\r\n    registerLanguage(\"html\", { tokenizer: { root: [[/<!--/, \"comment\", \"@comment\"], [/<[\\w-]+/, \"tag\", \"@tag\"], [/<\\/[\\w-]+\\s*>/, \"tag\"], [/&[\\w#]+;/, \"string.escape\"]], comment: [[/-->/, \"comment\", \"@pop\"], [/./, \"comment\"]], tag: [[/[\\w-]+/, \"attribute.name\"], [/=\"(?:[^\"]*)\"|='(?:[^']*)'/, \"attribute.value\"], [/>/, \"tag\", \"@pop\"], [/\\/>/, \"tag\", \"@pop\"]] } });\r\n}",
-  "CreatedOn": "2026-08-10T12:00:00+01:00",
-  "LastUpdated": "2026-08-10T12:00:00+01:00",
-  "IncludeInSubSequentImports": true,
-  "PackageType": "ContentManagement/Script"
-}

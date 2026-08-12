@@ -4,13 +4,13 @@
   "ResourceKey": "Security",
   "ShowOnMenus": true,
   "Order": 3,
-  "LastUpdated": "2026-07-30T22:31:25.6417153\u002B00:00",
+  "LastUpdated": "2026-07-30T22:31:25.6417153+00:00",
   "Layout": "Default",
   "Contents": [
     {
       "CultureId": "",
       "Name": "body",
-      "Html": "[component[TenantManagement]]"
+      "Html": "<link rel=\"stylesheet\" href=\"/code-editor.min.css\" />\n<script nonce=\"[request[nonce]]\" src=\"/code-editor.min.js\"></script>\n[component[TenantManagement]]"
     }
   ],
   "PageInfo": [

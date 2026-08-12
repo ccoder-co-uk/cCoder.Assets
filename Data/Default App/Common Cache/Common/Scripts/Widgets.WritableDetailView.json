@@ -1,9 +1,0 @@
-{
-  "Name": "Widgets.WritableDetailView",
-  "Content": "class WritableDetailView extends DetailWidget {\r\n    constructor(element, args) {\r\n        super(element, args);\r\n        this.editable = true;\r\n    }\r\n\r\n    async init() {\r\n        await super.init();\r\n        kendo.bind($(this.detailElement), this.data);\r\n    }\r\n\r\n    fieldValueExpression(fieldName) {\r\n        var meta = this.fields.filter(i =\u003E i.field === fieldName)[0];\r\n        var fieldType = meta.fieldType || \u0022text\u0022;\r\n\r\n        if (!meta.type) {\r\n            meta.type = \u0022string\u0022;\r\n        }\r\n\r\n        if (meta.template) {\r\n            return meta.template;\r\n        } else {\r\n            return \u0060\u003Cinput class=\u0022form-control input-sm\u0022 type=\u0022${fieldType}\u0022 data-bind=\u0022value: ${fieldName}\u0022 name=\u0022${fieldName}\u0022 /\u003E\u0060;\r\n        }\r\n    }\r\n}",
-  "CreatedOn": "2026-07-25T08:49:00.0000000\u002B00:00",
-  "LastUpdated": "2026-07-25T08:49:00.0000000\u002B00:00",
-  "Key": "Common",
-  "PackageType": "ContentManagement/Script",
-  "IncludeInSubSequentImports": true
-}
