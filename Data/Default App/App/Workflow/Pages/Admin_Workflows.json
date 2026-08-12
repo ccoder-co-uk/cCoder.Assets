@@ -10,7 +10,7 @@
     {
       "CultureId": "",
       "Name": "body",
-      "Html": "[component[WorkflowAdmin]]"
+      "Html": "<link rel=\"stylesheet\" href=\"/code-editor.min.css\" />\n<script nonce=\"[request[nonce]]\" src=\"/code-editor.min.js\"></script>\n<script nonce=\"[request[nonce]]\" src=\"/workflow.min.js\"></script>\n[component[WorkflowAdmin]]"
     },
     {
       "CultureId": "fr-FR",

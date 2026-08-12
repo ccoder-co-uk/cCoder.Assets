@@ -4,13 +4,13 @@
   "ResourceKey": "Workflow",
   "ShowOnMenus": false,
   "Order": 1,
-  "LastUpdated": "2026-07-30T22:31:25.2085322\u002B00:00",
+  "LastUpdated": "2026-07-30T22:31:25.2085322+00:00",
   "Layout": "Default",
   "Contents": [
     {
       "CultureId": "",
       "Name": "body",
-      "Html": "[component[WorkflowManagement]]"
+      "Html": "<link rel=\"stylesheet\" href=\"/code-editor.min.css\" />\n<script nonce=\"[request[nonce]]\" src=\"/code-editor.min.js\"></script>\n<script nonce=\"[request[nonce]]\" src=\"/workflow.min.js\"></script>\n[component[WorkflowManagement]]"
     }
   ],
   "PageInfo": [

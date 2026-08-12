@@ -4,19 +4,19 @@
   "ResourceKey": "ContentManagement",
   "ShowOnMenus": true,
   "Order": 1,
-  "LastUpdated": "2026-07-30T22:31:25.3975588\u002B00:00",
+  "LastUpdated": "2026-07-30T22:31:25.3975588+00:00",
   "Layout": "Default",
   "Contents": [
     {
       "CultureId": "",
       "Name": "body",
-      "Html": "[component[AppManagement]]"
+      "Html": "<link rel=\"stylesheet\" href=\"/code-editor.min.css\" />\n<script nonce=\"[request[nonce]]\" src=\"/code-editor.min.js\"></script>\n[component[AppManagement]]"
     }
   ],
   "PageInfo": [
     {
       "CultureId": "",
-      "Description": "Manage various aspects of the application, including the app\u0027s Themes (colours and border styles for example), Cultures (what language translations we support) and general things like page Layouts and Templates.",
+      "Description": "Manage various aspects of the application, including the app's Themes (colours and border styles for example), Cultures (what language translations we support) and general things like page Layouts and Templates.",
       "Keywords": "manage, admin, app, roles, cultures",
       "Title": "App Management"
     }

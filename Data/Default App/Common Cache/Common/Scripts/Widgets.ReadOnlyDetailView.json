@@ -1,9 +1,0 @@
-{
-  "Name": "Widgets.ReadOnlyDetailView",
-  "Content": "class ReadOnlyDetailView extends DetailWidget {\r\n    fieldValueExpression(fieldName) {\r\n        let meta = this.fields.filter(i =\u003E i.field === fieldName)[0];\r\n\r\n        if (!meta.type) {\r\n            meta.type = \u0022string\u0022;\r\n        }\r\n\r\n        if (meta.template) {\r\n            return meta.template;\r\n        }\r\n        else {\r\n            switch (meta.type) {\r\n                case \u0022number\u0022:\r\n                case \u0022date\u0022:\r\n                    if (!meta.format) {\r\n                        return \u0022#:kendo.toString(\u0022 \u002B fieldName \u002B \u0022, \u0027\u0022 \u002B type.dateFormat \u002B \u0022\u0027) || \u0027\u0027#\u0022;\r\n                    } else {\r\n                        return \u0022#:kendo.toString(\u0022 \u002B fieldName \u002B \u0022, \u0027\u0022 \u002B meta.format \u002B \u0022\u0027) || \u0027\u0027#\u0022;\r\n                    }\r\n                default:\r\n                    return \u0022#:\u0022 \u002B fieldName \u002B \u0022 || \u0027\u0027#\u0022;\r\n            }\r\n        }\r\n    }\r\n}",
-  "CreatedOn": "2026-07-25T08:49:00.0000000\u002B00:00",
-  "LastUpdated": "2026-07-25T08:49:00.0000000\u002B00:00",
-  "Key": "Common",
-  "PackageType": "ContentManagement/Script",
-  "IncludeInSubSequentImports": true
-}

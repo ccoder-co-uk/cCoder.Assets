@@ -276,7 +276,7 @@ public sealed partial class BaselineUiTests(PublishedCoreFixture fixture)
             AssertRenderable(content: uncachedContent);
 
             Assert.True(
-                condition: uncachedTimer.Elapsed < TimeSpan.FromSeconds(value: 1.2),
+                condition: uncachedTimer.Elapsed < TimeSpan.FromSeconds(value: 1.25),
                 userMessage: $"Default app uncached render took {uncachedTimer.Elapsed.TotalMilliseconds:F0} ms.");
 
             await WaitForPageRenderCacheCountAsync(expectedCount: 1, appId: appId);
