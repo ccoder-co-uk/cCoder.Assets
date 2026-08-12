@@ -2,6 +2,7 @@
 // Copyright (c) Paul.Ward@ccoder.co.uk
 // ---------------------------------------------------------------
 
+using cCoder.Assets.UI.Tests.Diagnostics;
 using Microsoft.Playwright;
 using Xunit;
 
@@ -14,7 +15,10 @@ public sealed partial class BaselineUiTests
     {
         // Given
         IPage page = await fixture.NewPageAsync();
+        BrowserDiagnosticCollector diagnostics = new();
         string editedContent = $"Editor acceptance {Guid.NewGuid():N}";
+
+        diagnostics.Attach(page: page);
 
         try
         {
@@ -100,6 +104,10 @@ public sealed partial class BaselineUiTests
                         Timeout = 10_000
                     });
 
+            await page.WaitForFunctionAsync(
+                expression: "() => Boolean(window.jQuery('[name=cultureDropdown]')"
+                    + ".data('kendoDropDownList'))");
+
             Task cultureNavigation = page.WaitForURLAsync(
                 url: url => new Uri(uriString: url).Query.Contains(
                     value: "culture=",
@@ -110,6 +118,17 @@ public sealed partial class BaselineUiTests
                     + ".data('kendoDropDownList').trigger('change')");
 
             await cultureNavigation;
+        }
+        catch
+        {
+            await diagnostics.WriteAsync(
+                page: page,
+                artifactDirectory: Path.Combine(
+                    path1: fixture.Settings.ArtifactsRoot,
+                    path2: nameof(PageEditing_ShouldRenderSaveAndSwitchCulture)),
+                processLogs: fixture.ApplicationLogs);
+
+            throw;
         }
         finally
         {
