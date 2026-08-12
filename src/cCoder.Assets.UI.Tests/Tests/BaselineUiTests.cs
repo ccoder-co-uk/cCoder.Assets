@@ -365,13 +365,37 @@ public sealed partial class BaselineUiTests(PublishedCoreFixture fixture)
         await page.GetByLabel(text: "Password =")
             .FillAsync(value: "AssetsAcceptance123!");
 
+        await page.WaitForFunctionAsync(
+            expression: "() => Boolean(window.Login) "
+                + "&& Boolean(window.jQuery?._data("
+                + "document.querySelector(\"button[name=login]\"), \"events\")?.click)");
+
+        Task navigation = page.WaitForURLAsync(
+            url: url => new Uri(uriString: url).AbsolutePath == "/");
+
         await page.GetByRole(
-            role: AriaRole.Button,
-            options: new() { Name = "Submit(details);" })
+                role: AriaRole.Button,
+                options: new() { Name = "Submit(details);" })
             .ClickAsync();
 
-        await page.WaitForURLAsync(
-            url: url => new Uri(uriString: url).AbsolutePath == "/");
+        Task completed = await Task.WhenAny(
+            task1: navigation,
+            task2: Task.Delay(millisecondsDelay: 10_000));
+
+        if (completed != navigation)
+        {
+            string pageText = await page.Locator(selector: "body")
+                .InnerTextAsync();
+
+            throw new InvalidOperationException(
+                $"Login remained at '{page.Url}'."
+                + Environment.NewLine
+                + pageText
+                + Environment.NewLine
+                + fixture.ApplicationLogs);
+        }
+
+        await navigation;
     }
 
     private static void AssertRenderable(string content)
