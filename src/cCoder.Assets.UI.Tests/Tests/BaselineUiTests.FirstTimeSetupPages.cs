@@ -85,6 +85,11 @@ public sealed partial class BaselineUiTests
                             url: url => new Uri(uriString: url).AbsolutePath
                                 == "/Admin/Workflows");
 
+                        diagnostics.Reset();
+
+                        await page.Locator(selector: "main.site-main")
+                            .WaitForAsync();
+
                         continue;
                     }
 
