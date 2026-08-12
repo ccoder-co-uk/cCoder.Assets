@@ -99,6 +99,14 @@ internal sealed class BrowserDiagnosticCollector
         return report.ToString();
     }
 
+    internal void Reset()
+    {
+        consoleEntries.Clear();
+        pageErrors.Clear();
+        failedRequests.Clear();
+        failedResponses.Clear();
+    }
+
     internal void ThrowIfBroken()
     {
         if (pageErrors.Count == 0
