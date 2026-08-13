@@ -3,6 +3,7 @@
 // ---------------------------------------------------------------
 
 using cCoder.Assets.UI.Tests.Infrastructure;
+using Microsoft.Playwright;
 using Xunit;
 
 namespace cCoder.Assets.UI.Tests.Tests.Components.ContentManagement;
@@ -16,7 +17,7 @@ public sealed partial class CommonCacheComponentsTests(PublishedCoreFixture fixt
     public async Task Rendering_ShouldInitializeThroughParentComponent()
     {
         // Given
-        const string pagePath = "Admin/PlatformAdmin/CommonCacheEndpoint";
+        const string pagePath = "Admin/PlatformAdmin/CommonCacheManagement";
 
         // When
         await driver.AssertAuthenticatedActionAsync(
@@ -34,6 +35,13 @@ public sealed partial class CommonCacheComponentsTests(PublishedCoreFixture fixt
                     containerSelector: ".component[name='CommonCacheComponents'] "
                         + ".k-detail-row [name='content']",
                     language: "html");
+
+                ILocator scriptTab = page.Locator(
+                    selector: ".component[name='CommonCacheComponents'] "
+                        + ".k-detail-row:visible "
+                        + "button[data-editor-tab='script']");
+
+                await scriptTab.ClickAsync();
 
                 await ComponentTestDriver.AssertMonacoEditorAsync(
                     page: page,

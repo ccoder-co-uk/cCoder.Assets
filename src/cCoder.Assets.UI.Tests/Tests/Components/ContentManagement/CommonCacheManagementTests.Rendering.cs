@@ -8,20 +8,20 @@ using Xunit;
 namespace cCoder.Assets.UI.Tests.Tests.Components.ContentManagement;
 
 [Collection(name: "Published Core UI")]
-public sealed partial class CommonCacheEndpointTests(PublishedCoreFixture fixture)
+public sealed partial class CommonCacheManagementTests(PublishedCoreFixture fixture)
 {
     private readonly ComponentTestDriver driver = new(fixture: fixture);
 
     [Fact]
-    public async Task Rendering_ShouldInitialize()
+    public async Task Rendering_ShouldUseManagementComponentIdentity()
     {
         // Given
-        const string pagePath = "Admin/PlatformAdmin/CommonCacheEndpoint";
+        const string pagePath = "Admin/PlatformAdmin/CommonCacheManagement";
 
         // When
         await driver.AssertComponentRendersAsync(
             pagePath: pagePath,
-            componentName: "CommonCacheEndpoint");
+            componentName: "CommonCacheManagement");
 
         // Then
     }

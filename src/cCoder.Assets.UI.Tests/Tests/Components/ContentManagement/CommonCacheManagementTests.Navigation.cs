@@ -6,13 +6,13 @@ using Xunit;
 
 namespace cCoder.Assets.UI.Tests.Tests.Components.ContentManagement;
 
-public sealed partial class CommonCacheEndpointTests
+public sealed partial class CommonCacheManagementTests
 {
     [Fact]
     public async Task Navigation_ShouldInitializeTransientComponents()
     {
         // Given
-        const string pagePath = "Admin/PlatformAdmin/CommonCacheEndpoint";
+        const string pagePath = "Admin/PlatformAdmin/CommonCacheManagement";
 
         // When
         await driver.AssertComponentRendersAsync(
