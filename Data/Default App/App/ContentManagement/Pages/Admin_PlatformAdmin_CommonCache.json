@@ -1,5 +1,5 @@
 {
-  "Path": "Admin/PlatformAdmin/CommonCacheManagement",
+  "Path": "Admin/PlatformAdmin/CommonCache",
   "Name": "Common Cache Endpoint",
   "ResourceKey": "ContentManagement",
   "ShowOnMenus": true,

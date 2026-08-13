@@ -12,7 +12,7 @@ public sealed partial class CommonCacheManagementTests
     public async Task Navigation_ShouldInitializeTransientComponents()
     {
         // Given
-        const string pagePath = "Admin/PlatformAdmin/CommonCacheManagement";
+        const string pagePath = "Admin/PlatformAdmin/CommonCache";
 
         // When
         await driver.AssertComponentRendersAsync(

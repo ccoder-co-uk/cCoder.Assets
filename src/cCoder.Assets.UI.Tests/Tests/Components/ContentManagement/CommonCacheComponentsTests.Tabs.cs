@@ -14,7 +14,7 @@ public sealed partial class CommonCacheComponentsTests
     public async Task Tabs_ShouldShowOneComponentEditorAtATime()
     {
         // Given
-        const string pagePath = "Admin/PlatformAdmin/CommonCacheManagement";
+        const string pagePath = "Admin/PlatformAdmin/CommonCache";
 
         // When
         await driver.AssertAuthenticatedActionAsync(
