@@ -1312,7 +1312,7 @@
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Resources/fr-FR.json#9`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheManagement.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Pages/Admin_AppManagement.json`
-- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Pages/Admin_PlatformAdmin_CommonCacheManagement.json`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Pages/Admin_PlatformAdmin_CommonCache.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#1`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#10`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#100`

@@ -1,5 +1,5 @@
 {
-  "Path": "Admin/PlatformAdmin/CommonCacheManagement",
+  "Path": "Admin/PlatformAdmin/CommonCache",
   "Role": "Administrators",
   "PackageType": "ContentManagement/PageRole",
   "IncludeInSubSequentImports": false

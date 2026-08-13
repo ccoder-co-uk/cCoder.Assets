@@ -16,7 +16,7 @@ public sealed partial class CommonCacheManagementTests(PublishedCoreFixture fixt
     public async Task Rendering_ShouldUseManagementComponentIdentity()
     {
         // Given
-        const string pagePath = "Admin/PlatformAdmin/CommonCacheManagement";
+        const string pagePath = "Admin/PlatformAdmin/CommonCache";
 
         // When
         await driver.AssertComponentRendersAsync(

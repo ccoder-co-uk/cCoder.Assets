@@ -13,7 +13,7 @@ public sealed partial class CommonCacheScriptsTests
     public async Task Expansion_ShouldProvideUsableEditorHeight()
     {
         // Given
-        const string pagePath = "Admin/PlatformAdmin/CommonCacheManagement";
+        const string pagePath = "Admin/PlatformAdmin/CommonCache";
 
         // When
         await driver.AssertAuthenticatedActionAsync(
