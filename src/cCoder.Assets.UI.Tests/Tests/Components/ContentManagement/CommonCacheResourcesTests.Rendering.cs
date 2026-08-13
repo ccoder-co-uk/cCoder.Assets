@@ -16,7 +16,7 @@ public sealed partial class CommonCacheResourcesTests(PublishedCoreFixture fixtu
     public async Task Rendering_ShouldInitializeThroughParentComponent()
     {
         // Given
-        const string pagePath = "Admin/PlatformAdmin/CommonCacheEndpoint";
+        const string pagePath = "Admin/PlatformAdmin/CommonCacheManagement";
 
         // When
         await driver.AssertComponentRendersAsync(

@@ -8,18 +8,18 @@ using Xunit;
 
 namespace cCoder.Assets.UI.Tests.Tests.Components.ContentManagement;
 
-public sealed partial class CommonCacheEndpointTests
+public sealed partial class CommonCacheManagementTests
 {
     [Fact]
     public async Task Import_ShouldPostCommonObjectsThroughCanonicalEndpoint()
     {
         // Given
-        const string pagePath = "Admin/PlatformAdmin/CommonCacheEndpoint";
+        const string pagePath = "Admin/PlatformAdmin/CommonCacheManagement";
 
         // When
         await driver.AssertAuthenticatedActionAsync(
             pagePath: pagePath,
-            componentName: "CommonCacheEndpoint",
+            componentName: "CommonCacheManagement",
             action: async page =>
             {
                 JsonElement request = await page.EvaluateAsync<JsonElement>(
@@ -68,7 +68,7 @@ public sealed partial class CommonCacheEndpointTests
                                     }
                                 };
 
-                                await window.CommonCacheEndpoint.doMigration(
+                                await window.CommonCacheManagement.doMigration(
                                     typeGrid,
                                     "Acceptance",
                                     { User: "acceptance", Pass: "acceptance" },
