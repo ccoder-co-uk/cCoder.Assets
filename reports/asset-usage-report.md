@@ -13,7 +13,7 @@
 | App | `App` | `B2B Portal Admin` | 4 | 0 |
 | App | `App` | `CMS` | 444 | 0 |
 | App | `App` | `Common` | 12 | 0 |
-| App | `App` | `ContentManagement` | 481 | 167 |
+| App | `App` | `ContentManagement` | 484 | 167 |
 | App | `App` | `Core` | 85 | 3 |
 | App | `App` | `CRM` | 156 | 0 |
 | App | `App` | `Default` | 1274 | 23 |
@@ -36,7 +36,7 @@
 | App | `Common Cache` | `AppSecurity` | 108 | 10 |
 | App | `Common Cache` | `ClientRelationshipManagement` | 2 | 2 |
 | App | `Common Cache` | `Common` | 57 | 24 |
-| App | `Common Cache` | `ContentManagement` | 540 | 74 |
+| App | `Common Cache` | `ContentManagement` | 537 | 74 |
 | App | `Common Cache` | `Core` | 63 | 9 |
 | App | `Common Cache` | `Default` | 18 | 0 |
 | App | `Common Cache` | `DocumentManagement` | 381 | 252 |
@@ -1310,7 +1310,10 @@
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Resources/fr-FR.json#7`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Resources/fr-FR.json#8`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Resources/fr-FR.json#9`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheComponents.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheManagement.json`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheResources.json`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheScripts.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Pages/Admin_AppManagement.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Pages/Admin_PlatformAdmin_CommonCache.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#1`
@@ -3305,9 +3308,6 @@
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/BPMigration.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/CalendarManagement.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/Colours.json`
-- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/CommonCacheComponents.json`
-- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/CommonCacheResources.json`
-- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/CommonCacheScripts.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/ComponentManagement.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/ComponentMigration.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/CoreManagement.json`
