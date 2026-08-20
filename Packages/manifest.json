@@ -36,7 +36,7 @@
     },
     {
       "Path": "App/Default.json",
-      "Sha256": "DEF4408C9F09E15D0F2C43A9F144BF3AAE507A90A0A5387DA5B81057CFF988DB",
+      "Sha256": "A7C55A7A5DFD6B4B6E724EC442B3E2CD5DC7A0D0165CF503082DEF38E09DE05B",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Default",
@@ -110,7 +110,7 @@
     },
     {
       "Path": "Baseline New App/baseline-new-app.json",
-      "Sha256": "31794AE1C9875B41994D471B9451C6E936BB8F457B29664803B709D5B8946DCD",
+      "Sha256": "A88639593F7644B3C63154D3BC89D504039CDE5F6E776ECADF271203BD9A6E86",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Baseline New App",
@@ -175,7 +175,7 @@
     },
     {
       "Path": "Common Cache/AppSecurity.json",
-      "Sha256": "5384C60DF249D31B8CB06885C113B99FC83A5DA4081BB053A21A313C384CF3FC",
+      "Sha256": "DCF0729818B216900E0717F9EC9112ED0ED6A9BE010FFB4DD0BE1B027D82E26B",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "AppSecurity",
@@ -209,7 +209,7 @@
     },
     {
       "Path": "Common Cache/ContentManagement.json",
-      "Sha256": "D091ADA556908E0A919007516AB0FC39C99065C443949671E5399E40DCCF4074",
+      "Sha256": "123CC8380E7AC0BE90DB28CAC75A8568068A06DCC26B0C4A6FF72DAA4B35260F",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "ContentManagement",
@@ -289,7 +289,7 @@
     },
     {
       "Path": "First Time Setup/common-cache.json",
-      "Sha256": "DE855CACD4ACB2535FDB349BDCBC70CF00E6AF409D17C9E48FB04000A7F2BC5B",
+      "Sha256": "F12B92BE9A0B9332F28F5A5C776E0139902C031D3A8B2B94FED9BBD237E1C053",
       "FirstTimeSetup": true,
       "Source": "Common Cache",
       "Category": "First Time Setup",
@@ -302,7 +302,7 @@
     },
     {
       "Path": "First Time Setup/first-app.json",
-      "Sha256": "C2F52EB693F14AC08021DC088A529BCE87C6C4B3BDE9D616CFCD1E366C5EFD61",
+      "Sha256": "86FD958C5D5BE0A7829A2B219673C787443A7B1F245F9A39BEE6BCB4EA2D1889",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "First Time Setup",
