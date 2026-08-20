@@ -5,12 +5,12 @@
 using System.Text.Json;
 using Xunit;
 
-namespace cCoder.Assets.UI.Tests.Tests.Components.AppSecurity;
+namespace cCoder.Assets.UI.Tests.Tests.Components.Security;
 
-public sealed partial class UserProfileContractTests
+public sealed partial class PasswordResetContractTests
 {
     [Fact]
-    public void Contracts_ShouldUseAuthenticatedSelfServiceEndpoints()
+    public void Contracts_ShouldUseTokenBackedResetEndpoint()
     {
         // Given
         string componentPath = Path.Combine(paths:
@@ -19,9 +19,9 @@ public sealed partial class UserProfileContractTests
             "Data",
             "Default App",
             "Common Cache",
-            "AppSecurity",
+            "Security",
             "Components",
-            "UserProfile.json"
+            "PasswordReset.json"
         ]);
 
         // When
@@ -32,20 +32,29 @@ public sealed partial class UserProfileContractTests
             .GetProperty(propertyName: "Script")
             .GetString()!;
 
+        string content = component.RootElement
+            .GetProperty(propertyName: "Content")
+            .GetString()!;
+
         // Then
         Assert.Contains(
-            expectedSubstring: "api.post(\"Account/ChangePassword\"",
+            expectedSubstring: "api.post(\"Account/ConfirmForgotPassword\"",
             actualString: script,
             comparisonType: StringComparison.Ordinal);
 
         Assert.Contains(
-            expectedSubstring: "api.update(\"Account/Me\"",
+            expectedSubstring: "url.searchParams.get(\"uid\")",
             actualString: script,
             comparisonType: StringComparison.Ordinal);
 
-        Assert.DoesNotContain(
-            expectedSubstring: "api.update(\"Security/SSOUser(",
+        Assert.Contains(
+            expectedSubstring: "url.searchParams.get(\"token\")",
             actualString: script,
+            comparisonType: StringComparison.Ordinal);
+
+        Assert.Contains(
+            expectedSubstring: "<style nonce=\"[request[nonce]]\">",
+            actualString: content,
             comparisonType: StringComparison.Ordinal);
     }
 
