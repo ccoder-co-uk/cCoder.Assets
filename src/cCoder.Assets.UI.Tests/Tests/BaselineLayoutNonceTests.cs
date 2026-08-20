@@ -50,6 +50,43 @@ public sealed partial class BaselineLayoutNonceTests
         }
     }
 
+    [Fact]
+    public void ProfileAndCultureComponents_ShouldNonceInlineContent()
+    {
+        // Given
+        string repositoryRoot = FindRepositoryRoot();
+
+        string[] componentPaths =
+        [
+            Path.Combine(paths: [repositoryRoot, "Data", "Default App",
+                "Common Cache", "AppSecurity", "Components", "UserProfile.json"]),
+            Path.Combine(paths: [repositoryRoot, "Data", "Default App",
+                "Common Cache", "ContentManagement", "Components", "CultureFlags.json"]),
+            Path.Combine(paths: [repositoryRoot, "Data", "Default App",
+                "Common Cache", "Security", "Components", "PasswordReset.json"])
+        ];
+
+        // When
+        Regex unsafeInlineTag = new(
+            pattern: "<(script|style)(?![^>]*nonce)[^>]*>",
+            options: RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+
+        // Then
+        foreach (string componentPath in componentPaths)
+        {
+            using JsonDocument component = JsonDocument.Parse(
+                json: File.ReadAllText(path: componentPath));
+
+            string content = component.RootElement
+                .GetProperty(propertyName: "Content")
+                .GetString()!;
+
+            Assert.DoesNotMatch(
+                expectedRegex: unsafeInlineTag,
+                actualString: content);
+        }
+    }
+
     private static string FindRepositoryRoot()
     {
         DirectoryInfo? directory = new(path: AppContext.BaseDirectory);
