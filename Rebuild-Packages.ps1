@@ -24,6 +24,8 @@ if (-not $NoTests) {
     }
     node --test (Join-Path $repoRoot 'tools/test-clx-bucket-company-scope.cjs')
     if ($LASTEXITCODE -ne 0) { throw 'CLX bucket company scope tests failed.' }
+    node --test (Join-Path $repoRoot 'tools/test-clx-csp-templates.cjs')
+    if ($LASTEXITCODE -ne 0) { throw 'CLX CSP template tests failed.' }
 }
 
 & $packer pack `
@@ -196,12 +198,13 @@ try {
 
     # Keep the tested CLX upgrade snapshot separate from the newer generic baseline.
     $clxOverlayEntries = @(
-        [pscustomobject]@{ Path = 'CLX Upgrade/common-cache-ui.json'; Scope = 'Common Cache'; ItemType = 'ContentManagement/Component' },
-        [pscustomobject]@{ Path = 'CLX Upgrade/demo-app-ui.json'; Scope = 'App'; ItemType = 'ContentManagement/Template' }
+        [pscustomobject]@{ Path = 'CLX Upgrade/common-cache-ui.json'; Scope = 'Common Cache'; DataPath = 'Data/demo.dev.localhost/Common Cache' },
+        [pscustomobject]@{ Path = 'CLX Upgrade/demo-app-ui.json'; Scope = 'App'; DataPath = 'Data/demo.dev.localhost/App' },
+        [pscustomobject]@{ Path = 'CLX Upgrade/first-app-ui.json'; Scope = 'App'; DataPath = 'Data/CLX Upgrade/localhost/App' }
     )
     foreach ($entry in $clxOverlayEntries) {
         & $packer pack `
-            -dataPath (Join-Path $repoRoot "Data/demo.dev.localhost/$($entry.Scope)") `
+            -dataPath (Join-Path $repoRoot $entry.DataPath) `
             -destination (Join-Path $packages $entry.Path) `
             -name "CLX Upgrade $($entry.Scope) UI" `
             -category 'CLX Upgrade'
@@ -243,7 +246,7 @@ try {
             FirstTimeSetup = $false
             Source = if ($completePackageEntry.Path -like 'CLX Upgrade/*') { $completePackageEntry.Scope } else { 'Common Cache' }
             Category = if ($completePackageEntry.Path -like 'CLX Upgrade/*') { 'CLX Upgrade' } else { 'Common Cache' }
-            ItemTypes = @($completePackageEntry.ItemType)
+            ItemTypes = @((Get-Content -LiteralPath $packagePath -Raw | ConvertFrom-Json).Items.Type | Sort-Object -Unique)
         }
     }
 

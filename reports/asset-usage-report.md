@@ -32,21 +32,25 @@
 | App | `App` | `Registrations` | 1 | 1 |
 | App | `App` | `Security` | 37 | 1 |
 | App | `App` | `Tools` | 3 | 0 |
-| App | `App` | `Workflow` | 187 | 61 |
+| App | `App` | `Workflow` | 188 | 62 |
 | App | `Common Cache` | `AI` | 2 | 2 |
 | App | `Common Cache` | `AppSecurity` | 110 | 12 |
-| App | `Common Cache` | `B2B` | 5 | 5 |
+| App | `Common Cache` | `B2B` | 27 | 27 |
 | App | `Common Cache` | `ClientRelationshipManagement` | 2 | 2 |
 | App | `Common Cache` | `CMS` | 1 | 1 |
 | App | `Common Cache` | `Common` | 61 | 28 |
-| App | `Common Cache` | `ContentManagement` | 550 | 87 |
-| App | `Common Cache` | `Core` | 64 | 10 |
+| App | `Common Cache` | `ContentManagement` | 555 | 92 |
+| App | `Common Cache` | `Core` | 68 | 14 |
 | App | `Common Cache` | `Default` | 18 | 0 |
-| App | `Common Cache` | `DocumentManagement` | 385 | 256 |
+| App | `Common Cache` | `DocumentManagement` | 390 | 261 |
+| App | `Common Cache` | `Funding` | 7 | 7 |
+| App | `Common Cache` | `Home` | 1 | 1 |
 | App | `Common Cache` | `Mail` | 7 | 7 |
 | App | `Common Cache` | `Registrations` | 4 | 4 |
+| App | `Common Cache` | `Scripts` | 16 | 16 |
 | App | `Common Cache` | `Security` | 63 | 0 |
-| App | `Common Cache` | `Workflow` | 112 | 10 |
+| App | `Common Cache` | `Workflow` | 114 | 12 |
+| App | `localhost` | `App` | 35 | 35 |
 
 ### Default-key ownership candidates
 
@@ -3066,11 +3070,32 @@
 - [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/fr-FR.json#6`
 - [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/fr-FR.json#7`
 - [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/fr-FR.json#8`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/ActiveTransactions.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/B2BAdminFundingTypes.json`
 - [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/B2BRolePrivManagement.json`
 - [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/B2BRoleUserManagement.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/B2BUserInfo.json`
 - [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/BucketedCompanyManagement.json`
 - [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/BucketedRoleManagement.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/CurrentRates.json`
 - [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/FundingDetails.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/OfferFundingDetails.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/UserOnboardingAdmin.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Scripts/AcceptedOffersCreditsGrid.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Scripts/AcceptOffersGrid.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Scripts/ActiveTransactions.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Scripts/ApprovalHistoryGrid.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Scripts/CompanyDetails.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Scripts/CreditDetails.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Scripts/InvoiceDetails.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Scripts/LineGrid.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Scripts/PaymentDetails.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Scripts/ProposedOffersCreditsGrid.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Scripts/PurchaseOrderDetails.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Scripts/RelatedPaymentGrid.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Scripts/UserOnboardingAdminGrid.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Scripts/UserOnboardingGrid.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/Home/Components/InvoicesByStateChart.json`
 - [ ] `Common Cache -> ClientRelationshipManagement — Default App/Common Cache/ClientRelationshipManagement/Components/CRMAdmin.json`
 - [ ] `Common Cache -> ClientRelationshipManagement — Default App/Common Cache/ClientRelationshipManagement/Components/CRMDashboard.json`
 - [ ] `Common Cache -> CMS — demo.dev.localhost/Common Cache/CMS/Components/CMS.json`
@@ -3493,14 +3518,19 @@
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#8`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#9`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/MigrateApp.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/AppList.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/AppManagement.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/AppThemeList.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/AppTheming.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/CalendarManagement.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/CommonCacheResources.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/ComponentManagement.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/CoreManagement.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/FormManagement.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/GridBuilder.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/LayoutManagement.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/LayoutMigration.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/Metadata.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/PageManagement.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/PageProperties.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/ResourceManagement.json`
@@ -3727,7 +3757,11 @@
 - [ ] `Common Cache -> Core — Default App/Common Cache/Core/Resources/fr-FR.json#4`
 - [ ] `Common Cache -> Core — Default App/Common Cache/Core/Resources/fr-FR.json#5`
 - [ ] `Common Cache -> Core — Default App/Common Cache/Core/Resources/fr-FR.json#6`
+- [ ] `Common Cache -> Core — demo.dev.localhost/Common Cache/Core/Components/BackgroundJobs.json`
+- [ ] `Common Cache -> Core — demo.dev.localhost/Common Cache/Core/Components/BPEditor.json`
+- [ ] `Common Cache -> Core — demo.dev.localhost/Common Cache/Core/Components/BPM.json`
 - [ ] `Common Cache -> Core — demo.dev.localhost/Common Cache/Core/Components/CultureManagement.json`
+- [ ] `Common Cache -> Core — demo.dev.localhost/Common Cache/Core/Components/FolderEventManager.json`
 - [ ] `Common Cache -> Core — localhost/Common Cache/Core/Components/ApiTester.json`
 - [ ] `Common Cache -> Core — localhost/Common Cache/Core/Components/BackgroundJobs.json`
 - [ ] `Common Cache -> Core — localhost/Common Cache/Core/Components/BPEditor.json`
@@ -4024,7 +4058,12 @@
 - [ ] `Common Cache -> DocumentManagement — demo.dev.localhost/Common Cache/DocumentManagement/Components/DMSFormatting.json`
 - [ ] `Common Cache -> DocumentManagement — demo.dev.localhost/Common Cache/DocumentManagement/Components/DocumentManagement.json`
 - [ ] `Common Cache -> DocumentManagement — demo.dev.localhost/Common Cache/DocumentManagement/Components/FileActions.json`
+- [ ] `Common Cache -> DocumentManagement — demo.dev.localhost/Common Cache/DocumentManagement/Components/FileVersionGrid.json`
+- [ ] `Common Cache -> DocumentManagement — demo.dev.localhost/Common Cache/DocumentManagement/Components/FolderActions.json`
 - [ ] `Common Cache -> DocumentManagement — demo.dev.localhost/Common Cache/DocumentManagement/Components/FolderRoles.json`
+- [ ] `Common Cache -> DocumentManagement — demo.dev.localhost/Common Cache/DocumentManagement/Components/QueryBuilder.json`
+- [ ] `Common Cache -> DocumentManagement — demo.dev.localhost/Common Cache/DocumentManagement/Scripts/FileVersionsGrid.json`
+- [ ] `Common Cache -> DocumentManagement — demo.dev.localhost/Common Cache/DocumentManagement/Scripts/FolderManagementGrid.json`
 - [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/Client.json`
 - [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/ClientFiles.json`
 - [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/ClientList.json`
@@ -4152,6 +4191,15 @@
 - [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Resources/fr.json`
 - [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Scripts/FileVersionsGrid.json`
 - [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Scripts/FolderManagementGrid.json`
+- [ ] `Common Cache -> Funding — demo.dev.localhost/Common Cache/Funding/Components/FundManagement.json`
+- [ ] `Common Cache -> Funding — demo.dev.localhost/Common Cache/Funding/Components/ProgrammeManagement.json`
+- [ ] `Common Cache -> Funding — demo.dev.localhost/Common Cache/Funding/Scripts/OfferDetails.json`
+- [ ] `Common Cache -> Funding — demo.dev.localhost/Common Cache/Funding/Scripts/OffersGrid.json`
+- [ ] `Common Cache -> Funding — demo.dev.localhost/Common Cache/Funding/Scripts/ProposedOffersGrid.json`
+- [ ] `Common Cache -> Funding — demo.dev.localhost/Common Cache/Funding/Scripts/RejectOffersGrid.json`
+- [ ] `Common Cache -> Funding — demo.dev.localhost/Common Cache/Funding/Scripts/RelatedOffersGrid.json`
+- [ ] `Common Cache -> Import — demo.dev.localhost/Common Cache/B2B/Components/CompanyImportCSVLinesView.json`
+- [ ] `Common Cache -> Import — demo.dev.localhost/Common Cache/B2B/Components/TransactionImportCSVLinesView.json`
 - [ ] `Common Cache -> Mail — ccoder.co.uk/Common Cache/Mail/Components/MailManagement.json`
 - [ ] `Common Cache -> Mail — Default App/Common Cache/Mail/Components/MailManagement.json`
 - [ ] `Common Cache -> Mail — Default App/Common Cache/Mail/Resources/Default.json#1`
@@ -4300,6 +4348,8 @@
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/en-GB.json#4`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/fr-FR.json#1`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/fr-FR.json#2`
+- [ ] `Common Cache -> Workflow — demo.dev.localhost/Common Cache/Workflow/Components/FlowInstanceManagement.json`
+- [ ] `Common Cache -> Workflow — demo.dev.localhost/Common Cache/Workflow/Components/Scheduling.json`
 - [ ] `Common Cache -> Workflow — demo.dev.localhost/Common Cache/Workflow/Components/WorkflowScheduling.json`
 - [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/ActivityEditor.json`
 - [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/ExpressionBuilder.json`
@@ -4338,6 +4388,41 @@
 - [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/en-GB.json#4`
 - [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/fr-FR.json#1`
 - [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Resources/fr-FR.json#2`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/ActiveCompanies.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/ActiveTransactions.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/B2BAdminFunderCompany.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/CreditCountByMonth.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/CreditValueByMonth.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/FinancialForecast.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/FundingAnalysis.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/FundingDetails.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/InvoiceCountByMonth.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/InvoiceValueByMonth.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/MonthlyBreakdownOfYearlyDiscounts.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/OutstandingBalanceByDueDate.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/TotalCostOfAcceptedOffers.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/TotalCountOfAcceptedOffers.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/TotalCountOfDuePayments.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/TotalCountOfEarlyPaidInvoices.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/TotalCountOfOverDuePayments.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/TotalCountOfPayments.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/TotalValueOfAcceptedOffers.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/TotalValueOfDuePayments.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/TotalValueOfOverDuePayments.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/TotalValueOfPayments.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/TransactionCountByMonth.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/TransactionValueByMonth.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/ValueOfEarlyPaidInvoices.json`
+- [ ] `localhost -> CMS — CLX Upgrade/localhost/App/CMS/Components/CoreManagement.json`
+- [ ] `localhost -> CRM — CLX Upgrade/localhost/App/CRM/Components/AppList.json`
+- [ ] `localhost -> Debug — CLX Upgrade/localhost/App/Debug/Components/B2BMetadata.json`
+- [ ] `localhost -> Debug — CLX Upgrade/localhost/App/Debug/Components/Metadata.json`
+- [ ] `localhost -> Debug — CLX Upgrade/localhost/App/Debug/Components/SSOMetadata.json`
+- [ ] `localhost -> Forms — CLX Upgrade/localhost/App/Forms/Components/FormManagement.json`
+- [ ] `localhost -> QueryBuilder — CLX Upgrade/localhost/App/QueryBuilder/Components/QueryBuilder.json`
+- [ ] `localhost -> Security — CLX Upgrade/localhost/App/Security/Components/SSORolePrivManagement.json`
+- [ ] `localhost -> Tools — CLX Upgrade/localhost/App/Tools/Components/GridBuilder.json`
+- [ ] `localhost -> Workflow — CLX Upgrade/localhost/App/Workflow/Components/BPM.json`
 
 ## Review queues
 
@@ -4367,7 +4452,22 @@
 
 ### Unreachable scripts
 
-- [ ] None
+- [ ] `demo.dev.localhost/Common Cache/Scripts/AcceptedOffersInvoiceGrid.json`
+- [ ] `demo.dev.localhost/Common Cache/Scripts/AcceptedOffersPaymentsGrid.json`
+- [ ] `demo.dev.localhost/Common Cache/Scripts/OfferGrid.json`
+- [ ] `demo.dev.localhost/Common Cache/Scripts/OffersCreditsGrid.json`
+- [ ] `demo.dev.localhost/Common Cache/Scripts/OffersInvoiceGrid.json`
+- [ ] `demo.dev.localhost/Common Cache/Scripts/OffersPaymentsGrid.json`
+- [ ] `demo.dev.localhost/Common Cache/Scripts/ProposedOffersInvoiceGrid.json`
+- [ ] `demo.dev.localhost/Common Cache/Scripts/ProposedOffersPaymentsGrid.json`
+- [ ] `demo.dev.localhost/Common Cache/Scripts/PurchaseOrderGrid.json`
+- [ ] `demo.dev.localhost/Common Cache/Scripts/RejectedOffersCreditsGrid.json`
+- [ ] `demo.dev.localhost/Common Cache/Scripts/RejectedOffersInvoiceGrid.json`
+- [ ] `demo.dev.localhost/Common Cache/Scripts/RejectedOffersPaymentsGrid.json`
+- [ ] `demo.dev.localhost/Common Cache/Scripts/RelatedCreditGrid.json`
+- [ ] `demo.dev.localhost/Common Cache/Scripts/RelatedCreditsGrid.json`
+- [ ] `demo.dev.localhost/Common Cache/Scripts/RelatedInvoicesGrid.json`
+- [ ] `demo.dev.localhost/Common Cache/Scripts/RoiGrid.json`
 
 ### Unreachable styles
 
@@ -4375,10 +4475,10 @@
 
 ## Totals
 
-- Directories scanned: 4
+- Directories scanned: 5
 - Layouts: 0
 - Pages: 0
 - Reachable components: 0 / 0
-- Reachable scripts: 0 / 0
+- Reachable scripts: 0 / 16
 - Reachable styles: 0 / 0
 - Reachable resource keys: 0 / 0

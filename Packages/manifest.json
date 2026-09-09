@@ -125,22 +125,34 @@
     },
     {
       "Path": "CLX Upgrade/common-cache-ui.json",
-      "Sha256": "5cc125e9a7e4d61ef220f590256a04b2c7af8aa010c4be5b3f21b6416c18ac9b",
+      "Sha256": "0ed54f98b6dfe5d4ee0e1e338fb309ae5b8c4af3e385481e32dd27baeccb761e",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "CLX Upgrade",
       "ItemTypes": [
-        "ContentManagement/Component"
+        "ContentManagement/Component",
+        "ContentManagement/Script"
       ]
     },
     {
       "Path": "CLX Upgrade/demo-app-ui.json",
-      "Sha256": "3b09ab97e2773a32b21e7f0eb10235dae99102e84b2c70fcaacef489d3a3b01c",
+      "Sha256": "0f25ceda3279107c575e081cb30af830a1c6196cd841fa1f6c3484d9d7bdd0bc",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "CLX Upgrade",
       "ItemTypes": [
-        "ContentManagement/Template"
+        "ContentManagement/Template",
+        "Workflow/FlowDefinition"
+      ]
+    },
+    {
+      "Path": "CLX Upgrade/first-app-ui.json",
+      "Sha256": "68415fb01fca9c5c2a02782b3abfa41ad596fa090c3ce0f93652dfeaf1fda5b8",
+      "FirstTimeSetup": false,
+      "Source": "App",
+      "Category": "CLX Upgrade",
+      "ItemTypes": [
+        "ContentManagement/Component"
       ]
     },
     {
