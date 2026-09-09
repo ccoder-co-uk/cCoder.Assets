@@ -1,0 +1,12 @@
+{
+  "Name": "AccessRequestApprovedEmail",
+  "Description": null,
+  "LastUpdated": "2026-08-16T13:36:46.7966107Z",
+  "LastUpdatedBy": "Paul",
+  "CreatedOn": "0001-01-01T00:00:00Z",
+  "CreatedBy": null,
+  "ResourceKey": "Registrations",
+  "RawString": "<html>\r\n\t<head>\r\n\t  <title>[email[subject]]</title>\r\n\t  <style>\r\n\t\t*   {  font-size: [theme[font.size]]; font-family: [theme[font.family]]; color: #2b3032; }\r\n\t\ta  { color: [theme[colours.links]]; cursor: pointer; }\r\n\t\thr { border-top: [theme[border.style]]; }\r\n\t\th3 { padding: 10px; margin-bottom: 10px; border-bottom: solid 2px [theme[colours.secondary]]; color: [theme[colours.primary]]; width: 80%; font-size: 120%; }\r\n\t\tdiv.content { border: 1px solid [theme[colours.secondary]];  padding: 8px 8px; border-radius: 8px; box-shadow: [theme[shadows]]; -moz-box-shadow: [theme[shadows]];  -webkit-box-shadow: [theme[shadows]]; background-colour: #F8F8F8 }\r\n\t  </style>\r\n\t</head>\r\n\t<body style=\"width: 600px; margin:0 auto;\">\r\n\t\t<header>\r\n\t\t\t<a href=\"[app[root]]\">\r\n\t\t\t\t<img src=\"[api[root]]/DMS/Content/CompanyLogo.png\" alt=\"[app[name]]\" title=\"[app[name]]\" height=\"80\" style=\"display:block\" alt=\"[app[name]]\"/>\r\n\t\t\t</a>\r\n\t\t\t<h3> <img src=\"[api[root]]/DMS/Content/InviteIcon.png\" height=\"16\" style=\"display:inline-block; padding-right: 8px;\" />[resource_displayname[registrationapproved]] </h3>           \r\n\t\t</header>\r\n\t\t<div class=\"content\" style=\"margin: 10px auto;\">\r\n            <p>[resource_displayname[greeting]] [model[UserName]]</p>\r\n            <p>[resource_displayname[adminhasapprovedyourrequest]]</p>\r\n            <p>[resource_displayname[click]] <a href=\"[app[root]]\">[resource_displayname[Here]]</a></p>\r\n\t\t\t<p>[resource_displayname[bestregards]]</p>\r\n\t\t\t<p>[resource_displayname[thecorporatelinxteam]]</p>\r\n        </div>\r\n\t</body>\r\n</html>",
+  "PackageType": "ContentManagement/Template",
+  "IncludeInSubSequentImports": true
+}

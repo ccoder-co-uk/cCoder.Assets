@@ -124,6 +124,26 @@
       ]
     },
     {
+      "Path": "CLX Upgrade/common-cache-ui.json",
+      "Sha256": "5cc125e9a7e4d61ef220f590256a04b2c7af8aa010c4be5b3f21b6416c18ac9b",
+      "FirstTimeSetup": false,
+      "Source": "Common Cache",
+      "Category": "CLX Upgrade",
+      "ItemTypes": [
+        "ContentManagement/Component"
+      ]
+    },
+    {
+      "Path": "CLX Upgrade/demo-app-ui.json",
+      "Sha256": "3b09ab97e2773a32b21e7f0eb10235dae99102e84b2c70fcaacef489d3a3b01c",
+      "FirstTimeSetup": false,
+      "Source": "App",
+      "Category": "CLX Upgrade",
+      "ItemTypes": [
+        "ContentManagement/Template"
+      ]
+    },
+    {
       "Path": "Common Cache/AI.json",
       "Sha256": "5901B88171770A85778551A834AC7A4A9787825A2A84E45BBFC15B97635231AF",
       "FirstTimeSetup": false,

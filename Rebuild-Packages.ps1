@@ -22,6 +22,8 @@ if (-not $NoTests) {
     if ($LASTEXITCODE -ne 0) {
         throw "Packer tests failed with exit code $LASTEXITCODE."
     }
+    node --test (Join-Path $repoRoot 'tools/test-clx-bucket-company-scope.cjs')
+    if ($LASTEXITCODE -ne 0) { throw 'CLX bucket company scope tests failed.' }
 }
 
 & $packer pack `
@@ -192,6 +194,20 @@ try {
         }
     }
 
+    # Keep the tested CLX upgrade snapshot separate from the newer generic baseline.
+    $clxOverlayEntries = @(
+        [pscustomobject]@{ Path = 'CLX Upgrade/common-cache-ui.json'; Scope = 'Common Cache'; ItemType = 'ContentManagement/Component' },
+        [pscustomobject]@{ Path = 'CLX Upgrade/demo-app-ui.json'; Scope = 'App'; ItemType = 'ContentManagement/Template' }
+    )
+    foreach ($entry in $clxOverlayEntries) {
+        & $packer pack `
+            -dataPath (Join-Path $repoRoot "Data/demo.dev.localhost/$($entry.Scope)") `
+            -destination (Join-Path $packages $entry.Path) `
+            -name "CLX Upgrade $($entry.Scope) UI" `
+            -category 'CLX Upgrade'
+        if ($LASTEXITCODE -ne 0) { throw "Failed to build $($entry.Path)." }
+    }
+
     $manifestPath = Join-Path $packages 'manifest.json'
     $manifest = Get-Content -LiteralPath $manifestPath -Raw | ConvertFrom-Json
     $completePackageEntries = @(
@@ -212,6 +228,7 @@ try {
             ItemType = 'ContentManagement/Style'
         }
     )
+    $completePackageEntries += $clxOverlayEntries
     $completePackagePaths = @($completePackageEntries.Path)
     $manifestPackages = @(
         $manifest.Packages |
@@ -224,8 +241,8 @@ try {
             Path = $completePackageEntry.Path
             Sha256 = (Get-FileHash -LiteralPath $packagePath -Algorithm SHA256).Hash.ToLowerInvariant()
             FirstTimeSetup = $false
-            Source = 'Common Cache'
-            Category = 'Common Cache'
+            Source = if ($completePackageEntry.Path -like 'CLX Upgrade/*') { $completePackageEntry.Scope } else { 'Common Cache' }
+            Category = if ($completePackageEntry.Path -like 'CLX Upgrade/*') { 'CLX Upgrade' } else { 'Common Cache' }
             ItemTypes = @($completePackageEntry.ItemType)
         }
     }

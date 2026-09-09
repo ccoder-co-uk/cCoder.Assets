@@ -29,20 +29,24 @@
 | App | `App` | `notifications` | 2 | 0 |
 | App | `App` | `QueryBuilder` | 2 | 0 |
 | App | `App` | `Register` | 3 | 1 |
+| App | `App` | `Registrations` | 1 | 1 |
 | App | `App` | `Security` | 37 | 1 |
 | App | `App` | `Tools` | 3 | 0 |
 | App | `App` | `Workflow` | 187 | 61 |
 | App | `Common Cache` | `AI` | 2 | 2 |
-| App | `Common Cache` | `AppSecurity` | 108 | 10 |
+| App | `Common Cache` | `AppSecurity` | 110 | 12 |
+| App | `Common Cache` | `B2B` | 5 | 5 |
 | App | `Common Cache` | `ClientRelationshipManagement` | 2 | 2 |
+| App | `Common Cache` | `CMS` | 1 | 1 |
 | App | `Common Cache` | `Common` | 61 | 28 |
-| App | `Common Cache` | `ContentManagement` | 537 | 74 |
-| App | `Common Cache` | `Core` | 63 | 9 |
+| App | `Common Cache` | `ContentManagement` | 550 | 87 |
+| App | `Common Cache` | `Core` | 64 | 10 |
 | App | `Common Cache` | `Default` | 18 | 0 |
-| App | `Common Cache` | `DocumentManagement` | 381 | 252 |
-| App | `Common Cache` | `Mail` | 6 | 6 |
+| App | `Common Cache` | `DocumentManagement` | 385 | 256 |
+| App | `Common Cache` | `Mail` | 7 | 7 |
+| App | `Common Cache` | `Registrations` | 4 | 4 |
 | App | `Common Cache` | `Security` | 63 | 0 |
-| App | `Common Cache` | `Workflow` | 111 | 9 |
+| App | `Common Cache` | `Workflow` | 112 | 10 |
 
 ### Default-key ownership candidates
 
@@ -2724,6 +2728,7 @@
 - [ ] `App -> Register — ccoder.co.uk/App/Register/Templates/ConfirmRegistration.json`
 - [ ] `App -> Register — Default App/App/Register/Templates/ConfirmRegistration.json`
 - [ ] `App -> Register — localhost/App/Register/Templates/ConfirmRegistration.json`
+- [ ] `App -> Registrations — demo.dev.localhost/App/Registrations/Templates/AccessRequestApprovedEmail.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/SSORoleManagement.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/SSORolePrivManagement.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/SSORoleUserManagement.json`
@@ -3023,6 +3028,8 @@
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#6`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#7`
 - [ ] `Common Cache -> AppSecurity — Default App/Common Cache/AppSecurity/Resources/fr-FR.json#8`
+- [ ] `Common Cache -> AppSecurity — demo.dev.localhost/Common Cache/AppSecurity/Components/RoleManagement.json`
+- [ ] `Common Cache -> AppSecurity — demo.dev.localhost/Common Cache/AppSecurity/Components/RoleUserManagement.json`
 - [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Components/FlowSettings.json`
 - [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Components/Login.json`
 - [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Components/loginPage.json`
@@ -3059,8 +3066,14 @@
 - [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/fr-FR.json#6`
 - [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/fr-FR.json#7`
 - [ ] `Common Cache -> AppSecurity — localhost/Common Cache/AppSecurity/Resources/fr-FR.json#8`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/B2BRolePrivManagement.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/B2BRoleUserManagement.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/BucketedCompanyManagement.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/BucketedRoleManagement.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/FundingDetails.json`
 - [ ] `Common Cache -> ClientRelationshipManagement — Default App/Common Cache/ClientRelationshipManagement/Components/CRMAdmin.json`
 - [ ] `Common Cache -> ClientRelationshipManagement — Default App/Common Cache/ClientRelationshipManagement/Components/CRMDashboard.json`
+- [ ] `Common Cache -> CMS — demo.dev.localhost/Common Cache/CMS/Components/CMS.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Components/ArchitectureVisualiser.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Components/DetailedNav.json`
 - [ ] `Common Cache -> Common — ccoder.co.uk/Common Cache/Common/Components/HistoryList.json`
@@ -3480,6 +3493,19 @@
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#8`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Resources/fr-FR.json#9`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Scripts/MigrateApp.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/AppManagement.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/AppThemeList.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/AppTheming.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/CalendarManagement.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/CommonCacheResources.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/ComponentManagement.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/LayoutManagement.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/LayoutMigration.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/PageManagement.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/PageProperties.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/ResourceManagement.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/TemplateManagement.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/ThemeBuilder.json`
 - [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/AppCreator.json`
 - [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/AppList.json`
 - [ ] `Common Cache -> ContentManagement — localhost/Common Cache/ContentManagement/Components/AppManagement.json`
@@ -3701,6 +3727,7 @@
 - [ ] `Common Cache -> Core — Default App/Common Cache/Core/Resources/fr-FR.json#4`
 - [ ] `Common Cache -> Core — Default App/Common Cache/Core/Resources/fr-FR.json#5`
 - [ ] `Common Cache -> Core — Default App/Common Cache/Core/Resources/fr-FR.json#6`
+- [ ] `Common Cache -> Core — demo.dev.localhost/Common Cache/Core/Components/CultureManagement.json`
 - [ ] `Common Cache -> Core — localhost/Common Cache/Core/Components/ApiTester.json`
 - [ ] `Common Cache -> Core — localhost/Common Cache/Core/Components/BackgroundJobs.json`
 - [ ] `Common Cache -> Core — localhost/Common Cache/Core/Components/BPEditor.json`
@@ -3994,6 +4021,10 @@
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Resources/fr.json`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Scripts/FileVersionsGrid.json`
 - [ ] `Common Cache -> DocumentManagement — Default App/Common Cache/DocumentManagement/Scripts/FolderManagementGrid.json`
+- [ ] `Common Cache -> DocumentManagement — demo.dev.localhost/Common Cache/DocumentManagement/Components/DMSFormatting.json`
+- [ ] `Common Cache -> DocumentManagement — demo.dev.localhost/Common Cache/DocumentManagement/Components/DocumentManagement.json`
+- [ ] `Common Cache -> DocumentManagement — demo.dev.localhost/Common Cache/DocumentManagement/Components/FileActions.json`
+- [ ] `Common Cache -> DocumentManagement — demo.dev.localhost/Common Cache/DocumentManagement/Components/FolderRoles.json`
 - [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/Client.json`
 - [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/ClientFiles.json`
 - [ ] `Common Cache -> DocumentManagement — localhost/Common Cache/DocumentManagement/Components/ClientList.json`
@@ -4126,7 +4157,12 @@
 - [ ] `Common Cache -> Mail — Default App/Common Cache/Mail/Resources/Default.json#1`
 - [ ] `Common Cache -> Mail — Default App/Common Cache/Mail/Resources/Default.json#2`
 - [ ] `Common Cache -> Mail — Default App/Common Cache/Mail/Scripts/MailManagement.RetryFailedSends.json`
+- [ ] `Common Cache -> Mail — demo.dev.localhost/Common Cache/Mail/Components/MailManagement.json`
 - [ ] `Common Cache -> Mail — localhost/Common Cache/Mail/Components/MailManagement.json`
+- [ ] `Common Cache -> Registrations — demo.dev.localhost/Common Cache/Registrations/Components/PendingRequests.json`
+- [ ] `Common Cache -> Registrations — demo.dev.localhost/Common Cache/Registrations/Components/RegistrationAdminDetails.json`
+- [ ] `Common Cache -> Registrations — demo.dev.localhost/Common Cache/Registrations/Components/RegistrationCompanyDetails.json`
+- [ ] `Common Cache -> Registrations — demo.dev.localhost/Common Cache/Registrations/Components/ReviewRequests.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Components/PasswordReset.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Components/TenantActivity.json`
 - [ ] `Common Cache -> Security — ccoder.co.uk/Common Cache/Security/Resources/Default.json#1`
@@ -4264,6 +4300,7 @@
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/en-GB.json#4`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/fr-FR.json#1`
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/fr-FR.json#2`
+- [ ] `Common Cache -> Workflow — demo.dev.localhost/Common Cache/Workflow/Components/WorkflowScheduling.json`
 - [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/ActivityEditor.json`
 - [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/ExpressionBuilder.json`
 - [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/FlowEditor.json`
@@ -4338,7 +4375,7 @@
 
 ## Totals
 
-- Directories scanned: 3
+- Directories scanned: 4
 - Layouts: 0
 - Pages: 0
 - Reachable components: 0 / 0
