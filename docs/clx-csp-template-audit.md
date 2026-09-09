@@ -44,4 +44,4 @@ Generate Offers no longer performs the obsolete `Core/App` request. The existing
 
 The Demo dashboard renders its state chart and funding-analysis rows. Its unchanged shared `Charts/FinancialForecast` component still raises a missing `Value` error in `buildSeriesDataset` for the current data. This is separate from Kendo template compilation and has not been changed by this pass.
 
-**The team baseline must be paired with a Core release containing PR 268.** The existing published CLX dependency predates the shared widget function support. Local review uses the fixed Core source; producing a backup ZIP alone would not update the team's application binaries.
+**The team baseline requires cCoder.Core 2026.9.9.1433 or later containing PR 268.** PR 268 is merged and release run 34357011027 published that package. The CLX `upgrade/ccoder-core-latest` branch consumes this release and aligns its direct Azure Service Bus references with Core. Producing a backup ZIP alone does not update the team's application binaries.
