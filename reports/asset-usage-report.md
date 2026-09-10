@@ -50,7 +50,7 @@
 | App | `Common Cache` | `Scripts` | 16 | 16 |
 | App | `Common Cache` | `Security` | 63 | 0 |
 | App | `Common Cache` | `Workflow` | 114 | 12 |
-| App | `localhost` | `App` | 35 | 35 |
+| App | `localhost` | `App` | 32 | 32 |
 
 ### Default-key ownership candidates
 
@@ -4415,9 +4415,6 @@
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/ValueOfEarlyPaidInvoices.json`
 - [ ] `localhost -> CMS — CLX Upgrade/localhost/App/CMS/Components/CoreManagement.json`
 - [ ] `localhost -> CRM — CLX Upgrade/localhost/App/CRM/Components/AppList.json`
-- [ ] `localhost -> Debug — CLX Upgrade/localhost/App/Debug/Components/B2BMetadata.json`
-- [ ] `localhost -> Debug — CLX Upgrade/localhost/App/Debug/Components/Metadata.json`
-- [ ] `localhost -> Debug — CLX Upgrade/localhost/App/Debug/Components/SSOMetadata.json`
 - [ ] `localhost -> Forms — CLX Upgrade/localhost/App/Forms/Components/FormManagement.json`
 - [ ] `localhost -> QueryBuilder — CLX Upgrade/localhost/App/QueryBuilder/Components/QueryBuilder.json`
 - [ ] `localhost -> Security — CLX Upgrade/localhost/App/Security/Components/SSORolePrivManagement.json`

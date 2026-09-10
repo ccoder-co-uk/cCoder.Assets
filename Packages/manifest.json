@@ -147,7 +147,7 @@
     },
     {
       "Path": "CLX Upgrade/first-app-ui.json",
-      "Sha256": "68415fb01fca9c5c2a02782b3abfa41ad596fa090c3ce0f93652dfeaf1fda5b8",
+      "Sha256": "695ffa475f48353a8c54a01b86e2fc21e6985b95c1e8b1a66842a4d948c8234d",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "CLX Upgrade",
