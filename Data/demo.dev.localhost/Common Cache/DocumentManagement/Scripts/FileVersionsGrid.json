@@ -1,0 +1,9 @@
+{
+  "Name": "FileVersionsGrid",
+  "Content": "async function (vars) {\n    var data = await api.get(\"DocumentManagement/File(\" +vars.fileId + \")?$expand=Contents($select=Id,FileId,Description,Size,CreatedBy,CreatedOn,Version)\");\nvar g = new GridWidget(vars.element, { data: data.Contents });\n    g.groupable = false;\n    g.editable = true;\n    g.pageable = false;\n    const fileFunctionsCol = function (data) {\n        const fileLink = session.apiRoot + \"/DMS/\" + file.Path + \"?version=\" + data.Version + \"&t=\" + session.token;\n        let html = \"<a name='download' target='_blank' href='\" + fileLink + \"'><span class='k-icon k-i-download'></span>[resource_displayname[DownloadFileVersion]]</a>\";\n        if (!readOnly) html += \"<a name='deleteFileVersion' href='' data-version='\" + data.Version + \"'><span class='k-icon k-i-delete'></span>[resource_displayname[DeleteFileVersion]]</a>\";\n        return html;\n    };\n    g.columns = [\n        { width: 40, field: \"Version\", title: \"\\#\", editable: false },\n        { title: \"[resource_shortdisplayname[Name]]\", template: file.Name },\n        { field: 'Size', width: 80, title: \"[resource_shortdisplayname[Size]]\" },\n        { width: 200, field: \"CreatedBy\", title: \"[resource_shortdisplayname[CreatedBy]]\", editable: false },\n        { width: 130, field: \"CreatedOn\", title: \"[resource_shortdisplayname[CreatedOn]]\", editable: false, template: function (data) { return kendo.htmlEncode(kendo.toString(new Date(data.CreatedOn), type.dateFormat + \" HH:mm:ss\")); } },\n        { width: 300, template: fileFunctionsCol }\n    ];\n    vars.FileVersionsGrid = g;\n    return g;\n}",
+  "CreatedOn": "2021-09-24T09:25:05.345Z",
+  "LastUpdated": "2021-09-24T09:25:05.345Z",
+  "Key": "DocumentManagement",
+  "PackageType": "ContentManagement/Script",
+  "IncludeInSubSequentImports": true
+}

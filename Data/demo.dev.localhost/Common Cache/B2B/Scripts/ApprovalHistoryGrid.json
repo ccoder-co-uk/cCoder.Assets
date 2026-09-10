@@ -1,0 +1,9 @@
+{
+  "Name": "ApprovalHistoryGrid",
+  "Key": "B2B",
+  "Content": "async function (variables) {\r\n    var approvalHistoryGrid = new GridWidget(variables.element, variables.dataSource);\r\n    approvalHistoryGrid.columns = [\r\n        { field: \"State\", type: \"string\", title: \"[resource_shortdisplayname[requestState]]\", template: function (data) { return \"<span class='k-icon \" + (UserOnboardingAdmin.iconStates[data.State]) + \"'></span>\"; } },\r\n        { field: \"email\", type: \"string\", title: \"[resource_shortdisplayname[userEmail]]\", template: function (data) { return \"\" + (JSON.parse(data.DataJson).fields[0].email) + \"\"; } },\r\n        { field: \"companyName\", type: \"string\", title: \"[resource_shortdisplayname[companyName]]\", template: function (data) { return \"\" + (JSON.parse(data.DataJson).fields[1].companyName) + \"\"; } },\r\n        { field: \"CreatedOn\", type: \"date\", title: \"[resource_shortdisplayname[requestDate]]\", format: \"{0:\" + type.dateFormat + \"}\" },\r\n        { field: \"CreatedBy\", title: \"[resource_shortdisplayname[CreatedBy]]\" },\r\n        { field: \"requestType\", type: \"string\", title: \"[resource_shortdisplayname[requestType]]\", template: function (data) { return \"\" + (JSON.parse(data.DataJson).fields[2].requestType ? UserOnboardingAdmin.requestTypes[JSON.parse(data.DataJson).fields[2].requestType.value] : '') + \"\"; } },\r\n    ];\r\n    approvalHistoryGrid.editable = false;\r\n    approvalHistoryGrid.sortable = false;\r\n    approvalHistoryGrid.filterable = false;\r\n    approvalHistoryGrid.pageable = false;\r\n    approvalHistoryGrid.groupable = false;\r\n    variables.ApprovalHistoryGrid = approvalHistoryGrid;\r\n    return approvalHistoryGrid;\r\n}",
+  "CreatedOn": "2023-03-12T19:02:18.168Z",
+  "LastUpdated": "2023-03-12T19:02:18.168Z",
+  "PackageType": "ContentManagement/Script",
+  "IncludeInSubSequentImports": true
+}

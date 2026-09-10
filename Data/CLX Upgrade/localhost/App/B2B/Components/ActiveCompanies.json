@@ -1,0 +1,14 @@
+{
+  "Name": "ActiveCompanies",
+  "Description": null,
+  "LastUpdated": "2026-08-16T13:36:40.2129312Z",
+  "LastUpdatedBy": "Paul",
+  "CreatedOn": "0001-01-01T00:00:00Z",
+  "CreatedBy": null,
+  "ResourceKey": "B2B",
+  "Content": "<h3 class=\"chartTitle\">[resource_displayname[ActiveCompanies]]</h3>\n<div class=\"chart\" name=\"chart\"></div>",
+  "Script": "ActiveCompanies = {\n\tinit: async function (app, container) {\n\t\tapp = app || session.app;\n\t\tcontainer = container || $(\".component[name=ActiveCompanies]\");\n\n\t\tvar data = await this.getData(app);\n\t\tvar chart = this.initChart(container, data);\n\t\tchart.init();\n\n\t\t$(window).resize(function () {\n\t\t\tchart.kendoObject.refresh();\n\t\t});\n\t},\n\n\tinitChart: function (container, data) {\n\t\tvar args = {\n\t\t\tshowLegend: true,\n\t\t\tvalueTemplate: function (data) { return \"\" + kendo.htmlEncode(kendo.toString(data.value, type.number)) + \"\"; },\n\t\t\ttooltipTemplate: function (data) { return \"\" + (data.series.name) + \": \" + (kendo.toString(data.value, type.number)) + \"\"; },\n\t\t\tseries: [{\n\t\t\t\tname: `[resource_displayname[suppliercount]]`,\n\t\t\t\tdata: data.counts\n\t\t\t}],\n\t\t\tcategories: data.months,\n\t\t\tmax: Math.max(...data.counts),\n\t\t\ttype: \"line\",\n\t\t\tstyle: \"smooth\"\n\t\t};\n\t\t\n\t\treturn (new Chart($(\"[name=chart]\", container), args));\n\t},\n\n\tgetData: async function(app) {\n\t\tvar results = [];\n\t\tvar sourceSystem = app.Config.B2B.SourceSystem;\n\t\tvar data = [];\n\t\t\n\t\tvar suppliers = (await api.get(`B2B/Bucket/ClientRollout()?system=${sourceSystem}&perspectiveKey=Creditor&$top=12`)).value;\n\t\t\n\t\tsuppliers = suppliers\n\t\t\t.map(s => {\n\t\t\t\tvar split = s.Name.split('-');\n\t\t\t\tvar year = split[0];\n\t\t\t\tvar month = split[1].padStart(2, '0');\n\t\t\t\ts.month = new Date(`${year}-${month}-01`);\n\t\t\t\ts.formatted = kendo.toString(s.month, 'MM-yyyy');\n\t\t\t\treturn s;\n\t\t\t})\n\t\t\t.sort((a, b) => a.month - b.month);\n\t\t\n\t\tvar categories = [... new Set(suppliers.map(t => t.formatted))];\n\t\t\n\t\treturn {\n\t\t\tmonths: categories,\n\t\t\tcounts: categories.map(m => suppliers\n\t\t\t\t.filter(s => s.formatted == m)\n\t\t\t\t.map(s => s.Count)\n\t\t\t\t.reduce((accumulator, current) => accumulator + current, 0))\n\t\t};\n\t}\n}",
+  "Key": "Charts",
+  "PackageType": "ContentManagement/Component",
+  "IncludeInSubSequentImports": true
+}
