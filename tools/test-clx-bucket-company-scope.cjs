@@ -18,7 +18,7 @@ function component(app) {
   return { api: sandbox.BucketedCompanyManagement, grids, requests, pending };
 }
 
-test('Portal Admin can open company grids without an app source-system restriction', async () => {
+test('Portal Admin lists only companies not already linked to the bucket', async () => {
   const app = { Config: { B2B: {} } };
   const c = component(app);
   await c.api.setupGrid(app, {}, { Id: 21 });
@@ -27,7 +27,7 @@ test('Portal Admin can open company grids without an app source-system restricti
   await c.api.selectCompanyToAdd({ preventDefault() {} }, app, {}, 21);
   await Promise.all(c.pending);
   assert.equal(c.requests[1].endpoint, 'B2B/Company');
-  assert.equal(c.requests[1].odataAppend, '?$expand=References');
+  assert.equal(c.requests[1].odataAppend, '?$filter=not Buckets/any(b:b/BucketId eq 21)&$expand=References');
 });
 
 test('App administration retains source-system filtering', async () => {
