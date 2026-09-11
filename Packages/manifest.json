@@ -136,7 +136,7 @@
     },
     {
       "Path": "CLX Upgrade/demo-app-ui.json",
-      "Sha256": "8b2f2f0b879c62453f7827a3a6a0ea353558922238d345d430690d2ab9aa919a",
+      "Sha256": "490af01cc1966a539acb92a1750cc18b4d1c08db3b16c132e86da39575d40d2c",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "CLX Upgrade",
