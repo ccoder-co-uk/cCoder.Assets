@@ -125,7 +125,7 @@
     },
     {
       "Path": "CLX Upgrade/common-cache-ui.json",
-      "Sha256": "15f1b537677e0fd3d161a11ec90718f93f68285cb0e49be2b86007ff2966b616",
+      "Sha256": "6b665de8cd7a57b157d4f7d021abae684de1c5c56934854839ef1bae6736f933",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "CLX Upgrade",
@@ -241,7 +241,7 @@
     },
     {
       "Path": "Common Cache/ContentManagement.json",
-      "Sha256": "8B6A4EE8F1AD208EB1DE50E06B88342ABFF056AD8BB32A90D132C7692842E27E",
+      "Sha256": "EB144D52CD2086C018113ADD616DE3160F32DA01284678921394AD92F43670EC",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "ContentManagement",
@@ -321,7 +321,7 @@
     },
     {
       "Path": "First Time Setup/common-cache.json",
-      "Sha256": "1F67819442A47EDACD0B5D0F38737E794491D904C0722C3831EAF1E2578D74E2",
+      "Sha256": "FF05B045C7A975273A2254D7390A938FCBC290C70F8B98DDED543287AA520F0D",
       "FirstTimeSetup": true,
       "Source": "Common Cache",
       "Category": "First Time Setup",
@@ -334,7 +334,7 @@
     },
     {
       "Path": "First Time Setup/first-app.json",
-      "Sha256": "9257525E10D35D8BD25721DB3A445ABD9CF16D4F669F80D2E2210CD580312C22",
+      "Sha256": "9105BA47B8954D4A40ECF3E9F57C14E2DE03376BE8BE5FB323F478C762C151F2",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "First Time Setup",

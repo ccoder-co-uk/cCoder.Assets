@@ -17,21 +17,36 @@ public sealed partial class PackageTransferContractTests
             scope: "App",
             componentName: "CommonCacheManagement");
 
-        // When / Then
-        Assert.Contains("name='export'", script, StringComparison.Ordinal);
-        Assert.Contains("name='import'", script, StringComparison.Ordinal);
+        // When
+        bool hasPackageTransferControls = script.Contains(
+            value: "name='export'",
+            comparisonType: StringComparison.Ordinal)
+            && script.Contains(
+                value: "name='import'",
+                comparisonType: StringComparison.Ordinal);
+
+        // Then
+        Assert.True(condition: hasPackageTransferControls);
         Assert.Contains(
-            "ContentManagement/CommonObject/Latest()?type=",
-            script,
-            StringComparison.Ordinal);
+            expectedSubstring: "ContentManagement/CommonObject/Latest()?type=",
+            actualString: script,
+            comparisonType: StringComparison.Ordinal);
         Assert.Contains(
-            "Packaging/Package/Import",
-            script,
-            StringComparison.Ordinal);
+            expectedSubstring: "&$top=",
+            actualString: script,
+            comparisonType: StringComparison.Ordinal);
+        Assert.Contains(
+            expectedSubstring: "&$skip=",
+            actualString: script,
+            comparisonType: StringComparison.Ordinal);
+        Assert.Contains(
+            expectedSubstring: "Packaging/Package/Import",
+            actualString: script,
+            comparisonType: StringComparison.Ordinal);
         Assert.DoesNotContain(
-            "ContentManagement/CommonObject?$filter=",
-            script,
-            StringComparison.Ordinal);
+            expectedSubstring: "ContentManagement/CommonObject?$filter=",
+            actualString: script,
+            comparisonType: StringComparison.Ordinal);
     }
 
     [Fact]
@@ -42,14 +57,24 @@ public sealed partial class PackageTransferContractTests
             scope: "Common Cache",
             componentName: "AppManagement");
 
-        // When / Then
-        Assert.Contains("name=\"appExport\"", script, StringComparison.Ordinal);
-        Assert.Contains("name=\"appImport\"", script, StringComparison.Ordinal);
-        Assert.Contains("/Export()?$expand=Items", script, StringComparison.Ordinal);
+        // When
+        bool hasPackageTransferControls = script.Contains(
+            value: "name=\"appExport\"",
+            comparisonType: StringComparison.Ordinal)
+            && script.Contains(
+                value: "name=\"appImport\"",
+                comparisonType: StringComparison.Ordinal);
+
+        // Then
+        Assert.True(condition: hasPackageTransferControls);
         Assert.Contains(
-            "Packaging/Package/Import?appId=",
-            script,
-            StringComparison.Ordinal);
+            expectedSubstring: "Core/Package/Export?appId=",
+            actualString: script,
+            comparisonType: StringComparison.Ordinal);
+        Assert.Contains(
+            expectedSubstring: "Packaging/Package/Import?appId=",
+            actualString: script,
+            comparisonType: StringComparison.Ordinal);
     }
 
     private static string ReadComponentScript(string scope, string componentName)
