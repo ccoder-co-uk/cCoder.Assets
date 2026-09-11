@@ -125,7 +125,7 @@
     },
     {
       "Path": "CLX Upgrade/common-cache-ui.json",
-      "Sha256": "0f7aa90f8a8e15653aa903254b90004071b8b7026eab88b279c4fbad1be06e47",
+      "Sha256": "15f1b537677e0fd3d161a11ec90718f93f68285cb0e49be2b86007ff2966b616",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "CLX Upgrade",
