@@ -31,18 +31,22 @@ public sealed partial class PackageTransferContractTests
             expectedSubstring: "ContentManagement/CommonObject/Latest()?type=",
             actualString: script,
             comparisonType: StringComparison.Ordinal);
+
         Assert.Contains(
             expectedSubstring: "&$top=",
             actualString: script,
             comparisonType: StringComparison.Ordinal);
+
         Assert.Contains(
             expectedSubstring: "&$skip=",
             actualString: script,
             comparisonType: StringComparison.Ordinal);
+
         Assert.Contains(
             expectedSubstring: "Packaging/Package/Import",
             actualString: script,
             comparisonType: StringComparison.Ordinal);
+
         Assert.DoesNotContain(
             expectedSubstring: "ContentManagement/CommonObject?$filter=",
             actualString: script,
@@ -71,6 +75,7 @@ public sealed partial class PackageTransferContractTests
             expectedSubstring: "Core/Package/Export?appId=",
             actualString: script,
             comparisonType: StringComparison.Ordinal);
+
         Assert.Contains(
             expectedSubstring: "Packaging/Package/Import?appId=",
             actualString: script,
