@@ -29,7 +29,7 @@
 | App | `App` | `notifications` | 2 | 0 |
 | App | `App` | `QueryBuilder` | 2 | 0 |
 | App | `App` | `Register` | 3 | 1 |
-| App | `App` | `Registrations` | 1 | 1 |
+| App | `App` | `Registrations` | 6 | 1 |
 | App | `App` | `Security` | 37 | 1 |
 | App | `App` | `Tools` | 3 | 0 |
 | App | `App` | `Workflow` | 188 | 62 |
@@ -1208,6 +1208,7 @@
 - [ ] `App -> Common — localhost/App/Common/Resources/Default.json#4`
 - [ ] `App -> Common — localhost/App/Common/Resources/Default.json#5`
 - [ ] `App -> Common — localhost/App/Common/Resources/Default.json#6`
+- [ ] `App -> ConfirmInvitation — demo.dev.localhost/App/Registrations/Templates/Invitation.json`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Components/CommonCacheComponents.json`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Components/CommonCacheEndpoint.json`
 - [ ] `App -> ContentManagement — ccoder.co.uk/App/ContentManagement/Components/CommonCacheResources.json`
@@ -2732,7 +2733,11 @@
 - [ ] `App -> Register — ccoder.co.uk/App/Register/Templates/ConfirmRegistration.json`
 - [ ] `App -> Register — Default App/App/Register/Templates/ConfirmRegistration.json`
 - [ ] `App -> Register — localhost/App/Register/Templates/ConfirmRegistration.json`
+- [ ] `App -> Registrations — demo.dev.localhost/App/Registrations/Templates/AccessRequestAdminEmail1.json`
 - [ ] `App -> Registrations — demo.dev.localhost/App/Registrations/Templates/AccessRequestApprovedEmail.json`
+- [ ] `App -> Registrations — demo.dev.localhost/App/Registrations/Templates/AccessRequestCreatedEmail.json`
+- [ ] `App -> Registrations — demo.dev.localhost/App/Registrations/Templates/AccessRequestDeniedEmail.json`
+- [ ] `App -> Registrations — demo.dev.localhost/App/Registrations/Templates/MailshotInvitationEmail.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/SSORoleManagement.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/SSORolePrivManagement.json`
 - [ ] `App -> Security — ccoder.co.uk/App/Security/Components/SSORoleUserManagement.json`

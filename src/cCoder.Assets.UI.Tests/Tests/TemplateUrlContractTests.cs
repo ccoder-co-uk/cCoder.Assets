@@ -3,6 +3,7 @@
 // ---------------------------------------------------------------
 
 using System.Text.Json;
+using System.Text.RegularExpressions;
 using Xunit;
 
 namespace cCoder.Assets.UI.Tests.Tests;
@@ -63,6 +64,16 @@ public sealed partial class TemplateUrlContractTests
                 expectedSubstring: "/MyRegistrations?",
                 actualString: template,
                 comparisonType: StringComparison.Ordinal);
+
+            Assert.All(
+                collection: Regex.Matches(
+                    input: template,
+                    pattern: "(?:href|src|action)=\"([^\"]+)\"")
+                    .Cast<Match>(),
+                action: match => Assert.True(
+                    condition: IsAbsoluteOrGeneratedUrl(
+                        url: match.Groups[groupnum: 1].Value),
+                    userMessage: $"Template URL is relative or malformed: {match.Value}"));
         });
     }
 
@@ -102,6 +113,34 @@ public sealed partial class TemplateUrlContractTests
         return document.RootElement
             .GetProperty(propertyName: "RawString")
             .GetString()!;
+    }
+
+    private static bool IsAbsoluteOrGeneratedUrl(string url)
+    {
+        return url.StartsWith(
+            value: "[app[root]]",
+            comparisonType: StringComparison.Ordinal) ||
+            url.StartsWith(
+                value: "[api[root]]",
+                comparisonType: StringComparison.Ordinal) ||
+            url.StartsWith(
+                value: "https://",
+                comparisonType: StringComparison.Ordinal) ||
+            url.StartsWith(
+                value: "http://",
+                comparisonType: StringComparison.Ordinal) ||
+            url.StartsWith(
+                value: "/",
+                comparisonType: StringComparison.Ordinal) ||
+            url.StartsWith(
+                value: "#",
+                comparisonType: StringComparison.Ordinal) ||
+            url.StartsWith(
+                value: "mailto:",
+                comparisonType: StringComparison.Ordinal) ||
+            url.StartsWith(
+                value: "data:",
+                comparisonType: StringComparison.Ordinal);
     }
 
     private static string FindRepositoryRoot()
