@@ -46,6 +46,9 @@ public sealed partial class CultureFlagsTests
                         State = WaitForSelectorState.Visible
                     });
 
+                await Assertions.Expect(locator: cultures.First)
+                    .ToHaveCSSAsync(name: "cursor", value: "pointer");
+
                 int cultureCount = await cultures.CountAsync();
 
                 Assert.True(
