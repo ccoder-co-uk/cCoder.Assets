@@ -146,6 +146,56 @@ public sealed partial class ClxLoginAssetContractTests
         Assert.DoesNotContain(expectedSubstring: "�", actualString: serializedRows);
     }
 
+    [Fact]
+    public void DemoLoginContract_ShouldUseCurrentAuthenticationAndFrenchResources()
+    {
+        // Given
+        string repositoryRoot = FindRepositoryRoot();
+        string componentPath = Path.Combine(paths:
+        [
+            repositoryRoot,
+            "Data",
+            "demo.dev.localhost",
+            "App",
+            "Account",
+            "Components",
+            "Login.json"
+        ]);
+        string resourcesPath = Path.Combine(paths:
+        [
+            repositoryRoot,
+            "Data",
+            "demo.dev.localhost",
+            "App",
+            "Account",
+            "Resources",
+            "fr-FR.json"
+        ]);
+
+        // When
+        using JsonDocument component = JsonDocument.Parse(
+            json: File.ReadAllText(path: componentPath));
+        using JsonDocument resources = JsonDocument.Parse(
+            json: File.ReadAllText(path: resourcesPath));
+        string script = component.RootElement.GetProperty("Script").GetString()!;
+        string content = component.RootElement.GetProperty("Content").GetString()!;
+        string[] names = resources.RootElement.EnumerateArray()
+            .Select(row => row.GetProperty("Name").GetString()!)
+            .ToArray();
+
+        // Then
+        Assert.Contains("if (!result)", script, StringComparison.Ordinal);
+        Assert.Contains(
+            "window.location.replace(Login.getRedirectUrl())",
+            script,
+            StringComparison.Ordinal);
+        Assert.DoesNotContain("if (result.id)", script, StringComparison.Ordinal);
+        Assert.Contains("[resource_displayname[signin]]", content, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("[resource_displayname[donthaveanaccount]]", content, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("signin", names, StringComparer.OrdinalIgnoreCase);
+        Assert.Contains("donthaveanaccount", names, StringComparer.OrdinalIgnoreCase);
+    }
+
     private static string FindRepositoryRoot()
     {
         DirectoryInfo? directory = new(path: AppContext.BaseDirectory);
