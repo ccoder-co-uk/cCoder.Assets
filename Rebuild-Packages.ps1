@@ -211,6 +211,35 @@ try {
         if ($LASTEXITCODE -ne 0) { throw "Failed to build $($entry.Path)." }
     }
 
+    $demoAppConfigurationPath =
+        Join-Path $repoRoot 'Data/demo.dev.localhost/AppConfiguration.json'
+    $demoPackagePath =
+        Join-Path $packages 'CLX Upgrade/demo-app-ui.json'
+    $demoAppConfiguration =
+        Get-Content -LiteralPath $demoAppConfigurationPath -Raw |
+            ConvertFrom-Json
+    $demoAppConfiguration.PSObject.Properties.Remove('PackageType')
+    $demoAppConfiguration.PSObject.Properties.Remove(
+        'IncludeInSubSequentImports')
+    $demoPackage =
+        Get-Content -LiteralPath $demoPackagePath -Raw |
+            ConvertFrom-Json
+    $demoPackage.Items = @(
+        $demoPackage.Items |
+            Where-Object { $_.Type -ne 'Core/App' }
+    ) + @(
+        [pscustomobject]@{
+            Type = 'Core/App'
+            Data = $demoAppConfiguration |
+                ConvertTo-Json -Depth 100 -Compress
+        }
+    )
+    $demoPackageJson = $demoPackage | ConvertTo-Json -Depth 100
+    [System.IO.File]::WriteAllText(
+        $demoPackagePath,
+        "$demoPackageJson$([Environment]::NewLine)",
+        [System.Text.UTF8Encoding]::new($false))
+
     $manifestPath = Join-Path $packages 'manifest.json'
     $manifest = Get-Content -LiteralPath $manifestPath -Raw | ConvertFrom-Json
     $completePackageEntries = @(
