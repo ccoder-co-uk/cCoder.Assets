@@ -72,7 +72,7 @@ public sealed partial class PackageTransferContractTests
         // Then
         Assert.True(condition: hasPackageTransferControls);
         Assert.Contains(
-            expectedSubstring: "Core/Package/Export?appId=",
+            expectedSubstring: "Packaging/Package/Export?appId=",
             actualString: script,
             comparisonType: StringComparison.Ordinal);
 
