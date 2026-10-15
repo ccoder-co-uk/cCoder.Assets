@@ -1,0 +1,18 @@
+[
+  {
+    "Key": "Default",
+    "Name": "moneyformat",
+    "Culture": "",
+    "DisplayName": "c2",
+    "ShortDisplayName": "c2",
+    "Description": "Default currency format"
+  },
+  {
+    "Key": "Default",
+    "Name": "aggregatemoneyformat",
+    "Culture": "",
+    "DisplayName": "c2",
+    "ShortDisplayName": "c2",
+    "Description": "Default currency format"
+  }
+]
