@@ -6,9 +6,9 @@
 
 | Scope | Resource key | Asset type | Full cut | First-time cut |
 | --- | --- | --- | ---: | ---: |
-| App | `App` | `Account` | 117 | 0 |
+| App | `App` | `Account` | 120 | 0 |
 | App | `App` | `addUserDropDown` | 2 | 0 |
-| App | `App` | `AppSecurity` | 89 | 31 |
+| App | `App` | `AppSecurity` | 109 | 31 |
 | App | `App` | `B2B` | 52 | 0 |
 | App | `App` | `B2B Portal Admin` | 4 | 0 |
 | App | `App` | `CMS` | 444 | 0 |
@@ -16,13 +16,12 @@
 | App | `App` | `ContentManagement` | 484 | 167 |
 | App | `App` | `Core` | 85 | 3 |
 | App | `App` | `CRM` | 156 | 0 |
-| App | `App` | `Debug` | 6 | 0 |
 | App | `App` | `Default` | 1274 | 23 |
 | App | `App` | `DevTools` | 2 | 0 |
 | App | `App` | `DMS` | 104 | 0 |
 | App | `App` | `Documentation` | 2 | 0 |
 | App | `App` | `DocumentManagement` | 261 | 107 |
-| App | `App` | `ForgotPassword` | 3 | 1 |
+| App | `App` | `ForgotPassword` | 4 | 1 |
 | App | `App` | `Forms` | 2 | 0 |
 | App | `App` | `Key` | 2 | 0 |
 | App | `App` | `Logging` | 6 | 0 |
@@ -34,6 +33,7 @@
 | App | `App` | `Security` | 37 | 1 |
 | App | `App` | `Tools` | 3 | 0 |
 | App | `App` | `Workflow` | 188 | 62 |
+| App | `AppConfiguration.json` | `` | 1 | 0 |
 | App | `Common Cache` | `AI` | 2 | 2 |
 | App | `Common Cache` | `AppSecurity` | 110 | 12 |
 | App | `Common Cache` | `B2B` | 27 | 27 |
@@ -549,6 +549,9 @@
 - [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr.json#3`
 - [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr.json#4`
 - [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr.json#5`
+- [ ] `App -> Account — demo.dev.localhost/App/Account/Components/Login.json`
+- [ ] `App -> Account — demo.dev.localhost/App/Account/Resources/fr-FR.json#1`
+- [ ] `App -> Account — demo.dev.localhost/App/Account/Resources/fr-FR.json#2`
 - [ ] `App -> Account — localhost/App/Account/Components/CultureFlags.json`
 - [ ] `App -> Account — localhost/App/Account/Resources/Default.json#1`
 - [ ] `App -> Account — localhost/App/Account/Resources/Default.json#10`
@@ -682,6 +685,11 @@
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#18`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#19`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#2`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#20`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#21`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#22`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#23`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#24`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#3`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#4`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#5`
@@ -690,7 +698,22 @@
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#8`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#9`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#1`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#10`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#11`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#12`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#13`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#14`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#15`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#16`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#17`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#18`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#19`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#2`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#20`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#21`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#22`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#23`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#24`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#3`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#4`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#5`
@@ -1935,12 +1958,6 @@
 - [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#6`
 - [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#7`
 - [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#8`
-- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/ApiTester.json`
-- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/DomainMetadata.json`
-- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/Metadata.json`
-- [ ] `App -> Debug — localhost/App/Debug/Components/ApiTester.json`
-- [ ] `App -> Debug — localhost/App/Debug/Components/DomainMetadata.json`
-- [ ] `App -> Debug — localhost/App/Debug/Components/Metadata.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0001.json`
@@ -2718,6 +2735,7 @@
 - [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/fr.json`
 - [ ] `App -> ForgotPassword — ccoder.co.uk/App/ForgotPassword/Templates/ForgotPassword.json`
 - [ ] `App -> ForgotPassword — Default App/App/ForgotPassword/Templates/ForgotPassword.json`
+- [ ] `App -> ForgotPassword — demo.dev.localhost/App/ForgotPassword/Templates/ForgotPassword.json`
 - [ ] `App -> ForgotPassword — localhost/App/ForgotPassword/Templates/ForgotPassword.json`
 - [ ] `App -> Forms — ccoder.co.uk/App/Forms/Components/FormManagement.json`
 - [ ] `App -> Forms — localhost/App/Forms/Components/FormManagement.json`

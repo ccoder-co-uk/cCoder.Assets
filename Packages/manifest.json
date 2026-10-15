@@ -125,7 +125,7 @@
     },
     {
       "Path": "CLX Upgrade/common-cache-ui.json",
-      "Sha256": "139e799200353e2df60dfb892b2f355a983cd359201d389dba62a51aa00fa3e1",
+      "Sha256": "3adf4c3c49c4df8b1137bf9d05f8ac155ebe44f45ac88276718a900fa39fc838",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "CLX Upgrade",
@@ -136,12 +136,15 @@
     },
     {
       "Path": "CLX Upgrade/demo-app-ui.json",
-      "Sha256": "490af01cc1966a539acb92a1750cc18b4d1c08db3b16c132e86da39575d40d2c",
+      "Sha256": "815380384a1d08f049c7d3e9a9b10c8df4b2faa6f461f1f00bdbebbc3bed5931",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "CLX Upgrade",
       "ItemTypes": [
+        "ContentManagement/Component",
+        "ContentManagement/Resource",
         "ContentManagement/Template",
+        "Core/App",
         "Workflow/FlowDefinition"
       ]
     },
@@ -167,7 +170,7 @@
     },
     {
       "Path": "Common Cache/all-components.json",
-      "Sha256": "c2345e87ece9e6855c660549dfd52279093bacf07947288f4ac1e9665f473ef3",
+      "Sha256": "06efb410ba10e11e0ab2fb225dc77ee7371ea8cef8a05810cb878657ab387a4b",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Common Cache",
@@ -207,7 +210,7 @@
     },
     {
       "Path": "Common Cache/AppSecurity.json",
-      "Sha256": "8074DB713D237967F207A2C50778BD0E33385374091CF512650174F804BC39D0",
+      "Sha256": "AD82E961E5A3D4934C44AA93DC3B5E0914AB780C9C7E52B82CD336F4EDBCD735",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "AppSecurity",
@@ -321,7 +324,7 @@
     },
     {
       "Path": "First Time Setup/common-cache.json",
-      "Sha256": "FF05B045C7A975273A2254D7390A938FCBC290C70F8B98DDED543287AA520F0D",
+      "Sha256": "F7C5745A34A6BAFCA1069BBBFD707DE35FC8A8170FB42B015D49395F3372E560",
       "FirstTimeSetup": true,
       "Source": "Common Cache",
       "Category": "First Time Setup",
