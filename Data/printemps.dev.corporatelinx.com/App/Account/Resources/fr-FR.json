@@ -1,0 +1,18 @@
+[
+  {
+    "Key": "Account",
+    "Name": "signin",
+    "Culture": "fr-FR",
+    "DisplayName": "Se connecter",
+    "ShortDisplayName": "Se connecter",
+    "Description": "Se connecter"
+  },
+  {
+    "Key": "Account",
+    "Name": "donthaveanaccount",
+    "Culture": "fr-FR",
+    "DisplayName": "Vous n'avez pas de compte ? Inscrivez-vous maintenant",
+    "ShortDisplayName": "Inscrivez-vous",
+    "Description": "Vous n'avez pas de compte ? Inscrivez-vous maintenant"
+  }
+]
