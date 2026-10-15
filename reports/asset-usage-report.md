@@ -42,7 +42,7 @@
 | App | `Common Cache` | `ClientRelationshipManagement` | 2 | 2 |
 | App | `Common Cache` | `CMS` | 1 | 1 |
 | App | `Common Cache` | `Common` | 61 | 28 |
-| App | `Common Cache` | `ContentManagement` | 555 | 92 |
+| App | `Common Cache` | `ContentManagement` | 556 | 92 |
 | App | `Common Cache` | `Core` | 68 | 14 |
 | App | `Common Cache` | `Default` | 18 | 0 |
 | App | `Common Cache` | `DocumentManagement` | 390 | 261 |
@@ -3586,6 +3586,7 @@
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/CommonCacheResources.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/ComponentManagement.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/CoreManagement.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/CultureFlags.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/FormManagement.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/GridBuilder.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/LayoutManagement.json`
