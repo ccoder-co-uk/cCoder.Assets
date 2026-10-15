@@ -125,7 +125,7 @@
     },
     {
       "Path": "CLX Upgrade/common-cache-ui.json",
-      "Sha256": "089a66b4fb1620840b076a8e2739267e4c058cb998d1fbbe552d4580d240c12f",
+      "Sha256": "3adf4c3c49c4df8b1137bf9d05f8ac155ebe44f45ac88276718a900fa39fc838",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "CLX Upgrade",
@@ -150,7 +150,7 @@
     },
     {
       "Path": "CLX Upgrade/first-app-ui.json",
-      "Sha256": "695ffa475f48353a8c54a01b86e2fc21e6985b95c1e8b1a66842a4d948c8234d",
+      "Sha256": "7c392f8b06100e0a6b7d3308de373e873a3bd8b030e41da8fd78ded5c75cb846",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "CLX Upgrade",

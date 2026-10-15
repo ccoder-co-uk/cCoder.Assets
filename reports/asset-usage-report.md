@@ -51,7 +51,7 @@
 | App | `Common Cache` | `Scripts` | 16 | 16 |
 | App | `Common Cache` | `Security` | 63 | 0 |
 | App | `Common Cache` | `Workflow` | 114 | 12 |
-| App | `localhost` | `App` | 32 | 32 |
+| App | `localhost` | `App` | 36 | 36 |
 
 ### Default-key ownership candidates
 
@@ -4421,15 +4421,19 @@
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/ActiveCompanies.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/ActiveTransactions.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/B2BAdminFunderCompany.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/CompanyManagement.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/CreditCountByMonth.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/CreditValueByMonth.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/FinancialForecast.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/FundingAnalysis.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/FundingDetails.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/GlobalizationManagement.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/InvoiceCountByMonth.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/InvoiceValueByMonth.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/MonthlyBreakdownOfYearlyDiscounts.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/OutstandingBalanceByDueDate.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/PortalAdmin.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/SystemsManagement.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/TotalCostOfAcceptedOffers.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/TotalCountOfAcceptedOffers.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/TotalCountOfDuePayments.json`
