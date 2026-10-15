@@ -16,6 +16,7 @@
 | App | `App` | `ContentManagement` | 484 | 167 |
 | App | `App` | `Core` | 85 | 3 |
 | App | `App` | `CRM` | 156 | 0 |
+| App | `App` | `Debug` | 6 | 0 |
 | App | `App` | `Default` | 1274 | 23 |
 | App | `App` | `DevTools` | 2 | 0 |
 | App | `App` | `DMS` | 104 | 0 |
@@ -1934,6 +1935,12 @@
 - [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#6`
 - [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#7`
 - [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#8`
+- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/ApiTester.json`
+- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/DomainMetadata.json`
+- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/Metadata.json`
+- [ ] `App -> Debug — localhost/App/Debug/Components/ApiTester.json`
+- [ ] `App -> Debug — localhost/App/Debug/Components/DomainMetadata.json`
+- [ ] `App -> Debug — localhost/App/Debug/Components/Metadata.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0001.json`
