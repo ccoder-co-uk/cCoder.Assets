@@ -128,7 +128,7 @@ value: value.RootElement.Clone()));
             ?? await ResolveAppIdAsync(cancellationToken: cancellationToken);
 
         using JsonDocument response = await GetJsonAsync(
-relativeUrl: $"Api/Core/Package/Export?appId={appId}",
+relativeUrl: $"Api/Packaging/Package/Export?appId={appId}",
 cancellationToken: cancellationToken);
 
         List<ExportRecord> records = [];
