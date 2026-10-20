@@ -10,6 +10,52 @@ namespace cCoder.Assets.UI.Tests.Tests.Components.Workflow;
 
 public sealed partial class BusinessProcessEditorAssetTests
 {
+    [Theory]
+    [InlineData("Default App")]
+    [InlineData("localhost")]
+    [InlineData("ccoder.co.uk")]
+    public void WorkflowDesigner_AllCulturesShouldLoadHostedDesignerAssets(
+        string baseline)
+    {
+        // Given
+        string path = Path.Combine(paths:
+        [
+            FindRepositoryRoot(),
+            "Data",
+            baseline,
+            "App",
+            "Workflow",
+            "Pages",
+            "Admin_WorkflowDesigner.json"
+        ]);
+
+        using JsonDocument page = JsonDocument.Parse(
+            json: File.ReadAllText(path: path));
+
+        // When
+        string[] contentVariants = page.RootElement
+            .GetProperty(propertyName: "Contents")
+            .EnumerateArray()
+            .Select(selector: content => content
+                .GetProperty(propertyName: "Html")
+                .GetString()!)
+            .ToArray();
+
+        // Then
+        foreach (string html in contentVariants)
+        {
+            Assert.Contains(
+                expectedSubstring: "/code-editor.min.js",
+                actualString: html,
+                comparisonType: StringComparison.Ordinal);
+
+            Assert.Contains(
+                expectedSubstring: "/workflow.min.js",
+                actualString: html,
+                comparisonType: StringComparison.Ordinal);
+        }
+    }
+
     [Fact]
     public void Documentation_ShouldNotEmbedOversizedImages()
     {

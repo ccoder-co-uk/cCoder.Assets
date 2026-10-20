@@ -99,7 +99,7 @@
     },
     {
       "Path": "App/Workflow.json",
-      "Sha256": "42F1A091857873825AA7363BBCC4F93B4C1F2B8DD156D45B6D2996321D16B874",
+      "Sha256": "0C926B4D209F91D28EF173881D096E9E64580AED8C8CB9B085AF29374EB2367A",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Workflow",
@@ -110,7 +110,7 @@
     },
     {
       "Path": "Baseline New App/baseline-new-app.json",
-      "Sha256": "9C1A74985C51CFF2C1300EA9B14E1DE1005EB77E2D0D542DC4D02EAEACDF2108",
+      "Sha256": "39085B4227AECE7B0D2D4A03B277A87F4CCDB498D1E070D2693D5F6E57E4B0B2",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Baseline New App",
@@ -338,7 +338,7 @@
     },
     {
       "Path": "First Time Setup/first-app.json",
-      "Sha256": "9105BA47B8954D4A40ECF3E9F57C14E2DE03376BE8BE5FB323F478C762C151F2",
+      "Sha256": "16A1E2B05ECE8326D80ECAADA7C9F5239B5EC68DD21D1AB451E61537160F7041",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "First Time Setup",
