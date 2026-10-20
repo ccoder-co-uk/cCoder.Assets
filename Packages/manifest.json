@@ -99,7 +99,7 @@
     },
     {
       "Path": "App/Workflow.json",
-      "Sha256": "0C926B4D209F91D28EF173881D096E9E64580AED8C8CB9B085AF29374EB2367A",
+      "Sha256": "F261234BEF091EDFC752CE2FADEBEECF0FCBE37B144D3F6B4DE2CBE3AFB0359B",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Workflow",
@@ -110,7 +110,7 @@
     },
     {
       "Path": "Baseline New App/baseline-new-app.json",
-      "Sha256": "39085B4227AECE7B0D2D4A03B277A87F4CCDB498D1E070D2693D5F6E57E4B0B2",
+      "Sha256": "9A7791E0CACB99279CACD5860D7287817B7888048D01FF34292E5E60FD893704",
       "FirstTimeSetup": false,
       "Source": "App",
       "Category": "Baseline New App",
@@ -125,7 +125,7 @@
     },
     {
       "Path": "CLX Upgrade/common-cache-ui.json",
-      "Sha256": "d502e722a6379979dde7dadbb358e2f79ddab2f08cf3bb7074cc4ff61fc0c4a5",
+      "Sha256": "977bd0d83a2e82acecfdfc90784fc1003cd9fa387191870c49eb810ba9c1ea23",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "CLX Upgrade",
@@ -171,7 +171,7 @@
     },
     {
       "Path": "Common Cache/all-components.json",
-      "Sha256": "93b3e3f2cae342573b8a5d73c6b411740ea7c3d77bf991e8edb969f92df88257",
+      "Sha256": "eeb06d06c93570f6fb82a21bc59b17bac333590dde2b45e6e36b5f78d38cc160",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Common Cache",
@@ -314,7 +314,7 @@
     },
     {
       "Path": "Common Cache/Workflow.json",
-      "Sha256": "9140BE4A1CA0A74E6DCC904890BEED1A5ECD7B84C1E046F77DF9EF430E9C4325",
+      "Sha256": "8C583606667739AC20373694F069A5567D86FC1D8CD96AB0A0B755E23C3F98EE",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "Workflow",
@@ -325,7 +325,7 @@
     },
     {
       "Path": "First Time Setup/common-cache.json",
-      "Sha256": "219512424E870AEF051BF00A12D433FFE46E1697325C8EBF677300505714349D",
+      "Sha256": "F4C0B16DEABEA589BEE083014CC67563C4521813FED5D54C4C4355B62199AEED",
       "FirstTimeSetup": true,
       "Source": "Common Cache",
       "Category": "First Time Setup",
@@ -338,7 +338,7 @@
     },
     {
       "Path": "First Time Setup/first-app.json",
-      "Sha256": "16A1E2B05ECE8326D80ECAADA7C9F5239B5EC68DD21D1AB451E61537160F7041",
+      "Sha256": "B6F26E45693B3E8CCFB3EC87E8A189AB10B9C708AB3945DAAEEBB53D40C25EA7",
       "FirstTimeSetup": true,
       "Source": "App",
       "Category": "First Time Setup",

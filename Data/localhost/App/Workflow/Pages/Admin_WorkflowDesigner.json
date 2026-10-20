@@ -5,17 +5,17 @@
   "ShowOnMenus": false,
   "Order": 5,
   "LastUpdated": "2026-07-30T22:31:26.0676314+00:00",
-  "Layout": "Default",
+  "Layout": "FullPage",
   "Contents": [
     {
       "CultureId": "",
       "Name": "body",
-      "Html": "<link rel=\"stylesheet\" href=\"/code-editor.min.css\" />\n<script nonce=\"[request[nonce]]\" src=\"/code-editor.min.js\"></script>\n<script nonce=\"[request[nonce]]\" src=\"/workflow.min.js\"></script>\n[component[FlowEditor]]"
+      "Html": "<link rel=\"stylesheet\" href=\"/code-editor.min.css\" />\n<script nonce=\"[request[nonce]]\" src=\"/code-editor.min.js\"></script>\n<script nonce=\"[request[nonce]]\" src=\"/workflow.min.js\"></script>\n<style nonce=\"[request[nonce]]\">.admin-page-content{height:max(520px,calc(100vh - 215px));min-height:0}.component[name=FlowEditor]{height:100%;min-height:0}</style>\n[component[FlowEditor]]"
     },
     {
       "CultureId": "en-GB",
       "Name": "body",
-      "Html": "<link rel=\"stylesheet\" href=\"/code-editor.min.css\" />\n<script nonce=\"[request[nonce]]\" src=\"/code-editor.min.js\"></script>\n<script nonce=\"[request[nonce]]\" src=\"/workflow.min.js\"></script>\n[component[FlowEditor]]"
+      "Html": "<link rel=\"stylesheet\" href=\"/code-editor.min.css\" />\n<script nonce=\"[request[nonce]]\" src=\"/code-editor.min.js\"></script>\n<script nonce=\"[request[nonce]]\" src=\"/workflow.min.js\"></script>\n<style nonce=\"[request[nonce]]\">.admin-page-content{height:max(520px,calc(100vh - 215px));min-height:0}.component[name=FlowEditor]{height:100%;min-height:0}</style>\n[component[FlowEditor]]"
     }
   ],
   "PageInfo": [

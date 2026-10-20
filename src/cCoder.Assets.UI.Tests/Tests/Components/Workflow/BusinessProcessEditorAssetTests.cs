@@ -53,7 +53,72 @@ public sealed partial class BusinessProcessEditorAssetTests
                 expectedSubstring: "/workflow.min.js",
                 actualString: html,
                 comparisonType: StringComparison.Ordinal);
+
+            Assert.Contains(
+                expectedSubstring: "calc(100vh - 215px)",
+                actualString: html,
+                comparisonType: StringComparison.Ordinal);
         }
+
+        Assert.Equal(
+            expected: "FullPage",
+            actual: page.RootElement
+                .GetProperty(propertyName: "Layout")
+                .GetString());
+    }
+
+    [Fact]
+    public void WorkflowEditors_ShouldUseBootstrapFormsAndScopedMonacoHost()
+    {
+        // Given
+        string root = FindRepositoryRoot();
+        using JsonDocument activityEditor = JsonDocument.Parse(
+            json: File.ReadAllText(path: Path.Combine(paths:
+            [
+                root,
+                "Data",
+                "Default App",
+                "Common Cache",
+                "Workflow",
+                "Components",
+                "ActivityEditor.json"
+            ])));
+        using JsonDocument expressionBuilder = JsonDocument.Parse(
+            json: File.ReadAllText(path: Path.Combine(paths:
+            [
+                root,
+                "Data",
+                "Default App",
+                "Common Cache",
+                "Workflow",
+                "Components",
+                "ExpressionBuilder.json"
+            ])));
+
+        // When
+        string activityContent = activityEditor.RootElement
+            .GetProperty(propertyName: "Content")
+            .GetString()!;
+        string activityScript = activityEditor.RootElement
+            .GetProperty(propertyName: "Script")
+            .GetString()!;
+        string expressionContent = expressionBuilder.RootElement
+            .GetProperty(propertyName: "Content")
+            .GetString()!;
+        string expressionScript = expressionBuilder.RootElement
+            .GetProperty(propertyName: "Script")
+            .GetString()!;
+
+        // Then
+        Assert.Contains("class=\"form-control\"", activityContent);
+        Assert.Contains("class=\"btn btn-primary\"", activityContent);
+        Assert.Contains("name=\"activityEditorForm\"", activityContent);
+        Assert.Contains("submit", activityScript);
+        Assert.Contains("name=\"expressionBuilderForm\"", expressionContent);
+        Assert.Contains("class=\"btn btn-primary\"", expressionContent);
+        Assert.Contains("$('[name=code]', container)[0]", expressionScript);
+        Assert.Contains("automaticLayout: true", expressionScript);
+        Assert.DoesNotContain("$('[name=code')", expressionScript);
     }
 
     [Fact]
