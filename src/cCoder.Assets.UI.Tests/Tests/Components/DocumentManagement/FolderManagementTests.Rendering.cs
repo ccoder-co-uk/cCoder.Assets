@@ -80,6 +80,25 @@ public sealed partial class FolderManagementTests(PublishedCoreFixture fixture)
                 await events
                     .Locator(selectorOrLocator: ".k-grid")
                     .WaitForAsync();
+
+                await events
+                    .Locator(selectorOrLocator: "button[name='addevent']")
+                    .ClickAsync();
+
+                ILocator newEvent = events
+                    .Locator(selectorOrLocator: "tbody > tr:not(.k-grid-norecords)")
+                    .First;
+
+                await newEvent.WaitForAsync();
+
+                await newEvent
+                    .Locator(selectorOrLocator: "td")
+                    .Nth(index: 2)
+                    .ClickAsync();
+
+                await newEvent
+                    .Locator(selectorOrLocator: ".k-dropdownlist,[data-role='dropdownlist']")
+                    .WaitForAsync();
             });
 
         // Then
