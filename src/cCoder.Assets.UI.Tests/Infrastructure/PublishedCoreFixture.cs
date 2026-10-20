@@ -172,16 +172,12 @@ public sealed class PublishedCoreFixture : IAsyncLifetime
         new()
         {
             ["ASPNETCORE_ENVIRONMENT"] = "Acceptance",
-            ["AppSecurity__ConnectionString"] = Settings.CoreConnectionString,
+            ["CoreData__ConnectionString"] = Settings.CoreConnectionString,
+            ["CoreData__AdminConnectionString"] = Settings.CoreConnectionString,
+            ["SecurityData__ConnectionString"] = Settings.SecurityConnectionString,
+            ["SecurityData__AdminConnectionString"] = Settings.SecurityConnectionString,
             ["AppSecurity__AggregateDomains"] = "false",
-            ["Security__ConnectionString"] = Settings.SecurityConnectionString,
             ["Security__DecryptionKey"] = Settings.SecurityDecryptionKey,
-            ["ContentManagement__ConnectionString"] = Settings.CoreConnectionString,
-            ["DocumentManagement__ConnectionString"] = Settings.CoreConnectionString,
-            ["Logging__ConnectionString"] = Settings.CoreConnectionString,
-            ["Mail__ConnectionString"] = Settings.CoreConnectionString,
-            ["Packaging__ConnectionString"] = Settings.CoreConnectionString,
-            ["Workflow__ConnectionString"] = Settings.CoreConnectionString,
             ["Eventing__ProviderType"] = "Http",
             ["Eventing__Http__HubUrl"] =
                 $"http://127.0.0.1:{hostedServicesPort}/Api/Eventing",
