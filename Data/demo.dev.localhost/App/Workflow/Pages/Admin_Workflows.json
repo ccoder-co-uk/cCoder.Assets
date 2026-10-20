@@ -1,0 +1,37 @@
+{
+  "Path": "Admin/Workflows",
+  "Name": "Workflows",
+  "ResourceKey": "Workflow",
+  "ShowOnMenus": true,
+  "Order": 7,
+  "LastUpdated": "2026-10-20T13:10:00Z",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<link rel=\"stylesheet\" href=\"/code-editor.min.css\" />\n<script nonce=\"[request[nonce]]\" src=\"/code-editor.min.js\"></script>\n<script nonce=\"[request[nonce]]\" src=\"/workflow.min.js\"></script>\n[component[WorkflowAdmin]]"
+    },
+    {
+      "CultureId": "fr-FR",
+      "Name": "body",
+      "Html": "<link rel=\"stylesheet\" href=\"/code-editor.min.css\" />\n<script nonce=\"[request[nonce]]\" src=\"/code-editor.min.js\"></script>\n<script nonce=\"[request[nonce]]\" src=\"/workflow.min.js\"></script>\n[component[WorkflowAdmin]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Create, manage, run and report on application workflows.",
+      "Keywords": "Workflow Management, Business Processes",
+      "Title": "Workflows"
+    },
+    {
+      "CultureId": "fr-FR",
+      "Description": "Créez, exécutez et suivez les workflows utilisés par le portail.",
+      "Keywords": "Gestion des processus business",
+      "Title": "Gestion des processus business"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": true
+}

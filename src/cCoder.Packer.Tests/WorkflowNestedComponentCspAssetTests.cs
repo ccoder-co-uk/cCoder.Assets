@@ -51,10 +51,20 @@ public sealed partial class WorkflowNestedComponentCspAssetTests
             actualString: script,
             comparisonType: StringComparison.Ordinal);
 
-        Assert.Contains(
-            expectedSubstring: ".clone(false, false)",
-            actualString: script,
-            comparisonType: StringComparison.Ordinal);
+        if (fileName == "WorkflowList.json")
+        {
+            Assert.Contains(
+                expectedSubstring: "await loadComponent(executionsContainer, \"FlowInstanceManagement\")",
+                actualString: script,
+                comparisonType: StringComparison.Ordinal);
+        }
+        else
+        {
+            Assert.Contains(
+                expectedSubstring: ".clone(false, false)",
+                actualString: script,
+                comparisonType: StringComparison.Ordinal);
+        }
     }
 
     private static string FindRepository()
