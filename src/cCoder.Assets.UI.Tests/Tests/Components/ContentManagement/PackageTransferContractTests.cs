@@ -80,6 +80,16 @@ public sealed partial class PackageTransferContractTests
             expectedSubstring: "Packaging/Package/Import?appId=",
             actualString: script,
             comparisonType: StringComparison.Ordinal);
+
+        Assert.DoesNotContain(
+            expectedSubstring: "Export?appId= + app.Id",
+            actualString: script,
+            comparisonType: StringComparison.Ordinal);
+
+        Assert.DoesNotContain(
+            expectedSubstring: "Export?appId=\" + app.Id\"",
+            actualString: script,
+            comparisonType: StringComparison.Ordinal);
     }
 
     private static string ReadComponentScript(string scope, string componentName)

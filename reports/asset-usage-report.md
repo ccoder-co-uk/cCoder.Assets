@@ -6,23 +6,24 @@
 
 | Scope | Resource key | Asset type | Full cut | First-time cut |
 | --- | --- | --- | ---: | ---: |
-| App | `App` | `Account` | 117 | 0 |
+| App | `App` | `Account` | 127 | 0 |
 | App | `App` | `addUserDropDown` | 2 | 0 |
-| App | `App` | `AppSecurity` | 89 | 31 |
-| App | `App` | `B2B` | 52 | 0 |
+| App | `App` | `AppSecurity` | 109 | 31 |
+| App | `App` | `B2B` | 55 | 0 |
 | App | `App` | `B2B Portal Admin` | 4 | 0 |
 | App | `App` | `CMS` | 444 | 0 |
 | App | `App` | `Common` | 12 | 0 |
 | App | `App` | `ContentManagement` | 484 | 167 |
 | App | `App` | `Core` | 85 | 3 |
 | App | `App` | `CRM` | 156 | 0 |
-| App | `App` | `Default` | 1274 | 23 |
+| App | `App` | `Default` | 1276 | 23 |
 | App | `App` | `DevTools` | 2 | 0 |
 | App | `App` | `DMS` | 104 | 0 |
 | App | `App` | `Documentation` | 2 | 0 |
 | App | `App` | `DocumentManagement` | 261 | 107 |
-| App | `App` | `ForgotPassword` | 3 | 1 |
+| App | `App` | `ForgotPassword` | 5 | 1 |
 | App | `App` | `Forms` | 2 | 0 |
+| App | `App` | `Home` | 1 | 0 |
 | App | `App` | `Key` | 2 | 0 |
 | App | `App` | `Logging` | 6 | 0 |
 | App | `App` | `Mail` | 4 | 1 |
@@ -32,28 +33,31 @@
 | App | `App` | `Registrations` | 6 | 1 |
 | App | `App` | `Security` | 37 | 1 |
 | App | `App` | `Tools` | 3 | 0 |
-| App | `App` | `Workflow` | 188 | 62 |
+| App | `App` | `Workflow` | 189 | 63 |
+| App | `AppConfiguration.json` | `` | 1 | 0 |
 | App | `Common Cache` | `AI` | 2 | 2 |
 | App | `Common Cache` | `AppSecurity` | 110 | 12 |
-| App | `Common Cache` | `B2B` | 27 | 27 |
+| App | `Common Cache` | `B2B` | 33 | 27 |
 | App | `Common Cache` | `ClientRelationshipManagement` | 2 | 2 |
 | App | `Common Cache` | `CMS` | 1 | 1 |
 | App | `Common Cache` | `Common` | 61 | 28 |
-| App | `Common Cache` | `ContentManagement` | 555 | 92 |
+| App | `Common Cache` | `ContentManagement` | 556 | 92 |
 | App | `Common Cache` | `Core` | 68 | 14 |
 | App | `Common Cache` | `Default` | 18 | 0 |
 | App | `Common Cache` | `DocumentManagement` | 390 | 261 |
 | App | `Common Cache` | `Funding` | 7 | 7 |
-| App | `Common Cache` | `Home` | 1 | 1 |
+| App | `Common Cache` | `Home` | 3 | 1 |
 | App | `Common Cache` | `Mail` | 7 | 7 |
 | App | `Common Cache` | `Registrations` | 4 | 4 |
 | App | `Common Cache` | `Scripts` | 16 | 16 |
 | App | `Common Cache` | `Security` | 63 | 0 |
-| App | `Common Cache` | `Workflow` | 114 | 12 |
-| App | `localhost` | `App` | 32 | 32 |
+| App | `Common Cache` | `Workflow` | 116 | 12 |
+| App | `localhost` | `App` | 36 | 36 |
 
 ### Default-key ownership candidates
 
+- [ ] `bank.dev.corporatelinx.com/App/Default/Resources/Default.json#1`
+- [ ] `bank.dev.corporatelinx.com/App/Default/Resources/Default.json#2`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA.json`
 - [ ] `ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0001.json`
@@ -489,6 +493,7 @@
 
 ### Directory and payload resource-key mismatches
 
+- [ ] `App -> Account — bank.dev.corporatelinx.com/App/Account/Components/Login.json`
 - [ ] `App -> Account — ccoder.co.uk/App/Account/Components/CultureFlags.json`
 - [ ] `App -> Account — ccoder.co.uk/App/Account/Components/UserProfile.json`
 - [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/Default.json#1`
@@ -548,6 +553,9 @@
 - [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr.json#3`
 - [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr.json#4`
 - [ ] `App -> Account — ccoder.co.uk/App/Account/Resources/fr.json#5`
+- [ ] `App -> Account — demo.dev.localhost/App/Account/Components/Login.json`
+- [ ] `App -> Account — demo.dev.localhost/App/Account/Resources/fr-FR.json#1`
+- [ ] `App -> Account — demo.dev.localhost/App/Account/Resources/fr-FR.json#2`
 - [ ] `App -> Account — localhost/App/Account/Components/CultureFlags.json`
 - [ ] `App -> Account — localhost/App/Account/Resources/Default.json#1`
 - [ ] `App -> Account — localhost/App/Account/Resources/Default.json#10`
@@ -606,6 +614,12 @@
 - [ ] `App -> Account — localhost/App/Account/Resources/fr.json#3`
 - [ ] `App -> Account — localhost/App/Account/Resources/fr.json#4`
 - [ ] `App -> Account — localhost/App/Account/Resources/fr.json#5`
+- [ ] `App -> Account — printemps.dev.corporatelinx.com/App/Account/Resources/fr-FR.json#1`
+- [ ] `App -> Account — printemps.dev.corporatelinx.com/App/Account/Resources/fr-FR.json#2`
+- [ ] `App -> Account — roquette.dev.corporatelinx.com/App/Account/Resources/fr-FR.json#1`
+- [ ] `App -> Account — roquette.dev.corporatelinx.com/App/Account/Resources/fr-FR.json#2`
+- [ ] `App -> Account — sodiaal.dev.corporatelinx.com/App/Account/Components/Login.json`
+- [ ] `App -> Account — sodiaal.dev.corporatelinx.com/App/Account/Resources/fr-FR.json`
 - [ ] `App -> addUserDropDown — ccoder.co.uk/App/addUserDropDown/Resources/Default.json`
 - [ ] `App -> addUserDropDown — localhost/App/addUserDropDown/Resources/Default.json`
 - [ ] `App -> AppSecurity — ccoder.co.uk/App/AppSecurity/Components/Login.json`
@@ -681,6 +695,11 @@
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#18`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#19`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#2`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#20`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#21`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#22`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#23`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#24`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#3`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#4`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#5`
@@ -689,7 +708,22 @@
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#8`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/Default.json#9`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#1`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#10`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#11`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#12`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#13`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#14`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#15`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#16`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#17`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#18`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#19`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#2`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#20`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#21`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#22`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#23`
+- [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#24`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#3`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#4`
 - [ ] `App -> AppSecurity — localhost/App/AppSecurity/Resources/fr-FR.json#5`
@@ -701,6 +735,9 @@
 - [ ] `App -> B2B Portal Admin — ccoder.co.uk/App/B2B Portal Admin/Resources/Default.json#2`
 - [ ] `App -> B2B Portal Admin — localhost/App/B2B Portal Admin/Resources/Default.json#1`
 - [ ] `App -> B2B Portal Admin — localhost/App/B2B Portal Admin/Resources/Default.json#2`
+- [ ] `App -> B2B — bank.dev.corporatelinx.com/App/B2B/Components/ActiveTransactions.json`
+- [ ] `App -> B2B — bank.dev.corporatelinx.com/App/B2B/Components/FinancialForecast.json`
+- [ ] `App -> B2B — bank.dev.corporatelinx.com/App/B2B/Components/FundingAnalysis.json`
 - [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#1`
 - [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#10`
 - [ ] `App -> B2B — ccoder.co.uk/App/B2B/Resources/Default.json#11`
@@ -1934,6 +1971,8 @@
 - [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#6`
 - [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#7`
 - [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#8`
+- [ ] `App -> Default — bank.dev.corporatelinx.com/App/Default/Resources/Default.json#1`
+- [ ] `App -> Default — bank.dev.corporatelinx.com/App/Default/Resources/Default.json#2`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA.json`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis_ODATA_ODATA0001.json`
@@ -2709,11 +2748,14 @@
 - [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/fr-FR.json#8`
 - [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/fr-FR.json#9`
 - [ ] `App -> DocumentManagement — localhost/App/DocumentManagement/Resources/fr.json`
+- [ ] `App -> ForgotPassword — bank.dev.corporatelinx.com/App/ForgotPassword/Templates/ForgotPassword.json`
 - [ ] `App -> ForgotPassword — ccoder.co.uk/App/ForgotPassword/Templates/ForgotPassword.json`
 - [ ] `App -> ForgotPassword — Default App/App/ForgotPassword/Templates/ForgotPassword.json`
+- [ ] `App -> ForgotPassword — demo.dev.localhost/App/ForgotPassword/Templates/ForgotPassword.json`
 - [ ] `App -> ForgotPassword — localhost/App/ForgotPassword/Templates/ForgotPassword.json`
 - [ ] `App -> Forms — ccoder.co.uk/App/Forms/Components/FormManagement.json`
 - [ ] `App -> Forms — localhost/App/Forms/Components/FormManagement.json`
+- [ ] `App -> Home — bank.dev.corporatelinx.com/App/Home/Components/NextCutoffDetails.json`
 - [ ] `App -> Key — ccoder.co.uk/App/Key/Resources/Culture.json`
 - [ ] `App -> Key — localhost/App/Key/Resources/Culture.json`
 - [ ] `App -> Logging — ccoder.co.uk/App/Logging/Components/FullLogStream.json`
@@ -2886,6 +2928,7 @@
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#7`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#8`
 - [ ] `App -> Workflow — Default App/App/Workflow/Resources/en-GB.json#9`
+- [ ] `App -> Workflow — demo.dev.localhost/App/Workflow/Pages/Admin_Workflows.json`
 - [ ] `App -> Workflow — localhost/App/Workflow/Components/ActivityEditor.json`
 - [ ] `App -> Workflow — localhost/App/Workflow/Components/ExpressionBuilder.json`
 - [ ] `App -> Workflow — localhost/App/Workflow/Components/FlowEditor.json`
@@ -3083,8 +3126,11 @@
 - [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/BucketedCompanyManagement.json`
 - [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/BucketedRoleManagement.json`
 - [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/CurrentRates.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/FinancialForecast.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/FundingAnalysis.json`
 - [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/FundingDetails.json`
 - [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/OfferFundingDetails.json`
+- [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/PageCurrencyControl.json`
 - [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Components/UserOnboardingAdmin.json`
 - [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Scripts/AcceptedOffersCreditsGrid.json`
 - [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Scripts/AcceptOffersGrid.json`
@@ -3101,6 +3147,9 @@
 - [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Scripts/UserOnboardingAdminGrid.json`
 - [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/B2B/Scripts/UserOnboardingGrid.json`
 - [ ] `Common Cache -> B2B — demo.dev.localhost/Common Cache/Home/Components/InvoicesByStateChart.json`
+- [ ] `Common Cache -> B2B — localhost/Common Cache/B2B/Components/FinancialForecast.json`
+- [ ] `Common Cache -> B2B — localhost/Common Cache/B2B/Components/FundingAnalysis.json`
+- [ ] `Common Cache -> B2B — localhost/Common Cache/B2B/Components/PageCurrencyControl.json`
 - [ ] `Common Cache -> ClientRelationshipManagement — Default App/Common Cache/ClientRelationshipManagement/Components/CRMAdmin.json`
 - [ ] `Common Cache -> ClientRelationshipManagement — Default App/Common Cache/ClientRelationshipManagement/Components/CRMDashboard.json`
 - [ ] `Common Cache -> CMS — demo.dev.localhost/Common Cache/CMS/Components/CMS.json`
@@ -3531,6 +3580,7 @@
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/CommonCacheResources.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/ComponentManagement.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/CoreManagement.json`
+- [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/CultureFlags.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/FormManagement.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/GridBuilder.json`
 - [ ] `Common Cache -> ContentManagement — demo.dev.localhost/Common Cache/ContentManagement/Components/LayoutManagement.json`
@@ -4203,6 +4253,8 @@
 - [ ] `Common Cache -> Funding — demo.dev.localhost/Common Cache/Funding/Scripts/ProposedOffersGrid.json`
 - [ ] `Common Cache -> Funding — demo.dev.localhost/Common Cache/Funding/Scripts/RejectOffersGrid.json`
 - [ ] `Common Cache -> Funding — demo.dev.localhost/Common Cache/Funding/Scripts/RelatedOffersGrid.json`
+- [ ] `Common Cache -> Home — demo.dev.localhost/Common Cache/Home/Components/NextCutoffDetails.json`
+- [ ] `Common Cache -> Home — localhost/Common Cache/Home/Components/NextCutoffDetails.json`
 - [ ] `Common Cache -> Import — demo.dev.localhost/Common Cache/B2B/Components/CompanyImportCSVLinesView.json`
 - [ ] `Common Cache -> Import — demo.dev.localhost/Common Cache/B2B/Components/TransactionImportCSVLinesView.json`
 - [ ] `Common Cache -> Mail — ccoder.co.uk/Common Cache/Mail/Components/MailManagement.json`
@@ -4355,6 +4407,8 @@
 - [ ] `Common Cache -> Workflow — Default App/Common Cache/Workflow/Resources/fr-FR.json#2`
 - [ ] `Common Cache -> Workflow — demo.dev.localhost/Common Cache/Workflow/Components/FlowInstanceManagement.json`
 - [ ] `Common Cache -> Workflow — demo.dev.localhost/Common Cache/Workflow/Components/Scheduling.json`
+- [ ] `Common Cache -> Workflow — demo.dev.localhost/Common Cache/Workflow/Components/WorkflowAdmin.json`
+- [ ] `Common Cache -> Workflow — demo.dev.localhost/Common Cache/Workflow/Components/WorkflowList.json`
 - [ ] `Common Cache -> Workflow — demo.dev.localhost/Common Cache/Workflow/Components/WorkflowScheduling.json`
 - [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/ActivityEditor.json`
 - [ ] `Common Cache -> Workflow — localhost/Common Cache/Workflow/Components/ExpressionBuilder.json`
@@ -4396,15 +4450,19 @@
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/ActiveCompanies.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/ActiveTransactions.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/B2BAdminFunderCompany.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/CompanyManagement.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/CreditCountByMonth.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/CreditValueByMonth.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/FinancialForecast.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/FundingAnalysis.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/FundingDetails.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/GlobalizationManagement.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/InvoiceCountByMonth.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/InvoiceValueByMonth.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/MonthlyBreakdownOfYearlyDiscounts.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/OutstandingBalanceByDueDate.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/PortalAdmin.json`
+- [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/SystemsManagement.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/TotalCostOfAcceptedOffers.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/TotalCountOfAcceptedOffers.json`
 - [ ] `localhost -> B2B — CLX Upgrade/localhost/App/B2B/Components/TotalCountOfDuePayments.json`
@@ -4477,7 +4535,7 @@
 
 ## Totals
 
-- Directories scanned: 5
+- Directories scanned: 9
 - Layouts: 0
 - Pages: 0
 - Reachable components: 0 / 0

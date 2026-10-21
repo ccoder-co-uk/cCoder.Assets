@@ -94,6 +94,37 @@ public sealed partial class StaticRenderAssetTests
         Assert.Empty(collection: staticAssets);
     }
 
+    [Fact]
+    public async Task DocumentManagementComponentsShouldUseStaticIconRoutes()
+    {
+        // Given
+        string dataDirectory = FindDataDirectory();
+
+        string[] componentPaths = Directory.GetFiles(
+                path: dataDirectory,
+                searchPattern: "*.json",
+                searchOption: SearchOption.AllDirectories)
+            .Where(predicate: path => path.Contains(
+                value: $"{Path.DirectorySeparatorChar}DocumentManagement{Path.DirectorySeparatorChar}Components{Path.DirectorySeparatorChar}",
+                comparisonType: StringComparison.OrdinalIgnoreCase))
+            .ToArray();
+
+        // When
+        string[] components = await Task.WhenAll(
+            tasks: componentPaths.Select(
+                selector: path => File.ReadAllTextAsync(path: path)));
+
+        // Then
+        Assert.NotEmpty(collection: components);
+
+        Assert.All(
+            collection: components,
+            action: component => Assert.DoesNotContain(
+                expectedSubstring: "/Api/DMS/Content/DMSIcons/",
+                actualString: component,
+                comparisonType: StringComparison.OrdinalIgnoreCase));
+    }
+
     private static bool IsBundledStaticAsset(string path)
     {
         string name = Path.GetFileNameWithoutExtension(path: path);

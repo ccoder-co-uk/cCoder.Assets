@@ -93,6 +93,62 @@ public sealed partial class PasswordResetContractTests
             comparisonType: StringComparison.Ordinal);
     }
 
+    [Fact]
+    public void ClxContract_ShouldUseIdempotentBindingAndPortalStyling()
+    {
+        // Given
+        string componentPath = Path.Combine(paths:
+        [
+            FindRepositoryRoot(),
+            "Data",
+            "localhost",
+            "Common Cache",
+            "Security",
+            "Components",
+            "PasswordReset.json"
+        ]);
+
+        // When
+        using JsonDocument component = JsonDocument.Parse(
+            json: File.ReadAllText(path: componentPath));
+        string script = component.RootElement.GetProperty("Script").GetString()!;
+        string content = component.RootElement.GetProperty("Content").GetString()!;
+
+        // Then
+        Assert.Contains("off(\"click.passwordReset\")", script, StringComparison.Ordinal);
+        Assert.Contains("on(\"click.passwordReset\"", script, StringComparison.Ordinal);
+        Assert.Contains("clx-password-reset", content, StringComparison.Ordinal);
+        Assert.DoesNotContain("ccoder-code-form", content, StringComparison.Ordinal);
+    }
+
+    [Theory]
+    [InlineData("localhost")]
+    [InlineData("demo.dev.localhost")]
+    public void ClxForgotPasswordTemplate_ShouldPreservePortalBranding(string dataSet)
+    {
+        // Given
+        string templatePath = Path.Combine(paths:
+        [
+            FindRepositoryRoot(),
+            "Data",
+            dataSet,
+            "App",
+            "ForgotPassword",
+            "Templates",
+            "ForgotPassword.json"
+        ]);
+
+        // When
+        using JsonDocument template = JsonDocument.Parse(
+            json: File.ReadAllText(path: templatePath));
+        string rawString = template.RootElement.GetProperty("RawString").GetString()!;
+
+        // Then
+        Assert.Contains("DMS/Content/CompanyLogo.png", rawString, StringComparison.Ordinal);
+        Assert.Contains("[app[name]]: Password Reset", rawString, StringComparison.Ordinal);
+        Assert.DoesNotContain(">cCoder</a>", rawString, StringComparison.Ordinal);
+    }
+
     private static string FindRepositoryRoot()
     {
         DirectoryInfo? directory = new(path: AppContext.BaseDirectory);
