@@ -106,6 +106,19 @@ public sealed partial class MetadataMenuTests
                                 + ".metadata-swagger-link")
                             .GetAttributeAsync(name: "href"));
 
+                    Assert.Equal(
+                        expected: ["Context Root", "OData", "Swagger"],
+                        actual: await card
+                            .Locator(selector: ".docs-nav-command-name")
+                            .AllTextContentsAsync());
+
+                    Assert.Contains(
+                        expectedSubstring: "gap-2",
+                        actualString: await card
+                            .Locator(selector: ".metadata-context-actions")
+                            .GetAttributeAsync(name: "class"),
+                        comparisonType: StringComparison.Ordinal);
+
                     Assert.True(
                         condition: metadataResponse.Ok,
                         userMessage: $"{metadataPath} returned "
