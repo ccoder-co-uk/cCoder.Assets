@@ -71,11 +71,23 @@ public sealed partial class MetadataMenuTests
                     string contextPath = $"/Api/{context.Url}";
                     string metadataPath = $"{contextPath}/$metadata";
 
+                    IAPIResponse contextResponse =
+                        await page.Context.APIRequest.GetAsync(
+                            url: new Uri(
+                                baseUri: new Uri(uriString: page.Url),
+                                relativeUri: contextPath).ToString());
+
                     IAPIResponse metadataResponse =
                         await page.Context.APIRequest.GetAsync(
                             url: new Uri(
                                 baseUri: new Uri(uriString: page.Url),
                                 relativeUri: metadataPath).ToString());
+
+                    IAPIResponse swaggerResponse =
+                        await page.Context.APIRequest.GetAsync(
+                            url: new Uri(
+                                baseUri: new Uri(uriString: page.Url),
+                                relativeUri: context.SwaggerDefinition).ToString());
 
                     Assert.Equal(
                         expected: 1,
@@ -109,15 +121,20 @@ public sealed partial class MetadataMenuTests
                     Assert.Equal(
                         expected: ["Context Root", "OData", "Swagger"],
                         actual: await card
-                            .Locator(selector: ".docs-nav-command-name")
+                            .Locator(".docs-nav-command-name")
                             .AllTextContentsAsync());
 
                     Assert.Contains(
                         expectedSubstring: "gap-2",
                         actualString: await card
-                            .Locator(selector: ".metadata-context-actions")
+                            .Locator(".metadata-context-actions")
                             .GetAttributeAsync(name: "class"),
                         comparisonType: StringComparison.Ordinal);
+
+                    Assert.True(
+                        condition: contextResponse.Ok,
+                        userMessage: $"{contextPath} returned "
+                            + contextResponse.Status);
 
                     Assert.True(
                         condition: metadataResponse.Ok,
@@ -128,6 +145,16 @@ public sealed partial class MetadataMenuTests
                         expectedSubstring: "Edmx",
                         actualString: await metadataResponse.TextAsync(),
                         comparisonType: StringComparison.Ordinal);
+
+                    Assert.True(
+                        condition: swaggerResponse.Ok,
+                        userMessage: $"{context.SwaggerDefinition} returned "
+                            + swaggerResponse.Status);
+
+                    Assert.Contains(
+                        expectedSubstring: "openapi",
+                        actualString: await swaggerResponse.TextAsync(),
+                        comparisonType: StringComparison.OrdinalIgnoreCase);
                 }
             });
 }
