@@ -35,7 +35,7 @@ public sealed partial class MetadataMenuTests
                 using JsonDocument serviceDocument = JsonDocument.Parse(
                     json: await serviceResponse.TextAsync());
 
-                string[] contexts = serviceDocument.RootElement
+                var contexts = serviceDocument.RootElement
                     .GetProperty(propertyName: "value")
                     .EnumerateArray()
                     .Where(
@@ -43,23 +43,33 @@ public sealed partial class MetadataMenuTests
                             .GetProperty(propertyName: "kind")
                             .GetString() == "Context")
                     .Select(
-                        selector: item => item
-                            .GetProperty(propertyName: "url")
-                            .GetString()!)
+                        selector: item => new
+                        {
+                            Name = item
+                                .GetProperty(propertyName: "name")
+                                .GetString()!,
+                            Url = item
+                                .GetProperty(propertyName: "url")
+                                .GetString()!,
+                            SwaggerDefinition = item
+                                .GetProperty(propertyName: "swaggerDef")
+                                .GetString()!,
+                        })
                     .OrderBy(
-                        keySelector: value => value,
+                        keySelector: value => value.Name,
                         comparer: StringComparer.Ordinal)
                     .ToArray();
 
                 Assert.NotEmpty(collection: contexts);
 
-                foreach (string context in contexts)
+                foreach (var context in contexts)
                 {
                     ILocator card = page.Locator(
                         selector: ".metadata-context-card"
-                            + $"[data-context='{context}']");
+                            + $"[data-context='{context.Name}']");
 
-                    string metadataPath = $"/Api/{context}/$metadata";
+                    string contextPath = $"/Api/{context.Url}";
+                    string metadataPath = $"{contextPath}/$metadata";
 
                     IAPIResponse metadataResponse =
                         await page.Context.APIRequest.GetAsync(
@@ -72,10 +82,10 @@ public sealed partial class MetadataMenuTests
                         actual: await card.CountAsync());
 
                     Assert.Equal(
-                        expected: $"/Api/{context}",
+                        expected: contextPath,
                         actual: await page.Locator(
                             selector: ".metadata-context-card"
-                                + $"[data-context='{context}'] "
+                                + $"[data-context='{context.Name}'] "
                                 + ".metadata-context-link")
                             .Last
                             .GetAttributeAsync(name: "href"));
@@ -84,8 +94,16 @@ public sealed partial class MetadataMenuTests
                         expected: metadataPath,
                         actual: await page.Locator(
                             selector: ".metadata-context-card"
-                                + $"[data-context='{context}'] "
+                                + $"[data-context='{context.Name}'] "
                                 + ".metadata-description-link")
+                            .GetAttributeAsync(name: "href"));
+
+                    Assert.Equal(
+                        expected: context.SwaggerDefinition,
+                        actual: await page.Locator(
+                            selector: ".metadata-context-card"
+                                + $"[data-context='{context.Name}'] "
+                                + ".metadata-swagger-link")
                             .GetAttributeAsync(name: "href"));
 
                     Assert.True(
