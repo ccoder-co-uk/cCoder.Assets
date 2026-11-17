@@ -88,7 +88,7 @@ public sealed partial class MetadataMenuTests
                     string contextPath = $"/Api/{context.Url}";
                     string metadataPath = $"{contextPath}/$metadata";
                     string swaggerUiPath = "/swagger/index.html"
-                        + $"?urls.primaryName={Uri.EscapeDataString(context.Name)}";
+                        + $"?urls.primaryName={Uri.EscapeDataString($"{context.Name} API")}";
 
                     IAPIResponse contextResponse =
                         await page.Context.APIRequest.GetAsync(
