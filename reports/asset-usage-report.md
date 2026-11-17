@@ -13,10 +13,11 @@
 | App | `App` | `B2B Portal Admin` | 4 | 0 |
 | App | `App` | `CMS` | 444 | 0 |
 | App | `App` | `Common` | 12 | 0 |
-| App | `App` | `ContentManagement` | 484 | 167 |
+| App | `App` | `ContentManagement` | 485 | 168 |
 | App | `App` | `Core` | 85 | 3 |
 | App | `App` | `CRM` | 156 | 0 |
-| App | `App` | `Default` | 1276 | 23 |
+| App | `App` | `Debug` | 6 | 0 |
+| App | `App` | `Default` | 1277 | 24 |
 | App | `App` | `DevTools` | 2 | 0 |
 | App | `App` | `DMS` | 104 | 0 |
 | App | `App` | `Documentation` | 2 | 0 |
@@ -41,7 +42,7 @@
 | App | `Common Cache` | `ClientRelationshipManagement` | 2 | 2 |
 | App | `Common Cache` | `CMS` | 1 | 1 |
 | App | `Common Cache` | `Common` | 61 | 28 |
-| App | `Common Cache` | `ContentManagement` | 556 | 92 |
+| App | `Common Cache` | `ContentManagement` | 557 | 93 |
 | App | `Common Cache` | `Core` | 68 | 14 |
 | App | `Common Cache` | `Default` | 18 | 0 |
 | App | `Common Cache` | `DocumentManagement` | 390 | 261 |
@@ -1361,6 +1362,7 @@
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheResources.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Components/CommonCacheScripts.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Pages/Admin_AppManagement.json`
+- [ ] `App -> ContentManagement — Default App/App/ContentManagement/Pages/Admin_Metadata.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Pages/Admin_PlatformAdmin_CommonCache.json`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#1`
 - [ ] `App -> ContentManagement — Default App/App/ContentManagement/Resources/Default.json#10`
@@ -1971,6 +1973,12 @@
 - [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#6`
 - [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#7`
 - [ ] `App -> CRM — localhost/App/CRM/Resources/fr-FR.json#8`
+- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/ApiTester.json`
+- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/DomainMetadata.json`
+- [ ] `App -> Debug — ccoder.co.uk/App/Debug/Components/Metadata.json`
+- [ ] `App -> Debug — localhost/App/Debug/Components/ApiTester.json`
+- [ ] `App -> Debug — localhost/App/Debug/Components/DomainMetadata.json`
+- [ ] `App -> Debug — localhost/App/Debug/Components/Metadata.json`
 - [ ] `App -> Default — bank.dev.corporatelinx.com/App/Default/Resources/Default.json#1`
 - [ ] `App -> Default — bank.dev.corporatelinx.com/App/Default/Resources/Default.json#2`
 - [ ] `App -> Default — ccoder.co.uk/App/Default/Pages/Documentation_CodeAnalysis.json`
@@ -3416,6 +3424,7 @@
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/LayoutManagement.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/LayoutMigration.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/Metadata.json`
+- [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/MetadataMenu.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/MyWorkspace.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/PageContextMenu.json`
 - [ ] `Common Cache -> ContentManagement — Default App/Common Cache/ContentManagement/Components/PageCreator.json`

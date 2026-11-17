@@ -1,0 +1,26 @@
+{
+  "Path": "Admin/Metadata",
+  "Name": "Metadata",
+  "ResourceKey": "ContentManagement",
+  "ShowOnMenus": true,
+  "Order": 90,
+  "LastUpdated": "2026-11-17T18:00:00Z",
+  "Layout": "Default",
+  "Contents": [
+    {
+      "CultureId": "",
+      "Name": "body",
+      "Html": "<header class=\"docs-page-header\"><h1>[page[title]]</h1><p>[page[description]]</p></header>[component[MetadataMenu]]"
+    }
+  ],
+  "PageInfo": [
+    {
+      "CultureId": "",
+      "Description": "Browse the API contexts available to this portal and open their service and metadata documents.",
+      "Keywords": "api, metadata, odata, administration",
+      "Title": "API Metadata"
+    }
+  ],
+  "PackageType": "ContentManagement/Page",
+  "IncludeInSubSequentImports": true
+}
