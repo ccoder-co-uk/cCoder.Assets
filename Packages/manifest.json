@@ -245,7 +245,7 @@
     },
     {
       "Path": "Common Cache/ContentManagement.json",
-      "Sha256": "36697ADC20A78986902411FE0BF301BF859FEBC8C538037A67BA21A68B7F066F",
+      "Sha256": "7F088CAD78FFD8DBB3E889253F686E725B73865EC564F2F34CC0D7987D735F8D",
       "FirstTimeSetup": false,
       "Source": "Common Cache",
       "Category": "ContentManagement",
@@ -325,7 +325,7 @@
     },
     {
       "Path": "First Time Setup/common-cache.json",
-      "Sha256": "30B457838E442181CDB22623C1A178F951A4AC7FEBDD346BAAF1BE85738D6955",
+      "Sha256": "D0F8EBC6CE6AE3AEEA8B3C96864BA1174D451D31B4BDCBF9A360EF0988F87163",
       "FirstTimeSetup": true,
       "Source": "Common Cache",
       "Category": "First Time Setup",
