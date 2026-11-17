@@ -125,6 +125,47 @@ public sealed partial class StaticRenderAssetTests
                 comparisonType: StringComparison.OrdinalIgnoreCase));
     }
 
+    [Fact]
+    public async Task FullLogStreamComponentsShouldUseLoggingHub()
+    {
+        // Given
+        string dataDirectory = FindDataDirectory();
+
+        string[] componentPaths = Directory.GetFiles(
+                path: dataDirectory,
+                searchPattern: "FullLogStream.json",
+                searchOption: SearchOption.AllDirectories)
+            .Where(predicate: path => path.Contains(
+                value: $"{Path.DirectorySeparatorChar}Components{Path.DirectorySeparatorChar}",
+                comparisonType: StringComparison.OrdinalIgnoreCase))
+            .ToArray();
+
+        // When
+        Assert.NotEmpty(collection: componentPaths);
+
+        // Then
+        foreach (string componentPath in componentPaths)
+        {
+            using JsonDocument component = JsonDocument.Parse(
+                json: await File.ReadAllTextAsync(path: componentPath));
+
+            string script = component.RootElement
+                .GetProperty(propertyName: "Script")
+                .GetString()
+                ?? string.Empty;
+
+            Assert.Contains(
+                expectedSubstring: "Hubs/Logs",
+                actualString: script,
+                comparisonType: StringComparison.Ordinal);
+
+            Assert.DoesNotContain(
+                expectedSubstring: "Hubs/Notification",
+                actualString: script,
+                comparisonType: StringComparison.Ordinal);
+        }
+    }
+
     private static bool IsBundledStaticAsset(string path)
     {
         string name = Path.GetFileNameWithoutExtension(path: path);
